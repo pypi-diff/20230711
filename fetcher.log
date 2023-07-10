@@ -789,3 +789,56 @@
 [2023-07-11 00:45:54] INFO root fetch - processPackages [boa-framework]: Remove: archive file [/home/abi/fetcher/tmp/boa-framework-0.8.6.tar.gz]
 [2023-07-11 00:45:54] INFO root fetch - main [MainThread]: End processing [boa-framework]: success
 [2023-07-11 00:45:54] INFO root fetch - main [MainThread]: Store serial: [18837196]
+[2023-07-11 00:50:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18837196]
+[2023-07-11 00:51:03] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-11 00:51:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: coiled
+[2023-07-11 00:51:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-kubernetes
+[2023-07-11 00:51:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: amazon-braket-sdk
+[2023-07-11 00:51:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyCapsid
+[2023-07-11 00:51:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: modzy-sdk
+[2023-07-11 00:51:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dataquality
+[2023-07-11 00:51:03] INFO root fetch - processPackages [modzy-sdk]: New version: [0.9.1] Old Version: [0.9.0.post0]
+[2023-07-11 00:51:03] INFO root fetch - processPackages [pyCapsid]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-07-11 00:51:03] INFO root fetch - processPackages [dataquality]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-07-11 00:51:03] INFO root fetch - processPackages [amazon-braket-sdk]: New version: [1.9.5.post0] Old Version: [1.9.5]
+[2023-07-11 00:51:03] INFO root fetch - processPackages [pulumi-kubernetes]: New version: [4.0.0rc1] Old Version: [3.9.0]
+[2023-07-11 00:51:03] INFO root fetch - processPackages [coiled]: New version: [0.8.6.dev13] Old Version: [0.8.6.dev12]
+[2023-07-11 00:51:03] INFO root fetch - processPackages [dataquality]: Downloading https://files.pythonhosted.org/packages/a4/28/6ea583c47598a2ee3badf525db1fe32545645fabccb550fa05ebb180b6a6/dataquality-0.9.4.tar.gz
+[2023-07-11 00:51:03] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/b1/75/ea984f16d08bdbe505248bf8e829609b71f43bd07d10e9b65535565f236a/coiled-0.8.6.dev12.tar.gz
+[2023-07-11 00:51:03] INFO root fetch - processPackages [amazon-braket-sdk]: Downloading https://files.pythonhosted.org/packages/85/cb/f563b80f4c903004b15e6be7245ef49cc3d1e16c8a667aab991f31853061/amazon-braket-sdk-1.9.5.tar.gz
+[2023-07-11 00:51:03] INFO root fetch - processPackages [pulumi-kubernetes]: Downloading https://files.pythonhosted.org/packages/0f/a9/6759fd282fa569f4592dc30878e4ced26d260895c12602ac69c7737fe07f/pulumi_kubernetes-3.9.0.tar.gz
+[2023-07-11 00:51:03] INFO root fetch - processPackages [pyCapsid]: Downloading https://files.pythonhosted.org/packages/80/43/ce357197a203097a13429e8c32e4c39d98d60db01433dbcc5bccea655bec/pyCapsid-0.4.2.tar.gz
+[2023-07-11 00:51:03] INFO root fetch - processPackages [modzy-sdk]: Downloading https://files.pythonhosted.org/packages/de/a8/2235149e9013096f9653f60f160f9b1322c9f17b489bc7e92a3fe9e5398c/modzy_sdk-0.9.0.post0-py2.py3-none-any.whl
+[2023-07-11 00:51:03] INFO root fetch - processPackages [dataquality]: Downloading https://files.pythonhosted.org/packages/64/7e/f24ba56888a87f8dfb0012305650ef0f2e8fce6f2c9e8fadd6710b66eb2a/dataquality-0.9.5.tar.gz
+[2023-07-11 00:51:03] WARNING root fetch - processPackages [pyCapsid]: Skipping package: exceeds size limit 59091634>=10485760
+[2023-07-11 00:51:03] INFO root fetch - main [MainThread]: End processing [pyCapsid] error
+[2023-07-11 00:51:03] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/07/eb/0e22156ff861209f0c12337166e5f2993bc4de2e9f0739f3153597c200a9/coiled-0.8.6.dev13.tar.gz
+[2023-07-11 00:51:04] INFO root fetch - processPackages [dataquality]: executing diffoscope
+[2023-07-11 00:51:04] INFO root fetch - processPackages [dataquality]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataquality-0.9.4.tar.gz tmp/dataquality-0.9.5.tar.gz --markdown 20230711/d/dataquality/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-07-11 00:51:04] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-07-11 00:51:04] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.8.6.dev12.tar.gz tmp/coiled-0.8.6.dev13.tar.gz --markdown 20230711/c/coiled/0.8.6.dev12-0.8.6.dev13/diff.md --exclude *.pyd
+[2023-07-11 00:51:04] INFO root fetch - processPackages [pulumi-kubernetes]: Downloading https://files.pythonhosted.org/packages/53/7f/ee88b969dd6c46cb09ea7f0abd1c0511f0ed676e7ac3779e4c4b626730a9/pulumi_kubernetes-4.0.0rc1.tar.gz
+[2023-07-11 00:51:04] INFO root fetch - processPackages [amazon-braket-sdk]: Downloading https://files.pythonhosted.org/packages/9e/84/c7a37a19be25e1021345ade602f9852e48f219edaa855aa624e9d54e0d70/amazon-braket-sdk-1.9.5.post0.tar.gz
+[2023-07-11 00:51:04] INFO root fetch - processPackages [modzy-sdk]: Downloading https://files.pythonhosted.org/packages/ff/57/3c4b4d2f298f2017aaf27b44f23942a331de38e01e3ed90c2e11044b2218/modzy_sdk-0.9.1-py2.py3-none-any.whl
+[2023-07-11 00:51:04] INFO root fetch - processPackages [amazon-braket-sdk]: executing diffoscope
+[2023-07-11 00:51:04] INFO root fetch - processPackages [amazon-braket-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amazon-braket-sdk-1.9.5.tar.gz tmp/amazon-braket-sdk-1.9.5.post0.tar.gz --markdown 20230711/a/amazon-braket-sdk/1.9.5-1.9.5.post0/diff.md --exclude *.pyd
+[2023-07-11 00:51:04] INFO root fetch - processPackages [pulumi-kubernetes]: executing diffoscope
+[2023-07-11 00:51:04] INFO root fetch - processPackages [pulumi-kubernetes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kubernetes-3.9.0.tar.gz tmp/pulumi_kubernetes-4.0.0rc1.tar.gz --markdown 20230711/p/pulumi-kubernetes/3.9.0-4.0.0rc1/diff.md --exclude *.pyd
+[2023-07-11 00:51:04] INFO root fetch - processPackages [modzy-sdk]: executing diffoscope
+[2023-07-11 00:51:04] INFO root fetch - processPackages [modzy-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modzy_sdk-0.9.0.post0-py2.py3-none-any.whl.zip tmp/modzy_sdk-0.9.1-py2.py3-none-any.whl.zip --markdown 20230711/m/modzy-sdk/0.9.0.post0-0.9.1/diff.md --exclude *.pyd
+[2023-07-11 00:51:05] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.8.6.dev12.tar.gz]
+[2023-07-11 00:51:05] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.8.6.dev13.tar.gz]
+[2023-07-11 00:51:05] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-07-11 00:51:05] INFO root fetch - processPackages [amazon-braket-sdk]: Remove: archive file [/home/abi/fetcher/tmp/amazon-braket-sdk-1.9.5.tar.gz]
+[2023-07-11 00:51:05] INFO root fetch - processPackages [amazon-braket-sdk]: Remove: archive file [/home/abi/fetcher/tmp/amazon-braket-sdk-1.9.5.post0.tar.gz]
+[2023-07-11 00:51:05] INFO root fetch - main [MainThread]: End processing [amazon-braket-sdk]: success
+[2023-07-11 00:51:05] INFO root fetch - processPackages [dataquality]: Remove: archive file [/home/abi/fetcher/tmp/dataquality-0.9.4.tar.gz]
+[2023-07-11 00:51:05] INFO root fetch - processPackages [dataquality]: Remove: archive file [/home/abi/fetcher/tmp/dataquality-0.9.5.tar.gz]
+[2023-07-11 00:51:05] INFO root fetch - main [MainThread]: End processing [dataquality]: success
+[2023-07-11 00:51:05] INFO root fetch - processPackages [modzy-sdk]: Remove: archive file [/home/abi/fetcher/tmp/modzy_sdk-0.9.0.post0-py2.py3-none-any.whl.zip]
+[2023-07-11 00:51:05] INFO root fetch - processPackages [modzy-sdk]: Remove: archive file [/home/abi/fetcher/tmp/modzy_sdk-0.9.1-py2.py3-none-any.whl.zip]
+[2023-07-11 00:51:05] INFO root fetch - main [MainThread]: End processing [modzy-sdk]: success
+[2023-07-11 00:51:10] INFO root fetch - processPackages [pulumi-kubernetes]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes-3.9.0.tar.gz]
+[2023-07-11 00:51:10] INFO root fetch - processPackages [pulumi-kubernetes]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes-4.0.0rc1.tar.gz]
+[2023-07-11 00:51:10] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes]: success
+[2023-07-11 00:51:10] INFO root fetch - main [MainThread]: Store serial: [18837213]
