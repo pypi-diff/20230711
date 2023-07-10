@@ -929,3 +929,87 @@
 [2023-07-11 00:56:24] INFO root fetch - processPackages [tonic]: Remove: archive file [/home/abi/fetcher/tmp/tonic-1.3.3.dev3.tar.gz]
 [2023-07-11 00:56:24] INFO root fetch - main [MainThread]: End processing [tonic]: success
 [2023-07-11 00:56:24] INFO root fetch - main [MainThread]: Store serial: [18837245]
+[2023-07-11 01:01:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18837245]
+[2023-07-11 01:01:32] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-11 01:01:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PyGeopack
+[2023-07-11 01:01:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: x11-automation
+[2023-07-11 01:01:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: unibox
+[2023-07-11 01:01:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: typetype
+[2023-07-11 01:01:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: problem-bank-scripts
+[2023-07-11 01:01:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: py-feat
+[2023-07-11 01:01:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: synapseml
+[2023-07-11 01:01:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: calcbench-api-client
+[2023-07-11 01:01:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: trycortex-py
+[2023-07-11 01:01:33] INFO root fetch - processPackages [x11-automation]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-07-11 01:01:33] INFO root fetch - processPackages [typetype]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-07-11 01:01:33] INFO root fetch - processPackages [unibox]: New version: [0.1.3.2] Old Version: [0.1.3]
+[2023-07-11 01:01:33] INFO root fetch - processPackages [py-feat]: New version: [0.6.0] Old Version: [0.5.1]
+[2023-07-11 01:01:33] INFO root fetch - processPackages [synapseml]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-07-11 01:01:33] INFO root fetch - processPackages [PyGeopack]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-07-11 01:01:33] INFO root fetch - processPackages [problem-bank-scripts]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-07-11 01:01:33] INFO root fetch - processPackages [calcbench-api-client]: New version: [9.0.0] Old Version: [8.2.0]
+[2023-07-11 01:01:33] INFO root fetch - processPackages [unibox]: Downloading https://files.pythonhosted.org/packages/e7/d0/94a5df6e9579fa21f762a55212af94e5024be869bbf6159f508e09acfabc/unibox-0.1.3.tar.gz
+[2023-07-11 01:01:33] INFO root fetch - processPackages [trycortex-py]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-11 01:01:33] INFO root fetch - processPackages [x11-automation]: Downloading https://files.pythonhosted.org/packages/19/af/bd5cda6942bcbecd519922f0686905a741b0c45eeb9dafcfc8d71a292d19/x11-automation-0.3.3.tar.gz
+[2023-07-11 01:01:33] INFO root fetch - processPackages [PyGeopack]: Downloading https://files.pythonhosted.org/packages/ff/dd/1793ee9117b0ebef9acf050f78d167024a6943128a0b2dc563cdc7b4dd1a/PyGeopack-1.2.1.tar.gz
+[2023-07-11 01:01:33] INFO root fetch - processPackages [problem-bank-scripts]: Downloading https://files.pythonhosted.org/packages/d6/34/8c3fd54c3a6b8b7cad03c63a253df6620cad6ec02914c1d7add1217720b8/problem_bank_scripts-0.7.0.tar.gz
+[2023-07-11 01:01:33] INFO root fetch - processPackages [typetype]: Downloading https://files.pythonhosted.org/packages/bd/f8/ca3658d080e028773c1a57d1a273772fce699b078a64ecb15c2899e05bae/typetype-1.0.5.tar.gz
+[2023-07-11 01:01:33] INFO root fetch - processPackages [py-feat]: Downloading https://files.pythonhosted.org/packages/19/ea/75213b60f9ad8003598c8156b48f4aa011fff6a3745dad8fa48071504d21/py-feat-0.5.1.tar.gz
+[2023-07-11 01:01:33] INFO root fetch - processPackages [synapseml]: Downloading https://files.pythonhosted.org/packages/22/b6/d6f41f44f00543893dd468707ae7a9cac217edcf7521af8cb7a795659931/synapseml-0.9.4-py2.py3-none-any.whl
+[2023-07-11 01:01:33] INFO root fetch - processPackages [trycortex-py]: Downloading https://files.pythonhosted.org/packages/35/6e/f28d93a2dbbababe7dcb9ea5e4ef127ef91cbefb76332cc8545a29abc42a/trycortex-py-1.0.0.tar.gz
+[2023-07-11 01:01:33] INFO root fetch - processPackages [calcbench-api-client]: Downloading https://files.pythonhosted.org/packages/f1/e1/89c49d306d923be2549c0071651188aa7c7f0e2ebdbbeaf3e050288d8371/calcbench_api_client-8.2.0.tar.gz
+[2023-07-11 01:01:33] INFO root fetch - processPackages [unibox]: Downloading https://files.pythonhosted.org/packages/d7/37/4a0b2ab9f2747fd13819452cc1965fcb98ee557ee5e1462bf89742c5d522/unibox-0.1.3.2.tar.gz
+[2023-07-11 01:01:33] INFO root fetch - processPackages [x11-automation]: Downloading https://files.pythonhosted.org/packages/d7/04/3f1eeab14f1407ce8007f4ef3331e10daa0a2be6c4d525a077d7aa24fd70/x11-automation-0.3.4.tar.gz
+[2023-07-11 01:01:33] INFO root fetch - processPackages [problem-bank-scripts]: Downloading https://files.pythonhosted.org/packages/c1/44/bdab2641c418f30cb6d425ff7a66f024402a14b3ea2384ada2ffae828e10/problem_bank_scripts-0.7.1.tar.gz
+[2023-07-11 01:01:33] INFO root fetch - processPackages [PyGeopack]: Downloading https://files.pythonhosted.org/packages/35/da/0fa9865c94c9e9f96294bd62cf401fb2a6255eb4b27d256d262f01da7f2c/PyGeopack-1.2.2.tar.gz
+[2023-07-11 01:01:33] INFO root fetch - processPackages [unibox]: executing diffoscope
+[2023-07-11 01:01:33] INFO root fetch - processPackages [unibox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unibox-0.1.3.tar.gz tmp/unibox-0.1.3.2.tar.gz --markdown 20230711/u/unibox/0.1.3-0.1.3.2/diff.md --exclude *.pyd
+[2023-07-11 01:01:33] INFO root fetch - processPackages [typetype]: Downloading https://files.pythonhosted.org/packages/19/97/e4644f39e6c01a128f4aab90b6be7a6551ee1656650869487cdd2e57d79a/typetype-1.0.6.tar.gz
+[2023-07-11 01:01:33] INFO root fetch - processPackages [x11-automation]: executing diffoscope
+[2023-07-11 01:01:33] INFO root fetch - processPackages [x11-automation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/x11-automation-0.3.3.tar.gz tmp/x11-automation-0.3.4.tar.gz --markdown 20230711/x/x11-automation/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-07-11 01:01:33] INFO root fetch - processPackages [synapseml]: Downloading https://files.pythonhosted.org/packages/8c/89/c2d5b41909133c34a132016124f2104f81c369de5164428f1979c0554ecb/synapseml-0.9.5-py2.py3-none-any.whl
+[2023-07-11 01:01:34] INFO root fetch - processPackages [problem-bank-scripts]: executing diffoscope
+[2023-07-11 01:01:34] INFO root fetch - processPackages [problem-bank-scripts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/problem_bank_scripts-0.7.0.tar.gz tmp/problem_bank_scripts-0.7.1.tar.gz --markdown 20230711/p/problem-bank-scripts/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-07-11 01:01:34] INFO root fetch - processPackages [trycortex-py]: Downloading https://files.pythonhosted.org/packages/ef/20/f7d3a815d494fe97231c43cd980f7ac1d77cbe1371bb5a795fe60e1755b0/trycortex-py-1.0.1.tar.gz
+[2023-07-11 01:01:34] INFO root fetch - processPackages [PyGeopack]: executing diffoscope
+[2023-07-11 01:01:34] INFO root fetch - processPackages [PyGeopack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyGeopack-1.2.1.tar.gz tmp/PyGeopack-1.2.2.tar.gz --markdown 20230711/P/PyGeopack/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-07-11 01:01:34] INFO root fetch - processPackages [calcbench-api-client]: Downloading https://files.pythonhosted.org/packages/5d/f9/466efe0506892c3738542d5c0bf9a3176cba78d5991a90b232729923b610/calcbench_api_client-9.0.0.tar.gz
+[2023-07-11 01:01:34] INFO root fetch - processPackages [synapseml]: executing diffoscope
+[2023-07-11 01:01:34] INFO root fetch - processPackages [synapseml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synapseml-0.9.4-py2.py3-none-any.whl.zip tmp/synapseml-0.9.5-py2.py3-none-any.whl.zip --markdown 20230711/s/synapseml/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-07-11 01:01:34] INFO root fetch - processPackages [trycortex-py]: executing diffoscope
+[2023-07-11 01:01:34] INFO root fetch - processPackages [trycortex-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trycortex-py-1.0.0.tar.gz tmp/trycortex-py-1.0.1.tar.gz --markdown 20230711/t/trycortex-py/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-11 01:01:34] INFO root fetch - processPackages [typetype]: executing diffoscope
+[2023-07-11 01:01:34] INFO root fetch - processPackages [typetype]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typetype-1.0.5.tar.gz tmp/typetype-1.0.6.tar.gz --markdown 20230711/t/typetype/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-07-11 01:01:34] INFO root fetch - processPackages [calcbench-api-client]: executing diffoscope
+[2023-07-11 01:01:34] INFO root fetch - processPackages [calcbench-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/calcbench_api_client-8.2.0.tar.gz tmp/calcbench_api_client-9.0.0.tar.gz --markdown 20230711/c/calcbench-api-client/8.2.0-9.0.0/diff.md --exclude *.pyd
+[2023-07-11 01:01:34] INFO root fetch - processPackages [py-feat]: Downloading https://files.pythonhosted.org/packages/c5/19/994a056e43d77b2403f35f5cfcb6ab227202081dd076065e09ab7f71b04e/py-feat-0.6.0.tar.gz
+[2023-07-11 01:01:35] INFO root fetch - processPackages [unibox]: Remove: archive file [/home/abi/fetcher/tmp/unibox-0.1.3.tar.gz]
+[2023-07-11 01:01:35] INFO root fetch - processPackages [unibox]: Remove: archive file [/home/abi/fetcher/tmp/unibox-0.1.3.2.tar.gz]
+[2023-07-11 01:01:35] INFO root fetch - main [MainThread]: End processing [unibox]: success
+[2023-07-11 01:01:35] INFO root fetch - processPackages [x11-automation]: Remove: archive file [/home/abi/fetcher/tmp/x11-automation-0.3.3.tar.gz]
+[2023-07-11 01:01:35] INFO root fetch - processPackages [x11-automation]: Remove: archive file [/home/abi/fetcher/tmp/x11-automation-0.3.4.tar.gz]
+[2023-07-11 01:01:35] INFO root fetch - main [MainThread]: End processing [x11-automation]: success
+[2023-07-11 01:01:35] INFO root fetch - processPackages [problem-bank-scripts]: Remove: archive file [/home/abi/fetcher/tmp/problem_bank_scripts-0.7.0.tar.gz]
+[2023-07-11 01:01:35] INFO root fetch - processPackages [problem-bank-scripts]: Remove: archive file [/home/abi/fetcher/tmp/problem_bank_scripts-0.7.1.tar.gz]
+[2023-07-11 01:01:35] INFO root fetch - main [MainThread]: End processing [problem-bank-scripts]: success
+[2023-07-11 01:01:35] INFO root fetch - processPackages [trycortex-py]: Remove: archive file [/home/abi/fetcher/tmp/trycortex-py-1.0.0.tar.gz]
+[2023-07-11 01:01:35] INFO root fetch - processPackages [trycortex-py]: Remove: archive file [/home/abi/fetcher/tmp/trycortex-py-1.0.1.tar.gz]
+[2023-07-11 01:01:35] INFO root fetch - main [MainThread]: End processing [trycortex-py]: success
+[2023-07-11 01:01:35] INFO root fetch - processPackages [typetype]: Remove: archive file [/home/abi/fetcher/tmp/typetype-1.0.5.tar.gz]
+[2023-07-11 01:01:35] INFO root fetch - processPackages [typetype]: Remove: archive file [/home/abi/fetcher/tmp/typetype-1.0.6.tar.gz]
+[2023-07-11 01:01:35] INFO root fetch - main [MainThread]: End processing [typetype]: success
+[2023-07-11 01:01:36] INFO root fetch - processPackages [py-feat]: executing diffoscope
+[2023-07-11 01:01:36] INFO root fetch - processPackages [py-feat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-feat-0.5.1.tar.gz tmp/py-feat-0.6.0.tar.gz --markdown 20230711/p/py-feat/0.5.1-0.6.0/diff.md --exclude *.pyd
+[2023-07-11 01:01:36] INFO root fetch - processPackages [PyGeopack]: Remove: archive file [/home/abi/fetcher/tmp/PyGeopack-1.2.1.tar.gz]
+[2023-07-11 01:01:36] INFO root fetch - processPackages [PyGeopack]: Remove: archive file [/home/abi/fetcher/tmp/PyGeopack-1.2.2.tar.gz]
+[2023-07-11 01:01:36] INFO root fetch - main [MainThread]: End processing [PyGeopack]: success
+[2023-07-11 01:01:36] INFO root fetch - processPackages [calcbench-api-client]: Remove: archive file [/home/abi/fetcher/tmp/calcbench_api_client-8.2.0.tar.gz]
+[2023-07-11 01:01:36] INFO root fetch - processPackages [calcbench-api-client]: Remove: archive file [/home/abi/fetcher/tmp/calcbench_api_client-9.0.0.tar.gz]
+[2023-07-11 01:01:36] INFO root fetch - main [MainThread]: End processing [calcbench-api-client]: success
+[2023-07-11 01:01:37] INFO root fetch - processPackages [synapseml]: Remove: archive file [/home/abi/fetcher/tmp/synapseml-0.9.4-py2.py3-none-any.whl.zip]
+[2023-07-11 01:01:37] INFO root fetch - processPackages [synapseml]: Remove: archive file [/home/abi/fetcher/tmp/synapseml-0.9.5-py2.py3-none-any.whl.zip]
+[2023-07-11 01:01:37] INFO root fetch - main [MainThread]: End processing [synapseml]: success
+[2023-07-11 01:01:37] INFO root fetch - processPackages [py-feat]: Remove: archive file [/home/abi/fetcher/tmp/py-feat-0.5.1.tar.gz]
+[2023-07-11 01:01:37] INFO root fetch - processPackages [py-feat]: Remove: archive file [/home/abi/fetcher/tmp/py-feat-0.6.0.tar.gz]
+[2023-07-11 01:01:37] INFO root fetch - main [MainThread]: End processing [py-feat]: success
+[2023-07-11 01:01:37] INFO root fetch - main [MainThread]: Store serial: [18837271]
