@@ -1221,3 +1221,54 @@
 [2023-07-11 01:17:17] INFO root fetch - processPackages [quantconnect-stubs]: Remove: archive file [/home/abi/fetcher/tmp/quantconnect-stubs-9998.tar.gz]
 [2023-07-11 01:17:17] INFO root fetch - main [MainThread]: End processing [quantconnect-stubs]: success
 [2023-07-11 01:17:17] INFO root fetch - main [MainThread]: Store serial: [18837355]
+[2023-07-11 01:22:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18837355]
+[2023-07-11 01:22:26] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-11 01:22:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: retaped-tui
+[2023-07-11 01:22:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: geemap
+[2023-07-11 01:22:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: task2b
+[2023-07-11 01:22:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: genno
+[2023-07-11 01:22:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gauss-lm-mle
+[2023-07-11 01:22:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wxflow
+[2023-07-11 01:22:26] INFO root fetch - processPackages [task2b]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-11 01:22:26] INFO root fetch - processPackages [retaped-tui]: New version: [1.0rc9] Old Version: [1.0rc8]
+[2023-07-11 01:22:26] INFO root fetch - processPackages [genno]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-07-11 01:22:26] INFO root fetch - processPackages [gauss-lm-mle]: New version: [0.1.1b0] Old Version: [0.1.1]
+[2023-07-11 01:22:26] INFO root fetch - processPackages [geemap]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-07-11 01:22:26] INFO root fetch - processPackages [task2b]: Downloading https://files.pythonhosted.org/packages/82/1b/13c47134ffa958a0a9317c0e6f191d71b07b9ce7f95cc3d519eab194e635/task2b-1.0.8.tar.gz
+[2023-07-11 01:22:26] INFO root fetch - processPackages [gauss-lm-mle]: Downloading https://files.pythonhosted.org/packages/49/b2/28409322588321829ff550a3d4f1dfb6284cab454e6b933381770194b233/gauss_lm_mle-0.1.1-cp310-cp310-macosx_11_0_arm64.whl
+[2023-07-11 01:22:26] WARNING root fetch - processPackages [wxflow]: Skipping, unable to determine old version
+[2023-07-11 01:22:26] INFO root fetch - main [MainThread]: End processing [wxflow] error
+[2023-07-11 01:22:26] INFO root fetch - processPackages [retaped-tui]: Downloading https://files.pythonhosted.org/packages/82/e2/f6d18eddfd8f531d956ff71d1c7a9d7396f32e8f956f0c6511568af1dacc/retaped_tui-1.0rc8.tar.gz
+[2023-07-11 01:22:26] INFO root fetch - processPackages [genno]: Downloading https://files.pythonhosted.org/packages/4e/1a/f24898465582d455bbee2e601887ed1057f7a0f458ca58074decb350ec13/genno-1.9.1.tar.gz
+[2023-07-11 01:22:26] INFO root fetch - processPackages [geemap]: Downloading https://files.pythonhosted.org/packages/21/6e/5898075af0a4f152ce0b4ef0db8767cefbddd5b8df12dd72816394caa45d/geemap-0.9.4.tar.gz
+[2023-07-11 01:22:26] INFO root fetch - processPackages [task2b]: Downloading https://files.pythonhosted.org/packages/bf/0d/933953174b4f7ddad864b80ca995cc96b21b197f2a1ebc2f21dfed2553f1/task2b-1.0.9.tar.gz
+[2023-07-11 01:22:27] INFO root fetch - processPackages [gauss-lm-mle]: Downloading https://files.pythonhosted.org/packages/86/ff/c9bfba0b41363385767cc925ee0b0c5816995d6a46f127dba0ecc3b510e5/gauss-lm-mle-0.1.1b0.tar.gz
+[2023-07-11 01:22:27] INFO root fetch - processPackages [task2b]: executing diffoscope
+[2023-07-11 01:22:27] INFO root fetch - processPackages [task2b]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/task2b-1.0.8.tar.gz tmp/task2b-1.0.9.tar.gz --markdown 20230711/t/task2b/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-11 01:22:27] INFO root fetch - processPackages [gauss-lm-mle]: executing diffoscope
+[2023-07-11 01:22:27] INFO root fetch - processPackages [gauss-lm-mle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gauss_lm_mle-0.1.1-cp310-cp310-macosx_11_0_arm64.whl.zip tmp/gauss-lm-mle-0.1.1b0.tar.gz --markdown 20230711/g/gauss-lm-mle/0.1.1-0.1.1b0/diff.md --exclude *.pyd
+[2023-07-11 01:22:27] INFO root fetch - processPackages [retaped-tui]: Downloading https://files.pythonhosted.org/packages/db/6a/3d5d89ab187a0ff3311f4010835b516d6ab3354f6e569dfa3e54687088e4/retaped_tui-1.0rc9.tar.gz
+[2023-07-11 01:22:27] INFO root fetch - processPackages [genno]: Downloading https://files.pythonhosted.org/packages/d4/a4/a3955017f52b438a5c292c9eef737823159bfcd0918949735f142c332146/genno-1.9.2.tar.gz
+[2023-07-11 01:22:27] INFO root fetch - processPackages [geemap]: Downloading https://files.pythonhosted.org/packages/f3/0f/46be1c7fd40f4c083db73c113c1fe2026351af6892514fbe4303a371b938/geemap-0.9.5.tar.gz
+[2023-07-11 01:22:27] INFO root fetch - processPackages [retaped-tui]: executing diffoscope
+[2023-07-11 01:22:27] INFO root fetch - processPackages [retaped-tui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/retaped_tui-1.0rc8.tar.gz tmp/retaped_tui-1.0rc9.tar.gz --markdown 20230711/r/retaped-tui/1.0rc8-1.0rc9/diff.md --exclude *.pyd
+[2023-07-11 01:22:27] INFO root fetch - processPackages [genno]: executing diffoscope
+[2023-07-11 01:22:27] INFO root fetch - processPackages [genno]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genno-1.9.1.tar.gz tmp/genno-1.9.2.tar.gz --markdown 20230711/g/genno/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-07-11 01:22:27] INFO root fetch - processPackages [task2b]: Remove: archive file [/home/abi/fetcher/tmp/task2b-1.0.8.tar.gz]
+[2023-07-11 01:22:27] INFO root fetch - processPackages [task2b]: Remove: archive file [/home/abi/fetcher/tmp/task2b-1.0.9.tar.gz]
+[2023-07-11 01:22:27] INFO root fetch - main [MainThread]: End processing [task2b]: success
+[2023-07-11 01:22:28] INFO root fetch - processPackages [gauss-lm-mle]: Remove: archive file [/home/abi/fetcher/tmp/gauss_lm_mle-0.1.1-cp310-cp310-macosx_11_0_arm64.whl.zip]
+[2023-07-11 01:22:28] INFO root fetch - processPackages [gauss-lm-mle]: Remove: archive file [/home/abi/fetcher/tmp/gauss-lm-mle-0.1.1b0.tar.gz]
+[2023-07-11 01:22:28] INFO root fetch - main [MainThread]: End processing [gauss-lm-mle]: success
+[2023-07-11 01:22:28] INFO root fetch - processPackages [geemap]: executing diffoscope
+[2023-07-11 01:22:28] INFO root fetch - processPackages [geemap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geemap-0.9.4.tar.gz tmp/geemap-0.9.5.tar.gz --markdown 20230711/g/geemap/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-07-11 01:22:28] INFO root fetch - processPackages [retaped-tui]: Remove: archive file [/home/abi/fetcher/tmp/retaped_tui-1.0rc8.tar.gz]
+[2023-07-11 01:22:28] INFO root fetch - processPackages [retaped-tui]: Remove: archive file [/home/abi/fetcher/tmp/retaped_tui-1.0rc9.tar.gz]
+[2023-07-11 01:22:28] INFO root fetch - main [MainThread]: End processing [retaped-tui]: success
+[2023-07-11 01:22:28] INFO root fetch - processPackages [genno]: Remove: archive file [/home/abi/fetcher/tmp/genno-1.9.1.tar.gz]
+[2023-07-11 01:22:28] INFO root fetch - processPackages [genno]: Remove: archive file [/home/abi/fetcher/tmp/genno-1.9.2.tar.gz]
+[2023-07-11 01:22:28] INFO root fetch - main [MainThread]: End processing [genno]: success
+[2023-07-11 01:22:29] INFO root fetch - processPackages [geemap]: Remove: archive file [/home/abi/fetcher/tmp/geemap-0.9.4.tar.gz]
+[2023-07-11 01:22:29] INFO root fetch - processPackages [geemap]: Remove: archive file [/home/abi/fetcher/tmp/geemap-0.9.5.tar.gz]
+[2023-07-11 01:22:29] INFO root fetch - main [MainThread]: End processing [geemap]: success
+[2023-07-11 01:22:29] INFO root fetch - main [MainThread]: Store serial: [18837377]
