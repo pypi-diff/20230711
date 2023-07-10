@@ -1013,3 +1013,122 @@
 [2023-07-11 01:01:37] INFO root fetch - processPackages [py-feat]: Remove: archive file [/home/abi/fetcher/tmp/py-feat-0.6.0.tar.gz]
 [2023-07-11 01:01:37] INFO root fetch - main [MainThread]: End processing [py-feat]: success
 [2023-07-11 01:01:37] INFO root fetch - main [MainThread]: Store serial: [18837271]
+[2023-07-11 01:06:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18837271]
+[2023-07-11 01:06:46] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-11 01:06:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: trycortex-py
+[2023-07-11 01:06:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tmnt-cu101
+[2023-07-11 01:06:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flwr-nightly
+[2023-07-11 01:06:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: singer-sdk
+[2023-07-11 01:06:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tmnt
+[2023-07-11 01:06:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: task2b
+[2023-07-11 01:06:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: equiformer-pytorch
+[2023-07-11 01:06:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: unibox
+[2023-07-11 01:06:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pandasai
+[2023-07-11 01:06:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: llmreflect
+[2023-07-11 01:06:47] INFO root fetch - processPackages [pandasai]: New version: [0.6.8] Old Version: [0.6.7]
+[2023-07-11 01:06:47] INFO root fetch - processPackages [task2b]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-11 01:06:47] INFO root fetch - processPackages [singer-sdk]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-11 01:06:47] INFO root fetch - processPackages [trycortex-py]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-11 01:06:47] INFO root fetch - processPackages [equiformer-pytorch]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-07-11 01:06:47] INFO root fetch - processPackages [llmreflect]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-11 01:06:47] INFO root fetch - processPackages [unibox]: New version: [0.1.3.3] Old Version: [0.1.3.2]
+[2023-07-11 01:06:47] INFO root fetch - processPackages [tmnt-cu101]: New version: [0.7.0b20230710] Old Version: [0.7.0b20230709]
+[2023-07-11 01:06:47] INFO root fetch - processPackages [tmnt]: New version: [0.7.0b20230710] Old Version: [0.7.0b20230709]
+[2023-07-11 01:06:47] INFO root fetch - processPackages [task2b]: Downloading https://files.pythonhosted.org/packages/82/1b/13c47134ffa958a0a9317c0e6f191d71b07b9ce7f95cc3d519eab194e635/task2b-1.0.8.tar.gz
+[2023-07-11 01:06:47] INFO root fetch - processPackages [unibox]: Downloading https://files.pythonhosted.org/packages/d7/37/4a0b2ab9f2747fd13819452cc1965fcb98ee557ee5e1462bf89742c5d522/unibox-0.1.3.2.tar.gz
+[2023-07-11 01:06:47] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/d3/31/eeea7f49dcd4da860c6d98d8028fd8798b9df02a1659fd7e15ecb0be48bf/tmnt-cu101-0.7.0b20230709.tar.gz
+[2023-07-11 01:06:47] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/93/58/42ebceed6d9a18e969aaea62b48d031ef8356dcbad38c500e162952212fa/tmnt-0.7.0b20230709.tar.gz
+[2023-07-11 01:06:47] INFO root fetch - processPackages [trycortex-py]: Downloading https://files.pythonhosted.org/packages/35/6e/f28d93a2dbbababe7dcb9ea5e4ef127ef91cbefb76332cc8545a29abc42a/trycortex-py-1.0.0.tar.gz
+[2023-07-11 01:06:47] INFO root fetch - processPackages [flwr-nightly]: New version: [1.5.0.dev20230710] Old Version: [1.5.0.dev20230707]
+[2023-07-11 01:06:47] INFO root fetch - processPackages [llmreflect]: Downloading https://files.pythonhosted.org/packages/88/d5/c47fcdc3927dc98c5b8ccb2e8b73bff3c1b6af65dd0d1703ddd90a5a81f3/llmreflect-0.0.5.tar.gz
+[2023-07-11 01:06:47] INFO root fetch - processPackages [pandasai]: Downloading https://files.pythonhosted.org/packages/a8/fa/2f91cda9c4c74ae79b59072b3a6ad18c74885f1343267cd8d5b41685a6ee/pandasai-0.6.7.tar.gz
+[2023-07-11 01:06:47] INFO root fetch - processPackages [singer-sdk]: Downloading https://files.pythonhosted.org/packages/16/fc/2fcefbd35f8e35880f2cf18e530bf587569a718eed5e5a605905901383d9/singer-sdk-0.8.0.tar.gz
+[2023-07-11 01:06:47] INFO root fetch - processPackages [equiformer-pytorch]: Downloading https://files.pythonhosted.org/packages/70/93/bf91b1467b8dac6ef8d04579d4a9a9f8252643ed9f2a26a910e1d7c47871/equiformer-pytorch-0.2.3.tar.gz
+[2023-07-11 01:06:47] WARNING root fetch - processPackages [equiformer-pytorch]: Skipping package: exceeds size limit 18387371>=10485760
+[2023-07-11 01:06:47] INFO root fetch - processPackages [equiformer-pytorch]: Start processing: dataclasses-struct
+[2023-07-11 01:06:47] INFO root fetch - main [MainThread]: End processing [equiformer-pytorch] error
+[2023-07-11 01:06:47] INFO root fetch - processPackages [task2b]: Downloading https://files.pythonhosted.org/packages/bf/0d/933953174b4f7ddad864b80ca995cc96b21b197f2a1ebc2f21dfed2553f1/task2b-1.0.9.tar.gz
+[2023-07-11 01:06:47] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/aa/c8/58e87f20dd4ffaab67624270b3005cd07a5ed76155d107312ef97ffacc39/tmnt-cu101-0.7.0b20230710.tar.gz
+[2023-07-11 01:06:47] INFO root fetch - processPackages [dataclasses-struct]: New version: [0.5.0] Old Version: [0.4.1]
+[2023-07-11 01:06:47] INFO root fetch - processPackages [unibox]: Downloading https://files.pythonhosted.org/packages/52/56/6484f0ae0adfdc05b75879b338d955b3c87168ded021bc1f55f95dc446a3/unibox-0.1.3.3.tar.gz
+[2023-07-11 01:06:47] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/18/b7/4227ee16d1cf6fab014342a7e2bc28cb2334928563d8310ebf4660fa127f/flwr_nightly-1.5.0.dev20230707.tar.gz
+[2023-07-11 01:06:47] INFO root fetch - processPackages [trycortex-py]: Downloading https://files.pythonhosted.org/packages/ef/20/f7d3a815d494fe97231c43cd980f7ac1d77cbe1371bb5a795fe60e1755b0/trycortex-py-1.0.1.tar.gz
+[2023-07-11 01:06:48] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/1b/44/1ec28c15e14ae4caca6e172181122217a8b645163abf483001087cbbd96f/tmnt-0.7.0b20230710.tar.gz
+[2023-07-11 01:06:48] INFO root fetch - processPackages [task2b]: executing diffoscope
+[2023-07-11 01:06:48] INFO root fetch - processPackages [task2b]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/task2b-1.0.8.tar.gz tmp/task2b-1.0.9.tar.gz --markdown 20230711/t/task2b/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-11 01:06:48] INFO root fetch - processPackages [llmreflect]: Downloading https://files.pythonhosted.org/packages/a3/50/dc2ed5e82330ea2b1286959de89ea2f107e5dbaae1a5dad51c2d94d2c28d/llmreflect-0.0.6.tar.gz
+[2023-07-11 01:06:48] INFO root fetch - processPackages [dataclasses-struct]: Downloading https://files.pythonhosted.org/packages/ff/54/aeb5868cf7dcc8f5df924f84ea9cd420be5b567abaf14abd4d2ac32744ef/dataclasses_struct-0.4.1.tar.gz
+[2023-07-11 01:06:48] INFO root fetch - processPackages [pandasai]: Downloading https://files.pythonhosted.org/packages/8c/84/9a85dcf65104c8b25534a533538695163a524f1f79c54d082640809290ae/pandasai-0.6.8.tar.gz
+[2023-07-11 01:06:48] INFO root fetch - processPackages [singer-sdk]: Downloading https://files.pythonhosted.org/packages/05/79/7e708f089c810918cd509b974785a1488530d0bb96a38f44d8aafb5e5e8e/singer-sdk-0.9.0.tar.gz
+[2023-07-11 01:06:48] INFO root fetch - processPackages [trycortex-py]: executing diffoscope
+[2023-07-11 01:06:48] INFO root fetch - processPackages [trycortex-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trycortex-py-1.0.0.tar.gz tmp/trycortex-py-1.0.1.tar.gz --markdown 20230711/t/trycortex-py/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-11 01:06:48] INFO root fetch - processPackages [tmnt-cu101]: executing diffoscope
+[2023-07-11 01:06:48] INFO root fetch - processPackages [tmnt-cu101]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-cu101-0.7.0b20230709.tar.gz tmp/tmnt-cu101-0.7.0b20230710.tar.gz --markdown 20230711/t/tmnt-cu101/0.7.0b20230709-0.7.0b20230710/diff.md --exclude *.pyd
+[2023-07-11 01:06:48] INFO root fetch - processPackages [unibox]: executing diffoscope
+[2023-07-11 01:06:48] INFO root fetch - processPackages [unibox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unibox-0.1.3.2.tar.gz tmp/unibox-0.1.3.3.tar.gz --markdown 20230711/u/unibox/0.1.3.2-0.1.3.3/diff.md --exclude *.pyd
+[2023-07-11 01:06:48] INFO root fetch - processPackages [llmreflect]: executing diffoscope
+[2023-07-11 01:06:48] INFO root fetch - processPackages [llmreflect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llmreflect-0.0.5.tar.gz tmp/llmreflect-0.0.6.tar.gz --markdown 20230711/l/llmreflect/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-11 01:06:48] INFO root fetch - processPackages [pandasai]: executing diffoscope
+[2023-07-11 01:06:48] INFO root fetch - processPackages [pandasai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandasai-0.6.7.tar.gz tmp/pandasai-0.6.8.tar.gz --markdown 20230711/p/pandasai/0.6.7-0.6.8/diff.md --exclude *.pyd
+[2023-07-11 01:06:48] INFO root fetch - processPackages [tmnt]: executing diffoscope
+[2023-07-11 01:06:48] INFO root fetch - processPackages [tmnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-0.7.0b20230709.tar.gz tmp/tmnt-0.7.0b20230710.tar.gz --markdown 20230711/t/tmnt/0.7.0b20230709-0.7.0b20230710/diff.md --exclude *.pyd
+[2023-07-11 01:06:48] INFO root fetch - processPackages [singer-sdk]: executing diffoscope
+[2023-07-11 01:06:48] INFO root fetch - processPackages [singer-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/singer-sdk-0.8.0.tar.gz tmp/singer-sdk-0.9.0.tar.gz --markdown 20230711/s/singer-sdk/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-11 01:06:48] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/45/f4/dfcab6b98397938bc10c7575a3e22983ea1244b7586ad256fdb428113986/flwr_nightly-1.5.0.dev20230710.tar.gz
+[2023-07-11 01:06:48] INFO root fetch - processPackages [dataclasses-struct]: Downloading https://files.pythonhosted.org/packages/04/b3/52a1873ab9ad06be0cad3c57aee7d691609ad7b4021b7e401428597e350d/dataclasses_struct-0.5.0.tar.gz
+[2023-07-11 01:06:48] INFO root fetch - processPackages [dataclasses-struct]: executing diffoscope
+[2023-07-11 01:06:48] INFO root fetch - processPackages [dataclasses-struct]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataclasses_struct-0.4.1.tar.gz tmp/dataclasses_struct-0.5.0.tar.gz --markdown 20230711/d/dataclasses-struct/0.4.1-0.5.0/diff.md --exclude *.pyd
+[2023-07-11 01:06:48] INFO root fetch - processPackages [flwr-nightly]: executing diffoscope
+[2023-07-11 01:06:48] INFO root fetch - processPackages [flwr-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flwr_nightly-1.5.0.dev20230707.tar.gz tmp/flwr_nightly-1.5.0.dev20230710.tar.gz --markdown 20230711/f/flwr-nightly/1.5.0.dev20230707-1.5.0.dev20230710/diff.md --exclude *.pyd
+[2023-07-11 01:06:49] INFO root fetch - processPackages [task2b]: Remove: archive file [/home/abi/fetcher/tmp/task2b-1.0.8.tar.gz]
+[2023-07-11 01:06:49] INFO root fetch - processPackages [task2b]: Remove: archive file [/home/abi/fetcher/tmp/task2b-1.0.9.tar.gz]
+[2023-07-11 01:06:49] INFO root fetch - processPackages [task2b]: Start processing: logius
+[2023-07-11 01:06:49] INFO root fetch - main [MainThread]: End processing [task2b]: success
+[2023-07-11 01:06:49] WARNING root fetch - processPackages [logius]: Skipping, unable to determine old version
+[2023-07-11 01:06:49] INFO root fetch - processPackages [logius]: Start processing: agentmemory
+[2023-07-11 01:06:49] INFO root fetch - main [MainThread]: End processing [logius] error
+[2023-07-11 01:06:49] INFO root fetch - processPackages [agentmemory]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-11 01:06:49] INFO root fetch - processPackages [trycortex-py]: Remove: archive file [/home/abi/fetcher/tmp/trycortex-py-1.0.0.tar.gz]
+[2023-07-11 01:06:49] INFO root fetch - processPackages [trycortex-py]: Remove: archive file [/home/abi/fetcher/tmp/trycortex-py-1.0.1.tar.gz]
+[2023-07-11 01:06:49] INFO root fetch - processPackages [trycortex-py]: Start processing: xarray-einstats
+[2023-07-11 01:06:49] INFO root fetch - main [MainThread]: End processing [trycortex-py]: success
+[2023-07-11 01:06:49] INFO root fetch - processPackages [xarray-einstats]: New version: [0.6.0] Old Version: [0.5.1]
+[2023-07-11 01:06:49] INFO root fetch - processPackages [agentmemory]: Downloading https://files.pythonhosted.org/packages/d5/e0/73a62722e6a7186f411f0a8a07b12f2b5e607a0da091644a19bfe1dd8821/agentmemory-0.1.8.tar.gz
+[2023-07-11 01:06:49] INFO root fetch - processPackages [unibox]: Remove: archive file [/home/abi/fetcher/tmp/unibox-0.1.3.2.tar.gz]
+[2023-07-11 01:06:49] INFO root fetch - processPackages [unibox]: Remove: archive file [/home/abi/fetcher/tmp/unibox-0.1.3.3.tar.gz]
+[2023-07-11 01:06:49] INFO root fetch - main [MainThread]: End processing [unibox]: success
+[2023-07-11 01:06:49] INFO root fetch - processPackages [tmnt-cu101]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-cu101-0.7.0b20230709.tar.gz]
+[2023-07-11 01:06:49] INFO root fetch - processPackages [tmnt-cu101]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-cu101-0.7.0b20230710.tar.gz]
+[2023-07-11 01:06:49] INFO root fetch - main [MainThread]: End processing [tmnt-cu101]: success
+[2023-07-11 01:06:49] INFO root fetch - processPackages [llmreflect]: Remove: archive file [/home/abi/fetcher/tmp/llmreflect-0.0.5.tar.gz]
+[2023-07-11 01:06:49] INFO root fetch - processPackages [llmreflect]: Remove: archive file [/home/abi/fetcher/tmp/llmreflect-0.0.6.tar.gz]
+[2023-07-11 01:06:49] INFO root fetch - main [MainThread]: End processing [llmreflect]: success
+[2023-07-11 01:06:49] INFO root fetch - processPackages [xarray-einstats]: Downloading https://files.pythonhosted.org/packages/a9/5f/b0ba7a534313993eb13e79b761941dbad9f202e2e01c953554d0f838b4e4/xarray-einstats-0.5.1.tar.gz
+[2023-07-11 01:06:49] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.0b20230709.tar.gz]
+[2023-07-11 01:06:49] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.0b20230710.tar.gz]
+[2023-07-11 01:06:49] INFO root fetch - main [MainThread]: End processing [tmnt]: success
+[2023-07-11 01:06:50] INFO root fetch - processPackages [agentmemory]: Downloading https://files.pythonhosted.org/packages/6e/ac/33ae73e442d8025c848fe583687d588ca05bd695b69b0ff158ef2310696c/agentmemory-0.1.9.tar.gz
+[2023-07-11 01:06:50] INFO root fetch - processPackages [pandasai]: Remove: archive file [/home/abi/fetcher/tmp/pandasai-0.6.7.tar.gz]
+[2023-07-11 01:06:50] INFO root fetch - processPackages [pandasai]: Remove: archive file [/home/abi/fetcher/tmp/pandasai-0.6.8.tar.gz]
+[2023-07-11 01:06:50] INFO root fetch - main [MainThread]: End processing [pandasai]: success
+[2023-07-11 01:06:50] INFO root fetch - processPackages [singer-sdk]: Remove: archive file [/home/abi/fetcher/tmp/singer-sdk-0.8.0.tar.gz]
+[2023-07-11 01:06:50] INFO root fetch - processPackages [singer-sdk]: Remove: archive file [/home/abi/fetcher/tmp/singer-sdk-0.9.0.tar.gz]
+[2023-07-11 01:06:50] INFO root fetch - main [MainThread]: End processing [singer-sdk]: success
+[2023-07-11 01:06:50] INFO root fetch - processPackages [agentmemory]: executing diffoscope
+[2023-07-11 01:06:50] INFO root fetch - processPackages [agentmemory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agentmemory-0.1.8.tar.gz tmp/agentmemory-0.1.9.tar.gz --markdown 20230711/a/agentmemory/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-11 01:06:50] INFO root fetch - processPackages [xarray-einstats]: Downloading https://files.pythonhosted.org/packages/9e/56/d05537c53d6271b1961035c2c3318ca43ace4a7f25d76818e02ef3e7140e/xarray_einstats-0.6.0.tar.gz
+[2023-07-11 01:06:50] INFO root fetch - processPackages [dataclasses-struct]: Remove: archive file [/home/abi/fetcher/tmp/dataclasses_struct-0.4.1.tar.gz]
+[2023-07-11 01:06:50] INFO root fetch - processPackages [dataclasses-struct]: Remove: archive file [/home/abi/fetcher/tmp/dataclasses_struct-0.5.0.tar.gz]
+[2023-07-11 01:06:50] INFO root fetch - main [MainThread]: End processing [dataclasses-struct]: success
+[2023-07-11 01:06:50] INFO root fetch - processPackages [xarray-einstats]: executing diffoscope
+[2023-07-11 01:06:50] INFO root fetch - processPackages [xarray-einstats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xarray-einstats-0.5.1.tar.gz tmp/xarray_einstats-0.6.0.tar.gz --markdown 20230711/x/xarray-einstats/0.5.1-0.6.0/diff.md --exclude *.pyd
+[2023-07-11 01:06:50] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.5.0.dev20230707.tar.gz]
+[2023-07-11 01:06:50] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.5.0.dev20230710.tar.gz]
+[2023-07-11 01:06:50] INFO root fetch - main [MainThread]: End processing [flwr-nightly]: success
+[2023-07-11 01:06:50] INFO root fetch - processPackages [agentmemory]: Remove: archive file [/home/abi/fetcher/tmp/agentmemory-0.1.8.tar.gz]
+[2023-07-11 01:06:50] INFO root fetch - processPackages [agentmemory]: Remove: archive file [/home/abi/fetcher/tmp/agentmemory-0.1.9.tar.gz]
+[2023-07-11 01:06:50] INFO root fetch - main [MainThread]: End processing [agentmemory]: success
+[2023-07-11 01:06:51] INFO root fetch - processPackages [xarray-einstats]: Remove: archive file [/home/abi/fetcher/tmp/xarray-einstats-0.5.1.tar.gz]
+[2023-07-11 01:06:51] INFO root fetch - processPackages [xarray-einstats]: Remove: archive file [/home/abi/fetcher/tmp/xarray_einstats-0.6.0.tar.gz]
+[2023-07-11 01:06:51] INFO root fetch - main [MainThread]: End processing [xarray-einstats]: success
+[2023-07-11 01:06:51] INFO root fetch - main [MainThread]: Store serial: [18837319]
