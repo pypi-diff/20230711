@@ -2031,3 +2031,118 @@
 [2023-07-11 01:44:03] INFO root fetch - processPackages [typetype]: Remove: archive file [/home/abi/fetcher/tmp/typetype-1.0.7.tar.gz]
 [2023-07-11 01:44:03] INFO root fetch - main [MainThread]: End processing [typetype]: success
 [2023-07-11 01:44:03] INFO root fetch - main [MainThread]: Store serial: [18837684]
+[2023-07-11 01:49:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18837684]
+[2023-07-11 01:49:48] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-11 01:49:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: doctran
+[2023-07-11 01:49:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: untouched
+[2023-07-11 01:49:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: skyplane-nightly
+[2023-07-11 01:49:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: unibox
+[2023-07-11 01:49:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: music-assistant
+[2023-07-11 01:49:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: keras-nlp
+[2023-07-11 01:49:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: untouched
+[2023-07-11 01:49:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mdast-cli
+[2023-07-11 01:49:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: opendatablend
+[2023-07-11 01:49:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: task2b
+[2023-07-11 01:49:48] INFO root fetch - processPackages [opendatablend]: New version: [1.3.0rc1] Old Version: [1.2.2]
+[2023-07-11 01:49:48] INFO root fetch - processPackages [keras-nlp]: New version: [0.6.0.dev0] Old Version: [0.5.2]
+[2023-07-11 01:49:48] INFO root fetch - processPackages [unibox]: New version: [0.1.3.4] Old Version: [0.1.3.3]
+[2023-07-11 01:49:48] INFO root fetch - processPackages [doctran]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-11 01:49:48] INFO root fetch - processPackages [untouched]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-11 01:49:48] INFO root fetch - processPackages [untouched]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-11 01:49:48] INFO root fetch - processPackages [mdast-cli]: New version: [2023.7.2] Old Version: [2023.7.1]
+[2023-07-11 01:49:48] INFO root fetch - processPackages [task2b]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-11 01:49:48] INFO root fetch - processPackages [skyplane-nightly]: New version: [0.3.2.dev20230709] Old Version: [0.3.2.dev20230708]
+[2023-07-11 01:49:48] INFO root fetch - processPackages [music-assistant]: New version: [2.0.0b9] Old Version: [2.0.0b8]
+[2023-07-11 01:49:48] INFO root fetch - processPackages [unibox]: Downloading https://files.pythonhosted.org/packages/52/56/6484f0ae0adfdc05b75879b338d955b3c87168ded021bc1f55f95dc446a3/unibox-0.1.3.3.tar.gz
+[2023-07-11 01:49:48] INFO root fetch - processPackages [untouched]: Downloading https://files.pythonhosted.org/packages/35/84/b08453643fea7b93b95923234c031fddc75e1d56cf8b394f8bce6562fd29/untouched-0.1.5.tar.gz
+[2023-07-11 01:49:48] INFO root fetch - processPackages [task2b]: Downloading https://files.pythonhosted.org/packages/82/1b/13c47134ffa958a0a9317c0e6f191d71b07b9ce7f95cc3d519eab194e635/task2b-1.0.8.tar.gz
+[2023-07-11 01:49:48] INFO root fetch - processPackages [skyplane-nightly]: Downloading https://files.pythonhosted.org/packages/46/02/28cc6d916eff7848a159486b423fcfc1fd4b59a282c76bacab4fd8b98ba1/skyplane_nightly-0.3.2.dev20230708.tar.gz
+[2023-07-11 01:49:48] INFO root fetch - processPackages [music-assistant]: Downloading https://files.pythonhosted.org/packages/01/81/90b4aed85dc1c0ddc370cac2850f4f155120a91bed518c846ed8aaf92f03/music_assistant-2.0.0b8.tar.gz
+[2023-07-11 01:49:48] INFO root fetch - processPackages [untouched]: Downloading https://files.pythonhosted.org/packages/35/84/b08453643fea7b93b95923234c031fddc75e1d56cf8b394f8bce6562fd29/untouched-0.1.5.tar.gz
+[2023-07-11 01:49:48] INFO root fetch - processPackages [keras-nlp]: Downloading https://files.pythonhosted.org/packages/53/0d/c091bcdb1d79cff9717ccd3aaece8bd2b88a8c5296524d60168ccbfeafa8/keras-nlp-0.5.2.tar.gz
+[2023-07-11 01:49:48] INFO root fetch - processPackages [opendatablend]: Downloading https://files.pythonhosted.org/packages/40/d9/06ec967330503dd6003e63e8790eddca5ad5b7c88208a70999013e76a303/opendatablend-1.2.2.tar.gz
+[2023-07-11 01:49:48] WARNING root fetch - processPackages [music-assistant]: Skipping package: exceeds size limit 60699137>=10485760
+[2023-07-11 01:49:48] INFO root fetch - processPackages [music-assistant]: Start processing: doctran
+[2023-07-11 01:49:48] INFO root fetch - main [MainThread]: End processing [music-assistant] error
+[2023-07-11 01:49:48] INFO root fetch - processPackages [doctran]: Downloading https://files.pythonhosted.org/packages/e3/8f/3c338a6e570e8e248ebb2f32f77d5eb57d35fc760044a293572ecbf2ef33/doctran-0.0.5.tar.gz
+[2023-07-11 01:49:48] INFO root fetch - processPackages [mdast-cli]: Downloading https://files.pythonhosted.org/packages/df/09/90d622c4a6a12f34b1795fdca5726704c874ab1c73eeefc047aac3b5a67d/mdast_cli-2023.7.1.tar.gz
+[2023-07-11 01:49:48] INFO root fetch - processPackages [doctran]: New version: [0.0.61] Old Version: [0.0.6]
+[2023-07-11 01:49:49] INFO root fetch - processPackages [unibox]: Downloading https://files.pythonhosted.org/packages/08/6b/2b8fc0ae6412ab3ded5a8289c18cd12775bfddbe0f7c95160788bf4bdb50/unibox-0.1.3.4.tar.gz
+[2023-07-11 01:49:49] INFO root fetch - processPackages [skyplane-nightly]: Downloading https://files.pythonhosted.org/packages/dd/55/95f48b58bfb3e8062f624764f26ca636a59fd2b309979768b485a078457a/skyplane_nightly-0.3.2.dev20230709.tar.gz
+[2023-07-11 01:49:49] INFO root fetch - processPackages [untouched]: Downloading https://files.pythonhosted.org/packages/68/2c/85d13c094bfb761b64f54d5f75e3bad0bca06bf48afc740c8992aa7de143/untouched-0.1.6.tar.gz
+[2023-07-11 01:49:49] INFO root fetch - processPackages [task2b]: Downloading https://files.pythonhosted.org/packages/bf/0d/933953174b4f7ddad864b80ca995cc96b21b197f2a1ebc2f21dfed2553f1/task2b-1.0.9.tar.gz
+[2023-07-11 01:49:49] INFO root fetch - processPackages [untouched]: Downloading https://files.pythonhosted.org/packages/68/2c/85d13c094bfb761b64f54d5f75e3bad0bca06bf48afc740c8992aa7de143/untouched-0.1.6.tar.gz
+[2023-07-11 01:49:49] INFO root fetch - processPackages [doctran]: Downloading https://files.pythonhosted.org/packages/32/2c/7794e6885ffc99fd5b3eb19c9fd3fec6e19c709cb40408028fe3f4ea987d/doctran-0.0.6.tar.gz
+[2023-07-11 01:49:49] INFO root fetch - processPackages [doctran]: Downloading https://files.pythonhosted.org/packages/32/2c/7794e6885ffc99fd5b3eb19c9fd3fec6e19c709cb40408028fe3f4ea987d/doctran-0.0.6.tar.gz
+[2023-07-11 01:49:49] INFO root fetch - processPackages [opendatablend]: Downloading https://files.pythonhosted.org/packages/bc/1d/d0bb68720d1be0b29ec7947ddd1fa9d5305811486fcdb8e1e92b39b87288/opendatablend-1.3.0rc1.tar.gz
+[2023-07-11 01:49:49] INFO root fetch - processPackages [keras-nlp]: Downloading https://files.pythonhosted.org/packages/26/2f/bc3111cbe18eedc2134e23bf15508ef95ef6580effead93550dc2669ae8e/keras-nlp-0.6.0.dev0.tar.gz
+[2023-07-11 01:49:49] INFO root fetch - processPackages [mdast-cli]: Downloading https://files.pythonhosted.org/packages/8f/5b/ab71e2bb8803a4b3c2b6e6388d6eec39a0100785434e7c6a6a98bd20797f/mdast_cli-2023.7.2.tar.gz
+[2023-07-11 01:49:49] INFO root fetch - processPackages [unibox]: executing diffoscope
+[2023-07-11 01:49:49] INFO root fetch - processPackages [unibox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unibox-0.1.3.3.tar.gz tmp/unibox-0.1.3.4.tar.gz --markdown 20230711/u/unibox/0.1.3.3-0.1.3.4/diff.md --exclude *.pyd
+[2023-07-11 01:49:49] INFO root fetch - processPackages [task2b]: executing diffoscope
+[2023-07-11 01:49:49] INFO root fetch - processPackages [task2b]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/task2b-1.0.8.tar.gz tmp/task2b-1.0.9.tar.gz --markdown 20230711/t/task2b/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-11 01:49:49] INFO root fetch - processPackages [skyplane-nightly]: executing diffoscope
+[2023-07-11 01:49:49] INFO root fetch - processPackages [skyplane-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skyplane_nightly-0.3.2.dev20230708.tar.gz tmp/skyplane_nightly-0.3.2.dev20230709.tar.gz --markdown 20230711/s/skyplane-nightly/0.3.2.dev20230708-0.3.2.dev20230709/diff.md --exclude *.pyd
+[2023-07-11 01:49:49] INFO root fetch - processPackages [untouched]: executing diffoscope
+[2023-07-11 01:49:49] INFO root fetch - processPackages [untouched]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/untouched-0.1.5.tar.gz tmp/untouched-0.1.6.tar.gz --markdown 20230711/u/untouched/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-11 01:49:49] INFO root fetch - processPackages [untouched]: executing diffoscope
+[2023-07-11 01:49:49] INFO root fetch - processPackages [untouched]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/untouched-0.1.5.tar.gz tmp/untouched-0.1.6.tar.gz --markdown 20230711/u/untouched/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-11 01:49:49] INFO root fetch - processPackages [opendatablend]: executing diffoscope
+[2023-07-11 01:49:49] INFO root fetch - processPackages [opendatablend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opendatablend-1.2.2.tar.gz tmp/opendatablend-1.3.0rc1.tar.gz --markdown 20230711/o/opendatablend/1.2.2-1.3.0rc1/diff.md --exclude *.pyd
+[2023-07-11 01:49:49] INFO root fetch - processPackages [keras-nlp]: executing diffoscope
+[2023-07-11 01:49:49] INFO root fetch - processPackages [keras-nlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras-nlp-0.5.2.tar.gz tmp/keras-nlp-0.6.0.dev0.tar.gz --markdown 20230711/k/keras-nlp/0.5.2-0.6.0.dev0/diff.md --exclude *.pyd
+[2023-07-11 01:49:49] INFO root fetch - processPackages [doctran]: executing diffoscope
+[2023-07-11 01:49:49] INFO root fetch - processPackages [doctran]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/doctran-0.0.5.tar.gz tmp/doctran-0.0.6.tar.gz --markdown 20230711/d/doctran/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-11 01:49:49] INFO root fetch - processPackages [mdast-cli]: executing diffoscope
+[2023-07-11 01:49:49] INFO root fetch - processPackages [mdast-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mdast_cli-2023.7.1.tar.gz tmp/mdast_cli-2023.7.2.tar.gz --markdown 20230711/m/mdast-cli/2023.7.1-2023.7.2/diff.md --exclude *.pyd
+[2023-07-11 01:49:49] INFO root fetch - processPackages [doctran]: Downloading https://files.pythonhosted.org/packages/31/74/72bcdec50a47d5e4a241891f419e61cdfe4cbf5e16d173b99a46535226fc/doctran-0.0.61.tar.gz
+[2023-07-11 01:49:50] INFO root fetch - processPackages [doctran]: executing diffoscope
+[2023-07-11 01:49:50] INFO root fetch - processPackages [doctran]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/doctran-0.0.6.tar.gz tmp/doctran-0.0.61.tar.gz --markdown 20230711/d/doctran/0.0.6-0.0.61/diff.md --exclude *.pyd
+[2023-07-11 01:49:50] INFO root fetch - processPackages [unibox]: Remove: archive file [/home/abi/fetcher/tmp/unibox-0.1.3.3.tar.gz]
+[2023-07-11 01:49:50] INFO root fetch - processPackages [unibox]: Remove: archive file [/home/abi/fetcher/tmp/unibox-0.1.3.4.tar.gz]
+[2023-07-11 01:49:50] INFO root fetch - main [MainThread]: End processing [unibox]: success
+[2023-07-11 01:49:51] INFO root fetch - processPackages [untouched]: Remove: archive file [/home/abi/fetcher/tmp/untouched-0.1.5.tar.gz]
+[2023-07-11 01:49:51] INFO root fetch - processPackages [untouched]: Remove: archive file [/home/abi/fetcher/tmp/untouched-0.1.6.tar.gz]
+[2023-07-11 01:49:51] INFO root fetch - main [MainThread]: End processing [untouched]: success
+[2023-07-11 01:49:51] INFO root fetch - processPackages [opendatablend]: Remove: archive file [/home/abi/fetcher/tmp/opendatablend-1.2.2.tar.gz]
+[2023-07-11 01:49:51] INFO root fetch - processPackages [opendatablend]: Remove: archive file [/home/abi/fetcher/tmp/opendatablend-1.3.0rc1.tar.gz]
+[2023-07-11 01:49:51] INFO root fetch - main [MainThread]: End processing [opendatablend]: success
+[2023-07-11 01:49:51] INFO root fetch - main [MainThread]: End processing [untouched]: success
+[2023-07-11 01:49:51] INFO root fetch - processPackages [doctran]: Remove: archive file [/home/abi/fetcher/tmp/doctran-0.0.5.tar.gz]
+[2023-07-11 01:49:51] INFO root fetch - processPackages [doctran]: Remove: archive file [/home/abi/fetcher/tmp/doctran-0.0.6.tar.gz]
+[2023-07-11 01:49:51] INFO root fetch - main [MainThread]: End processing [doctran]: success
+[2023-07-11 01:49:51] INFO root fetch - processPackages [task2b]: Remove: archive file [/home/abi/fetcher/tmp/task2b-1.0.8.tar.gz]
+[2023-07-11 01:49:51] INFO root fetch - processPackages [task2b]: Remove: archive file [/home/abi/fetcher/tmp/task2b-1.0.9.tar.gz]
+[2023-07-11 01:49:51] INFO root fetch - main [MainThread]: End processing [task2b]: success
+[2023-07-11 01:49:51] ERROR root fetch - processPackages [doctran]: Diffoscope failed: time="2023-07-11T01:49:50+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 66, in compare_root_paths
+    file1 = specialize(FilesystemFile(path1, container=container1))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 54, in specialize
+    if try_recognize(file, cls, cls.recognizes):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 37, in try_recognize
+    if not recognizes(file):
+           ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/missing_file.py", line 43, in recognizes
+    assert Config().new_file, f"{file.name} does not exist"
+AssertionError: tmp/doctran-0.0.6.tar.gz does not exist
+
+[2023-07-11 01:49:51] INFO root fetch - main [MainThread]: End processing [doctran] error
+[2023-07-11 01:49:51] INFO root fetch - processPackages [mdast-cli]: Remove: archive file [/home/abi/fetcher/tmp/mdast_cli-2023.7.1.tar.gz]
+[2023-07-11 01:49:51] INFO root fetch - processPackages [mdast-cli]: Remove: archive file [/home/abi/fetcher/tmp/mdast_cli-2023.7.2.tar.gz]
+[2023-07-11 01:49:51] INFO root fetch - main [MainThread]: End processing [mdast-cli]: success
+[2023-07-11 01:49:51] INFO root fetch - processPackages [skyplane-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skyplane_nightly-0.3.2.dev20230708.tar.gz]
+[2023-07-11 01:49:51] INFO root fetch - processPackages [skyplane-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skyplane_nightly-0.3.2.dev20230709.tar.gz]
+[2023-07-11 01:49:51] INFO root fetch - main [MainThread]: End processing [skyplane-nightly]: success
+[2023-07-11 01:49:53] INFO root fetch - processPackages [keras-nlp]: Remove: archive file [/home/abi/fetcher/tmp/keras-nlp-0.5.2.tar.gz]
+[2023-07-11 01:49:53] INFO root fetch - processPackages [keras-nlp]: Remove: archive file [/home/abi/fetcher/tmp/keras-nlp-0.6.0.dev0.tar.gz]
+[2023-07-11 01:49:53] INFO root fetch - main [MainThread]: End processing [keras-nlp]: success
+[2023-07-11 01:49:53] INFO root fetch - main [MainThread]: Store serial: [18837719]
