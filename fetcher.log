@@ -842,3 +842,90 @@
 [2023-07-11 00:51:10] INFO root fetch - processPackages [pulumi-kubernetes]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes-4.0.0rc1.tar.gz]
 [2023-07-11 00:51:10] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes]: success
 [2023-07-11 00:51:10] INFO root fetch - main [MainThread]: Store serial: [18837213]
+[2023-07-11 00:56:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18837213]
+[2023-07-11 00:56:20] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-11 00:56:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mock-cli-framework
+[2023-07-11 00:56:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kraken-build
+[2023-07-11 00:56:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kraken-common
+[2023-07-11 00:56:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kraken-core
+[2023-07-11 00:56:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kraken-wrapper
+[2023-07-11 00:56:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kraken-std
+[2023-07-11 00:56:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tonic
+[2023-07-11 00:56:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: autoevals
+[2023-07-11 00:56:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: img2table
+[2023-07-11 00:56:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cidc-api-modules
+[2023-07-11 00:56:20] INFO root fetch - processPackages [kraken-common]: New version: [0.5.4] Old Version: [0.5.3]
+[2023-07-11 00:56:20] INFO root fetch - processPackages [tonic]: New version: [1.3.3.dev3] Old Version: [1.3.3.dev2]
+[2023-07-11 00:56:20] INFO root fetch - processPackages [mock-cli-framework]: New version: [0.5.0] Old Version: [0.4.1]
+[2023-07-11 00:56:20] WARNING root fetch - processPackages [autoevals]: Skipping, unable to determine old version
+[2023-07-11 00:56:20] INFO root fetch - main [MainThread]: End processing [autoevals] error
+[2023-07-11 00:56:20] INFO root fetch - processPackages [kraken-wrapper]: New version: [0.28.4] Old Version: [0.28.3]
+[2023-07-11 00:56:20] INFO root fetch - processPackages [kraken-core]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-07-11 00:56:20] INFO root fetch - processPackages [kraken-build]: New version: [0.28.4] Old Version: [0.28.3]
+[2023-07-11 00:56:20] INFO root fetch - processPackages [img2table]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-07-11 00:56:20] INFO root fetch - processPackages [kraken-std]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-07-11 00:56:20] INFO root fetch - processPackages [cidc-api-modules]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-07-11 00:56:20] INFO root fetch - processPackages [kraken-common]: Downloading https://files.pythonhosted.org/packages/88/b6/970ad5d730a7c28f02ecce40246458941d521ab7049074d0c03bc6304f7c/kraken_common-0.5.3.tar.gz
+[2023-07-11 00:56:20] INFO root fetch - processPackages [kraken-core]: Downloading https://files.pythonhosted.org/packages/c6/4c/480e3d597162031534e0e300b1d98eeec0838406875f691703142326e36a/kraken-core-0.9.5.tar.gz
+[2023-07-11 00:56:20] INFO root fetch - processPackages [kraken-std]: Downloading https://files.pythonhosted.org/packages/d2/93/fc7a0d5c20d6a3d551ef23ed605451eef6aa6cb35c9cf7b3366ffe5cc5e0/kraken_std-0.8.8.tar.gz
+[2023-07-11 00:56:20] INFO root fetch - processPackages [kraken-build]: Downloading https://files.pythonhosted.org/packages/25/16/d732bfd3f451d2897131cf5925b24beab9a7057ceeb6725332fec8ae59ed/kraken_build-0.28.3.tar.gz
+[2023-07-11 00:56:20] INFO root fetch - processPackages [img2table]: Downloading https://files.pythonhosted.org/packages/f2/19/25c20c136b102302c0beb404f66ca1a2469340e977406b6a984fac9702ef/img2table-1.0.5.tar.gz
+[2023-07-11 00:56:20] INFO root fetch - processPackages [tonic]: Downloading https://files.pythonhosted.org/packages/cf/60/29fc3d135cf8d8a2389374f470b0ae83e30e904b193c326b92a37f6fdce9/tonic-1.3.3.dev2.tar.gz
+[2023-07-11 00:56:20] INFO root fetch - processPackages [mock-cli-framework]: Downloading https://files.pythonhosted.org/packages/ae/c5/ce42d5ecd1c7df9a50d709bae043d9590b2c433bdc28c04516b99348e6ad/mock-cli-framework-0.4.1.tar.gz
+[2023-07-11 00:56:20] INFO root fetch - processPackages [kraken-wrapper]: Downloading https://files.pythonhosted.org/packages/cd/1b/f8d3d5119a13bbaa9887c11880fbcda126fa0c69ed5e6637ed99600e122c/kraken_wrapper-0.28.3.tar.gz
+[2023-07-11 00:56:20] INFO root fetch - processPackages [cidc-api-modules]: Downloading https://files.pythonhosted.org/packages/79/07/22424cba35a0e3b28dbe23eecd58b3ca4a2ae1137ff0afb126ec8fbf16b7/cidc_api_modules-0.9.4.tar.gz
+[2023-07-11 00:56:20] INFO root fetch - processPackages [kraken-common]: Downloading https://files.pythonhosted.org/packages/28/6b/40996d0e584f418f756a443a993b2ef5a68d9d934839d39b791b65917fc9/kraken_common-0.5.4.tar.gz
+[2023-07-11 00:56:21] INFO root fetch - processPackages [kraken-core]: Downloading https://files.pythonhosted.org/packages/b6/f4/2ddff1c25849833594115f69989cc831a594882af04a874bbb728e402668/kraken-core-0.9.6.tar.gz
+[2023-07-11 00:56:21] INFO root fetch - processPackages [kraken-std]: Downloading https://files.pythonhosted.org/packages/a6/a8/8a0c122aadc67da4627c416b4669ed0c677b7b474f97ddb283c496a82a37/kraken_std-0.8.9.tar.gz
+[2023-07-11 00:56:21] INFO root fetch - processPackages [kraken-common]: executing diffoscope
+[2023-07-11 00:56:21] INFO root fetch - processPackages [kraken-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kraken_common-0.5.3.tar.gz tmp/kraken_common-0.5.4.tar.gz --markdown 20230711/k/kraken-common/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2023-07-11 00:56:21] INFO root fetch - processPackages [kraken-build]: Downloading https://files.pythonhosted.org/packages/a5/15/73eeab488ca216ecbc6482ef1232fd1a2666e51913df349a022815c5d3f0/kraken_build-0.28.4.tar.gz
+[2023-07-11 00:56:21] INFO root fetch - processPackages [kraken-core]: executing diffoscope
+[2023-07-11 00:56:21] INFO root fetch - processPackages [kraken-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kraken-core-0.9.5.tar.gz tmp/kraken-core-0.9.6.tar.gz --markdown 20230711/k/kraken-core/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-07-11 00:56:21] INFO root fetch - processPackages [kraken-std]: executing diffoscope
+[2023-07-11 00:56:21] INFO root fetch - processPackages [kraken-std]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kraken_std-0.8.8.tar.gz tmp/kraken_std-0.8.9.tar.gz --markdown 20230711/k/kraken-std/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-07-11 00:56:21] INFO root fetch - processPackages [mock-cli-framework]: Downloading https://files.pythonhosted.org/packages/fd/ef/0a2005831811a1284bf64edd4a0d98042c6fc74c64451d1acbb12a246ba2/mock-cli-framework-0.5.0.tar.gz
+[2023-07-11 00:56:21] INFO root fetch - processPackages [kraken-build]: executing diffoscope
+[2023-07-11 00:56:21] INFO root fetch - processPackages [kraken-build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kraken_build-0.28.3.tar.gz tmp/kraken_build-0.28.4.tar.gz --markdown 20230711/k/kraken-build/0.28.3-0.28.4/diff.md --exclude *.pyd
+[2023-07-11 00:56:21] INFO root fetch - processPackages [kraken-wrapper]: Downloading https://files.pythonhosted.org/packages/59/56/ca2311dd7b4f5726f288630f69534a594a9b29762241fb4415c74f6e628e/kraken_wrapper-0.28.4.tar.gz
+[2023-07-11 00:56:21] INFO root fetch - processPackages [mock-cli-framework]: executing diffoscope
+[2023-07-11 00:56:21] INFO root fetch - processPackages [mock-cli-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mock-cli-framework-0.4.1.tar.gz tmp/mock-cli-framework-0.5.0.tar.gz --markdown 20230711/m/mock-cli-framework/0.4.1-0.5.0/diff.md --exclude *.pyd
+[2023-07-11 00:56:21] INFO root fetch - processPackages [cidc-api-modules]: Downloading https://files.pythonhosted.org/packages/c9/34/b62315a1e0edf5a647d6e601467f4c0c4a039f8877c021f1643b04d153e8/cidc_api_modules-0.9.5.tar.gz
+[2023-07-11 00:56:21] INFO root fetch - processPackages [kraken-wrapper]: executing diffoscope
+[2023-07-11 00:56:21] INFO root fetch - processPackages [kraken-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kraken_wrapper-0.28.3.tar.gz tmp/kraken_wrapper-0.28.4.tar.gz --markdown 20230711/k/kraken-wrapper/0.28.3-0.28.4/diff.md --exclude *.pyd
+[2023-07-11 00:56:21] INFO root fetch - processPackages [cidc-api-modules]: executing diffoscope
+[2023-07-11 00:56:21] INFO root fetch - processPackages [cidc-api-modules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cidc_api_modules-0.9.4.tar.gz tmp/cidc_api_modules-0.9.5.tar.gz --markdown 20230711/c/cidc-api-modules/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-07-11 00:56:21] INFO root fetch - processPackages [img2table]: Downloading https://files.pythonhosted.org/packages/3b/aa/f6d8b2f21093e8b16c37465bd513f32fa1db61ca8a76f0f299b5d6e395e2/img2table-1.0.6.tar.gz
+[2023-07-11 00:56:21] INFO root fetch - processPackages [img2table]: executing diffoscope
+[2023-07-11 00:56:21] INFO root fetch - processPackages [img2table]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/img2table-1.0.5.tar.gz tmp/img2table-1.0.6.tar.gz --markdown 20230711/i/img2table/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-07-11 00:56:21] INFO root fetch - processPackages [tonic]: Downloading https://files.pythonhosted.org/packages/b2/fe/726482ac1118b3e4cd813a87763bb1542e4ad331a398359801361cf4ec85/tonic-1.3.3.dev3.tar.gz
+[2023-07-11 00:56:22] INFO root fetch - processPackages [kraken-build]: Remove: archive file [/home/abi/fetcher/tmp/kraken_build-0.28.3.tar.gz]
+[2023-07-11 00:56:22] INFO root fetch - processPackages [kraken-build]: Remove: archive file [/home/abi/fetcher/tmp/kraken_build-0.28.4.tar.gz]
+[2023-07-11 00:56:22] INFO root fetch - main [MainThread]: End processing [kraken-build]: success
+[2023-07-11 00:56:22] INFO root fetch - processPackages [kraken-common]: Remove: archive file [/home/abi/fetcher/tmp/kraken_common-0.5.3.tar.gz]
+[2023-07-11 00:56:22] INFO root fetch - processPackages [kraken-common]: Remove: archive file [/home/abi/fetcher/tmp/kraken_common-0.5.4.tar.gz]
+[2023-07-11 00:56:22] INFO root fetch - main [MainThread]: End processing [kraken-common]: success
+[2023-07-11 00:56:22] INFO root fetch - processPackages [tonic]: executing diffoscope
+[2023-07-11 00:56:22] INFO root fetch - processPackages [tonic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tonic-1.3.3.dev2.tar.gz tmp/tonic-1.3.3.dev3.tar.gz --markdown 20230711/t/tonic/1.3.3.dev2-1.3.3.dev3/diff.md --exclude *.pyd
+[2023-07-11 00:56:22] INFO root fetch - processPackages [kraken-core]: Remove: archive file [/home/abi/fetcher/tmp/kraken-core-0.9.5.tar.gz]
+[2023-07-11 00:56:22] INFO root fetch - processPackages [kraken-core]: Remove: archive file [/home/abi/fetcher/tmp/kraken-core-0.9.6.tar.gz]
+[2023-07-11 00:56:22] INFO root fetch - main [MainThread]: End processing [kraken-core]: success
+[2023-07-11 00:56:22] INFO root fetch - processPackages [mock-cli-framework]: Remove: archive file [/home/abi/fetcher/tmp/mock-cli-framework-0.4.1.tar.gz]
+[2023-07-11 00:56:22] INFO root fetch - processPackages [mock-cli-framework]: Remove: archive file [/home/abi/fetcher/tmp/mock-cli-framework-0.5.0.tar.gz]
+[2023-07-11 00:56:22] INFO root fetch - main [MainThread]: End processing [mock-cli-framework]: success
+[2023-07-11 00:56:22] INFO root fetch - processPackages [kraken-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/kraken_wrapper-0.28.3.tar.gz]
+[2023-07-11 00:56:22] INFO root fetch - processPackages [kraken-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/kraken_wrapper-0.28.4.tar.gz]
+[2023-07-11 00:56:22] INFO root fetch - main [MainThread]: End processing [kraken-wrapper]: success
+[2023-07-11 00:56:22] INFO root fetch - processPackages [cidc-api-modules]: Remove: archive file [/home/abi/fetcher/tmp/cidc_api_modules-0.9.4.tar.gz]
+[2023-07-11 00:56:22] INFO root fetch - processPackages [cidc-api-modules]: Remove: archive file [/home/abi/fetcher/tmp/cidc_api_modules-0.9.5.tar.gz]
+[2023-07-11 00:56:22] INFO root fetch - main [MainThread]: End processing [cidc-api-modules]: success
+[2023-07-11 00:56:22] INFO root fetch - processPackages [kraken-std]: Remove: archive file [/home/abi/fetcher/tmp/kraken_std-0.8.8.tar.gz]
+[2023-07-11 00:56:22] INFO root fetch - processPackages [kraken-std]: Remove: archive file [/home/abi/fetcher/tmp/kraken_std-0.8.9.tar.gz]
+[2023-07-11 00:56:22] INFO root fetch - main [MainThread]: End processing [kraken-std]: success
+[2023-07-11 00:56:23] INFO root fetch - processPackages [img2table]: Remove: archive file [/home/abi/fetcher/tmp/img2table-1.0.5.tar.gz]
+[2023-07-11 00:56:23] INFO root fetch - processPackages [img2table]: Remove: archive file [/home/abi/fetcher/tmp/img2table-1.0.6.tar.gz]
+[2023-07-11 00:56:23] INFO root fetch - main [MainThread]: End processing [img2table]: success
+[2023-07-11 00:56:24] INFO root fetch - processPackages [tonic]: Remove: archive file [/home/abi/fetcher/tmp/tonic-1.3.3.dev2.tar.gz]
+[2023-07-11 00:56:24] INFO root fetch - processPackages [tonic]: Remove: archive file [/home/abi/fetcher/tmp/tonic-1.3.3.dev3.tar.gz]
+[2023-07-11 00:56:24] INFO root fetch - main [MainThread]: End processing [tonic]: success
+[2023-07-11 00:56:24] INFO root fetch - main [MainThread]: Store serial: [18837245]
