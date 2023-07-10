@@ -2146,3 +2146,68 @@ AssertionError: tmp/doctran-0.0.6.tar.gz does not exist
 [2023-07-11 01:49:53] INFO root fetch - processPackages [keras-nlp]: Remove: archive file [/home/abi/fetcher/tmp/keras-nlp-0.6.0.dev0.tar.gz]
 [2023-07-11 01:49:53] INFO root fetch - main [MainThread]: End processing [keras-nlp]: success
 [2023-07-11 01:49:53] INFO root fetch - main [MainThread]: Store serial: [18837719]
+[2023-07-11 01:54:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18837719]
+[2023-07-11 01:55:02] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-11 01:55:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rubi
+[2023-07-11 01:55:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: phope
+[2023-07-11 01:55:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hdmf
+[2023-07-11 01:55:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: alfred5
+[2023-07-11 01:55:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyanalyticsgit
+[2023-07-11 01:55:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: clvm-rs
+[2023-07-11 01:55:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: task2a
+[2023-07-11 01:55:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: f5project
+[2023-07-11 01:55:02] INFO root fetch - processPackages [rubi]: New version: [2.1.1] Old Version: [2.1.0]
+[2023-07-11 01:55:02] INFO root fetch - processPackages [alfred5]: New version: [1.1.6] Old Version: [1.1.4]
+[2023-07-11 01:55:02] INFO root fetch - processPackages [phope]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-11 01:55:02] WARNING root fetch - processPackages [pyanalyticsgit]: Skipping, unable to determine old version
+[2023-07-11 01:55:02] INFO root fetch - main [MainThread]: End processing [pyanalyticsgit] error
+[2023-07-11 01:55:02] INFO root fetch - processPackages [task2a]: New version: [1.0.19] Old Version: [1.0.18]
+[2023-07-11 01:55:02] INFO root fetch - processPackages [f5project]: New version: [0.0.3] Old Version: [0.0.1]
+[2023-07-11 01:55:02] INFO root fetch - processPackages [hdmf]: New version: [3.7.0] Old Version: [3.6.1]
+[2023-07-11 01:55:02] INFO root fetch - processPackages [clvm-rs]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-07-11 01:55:02] INFO root fetch - processPackages [rubi]: Downloading https://files.pythonhosted.org/packages/44/98/aacedaf1a823b884c22b6fb370e35ffa52e2d46bb366dda2157233c45f27/rubi-2.1.0.tar.gz
+[2023-07-11 01:55:02] INFO root fetch - processPackages [alfred5]: Downloading https://files.pythonhosted.org/packages/69/f3/0dcf1b5710f80e4fc9f5fa8a519c1b359b31ff6e8faa10ebd2334c408852/alfred5-1.1.4.tar.gz
+[2023-07-11 01:55:03] INFO root fetch - processPackages [task2a]: Downloading https://files.pythonhosted.org/packages/e0/c8/1d6fb8322f10515a9e8a1b60603485b58ff4d3a943d10e707b611027d16f/task2a-1.0.18.tar.gz
+[2023-07-11 01:55:03] INFO root fetch - processPackages [phope]: Downloading https://files.pythonhosted.org/packages/c1/e0/dc96168924db317b85c21d20de93a64533fc365c35aecdba62f08df7ef51/phope-0.0.5.tar.gz
+[2023-07-11 01:55:03] INFO root fetch - processPackages [f5project]: Downloading https://files.pythonhosted.org/packages/12/14/b9e5539840d7db07df5354f551d8ac8c557403b914843555b30c912c288f/f5project-0.0.1.tar.gz
+[2023-07-11 01:55:03] INFO root fetch - processPackages [clvm-rs]: Downloading https://files.pythonhosted.org/packages/1b/50/85626ddbbca5add8b67859c3a7d3d0972b722681e78f0e44c954477516cf/clvm_rs-0.2.6.tar.gz
+[2023-07-11 01:55:03] INFO root fetch - processPackages [hdmf]: Downloading https://files.pythonhosted.org/packages/36/31/13246af5b3b6507f647ab9c47c066c2d9a70d93a343b0421415441a96214/hdmf-3.6.1.tar.gz
+[2023-07-11 01:55:03] WARNING root fetch - processPackages [hdmf]: Skipping package: exceeds size limit 15704925>=10485760
+[2023-07-11 01:55:03] INFO root fetch - main [MainThread]: End processing [hdmf] error
+[2023-07-11 01:55:03] INFO root fetch - processPackages [rubi]: Downloading https://files.pythonhosted.org/packages/7d/d8/8d49f2dc18372c8d00e503ad7e5ec5beb071f361e77d62ddf0538820a9c4/rubi-2.1.1.tar.gz
+[2023-07-11 01:55:03] INFO root fetch - processPackages [alfred5]: Downloading https://files.pythonhosted.org/packages/a1/24/749a20e80d13183d2de68dbbdb3edded900addc81abebcb3c7d7edcf8b13/alfred5-1.1.6.tar.gz
+[2023-07-11 01:55:03] INFO root fetch - processPackages [task2a]: Downloading https://files.pythonhosted.org/packages/0b/3d/cfc5ecc7bacec67bbba1b717f7941b5666c702e00ca6ca80e5869b6e24e5/task2a-1.0.19.tar.gz
+[2023-07-11 01:55:03] INFO root fetch - processPackages [rubi]: executing diffoscope
+[2023-07-11 01:55:03] INFO root fetch - processPackages [rubi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rubi-2.1.0.tar.gz tmp/rubi-2.1.1.tar.gz --markdown 20230711/r/rubi/2.1.0-2.1.1/diff.md --exclude *.pyd
+[2023-07-11 01:55:03] INFO root fetch - processPackages [phope]: Downloading https://files.pythonhosted.org/packages/55/46/0027bb4b662249f862c00fefbca0abc0e0523c95696f374b312178b4c471/phope-0.0.6.tar.gz
+[2023-07-11 01:55:03] INFO root fetch - processPackages [f5project]: Downloading https://files.pythonhosted.org/packages/5e/d7/c1ae36dfc2a68cc8b0970f93145fb4227713af452606f76e096bc9724400/f5project-0.0.3.tar.gz
+[2023-07-11 01:55:03] INFO root fetch - processPackages [alfred5]: executing diffoscope
+[2023-07-11 01:55:03] INFO root fetch - processPackages [alfred5]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alfred5-1.1.4.tar.gz tmp/alfred5-1.1.6.tar.gz --markdown 20230711/a/alfred5/1.1.4-1.1.6/diff.md --exclude *.pyd
+[2023-07-11 01:55:03] INFO root fetch - processPackages [task2a]: executing diffoscope
+[2023-07-11 01:55:03] INFO root fetch - processPackages [task2a]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/task2a-1.0.18.tar.gz tmp/task2a-1.0.19.tar.gz --markdown 20230711/t/task2a/1.0.18-1.0.19/diff.md --exclude *.pyd
+[2023-07-11 01:55:03] INFO root fetch - processPackages [f5project]: executing diffoscope
+[2023-07-11 01:55:03] INFO root fetch - processPackages [f5project]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/f5project-0.0.1.tar.gz tmp/f5project-0.0.3.tar.gz --markdown 20230711/f/f5project/0.0.1-0.0.3/diff.md --exclude *.pyd
+[2023-07-11 01:55:03] INFO root fetch - processPackages [clvm-rs]: Downloading https://files.pythonhosted.org/packages/8d/73/b88f38ea91b02141bd3c77985097e698fc24df81591052aa8e8f4de2d37c/clvm_rs-0.2.7-cp37-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
+[2023-07-11 01:55:03] INFO root fetch - processPackages [phope]: executing diffoscope
+[2023-07-11 01:55:03] INFO root fetch - processPackages [phope]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phope-0.0.5.tar.gz tmp/phope-0.0.6.tar.gz --markdown 20230711/p/phope/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-11 01:55:04] INFO root fetch - processPackages [clvm-rs]: executing diffoscope
+[2023-07-11 01:55:04] INFO root fetch - processPackages [clvm-rs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clvm_rs-0.2.6.tar.gz tmp/clvm_rs-0.2.7-cp37-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip --markdown 20230711/c/clvm-rs/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-07-11 01:55:04] INFO root fetch - processPackages [f5project]: Remove: archive file [/home/abi/fetcher/tmp/f5project-0.0.1.tar.gz]
+[2023-07-11 01:55:04] INFO root fetch - processPackages [f5project]: Remove: archive file [/home/abi/fetcher/tmp/f5project-0.0.3.tar.gz]
+[2023-07-11 01:55:04] INFO root fetch - main [MainThread]: End processing [f5project]: success
+[2023-07-11 01:55:04] INFO root fetch - processPackages [alfred5]: Remove: archive file [/home/abi/fetcher/tmp/alfred5-1.1.4.tar.gz]
+[2023-07-11 01:55:04] INFO root fetch - processPackages [alfred5]: Remove: archive file [/home/abi/fetcher/tmp/alfred5-1.1.6.tar.gz]
+[2023-07-11 01:55:04] INFO root fetch - main [MainThread]: End processing [alfred5]: success
+[2023-07-11 01:55:04] INFO root fetch - processPackages [task2a]: Remove: archive file [/home/abi/fetcher/tmp/task2a-1.0.18.tar.gz]
+[2023-07-11 01:55:04] INFO root fetch - processPackages [task2a]: Remove: archive file [/home/abi/fetcher/tmp/task2a-1.0.19.tar.gz]
+[2023-07-11 01:55:04] INFO root fetch - main [MainThread]: End processing [task2a]: success
+[2023-07-11 01:55:04] INFO root fetch - processPackages [rubi]: Remove: archive file [/home/abi/fetcher/tmp/rubi-2.1.0.tar.gz]
+[2023-07-11 01:55:04] INFO root fetch - processPackages [rubi]: Remove: archive file [/home/abi/fetcher/tmp/rubi-2.1.1.tar.gz]
+[2023-07-11 01:55:04] INFO root fetch - processPackages [phope]: Remove: archive file [/home/abi/fetcher/tmp/phope-0.0.5.tar.gz]
+[2023-07-11 01:55:04] INFO root fetch - main [MainThread]: End processing [rubi]: success
+[2023-07-11 01:55:04] INFO root fetch - processPackages [phope]: Remove: archive file [/home/abi/fetcher/tmp/phope-0.0.6.tar.gz]
+[2023-07-11 01:55:04] INFO root fetch - main [MainThread]: End processing [phope]: success
+[2023-07-11 01:55:05] INFO root fetch - processPackages [clvm-rs]: Remove: archive file [/home/abi/fetcher/tmp/clvm_rs-0.2.6.tar.gz]
+[2023-07-11 01:55:05] INFO root fetch - processPackages [clvm-rs]: Remove: archive file [/home/abi/fetcher/tmp/clvm_rs-0.2.7-cp37-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip]
+[2023-07-11 01:55:05] INFO root fetch - main [MainThread]: End processing [clvm-rs]: success
+[2023-07-11 01:55:05] INFO root fetch - main [MainThread]: Store serial: [18837748]
