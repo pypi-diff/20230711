@@ -1272,3 +1272,87 @@
 [2023-07-11 01:22:29] INFO root fetch - processPackages [geemap]: Remove: archive file [/home/abi/fetcher/tmp/geemap-0.9.5.tar.gz]
 [2023-07-11 01:22:29] INFO root fetch - main [MainThread]: End processing [geemap]: success
 [2023-07-11 01:22:29] INFO root fetch - main [MainThread]: Store serial: [18837377]
+[2023-07-11 01:27:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18837377]
+[2023-07-11 01:27:38] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-11 01:27:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wxflow
+[2023-07-11 01:27:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dequeai
+[2023-07-11 01:27:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: protosaurus
+[2023-07-11 01:27:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: TheSilent
+[2023-07-11 01:27:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: onedrive-integration
+[2023-07-11 01:27:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pypeec
+[2023-07-11 01:27:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: music-assistant
+[2023-07-11 01:27:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: task2b
+[2023-07-11 01:27:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ghak
+[2023-07-11 01:27:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tonic
+[2023-07-11 01:27:39] INFO root fetch - processPackages [ghak]: New version: [0.2.744] Old Version: [0.2.734]
+[2023-07-11 01:27:39] WARNING root fetch - processPackages [wxflow]: Skipping, unable to determine old version
+[2023-07-11 01:27:39] INFO root fetch - processPackages [wxflow]: Start processing: dequeai
+[2023-07-11 01:27:39] INFO root fetch - main [MainThread]: End processing [wxflow] error
+[2023-07-11 01:27:39] WARNING root fetch - processPackages [onedrive-integration]: Skipping, unable to determine old version
+[2023-07-11 01:27:39] INFO root fetch - main [MainThread]: End processing [onedrive-integration] error
+[2023-07-11 01:27:39] INFO root fetch - processPackages [pypeec]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-11 01:27:39] INFO root fetch - processPackages [tonic]: New version: [1.3.3.dev3] Old Version: [1.3.3.dev2]
+[2023-07-11 01:27:39] INFO root fetch - processPackages [task2b]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-11 01:27:39] INFO root fetch - processPackages [dequeai]: New version: [0.8124] Old Version: [0.812]
+[2023-07-11 01:27:39] INFO root fetch - processPackages [TheSilent]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-11 01:27:39] INFO root fetch - processPackages [protosaurus]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-11 01:27:39] INFO root fetch - processPackages [dequeai]: New version: [0.8124] Old Version: [0.812]
+[2023-07-11 01:27:39] INFO root fetch - processPackages [music-assistant]: New version: [2.0.0b9] Old Version: [2.0.0b8]
+[2023-07-11 01:27:39] INFO root fetch - processPackages [ghak]: Downloading https://files.pythonhosted.org/packages/80/ce/e8722f0057fabd10b606849e0ce5e99b65847fdfce657dcbe016eea9ceba/ghak-0.2.734-py3.11.egg
+[2023-07-11 01:27:39] INFO root fetch - processPackages [task2b]: Downloading https://files.pythonhosted.org/packages/82/1b/13c47134ffa958a0a9317c0e6f191d71b07b9ce7f95cc3d519eab194e635/task2b-1.0.8.tar.gz
+[2023-07-11 01:27:39] INFO root fetch - processPackages [tonic]: Downloading https://files.pythonhosted.org/packages/cf/60/29fc3d135cf8d8a2389374f470b0ae83e30e904b193c326b92a37f6fdce9/tonic-1.3.3.dev2.tar.gz
+[2023-07-11 01:27:39] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/ad/09/2a1f42483bf3fbc17417489cf4f3d6ec17c5c763e219aa02ad1827f29dc1/TheSilent-0.0.98.tar.gz
+[2023-07-11 01:27:39] INFO root fetch - processPackages [pypeec]: Downloading https://files.pythonhosted.org/packages/ae/66/134c84fce8f5f19402d0a7786fd9322b1001d5f285f51c87a2f3c51f0e1e/pypeec-0.0.2.tar.gz
+[2023-07-11 01:27:39] INFO root fetch - processPackages [dequeai]: Downloading https://files.pythonhosted.org/packages/6d/be/485665bd5dedcf77bd74d3f5658bcd03a96b5b0d4656255b007521a9197d/dequeai-0.812.tar.gz
+[2023-07-11 01:27:39] INFO root fetch - processPackages [dequeai]: Downloading https://files.pythonhosted.org/packages/6d/be/485665bd5dedcf77bd74d3f5658bcd03a96b5b0d4656255b007521a9197d/dequeai-0.812.tar.gz
+[2023-07-11 01:27:39] INFO root fetch - processPackages [protosaurus]: Downloading https://files.pythonhosted.org/packages/00/30/55c1865cf938e92da90736b0f5071df0b1e3b30209a1c83d4f811ed3a1b4/protosaurus-0.1.0.tar.gz
+[2023-07-11 01:27:39] INFO root fetch - processPackages [task2b]: Downloading https://files.pythonhosted.org/packages/bf/0d/933953174b4f7ddad864b80ca995cc96b21b197f2a1ebc2f21dfed2553f1/task2b-1.0.9.tar.gz
+[2023-07-11 01:27:39] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/38/21/9b42cfa55edd85cfd4fefba7fb94aab0891af2b6c90ef59e687a42228a0b/TheSilent-0.0.99.tar.gz
+[2023-07-11 01:27:39] INFO root fetch - processPackages [music-assistant]: Downloading https://files.pythonhosted.org/packages/01/81/90b4aed85dc1c0ddc370cac2850f4f155120a91bed518c846ed8aaf92f03/music_assistant-2.0.0b8.tar.gz
+[2023-07-11 01:27:39] INFO root fetch - processPackages [ghak]: Downloading https://files.pythonhosted.org/packages/32/50/7738e7930775c7630cfe23e9881b859e6fa7d5a0ac5b1f1a9c819e6c3be4/ghak-0.2.744-py3-none-any.whl
+[2023-07-11 01:27:39] WARNING root fetch - processPackages [music-assistant]: Skipping package: exceeds size limit 60699137>=10485760
+[2023-07-11 01:27:39] INFO root fetch - main [MainThread]: End processing [music-assistant] error
+[2023-07-11 01:27:39] INFO root fetch - processPackages [task2b]: executing diffoscope
+[2023-07-11 01:27:39] INFO root fetch - processPackages [task2b]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/task2b-1.0.8.tar.gz tmp/task2b-1.0.9.tar.gz --markdown 20230711/t/task2b/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-11 01:27:39] INFO root fetch - processPackages [TheSilent]: executing diffoscope
+[2023-07-11 01:27:39] INFO root fetch - processPackages [TheSilent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TheSilent-0.0.98.tar.gz tmp/TheSilent-0.0.99.tar.gz --markdown 20230711/T/TheSilent/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-11 01:27:39] INFO root fetch - processPackages [pypeec]: Downloading https://files.pythonhosted.org/packages/2b/97/43b988893b03c621fcb80e71a06b7a8ce85831a550cec0b017209939a589/pypeec-0.0.3.tar.gz
+[2023-07-11 01:27:39] INFO root fetch - processPackages [ghak]: executing diffoscope
+[2023-07-11 01:27:39] INFO root fetch - processPackages [ghak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ghak-0.2.734-py3.11.egg tmp/ghak-0.2.744-py3-none-any.whl.zip --markdown 20230711/g/ghak/0.2.734-0.2.744/diff.md --exclude *.pyd
+[2023-07-11 01:27:40] INFO root fetch - processPackages [pypeec]: executing diffoscope
+[2023-07-11 01:27:40] INFO root fetch - processPackages [pypeec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypeec-0.0.2.tar.gz tmp/pypeec-0.0.3.tar.gz --markdown 20230711/p/pypeec/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-11 01:27:40] INFO root fetch - processPackages [tonic]: Downloading https://files.pythonhosted.org/packages/b2/fe/726482ac1118b3e4cd813a87763bb1542e4ad331a398359801361cf4ec85/tonic-1.3.3.dev3.tar.gz
+[2023-07-11 01:27:40] INFO root fetch - processPackages [dequeai]: Downloading https://files.pythonhosted.org/packages/af/c0/714e86569a34ee035d443a6cbcae1b453d2ed331033153aa14a1df4d067d/dequeai-0.8124.tar.gz
+[2023-07-11 01:27:40] INFO root fetch - processPackages [dequeai]: Downloading https://files.pythonhosted.org/packages/af/c0/714e86569a34ee035d443a6cbcae1b453d2ed331033153aa14a1df4d067d/dequeai-0.8124.tar.gz
+[2023-07-11 01:27:40] INFO root fetch - processPackages [protosaurus]: Downloading https://files.pythonhosted.org/packages/7c/20/880d1cbdf80f1c3ed5d62bbd0a232e54636df0209f9e3a69a7e9e881f140/protosaurus-0.2.0.tar.gz
+[2023-07-11 01:27:40] INFO root fetch - processPackages [dequeai]: executing diffoscope
+[2023-07-11 01:27:40] INFO root fetch - processPackages [dequeai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dequeai-0.812.tar.gz tmp/dequeai-0.8124.tar.gz --markdown 20230711/d/dequeai/0.812-0.8124/diff.md --exclude *.pyd
+[2023-07-11 01:27:40] INFO root fetch - processPackages [dequeai]: executing diffoscope
+[2023-07-11 01:27:40] INFO root fetch - processPackages [dequeai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dequeai-0.812.tar.gz tmp/dequeai-0.8124.tar.gz --markdown 20230711/d/dequeai/0.812-0.8124/diff.md --exclude *.pyd
+[2023-07-11 01:27:40] INFO root fetch - processPackages [protosaurus]: executing diffoscope
+[2023-07-11 01:27:40] INFO root fetch - processPackages [protosaurus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/protosaurus-0.1.0.tar.gz tmp/protosaurus-0.2.0.tar.gz --markdown 20230711/p/protosaurus/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-11 01:27:40] INFO root fetch - processPackages [tonic]: executing diffoscope
+[2023-07-11 01:27:40] INFO root fetch - processPackages [tonic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tonic-1.3.3.dev2.tar.gz tmp/tonic-1.3.3.dev3.tar.gz --markdown 20230711/t/tonic/1.3.3.dev2-1.3.3.dev3/diff.md --exclude *.pyd
+[2023-07-11 01:27:40] INFO root fetch - processPackages [task2b]: Remove: archive file [/home/abi/fetcher/tmp/task2b-1.0.8.tar.gz]
+[2023-07-11 01:27:40] INFO root fetch - processPackages [task2b]: Remove: archive file [/home/abi/fetcher/tmp/task2b-1.0.9.tar.gz]
+[2023-07-11 01:27:40] INFO root fetch - main [MainThread]: End processing [task2b]: success
+[2023-07-11 01:27:40] INFO root fetch - processPackages [ghak]: Remove: archive file [/home/abi/fetcher/tmp/ghak-0.2.734-py3.11.egg]
+[2023-07-11 01:27:40] INFO root fetch - processPackages [ghak]: Remove: archive file [/home/abi/fetcher/tmp/ghak-0.2.744-py3-none-any.whl.zip]
+[2023-07-11 01:27:40] INFO root fetch - main [MainThread]: End processing [ghak]: success
+[2023-07-11 01:27:41] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.98.tar.gz]
+[2023-07-11 01:27:41] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.99.tar.gz]
+[2023-07-11 01:27:41] INFO root fetch - main [MainThread]: End processing [TheSilent]: success
+[2023-07-11 01:27:41] INFO root fetch - processPackages [pypeec]: Remove: archive file [/home/abi/fetcher/tmp/pypeec-0.0.2.tar.gz]
+[2023-07-11 01:27:41] INFO root fetch - processPackages [pypeec]: Remove: archive file [/home/abi/fetcher/tmp/pypeec-0.0.3.tar.gz]
+[2023-07-11 01:27:41] INFO root fetch - main [MainThread]: End processing [pypeec]: success
+[2023-07-11 01:27:41] INFO root fetch - processPackages [dequeai]: Remove: archive file [/home/abi/fetcher/tmp/dequeai-0.812.tar.gz]
+[2023-07-11 01:27:41] INFO root fetch - processPackages [dequeai]: Remove: archive file [/home/abi/fetcher/tmp/dequeai-0.8124.tar.gz]
+[2023-07-11 01:27:41] INFO root fetch - main [MainThread]: End processing [dequeai]: success
+[2023-07-11 01:27:41] INFO root fetch - processPackages [protosaurus]: Remove: archive file [/home/abi/fetcher/tmp/protosaurus-0.1.0.tar.gz]
+[2023-07-11 01:27:41] INFO root fetch - processPackages [protosaurus]: Remove: archive file [/home/abi/fetcher/tmp/protosaurus-0.2.0.tar.gz]
+[2023-07-11 01:27:41] INFO root fetch - main [MainThread]: End processing [protosaurus]: success
+[2023-07-11 01:27:41] INFO root fetch - main [MainThread]: End processing [dequeai]: success
+[2023-07-11 01:27:42] INFO root fetch - processPackages [tonic]: Remove: archive file [/home/abi/fetcher/tmp/tonic-1.3.3.dev2.tar.gz]
+[2023-07-11 01:27:42] INFO root fetch - processPackages [tonic]: Remove: archive file [/home/abi/fetcher/tmp/tonic-1.3.3.dev3.tar.gz]
+[2023-07-11 01:27:42] INFO root fetch - main [MainThread]: End processing [tonic]: success
+[2023-07-11 01:27:42] INFO root fetch - main [MainThread]: Store serial: [18837462]
