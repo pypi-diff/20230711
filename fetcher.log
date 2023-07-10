@@ -716,3 +716,76 @@
 [2023-07-11 00:40:41] INFO root fetch - processPackages [discovery-client]: Remove: archive file [/home/abi/fetcher/tmp/discovery-client-1.0.2.tar.gz]
 [2023-07-11 00:40:41] INFO root fetch - main [MainThread]: End processing [discovery-client]: success
 [2023-07-11 00:40:41] INFO root fetch - main [MainThread]: Store serial: [18837161]
+[2023-07-11 00:45:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18837161]
+[2023-07-11 00:45:50] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-11 00:45:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-vendor-promo
+[2023-07-11 00:45:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: normalloger
+[2023-07-11 00:45:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: momoposter
+[2023-07-11 00:45:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: always-updates
+[2023-07-11 00:45:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: always-updates
+[2023-07-11 00:45:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: parsl
+[2023-07-11 00:45:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pmjs
+[2023-07-11 00:45:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: boa-framework
+[2023-07-11 00:45:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: task2b
+[2023-07-11 00:45:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: super-glass-lsp
+[2023-07-11 00:45:50] INFO root fetch - processPackages [task2b]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-11 00:45:50] WARNING root fetch - processPackages [normalloger]: Skipping, unable to determine old version
+[2023-07-11 00:45:50] INFO root fetch - main [MainThread]: End processing [normalloger] error
+[2023-07-11 00:45:50] INFO root fetch - processPackages [django-vendor-promo]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-11 00:45:50] INFO root fetch - processPackages [boa-framework]: New version: [0.8.6] Old Version: [0.8.5]
+[2023-07-11 00:45:50] WARNING root fetch - processPackages [pmjs]: Skipping, unable to determine old version
+[2023-07-11 00:45:50] INFO root fetch - main [MainThread]: End processing [pmjs] error
+[2023-07-11 00:45:50] WARNING root fetch - processPackages [momoposter]: Skipping, unable to determine old version
+[2023-07-11 00:45:50] INFO root fetch - main [MainThread]: End processing [momoposter] error
+[2023-07-11 00:45:50] INFO root fetch - processPackages [parsl]: New version: [2023.7.3] Old Version: [2023.7.10]
+[2023-07-11 00:45:50] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-07-11 00:45:50] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-07-11 00:45:50] INFO root fetch - processPackages [super-glass-lsp]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-07-11 00:45:50] INFO root fetch - processPackages [django-vendor-promo]: Downloading https://files.pythonhosted.org/packages/ea/7b/fd09131f8751b4d4661fd97169dd6876c78bb5f40c6e1f114af3c0a4ac97/django-vendor-promo-0.2.8.tar.gz
+[2023-07-11 00:45:50] INFO root fetch - processPackages [task2b]: Downloading https://files.pythonhosted.org/packages/82/1b/13c47134ffa958a0a9317c0e6f191d71b07b9ce7f95cc3d519eab194e635/task2b-1.0.8.tar.gz
+[2023-07-11 00:45:50] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/5a/dc/f0b9cc3dcafc81b230cec909ee0b7d6229e97b28093d8f6f51c2ace8468b/always_updates-99.8.tar.gz
+[2023-07-11 00:45:50] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/5a/dc/f0b9cc3dcafc81b230cec909ee0b7d6229e97b28093d8f6f51c2ace8468b/always_updates-99.8.tar.gz
+[2023-07-11 00:45:50] INFO root fetch - processPackages [parsl]: Downloading https://files.pythonhosted.org/packages/d9/99/5cf0af99a97503ca1b43848c8dc2eddb8620d6e9b37b4c320251518fffa0/parsl-2023.7.10.tar.gz
+[2023-07-11 00:45:50] INFO root fetch - processPackages [boa-framework]: Downloading https://files.pythonhosted.org/packages/b4/54/3b6d738d072d85729d889fcf729250163e3c3ee0260d447df18a387c2512/boa-framework-0.8.5.tar.gz
+[2023-07-11 00:45:50] INFO root fetch - processPackages [super-glass-lsp]: Downloading https://files.pythonhosted.org/packages/9c/8c/aba5d3777080af19263f3368da07bde70757ab2cb93d1230ebefd170af59/super_glass_lsp-0.6.0.tar.gz
+[2023-07-11 00:45:50] INFO root fetch - processPackages [django-vendor-promo]: Downloading https://files.pythonhosted.org/packages/fb/5f/55d6feb741df0ca3f8eb2239a45644f8649e270ea43e697eb6a24ba8f5da/django-vendor-promo-0.2.9.tar.gz
+[2023-07-11 00:45:50] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/b1/bd/641679b0c9c7b7c15f7084f8215f70f9189c0f4efd5633e45fe0a7f33ba5/always_updates-99.9.tar.gz
+[2023-07-11 00:45:50] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/b1/bd/641679b0c9c7b7c15f7084f8215f70f9189c0f4efd5633e45fe0a7f33ba5/always_updates-99.9.tar.gz
+[2023-07-11 00:45:50] INFO root fetch - processPackages [task2b]: Downloading https://files.pythonhosted.org/packages/bf/0d/933953174b4f7ddad864b80ca995cc96b21b197f2a1ebc2f21dfed2553f1/task2b-1.0.9.tar.gz
+[2023-07-11 00:45:51] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-07-11 00:45:51] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230711/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-07-11 00:45:51] INFO root fetch - processPackages [django-vendor-promo]: executing diffoscope
+[2023-07-11 00:45:51] INFO root fetch - processPackages [django-vendor-promo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-vendor-promo-0.2.8.tar.gz tmp/django-vendor-promo-0.2.9.tar.gz --markdown 20230711/d/django-vendor-promo/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-11 00:45:51] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-07-11 00:45:51] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230711/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-07-11 00:45:51] INFO root fetch - processPackages [super-glass-lsp]: Downloading https://files.pythonhosted.org/packages/a2/39/358b4983b40ff0f6ed408019fe576ce1fe39577d0418abf02559a9d1be48/super_glass_lsp-0.7.0.tar.gz
+[2023-07-11 00:45:51] INFO root fetch - processPackages [task2b]: executing diffoscope
+[2023-07-11 00:45:51] INFO root fetch - processPackages [task2b]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/task2b-1.0.8.tar.gz tmp/task2b-1.0.9.tar.gz --markdown 20230711/t/task2b/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-11 00:45:51] INFO root fetch - processPackages [parsl]: Downloading https://files.pythonhosted.org/packages/79/26/09e9b5612f75ad60b2daad9b8b512ece02113a169a8e4cbbd4a346c02af2/parsl-2023.7.3.tar.gz
+[2023-07-11 00:45:51] INFO root fetch - processPackages [boa-framework]: Downloading https://files.pythonhosted.org/packages/d6/2d/8c8bae3fe1d398bd204586e99361682eb2f0f46426256477f7528938654f/boa-framework-0.8.6.tar.gz
+[2023-07-11 00:45:51] INFO root fetch - processPackages [super-glass-lsp]: executing diffoscope
+[2023-07-11 00:45:51] INFO root fetch - processPackages [super-glass-lsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/super_glass_lsp-0.6.0.tar.gz tmp/super_glass_lsp-0.7.0.tar.gz --markdown 20230711/s/super-glass-lsp/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-07-11 00:45:51] INFO root fetch - processPackages [parsl]: executing diffoscope
+[2023-07-11 00:45:51] INFO root fetch - processPackages [parsl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parsl-2023.7.10.tar.gz tmp/parsl-2023.7.3.tar.gz --markdown 20230711/p/parsl/2023.7.10-2023.7.3/diff.md --exclude *.pyd
+[2023-07-11 00:45:51] INFO root fetch - processPackages [boa-framework]: executing diffoscope
+[2023-07-11 00:45:51] INFO root fetch - processPackages [boa-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boa-framework-0.8.5.tar.gz tmp/boa-framework-0.8.6.tar.gz --markdown 20230711/b/boa-framework/0.8.5-0.8.6/diff.md --exclude *.pyd
+[2023-07-11 00:45:52] INFO root fetch - processPackages [always-updates]: Remove: archive file [/home/abi/fetcher/tmp/always_updates-99.8.tar.gz]
+[2023-07-11 00:45:52] INFO root fetch - processPackages [always-updates]: Remove: archive file [/home/abi/fetcher/tmp/always_updates-99.9.tar.gz]
+[2023-07-11 00:45:52] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-07-11 00:45:52] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-07-11 00:45:52] INFO root fetch - processPackages [django-vendor-promo]: Remove: archive file [/home/abi/fetcher/tmp/django-vendor-promo-0.2.8.tar.gz]
+[2023-07-11 00:45:52] INFO root fetch - processPackages [django-vendor-promo]: Remove: archive file [/home/abi/fetcher/tmp/django-vendor-promo-0.2.9.tar.gz]
+[2023-07-11 00:45:52] INFO root fetch - main [MainThread]: End processing [django-vendor-promo]: success
+[2023-07-11 00:45:52] INFO root fetch - processPackages [task2b]: Remove: archive file [/home/abi/fetcher/tmp/task2b-1.0.8.tar.gz]
+[2023-07-11 00:45:52] INFO root fetch - processPackages [task2b]: Remove: archive file [/home/abi/fetcher/tmp/task2b-1.0.9.tar.gz]
+[2023-07-11 00:45:52] INFO root fetch - main [MainThread]: End processing [task2b]: success
+[2023-07-11 00:45:52] INFO root fetch - processPackages [super-glass-lsp]: Remove: archive file [/home/abi/fetcher/tmp/super_glass_lsp-0.6.0.tar.gz]
+[2023-07-11 00:45:52] INFO root fetch - processPackages [super-glass-lsp]: Remove: archive file [/home/abi/fetcher/tmp/super_glass_lsp-0.7.0.tar.gz]
+[2023-07-11 00:45:52] INFO root fetch - main [MainThread]: End processing [super-glass-lsp]: success
+[2023-07-11 00:45:53] INFO root fetch - processPackages [parsl]: Remove: archive file [/home/abi/fetcher/tmp/parsl-2023.7.10.tar.gz]
+[2023-07-11 00:45:53] INFO root fetch - processPackages [parsl]: Remove: archive file [/home/abi/fetcher/tmp/parsl-2023.7.3.tar.gz]
+[2023-07-11 00:45:53] INFO root fetch - main [MainThread]: End processing [parsl]: success
+[2023-07-11 00:45:54] INFO root fetch - processPackages [boa-framework]: Remove: archive file [/home/abi/fetcher/tmp/boa-framework-0.8.5.tar.gz]
+[2023-07-11 00:45:54] INFO root fetch - processPackages [boa-framework]: Remove: archive file [/home/abi/fetcher/tmp/boa-framework-0.8.6.tar.gz]
+[2023-07-11 00:45:54] INFO root fetch - main [MainThread]: End processing [boa-framework]: success
+[2023-07-11 00:45:54] INFO root fetch - main [MainThread]: Store serial: [18837196]
