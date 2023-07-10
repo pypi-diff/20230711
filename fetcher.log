@@ -581,3 +581,81 @@
 [2023-07-11 00:30:17] INFO root fetch - processPackages [axonius-api-client]: Remove: archive file [/home/abi/fetcher/tmp/axonius_api_client-5.0.6-py2.py3-none-any.whl.zip]
 [2023-07-11 00:30:17] INFO root fetch - main [MainThread]: End processing [axonius-api-client]: success
 [2023-07-11 00:30:17] INFO root fetch - main [MainThread]: Store serial: [18837116]
+[2023-07-11 00:35:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18837116]
+[2023-07-11 00:35:26] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-11 00:35:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bus-station
+[2023-07-11 00:35:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ibm-cloud-networking-services
+[2023-07-11 00:35:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: always-updates
+[2023-07-11 00:35:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: untouched
+[2023-07-11 00:35:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pftree
+[2023-07-11 00:35:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: elsasa
+[2023-07-11 00:35:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: goxlr
+[2023-07-11 00:35:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hypha
+[2023-07-11 00:35:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: agixt
+[2023-07-11 00:35:26] INFO root fetch - processPackages [bus-station]: New version: [6.1.3] Old Version: [6.1.2]
+[2023-07-11 00:35:26] INFO root fetch - processPackages [goxlr]: New version: [1.4.0] Old Version: [1.3.0]
+[2023-07-11 00:35:26] INFO root fetch - processPackages [untouched]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-11 00:35:26] INFO root fetch - processPackages [pftree]: New version: [3.4.2] Old Version: [3.4.0]
+[2023-07-11 00:35:26] INFO root fetch - processPackages [ibm-cloud-networking-services]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-11 00:35:26] WARNING root fetch - processPackages [elsasa]: Skipping, unable to determine old version
+[2023-07-11 00:35:26] INFO root fetch - main [MainThread]: End processing [elsasa] error
+[2023-07-11 00:35:26] INFO root fetch - processPackages [hypha]: New version: [0.15.8] Old Version: [0.15.7]
+[2023-07-11 00:35:26] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-07-11 00:35:26] INFO root fetch - processPackages [agixt]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-07-11 00:35:27] INFO root fetch - processPackages [agixt]: Downloading https://files.pythonhosted.org/packages/9b/11/abab4d9f1ba0cda023b8a8f3683cf10face70f19995cd228ece61cde00d0/agixt-1.3.8.tar.gz
+[2023-07-11 00:35:27] INFO root fetch - processPackages [hypha]: Downloading https://files.pythonhosted.org/packages/3b/1c/2587650834b82f5294e81891a15c92e1504fc26a7cb3ea08be1d64f1236a/hypha-0.15.7.tar.gz
+[2023-07-11 00:35:27] INFO root fetch - processPackages [ibm-cloud-networking-services]: Downloading https://files.pythonhosted.org/packages/20/ec/4b999977f095577b5313388f99a93eef7063f9cba146676bbd3ff3eff182/ibm-cloud-networking-services-0.8.0.tar.gz
+[2023-07-11 00:35:27] INFO root fetch - processPackages [untouched]: Downloading https://files.pythonhosted.org/packages/8c/7a/1b46aac8482a8cd747358c0106022973479007280f170340a43d06363081/untouched-0.1.3.tar.gz
+[2023-07-11 00:35:27] INFO root fetch - processPackages [bus-station]: Downloading https://files.pythonhosted.org/packages/59/8e/d2b6d8daf318e661cee5c151668f84b60eb7ff38d45324e8b64219447f99/bus_station-6.1.2.tar.gz
+[2023-07-11 00:35:27] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/5a/dc/f0b9cc3dcafc81b230cec909ee0b7d6229e97b28093d8f6f51c2ace8468b/always_updates-99.8.tar.gz
+[2023-07-11 00:35:27] INFO root fetch - processPackages [goxlr]: Downloading https://files.pythonhosted.org/packages/b9/ce/21930508452f0cbb43e9a810b5be612744658715378c385a0a7d7ca09ad1/goxlr-1.3.0.tar.gz
+[2023-07-11 00:35:27] INFO root fetch - processPackages [pftree]: Downloading https://files.pythonhosted.org/packages/09/45/3a58fab23c04d7e6dda077a1ebb830ee1a1430015a45d5903ad11f3c7725/pftree-3.4.0.tar.gz
+[2023-07-11 00:35:27] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/b1/bd/641679b0c9c7b7c15f7084f8215f70f9189c0f4efd5633e45fe0a7f33ba5/always_updates-99.9.tar.gz
+[2023-07-11 00:35:27] INFO root fetch - processPackages [hypha]: Downloading https://files.pythonhosted.org/packages/5f/f5/974dbcd4812824cf3f90d85490f8c6b7df7931f35b4ea2b5bdb8cd72cdbf/hypha-0.15.8.tar.gz
+[2023-07-11 00:35:27] INFO root fetch - processPackages [agixt]: Downloading https://files.pythonhosted.org/packages/0f/92/cb9f740c60a0e8bc877dff4b237b465b3144035abfefc80d41fb7c1e5603/agixt-1.3.9.tar.gz
+[2023-07-11 00:35:27] INFO root fetch - processPackages [untouched]: Downloading https://files.pythonhosted.org/packages/a0/bf/a97ca7ff0813958ace35ce35d4e4d8af5dedfb8770231c121c56e546d543/untouched-0.1.4.tar.gz
+[2023-07-11 00:35:27] INFO root fetch - processPackages [bus-station]: Downloading https://files.pythonhosted.org/packages/74/38/26a7c29fa1e32dd24748afa5177ae9854d4037de23d375f0514beb911e87/bus_station-6.1.3.tar.gz
+[2023-07-11 00:35:27] INFO root fetch - processPackages [goxlr]: Downloading https://files.pythonhosted.org/packages/3a/8f/72d6a24710fdf259d413c8a1ee7dbc4abda5e5b2e4e75b72a3deb0ed247f/goxlr-1.4.0.tar.gz
+[2023-07-11 00:35:27] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-07-11 00:35:27] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230711/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-07-11 00:35:27] INFO root fetch - processPackages [hypha]: executing diffoscope
+[2023-07-11 00:35:27] INFO root fetch - processPackages [hypha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hypha-0.15.7.tar.gz tmp/hypha-0.15.8.tar.gz --markdown 20230711/h/hypha/0.15.7-0.15.8/diff.md --exclude *.pyd
+[2023-07-11 00:35:27] INFO root fetch - processPackages [agixt]: executing diffoscope
+[2023-07-11 00:35:27] INFO root fetch - processPackages [agixt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agixt-1.3.8.tar.gz tmp/agixt-1.3.9.tar.gz --markdown 20230711/a/agixt/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-07-11 00:35:27] INFO root fetch - processPackages [pftree]: Downloading https://files.pythonhosted.org/packages/b5/4b/78072f110f326310b2e08014fe743289d83bb332cd3bf7bba7dc0b858c02/pftree-3.4.2.tar.gz
+[2023-07-11 00:35:27] INFO root fetch - processPackages [untouched]: executing diffoscope
+[2023-07-11 00:35:27] INFO root fetch - processPackages [untouched]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/untouched-0.1.3.tar.gz tmp/untouched-0.1.4.tar.gz --markdown 20230711/u/untouched/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-11 00:35:28] INFO root fetch - processPackages [bus-station]: executing diffoscope
+[2023-07-11 00:35:28] INFO root fetch - processPackages [bus-station]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bus_station-6.1.2.tar.gz tmp/bus_station-6.1.3.tar.gz --markdown 20230711/b/bus-station/6.1.2-6.1.3/diff.md --exclude *.pyd
+[2023-07-11 00:35:28] INFO root fetch - processPackages [pftree]: executing diffoscope
+[2023-07-11 00:35:28] INFO root fetch - processPackages [pftree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pftree-3.4.0.tar.gz tmp/pftree-3.4.2.tar.gz --markdown 20230711/p/pftree/3.4.0-3.4.2/diff.md --exclude *.pyd
+[2023-07-11 00:35:28] INFO root fetch - processPackages [goxlr]: executing diffoscope
+[2023-07-11 00:35:28] INFO root fetch - processPackages [ibm-cloud-networking-services]: Downloading https://files.pythonhosted.org/packages/70/83/1d5777fe03b20a1faf5afb88450fbe82e915d1bb852985af147eee9e6cce/ibm-cloud-networking-services-0.9.0.tar.gz
+[2023-07-11 00:35:28] INFO root fetch - processPackages [goxlr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/goxlr-1.3.0.tar.gz tmp/goxlr-1.4.0.tar.gz --markdown 20230711/g/goxlr/1.3.0-1.4.0/diff.md --exclude *.pyd
+[2023-07-11 00:35:28] INFO root fetch - processPackages [ibm-cloud-networking-services]: executing diffoscope
+[2023-07-11 00:35:28] INFO root fetch - processPackages [ibm-cloud-networking-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ibm-cloud-networking-services-0.8.0.tar.gz tmp/ibm-cloud-networking-services-0.9.0.tar.gz --markdown 20230711/i/ibm-cloud-networking-services/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-11 00:35:29] INFO root fetch - processPackages [always-updates]: Remove: archive file [/home/abi/fetcher/tmp/always_updates-99.8.tar.gz]
+[2023-07-11 00:35:29] INFO root fetch - processPackages [always-updates]: Remove: archive file [/home/abi/fetcher/tmp/always_updates-99.9.tar.gz]
+[2023-07-11 00:35:29] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-07-11 00:35:29] INFO root fetch - processPackages [untouched]: Remove: archive file [/home/abi/fetcher/tmp/untouched-0.1.3.tar.gz]
+[2023-07-11 00:35:29] INFO root fetch - processPackages [untouched]: Remove: archive file [/home/abi/fetcher/tmp/untouched-0.1.4.tar.gz]
+[2023-07-11 00:35:29] INFO root fetch - main [MainThread]: End processing [untouched]: success
+[2023-07-11 00:35:29] INFO root fetch - processPackages [pftree]: Remove: archive file [/home/abi/fetcher/tmp/pftree-3.4.0.tar.gz]
+[2023-07-11 00:35:29] INFO root fetch - processPackages [pftree]: Remove: archive file [/home/abi/fetcher/tmp/pftree-3.4.2.tar.gz]
+[2023-07-11 00:35:29] INFO root fetch - main [MainThread]: End processing [pftree]: success
+[2023-07-11 00:35:29] INFO root fetch - processPackages [goxlr]: Remove: archive file [/home/abi/fetcher/tmp/goxlr-1.3.0.tar.gz]
+[2023-07-11 00:35:29] INFO root fetch - processPackages [goxlr]: Remove: archive file [/home/abi/fetcher/tmp/goxlr-1.4.0.tar.gz]
+[2023-07-11 00:35:29] INFO root fetch - main [MainThread]: End processing [goxlr]: success
+[2023-07-11 00:35:29] INFO root fetch - processPackages [hypha]: Remove: archive file [/home/abi/fetcher/tmp/hypha-0.15.7.tar.gz]
+[2023-07-11 00:35:29] INFO root fetch - processPackages [hypha]: Remove: archive file [/home/abi/fetcher/tmp/hypha-0.15.8.tar.gz]
+[2023-07-11 00:35:29] INFO root fetch - main [MainThread]: End processing [hypha]: success
+[2023-07-11 00:35:29] INFO root fetch - processPackages [agixt]: Remove: archive file [/home/abi/fetcher/tmp/agixt-1.3.8.tar.gz]
+[2023-07-11 00:35:29] INFO root fetch - processPackages [agixt]: Remove: archive file [/home/abi/fetcher/tmp/agixt-1.3.9.tar.gz]
+[2023-07-11 00:35:29] INFO root fetch - main [MainThread]: End processing [agixt]: success
+[2023-07-11 00:35:29] INFO root fetch - processPackages [bus-station]: Remove: archive file [/home/abi/fetcher/tmp/bus_station-6.1.2.tar.gz]
+[2023-07-11 00:35:29] INFO root fetch - processPackages [bus-station]: Remove: archive file [/home/abi/fetcher/tmp/bus_station-6.1.3.tar.gz]
+[2023-07-11 00:35:29] INFO root fetch - main [MainThread]: End processing [bus-station]: success
+[2023-07-11 00:35:29] INFO root fetch - processPackages [ibm-cloud-networking-services]: Remove: archive file [/home/abi/fetcher/tmp/ibm-cloud-networking-services-0.8.0.tar.gz]
+[2023-07-11 00:35:29] INFO root fetch - processPackages [ibm-cloud-networking-services]: Remove: archive file [/home/abi/fetcher/tmp/ibm-cloud-networking-services-0.9.0.tar.gz]
+[2023-07-11 00:35:29] INFO root fetch - main [MainThread]: End processing [ibm-cloud-networking-services]: success
+[2023-07-11 00:35:29] INFO root fetch - main [MainThread]: Store serial: [18837145]
