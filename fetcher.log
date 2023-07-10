@@ -1188,3 +1188,36 @@
 [2023-07-11 01:12:04] INFO root fetch - processPackages [dagster]: Remove: archive file [/home/abi/fetcher/tmp/dagster-1.3.9rc0.tar.gz]
 [2023-07-11 01:12:04] INFO root fetch - main [MainThread]: End processing [dagster]: success
 [2023-07-11 01:12:04] INFO root fetch - main [MainThread]: Store serial: [18837342]
+[2023-07-11 01:17:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18837342]
+[2023-07-11 01:17:13] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-11 01:17:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: metget
+[2023-07-11 01:17:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nextstrain-augur
+[2023-07-11 01:17:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dequeai
+[2023-07-11 01:17:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: quantconnect-stubs
+[2023-07-11 01:17:13] INFO root fetch - processPackages [dequeai]: New version: [0.812] Old Version: [0.810]
+[2023-07-11 01:17:13] WARNING root fetch - processPackages [metget]: Skipping, unable to determine old version
+[2023-07-11 01:17:13] INFO root fetch - main [MainThread]: End processing [metget] error
+[2023-07-11 01:17:13] INFO root fetch - processPackages [nextstrain-augur]: New version: [9.0.0] Old Version: [8.0.0]
+[2023-07-11 01:17:13] INFO root fetch - processPackages [quantconnect-stubs]: New version: [9998] Old Version: [9997]
+[2023-07-11 01:17:13] INFO root fetch - processPackages [dequeai]: Downloading https://files.pythonhosted.org/packages/61/80/3028bd5d26ea9e6a17e21e7b5b8ff3584b3257f65fdad1e9f4ab71113003/dequeai-0.810.tar.gz
+[2023-07-11 01:17:13] INFO root fetch - processPackages [quantconnect-stubs]: Downloading https://files.pythonhosted.org/packages/c1/05/f15c16a3f852decfd032ce1688dfdf02fd7289f1780742453533e8c55209/quantconnect-stubs-9997.tar.gz
+[2023-07-11 01:17:14] INFO root fetch - processPackages [nextstrain-augur]: Downloading https://files.pythonhosted.org/packages/ef/e6/a1249ffd712c94df4813f8f473fe4b385a665ba5d144bb3eed6dc6868243/nextstrain-augur-8.0.0.tar.gz
+[2023-07-11 01:17:14] INFO root fetch - processPackages [dequeai]: Downloading https://files.pythonhosted.org/packages/6d/be/485665bd5dedcf77bd74d3f5658bcd03a96b5b0d4656255b007521a9197d/dequeai-0.812.tar.gz
+[2023-07-11 01:17:14] INFO root fetch - processPackages [quantconnect-stubs]: Downloading https://files.pythonhosted.org/packages/b7/4c/71e6bb724f14efcd8865f2aa692528a4c45877c58f5cf8c964a8e0fc0e74/quantconnect-stubs-9998.tar.gz
+[2023-07-11 01:17:14] INFO root fetch - processPackages [quantconnect-stubs]: executing diffoscope
+[2023-07-11 01:17:14] INFO root fetch - processPackages [quantconnect-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantconnect-stubs-9997.tar.gz tmp/quantconnect-stubs-9998.tar.gz --markdown 20230711/q/quantconnect-stubs/9997-9998/diff.md --exclude *.pyd
+[2023-07-11 01:17:14] INFO root fetch - processPackages [dequeai]: executing diffoscope
+[2023-07-11 01:17:14] INFO root fetch - processPackages [dequeai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dequeai-0.810.tar.gz tmp/dequeai-0.812.tar.gz --markdown 20230711/d/dequeai/0.810-0.812/diff.md --exclude *.pyd
+[2023-07-11 01:17:14] INFO root fetch - processPackages [nextstrain-augur]: Downloading https://files.pythonhosted.org/packages/83/c2/5e89646d29ad9efa83c7396e4fef6cfcfaec8629134749252efd07e4fccc/nextstrain-augur-9.0.0.tar.gz
+[2023-07-11 01:17:14] INFO root fetch - processPackages [nextstrain-augur]: executing diffoscope
+[2023-07-11 01:17:14] INFO root fetch - processPackages [nextstrain-augur]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nextstrain-augur-8.0.0.tar.gz tmp/nextstrain-augur-9.0.0.tar.gz --markdown 20230711/n/nextstrain-augur/8.0.0-9.0.0/diff.md --exclude *.pyd
+[2023-07-11 01:17:15] INFO root fetch - processPackages [dequeai]: Remove: archive file [/home/abi/fetcher/tmp/dequeai-0.810.tar.gz]
+[2023-07-11 01:17:15] INFO root fetch - processPackages [dequeai]: Remove: archive file [/home/abi/fetcher/tmp/dequeai-0.812.tar.gz]
+[2023-07-11 01:17:15] INFO root fetch - main [MainThread]: End processing [dequeai]: success
+[2023-07-11 01:17:15] INFO root fetch - processPackages [nextstrain-augur]: Remove: archive file [/home/abi/fetcher/tmp/nextstrain-augur-8.0.0.tar.gz]
+[2023-07-11 01:17:15] INFO root fetch - processPackages [nextstrain-augur]: Remove: archive file [/home/abi/fetcher/tmp/nextstrain-augur-9.0.0.tar.gz]
+[2023-07-11 01:17:15] INFO root fetch - main [MainThread]: End processing [nextstrain-augur]: success
+[2023-07-11 01:17:17] INFO root fetch - processPackages [quantconnect-stubs]: Remove: archive file [/home/abi/fetcher/tmp/quantconnect-stubs-9997.tar.gz]
+[2023-07-11 01:17:17] INFO root fetch - processPackages [quantconnect-stubs]: Remove: archive file [/home/abi/fetcher/tmp/quantconnect-stubs-9998.tar.gz]
+[2023-07-11 01:17:17] INFO root fetch - main [MainThread]: End processing [quantconnect-stubs]: success
+[2023-07-11 01:17:17] INFO root fetch - main [MainThread]: Store serial: [18837355]
