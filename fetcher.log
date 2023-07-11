@@ -15456,3 +15456,85 @@ AssertionError: tmp/doctran-0.0.6.tar.gz does not exist
 [2023-07-11 11:40:06] INFO root fetch - processPackages [xrootd]: Remove: archive file [/home/abi/fetcher/tmp/xrootd-5.6.1.tar.gz]
 [2023-07-11 11:40:06] INFO root fetch - main [MainThread]: End processing [xrootd]: success
 [2023-07-11 11:40:06] INFO root fetch - main [MainThread]: Store serial: [18843273]
+[2023-07-11 11:45:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18843273]
+[2023-07-11 11:45:15] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-11 11:45:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: geneinfo
+[2023-07-11 11:45:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: KofiPyQtHelper
+[2023-07-11 11:45:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: balena-sdk
+[2023-07-11 11:45:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: few-shot-priming
+[2023-07-11 11:45:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aligo
+[2023-07-11 11:45:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: moonwiki
+[2023-07-11 11:45:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: chatgpt-klient
+[2023-07-11 11:45:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: yellowdog-python-examples
+[2023-07-11 11:45:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: few-shot-priming
+[2023-07-11 11:45:15] INFO root fetch - processPackages [geneinfo]: New version: [3.4.3] Old Version: [3.4.2]
+[2023-07-11 11:45:15] INFO root fetch - processPackages [moonwiki]: New version: [2023.7.6.3] Old Version: [2023.7.6.2]
+[2023-07-11 11:45:15] INFO root fetch - processPackages [balena-sdk]: New version: [9.5.0] Old Version: [9.4.1]
+[2023-07-11 11:45:15] INFO root fetch - processPackages [yellowdog-python-examples]: New version: [6.0.9] Old Version: [6.0.8]
+[2023-07-11 11:45:15] INFO root fetch - processPackages [KofiPyQtHelper]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-11 11:45:15] INFO root fetch - processPackages [chatgpt-klient]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-11 11:45:15] INFO root fetch - processPackages [aligo]: New version: [6.0.5] Old Version: [6.0.4]
+[2023-07-11 11:45:16] INFO root fetch - processPackages [few-shot-priming]: New version: [0.0.99] Old Version: [0.0.96]
+[2023-07-11 11:45:16] INFO root fetch - processPackages [few-shot-priming]: New version: [0.0.99] Old Version: [0.0.96]
+[2023-07-11 11:45:16] INFO root fetch - processPackages [yellowdog-python-examples]: Downloading https://files.pythonhosted.org/packages/a2/48/cdf0ef4fc387a3a6c47a9aaba1885cff4396c3237e445564179d92552e23/yellowdog-python-examples-6.0.8.tar.gz
+[2023-07-11 11:45:16] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/d5/95/d70c95da3e78b71d35838af276daf5b2f53394c4c9a44fa5dd8f2aa64498/few_shot_priming-0.0.96-py3-none-any.whl
+[2023-07-11 11:45:16] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/d5/95/d70c95da3e78b71d35838af276daf5b2f53394c4c9a44fa5dd8f2aa64498/few_shot_priming-0.0.96-py3-none-any.whl
+[2023-07-11 11:45:16] INFO root fetch - processPackages [moonwiki]: Downloading https://files.pythonhosted.org/packages/09/c8/7a6b6c4b3568b573c89e072fd6984dbd3b7d411796327e793e0cbdb11fd1/moonwiki-2023.7.6.2.tar.gz
+[2023-07-11 11:45:16] INFO root fetch - processPackages [chatgpt-klient]: Downloading https://files.pythonhosted.org/packages/a6/60/85677f9a0005fe36213dad98ebb59c26ec084f5eb3a9aa652da58e7f2fb7/chatgpt-klient-0.0.3.tar.gz
+[2023-07-11 11:45:16] INFO root fetch - processPackages [geneinfo]: Downloading https://files.pythonhosted.org/packages/d4/01/156e27ee5628701cfcae303ae0e49bf306be2ccc2ab935497ecb64490c27/geneinfo-3.4.2.tar.gz
+[2023-07-11 11:45:16] INFO root fetch - processPackages [KofiPyQtHelper]: Downloading https://files.pythonhosted.org/packages/63/4e/7cfbf8f1fb3e06804da5fb5e45a5de5541b51fcf1939d564efabc71d575b/KofiPyQtHelper-0.0.2.tar.gz
+[2023-07-11 11:45:16] INFO root fetch - processPackages [balena-sdk]: Downloading https://files.pythonhosted.org/packages/7c/3a/826c7c10ffc8b78eab2c7bbb2b941f0fcec716fad602076130d8c7e186e8/balena-sdk-9.4.1.tar.gz
+[2023-07-11 11:45:16] INFO root fetch - processPackages [aligo]: Downloading https://files.pythonhosted.org/packages/ae/cc/944cebf7bddc1b481341e34f1942223c68a8ea2d3c5d51d4676ad887f635/aligo-6.0.4.tar.gz
+[2023-07-11 11:45:16] INFO root fetch - processPackages [yellowdog-python-examples]: Downloading https://files.pythonhosted.org/packages/ae/46/084ce0552097af030aea7a1ce0ada555a97a695f850b3b501b42c47fc0ff/yellowdog-python-examples-6.0.9.tar.gz
+[2023-07-11 11:45:16] INFO root fetch - processPackages [moonwiki]: Downloading https://files.pythonhosted.org/packages/28/2a/d179fbcdf8c90a0b1e0f8a90815b5261b7c79d954a416f80fa535c3aea21/moonwiki-2023.7.6.3.tar.gz
+[2023-07-11 11:45:16] INFO root fetch - processPackages [chatgpt-klient]: Downloading https://files.pythonhosted.org/packages/4f/08/d5fc1079cbb31b77d66d07ddbd0efc3383655f308d0774c0d55fdd6b2bb6/chatgpt_klient-0.0.4-py3-none-any.whl
+[2023-07-11 11:45:16] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/1e/e8/6368ab93b7135424a35ce07aac4de4056a38a1ae6f862ed63a5a79a4dce6/few_shot_priming-0.0.99-py3-none-any.whl
+[2023-07-11 11:45:16] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/1e/e8/6368ab93b7135424a35ce07aac4de4056a38a1ae6f862ed63a5a79a4dce6/few_shot_priming-0.0.99-py3-none-any.whl
+[2023-07-11 11:45:16] INFO root fetch - processPackages [yellowdog-python-examples]: executing diffoscope
+[2023-07-11 11:45:16] INFO root fetch - processPackages [yellowdog-python-examples]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yellowdog-python-examples-6.0.8.tar.gz tmp/yellowdog-python-examples-6.0.9.tar.gz --markdown 20230711/y/yellowdog-python-examples/6.0.8-6.0.9/diff.md --exclude *.pyd
+[2023-07-11 11:45:16] INFO root fetch - processPackages [moonwiki]: executing diffoscope
+[2023-07-11 11:45:16] INFO root fetch - processPackages [moonwiki]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moonwiki-2023.7.6.2.tar.gz tmp/moonwiki-2023.7.6.3.tar.gz --markdown 20230711/m/moonwiki/2023.7.6.2-2023.7.6.3/diff.md --exclude *.pyd
+[2023-07-11 11:45:16] INFO root fetch - processPackages [chatgpt-klient]: executing diffoscope
+[2023-07-11 11:45:16] INFO root fetch - processPackages [chatgpt-klient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatgpt-klient-0.0.3.tar.gz tmp/chatgpt_klient-0.0.4-py3-none-any.whl.zip --markdown 20230711/c/chatgpt-klient/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-11 11:45:16] INFO root fetch - processPackages [balena-sdk]: Downloading https://files.pythonhosted.org/packages/c3/48/1a5009fee9d5acacbfe883ce8614d2c18a8d29343d117b6305cc858bafd9/balena-sdk-9.5.0.tar.gz
+[2023-07-11 11:45:16] INFO root fetch - processPackages [geneinfo]: Downloading https://files.pythonhosted.org/packages/9e/3e/d321e1f47f12b6863eeb7f1e449f73e5ef4da7ca6864e668a1cb630cc8fc/geneinfo-3.4.3.tar.gz
+[2023-07-11 11:45:16] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2023-07-11 11:45:16] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip --markdown 20230711/f/few-shot-priming/0.0.96-0.0.99/diff.md --exclude *.pyd
+[2023-07-11 11:45:16] INFO root fetch - processPackages [aligo]: Downloading https://files.pythonhosted.org/packages/95/83/33e71123619e914b46ffaa37bee5b52f1e8b19cb34c1a29c02f8b9804472/aligo-6.0.5.tar.gz
+[2023-07-11 11:45:16] INFO root fetch - processPackages [KofiPyQtHelper]: Downloading https://files.pythonhosted.org/packages/08/09/83893a507f421488eb48eee1d81259b3026e37e44a1406de4f2328b227c3/KofiPyQtHelper-0.0.3.tar.gz
+[2023-07-11 11:45:16] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2023-07-11 11:45:16] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip --markdown 20230711/f/few-shot-priming/0.0.96-0.0.99/diff.md --exclude *.pyd
+[2023-07-11 11:45:17] INFO root fetch - processPackages [balena-sdk]: executing diffoscope
+[2023-07-11 11:45:17] INFO root fetch - processPackages [balena-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/balena-sdk-9.4.1.tar.gz tmp/balena-sdk-9.5.0.tar.gz --markdown 20230711/b/balena-sdk/9.4.1-9.5.0/diff.md --exclude *.pyd
+[2023-07-11 11:45:17] INFO root fetch - processPackages [aligo]: executing diffoscope
+[2023-07-11 11:45:17] INFO root fetch - processPackages [aligo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aligo-6.0.4.tar.gz tmp/aligo-6.0.5.tar.gz --markdown 20230711/a/aligo/6.0.4-6.0.5/diff.md --exclude *.pyd
+[2023-07-11 11:45:17] INFO root fetch - processPackages [geneinfo]: executing diffoscope
+[2023-07-11 11:45:17] INFO root fetch - processPackages [geneinfo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geneinfo-3.4.2.tar.gz tmp/geneinfo-3.4.3.tar.gz --markdown 20230711/g/geneinfo/3.4.2-3.4.3/diff.md --exclude *.pyd
+[2023-07-11 11:45:17] INFO root fetch - processPackages [KofiPyQtHelper]: executing diffoscope
+[2023-07-11 11:45:17] INFO root fetch - processPackages [KofiPyQtHelper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KofiPyQtHelper-0.0.2.tar.gz tmp/KofiPyQtHelper-0.0.3.tar.gz --markdown 20230711/K/KofiPyQtHelper/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-11 11:45:18] INFO root fetch - processPackages [chatgpt-klient]: Remove: archive file [/home/abi/fetcher/tmp/chatgpt-klient-0.0.3.tar.gz]
+[2023-07-11 11:45:18] INFO root fetch - processPackages [chatgpt-klient]: Remove: archive file [/home/abi/fetcher/tmp/chatgpt_klient-0.0.4-py3-none-any.whl.zip]
+[2023-07-11 11:45:18] INFO root fetch - main [MainThread]: End processing [chatgpt-klient]: success
+[2023-07-11 11:45:18] INFO root fetch - processPackages [moonwiki]: Remove: archive file [/home/abi/fetcher/tmp/moonwiki-2023.7.6.2.tar.gz]
+[2023-07-11 11:45:18] INFO root fetch - processPackages [moonwiki]: Remove: archive file [/home/abi/fetcher/tmp/moonwiki-2023.7.6.3.tar.gz]
+[2023-07-11 11:45:18] INFO root fetch - main [MainThread]: End processing [moonwiki]: success
+[2023-07-11 11:45:18] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip]
+[2023-07-11 11:45:18] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip]
+[2023-07-11 11:45:18] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2023-07-11 11:45:18] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2023-07-11 11:45:18] INFO root fetch - processPackages [geneinfo]: Remove: archive file [/home/abi/fetcher/tmp/geneinfo-3.4.2.tar.gz]
+[2023-07-11 11:45:18] INFO root fetch - processPackages [geneinfo]: Remove: archive file [/home/abi/fetcher/tmp/geneinfo-3.4.3.tar.gz]
+[2023-07-11 11:45:18] INFO root fetch - main [MainThread]: End processing [geneinfo]: success
+[2023-07-11 11:45:18] INFO root fetch - processPackages [balena-sdk]: Remove: archive file [/home/abi/fetcher/tmp/balena-sdk-9.4.1.tar.gz]
+[2023-07-11 11:45:18] INFO root fetch - processPackages [balena-sdk]: Remove: archive file [/home/abi/fetcher/tmp/balena-sdk-9.5.0.tar.gz]
+[2023-07-11 11:45:18] INFO root fetch - main [MainThread]: End processing [balena-sdk]: success
+[2023-07-11 11:45:18] INFO root fetch - processPackages [yellowdog-python-examples]: Remove: archive file [/home/abi/fetcher/tmp/yellowdog-python-examples-6.0.8.tar.gz]
+[2023-07-11 11:45:18] INFO root fetch - processPackages [yellowdog-python-examples]: Remove: archive file [/home/abi/fetcher/tmp/yellowdog-python-examples-6.0.9.tar.gz]
+[2023-07-11 11:45:18] INFO root fetch - main [MainThread]: End processing [yellowdog-python-examples]: success
+[2023-07-11 11:45:19] INFO root fetch - processPackages [KofiPyQtHelper]: Remove: archive file [/home/abi/fetcher/tmp/KofiPyQtHelper-0.0.2.tar.gz]
+[2023-07-11 11:45:19] INFO root fetch - processPackages [KofiPyQtHelper]: Remove: archive file [/home/abi/fetcher/tmp/KofiPyQtHelper-0.0.3.tar.gz]
+[2023-07-11 11:45:19] INFO root fetch - main [MainThread]: End processing [KofiPyQtHelper]: success
+[2023-07-11 11:45:19] INFO root fetch - processPackages [aligo]: Remove: archive file [/home/abi/fetcher/tmp/aligo-6.0.4.tar.gz]
+[2023-07-11 11:45:19] INFO root fetch - processPackages [aligo]: Remove: archive file [/home/abi/fetcher/tmp/aligo-6.0.5.tar.gz]
+[2023-07-11 11:45:19] INFO root fetch - main [MainThread]: End processing [aligo]: success
+[2023-07-11 11:45:19] INFO root fetch - main [MainThread]: Store serial: [18843302]
