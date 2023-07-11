@@ -7143,3 +7143,51 @@ AssertionError: tmp/doctran-0.0.6.tar.gz does not exist
 [2023-07-11 04:10:07] INFO root fetch - processPackages [nnabla-converter]: Remove: archive file [/home/abi/fetcher/tmp/nnabla_converter-1.36.0-py3-none-any.whl.zip]
 [2023-07-11 04:10:07] INFO root fetch - main [MainThread]: End processing [nnabla-converter]: success
 [2023-07-11 04:10:07] INFO root fetch - main [MainThread]: Store serial: [18839819]
+[2023-07-11 04:15:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18839819]
+[2023-07-11 04:15:16] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-11 04:15:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jcci
+[2023-07-11 04:15:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: apitable
+[2023-07-11 04:15:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: milho-multi-sqlite3-manager
+[2023-07-11 04:15:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bhv
+[2023-07-11 04:15:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nir
+[2023-07-11 04:15:16] INFO root fetch - processPackages [apitable]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-07-11 04:15:16] INFO root fetch - processPackages [bhv]: New version: [0.6.5] Old Version: [0.6.3]
+[2023-07-11 04:15:16] INFO root fetch - processPackages [milho-multi-sqlite3-manager]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-07-11 04:15:16] INFO root fetch - processPackages [jcci]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-11 04:15:16] INFO root fetch - processPackages [nir]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-11 04:15:16] INFO root fetch - processPackages [jcci]: Downloading https://files.pythonhosted.org/packages/fc/03/bab8784fcdca44416f92f0a2c268feefe0b7ad48427345885407657ca696/jcci-0.0.7.tar.gz
+[2023-07-11 04:15:16] INFO root fetch - processPackages [bhv]: Downloading https://files.pythonhosted.org/packages/ef/31/dcce6f91191f6fa6b0e4c6215180470659af0feb44272df4ec08e6d601d0/bhv-0.6.3.tar.gz
+[2023-07-11 04:15:16] INFO root fetch - processPackages [milho-multi-sqlite3-manager]: Downloading https://files.pythonhosted.org/packages/97/0c/f31271927d89f1f109e295ef2de18643cb30421624e961b104805ccae3da/milho_multi_sqlite3_manager-0.2.1.tar.gz
+[2023-07-11 04:15:16] INFO root fetch - processPackages [nir]: Downloading https://files.pythonhosted.org/packages/a0/8c/785a323af2143085c4cca62f6264c2dbc26840c2aa8e0cee744a126bf406/nir-0.0.5.tar.gz
+[2023-07-11 04:15:16] INFO root fetch - processPackages [apitable]: Downloading https://files.pythonhosted.org/packages/a6/55/7739a46687d38d70efd44fccd284c6bc092ee29d9cf179bdb8e9bac43b05/apitable-1.2.0.tar.gz
+[2023-07-11 04:15:17] INFO root fetch - processPackages [jcci]: Downloading https://files.pythonhosted.org/packages/57/29/9f961ecea1427bb3bab7442418097c2c465c0d60bdef359c614a1482a0e7/jcci-0.0.8.tar.gz
+[2023-07-11 04:15:17] INFO root fetch - processPackages [bhv]: Downloading https://files.pythonhosted.org/packages/41/f1/d35352a6e99587022511bd7123e237e9ff5d1f56d2cc0f986e18e4ff1ac3/bhv-0.6.5.tar.gz
+[2023-07-11 04:15:17] INFO root fetch - processPackages [milho-multi-sqlite3-manager]: Downloading https://files.pythonhosted.org/packages/72/cd/3ebedd2dae582d32fc1a2f2f3d5378baea3abe34b3cd6074874b760254ad/milho_multi_sqlite3_manager-0.3.0.tar.gz
+[2023-07-11 04:15:17] INFO root fetch - processPackages [jcci]: executing diffoscope
+[2023-07-11 04:15:17] INFO root fetch - processPackages [jcci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jcci-0.0.7.tar.gz tmp/jcci-0.0.8.tar.gz --markdown 20230711/j/jcci/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-11 04:15:17] INFO root fetch - processPackages [nir]: Downloading https://files.pythonhosted.org/packages/f3/d6/80eab0a440f7fa2a3a78d417ed4717f037ecac119f4e4ce252894947a3c6/nir-0.0.6.tar.gz
+[2023-07-11 04:15:17] INFO root fetch - processPackages [apitable]: Downloading https://files.pythonhosted.org/packages/cb/7a/70e14f19c1491af9797227dc2dee716e416335c1ef5bb77f611d5bdfc743/apitable-1.2.1.tar.gz
+[2023-07-11 04:15:17] INFO root fetch - processPackages [milho-multi-sqlite3-manager]: executing diffoscope
+[2023-07-11 04:15:17] INFO root fetch - processPackages [milho-multi-sqlite3-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/milho_multi_sqlite3_manager-0.2.1.tar.gz tmp/milho_multi_sqlite3_manager-0.3.0.tar.gz --markdown 20230711/m/milho-multi-sqlite3-manager/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-07-11 04:15:17] INFO root fetch - processPackages [bhv]: executing diffoscope
+[2023-07-11 04:15:17] INFO root fetch - processPackages [bhv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bhv-0.6.3.tar.gz tmp/bhv-0.6.5.tar.gz --markdown 20230711/b/bhv/0.6.3-0.6.5/diff.md --exclude *.pyd
+[2023-07-11 04:15:17] INFO root fetch - processPackages [apitable]: executing diffoscope
+[2023-07-11 04:15:17] INFO root fetch - processPackages [apitable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apitable-1.2.0.tar.gz tmp/apitable-1.2.1.tar.gz --markdown 20230711/a/apitable/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-07-11 04:15:17] INFO root fetch - processPackages [nir]: executing diffoscope
+[2023-07-11 04:15:17] INFO root fetch - processPackages [nir]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nir-0.0.5.tar.gz tmp/nir-0.0.6.tar.gz --markdown 20230711/n/nir/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-11 04:15:18] INFO root fetch - processPackages [milho-multi-sqlite3-manager]: Remove: archive file [/home/abi/fetcher/tmp/milho_multi_sqlite3_manager-0.2.1.tar.gz]
+[2023-07-11 04:15:18] INFO root fetch - processPackages [milho-multi-sqlite3-manager]: Remove: archive file [/home/abi/fetcher/tmp/milho_multi_sqlite3_manager-0.3.0.tar.gz]
+[2023-07-11 04:15:18] INFO root fetch - main [MainThread]: End processing [milho-multi-sqlite3-manager]: success
+[2023-07-11 04:15:18] INFO root fetch - processPackages [jcci]: Remove: archive file [/home/abi/fetcher/tmp/jcci-0.0.7.tar.gz]
+[2023-07-11 04:15:18] INFO root fetch - processPackages [jcci]: Remove: archive file [/home/abi/fetcher/tmp/jcci-0.0.8.tar.gz]
+[2023-07-11 04:15:18] INFO root fetch - main [MainThread]: End processing [jcci]: success
+[2023-07-11 04:15:18] INFO root fetch - processPackages [nir]: Remove: archive file [/home/abi/fetcher/tmp/nir-0.0.5.tar.gz]
+[2023-07-11 04:15:18] INFO root fetch - processPackages [nir]: Remove: archive file [/home/abi/fetcher/tmp/nir-0.0.6.tar.gz]
+[2023-07-11 04:15:18] INFO root fetch - main [MainThread]: End processing [nir]: success
+[2023-07-11 04:15:18] INFO root fetch - processPackages [bhv]: Remove: archive file [/home/abi/fetcher/tmp/bhv-0.6.3.tar.gz]
+[2023-07-11 04:15:18] INFO root fetch - processPackages [bhv]: Remove: archive file [/home/abi/fetcher/tmp/bhv-0.6.5.tar.gz]
+[2023-07-11 04:15:18] INFO root fetch - main [MainThread]: End processing [bhv]: success
+[2023-07-11 04:15:18] INFO root fetch - processPackages [apitable]: Remove: archive file [/home/abi/fetcher/tmp/apitable-1.2.0.tar.gz]
+[2023-07-11 04:15:18] INFO root fetch - processPackages [apitable]: Remove: archive file [/home/abi/fetcher/tmp/apitable-1.2.1.tar.gz]
+[2023-07-11 04:15:18] INFO root fetch - main [MainThread]: End processing [apitable]: success
+[2023-07-11 04:15:18] INFO root fetch - main [MainThread]: Store serial: [18839838]
