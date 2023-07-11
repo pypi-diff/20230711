@@ -10598,3 +10598,101 @@ AssertionError: tmp/doctran-0.0.6.tar.gz does not exist
 [2023-07-11 07:50:57] INFO root fetch - main [MainThread]: End processing [skitai]: success
 [2023-07-11 07:50:57] INFO root fetch - main [MainThread]: End processing [pinject-design]: success
 [2023-07-11 07:50:57] INFO root fetch - main [MainThread]: Store serial: [18841219]
+[2023-07-11 07:56:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18841219]
+[2023-07-11 07:56:07] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-11 07:56:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: iman
+[2023-07-11 07:56:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zpz
+[2023-07-11 07:56:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aql-builder
+[2023-07-11 07:56:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: raga-testing-platform
+[2023-07-11 07:56:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gefpy
+[2023-07-11 07:56:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: domain-admin
+[2023-07-11 07:56:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: curated-tokenizers
+[2023-07-11 07:56:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: botocore
+[2023-07-11 07:56:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: xj-thread
+[2023-07-11 07:56:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: boto3
+[2023-07-11 07:56:07] INFO root fetch - processPackages [raga-testing-platform]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-11 07:56:07] INFO root fetch - processPackages [aql-builder]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-11 07:56:07] INFO root fetch - processPackages [gefpy]: New version: [0.7.3] Old Version: [0.7.2]
+[2023-07-11 07:56:07] INFO root fetch - processPackages [zpz]: New version: [0.5.1] Old Version: [0.5]
+[2023-07-11 07:56:07] INFO root fetch - processPackages [iman]: New version: [0.0.9] Old Version: [0.0.82]
+[2023-07-11 07:56:08] INFO root fetch - processPackages [domain-admin]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-07-11 07:56:08] INFO root fetch - processPackages [curated-tokenizers]: New version: [0.9.0.dev0] Old Version: [0.9.0]
+[2023-07-11 07:56:08] INFO root fetch - processPackages [botocore]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-07-11 07:56:08] INFO root fetch - processPackages [boto3]: New version: [1.9.99] Old Version: [1.9.98]
+[2023-07-11 07:56:08] INFO root fetch - processPackages [raga-testing-platform]: Downloading https://files.pythonhosted.org/packages/cb/2b/5872c9c0e75b4ef4393e95963e7fa22ccf8c70b12d66a64c83dfec600b32/raga-testing-platform-1.0.8.tar.gz
+[2023-07-11 07:56:08] INFO root fetch - processPackages [xj-thread]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-07-11 07:56:08] INFO root fetch - processPackages [aql-builder]: Downloading https://files.pythonhosted.org/packages/17/c0/8c729384760a2467dd304e30eb015a2233d20125d70d6e18dc7fe3b27499/aql-builder-0.0.6.tar.gz
+[2023-07-11 07:56:08] INFO root fetch - processPackages [domain-admin]: Downloading https://files.pythonhosted.org/packages/3a/f2/23400df41503073b93b342c8dcf715e54b76978a0ee3202a010a8c6a2fe7/domain-admin-1.4.8.tar.gz
+[2023-07-11 07:56:08] INFO root fetch - processPackages [zpz]: Downloading https://files.pythonhosted.org/packages/fc/e4/c2329f4bd037227b6bf96e486140246c43acdfedf07525c8da1ce2c63294/zpz-0.5.tar.gz
+[2023-07-11 07:56:08] INFO root fetch - processPackages [gefpy]: Downloading https://files.pythonhosted.org/packages/4d/71/e516af2f90842fa63d5ba721e9e8512a2e9fc02592ea951c97c6a95ba954/gefpy-0.7.2-cp38-cp38-win_amd64.whl
+[2023-07-11 07:56:08] INFO root fetch - processPackages [iman]: Downloading https://files.pythonhosted.org/packages/f3/7d/f3a22ced12d61235ae92f191ee5631105d9cee802a9960cccf179d6a0d2b/iman-0.0.82.tar.gz
+[2023-07-11 07:56:08] INFO root fetch - processPackages [curated-tokenizers]: Downloading https://files.pythonhosted.org/packages/1b/70/b5fcb1f43ac54b345466284f9f500deeaeabd3e3dea3a9ca657be87ffe65/curated-tokenizers-0.9.0.tar.gz
+[2023-07-11 07:56:08] INFO root fetch - processPackages [botocore]: Downloading https://files.pythonhosted.org/packages/cd/01/3bd0656f80c5afb2f0e09f09215178a501191aef9fff0a43b156cf1c9665/botocore-1.9.8.tar.gz
+[2023-07-11 07:56:08] WARNING root fetch - processPackages [gefpy]: Skipping package: exceeds size limit 26225544>=10485760
+[2023-07-11 07:56:08] INFO root fetch - processPackages [gefpy]: Start processing: awscli
+[2023-07-11 07:56:08] INFO root fetch - main [MainThread]: End processing [gefpy] error
+[2023-07-11 07:56:08] INFO root fetch - processPackages [raga-testing-platform]: Downloading https://files.pythonhosted.org/packages/23/a1/3de642a69a0d1253446d4f7bd1dd9d074e3fe635e84f3d430d001424a072/raga-testing-platform-1.0.9.tar.gz
+[2023-07-11 07:56:08] INFO root fetch - processPackages [xj-thread]: Downloading https://files.pythonhosted.org/packages/d0/40/892813003a2b082a6e0c2667824534711f1cf8fdfc940df20ba978459e48/xj_thread-1.2.98.tar.gz
+[2023-07-11 07:56:08] INFO root fetch - processPackages [boto3]: Downloading https://files.pythonhosted.org/packages/95/51/f6788115251e93bb35a56196036aa225060105616d369a2b1a712f537e1e/boto3-1.9.98.tar.gz
+[2023-07-11 07:56:08] INFO root fetch - processPackages [awscli]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-07-11 07:56:08] INFO root fetch - processPackages [raga-testing-platform]: executing diffoscope
+[2023-07-11 07:56:08] INFO root fetch - processPackages [raga-testing-platform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raga-testing-platform-1.0.8.tar.gz tmp/raga-testing-platform-1.0.9.tar.gz --markdown 20230711/r/raga-testing-platform/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-11 07:56:08] INFO root fetch - processPackages [domain-admin]: Downloading https://files.pythonhosted.org/packages/c8/72/cfb118e14c007a151e3448decdf03d9f857f769cf0e5fce80f46281b8de5/domain-admin-1.4.9.tar.gz
+[2023-07-11 07:56:08] INFO root fetch - processPackages [aql-builder]: Downloading https://files.pythonhosted.org/packages/2c/a1/e5775377fad0e4c98da49faa2b81539ac78cbfd9ad571a233b3bd33c43f9/aql-builder-0.0.7.tar.gz
+[2023-07-11 07:56:08] INFO root fetch - processPackages [zpz]: Downloading https://files.pythonhosted.org/packages/67/9b/03ab2a7ec65859bc9ae81a44eb86fed5914ae22f1a0dd09c8aaa072663b2/zpz-0.5.1.tar.gz
+[2023-07-11 07:56:08] INFO root fetch - processPackages [aql-builder]: executing diffoscope
+[2023-07-11 07:56:08] INFO root fetch - processPackages [aql-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aql-builder-0.0.6.tar.gz tmp/aql-builder-0.0.7.tar.gz --markdown 20230711/a/aql-builder/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-11 07:56:08] INFO root fetch - processPackages [iman]: Downloading https://files.pythonhosted.org/packages/30/17/389821fbd85328fbda7e038746aa1d02011502958e2d9589ede98d2f5b0b/iman-0.0.9.tar.gz
+[2023-07-11 07:56:08] INFO root fetch - processPackages [zpz]: executing diffoscope
+[2023-07-11 07:56:08] INFO root fetch - processPackages [zpz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zpz-0.5.tar.gz tmp/zpz-0.5.1.tar.gz --markdown 20230711/z/zpz/0.5-0.5.1/diff.md --exclude *.pyd
+[2023-07-11 07:56:08] INFO root fetch - processPackages [awscli]: Downloading https://files.pythonhosted.org/packages/84/06/782193c5b3720ef9eff21fa2d4c6b7cab72ac635f9865449796fa78e9551/awscli-1.9.8.tar.gz
+[2023-07-11 07:56:09] INFO root fetch - processPackages [domain-admin]: executing diffoscope
+[2023-07-11 07:56:09] INFO root fetch - processPackages [domain-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domain-admin-1.4.8.tar.gz tmp/domain-admin-1.4.9.tar.gz --markdown 20230711/d/domain-admin/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-07-11 07:56:09] INFO root fetch - processPackages [xj-thread]: Downloading https://files.pythonhosted.org/packages/fc/75/4ed5778921ea61c4cdd8fe2c5f8b0a37873dc9cc5b9f507a3240f0380e69/xj_thread-1.2.99.tar.gz
+[2023-07-11 07:56:09] INFO root fetch - processPackages [boto3]: Downloading https://files.pythonhosted.org/packages/a4/40/6b6504d54ab9fbb16030052d363568399b7678ac18dc233de23fe7ed1922/boto3-1.9.99.tar.gz
+[2023-07-11 07:56:09] INFO root fetch - processPackages [curated-tokenizers]: Downloading https://files.pythonhosted.org/packages/c7/c0/cd86813bdbab69b45ff426152ba65dc60ef8fe68feee1280cb7199bcc730/curated-tokenizers-0.9.0.dev0.tar.gz
+[2023-07-11 07:56:09] INFO root fetch - processPackages [iman]: executing diffoscope
+[2023-07-11 07:56:09] INFO root fetch - processPackages [iman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iman-0.0.82.tar.gz tmp/iman-0.0.9.tar.gz --markdown 20230711/i/iman/0.0.82-0.0.9/diff.md --exclude *.pyd
+[2023-07-11 07:56:09] INFO root fetch - processPackages [boto3]: executing diffoscope
+[2023-07-11 07:56:09] INFO root fetch - processPackages [boto3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boto3-1.9.98.tar.gz tmp/boto3-1.9.99.tar.gz --markdown 20230711/b/boto3/1.9.98-1.9.99/diff.md --exclude *.pyd
+[2023-07-11 07:56:09] INFO root fetch - processPackages [botocore]: Downloading https://files.pythonhosted.org/packages/58/63/da4e26f62f9cf5702bb82462ca688961afdf72123f071831ed927b19c7a0/botocore-1.9.9.tar.gz
+[2023-07-11 07:56:09] INFO root fetch - processPackages [xj-thread]: executing diffoscope
+[2023-07-11 07:56:09] INFO root fetch - processPackages [xj-thread]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_thread-1.2.98.tar.gz tmp/xj_thread-1.2.99.tar.gz --markdown 20230711/x/xj-thread/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-07-11 07:56:09] INFO root fetch - processPackages [curated-tokenizers]: executing diffoscope
+[2023-07-11 07:56:09] INFO root fetch - processPackages [curated-tokenizers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/curated-tokenizers-0.9.0.tar.gz tmp/curated-tokenizers-0.9.0.dev0.tar.gz --markdown 20230711/c/curated-tokenizers/0.9.0-0.9.0.dev0/diff.md --exclude *.pyd
+[2023-07-11 07:56:09] INFO root fetch - processPackages [awscli]: Downloading https://files.pythonhosted.org/packages/03/ae/0ab53e9f7ac1eff217ca8355af05fe5fbdd9fd087e75a7abcda0c9179848/awscli-1.9.9.tar.gz
+[2023-07-11 07:56:09] INFO root fetch - processPackages [awscli]: executing diffoscope
+[2023-07-11 07:56:09] INFO root fetch - processPackages [awscli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awscli-1.9.8.tar.gz tmp/awscli-1.9.9.tar.gz --markdown 20230711/a/awscli/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-07-11 07:56:10] INFO root fetch - processPackages [botocore]: executing diffoscope
+[2023-07-11 07:56:10] INFO root fetch - processPackages [botocore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-1.9.8.tar.gz tmp/botocore-1.9.9.tar.gz --markdown 20230711/b/botocore/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-07-11 07:56:10] INFO root fetch - processPackages [aql-builder]: Remove: archive file [/home/abi/fetcher/tmp/aql-builder-0.0.6.tar.gz]
+[2023-07-11 07:56:10] INFO root fetch - processPackages [aql-builder]: Remove: archive file [/home/abi/fetcher/tmp/aql-builder-0.0.7.tar.gz]
+[2023-07-11 07:56:10] INFO root fetch - main [MainThread]: End processing [aql-builder]: success
+[2023-07-11 07:56:10] INFO root fetch - processPackages [raga-testing-platform]: Remove: archive file [/home/abi/fetcher/tmp/raga-testing-platform-1.0.8.tar.gz]
+[2023-07-11 07:56:10] INFO root fetch - processPackages [raga-testing-platform]: Remove: archive file [/home/abi/fetcher/tmp/raga-testing-platform-1.0.9.tar.gz]
+[2023-07-11 07:56:10] INFO root fetch - main [MainThread]: End processing [raga-testing-platform]: success
+[2023-07-11 07:56:10] INFO root fetch - processPackages [zpz]: Remove: archive file [/home/abi/fetcher/tmp/zpz-0.5.tar.gz]
+[2023-07-11 07:56:10] INFO root fetch - processPackages [zpz]: Remove: archive file [/home/abi/fetcher/tmp/zpz-0.5.1.tar.gz]
+[2023-07-11 07:56:10] INFO root fetch - main [MainThread]: End processing [zpz]: success
+[2023-07-11 07:56:10] INFO root fetch - processPackages [iman]: Remove: archive file [/home/abi/fetcher/tmp/iman-0.0.82.tar.gz]
+[2023-07-11 07:56:10] INFO root fetch - processPackages [iman]: Remove: archive file [/home/abi/fetcher/tmp/iman-0.0.9.tar.gz]
+[2023-07-11 07:56:10] INFO root fetch - main [MainThread]: End processing [iman]: success
+[2023-07-11 07:56:10] INFO root fetch - processPackages [boto3]: Remove: archive file [/home/abi/fetcher/tmp/boto3-1.9.98.tar.gz]
+[2023-07-11 07:56:10] INFO root fetch - processPackages [boto3]: Remove: archive file [/home/abi/fetcher/tmp/boto3-1.9.99.tar.gz]
+[2023-07-11 07:56:10] INFO root fetch - main [MainThread]: End processing [boto3]: success
+[2023-07-11 07:56:10] INFO root fetch - processPackages [xj-thread]: Remove: archive file [/home/abi/fetcher/tmp/xj_thread-1.2.98.tar.gz]
+[2023-07-11 07:56:10] INFO root fetch - processPackages [xj-thread]: Remove: archive file [/home/abi/fetcher/tmp/xj_thread-1.2.99.tar.gz]
+[2023-07-11 07:56:10] INFO root fetch - main [MainThread]: End processing [xj-thread]: success
+[2023-07-11 07:56:12] INFO root fetch - processPackages [curated-tokenizers]: Remove: archive file [/home/abi/fetcher/tmp/curated-tokenizers-0.9.0.tar.gz]
+[2023-07-11 07:56:12] INFO root fetch - processPackages [curated-tokenizers]: Remove: archive file [/home/abi/fetcher/tmp/curated-tokenizers-0.9.0.dev0.tar.gz]
+[2023-07-11 07:56:12] INFO root fetch - main [MainThread]: End processing [curated-tokenizers]: success
+[2023-07-11 07:56:15] INFO root fetch - processPackages [awscli]: Remove: archive file [/home/abi/fetcher/tmp/awscli-1.9.8.tar.gz]
+[2023-07-11 07:56:15] INFO root fetch - processPackages [awscli]: Remove: archive file [/home/abi/fetcher/tmp/awscli-1.9.9.tar.gz]
+[2023-07-11 07:56:15] INFO root fetch - main [MainThread]: End processing [awscli]: success
+[2023-07-11 07:56:18] INFO root fetch - processPackages [domain-admin]: Remove: archive file [/home/abi/fetcher/tmp/domain-admin-1.4.8.tar.gz]
+[2023-07-11 07:56:18] INFO root fetch - processPackages [domain-admin]: Remove: archive file [/home/abi/fetcher/tmp/domain-admin-1.4.9.tar.gz]
+[2023-07-11 07:56:18] INFO root fetch - main [MainThread]: End processing [domain-admin]: success
+[2023-07-11 07:56:19] INFO root fetch - processPackages [botocore]: Remove: archive file [/home/abi/fetcher/tmp/botocore-1.9.8.tar.gz]
+[2023-07-11 07:56:19] INFO root fetch - processPackages [botocore]: Remove: archive file [/home/abi/fetcher/tmp/botocore-1.9.9.tar.gz]
+[2023-07-11 07:56:19] INFO root fetch - main [MainThread]: End processing [botocore]: success
+[2023-07-11 07:56:19] INFO root fetch - main [MainThread]: Store serial: [18841283]
