@@ -23029,3 +23029,157 @@ EOFError: EOF read where object expected
 [2023-07-11 16:22:33] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307111421-py3-none-any.whl.zip]
 [2023-07-11 16:22:33] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-07-11 16:22:33] INFO root fetch - main [MainThread]: Store serial: [18846573]
+[2023-07-11 16:27:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18846573]
+[2023-07-11 16:27:42] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-11 16:27:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nanome
+[2023-07-11 16:27:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rudi-node-read
+[2023-07-11 16:27:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mlbi-at-dku-lib
+[2023-07-11 16:27:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kfish
+[2023-07-11 16:27:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: graal
+[2023-07-11 16:27:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: domolibrary
+[2023-07-11 16:27:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pywpsrpc
+[2023-07-11 16:27:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: onnx2kerastl
+[2023-07-11 16:27:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: spanishconjugator
+[2023-07-11 16:27:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: spanishconjugator
+[2023-07-11 16:27:42] INFO root fetch - processPackages [rudi-node-read]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-11 16:27:42] INFO root fetch - processPackages [mlbi-at-dku-lib]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-07-11 16:27:42] INFO root fetch - processPackages [pywpsrpc]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-07-11 16:27:42] INFO root fetch - processPackages [graal]: New version: [0.4.9rc1] Old Version: [0.4.9]
+[2023-07-11 16:27:42] INFO root fetch - processPackages [onnx2kerastl]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-11 16:27:43] INFO root fetch - processPackages [domolibrary]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-11 16:27:43] INFO root fetch - processPackages [nanome]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-07-11 16:27:43] INFO root fetch - processPackages [kfish]: New version: [99.0.202307111423] Old Version: [99.0.202307111342]
+[2023-07-11 16:27:43] INFO root fetch - processPackages [mlbi-at-dku-lib]: Downloading https://files.pythonhosted.org/packages/35/82/6173c866ce153a468f677358bef5e57c1e22a09b5be39538aa0856e51671/mlbi_at_dku_lib-0.2.5.tar.gz
+[2023-07-11 16:27:43] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-07-11 16:27:43] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-07-11 16:27:43] INFO root fetch - processPackages [onnx2kerastl]: Downloading https://files.pythonhosted.org/packages/56/30/4fe6a62a391b7a1f4849721540cb3c2ac08682ab3718cd0bf95ad8649005/onnx2kerastl-0.0.98.tar.gz
+[2023-07-11 16:27:43] INFO root fetch - processPackages [domolibrary]: Downloading https://files.pythonhosted.org/packages/84/f8/ca22b28a893290f3f077d48d12f9bbfa0b351b8a23052c67d9d2df56c886/domolibrary-0.1.98.tar.gz
+[2023-07-11 16:27:43] INFO root fetch - processPackages [graal]: Downloading https://files.pythonhosted.org/packages/28/71/99ec2531294b878cbfa9cb41e308c5db4437123469a73bfa1b5913989405/graal-0.4.9.tar.gz
+[2023-07-11 16:27:43] INFO root fetch - processPackages [pywpsrpc]: Downloading https://files.pythonhosted.org/packages/00/b7/5a0215e9f1ca401305460874ca18fdb07e1c7048ac3f7e737af2319ffb94/pywpsrpc-2.3.8.tar.gz
+[2023-07-11 16:27:43] INFO root fetch - processPackages [rudi-node-read]: Downloading https://files.pythonhosted.org/packages/7c/01/a0bc30afb154b4957e989f0df63ef746325f65ff19a5fc7fdbc0d9085ed5/rudi-node-read-0.1.3.tar.gz
+[2023-07-11 16:27:43] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/2f/78/5363fb19239fe303868a63c97c28d6e9f3b924b53491013f68b717d7d448/kfish-99.0.202307111342-py3-none-any.whl
+[2023-07-11 16:27:43] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-07-11 16:27:43] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-07-11 16:27:43] INFO root fetch - processPackages [nanome]: Downloading https://files.pythonhosted.org/packages/13/d0/baa9da0331a58ea31788e7430bddd7f9ce152f8c90a0412d080a1030d32f/nanome-0.8.3.tar.gz
+[2023-07-11 16:27:43] INFO root fetch - processPackages [onnx2kerastl]: Downloading https://files.pythonhosted.org/packages/42/31/7e8fff9b0c93088de0c4c5543ffd14e079e872d9a350b1b6f99febee59e8/onnx2kerastl-0.0.99.tar.gz
+[2023-07-11 16:27:43] INFO root fetch - processPackages [domolibrary]: Downloading https://files.pythonhosted.org/packages/ef/ec/fc9564bd79a2ddb4e26b61efd0fc792975bd04a769102587a579e3693e90/domolibrary-0.1.99.tar.gz
+[2023-07-11 16:27:43] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-07-11 16:27:43] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-07-11 16:27:43] INFO root fetch - processPackages [onnx2kerastl]: executing diffoscope
+[2023-07-11 16:27:43] INFO root fetch - processPackages [onnx2kerastl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnx2kerastl-0.0.98.tar.gz tmp/onnx2kerastl-0.0.99.tar.gz --markdown 20230711/o/onnx2kerastl/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-11 16:27:43] INFO root fetch - processPackages [graal]: Downloading https://files.pythonhosted.org/packages/e0/70/db6f659a9b5bd80d414a88a02c4ad9e8c2c86ce6917625ce6034a2ed0a4c/graal-0.4.9rc1.tar.gz
+[2023-07-11 16:27:43] INFO root fetch - processPackages [domolibrary]: executing diffoscope
+[2023-07-11 16:27:43] INFO root fetch - processPackages [domolibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domolibrary-0.1.98.tar.gz tmp/domolibrary-0.1.99.tar.gz --markdown 20230711/d/domolibrary/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-11 16:27:43] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-07-11 16:27:43] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230711/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-07-11 16:27:43] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-07-11 16:27:43] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230711/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-07-11 16:27:43] INFO root fetch - processPackages [rudi-node-read]: Downloading https://files.pythonhosted.org/packages/22/da/2c865ce40598a6a11bcf4863e21d90a37ae556cf5424fdd9182e76133591/rudi-node-read-0.1.4.tar.gz
+[2023-07-11 16:27:43] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/c6/8e/5040c1c21af19a840d6a3391000a6adcb7661e68dbca8531525be2ce6b48/kfish-99.0.202307111423-py3-none-any.whl
+[2023-07-11 16:27:44] INFO root fetch - processPackages [rudi-node-read]: executing diffoscope
+[2023-07-11 16:27:44] INFO root fetch - processPackages [rudi-node-read]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rudi-node-read-0.1.3.tar.gz tmp/rudi-node-read-0.1.4.tar.gz --markdown 20230711/r/rudi-node-read/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-11 16:27:44] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-07-11 16:27:44] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202307111342-py3-none-any.whl.zip tmp/kfish-99.0.202307111423-py3-none-any.whl.zip --markdown 20230711/k/kfish/99.0.202307111342-99.0.202307111423/diff.md --exclude *.pyd
+[2023-07-11 16:27:44] INFO root fetch - processPackages [graal]: executing diffoscope
+[2023-07-11 16:27:44] INFO root fetch - processPackages [graal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graal-0.4.9.tar.gz tmp/graal-0.4.9rc1.tar.gz --markdown 20230711/g/graal/0.4.9-0.4.9rc1/diff.md --exclude *.pyd
+[2023-07-11 16:27:44] INFO root fetch - processPackages [nanome]: Downloading https://files.pythonhosted.org/packages/15/c3/d207f1d19528c599ac9a85d8792b5770ea8807524de1c3186eb6607f52ff/nanome-0.9.0.tar.gz
+[2023-07-11 16:27:44] INFO root fetch - processPackages [pywpsrpc]: Downloading https://files.pythonhosted.org/packages/97/81/a1bda13f7460e8f7c1a83d9cd662bfe56869007364d73b01aaabc94ca66a/pywpsrpc-2.3.9.tar.gz
+[2023-07-11 16:27:44] INFO root fetch - processPackages [mlbi-at-dku-lib]: Downloading https://files.pythonhosted.org/packages/bb/43/66954f46c4858595a8d73bec03cd793746dc60a12384ca77908e0c3cc2c0/mlbi_at_dku_lib-0.2.6.tar.gz
+[2023-07-11 16:27:44] INFO root fetch - processPackages [pywpsrpc]: executing diffoscope
+[2023-07-11 16:27:44] INFO root fetch - processPackages [pywpsrpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywpsrpc-2.3.8.tar.gz tmp/pywpsrpc-2.3.9.tar.gz --markdown 20230711/p/pywpsrpc/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2023-07-11 16:27:44] INFO root fetch - processPackages [mlbi-at-dku-lib]: executing diffoscope
+[2023-07-11 16:27:44] INFO root fetch - processPackages [mlbi-at-dku-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlbi_at_dku_lib-0.2.5.tar.gz tmp/mlbi_at_dku_lib-0.2.6.tar.gz --markdown 20230711/m/mlbi-at-dku-lib/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-07-11 16:27:45] INFO root fetch - processPackages [nanome]: executing diffoscope
+[2023-07-11 16:27:45] INFO root fetch - processPackages [nanome]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nanome-0.8.3.tar.gz tmp/nanome-0.9.0.tar.gz --markdown 20230711/n/nanome/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-07-11 16:27:45] INFO root fetch - processPackages [onnx2kerastl]: Remove: archive file [/home/abi/fetcher/tmp/onnx2kerastl-0.0.98.tar.gz]
+[2023-07-11 16:27:45] INFO root fetch - processPackages [onnx2kerastl]: Remove: archive file [/home/abi/fetcher/tmp/onnx2kerastl-0.0.99.tar.gz]
+[2023-07-11 16:27:45] INFO root fetch - processPackages [onnx2kerastl]: Start processing: dl2050utils
+[2023-07-11 16:27:45] INFO root fetch - main [MainThread]: End processing [onnx2kerastl]: success
+[2023-07-11 16:27:45] INFO root fetch - processPackages [dl2050utils]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-07-11 16:27:45] INFO root fetch - processPackages [dl2050utils]: Downloading https://files.pythonhosted.org/packages/c2/11/20896420a2b6842cdae9b98b4642b86f62277734141db689849e79713875/dl2050utils-1.0.98.tar.gz
+[2023-07-11 16:27:45] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-07-11 16:27:45] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202307111342-py3-none-any.whl.zip]
+[2023-07-11 16:27:45] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-07-11 16:27:45] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202307111423-py3-none-any.whl.zip]
+[2023-07-11 16:27:45] INFO root fetch - processPackages [kfish]: Start processing: dipdup
+[2023-07-11 16:27:45] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-07-11 16:27:45] INFO root fetch - processPackages [spanishconjugator]: Start processing: leap-model-parser
+[2023-07-11 16:27:45] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-07-11 16:27:45] INFO root fetch - processPackages [rudi-node-read]: Remove: archive file [/home/abi/fetcher/tmp/rudi-node-read-0.1.3.tar.gz]
+[2023-07-11 16:27:45] INFO root fetch - processPackages [rudi-node-read]: Remove: archive file [/home/abi/fetcher/tmp/rudi-node-read-0.1.4.tar.gz]
+[2023-07-11 16:27:45] INFO root fetch - processPackages [rudi-node-read]: Start processing: zookeeper
+[2023-07-11 16:27:45] INFO root fetch - main [MainThread]: End processing [rudi-node-read]: success
+[2023-07-11 16:27:45] INFO root fetch - processPackages [leap-model-parser]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-11 16:27:45] INFO root fetch - processPackages [dipdup]: New version: [6.5.9] Old Version: [6.5.8]
+[2023-07-11 16:27:45] INFO root fetch - processPackages [dl2050utils]: Downloading https://files.pythonhosted.org/packages/c9/17/6752cfb2e56bf2902e5a751d8b67ff3c1642fb0d69b3207b81fb5c311ea5/dl2050utils-1.0.99.tar.gz
+[2023-07-11 16:27:45] INFO root fetch - processPackages [zookeeper]: New version: [1.3.4] Old Version: [1.3.3]
+[2023-07-11 16:27:45] INFO root fetch - processPackages [graal]: Remove: archive file [/home/abi/fetcher/tmp/graal-0.4.9.tar.gz]
+[2023-07-11 16:27:45] INFO root fetch - processPackages [graal]: Remove: archive file [/home/abi/fetcher/tmp/graal-0.4.9rc1.tar.gz]
+[2023-07-11 16:27:45] INFO root fetch - processPackages [graal]: Start processing: quickbolt
+[2023-07-11 16:27:45] INFO root fetch - main [MainThread]: End processing [graal]: success
+[2023-07-11 16:27:45] INFO root fetch - processPackages [leap-model-parser]: Downloading https://files.pythonhosted.org/packages/9e/21/dca060e54af9d262ff3c7db5881970d454aabed10a4a09138f0f135d7271/leap_model_parser-0.1.98.tar.gz
+[2023-07-11 16:27:45] INFO root fetch - processPackages [spanishconjugator]: Start processing: always-updates
+[2023-07-11 16:27:45] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-07-11 16:27:45] INFO root fetch - processPackages [dl2050utils]: executing diffoscope
+[2023-07-11 16:27:45] INFO root fetch - processPackages [dl2050utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dl2050utils-1.0.98.tar.gz tmp/dl2050utils-1.0.99.tar.gz --markdown 20230711/d/dl2050utils/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-07-11 16:27:45] INFO root fetch - processPackages [quickbolt]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-11 16:27:45] INFO root fetch - processPackages [domolibrary]: Remove: archive file [/home/abi/fetcher/tmp/domolibrary-0.1.98.tar.gz]
+[2023-07-11 16:27:45] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-07-11 16:27:45] INFO root fetch - processPackages [domolibrary]: Remove: archive file [/home/abi/fetcher/tmp/domolibrary-0.1.99.tar.gz]
+[2023-07-11 16:27:45] INFO root fetch - processPackages [domolibrary]: Start processing: timeslime
+[2023-07-11 16:27:45] INFO root fetch - main [MainThread]: End processing [domolibrary]: success
+[2023-07-11 16:27:45] INFO root fetch - processPackages [dipdup]: Downloading https://files.pythonhosted.org/packages/d3/41/57747a4865c29a22d03395dc48d871694f77e9e3cb344e3ceb64da2c063e/dipdup-6.5.8.tar.gz
+[2023-07-11 16:27:46] INFO root fetch - processPackages [zookeeper]: Downloading https://files.pythonhosted.org/packages/3b/63/43ad867c4ec7d9c6cd8ee68b815fc37e5dc742b0d9bcdef5d80cf207785d/zookeeper-1.3.3.tar.gz
+[2023-07-11 16:27:46] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/5a/dc/f0b9cc3dcafc81b230cec909ee0b7d6229e97b28093d8f6f51c2ace8468b/always_updates-99.8.tar.gz
+[2023-07-11 16:27:46] INFO root fetch - processPackages [leap-model-parser]: Downloading https://files.pythonhosted.org/packages/de/85/627b6119883db46691990e41cb4a673afe0913625d499dc365b69c6fe6f6/leap_model_parser-0.1.99.tar.gz
+[2023-07-11 16:27:46] INFO root fetch - processPackages [timeslime]: New version: [1.7.0] Old Version: [1.6.1]
+[2023-07-11 16:27:46] INFO root fetch - processPackages [quickbolt]: Downloading https://files.pythonhosted.org/packages/e3/87/f4a37384845e935b02d94798fa22dd6a7228110780fe462057e2b67ff0fc/quickbolt-0.2.0.tar.gz
+[2023-07-11 16:27:46] INFO root fetch - processPackages [leap-model-parser]: executing diffoscope
+[2023-07-11 16:27:46] INFO root fetch - processPackages [leap-model-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leap_model_parser-0.1.98.tar.gz tmp/leap_model_parser-0.1.99.tar.gz --markdown 20230711/l/leap-model-parser/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-11 16:27:46] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/b1/bd/641679b0c9c7b7c15f7084f8215f70f9189c0f4efd5633e45fe0a7f33ba5/always_updates-99.9.tar.gz
+[2023-07-11 16:27:46] INFO root fetch - processPackages [dipdup]: Downloading https://files.pythonhosted.org/packages/65/9a/138f5a5ed91e598231e1b01ecae9318d623728784bccb98b40ecaa8eddb4/dipdup-6.5.9.tar.gz
+[2023-07-11 16:27:46] INFO root fetch - processPackages [timeslime]: Downloading https://files.pythonhosted.org/packages/2f/c8/789b6fdc55c12a7419e373e30327bd724259a9faa7a41d631e2bd73016a7/timeslime-1.6.1-py3-none-any.whl
+[2023-07-11 16:27:46] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-07-11 16:27:46] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230711/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-07-11 16:27:46] INFO root fetch - processPackages [zookeeper]: Downloading https://files.pythonhosted.org/packages/cd/74/26a11ba0ef29a1c3e943ac393417f55ed88d00714f64f1274ecfee4906aa/zookeeper-1.3.4.tar.gz
+[2023-07-11 16:27:46] INFO root fetch - processPackages [quickbolt]: Downloading https://files.pythonhosted.org/packages/99/4d/e9c68fb614b129bdf49a58d10206256f06f82d143a070bf2853b74c6f2d0/quickbolt-0.2.1.tar.gz
+[2023-07-11 16:27:46] INFO root fetch - processPackages [dipdup]: executing diffoscope
+[2023-07-11 16:27:46] INFO root fetch - processPackages [dipdup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dipdup-6.5.8.tar.gz tmp/dipdup-6.5.9.tar.gz --markdown 20230711/d/dipdup/6.5.8-6.5.9/diff.md --exclude *.pyd
+[2023-07-11 16:27:46] INFO root fetch - processPackages [zookeeper]: executing diffoscope
+[2023-07-11 16:27:46] INFO root fetch - processPackages [zookeeper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zookeeper-1.3.3.tar.gz tmp/zookeeper-1.3.4.tar.gz --markdown 20230711/z/zookeeper/1.3.3-1.3.4/diff.md --exclude *.pyd
+[2023-07-11 16:27:46] INFO root fetch - processPackages [quickbolt]: executing diffoscope
+[2023-07-11 16:27:46] INFO root fetch - processPackages [quickbolt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickbolt-0.2.0.tar.gz tmp/quickbolt-0.2.1.tar.gz --markdown 20230711/q/quickbolt/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-11 16:27:46] INFO root fetch - processPackages [timeslime]: Downloading https://files.pythonhosted.org/packages/88/9d/a834f7cef7f9c432f97cb2215d24196f94a55e3814cdd6e12efa94557630/timeslime-1.7.0-py3-none-any.whl
+[2023-07-11 16:27:47] INFO root fetch - processPackages [dl2050utils]: Remove: archive file [/home/abi/fetcher/tmp/dl2050utils-1.0.98.tar.gz]
+[2023-07-11 16:27:47] INFO root fetch - processPackages [dl2050utils]: Remove: archive file [/home/abi/fetcher/tmp/dl2050utils-1.0.99.tar.gz]
+[2023-07-11 16:27:47] INFO root fetch - main [MainThread]: End processing [dl2050utils]: success
+[2023-07-11 16:27:47] INFO root fetch - processPackages [timeslime]: executing diffoscope
+[2023-07-11 16:27:47] INFO root fetch - processPackages [timeslime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/timeslime-1.6.1-py3-none-any.whl.zip tmp/timeslime-1.7.0-py3-none-any.whl.zip --markdown 20230711/t/timeslime/1.6.1-1.7.0/diff.md --exclude *.pyd
+[2023-07-11 16:27:47] INFO root fetch - processPackages [always-updates]: Remove: archive file [/home/abi/fetcher/tmp/always_updates-99.8.tar.gz]
+[2023-07-11 16:27:47] INFO root fetch - processPackages [always-updates]: Remove: archive file [/home/abi/fetcher/tmp/always_updates-99.9.tar.gz]
+[2023-07-11 16:27:47] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-07-11 16:27:47] INFO root fetch - processPackages [nanome]: Remove: archive file [/home/abi/fetcher/tmp/nanome-0.8.3.tar.gz]
+[2023-07-11 16:27:47] INFO root fetch - processPackages [nanome]: Remove: archive file [/home/abi/fetcher/tmp/nanome-0.9.0.tar.gz]
+[2023-07-11 16:27:47] INFO root fetch - main [MainThread]: End processing [nanome]: success
+[2023-07-11 16:27:48] INFO root fetch - processPackages [zookeeper]: Remove: archive file [/home/abi/fetcher/tmp/zookeeper-1.3.3.tar.gz]
+[2023-07-11 16:27:48] INFO root fetch - processPackages [zookeeper]: Remove: archive file [/home/abi/fetcher/tmp/zookeeper-1.3.4.tar.gz]
+[2023-07-11 16:27:48] INFO root fetch - main [MainThread]: End processing [zookeeper]: success
+[2023-07-11 16:27:48] INFO root fetch - processPackages [quickbolt]: Remove: archive file [/home/abi/fetcher/tmp/quickbolt-0.2.0.tar.gz]
+[2023-07-11 16:27:48] INFO root fetch - processPackages [quickbolt]: Remove: archive file [/home/abi/fetcher/tmp/quickbolt-0.2.1.tar.gz]
+[2023-07-11 16:27:48] INFO root fetch - main [MainThread]: End processing [quickbolt]: success
+[2023-07-11 16:27:48] INFO root fetch - processPackages [timeslime]: Remove: archive file [/home/abi/fetcher/tmp/timeslime-1.6.1-py3-none-any.whl.zip]
+[2023-07-11 16:27:48] INFO root fetch - processPackages [timeslime]: Remove: archive file [/home/abi/fetcher/tmp/timeslime-1.7.0-py3-none-any.whl.zip]
+[2023-07-11 16:27:48] INFO root fetch - main [MainThread]: End processing [timeslime]: success
+[2023-07-11 16:27:48] INFO root fetch - processPackages [dipdup]: Remove: archive file [/home/abi/fetcher/tmp/dipdup-6.5.8.tar.gz]
+[2023-07-11 16:27:48] INFO root fetch - processPackages [dipdup]: Remove: archive file [/home/abi/fetcher/tmp/dipdup-6.5.9.tar.gz]
+[2023-07-11 16:27:48] INFO root fetch - main [MainThread]: End processing [dipdup]: success
+[2023-07-11 16:27:49] INFO root fetch - processPackages [mlbi-at-dku-lib]: Remove: archive file [/home/abi/fetcher/tmp/mlbi_at_dku_lib-0.2.5.tar.gz]
+[2023-07-11 16:27:49] INFO root fetch - processPackages [mlbi-at-dku-lib]: Remove: archive file [/home/abi/fetcher/tmp/mlbi_at_dku_lib-0.2.6.tar.gz]
+[2023-07-11 16:27:49] INFO root fetch - main [MainThread]: End processing [mlbi-at-dku-lib]: success
+[2023-07-11 16:27:56] INFO root fetch - processPackages [pywpsrpc]: Remove: archive file [/home/abi/fetcher/tmp/pywpsrpc-2.3.8.tar.gz]
+[2023-07-11 16:27:56] INFO root fetch - processPackages [pywpsrpc]: Remove: archive file [/home/abi/fetcher/tmp/pywpsrpc-2.3.9.tar.gz]
+[2023-07-11 16:27:56] INFO root fetch - main [MainThread]: End processing [pywpsrpc]: success
+[2023-07-11 16:28:04] INFO root fetch - processPackages [leap-model-parser]: Remove: archive file [/home/abi/fetcher/tmp/leap_model_parser-0.1.98.tar.gz]
+[2023-07-11 16:28:04] INFO root fetch - processPackages [leap-model-parser]: Remove: archive file [/home/abi/fetcher/tmp/leap_model_parser-0.1.99.tar.gz]
+[2023-07-11 16:28:04] INFO root fetch - main [MainThread]: End processing [leap-model-parser]: success
+[2023-07-11 16:28:04] INFO root fetch - main [MainThread]: Store serial: [18846632]
