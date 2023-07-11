@@ -20270,3 +20270,120 @@ AssertionError: tmp/doctran-0.0.6.tar.gz does not exist
 [2023-07-11 14:45:29] INFO root fetch - processPackages [tensorcircuit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz]
 [2023-07-11 14:45:29] INFO root fetch - main [MainThread]: End processing [tensorcircuit-nightly]: success
 [2023-07-11 14:45:29] INFO root fetch - main [MainThread]: Store serial: [18845453]
+[2023-07-11 14:50:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18845453]
+[2023-07-11 14:50:38] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-11 14:50:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: reprocess-wfc3
+[2023-07-11 14:50:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spotdl
+[2023-07-11 14:50:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nornir-easy-netmiko
+[2023-07-11 14:50:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gbmessserver12345
+[2023-07-11 14:50:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cru-dse-utils
+[2023-07-11 14:50:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: FedArtML
+[2023-07-11 14:50:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: swh.core
+[2023-07-11 14:50:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nobuco
+[2023-07-11 14:50:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: isar
+[2023-07-11 14:50:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lemonai
+[2023-07-11 14:50:38] INFO root fetch - processPackages [spotdl]: New version: [4.2.0] Old Version: [4.1.9]
+[2023-07-11 14:50:38] INFO root fetch - processPackages [reprocess-wfc3]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-11 14:50:38] INFO root fetch - processPackages [nornir-easy-netmiko]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-11 14:50:38] WARNING root fetch - processPackages [gbmessserver12345]: Skipping, unable to determine old version
+[2023-07-11 14:50:38] INFO root fetch - processPackages [gbmessserver12345]: Start processing: lime-nda
+[2023-07-11 14:50:38] INFO root fetch - main [MainThread]: End processing [gbmessserver12345] error
+[2023-07-11 14:50:38] INFO root fetch - processPackages [cru-dse-utils]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-11 14:50:38] INFO root fetch - processPackages [FedArtML]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-11 14:50:38] INFO root fetch - processPackages [lemonai]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-11 14:50:38] INFO root fetch - processPackages [isar]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-07-11 14:50:38] INFO root fetch - processPackages [nobuco]: New version: [0.5.8] Old Version: [0.5.7]
+[2023-07-11 14:50:38] INFO root fetch - processPackages [swh.core]: New version: [2.9.0] Old Version: [2.8.1]
+[2023-07-11 14:50:38] INFO root fetch - processPackages [lime-nda]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-11 14:50:38] INFO root fetch - processPackages [reprocess-wfc3]: Downloading https://files.pythonhosted.org/packages/d3/af/ae63852b99e092bbf1a51cdba598043e1358cce110387055b63bc93dd750/reprocess_wfc3-0.2.2.tar.gz
+[2023-07-11 14:50:38] INFO root fetch - processPackages [FedArtML]: Downloading https://files.pythonhosted.org/packages/f2/e0/c2df23cf55a2dc762d772ef2cb885e353d6a7a6311f9377fbc3601775946/FedArtML-0.1.8.tar.gz
+[2023-07-11 14:50:39] INFO root fetch - processPackages [lime-nda]: Downloading https://files.pythonhosted.org/packages/3d/00/f5aafa36d2fcc75c69e3f8b64e060f427ff5e9e4125b3a9147e095c4cbca/lime_nda-0.0.8.tar.gz
+[2023-07-11 14:50:39] INFO root fetch - processPackages [nornir-easy-netmiko]: Downloading https://files.pythonhosted.org/packages/45/25/ec378873890d4fe0009596efaba2fa1d56739c1c8b540b2ec5fd1d5ccc03/nornir_easy_netmiko-1.0.0.tar.gz
+[2023-07-11 14:50:39] INFO root fetch - processPackages [spotdl]: Downloading https://files.pythonhosted.org/packages/ab/5d/c018ccca307895ea290b43c7ec02bd0174a9cf0c77f2c934f4e8e0bad808/spotdl-4.1.9.tar.gz
+[2023-07-11 14:50:39] INFO root fetch - processPackages [cru-dse-utils]: Downloading https://files.pythonhosted.org/packages/e8/06/bd6c3d3134d40b709ffae5409bbcd9005c7e25ae998ed748f1f9de03b0fc/cru-dse-utils-0.1.3.tar.gz
+[2023-07-11 14:50:39] INFO root fetch - processPackages [lemonai]: Downloading https://files.pythonhosted.org/packages/d6/b5/8ce9fd9bd1ad693eab05c2f3c061672f6679b806484bc001e61a9dbbec45/lemonai-0.0.8.tar.gz
+[2023-07-11 14:50:39] INFO root fetch - processPackages [swh.core]: Downloading https://files.pythonhosted.org/packages/eb/c4/6ab443b2fa35f8668b1282a3226d4c556c7aa68ea091558e8269e7d759b8/swh.core-2.8.1.tar.gz
+[2023-07-11 14:50:39] INFO root fetch - processPackages [nobuco]: Downloading https://files.pythonhosted.org/packages/9a/95/b5e1ff60d1736ddf18f6ff70a9fce2816f5552412dc659baa3be74cd8b21/nobuco-0.5.7.tar.gz
+[2023-07-11 14:50:39] INFO root fetch - processPackages [isar]: Downloading https://files.pythonhosted.org/packages/24/9e/a40ae5538b353dd0f94cbf122f8b47de58d34ffca0b2e4633c259740b079/isar-1.9.1.tar.gz
+[2023-07-11 14:50:39] INFO root fetch - processPackages [FedArtML]: Downloading https://files.pythonhosted.org/packages/3b/c0/e904e477eb20a05047137d0945a73ab54386b2b74bfc5ca073cbf80c33fb/FedArtML-0.1.9.tar.gz
+[2023-07-11 14:50:39] INFO root fetch - processPackages [reprocess-wfc3]: Downloading https://files.pythonhosted.org/packages/c8/86/c5c413eb8942587118dc32388d2a4b580a8656f54893d9ac61f7866e2b3a/reprocess_wfc3-0.2.3.tar.gz
+[2023-07-11 14:50:39] INFO root fetch - processPackages [lime-nda]: Downloading https://files.pythonhosted.org/packages/5c/0e/5922d9a31e307cf4b1c8db5279430981abdd62de9b7a62514e06ba5f4c3d/lime_nda-0.0.9.tar.gz
+[2023-07-11 14:50:39] INFO root fetch - processPackages [FedArtML]: executing diffoscope
+[2023-07-11 14:50:39] INFO root fetch - processPackages [FedArtML]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FedArtML-0.1.8.tar.gz tmp/FedArtML-0.1.9.tar.gz --markdown 20230711/F/FedArtML/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-11 14:50:39] INFO root fetch - processPackages [spotdl]: Downloading https://files.pythonhosted.org/packages/4b/e2/09c873074d65839e60929ad7eed8a238c9eb3b9a7a3319d4543eb2402ebd/spotdl-4.2.0.tar.gz
+[2023-07-11 14:50:39] INFO root fetch - processPackages [reprocess-wfc3]: executing diffoscope
+[2023-07-11 14:50:39] INFO root fetch - processPackages [reprocess-wfc3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reprocess_wfc3-0.2.2.tar.gz tmp/reprocess_wfc3-0.2.3.tar.gz --markdown 20230711/r/reprocess-wfc3/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-11 14:50:39] INFO root fetch - processPackages [cru-dse-utils]: Downloading https://files.pythonhosted.org/packages/ff/3a/d5895dae316a588cdbd1176029fc8d206ec66b653d094b7d208faaf4ee75/cru-dse-utils-0.1.4.tar.gz
+[2023-07-11 14:50:39] INFO root fetch - processPackages [nornir-easy-netmiko]: Downloading https://files.pythonhosted.org/packages/10/3d/c2a39c5b11fce735cecd44249b63df4f550c162a4b9d18a05bdeb68c90d7/nornir_easy_netmiko-1.0.1.tar.gz
+[2023-07-11 14:50:39] INFO root fetch - processPackages [lime-nda]: executing diffoscope
+[2023-07-11 14:50:39] INFO root fetch - processPackages [lime-nda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lime_nda-0.0.8.tar.gz tmp/lime_nda-0.0.9.tar.gz --markdown 20230711/l/lime-nda/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-11 14:50:39] INFO root fetch - processPackages [nobuco]: Downloading https://files.pythonhosted.org/packages/39/9d/bb5c5b3d4f8cbe9a6c7fbbe7983eb721250a142fba365e127984ee7bd5ca/nobuco-0.5.8.tar.gz
+[2023-07-11 14:50:39] INFO root fetch - processPackages [cru-dse-utils]: executing diffoscope
+[2023-07-11 14:50:39] INFO root fetch - processPackages [cru-dse-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cru-dse-utils-0.1.3.tar.gz tmp/cru-dse-utils-0.1.4.tar.gz --markdown 20230711/c/cru-dse-utils/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-11 14:50:39] INFO root fetch - processPackages [nornir-easy-netmiko]: executing diffoscope
+[2023-07-11 14:50:39] INFO root fetch - processPackages [nornir-easy-netmiko]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nornir_easy_netmiko-1.0.0.tar.gz tmp/nornir_easy_netmiko-1.0.1.tar.gz --markdown 20230711/n/nornir-easy-netmiko/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-11 14:50:39] INFO root fetch - processPackages [isar]: Downloading https://files.pythonhosted.org/packages/0c/bd/c87b8c89cd96667a2dc47e515d33dc70dc401f8319ab1c440d614490ed4d/isar-1.9.2.tar.gz
+[2023-07-11 14:50:39] INFO root fetch - processPackages [lemonai]: Downloading https://files.pythonhosted.org/packages/38/2a/7da79cc1dd9ba48ce7c6e52166b5af39d32ca952568f4070b07f6372746f/lemonai-0.0.9.tar.gz
+[2023-07-11 14:50:39] INFO root fetch - processPackages [nobuco]: executing diffoscope
+[2023-07-11 14:50:39] INFO root fetch - processPackages [nobuco]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nobuco-0.5.7.tar.gz tmp/nobuco-0.5.8.tar.gz --markdown 20230711/n/nobuco/0.5.7-0.5.8/diff.md --exclude *.pyd
+[2023-07-11 14:50:40] INFO root fetch - processPackages [spotdl]: executing diffoscope
+[2023-07-11 14:50:40] INFO root fetch - processPackages [spotdl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotdl-4.1.9.tar.gz tmp/spotdl-4.2.0.tar.gz --markdown 20230711/s/spotdl/4.1.9-4.2.0/diff.md --exclude *.pyd
+[2023-07-11 14:50:40] INFO root fetch - processPackages [swh.core]: Downloading https://files.pythonhosted.org/packages/49/8b/36c6404dc1c5d1b66968b7d72a99d17d7339e3ed5baadf762bec13820e76/swh.core-2.9.0.tar.gz
+[2023-07-11 14:50:40] INFO root fetch - processPackages [isar]: executing diffoscope
+[2023-07-11 14:50:40] INFO root fetch - processPackages [isar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/isar-1.9.1.tar.gz tmp/isar-1.9.2.tar.gz --markdown 20230711/i/isar/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-07-11 14:50:40] INFO root fetch - processPackages [swh.core]: executing diffoscope
+[2023-07-11 14:50:40] INFO root fetch - processPackages [swh.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swh.core-2.8.1.tar.gz tmp/swh.core-2.9.0.tar.gz --markdown 20230711/s/swh.core/2.8.1-2.9.0/diff.md --exclude *.pyd
+[2023-07-11 14:50:41] INFO root fetch - processPackages [lemonai]: executing diffoscope
+[2023-07-11 14:50:41] INFO root fetch - processPackages [lemonai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lemonai-0.0.8.tar.gz tmp/lemonai-0.0.9.tar.gz --markdown 20230711/l/lemonai/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-11 14:50:42] INFO root fetch - processPackages [FedArtML]: Remove: archive file [/home/abi/fetcher/tmp/FedArtML-0.1.8.tar.gz]
+[2023-07-11 14:50:42] INFO root fetch - processPackages [FedArtML]: Remove: archive file [/home/abi/fetcher/tmp/FedArtML-0.1.9.tar.gz]
+[2023-07-11 14:50:42] INFO root fetch - processPackages [FedArtML]: Start processing: dtlpy
+[2023-07-11 14:50:42] INFO root fetch - main [MainThread]: End processing [FedArtML]: success
+[2023-07-11 14:50:42] INFO root fetch - processPackages [dtlpy]: New version: [1.80.7] Old Version: [1.79.14]
+[2023-07-11 14:50:42] INFO root fetch - processPackages [reprocess-wfc3]: Remove: archive file [/home/abi/fetcher/tmp/reprocess_wfc3-0.2.2.tar.gz]
+[2023-07-11 14:50:42] INFO root fetch - processPackages [reprocess-wfc3]: Remove: archive file [/home/abi/fetcher/tmp/reprocess_wfc3-0.2.3.tar.gz]
+[2023-07-11 14:50:42] INFO root fetch - processPackages [reprocess-wfc3]: Start processing: TigerShark3
+[2023-07-11 14:50:42] INFO root fetch - main [MainThread]: End processing [reprocess-wfc3]: success
+[2023-07-11 14:50:42] WARNING root fetch - processPackages [TigerShark3]: Skipping, unable to determine old version
+[2023-07-11 14:50:42] INFO root fetch - processPackages [TigerShark3]: Start processing: allianceauth
+[2023-07-11 14:50:42] INFO root fetch - main [MainThread]: End processing [TigerShark3] error
+[2023-07-11 14:50:42] INFO root fetch - processPackages [lime-nda]: Remove: archive file [/home/abi/fetcher/tmp/lime_nda-0.0.8.tar.gz]
+[2023-07-11 14:50:42] INFO root fetch - processPackages [lime-nda]: Remove: archive file [/home/abi/fetcher/tmp/lime_nda-0.0.9.tar.gz]
+[2023-07-11 14:50:42] INFO root fetch - main [MainThread]: End processing [lime-nda]: success
+[2023-07-11 14:50:42] INFO root fetch - processPackages [dtlpy]: Downloading https://files.pythonhosted.org/packages/b9/b2/e3621b288302150ac7916e754ec2f07a3680adf802c054cc55ebca909b78/dtlpy-1.79.14-py3-none-any.whl
+[2023-07-11 14:50:42] INFO root fetch - processPackages [allianceauth]: New version: [3.5.0] Old Version: [3.4.0]
+[2023-07-11 14:50:42] INFO root fetch - processPackages [cru-dse-utils]: Remove: archive file [/home/abi/fetcher/tmp/cru-dse-utils-0.1.3.tar.gz]
+[2023-07-11 14:50:42] INFO root fetch - processPackages [cru-dse-utils]: Remove: archive file [/home/abi/fetcher/tmp/cru-dse-utils-0.1.4.tar.gz]
+[2023-07-11 14:50:42] INFO root fetch - main [MainThread]: End processing [cru-dse-utils]: success
+[2023-07-11 14:50:42] INFO root fetch - processPackages [allianceauth]: Downloading https://files.pythonhosted.org/packages/b9/1c/f71eeee3d5bedbc070b9888fe7eb8721e8cbd33149c7a2328521b96f5a29/allianceauth-3.4.0.tar.gz
+[2023-07-11 14:50:43] INFO root fetch - processPackages [nornir-easy-netmiko]: Remove: archive file [/home/abi/fetcher/tmp/nornir_easy_netmiko-1.0.0.tar.gz]
+[2023-07-11 14:50:43] INFO root fetch - processPackages [nornir-easy-netmiko]: Remove: archive file [/home/abi/fetcher/tmp/nornir_easy_netmiko-1.0.1.tar.gz]
+[2023-07-11 14:50:43] INFO root fetch - main [MainThread]: End processing [nornir-easy-netmiko]: success
+[2023-07-11 14:50:43] INFO root fetch - processPackages [dtlpy]: Downloading https://files.pythonhosted.org/packages/08/f5/6d1858f1fbbb9da09d9795e36dd6cdf80ba142b61a1d544d58b795699ee9/dtlpy-1.80.7-py3-none-any.whl
+[2023-07-11 14:50:43] INFO root fetch - processPackages [allianceauth]: Downloading https://files.pythonhosted.org/packages/37/a6/b5c31fbce32c91526c968fc4139190904a3bb118725b647f4df84a00c718/allianceauth-3.5.0.tar.gz
+[2023-07-11 14:50:43] INFO root fetch - processPackages [nobuco]: Remove: archive file [/home/abi/fetcher/tmp/nobuco-0.5.7.tar.gz]
+[2023-07-11 14:50:43] INFO root fetch - processPackages [nobuco]: Remove: archive file [/home/abi/fetcher/tmp/nobuco-0.5.8.tar.gz]
+[2023-07-11 14:50:43] INFO root fetch - main [MainThread]: End processing [nobuco]: success
+[2023-07-11 14:50:43] INFO root fetch - processPackages [dtlpy]: executing diffoscope
+[2023-07-11 14:50:43] INFO root fetch - processPackages [dtlpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dtlpy-1.79.14-py3-none-any.whl.zip tmp/dtlpy-1.80.7-py3-none-any.whl.zip --markdown 20230711/d/dtlpy/1.79.14-1.80.7/diff.md --exclude *.pyd
+[2023-07-11 14:50:43] INFO root fetch - processPackages [allianceauth]: executing diffoscope
+[2023-07-11 14:50:43] INFO root fetch - processPackages [allianceauth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/allianceauth-3.4.0.tar.gz tmp/allianceauth-3.5.0.tar.gz --markdown 20230711/a/allianceauth/3.4.0-3.5.0/diff.md --exclude *.pyd
+[2023-07-11 14:50:43] INFO root fetch - processPackages [spotdl]: Remove: archive file [/home/abi/fetcher/tmp/spotdl-4.1.9.tar.gz]
+[2023-07-11 14:50:43] INFO root fetch - processPackages [spotdl]: Remove: archive file [/home/abi/fetcher/tmp/spotdl-4.2.0.tar.gz]
+[2023-07-11 14:50:43] INFO root fetch - main [MainThread]: End processing [spotdl]: success
+[2023-07-11 14:50:44] INFO root fetch - processPackages [isar]: Remove: archive file [/home/abi/fetcher/tmp/isar-1.9.1.tar.gz]
+[2023-07-11 14:50:44] INFO root fetch - processPackages [isar]: Remove: archive file [/home/abi/fetcher/tmp/isar-1.9.2.tar.gz]
+[2023-07-11 14:50:44] INFO root fetch - main [MainThread]: End processing [isar]: success
+[2023-07-11 14:50:44] INFO root fetch - processPackages [lemonai]: Remove: archive file [/home/abi/fetcher/tmp/lemonai-0.0.8.tar.gz]
+[2023-07-11 14:50:44] INFO root fetch - processPackages [lemonai]: Remove: archive file [/home/abi/fetcher/tmp/lemonai-0.0.9.tar.gz]
+[2023-07-11 14:50:44] INFO root fetch - main [MainThread]: End processing [lemonai]: success
+[2023-07-11 14:50:44] INFO root fetch - processPackages [swh.core]: Remove: archive file [/home/abi/fetcher/tmp/swh.core-2.8.1.tar.gz]
+[2023-07-11 14:50:44] INFO root fetch - processPackages [swh.core]: Remove: archive file [/home/abi/fetcher/tmp/swh.core-2.9.0.tar.gz]
+[2023-07-11 14:50:44] INFO root fetch - main [MainThread]: End processing [swh.core]: success
+[2023-07-11 14:50:46] INFO root fetch - processPackages [dtlpy]: Remove: archive file [/home/abi/fetcher/tmp/dtlpy-1.79.14-py3-none-any.whl.zip]
+[2023-07-11 14:50:46] INFO root fetch - processPackages [dtlpy]: Remove: archive file [/home/abi/fetcher/tmp/dtlpy-1.80.7-py3-none-any.whl.zip]
+[2023-07-11 14:50:46] INFO root fetch - main [MainThread]: End processing [dtlpy]: success
+[2023-07-11 14:50:48] INFO root fetch - processPackages [allianceauth]: Remove: archive file [/home/abi/fetcher/tmp/allianceauth-3.4.0.tar.gz]
+[2023-07-11 14:50:48] INFO root fetch - processPackages [allianceauth]: Remove: archive file [/home/abi/fetcher/tmp/allianceauth-3.5.0.tar.gz]
+[2023-07-11 14:50:48] INFO root fetch - main [MainThread]: End processing [allianceauth]: success
+[2023-07-11 14:50:48] INFO root fetch - main [MainThread]: Store serial: [18845497]
