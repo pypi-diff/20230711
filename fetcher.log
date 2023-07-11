@@ -16391,3 +16391,128 @@ AssertionError: tmp/doctran-0.0.6.tar.gz does not exist
 [2023-07-11 12:18:09] INFO root fetch - processPackages [PySide2-Fluent-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/PySide2-Fluent-Widgets-1.0.2.tar.gz]
 [2023-07-11 12:18:09] INFO root fetch - main [MainThread]: End processing [PySide2-Fluent-Widgets]: success
 [2023-07-11 12:18:09] INFO root fetch - main [MainThread]: Store serial: [18843619]
+[2023-07-11 12:23:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18843619]
+[2023-07-11 12:23:20] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-11 12:23:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fitspy
+[2023-07-11 12:23:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qiskit-hangyul
+[2023-07-11 12:23:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: causal-testing-framework
+[2023-07-11 12:23:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: domolibrary
+[2023-07-11 12:23:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: opentf-toolkit
+[2023-07-11 12:23:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: TheSilent
+[2023-07-11 12:23:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: roughpy
+[2023-07-11 12:23:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cacholote
+[2023-07-11 12:23:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: papertronics-sdk
+[2023-07-11 12:23:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: viktor
+[2023-07-11 12:23:21] INFO root fetch - processPackages [fitspy]: New version: [2023.3] Old Version: [2023.2]
+[2023-07-11 12:23:21] INFO root fetch - processPackages [qiskit-hangyul]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-11 12:23:21] INFO root fetch - processPackages [papertronics-sdk]: New version: [0.0.23] Old Version: [0.0.22]
+[2023-07-11 12:23:21] INFO root fetch - processPackages [viktor]: New version: [14.3.0] Old Version: [14.2.1]
+[2023-07-11 12:23:21] INFO root fetch - processPackages [cacholote]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-11 12:23:21] INFO root fetch - processPackages [domolibrary]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-11 12:23:21] INFO root fetch - processPackages [opentf-toolkit]: New version: [0.48.0] Old Version: [0.47.0]
+[2023-07-11 12:23:21] INFO root fetch - processPackages [causal-testing-framework]: New version: [4.3.0] Old Version: [4.2.0]
+[2023-07-11 12:23:21] INFO root fetch - processPackages [roughpy]: New version: [0.0.3] Old Version: [0.0.2a0]
+[2023-07-11 12:23:21] INFO root fetch - processPackages [TheSilent]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-11 12:23:21] INFO root fetch - processPackages [domolibrary]: Downloading https://files.pythonhosted.org/packages/84/f8/ca22b28a893290f3f077d48d12f9bbfa0b351b8a23052c67d9d2df56c886/domolibrary-0.1.98.tar.gz
+[2023-07-11 12:23:21] INFO root fetch - processPackages [qiskit-hangyul]: Downloading https://files.pythonhosted.org/packages/28/6b/6adfcd15cdb934b845cfafd90fed530a3779de65fb330ffb6062c420b565/qiskit_hangyul-0.2.0.tar.gz
+[2023-07-11 12:23:21] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/ad/09/2a1f42483bf3fbc17417489cf4f3d6ec17c5c763e219aa02ad1827f29dc1/TheSilent-0.0.98.tar.gz
+[2023-07-11 12:23:21] INFO root fetch - processPackages [papertronics-sdk]: Downloading https://files.pythonhosted.org/packages/7f/5a/01fafbea05833d390ae662fbd5409357741c92380ffea53677706ec13270/papertronics-sdk-0.0.22.tar.gz
+[2023-07-11 12:23:21] INFO root fetch - processPackages [cacholote]: Downloading https://files.pythonhosted.org/packages/2b/b3/a5c351eee57c52328711305214bb8f692493edf149ad794610811231dbb0/cacholote-0.3.1.tar.gz
+[2023-07-11 12:23:21] INFO root fetch - processPackages [fitspy]: Downloading https://files.pythonhosted.org/packages/aa/74/2f88eb62db025734360c76e1928c16d6eb5206b78207146ed991cffabdb3/fitspy-2023.2.tar.gz
+[2023-07-11 12:23:21] INFO root fetch - processPackages [viktor]: Downloading https://files.pythonhosted.org/packages/b7/a2/bd58a8781a18aba8c8fa56bcb8ce5a4c0beda89e3479c0b633748b6761b6/viktor-14.2.1-cp39-cp39-win_amd64.whl
+[2023-07-11 12:23:21] INFO root fetch - processPackages [opentf-toolkit]: Downloading https://files.pythonhosted.org/packages/dc/8f/3e2192bbc045b582fe1d57694fc249ee5d90bfa7449d9e5bfb64a9eab950/opentf_toolkit-0.47.0-py3-none-any.whl
+[2023-07-11 12:23:21] INFO root fetch - processPackages [causal-testing-framework]: Downloading https://files.pythonhosted.org/packages/25/da/a04785672bd51a57aa37db98e986c09bf57ebcb009ac3a81369cbab629c7/causal_testing_framework-4.2.0.tar.gz
+[2023-07-11 12:23:21] INFO root fetch - processPackages [roughpy]: Downloading https://files.pythonhosted.org/packages/b5/ea/0b9ef6c145b9eecc59dfccb155866be04cddcce536233e8361c14af8dd16/roughpy-0.0.2a0.tar.gz
+[2023-07-11 12:23:21] WARNING root fetch - processPackages [fitspy]: Skipping package: exceeds size limit 12513300>=10485760
+[2023-07-11 12:23:21] INFO root fetch - processPackages [fitspy]: Start processing: arq-django-admin
+[2023-07-11 12:23:21] INFO root fetch - main [MainThread]: End processing [fitspy] error
+[2023-07-11 12:23:21] INFO root fetch - processPackages [domolibrary]: Downloading https://files.pythonhosted.org/packages/ef/ec/fc9564bd79a2ddb4e26b61efd0fc792975bd04a769102587a579e3693e90/domolibrary-0.1.99.tar.gz
+[2023-07-11 12:23:21] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/38/21/9b42cfa55edd85cfd4fefba7fb94aab0891af2b6c90ef59e687a42228a0b/TheSilent-0.0.99.tar.gz
+[2023-07-11 12:23:21] INFO root fetch - processPackages [arq-django-admin]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-11 12:23:21] INFO root fetch - processPackages [qiskit-hangyul]: Downloading https://files.pythonhosted.org/packages/30/c6/82a8031d301d2bf67131f0ddd4ce298649c711d5cdcd7cbf04a2916f9128/qiskit_hangyul-0.3.0.tar.gz
+[2023-07-11 12:23:22] INFO root fetch - processPackages [papertronics-sdk]: Downloading https://files.pythonhosted.org/packages/1f/ef/47a8daf9d9c16d8610f52434311ba2529b2d38f1ac098850456e144c8c9b/papertronics-sdk-0.0.23.tar.gz
+[2023-07-11 12:23:22] INFO root fetch - processPackages [qiskit-hangyul]: executing diffoscope
+[2023-07-11 12:23:22] INFO root fetch - processPackages [qiskit-hangyul]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qiskit_hangyul-0.2.0.tar.gz tmp/qiskit_hangyul-0.3.0.tar.gz --markdown 20230711/q/qiskit-hangyul/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-11 12:23:22] INFO root fetch - processPackages [domolibrary]: executing diffoscope
+[2023-07-11 12:23:22] INFO root fetch - processPackages [domolibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domolibrary-0.1.98.tar.gz tmp/domolibrary-0.1.99.tar.gz --markdown 20230711/d/domolibrary/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-11 12:23:22] INFO root fetch - processPackages [TheSilent]: executing diffoscope
+[2023-07-11 12:23:22] INFO root fetch - processPackages [TheSilent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TheSilent-0.0.98.tar.gz tmp/TheSilent-0.0.99.tar.gz --markdown 20230711/T/TheSilent/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-11 12:23:22] INFO root fetch - processPackages [cacholote]: Downloading https://files.pythonhosted.org/packages/c2/ff/641197bc1e255d9d9388143c788c6fe3bc73222d8e077546ec716698adc6/cacholote-0.3.2.tar.gz
+[2023-07-11 12:23:22] INFO root fetch - processPackages [papertronics-sdk]: executing diffoscope
+[2023-07-11 12:23:22] INFO root fetch - processPackages [papertronics-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/papertronics-sdk-0.0.22.tar.gz tmp/papertronics-sdk-0.0.23.tar.gz --markdown 20230711/p/papertronics-sdk/0.0.22-0.0.23/diff.md --exclude *.pyd
+[2023-07-11 12:23:22] INFO root fetch - processPackages [arq-django-admin]: Downloading https://files.pythonhosted.org/packages/41/a1/0a1524acd763957128c08fdc037ddb01b191e6cb1008bc5c61397958c7d6/arq-django-admin-0.3.0.tar.gz
+[2023-07-11 12:23:22] INFO root fetch - processPackages [opentf-toolkit]: Downloading https://files.pythonhosted.org/packages/2d/a1/0ae415ffc84a73eb3eeb66cfbf75d2ccc45287ee80e10a7e065cae1f9df0/opentf_toolkit-0.48.0-py3-none-any.whl
+[2023-07-11 12:23:22] INFO root fetch - processPackages [cacholote]: executing diffoscope
+[2023-07-11 12:23:22] INFO root fetch - processPackages [cacholote]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cacholote-0.3.1.tar.gz tmp/cacholote-0.3.2.tar.gz --markdown 20230711/c/cacholote/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-11 12:23:22] INFO root fetch - processPackages [roughpy]: Downloading https://files.pythonhosted.org/packages/88/45/fbc02427372fdf0cb8637e311564fd4029d8de2710dbf524ce5ada057c31/roughpy-0.0.3.tar.gz
+[2023-07-11 12:23:22] INFO root fetch - processPackages [causal-testing-framework]: Downloading https://files.pythonhosted.org/packages/ee/22/9233cc09c0fef1db5e19e1bd3d8035f59f2573e5cd3462a19389c5ebac3b/causal_testing_framework-4.3.0.tar.gz
+[2023-07-11 12:23:22] INFO root fetch - processPackages [opentf-toolkit]: executing diffoscope
+[2023-07-11 12:23:22] INFO root fetch - processPackages [opentf-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opentf_toolkit-0.47.0-py3-none-any.whl.zip tmp/opentf_toolkit-0.48.0-py3-none-any.whl.zip --markdown 20230711/o/opentf-toolkit/0.47.0-0.48.0/diff.md --exclude *.pyd
+[2023-07-11 12:23:22] INFO root fetch - processPackages [roughpy]: executing diffoscope
+[2023-07-11 12:23:22] INFO root fetch - processPackages [roughpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roughpy-0.0.2a0.tar.gz tmp/roughpy-0.0.3.tar.gz --markdown 20230711/r/roughpy/0.0.2a0-0.0.3/diff.md --exclude *.pyd
+[2023-07-11 12:23:22] INFO root fetch - processPackages [causal-testing-framework]: executing diffoscope
+[2023-07-11 12:23:22] INFO root fetch - processPackages [causal-testing-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/causal_testing_framework-4.2.0.tar.gz tmp/causal_testing_framework-4.3.0.tar.gz --markdown 20230711/c/causal-testing-framework/4.2.0-4.3.0/diff.md --exclude *.pyd
+[2023-07-11 12:23:22] INFO root fetch - processPackages [arq-django-admin]: Downloading https://files.pythonhosted.org/packages/0f/58/101839405ead37d74af142a94dbd73322515cd1c1dfe3146d92d1e7b4a6c/arq-django-admin-0.3.1.tar.gz
+[2023-07-11 12:23:22] INFO root fetch - processPackages [arq-django-admin]: executing diffoscope
+[2023-07-11 12:23:22] INFO root fetch - processPackages [arq-django-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arq-django-admin-0.3.0.tar.gz tmp/arq-django-admin-0.3.1.tar.gz --markdown 20230711/a/arq-django-admin/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-11 12:23:23] INFO root fetch - processPackages [viktor]: Downloading https://files.pythonhosted.org/packages/f8/8c/a8084b0097719b1edf4fe65484872dfcb915a0e87eaee842f6fd5eafdc6b/viktor-14.3.0-cp39-cp39-win_amd64.whl
+[2023-07-11 12:23:23] INFO root fetch - processPackages [viktor]: executing diffoscope
+[2023-07-11 12:23:23] INFO root fetch - processPackages [viktor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/viktor-14.2.1-cp39-cp39-win_amd64.whl.zip tmp/viktor-14.3.0-cp39-cp39-win_amd64.whl.zip --markdown 20230711/v/viktor/14.2.1-14.3.0/diff.md --exclude *.pyd
+[2023-07-11 12:23:23] INFO root fetch - processPackages [qiskit-hangyul]: Remove: archive file [/home/abi/fetcher/tmp/qiskit_hangyul-0.2.0.tar.gz]
+[2023-07-11 12:23:23] INFO root fetch - processPackages [qiskit-hangyul]: Remove: archive file [/home/abi/fetcher/tmp/qiskit_hangyul-0.3.0.tar.gz]
+[2023-07-11 12:23:23] INFO root fetch - processPackages [qiskit-hangyul]: Start processing: dvis
+[2023-07-11 12:23:23] INFO root fetch - main [MainThread]: End processing [qiskit-hangyul]: success
+[2023-07-11 12:23:24] INFO root fetch - processPackages [dvis]: New version: [0.8.7.6] Old Version: [0.8.7.5]
+[2023-07-11 12:23:24] INFO root fetch - processPackages [papertronics-sdk]: Remove: archive file [/home/abi/fetcher/tmp/papertronics-sdk-0.0.22.tar.gz]
+[2023-07-11 12:23:24] INFO root fetch - processPackages [papertronics-sdk]: Remove: archive file [/home/abi/fetcher/tmp/papertronics-sdk-0.0.23.tar.gz]
+[2023-07-11 12:23:24] INFO root fetch - processPackages [papertronics-sdk]: Start processing: papertronics-sdk
+[2023-07-11 12:23:24] INFO root fetch - main [MainThread]: End processing [papertronics-sdk]: success
+[2023-07-11 12:23:24] INFO root fetch - processPackages [dvis]: Downloading https://files.pythonhosted.org/packages/5e/4a/1dd87c5abe9c48790661a8a2adc6ed1b1cac16f075e7a0c01385db0c990a/dvis-0.8.7.5-py3-none-any.whl
+[2023-07-11 12:23:24] INFO root fetch - processPackages [papertronics-sdk]: New version: [0.0.24] Old Version: [0.0.23]
+[2023-07-11 12:23:24] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.98.tar.gz]
+[2023-07-11 12:23:24] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.99.tar.gz]
+[2023-07-11 12:23:24] INFO root fetch - processPackages [TheSilent]: Start processing: leadguru-jobs
+[2023-07-11 12:23:24] INFO root fetch - main [MainThread]: End processing [TheSilent]: success
+[2023-07-11 12:23:24] INFO root fetch - processPackages [papertronics-sdk]: Downloading https://files.pythonhosted.org/packages/1f/ef/47a8daf9d9c16d8610f52434311ba2529b2d38f1ac098850456e144c8c9b/papertronics-sdk-0.0.23.tar.gz
+[2023-07-11 12:23:24] INFO root fetch - processPackages [leadguru-jobs]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-07-11 12:23:24] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/58/0a/904c1f8e92c5b6adf3bf97a755cae87648f67ca82bb52bc30055558e0ce3/leadguru_jobs-0.98.0.tar.gz
+[2023-07-11 12:23:24] INFO root fetch - processPackages [dvis]: Downloading https://files.pythonhosted.org/packages/b7/60/c4e0331711bc5ac380e0451b1bb5ddb947e4dd52697831e77663b1c029f0/dvis-0.8.7.6-py3-none-any.whl
+[2023-07-11 12:23:24] INFO root fetch - processPackages [dvis]: executing diffoscope
+[2023-07-11 12:23:24] INFO root fetch - processPackages [dvis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dvis-0.8.7.5-py3-none-any.whl.zip tmp/dvis-0.8.7.6-py3-none-any.whl.zip --markdown 20230711/d/dvis/0.8.7.5-0.8.7.6/diff.md --exclude *.pyd
+[2023-07-11 12:23:24] INFO root fetch - processPackages [papertronics-sdk]: Downloading https://files.pythonhosted.org/packages/5e/5d/9a17c2518a608a7c026260a6f0a309a4fe27d9fb83258e9f9f3dbe65f96f/papertronics-sdk-0.0.24.tar.gz
+[2023-07-11 12:23:24] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/e4/7f/189fe7a4dc1256297dd1956413531652ee35cd4ee527f02aa7f2d608775a/leadguru_jobs-0.99.0.tar.gz
+[2023-07-11 12:23:24] INFO root fetch - processPackages [opentf-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/opentf_toolkit-0.47.0-py3-none-any.whl.zip]
+[2023-07-11 12:23:24] INFO root fetch - processPackages [opentf-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/opentf_toolkit-0.48.0-py3-none-any.whl.zip]
+[2023-07-11 12:23:24] INFO root fetch - main [MainThread]: End processing [opentf-toolkit]: success
+[2023-07-11 12:23:24] INFO root fetch - processPackages [cacholote]: Remove: archive file [/home/abi/fetcher/tmp/cacholote-0.3.1.tar.gz]
+[2023-07-11 12:23:24] INFO root fetch - processPackages [cacholote]: Remove: archive file [/home/abi/fetcher/tmp/cacholote-0.3.2.tar.gz]
+[2023-07-11 12:23:24] INFO root fetch - main [MainThread]: End processing [cacholote]: success
+[2023-07-11 12:23:24] INFO root fetch - processPackages [arq-django-admin]: Remove: archive file [/home/abi/fetcher/tmp/arq-django-admin-0.3.0.tar.gz]
+[2023-07-11 12:23:24] INFO root fetch - processPackages [arq-django-admin]: Remove: archive file [/home/abi/fetcher/tmp/arq-django-admin-0.3.1.tar.gz]
+[2023-07-11 12:23:24] INFO root fetch - main [MainThread]: End processing [arq-django-admin]: success
+[2023-07-11 12:23:24] INFO root fetch - processPackages [leadguru-jobs]: executing diffoscope
+[2023-07-11 12:23:24] INFO root fetch - processPackages [leadguru-jobs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_jobs-0.98.0.tar.gz tmp/leadguru_jobs-0.99.0.tar.gz --markdown 20230711/l/leadguru-jobs/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-07-11 12:23:24] INFO root fetch - processPackages [papertronics-sdk]: executing diffoscope
+[2023-07-11 12:23:24] INFO root fetch - processPackages [papertronics-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/papertronics-sdk-0.0.23.tar.gz tmp/papertronics-sdk-0.0.24.tar.gz --markdown 20230711/p/papertronics-sdk/0.0.23-0.0.24/diff.md --exclude *.pyd
+[2023-07-11 12:23:25] INFO root fetch - processPackages [domolibrary]: Remove: archive file [/home/abi/fetcher/tmp/domolibrary-0.1.98.tar.gz]
+[2023-07-11 12:23:25] INFO root fetch - processPackages [domolibrary]: Remove: archive file [/home/abi/fetcher/tmp/domolibrary-0.1.99.tar.gz]
+[2023-07-11 12:23:25] INFO root fetch - main [MainThread]: End processing [domolibrary]: success
+[2023-07-11 12:23:25] INFO root fetch - processPackages [causal-testing-framework]: Remove: archive file [/home/abi/fetcher/tmp/causal_testing_framework-4.2.0.tar.gz]
+[2023-07-11 12:23:25] INFO root fetch - processPackages [causal-testing-framework]: Remove: archive file [/home/abi/fetcher/tmp/causal_testing_framework-4.3.0.tar.gz]
+[2023-07-11 12:23:25] INFO root fetch - main [MainThread]: End processing [causal-testing-framework]: success
+[2023-07-11 12:23:25] INFO root fetch - processPackages [dvis]: Remove: archive file [/home/abi/fetcher/tmp/dvis-0.8.7.5-py3-none-any.whl.zip]
+[2023-07-11 12:23:25] INFO root fetch - processPackages [dvis]: Remove: archive file [/home/abi/fetcher/tmp/dvis-0.8.7.6-py3-none-any.whl.zip]
+[2023-07-11 12:23:25] INFO root fetch - main [MainThread]: End processing [dvis]: success
+[2023-07-11 12:23:26] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.98.0.tar.gz]
+[2023-07-11 12:23:26] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.99.0.tar.gz]
+[2023-07-11 12:23:26] INFO root fetch - main [MainThread]: End processing [leadguru-jobs]: success
+[2023-07-11 12:23:26] INFO root fetch - processPackages [papertronics-sdk]: Remove: archive file [/home/abi/fetcher/tmp/papertronics-sdk-0.0.23.tar.gz]
+[2023-07-11 12:23:26] INFO root fetch - processPackages [papertronics-sdk]: Remove: archive file [/home/abi/fetcher/tmp/papertronics-sdk-0.0.24.tar.gz]
+[2023-07-11 12:23:26] INFO root fetch - main [MainThread]: End processing [papertronics-sdk]: success
+[2023-07-11 12:23:29] INFO root fetch - processPackages [viktor]: Remove: archive file [/home/abi/fetcher/tmp/viktor-14.2.1-cp39-cp39-win_amd64.whl.zip]
+[2023-07-11 12:23:29] INFO root fetch - processPackages [viktor]: Remove: archive file [/home/abi/fetcher/tmp/viktor-14.3.0-cp39-cp39-win_amd64.whl.zip]
+[2023-07-11 12:23:29] INFO root fetch - main [MainThread]: End processing [viktor]: success
+[2023-07-11 12:23:29] INFO root fetch - processPackages [roughpy]: Remove: archive file [/home/abi/fetcher/tmp/roughpy-0.0.2a0.tar.gz]
+[2023-07-11 12:23:29] INFO root fetch - processPackages [roughpy]: Remove: archive file [/home/abi/fetcher/tmp/roughpy-0.0.3.tar.gz]
+[2023-07-11 12:23:29] INFO root fetch - main [MainThread]: End processing [roughpy]: success
+[2023-07-11 12:23:29] INFO root fetch - main [MainThread]: Store serial: [18843679]
