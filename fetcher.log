@@ -15812,3 +15812,156 @@ AssertionError: tmp/doctran-0.0.6.tar.gz does not exist
 [2023-07-11 11:55:59] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
 [2023-07-11 11:55:59] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2023-07-11 11:55:59] INFO root fetch - main [MainThread]: Store serial: [18843401]
+[2023-07-11 12:01:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18843401]
+[2023-07-11 12:01:09] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-07-11 12:01:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: KofiPyQtHelper
+[2023-07-11 12:01:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pheno-utils
+[2023-07-11 12:01:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: OpenFisca-Survey-Manager
+[2023-07-11 12:01:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fa-models
+[2023-07-11 12:01:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: smart-vector
+[2023-07-11 12:01:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: alibabacloud-sas20181203-py2
+[2023-07-11 12:01:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: threads-net
+[2023-07-11 12:01:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: VisionFive.gpio
+[2023-07-11 12:01:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mys-goods-tool
+[2023-07-11 12:01:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: alibabacloud-sas20181203
+[2023-07-11 12:01:09] INFO root fetch - processPackages [VisionFive.gpio]: New version: [1.2.13] Old Version: [1.2.12]
+[2023-07-11 12:01:09] INFO root fetch - processPackages [KofiPyQtHelper]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-11 12:01:09] INFO root fetch - processPackages [alibabacloud-sas20181203]: New version: [2.1.8] Old Version: [2.1.7]
+[2023-07-11 12:01:09] INFO root fetch - processPackages [OpenFisca-Survey-Manager]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-11 12:01:09] WARNING root fetch - processPackages [smart-vector]: Skipping, unable to determine old version
+[2023-07-11 12:01:09] INFO root fetch - processPackages [smart-vector]: Start processing: icpp-candid
+[2023-07-11 12:01:09] INFO root fetch - main [MainThread]: End processing [smart-vector] error
+[2023-07-11 12:01:09] INFO root fetch - processPackages [pheno-utils]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-11 12:01:09] INFO root fetch - processPackages [alibabacloud-sas20181203-py2]: New version: [2.1.8] Old Version: [2.1.7]
+[2023-07-11 12:01:09] INFO root fetch - processPackages [mys-goods-tool]: New version: [2.1.0b1] Old Version: [2.0.5]
+[2023-07-11 12:01:09] INFO root fetch - processPackages [threads-net]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-11 12:01:09] INFO root fetch - processPackages [icpp-candid]: New version: [2.9.0] Old Version: [2.8.1]
+[2023-07-11 12:01:09] INFO root fetch - processPackages [fa-models]: New version: [1.0.76] Old Version: [1.0.75]
+[2023-07-11 12:01:09] INFO root fetch - processPackages [KofiPyQtHelper]: Downloading https://files.pythonhosted.org/packages/df/13/2684aa6e0aa317e4499eae549b0b03a118c41344ddce6fbcf651863fdc59/KofiPyQtHelper-0.0.5.tar.gz
+[2023-07-11 12:01:09] INFO root fetch - processPackages [pheno-utils]: Downloading https://files.pythonhosted.org/packages/cb/1e/47793489e7151cd8f6f9a2c204382d7fb202b10325dc0699ad570f2307b0/pheno-utils-0.3.0.tar.gz
+[2023-07-11 12:01:09] INFO root fetch - processPackages [threads-net]: Downloading https://files.pythonhosted.org/packages/11/ba/483f4770d7c413aff80cfdfd96da75d50912f6604255f4a04d7e8448a5a1/threads-net-0.0.7.tar.gz
+[2023-07-11 12:01:09] INFO root fetch - processPackages [VisionFive.gpio]: Downloading https://files.pythonhosted.org/packages/95/84/09f1f82c8f79a4bcf287e1715b5467f7ec0a136b0dee21fadd156e24de39/VisionFive.gpio-1.2.12-cp34-abi3-any.whl
+[2023-07-11 12:01:09] INFO root fetch - processPackages [OpenFisca-Survey-Manager]: Downloading https://files.pythonhosted.org/packages/bf/e3/ac9e1985260b242692489f84354d101be32f4dc1dcd5a2b1d9ae8e4fce42/OpenFisca-Survey-Manager-1.0.0.tar.gz
+[2023-07-11 12:01:09] INFO root fetch - processPackages [mys-goods-tool]: Downloading https://files.pythonhosted.org/packages/c1/26/c0aff0ff4e711305f890216bda700fbb6270898ae524479cba8709b6db9b/mys_goods_tool-2.0.5.tar.gz
+[2023-07-11 12:01:09] INFO root fetch - processPackages [fa-models]: Downloading https://files.pythonhosted.org/packages/1d/91/c28b7e99d0daeb380267a8641ce9c25d45352bad04a4c6d894b562675ec9/fa-models-1.0.75.tar.gz
+[2023-07-11 12:01:09] INFO root fetch - processPackages [alibabacloud-sas20181203-py2]: Downloading https://files.pythonhosted.org/packages/57/5d/5fb0a6d7c878bb029e48ea1448f969e89657d55debb677ede41e614b9075/alibabacloud_sas20181203_py2-2.1.7.tar.gz
+[2023-07-11 12:01:09] INFO root fetch - processPackages [icpp-candid]: Downloading https://files.pythonhosted.org/packages/08/e6/be45e3877775c36590c6e3b2e16876c42a293e12f90aaccd6db3cce4136b/icpp-candid-2.8.1.tar.gz
+[2023-07-11 12:01:09] INFO root fetch - processPackages [alibabacloud-sas20181203]: Downloading https://files.pythonhosted.org/packages/ce/d9/ab2af8cac82c17e186e2ddbbf3568b05e79567a63698f733965bc38ccd65/alibabacloud_sas20181203-2.1.7.tar.gz
+[2023-07-11 12:01:10] INFO root fetch - processPackages [threads-net]: Downloading https://files.pythonhosted.org/packages/de/bd/e372c12fe307c562ec3785151d74201431eddd2312171d55b8ee4ac81db6/threads-net-0.0.8.tar.gz
+[2023-07-11 12:01:10] INFO root fetch - processPackages [KofiPyQtHelper]: Downloading https://files.pythonhosted.org/packages/3f/54/997053a498c9d6c38c1e94406fb9e452cfbf0ef8f6b8cfa0db932b1da477/KofiPyQtHelper-0.0.6.tar.gz
+[2023-07-11 12:01:10] INFO root fetch - processPackages [threads-net]: executing diffoscope
+[2023-07-11 12:01:10] INFO root fetch - processPackages [threads-net]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threads-net-0.0.7.tar.gz tmp/threads-net-0.0.8.tar.gz --markdown 20230711/t/threads-net/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-11 12:01:10] INFO root fetch - processPackages [pheno-utils]: Downloading https://files.pythonhosted.org/packages/c0/3b/b4464f52c84b8a318641679f5bdf4a6a2282fdf0401ec4e0cb724cdd5fbd/pheno-utils-0.3.1.tar.gz
+[2023-07-11 12:01:10] INFO root fetch - processPackages [KofiPyQtHelper]: executing diffoscope
+[2023-07-11 12:01:10] INFO root fetch - processPackages [KofiPyQtHelper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KofiPyQtHelper-0.0.5.tar.gz tmp/KofiPyQtHelper-0.0.6.tar.gz --markdown 20230711/K/KofiPyQtHelper/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-11 12:01:10] INFO root fetch - processPackages [VisionFive.gpio]: Downloading https://files.pythonhosted.org/packages/dd/fa/837b46d28f520e74128334243ef0d4e7f96c1a82bed70b51b940c21b3fc5/VisionFive.gpio-1.2.13-cp310-cp310-any.whl
+[2023-07-11 12:01:10] INFO root fetch - processPackages [OpenFisca-Survey-Manager]: Downloading https://files.pythonhosted.org/packages/0d/9b/db8b3ad33d4c1eae1014616b111a0f8a3c54ffd034234ab25fd0f39d6e45/OpenFisca-Survey-Manager-1.0.1.tar.gz
+[2023-07-11 12:01:10] INFO root fetch - processPackages [fa-models]: Downloading https://files.pythonhosted.org/packages/99/56/601a5b2704ab5f31078cafbf83e55c4909f666ed634917c324d549671f36/fa-models-1.0.76.tar.gz
+[2023-07-11 12:01:10] INFO root fetch - processPackages [mys-goods-tool]: Downloading https://files.pythonhosted.org/packages/eb/fd/16cfe0ab06509fc48092cddf0d9670fe0f2cfd88e0e433e77fa4e43a980a/mys_goods_tool-2.1.0b1.tar.gz
+[2023-07-11 12:01:10] INFO root fetch - processPackages [icpp-candid]: Downloading https://files.pythonhosted.org/packages/b3/e2/818a292ed576a200ec71b5b88f452523d1378d9f76781da463bff82c27a5/icpp-candid-2.9.0.tar.gz
+[2023-07-11 12:01:10] INFO root fetch - processPackages [pheno-utils]: executing diffoscope
+[2023-07-11 12:01:10] INFO root fetch - processPackages [pheno-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pheno-utils-0.3.0.tar.gz tmp/pheno-utils-0.3.1.tar.gz --markdown 20230711/p/pheno-utils/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-11 12:01:10] INFO root fetch - processPackages [alibabacloud-sas20181203-py2]: Downloading https://files.pythonhosted.org/packages/4a/8e/4329fc2256005ff3de0fa5f1b162bf9af31d2b4352d626658cfbaa1dfa9f/alibabacloud_sas20181203_py2-2.1.8.tar.gz
+[2023-07-11 12:01:10] INFO root fetch - processPackages [OpenFisca-Survey-Manager]: executing diffoscope
+[2023-07-11 12:01:10] INFO root fetch - processPackages [OpenFisca-Survey-Manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenFisca-Survey-Manager-1.0.0.tar.gz tmp/OpenFisca-Survey-Manager-1.0.1.tar.gz --markdown 20230711/O/OpenFisca-Survey-Manager/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-11 12:01:10] INFO root fetch - processPackages [fa-models]: executing diffoscope
+[2023-07-11 12:01:10] INFO root fetch - processPackages [fa-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fa-models-1.0.75.tar.gz tmp/fa-models-1.0.76.tar.gz --markdown 20230711/f/fa-models/1.0.75-1.0.76/diff.md --exclude *.pyd
+[2023-07-11 12:01:10] INFO root fetch - processPackages [icpp-candid]: executing diffoscope
+[2023-07-11 12:01:10] INFO root fetch - processPackages [icpp-candid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/icpp-candid-2.8.1.tar.gz tmp/icpp-candid-2.9.0.tar.gz --markdown 20230711/i/icpp-candid/2.8.1-2.9.0/diff.md --exclude *.pyd
+[2023-07-11 12:01:10] INFO root fetch - processPackages [VisionFive.gpio]: executing diffoscope
+[2023-07-11 12:01:10] INFO root fetch - processPackages [VisionFive.gpio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/VisionFive.gpio-1.2.12-cp34-abi3-any.whl.zip tmp/VisionFive.gpio-1.2.13-cp310-cp310-any.whl.zip --markdown 20230711/V/VisionFive.gpio/1.2.12-1.2.13/diff.md --exclude *.pyd
+[2023-07-11 12:01:10] INFO root fetch - processPackages [alibabacloud-sas20181203]: Downloading https://files.pythonhosted.org/packages/8b/dd/679405e518a0f35d1ed56a486a50a0123ab3789ec313d66f51afc0af74f9/alibabacloud_sas20181203-2.1.8.tar.gz
+[2023-07-11 12:01:10] INFO root fetch - processPackages [mys-goods-tool]: executing diffoscope
+[2023-07-11 12:01:10] INFO root fetch - processPackages [mys-goods-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mys_goods_tool-2.0.5.tar.gz tmp/mys_goods_tool-2.1.0b1.tar.gz --markdown 20230711/m/mys-goods-tool/2.0.5-2.1.0b1/diff.md --exclude *.pyd
+[2023-07-11 12:01:10] INFO root fetch - processPackages [alibabacloud-sas20181203-py2]: executing diffoscope
+[2023-07-11 12:01:10] INFO root fetch - processPackages [alibabacloud-sas20181203-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_sas20181203_py2-2.1.7.tar.gz tmp/alibabacloud_sas20181203_py2-2.1.8.tar.gz --markdown 20230711/a/alibabacloud-sas20181203-py2/2.1.7-2.1.8/diff.md --exclude *.pyd
+[2023-07-11 12:01:10] INFO root fetch - processPackages [alibabacloud-sas20181203]: executing diffoscope
+[2023-07-11 12:01:10] INFO root fetch - processPackages [alibabacloud-sas20181203]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_sas20181203-2.1.7.tar.gz tmp/alibabacloud_sas20181203-2.1.8.tar.gz --markdown 20230711/a/alibabacloud-sas20181203/2.1.7-2.1.8/diff.md --exclude *.pyd
+[2023-07-11 12:01:11] INFO root fetch - processPackages [KofiPyQtHelper]: Remove: archive file [/home/abi/fetcher/tmp/KofiPyQtHelper-0.0.5.tar.gz]
+[2023-07-11 12:01:11] INFO root fetch - processPackages [KofiPyQtHelper]: Remove: archive file [/home/abi/fetcher/tmp/KofiPyQtHelper-0.0.6.tar.gz]
+[2023-07-11 12:01:11] INFO root fetch - processPackages [KofiPyQtHelper]: Start processing: easy-terminal
+[2023-07-11 12:01:11] INFO root fetch - main [MainThread]: End processing [KofiPyQtHelper]: success
+[2023-07-11 12:01:11] INFO root fetch - processPackages [threads-net]: Remove: archive file [/home/abi/fetcher/tmp/threads-net-0.0.7.tar.gz]
+[2023-07-11 12:01:11] INFO root fetch - processPackages [threads-net]: Remove: archive file [/home/abi/fetcher/tmp/threads-net-0.0.8.tar.gz]
+[2023-07-11 12:01:11] INFO root fetch - processPackages [threads-net]: Start processing: cloud-governance
+[2023-07-11 12:01:11] INFO root fetch - main [MainThread]: End processing [threads-net]: success
+[2023-07-11 12:01:11] INFO root fetch - processPackages [easy-terminal]: New version: [0.6.0] Old Version: [0.5.3]
+[2023-07-11 12:01:11] INFO root fetch - processPackages [easy-terminal]: Downloading https://files.pythonhosted.org/packages/8a/ad/a1566d6baeb7040b113640d078a3a1ef86de284e11f52952f151e8ab2fd2/easy-terminal-0.5.3.tar.gz
+[2023-07-11 12:01:11] INFO root fetch - processPackages [cloud-governance]: New version: [1.1.99] Old Version: [1.1.98]
+[2023-07-11 12:01:11] INFO root fetch - processPackages [pheno-utils]: Remove: archive file [/home/abi/fetcher/tmp/pheno-utils-0.3.0.tar.gz]
+[2023-07-11 12:01:11] INFO root fetch - processPackages [pheno-utils]: Remove: archive file [/home/abi/fetcher/tmp/pheno-utils-0.3.1.tar.gz]
+[2023-07-11 12:01:11] INFO root fetch - processPackages [pheno-utils]: Start processing: icpp-free
+[2023-07-11 12:01:11] INFO root fetch - main [MainThread]: End processing [pheno-utils]: success
+[2023-07-11 12:01:12] INFO root fetch - processPackages [fa-models]: Remove: archive file [/home/abi/fetcher/tmp/fa-models-1.0.75.tar.gz]
+[2023-07-11 12:01:12] INFO root fetch - processPackages [fa-models]: Remove: archive file [/home/abi/fetcher/tmp/fa-models-1.0.76.tar.gz]
+[2023-07-11 12:01:12] INFO root fetch - processPackages [fa-models]: Start processing: TinetApiRequest
+[2023-07-11 12:01:12] INFO root fetch - main [MainThread]: End processing [fa-models]: success
+[2023-07-11 12:01:12] INFO root fetch - processPackages [icpp-free]: New version: [2.9.0] Old Version: [2.8.1]
+[2023-07-11 12:01:12] INFO root fetch - processPackages [cloud-governance]: Downloading https://files.pythonhosted.org/packages/af/f8/db9bacb41ff13a7d3ae59369ae36809c3202232c910b932a09e42257b676/cloud-governance-1.1.98.tar.gz
+[2023-07-11 12:01:12] INFO root fetch - processPackages [easy-terminal]: Downloading https://files.pythonhosted.org/packages/14/63/74540a20b23d624e0acb2248b8e1020a74bf73e853fee02b6825511c984f/easy-terminal-0.6.0.tar.gz
+[2023-07-11 12:01:12] WARNING root fetch - processPackages [TinetApiRequest]: Skipping, unable to determine old version
+[2023-07-11 12:01:12] INFO root fetch - processPackages [TinetApiRequest]: Start processing: qiskit-han
+[2023-07-11 12:01:12] INFO root fetch - main [MainThread]: End processing [TinetApiRequest] error
+[2023-07-11 12:01:12] INFO root fetch - processPackages [easy-terminal]: executing diffoscope
+[2023-07-11 12:01:12] INFO root fetch - processPackages [easy-terminal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy-terminal-0.5.3.tar.gz tmp/easy-terminal-0.6.0.tar.gz --markdown 20230711/e/easy-terminal/0.5.3-0.6.0/diff.md --exclude *.pyd
+[2023-07-11 12:01:12] INFO root fetch - processPackages [OpenFisca-Survey-Manager]: Remove: archive file [/home/abi/fetcher/tmp/OpenFisca-Survey-Manager-1.0.0.tar.gz]
+[2023-07-11 12:01:12] INFO root fetch - processPackages [OpenFisca-Survey-Manager]: Remove: archive file [/home/abi/fetcher/tmp/OpenFisca-Survey-Manager-1.0.1.tar.gz]
+[2023-07-11 12:01:12] INFO root fetch - processPackages [OpenFisca-Survey-Manager]: Start processing: libres
+[2023-07-11 12:01:12] INFO root fetch - main [MainThread]: End processing [OpenFisca-Survey-Manager]: success
+[2023-07-11 12:01:12] INFO root fetch - processPackages [icpp-free]: Downloading https://files.pythonhosted.org/packages/8a/d0/e5439123b7c96f79b359dfb65d510784373c227ef8bcc3d749b6d8b011ab/icpp_free-2.8.1-py3-none-any.whl
+[2023-07-11 12:01:12] INFO root fetch - processPackages [qiskit-han]: New version: [0.5.0] Old Version: [0.0.5]
+[2023-07-11 12:01:12] INFO root fetch - processPackages [mys-goods-tool]: Remove: archive file [/home/abi/fetcher/tmp/mys_goods_tool-2.0.5.tar.gz]
+[2023-07-11 12:01:12] INFO root fetch - processPackages [mys-goods-tool]: Remove: archive file [/home/abi/fetcher/tmp/mys_goods_tool-2.1.0b1.tar.gz]
+[2023-07-11 12:01:12] INFO root fetch - processPackages [mys-goods-tool]: Start processing: few-shot-priming
+[2023-07-11 12:01:12] INFO root fetch - main [MainThread]: End processing [mys-goods-tool]: success
+[2023-07-11 12:01:12] INFO root fetch - processPackages [libres]: New version: [0.7.0] Old Version: [0.6.1]
+[2023-07-11 12:01:12] INFO root fetch - processPackages [few-shot-priming]: New version: [0.0.99] Old Version: [0.0.96]
+[2023-07-11 12:01:12] INFO root fetch - processPackages [cloud-governance]: Downloading https://files.pythonhosted.org/packages/ec/3e/06dc6e6844d3033717858064a494efaaf4cdae01a0c58d2b2a38273075e2/cloud-governance-1.1.99.tar.gz
+[2023-07-11 12:01:12] INFO root fetch - processPackages [qiskit-han]: Downloading https://files.pythonhosted.org/packages/4d/74/1e9831a22143439bb884f6b75b4fc43a86ef8cde6e94a307286bfd0638c6/qiskit_han-0.0.5.tar.gz
+[2023-07-11 12:01:12] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/d5/95/d70c95da3e78b71d35838af276daf5b2f53394c4c9a44fa5dd8f2aa64498/few_shot_priming-0.0.96-py3-none-any.whl
+[2023-07-11 12:01:12] INFO root fetch - processPackages [cloud-governance]: executing diffoscope
+[2023-07-11 12:01:12] INFO root fetch - processPackages [cloud-governance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud-governance-1.1.98.tar.gz tmp/cloud-governance-1.1.99.tar.gz --markdown 20230711/c/cloud-governance/1.1.98-1.1.99/diff.md --exclude *.pyd
+[2023-07-11 12:01:12] INFO root fetch - processPackages [icpp-candid]: Remove: archive file [/home/abi/fetcher/tmp/icpp-candid-2.8.1.tar.gz]
+[2023-07-11 12:01:12] INFO root fetch - processPackages [icpp-candid]: Remove: archive file [/home/abi/fetcher/tmp/icpp-candid-2.9.0.tar.gz]
+[2023-07-11 12:01:12] INFO root fetch - main [MainThread]: End processing [icpp-candid]: success
+[2023-07-11 12:01:12] INFO root fetch - processPackages [icpp-free]: Downloading https://files.pythonhosted.org/packages/7c/8f/52db6d4fc0befe0c9b5f19a2a30473cefa36dc1a34c5d78e135b27f89a7b/icpp_free-2.9.0-py3-none-any.whl
+[2023-07-11 12:01:12] INFO root fetch - processPackages [libres]: Downloading https://files.pythonhosted.org/packages/26/17/5acd6a6fa60071529184f234d06a96e3e3118404cb239a5d4114c7248057/libres-0.6.1.tar.gz
+[2023-07-11 12:01:12] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/1e/e8/6368ab93b7135424a35ce07aac4de4056a38a1ae6f862ed63a5a79a4dce6/few_shot_priming-0.0.99-py3-none-any.whl
+[2023-07-11 12:01:13] INFO root fetch - processPackages [icpp-free]: executing diffoscope
+[2023-07-11 12:01:13] INFO root fetch - processPackages [icpp-free]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/icpp_free-2.8.1-py3-none-any.whl.zip tmp/icpp_free-2.9.0-py3-none-any.whl.zip --markdown 20230711/i/icpp-free/2.8.1-2.9.0/diff.md --exclude *.pyd
+[2023-07-11 12:01:13] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2023-07-11 12:01:13] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip --markdown 20230711/f/few-shot-priming/0.0.96-0.0.99/diff.md --exclude *.pyd
+[2023-07-11 12:01:13] INFO root fetch - processPackages [qiskit-han]: Downloading https://files.pythonhosted.org/packages/80/a3/3b6b3c79be3c7392be8722a637220db0f419b61ab94203f72386fc42741b/qiskit_han-0.5.0.tar.gz
+[2023-07-11 12:01:13] INFO root fetch - processPackages [libres]: Downloading https://files.pythonhosted.org/packages/96/56/68cbcf521ed023cb1638091de888ca168135991f1a009f8d577f8fedf0c0/libres-0.7.0.tar.gz
+[2023-07-11 12:01:13] INFO root fetch - processPackages [qiskit-han]: executing diffoscope
+[2023-07-11 12:01:13] INFO root fetch - processPackages [qiskit-han]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qiskit_han-0.0.5.tar.gz tmp/qiskit_han-0.5.0.tar.gz --markdown 20230711/q/qiskit-han/0.0.5-0.5.0/diff.md --exclude *.pyd
+[2023-07-11 12:01:13] INFO root fetch - processPackages [easy-terminal]: Remove: archive file [/home/abi/fetcher/tmp/easy-terminal-0.5.3.tar.gz]
+[2023-07-11 12:01:13] INFO root fetch - processPackages [easy-terminal]: Remove: archive file [/home/abi/fetcher/tmp/easy-terminal-0.6.0.tar.gz]
+[2023-07-11 12:01:13] INFO root fetch - main [MainThread]: End processing [easy-terminal]: success
+[2023-07-11 12:01:13] INFO root fetch - processPackages [libres]: executing diffoscope
+[2023-07-11 12:01:13] INFO root fetch - processPackages [libres]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libres-0.6.1.tar.gz tmp/libres-0.7.0.tar.gz --markdown 20230711/l/libres/0.6.1-0.7.0/diff.md --exclude *.pyd
+[2023-07-11 12:01:14] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip]
+[2023-07-11 12:01:14] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip]
+[2023-07-11 12:01:14] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2023-07-11 12:01:14] INFO root fetch - processPackages [VisionFive.gpio]: Remove: archive file [/home/abi/fetcher/tmp/VisionFive.gpio-1.2.12-cp34-abi3-any.whl.zip]
+[2023-07-11 12:01:14] INFO root fetch - processPackages [VisionFive.gpio]: Remove: archive file [/home/abi/fetcher/tmp/VisionFive.gpio-1.2.13-cp310-cp310-any.whl.zip]
+[2023-07-11 12:01:14] INFO root fetch - main [MainThread]: End processing [VisionFive.gpio]: success
+[2023-07-11 12:01:14] INFO root fetch - processPackages [alibabacloud-sas20181203-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_sas20181203_py2-2.1.7.tar.gz]
+[2023-07-11 12:01:14] INFO root fetch - processPackages [alibabacloud-sas20181203-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_sas20181203_py2-2.1.8.tar.gz]
+[2023-07-11 12:01:14] INFO root fetch - main [MainThread]: End processing [alibabacloud-sas20181203-py2]: success
+[2023-07-11 12:01:14] INFO root fetch - processPackages [qiskit-han]: Remove: archive file [/home/abi/fetcher/tmp/qiskit_han-0.0.5.tar.gz]
+[2023-07-11 12:01:14] INFO root fetch - processPackages [qiskit-han]: Remove: archive file [/home/abi/fetcher/tmp/qiskit_han-0.5.0.tar.gz]
+[2023-07-11 12:01:14] INFO root fetch - main [MainThread]: End processing [qiskit-han]: success
+[2023-07-11 12:01:14] INFO root fetch - processPackages [alibabacloud-sas20181203]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_sas20181203-2.1.7.tar.gz]
+[2023-07-11 12:01:14] INFO root fetch - processPackages [alibabacloud-sas20181203]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_sas20181203-2.1.8.tar.gz]
+[2023-07-11 12:01:14] INFO root fetch - main [MainThread]: End processing [alibabacloud-sas20181203]: success
+[2023-07-11 12:01:14] INFO root fetch - processPackages [icpp-free]: Remove: archive file [/home/abi/fetcher/tmp/icpp_free-2.8.1-py3-none-any.whl.zip]
+[2023-07-11 12:01:14] INFO root fetch - processPackages [icpp-free]: Remove: archive file [/home/abi/fetcher/tmp/icpp_free-2.9.0-py3-none-any.whl.zip]
+[2023-07-11 12:01:14] INFO root fetch - main [MainThread]: End processing [icpp-free]: success
+[2023-07-11 12:01:14] INFO root fetch - processPackages [cloud-governance]: Remove: archive file [/home/abi/fetcher/tmp/cloud-governance-1.1.98.tar.gz]
+[2023-07-11 12:01:14] INFO root fetch - processPackages [cloud-governance]: Remove: archive file [/home/abi/fetcher/tmp/cloud-governance-1.1.99.tar.gz]
+[2023-07-11 12:01:14] INFO root fetch - main [MainThread]: End processing [cloud-governance]: success
+[2023-07-11 12:01:15] INFO root fetch - processPackages [libres]: Remove: archive file [/home/abi/fetcher/tmp/libres-0.6.1.tar.gz]
+[2023-07-11 12:01:15] INFO root fetch - processPackages [libres]: Remove: archive file [/home/abi/fetcher/tmp/libres-0.7.0.tar.gz]
+[2023-07-11 12:01:15] INFO root fetch - main [MainThread]: End processing [libres]: success
+[2023-07-11 12:01:15] INFO root fetch - main [MainThread]: Store serial: [18843460]
