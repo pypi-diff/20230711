@@ -12208,3 +12208,91 @@ AssertionError: tmp/doctran-0.0.6.tar.gz does not exist
 [2023-07-11 09:35:42] INFO root fetch - processPackages [db-gpt]: Remove: archive file [/home/abi/fetcher/tmp/db-gpt-0.2.7.tar.gz]
 [2023-07-11 09:35:42] INFO root fetch - main [MainThread]: End processing [db-gpt]: success
 [2023-07-11 09:35:42] INFO root fetch - main [MainThread]: Store serial: [18841909]
+[2023-07-11 09:40:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18841909]
+[2023-07-11 09:40:50] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-11 09:40:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: image-func
+[2023-07-11 09:40:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: db-gpt
+[2023-07-11 09:40:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pait
+[2023-07-11 09:40:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: iretax
+[2023-07-11 09:40:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Iretax
+[2023-07-11 09:40:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: iretax
+[2023-07-11 09:40:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lvhao-lib
+[2023-07-11 09:40:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mathtext
+[2023-07-11 09:40:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: locker-secrets
+[2023-07-11 09:40:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: voicemeeter-compact
+[2023-07-11 09:40:51] INFO root fetch - processPackages [db-gpt]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-07-11 09:40:51] INFO root fetch - processPackages [image-func]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-11 09:40:51] INFO root fetch - processPackages [lvhao-lib]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-07-11 09:40:51] INFO root fetch - processPackages [mathtext]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-11 09:40:51] INFO root fetch - processPackages [Iretax]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-11 09:40:51] INFO root fetch - processPackages [iretax]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-11 09:40:51] INFO root fetch - processPackages [iretax]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-11 09:40:51] WARNING root fetch - processPackages [locker-secrets]: Skipping, unable to determine old version
+[2023-07-11 09:40:51] INFO root fetch - processPackages [locker-secrets]: Start processing: zope.exceptions
+[2023-07-11 09:40:51] INFO root fetch - main [MainThread]: End processing [locker-secrets] error
+[2023-07-11 09:40:51] INFO root fetch - processPackages [voicemeeter-compact]: New version: [1.9.0] Old Version: [1.8.4]
+[2023-07-11 09:40:51] INFO root fetch - processPackages [pait]: New version: [1.0.0a9] Old Version: [1.0.0a8]
+[2023-07-11 09:40:51] INFO root fetch - processPackages [lvhao-lib]: Downloading https://files.pythonhosted.org/packages/cc/e4/544b24e4a0f9b5e4f31edb6fc85809a0ac59efb914e011eed89751aa8020/lvhao_lib-0.7.0.tar.gz
+[2023-07-11 09:40:51] INFO root fetch - processPackages [db-gpt]: Downloading https://files.pythonhosted.org/packages/dd/ac/e4ba8eacfe241c3155eb416bd8d68bffd4cc0edf3e6d5a76488e5acbf7b4/db-gpt-0.2.7.tar.gz
+[2023-07-11 09:40:51] INFO root fetch - processPackages [image-func]: Downloading https://files.pythonhosted.org/packages/c2/c8/0e24564de3c782f9c76fcbab2e3c8c029ecaf2cf2dc2bf4f9a679618fc0c/image_func-1.0.8.tar.gz
+[2023-07-11 09:40:51] INFO root fetch - processPackages [zope.exceptions]: New version: [5.0.1] Old Version: [5.0]
+[2023-07-11 09:40:51] INFO root fetch - processPackages [Iretax]: Downloading https://files.pythonhosted.org/packages/af/37/ab192fe1a8bfad98918641f6334f1e1b8114e60d5f113ffbbdeb8a62b570/Iretax-0.0.2.tar.gz
+[2023-07-11 09:40:51] INFO root fetch - processPackages [iretax]: Downloading https://files.pythonhosted.org/packages/af/37/ab192fe1a8bfad98918641f6334f1e1b8114e60d5f113ffbbdeb8a62b570/Iretax-0.0.2.tar.gz
+[2023-07-11 09:40:51] INFO root fetch - processPackages [iretax]: Downloading https://files.pythonhosted.org/packages/af/37/ab192fe1a8bfad98918641f6334f1e1b8114e60d5f113ffbbdeb8a62b570/Iretax-0.0.2.tar.gz
+[2023-07-11 09:40:51] INFO root fetch - processPackages [mathtext]: Downloading https://files.pythonhosted.org/packages/12/fc/43c69273b15fcec408339f8eb8bdcad454e58c30e87634b864c78b60a6d2/mathtext-0.0.8.tar.gz
+[2023-07-11 09:40:51] INFO root fetch - processPackages [voicemeeter-compact]: Downloading https://files.pythonhosted.org/packages/6d/3a/f048e16033d130e2fe9c7de514c8c235c2b57b87b699030fa74571e1b4b3/voicemeeter_compact-1.8.4.tar.gz
+[2023-07-11 09:40:51] INFO root fetch - processPackages [pait]: Downloading https://files.pythonhosted.org/packages/df/34/d49be755a33ba1700d164f7bd44c300bb1a99715071b01de4ab7cfc23dc5/pait-1.0.0a8.tar.gz
+[2023-07-11 09:40:51] WARNING root fetch - processPackages [mathtext]: Skipping package: exceeds size limit 11880565>=10485760
+[2023-07-11 09:40:51] INFO root fetch - main [MainThread]: End processing [mathtext] error
+[2023-07-11 09:40:51] INFO root fetch - processPackages [zope.exceptions]: Downloading https://files.pythonhosted.org/packages/21/4e/2ab1b98874c5457fd500127675634dacb1586ab8c78fa14fac6f6c9c2dc4/zope.exceptions-5.0.tar.gz
+[2023-07-11 09:40:51] INFO root fetch - processPackages [db-gpt]: Downloading https://files.pythonhosted.org/packages/c1/a0/d13a573d1b15dfae9879a58a0dcd966b1b56df4292a401561519bf395c9b/db-gpt-0.2.8.tar.gz
+[2023-07-11 09:40:51] INFO root fetch - processPackages [lvhao-lib]: Downloading https://files.pythonhosted.org/packages/18/ee/7d685ada61734509f49fb1d2257bb70f46543e68a8a3631546885a096af6/lvhao_lib-0.7.1.tar.gz
+[2023-07-11 09:40:51] INFO root fetch - processPackages [image-func]: Downloading https://files.pythonhosted.org/packages/53/19/83648c27e6abc5b7c6ba68f8e2a9472a2c8c3989947d7808334bf8348af7/image_func-1.0.9.tar.gz
+[2023-07-11 09:40:51] INFO root fetch - processPackages [voicemeeter-compact]: Downloading https://files.pythonhosted.org/packages/b8/f6/1747bdf0c93ab0adb90221358f7c593c41400c125fed3dd073d40c69a40d/voicemeeter_compact-1.9.0.tar.gz
+[2023-07-11 09:40:51] INFO root fetch - processPackages [db-gpt]: executing diffoscope
+[2023-07-11 09:40:51] INFO root fetch - processPackages [db-gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/db-gpt-0.2.7.tar.gz tmp/db-gpt-0.2.8.tar.gz --markdown 20230711/d/db-gpt/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-07-11 09:40:51] INFO root fetch - processPackages [iretax]: Downloading https://files.pythonhosted.org/packages/d3/26/2f948f63f7586df0a7cb23b44392abf6ac58c06141fe7fc353132b5729f2/iretax-0.0.3.tar.gz
+[2023-07-11 09:40:51] INFO root fetch - processPackages [Iretax]: Downloading https://files.pythonhosted.org/packages/d3/26/2f948f63f7586df0a7cb23b44392abf6ac58c06141fe7fc353132b5729f2/iretax-0.0.3.tar.gz
+[2023-07-11 09:40:51] INFO root fetch - processPackages [iretax]: Downloading https://files.pythonhosted.org/packages/d3/26/2f948f63f7586df0a7cb23b44392abf6ac58c06141fe7fc353132b5729f2/iretax-0.0.3.tar.gz
+[2023-07-11 09:40:51] INFO root fetch - processPackages [image-func]: executing diffoscope
+[2023-07-11 09:40:51] INFO root fetch - processPackages [image-func]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/image_func-1.0.8.tar.gz tmp/image_func-1.0.9.tar.gz --markdown 20230711/i/image-func/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-11 09:40:51] INFO root fetch - processPackages [pait]: Downloading https://files.pythonhosted.org/packages/d2/db/b0f60f6ee6a2613bee9b39d0b8b3ebf27f1f0f4f747beefae9c0e079a8bc/pait-1.0.0a9.tar.gz
+[2023-07-11 09:40:52] INFO root fetch - processPackages [Iretax]: executing diffoscope
+[2023-07-11 09:40:52] INFO root fetch - processPackages [Iretax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Iretax-0.0.2.tar.gz tmp/iretax-0.0.3.tar.gz --markdown 20230711/I/Iretax/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-11 09:40:52] INFO root fetch - processPackages [iretax]: executing diffoscope
+[2023-07-11 09:40:52] INFO root fetch - processPackages [iretax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Iretax-0.0.2.tar.gz tmp/iretax-0.0.3.tar.gz --markdown 20230711/i/iretax/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-11 09:40:52] INFO root fetch - processPackages [voicemeeter-compact]: executing diffoscope
+[2023-07-11 09:40:52] INFO root fetch - processPackages [voicemeeter-compact]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/voicemeeter_compact-1.8.4.tar.gz tmp/voicemeeter_compact-1.9.0.tar.gz --markdown 20230711/v/voicemeeter-compact/1.8.4-1.9.0/diff.md --exclude *.pyd
+[2023-07-11 09:40:52] INFO root fetch - processPackages [iretax]: executing diffoscope
+[2023-07-11 09:40:52] INFO root fetch - processPackages [iretax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Iretax-0.0.2.tar.gz tmp/iretax-0.0.3.tar.gz --markdown 20230711/i/iretax/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-11 09:40:52] INFO root fetch - processPackages [pait]: executing diffoscope
+[2023-07-11 09:40:52] INFO root fetch - processPackages [pait]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pait-1.0.0a8.tar.gz tmp/pait-1.0.0a9.tar.gz --markdown 20230711/p/pait/1.0.0a8-1.0.0a9/diff.md --exclude *.pyd
+[2023-07-11 09:40:52] INFO root fetch - processPackages [zope.exceptions]: Downloading https://files.pythonhosted.org/packages/31/e1/557986e906763755c5de872f9a9854aca22fb546de578f735495963b5b9a/zope.exceptions-5.0.1.tar.gz
+[2023-07-11 09:40:52] INFO root fetch - processPackages [lvhao-lib]: executing diffoscope
+[2023-07-11 09:40:52] INFO root fetch - processPackages [lvhao-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lvhao_lib-0.7.0.tar.gz tmp/lvhao_lib-0.7.1.tar.gz --markdown 20230711/l/lvhao-lib/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-07-11 09:40:52] INFO root fetch - processPackages [zope.exceptions]: executing diffoscope
+[2023-07-11 09:40:52] INFO root fetch - processPackages [zope.exceptions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zope.exceptions-5.0.tar.gz tmp/zope.exceptions-5.0.1.tar.gz --markdown 20230711/z/zope.exceptions/5.0-5.0.1/diff.md --exclude *.pyd
+[2023-07-11 09:40:53] INFO root fetch - processPackages [image-func]: Remove: archive file [/home/abi/fetcher/tmp/image_func-1.0.8.tar.gz]
+[2023-07-11 09:40:53] INFO root fetch - processPackages [image-func]: Remove: archive file [/home/abi/fetcher/tmp/image_func-1.0.9.tar.gz]
+[2023-07-11 09:40:53] INFO root fetch - main [MainThread]: End processing [image-func]: success
+[2023-07-11 09:40:53] INFO root fetch - processPackages [iretax]: Remove: archive file [/home/abi/fetcher/tmp/Iretax-0.0.2.tar.gz]
+[2023-07-11 09:40:53] INFO root fetch - processPackages [iretax]: Remove: archive file [/home/abi/fetcher/tmp/iretax-0.0.3.tar.gz]
+[2023-07-11 09:40:53] INFO root fetch - main [MainThread]: End processing [iretax]: success
+[2023-07-11 09:40:53] INFO root fetch - main [MainThread]: End processing [Iretax]: success
+[2023-07-11 09:40:53] INFO root fetch - main [MainThread]: End processing [iretax]: success
+[2023-07-11 09:40:53] INFO root fetch - processPackages [voicemeeter-compact]: Remove: archive file [/home/abi/fetcher/tmp/voicemeeter_compact-1.8.4.tar.gz]
+[2023-07-11 09:40:53] INFO root fetch - processPackages [voicemeeter-compact]: Remove: archive file [/home/abi/fetcher/tmp/voicemeeter_compact-1.9.0.tar.gz]
+[2023-07-11 09:40:53] INFO root fetch - main [MainThread]: End processing [voicemeeter-compact]: success
+[2023-07-11 09:40:54] INFO root fetch - processPackages [zope.exceptions]: Remove: archive file [/home/abi/fetcher/tmp/zope.exceptions-5.0.tar.gz]
+[2023-07-11 09:40:54] INFO root fetch - processPackages [zope.exceptions]: Remove: archive file [/home/abi/fetcher/tmp/zope.exceptions-5.0.1.tar.gz]
+[2023-07-11 09:40:54] INFO root fetch - main [MainThread]: End processing [zope.exceptions]: success
+[2023-07-11 09:40:54] INFO root fetch - processPackages [pait]: Remove: archive file [/home/abi/fetcher/tmp/pait-1.0.0a8.tar.gz]
+[2023-07-11 09:40:54] INFO root fetch - processPackages [pait]: Remove: archive file [/home/abi/fetcher/tmp/pait-1.0.0a9.tar.gz]
+[2023-07-11 09:40:54] INFO root fetch - main [MainThread]: End processing [pait]: success
+[2023-07-11 09:40:54] INFO root fetch - processPackages [db-gpt]: Remove: archive file [/home/abi/fetcher/tmp/db-gpt-0.2.7.tar.gz]
+[2023-07-11 09:40:54] INFO root fetch - processPackages [db-gpt]: Remove: archive file [/home/abi/fetcher/tmp/db-gpt-0.2.8.tar.gz]
+[2023-07-11 09:40:54] INFO root fetch - main [MainThread]: End processing [db-gpt]: success
+[2023-07-11 09:41:00] INFO root fetch - processPackages [lvhao-lib]: Remove: archive file [/home/abi/fetcher/tmp/lvhao_lib-0.7.0.tar.gz]
+[2023-07-11 09:41:00] INFO root fetch - processPackages [lvhao-lib]: Remove: archive file [/home/abi/fetcher/tmp/lvhao_lib-0.7.1.tar.gz]
+[2023-07-11 09:41:00] INFO root fetch - main [MainThread]: End processing [lvhao-lib]: success
+[2023-07-11 09:41:00] INFO root fetch - main [MainThread]: Store serial: [18841956]
