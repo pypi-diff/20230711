@@ -19199,3 +19199,155 @@ AssertionError: tmp/doctran-0.0.6.tar.gz does not exist
 [2023-07-11 14:07:45] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev9.tar.gz]
 [2023-07-11 14:07:45] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2023-07-11 14:07:45] INFO root fetch - main [MainThread]: Store serial: [18844955]
+[2023-07-11 14:12:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18844955]
+[2023-07-11 14:12:56] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-07-11 14:12:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pygmtools
+[2023-07-11 14:12:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: obrpy
+[2023-07-11 14:12:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: armonik
+[2023-07-11 14:12:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: phanos
+[2023-07-11 14:12:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: XenonUI
+[2023-07-11 14:12:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: oxasl-ve
+[2023-07-11 14:12:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pineboo
+[2023-07-11 14:12:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: proxy-seller-user-api
+[2023-07-11 14:12:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: alibabacloud-avatar20220130-py2
+[2023-07-11 14:12:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: x21e8
+[2023-07-11 14:12:56] INFO root fetch - processPackages [x21e8]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-11 14:12:56] WARNING root fetch - processPackages [proxy-seller-user-api]: Skipping, unable to determine old version
+[2023-07-11 14:12:56] INFO root fetch - processPackages [proxy-seller-user-api]: Start processing: adapta
+[2023-07-11 14:12:56] INFO root fetch - main [MainThread]: End processing [proxy-seller-user-api] error
+[2023-07-11 14:12:56] INFO root fetch - processPackages [pygmtools]: New version: [0.3.8a9] Old Version: [0.3.8a8]
+[2023-07-11 14:12:56] INFO root fetch - processPackages [phanos]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-11 14:12:56] INFO root fetch - processPackages [obrpy]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-11 14:12:56] WARNING root fetch - processPackages [XenonUI]: Skipping, unable to determine old version
+[2023-07-11 14:12:56] INFO root fetch - processPackages [XenonUI]: Start processing: pop-create-idem
+[2023-07-11 14:12:56] INFO root fetch - main [MainThread]: End processing [XenonUI] error
+[2023-07-11 14:12:56] INFO root fetch - processPackages [pineboo]: New version: [1.0.5] Old Version: [1.0.4.6]
+[2023-07-11 14:12:56] INFO root fetch - processPackages [oxasl-ve]: New version: [0.2.0.post5] Old Version: [0.2.0.post4]
+[2023-07-11 14:12:56] INFO root fetch - processPackages [alibabacloud-avatar20220130-py2]: New version: [1.0.3] Old Version: [1.0.27]
+[2023-07-11 14:12:56] INFO root fetch - processPackages [adapta]: New version: [2.3.1] Old Version: [2.3.0]
+[2023-07-11 14:12:56] INFO root fetch - processPackages [armonik]: New version: [3.9.3.dev630] Old Version: [3.9.3.dev627]
+[2023-07-11 14:12:56] INFO root fetch - processPackages [pop-create-idem]: New version: [4.3.0] Old Version: [4.2.0]
+[2023-07-11 14:12:56] INFO root fetch - processPackages [oxasl-ve]: Downloading https://files.pythonhosted.org/packages/e7/3b/5d1471a5fb9a796fa845282d10443f7d24fd015a507152c75a17f4060c16/oxasl-ve-0.2.0.post4.tar.gz
+[2023-07-11 14:12:56] INFO root fetch - processPackages [armonik]: Downloading https://files.pythonhosted.org/packages/a3/db/468340c3e51513d2270b938c830901748ba3f03d05938557f70273672795/armonik-3.9.3.dev627.tar.gz
+[2023-07-11 14:12:56] INFO root fetch - processPackages [x21e8]: Downloading https://files.pythonhosted.org/packages/8c/ff/420977dc4b92dbbde68670ba8df98128a3587471f19974b1c93e2181e651/x21e8-0.9.1.tar.gz
+[2023-07-11 14:12:56] INFO root fetch - processPackages [alibabacloud-avatar20220130-py2]: Downloading https://files.pythonhosted.org/packages/2e/b8/b47e310960fe2573dac3a65cf7e0b498a05bf5b2696d1cd0e806d233c0c2/alibabacloud_avatar20220130_py2-1.0.27.tar.gz
+[2023-07-11 14:12:56] INFO root fetch - processPackages [obrpy]: Downloading https://files.pythonhosted.org/packages/c2/b4/7309b198e6e077d21ba387c1db340e1de837397b96bc607b602fa3cd75d3/obrpy-0.1.3.tar.gz
+[2023-07-11 14:12:56] INFO root fetch - processPackages [phanos]: Downloading https://files.pythonhosted.org/packages/cb/48/50d0933964467e36be7e16562ba24950abbdf2e888bab6d2bae40c4d7072/phanos-0.0.5.tar.gz
+[2023-07-11 14:12:56] INFO root fetch - processPackages [pygmtools]: Downloading https://files.pythonhosted.org/packages/f8/8c/1f0e828d7314764991a815dbe13cdb3a9b03dc10a0d897980af025b4904b/pygmtools-0.3.8a8.tar.gz
+[2023-07-11 14:12:56] INFO root fetch - processPackages [pineboo]: Downloading https://files.pythonhosted.org/packages/9f/d3/e75116e3066040e6f5ef899f464bcf93093dc2eef95bd0f4e9dc80377a95/pineboo-1.0.4.6.tar.gz
+[2023-07-11 14:12:56] INFO root fetch - processPackages [adapta]: Downloading https://files.pythonhosted.org/packages/0d/0a/7b761f86f64cb0fc6e8f6900d17fdd21fa38616b5e8534c2da3922755bb3/adapta-2.3.0.tar.gz
+[2023-07-11 14:12:56] INFO root fetch - processPackages [pop-create-idem]: Downloading https://files.pythonhosted.org/packages/17/c0/2187e1edc7b6c5fc04607c2dbfb6b24692bb2d20c2be1f9060fb5f4f3156/pop-create-idem-4.2.0.tar.gz
+[2023-07-11 14:12:57] INFO root fetch - processPackages [armonik]: Downloading https://files.pythonhosted.org/packages/11/ad/4f1bc0423cfda7af28cb5dc84e1865bf90ef91df50054caabbc8de87872b/armonik-3.9.3.dev630.tar.gz
+[2023-07-11 14:12:57] INFO root fetch - processPackages [oxasl-ve]: Downloading https://files.pythonhosted.org/packages/5d/af/3c10a9de3e99f3f8490708913cbd015ad747823c303c9a8810b813e576ba/oxasl-ve-0.2.0.post5.tar.gz
+[2023-07-11 14:12:57] INFO root fetch - processPackages [x21e8]: Downloading https://files.pythonhosted.org/packages/11/45/fbb48446066355b603eb32808855c8d1e65a792d99c2d4b7779684e7d814/x21e8-0.9.2.tar.gz
+[2023-07-11 14:12:57] INFO root fetch - processPackages [phanos]: Downloading https://files.pythonhosted.org/packages/b8/f8/711f66e14a8b94e40b97b4d44fc5443daafec3fdf981f8c905dfe7e2c5a7/phanos-0.0.6.tar.gz
+[2023-07-11 14:12:57] INFO root fetch - processPackages [armonik]: executing diffoscope
+[2023-07-11 14:12:57] INFO root fetch - processPackages [armonik]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/armonik-3.9.3.dev627.tar.gz tmp/armonik-3.9.3.dev630.tar.gz --markdown 20230711/a/armonik/3.9.3.dev627-3.9.3.dev630/diff.md --exclude *.pyd
+[2023-07-11 14:12:57] INFO root fetch - processPackages [adapta]: Downloading https://files.pythonhosted.org/packages/35/8b/97540d66629cdcc443394eaba881ec7e7fe1830378199bb63379127e0956/adapta-2.3.1.tar.gz
+[2023-07-11 14:12:57] INFO root fetch - processPackages [alibabacloud-avatar20220130-py2]: Downloading https://files.pythonhosted.org/packages/24/54/b74d23547b44c5f4f5fc8e9a3db510f9e11eabcd357c464590fdd9af7ee1/alibabacloud_avatar20220130_py2-1.0.3.tar.gz
+[2023-07-11 14:12:57] INFO root fetch - processPackages [obrpy]: Downloading https://files.pythonhosted.org/packages/01/ea/96e8ae3aa7af1af6fd0daaeffa8f04036138e07ab68546b9ce36cd9b5b00/obrpy-0.1.4.tar.gz
+[2023-07-11 14:12:57] INFO root fetch - processPackages [pop-create-idem]: Downloading https://files.pythonhosted.org/packages/f9/13/646ba0758523985e556ff9e5c5d9db49738431c33b60e0eb903e8b0496dc/pop-create-idem-4.3.0.tar.gz
+[2023-07-11 14:12:57] INFO root fetch - processPackages [oxasl-ve]: executing diffoscope
+[2023-07-11 14:12:57] INFO root fetch - processPackages [oxasl-ve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oxasl-ve-0.2.0.post4.tar.gz tmp/oxasl-ve-0.2.0.post5.tar.gz --markdown 20230711/o/oxasl-ve/0.2.0.post4-0.2.0.post5/diff.md --exclude *.pyd
+[2023-07-11 14:12:57] INFO root fetch - processPackages [phanos]: executing diffoscope
+[2023-07-11 14:12:57] INFO root fetch - processPackages [phanos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phanos-0.0.5.tar.gz tmp/phanos-0.0.6.tar.gz --markdown 20230711/p/phanos/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-11 14:12:57] INFO root fetch - processPackages [adapta]: executing diffoscope
+[2023-07-11 14:12:57] INFO root fetch - processPackages [adapta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adapta-2.3.0.tar.gz tmp/adapta-2.3.1.tar.gz --markdown 20230711/a/adapta/2.3.0-2.3.1/diff.md --exclude *.pyd
+[2023-07-11 14:12:57] INFO root fetch - processPackages [pygmtools]: Downloading https://files.pythonhosted.org/packages/18/09/d9f8c479401206e79acfd70dcc8e5c470fb93666058fba5469022d832019/pygmtools-0.3.8a9.tar.gz
+[2023-07-11 14:12:57] INFO root fetch - processPackages [alibabacloud-avatar20220130-py2]: executing diffoscope
+[2023-07-11 14:12:57] INFO root fetch - processPackages [alibabacloud-avatar20220130-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_avatar20220130_py2-1.0.27.tar.gz tmp/alibabacloud_avatar20220130_py2-1.0.3.tar.gz --markdown 20230711/a/alibabacloud-avatar20220130-py2/1.0.27-1.0.3/diff.md --exclude *.pyd
+[2023-07-11 14:12:57] INFO root fetch - processPackages [x21e8]: executing diffoscope
+[2023-07-11 14:12:57] INFO root fetch - processPackages [x21e8]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/x21e8-0.9.1.tar.gz tmp/x21e8-0.9.2.tar.gz --markdown 20230711/x/x21e8/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-11 14:12:57] INFO root fetch - processPackages [pop-create-idem]: executing diffoscope
+[2023-07-11 14:12:57] INFO root fetch - processPackages [pop-create-idem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pop-create-idem-4.2.0.tar.gz tmp/pop-create-idem-4.3.0.tar.gz --markdown 20230711/p/pop-create-idem/4.2.0-4.3.0/diff.md --exclude *.pyd
+[2023-07-11 14:12:57] INFO root fetch - processPackages [pygmtools]: executing diffoscope
+[2023-07-11 14:12:57] INFO root fetch - processPackages [pygmtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygmtools-0.3.8a8.tar.gz tmp/pygmtools-0.3.8a9.tar.gz --markdown 20230711/p/pygmtools/0.3.8a8-0.3.8a9/diff.md --exclude *.pyd
+[2023-07-11 14:12:59] INFO root fetch - processPackages [pineboo]: Downloading https://files.pythonhosted.org/packages/cf/3c/e968fa0b3cd2758d3aeb916a82dd58e778fb393ea83ad998f97c1cca773b/pineboo-1.0.5.tar.gz
+[2023-07-11 14:12:59] INFO root fetch - processPackages [obrpy]: executing diffoscope
+[2023-07-11 14:12:59] INFO root fetch - processPackages [obrpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/obrpy-0.1.3.tar.gz tmp/obrpy-0.1.4.tar.gz --markdown 20230711/o/obrpy/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-11 14:12:59] INFO root fetch - processPackages [oxasl-ve]: Remove: archive file [/home/abi/fetcher/tmp/oxasl-ve-0.2.0.post4.tar.gz]
+[2023-07-11 14:12:59] INFO root fetch - processPackages [oxasl-ve]: Remove: archive file [/home/abi/fetcher/tmp/oxasl-ve-0.2.0.post5.tar.gz]
+[2023-07-11 14:12:59] INFO root fetch - processPackages [oxasl-ve]: Start processing: alibabacloud-avatar20220130
+[2023-07-11 14:12:59] INFO root fetch - main [MainThread]: End processing [oxasl-ve]: success
+[2023-07-11 14:12:59] INFO root fetch - processPackages [phanos]: Remove: archive file [/home/abi/fetcher/tmp/phanos-0.0.5.tar.gz]
+[2023-07-11 14:12:59] INFO root fetch - processPackages [phanos]: Remove: archive file [/home/abi/fetcher/tmp/phanos-0.0.6.tar.gz]
+[2023-07-11 14:12:59] INFO root fetch - processPackages [phanos]: Start processing: splight-lib
+[2023-07-11 14:12:59] INFO root fetch - main [MainThread]: End processing [phanos]: success
+[2023-07-11 14:12:59] INFO root fetch - processPackages [alibabacloud-avatar20220130]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-11 14:13:00] INFO root fetch - processPackages [splight-lib]: New version: [3.1.0.dev3] Old Version: [3.1.0.dev2]
+[2023-07-11 14:13:00] INFO root fetch - processPackages [alibabacloud-avatar20220130-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_avatar20220130_py2-1.0.27.tar.gz]
+[2023-07-11 14:13:00] INFO root fetch - processPackages [alibabacloud-avatar20220130-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_avatar20220130_py2-1.0.3.tar.gz]
+[2023-07-11 14:13:00] INFO root fetch - processPackages [alibabacloud-avatar20220130-py2]: Start processing: catchpoint-trace
+[2023-07-11 14:13:00] INFO root fetch - main [MainThread]: End processing [alibabacloud-avatar20220130-py2]: success
+[2023-07-11 14:13:00] INFO root fetch - processPackages [catchpoint-trace]: New version: [0.0.2b20230711115955] Old Version: [0.0.2]
+[2023-07-11 14:13:00] INFO root fetch - processPackages [alibabacloud-avatar20220130]: Downloading https://files.pythonhosted.org/packages/4b/a0/6a2a2e8ff44efdba82be0a18fd74ded8f0ce81b1d6dd876f82c0c84b6521/alibabacloud_avatar20220130-1.0.8.tar.gz
+[2023-07-11 14:13:00] INFO root fetch - processPackages [armonik]: Remove: archive file [/home/abi/fetcher/tmp/armonik-3.9.3.dev627.tar.gz]
+[2023-07-11 14:13:00] INFO root fetch - processPackages [armonik]: Remove: archive file [/home/abi/fetcher/tmp/armonik-3.9.3.dev630.tar.gz]
+[2023-07-11 14:13:00] INFO root fetch - processPackages [armonik]: Start processing: obrpy
+[2023-07-11 14:13:00] INFO root fetch - main [MainThread]: End processing [armonik]: success
+[2023-07-11 14:13:00] INFO root fetch - processPackages [splight-lib]: Downloading https://files.pythonhosted.org/packages/fc/d9/5f4a17a2cca27b022163b10164d75fc19cbfa2a5d460dd7f0960b7003a1f/splight-lib-3.1.0.dev2.tar.gz
+[2023-07-11 14:13:00] INFO root fetch - processPackages [obrpy]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-11 14:13:00] INFO root fetch - processPackages [x21e8]: Remove: archive file [/home/abi/fetcher/tmp/x21e8-0.9.1.tar.gz]
+[2023-07-11 14:13:00] INFO root fetch - processPackages [x21e8]: Remove: archive file [/home/abi/fetcher/tmp/x21e8-0.9.2.tar.gz]
+[2023-07-11 14:13:00] INFO root fetch - processPackages [x21e8]: Start processing: renku-aqs
+[2023-07-11 14:13:00] INFO root fetch - main [MainThread]: End processing [x21e8]: success
+[2023-07-11 14:13:00] INFO root fetch - processPackages [catchpoint-trace]: Downloading https://files.pythonhosted.org/packages/1b/b4/abb7027d0b98cc9cb4e5ff93510a8a7e99cc58264ede4eaab3aa4b912c5d/catchpoint-trace-0.0.2.tar.gz
+[2023-07-11 14:13:00] INFO root fetch - processPackages [renku-aqs]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-07-11 14:13:00] INFO root fetch - processPackages [obrpy]: executing diffoscope
+[2023-07-11 14:13:00] INFO root fetch - processPackages [obrpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/obrpy-0.1.3.tar.gz tmp/obrpy-0.1.4.tar.gz --markdown 20230711/o/obrpy/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-11 14:13:00] INFO root fetch - processPackages [adapta]: Remove: archive file [/home/abi/fetcher/tmp/adapta-2.3.0.tar.gz]
+[2023-07-11 14:13:00] INFO root fetch - processPackages [adapta]: Remove: archive file [/home/abi/fetcher/tmp/adapta-2.3.1.tar.gz]
+[2023-07-11 14:13:00] INFO root fetch - processPackages [adapta]: Start processing: fdicdataPy
+[2023-07-11 14:13:00] INFO root fetch - main [MainThread]: End processing [adapta]: success
+[2023-07-11 14:13:00] INFO root fetch - processPackages [alibabacloud-avatar20220130]: Downloading https://files.pythonhosted.org/packages/1d/b4/4bb6f09cc7b58637e751863262974a4cb14ab1d86ab3e80fe0ef8fa9db9a/alibabacloud_avatar20220130-1.0.9.tar.gz
+[2023-07-11 14:13:00] INFO root fetch - processPackages [pop-create-idem]: Remove: archive file [/home/abi/fetcher/tmp/pop-create-idem-4.2.0.tar.gz]
+[2023-07-11 14:13:00] INFO root fetch - processPackages [pop-create-idem]: Remove: archive file [/home/abi/fetcher/tmp/pop-create-idem-4.3.0.tar.gz]
+[2023-07-11 14:13:00] INFO root fetch - processPackages [pop-create-idem]: Start processing: zou
+[2023-07-11 14:13:00] INFO root fetch - main [MainThread]: End processing [pop-create-idem]: success
+[2023-07-11 14:13:00] INFO root fetch - processPackages [pineboo]: executing diffoscope
+[2023-07-11 14:13:00] INFO root fetch - processPackages [pineboo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pineboo-1.0.4.6.tar.gz tmp/pineboo-1.0.5.tar.gz --markdown 20230711/p/pineboo/1.0.4.6-1.0.5/diff.md --exclude *.pyd
+[2023-07-11 14:13:00] INFO root fetch - processPackages [renku-aqs]: Downloading https://files.pythonhosted.org/packages/a6/fd/47f14649bc8bbeeff47d419e0b28637b5890dc85d89591026a3bc5d1a7d1/renku-aqs-1.0.5.tar.gz
+[2023-07-11 14:13:00] WARNING root fetch - processPackages [fdicdataPy]: Skipping, unable to determine old version
+[2023-07-11 14:13:00] INFO root fetch - main [MainThread]: End processing [fdicdataPy] error
+[2023-07-11 14:13:00] INFO root fetch - processPackages [splight-lib]: Downloading https://files.pythonhosted.org/packages/a3/e5/20c09273b469005092cfcdc02d0610714445ed9af7ce4d2cc2810da9cfb9/splight-lib-3.1.0.dev3.tar.gz
+[2023-07-11 14:13:00] INFO root fetch - processPackages [catchpoint-trace]: Downloading https://files.pythonhosted.org/packages/92/6d/6c26e65b0638b219cf1e25464b0099f150a09d6bda715e9c320e1fde4d9d/catchpoint-trace-0.0.2b20230711115955.tar.gz
+[2023-07-11 14:13:00] INFO root fetch - processPackages [pygmtools]: Remove: archive file [/home/abi/fetcher/tmp/pygmtools-0.3.8a8.tar.gz]
+[2023-07-11 14:13:00] INFO root fetch - processPackages [pygmtools]: Remove: archive file [/home/abi/fetcher/tmp/pygmtools-0.3.8a9.tar.gz]
+[2023-07-11 14:13:00] INFO root fetch - main [MainThread]: End processing [pygmtools]: success
+[2023-07-11 14:13:00] INFO root fetch - processPackages [zou]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-11 14:13:00] INFO root fetch - processPackages [alibabacloud-avatar20220130]: executing diffoscope
+[2023-07-11 14:13:00] INFO root fetch - processPackages [alibabacloud-avatar20220130]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_avatar20220130-1.0.8.tar.gz tmp/alibabacloud_avatar20220130-1.0.9.tar.gz --markdown 20230711/a/alibabacloud-avatar20220130/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-11 14:13:01] INFO root fetch - processPackages [zou]: Downloading https://files.pythonhosted.org/packages/3d/26/8a5c822e737ac50a4f66516c5b80f6cb5a2ce0b5258e3c904aa5abae876c/zou-0.9.8-py2.py3-none-any.whl
+[2023-07-11 14:13:01] INFO root fetch - processPackages [splight-lib]: executing diffoscope
+[2023-07-11 14:13:01] INFO root fetch - processPackages [splight-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/splight-lib-3.1.0.dev2.tar.gz tmp/splight-lib-3.1.0.dev3.tar.gz --markdown 20230711/s/splight-lib/3.1.0.dev2-3.1.0.dev3/diff.md --exclude *.pyd
+[2023-07-11 14:13:01] INFO root fetch - processPackages [catchpoint-trace]: executing diffoscope
+[2023-07-11 14:13:01] INFO root fetch - processPackages [catchpoint-trace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/catchpoint-trace-0.0.2.tar.gz tmp/catchpoint-trace-0.0.2b20230711115955.tar.gz --markdown 20230711/c/catchpoint-trace/0.0.2-0.0.2b20230711115955/diff.md --exclude *.pyd
+[2023-07-11 14:13:01] INFO root fetch - processPackages [zou]: Downloading https://files.pythonhosted.org/packages/b4/cb/e536d9ca1d2e8c1820b5431cb69768c10b0f438a73bf846d3e2d008f896a/zou-0.9.9-py2.py3-none-any.whl
+[2023-07-11 14:13:01] INFO root fetch - processPackages [renku-aqs]: Downloading https://files.pythonhosted.org/packages/41/b8/513e4617837e7d91c90438cb84bd7711fe9ffa7f0fe0f0216bc8764b74a0/renku-aqs-1.0.6.tar.gz
+[2023-07-11 14:13:01] INFO root fetch - processPackages [zou]: executing diffoscope
+[2023-07-11 14:13:01] INFO root fetch - processPackages [zou]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zou-0.9.8-py2.py3-none-any.whl.zip tmp/zou-0.9.9-py2.py3-none-any.whl.zip --markdown 20230711/z/zou/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-11 14:13:02] INFO root fetch - processPackages [renku-aqs]: executing diffoscope
+[2023-07-11 14:13:02] INFO root fetch - processPackages [renku-aqs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renku-aqs-1.0.5.tar.gz tmp/renku-aqs-1.0.6.tar.gz --markdown 20230711/r/renku-aqs/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-07-11 14:13:02] INFO root fetch - processPackages [alibabacloud-avatar20220130]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_avatar20220130-1.0.8.tar.gz]
+[2023-07-11 14:13:02] INFO root fetch - processPackages [alibabacloud-avatar20220130]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_avatar20220130-1.0.9.tar.gz]
+[2023-07-11 14:13:03] INFO root fetch - main [MainThread]: End processing [alibabacloud-avatar20220130]: success
+[2023-07-11 14:13:03] INFO root fetch - processPackages [splight-lib]: Remove: archive file [/home/abi/fetcher/tmp/splight-lib-3.1.0.dev2.tar.gz]
+[2023-07-11 14:13:03] INFO root fetch - processPackages [splight-lib]: Remove: archive file [/home/abi/fetcher/tmp/splight-lib-3.1.0.dev3.tar.gz]
+[2023-07-11 14:13:03] INFO root fetch - main [MainThread]: End processing [splight-lib]: success
+[2023-07-11 14:13:03] INFO root fetch - processPackages [catchpoint-trace]: Remove: archive file [/home/abi/fetcher/tmp/catchpoint-trace-0.0.2.tar.gz]
+[2023-07-11 14:13:03] INFO root fetch - processPackages [catchpoint-trace]: Remove: archive file [/home/abi/fetcher/tmp/catchpoint-trace-0.0.2b20230711115955.tar.gz]
+[2023-07-11 14:13:03] INFO root fetch - main [MainThread]: End processing [catchpoint-trace]: success
+[2023-07-11 14:13:03] INFO root fetch - processPackages [obrpy]: Remove: archive file [/home/abi/fetcher/tmp/obrpy-0.1.3.tar.gz]
+[2023-07-11 14:13:03] INFO root fetch - processPackages [obrpy]: Remove: archive file [/home/abi/fetcher/tmp/obrpy-0.1.4.tar.gz]
+[2023-07-11 14:13:03] INFO root fetch - main [MainThread]: End processing [obrpy]: success
+[2023-07-11 14:13:04] INFO root fetch - processPackages [renku-aqs]: Remove: archive file [/home/abi/fetcher/tmp/renku-aqs-1.0.5.tar.gz]
+[2023-07-11 14:13:04] INFO root fetch - processPackages [renku-aqs]: Remove: archive file [/home/abi/fetcher/tmp/renku-aqs-1.0.6.tar.gz]
+[2023-07-11 14:13:04] INFO root fetch - main [MainThread]: End processing [renku-aqs]: success
+[2023-07-11 14:13:04] INFO root fetch - processPackages [zou]: Remove: archive file [/home/abi/fetcher/tmp/zou-0.9.8-py2.py3-none-any.whl.zip]
+[2023-07-11 14:13:04] INFO root fetch - processPackages [zou]: Remove: archive file [/home/abi/fetcher/tmp/zou-0.9.9-py2.py3-none-any.whl.zip]
+[2023-07-11 14:13:04] INFO root fetch - main [MainThread]: End processing [zou]: success
+[2023-07-11 14:13:04] INFO root fetch - main [MainThread]: End processing [obrpy]: success
+[2023-07-11 14:13:07] INFO root fetch - processPackages [pineboo]: Remove: archive file [/home/abi/fetcher/tmp/pineboo-1.0.4.6.tar.gz]
+[2023-07-11 14:13:07] INFO root fetch - processPackages [pineboo]: Remove: archive file [/home/abi/fetcher/tmp/pineboo-1.0.5.tar.gz]
+[2023-07-11 14:13:07] INFO root fetch - main [MainThread]: End processing [pineboo]: success
+[2023-07-11 14:13:07] INFO root fetch - main [MainThread]: Store serial: [18845044]
