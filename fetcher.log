@@ -9558,3 +9558,33 @@ AssertionError: tmp/doctran-0.0.6.tar.gz does not exist
 [2023-07-11 06:27:19] INFO root fetch - processPackages [keras-nlp]: Remove: archive file [/home/abi/fetcher/tmp/keras-nlp-0.6.0.dev0.tar.gz]
 [2023-07-11 06:27:19] INFO root fetch - main [MainThread]: End processing [keras-nlp]: success
 [2023-07-11 06:27:19] INFO root fetch - main [MainThread]: Store serial: [18840836]
+[2023-07-11 06:32:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18840836]
+[2023-07-11 06:32:28] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-11 06:32:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: eodc-faas-openeo
+[2023-07-11 06:32:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: formulaic
+[2023-07-11 06:32:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: redmage
+[2023-07-11 06:32:28] INFO root fetch - processPackages [redmage]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-11 06:32:28] INFO root fetch - processPackages [formulaic]: New version: [0.6.4] Old Version: [0.6.3]
+[2023-07-11 06:32:28] INFO root fetch - processPackages [eodc-faas-openeo]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-07-11 06:32:29] INFO root fetch - processPackages [redmage]: Downloading https://files.pythonhosted.org/packages/98/f2/022b75fd6873b6b1112c0b037332f12df5bee57281cf8500c246cdf445c5/redmage-0.3.0.tar.gz
+[2023-07-11 06:32:29] INFO root fetch - processPackages [formulaic]: Downloading https://files.pythonhosted.org/packages/1d/8c/a9eb1df51b32ce67321faa41d1773087426b7c0e5d3ea153102ddbd0909e/formulaic-0.6.3.tar.gz
+[2023-07-11 06:32:29] INFO root fetch - processPackages [eodc-faas-openeo]: Downloading https://files.pythonhosted.org/packages/bf/65/17c492bd7934456ef4a003078ffcb510f62f943407298b90a63969aa3f1f/eodc_faas_openeo-2023.6.8.tar.gz
+[2023-07-11 06:32:29] INFO root fetch - processPackages [redmage]: Downloading https://files.pythonhosted.org/packages/2d/4d/a82d2ebf34ded9fe9a2cd30e89cdeb3f7c2034c8cda4136baeb789592996/redmage-0.3.1.tar.gz
+[2023-07-11 06:32:29] INFO root fetch - processPackages [formulaic]: Downloading https://files.pythonhosted.org/packages/a2/5a/c7e4cb626b35554d4096b4f4c27841ca2f916548358ecfa6bdc702a1d973/formulaic-0.6.4.tar.gz
+[2023-07-11 06:32:29] INFO root fetch - processPackages [redmage]: executing diffoscope
+[2023-07-11 06:32:29] INFO root fetch - processPackages [redmage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redmage-0.3.0.tar.gz tmp/redmage-0.3.1.tar.gz --markdown 20230711/r/redmage/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-11 06:32:29] INFO root fetch - processPackages [eodc-faas-openeo]: Downloading https://files.pythonhosted.org/packages/77/6b/8eb1deae635c30a05c1c3a89c459d64974381087d1c84d89e3ad9410049a/eodc_faas_openeo-2023.6.9.tar.gz
+[2023-07-11 06:32:29] INFO root fetch - processPackages [formulaic]: executing diffoscope
+[2023-07-11 06:32:29] INFO root fetch - processPackages [formulaic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/formulaic-0.6.3.tar.gz tmp/formulaic-0.6.4.tar.gz --markdown 20230711/f/formulaic/0.6.3-0.6.4/diff.md --exclude *.pyd
+[2023-07-11 06:32:29] INFO root fetch - processPackages [eodc-faas-openeo]: executing diffoscope
+[2023-07-11 06:32:29] INFO root fetch - processPackages [eodc-faas-openeo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eodc_faas_openeo-2023.6.8.tar.gz tmp/eodc_faas_openeo-2023.6.9.tar.gz --markdown 20230711/e/eodc-faas-openeo/2023.6.8-2023.6.9/diff.md --exclude *.pyd
+[2023-07-11 06:32:30] INFO root fetch - processPackages [eodc-faas-openeo]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_openeo-2023.6.8.tar.gz]
+[2023-07-11 06:32:30] INFO root fetch - processPackages [eodc-faas-openeo]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_openeo-2023.6.9.tar.gz]
+[2023-07-11 06:32:30] INFO root fetch - main [MainThread]: End processing [eodc-faas-openeo]: success
+[2023-07-11 06:32:30] INFO root fetch - processPackages [redmage]: Remove: archive file [/home/abi/fetcher/tmp/redmage-0.3.0.tar.gz]
+[2023-07-11 06:32:30] INFO root fetch - processPackages [redmage]: Remove: archive file [/home/abi/fetcher/tmp/redmage-0.3.1.tar.gz]
+[2023-07-11 06:32:30] INFO root fetch - main [MainThread]: End processing [redmage]: success
+[2023-07-11 06:32:31] INFO root fetch - processPackages [formulaic]: Remove: archive file [/home/abi/fetcher/tmp/formulaic-0.6.3.tar.gz]
+[2023-07-11 06:32:31] INFO root fetch - processPackages [formulaic]: Remove: archive file [/home/abi/fetcher/tmp/formulaic-0.6.4.tar.gz]
+[2023-07-11 06:32:31] INFO root fetch - main [MainThread]: End processing [formulaic]: success
+[2023-07-11 06:32:31] INFO root fetch - main [MainThread]: Store serial: [18840851]
