@@ -11646,3 +11646,129 @@ AssertionError: tmp/doctran-0.0.6.tar.gz does not exist
 [2023-07-11 08:59:04] INFO root fetch - processPackages [pull-request-codecommit]: Remove: archive file [/home/abi/fetcher/tmp/pull_request_codecommit-0.5.3.tar.gz]
 [2023-07-11 08:59:04] INFO root fetch - main [MainThread]: End processing [pull-request-codecommit]: success
 [2023-07-11 08:59:04] INFO root fetch - main [MainThread]: Store serial: [18841709]
+[2023-07-11 09:04:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18841709]
+[2023-07-11 09:04:13] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-11 09:04:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tzspace
+[2023-07-11 09:04:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bluepyefe
+[2023-07-11 09:04:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-07-11 09:04:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: insight-python-linux
+[2023-07-11 09:04:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: triad
+[2023-07-11 09:04:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gdal2numpy
+[2023-07-11 09:04:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: streamlit-bmc
+[2023-07-11 09:04:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: seqio-nightly
+[2023-07-11 09:04:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: jetson-adapter-pkg
+[2023-07-11 09:04:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bmtrain
+[2023-07-11 09:04:13] INFO root fetch - processPackages [tzspace]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-11 09:04:13] INFO root fetch - processPackages [bluepyefe]: New version: [2.2.72] Old Version: [2.2.70]
+[2023-07-11 09:04:13] INFO root fetch - processPackages [gdal2numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-11 09:04:13] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-07-11 09:04:13] INFO root fetch - processPackages [insight-python-linux]: New version: [4.5.0] Old Version: [4.4.1]
+[2023-07-11 09:04:13] INFO root fetch - processPackages [triad]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-11 09:04:13] WARNING root fetch - processPackages [streamlit-bmc]: Skipping, unable to determine old version
+[2023-07-11 09:04:13] INFO root fetch - processPackages [streamlit-bmc]: Start processing: gdal2numpy
+[2023-07-11 09:04:13] INFO root fetch - main [MainThread]: End processing [streamlit-bmc] error
+[2023-07-11 09:04:13] INFO root fetch - processPackages [seqio-nightly]: New version: [0.0.8.dev20220907] Old Version: [0.0.8.dev20220906]
+[2023-07-11 09:04:13] INFO root fetch - processPackages [gdal2numpy]: Downloading https://files.pythonhosted.org/packages/8b/c7/c38f143f5db75454a9df08f7ff287cb3de46fb5f10139def0fcb92a15404/gdal2numpy-0.0.98.tar.gz
+[2023-07-11 09:04:13] INFO root fetch - processPackages [jetson-adapter-pkg]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-07-11 09:04:13] INFO root fetch - processPackages [bmtrain]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-11 09:04:13] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/b5/4b/0742a4ab14bdc0e7e1a1efa5e089f45c05c18e939582e562ff5095837d67/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz
+[2023-07-11 09:04:13] INFO root fetch - processPackages [gdal2numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-11 09:04:13] INFO root fetch - processPackages [tzspace]: Downloading https://files.pythonhosted.org/packages/97/08/b7bf06d2c9b771a6d84443d55d946e8cdcd7920810f1e5ab66e5559a6b71/tzspace-0.0.2.tar.gz
+[2023-07-11 09:04:13] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/43/a0/f60ad514b6f8534fa5ba8cc5fcc2a8f2e32e7d06d2dbfd43b12c2cb29931/seqio-nightly-0.0.8.dev20220906.tar.gz
+[2023-07-11 09:04:13] INFO root fetch - processPackages [gdal2numpy]: Downloading https://files.pythonhosted.org/packages/8b/c7/c38f143f5db75454a9df08f7ff287cb3de46fb5f10139def0fcb92a15404/gdal2numpy-0.0.98.tar.gz
+[2023-07-11 09:04:13] INFO root fetch - processPackages [bluepyefe]: Downloading https://files.pythonhosted.org/packages/ab/70/7b2c6e169e62cd1965bead90e45f67563be9262de288971e3ac465967071/bluepyefe-2.2.70.tar.gz
+[2023-07-11 09:04:14] INFO root fetch - processPackages [triad]: Downloading https://files.pythonhosted.org/packages/82/f9/44610eaa00d2781708816c3f62e8d1a6699fab3172b193a40aa119c37c18/triad-0.9.0.tar.gz
+[2023-07-11 09:04:14] INFO root fetch - processPackages [insight-python-linux]: Downloading https://files.pythonhosted.org/packages/ef/46/bc77b064e8e2acf6b4c404dd76f9b6e09b2b01a105ae97dcc28ae04a9cc5/insight_python_linux-4.4.1.tar.gz
+[2023-07-11 09:04:14] INFO root fetch - processPackages [bmtrain]: Downloading https://files.pythonhosted.org/packages/13/b3/f414fc642070bb5baddab996bc4667bc16ae5f329094bd87ba923a1e7028/bmtrain-0.2.2.tar.gz
+[2023-07-11 09:04:14] INFO root fetch - processPackages [jetson-adapter-pkg]: Downloading https://files.pythonhosted.org/packages/f2/9b/d806dec5845da08db4eb40f4c415a99029448d932ac57dbf9e4f44df6991/jetson-adapter-pkg-0.9.4.tar.gz
+[2023-07-11 09:04:14] WARNING root fetch - processPackages [insight-python-linux]: Skipping package: exceeds size limit 102204566>=10485760
+[2023-07-11 09:04:14] INFO root fetch - processPackages [insight-python-linux]: Start processing: desktop-notifier
+[2023-07-11 09:04:14] INFO root fetch - main [MainThread]: End processing [insight-python-linux] error
+[2023-07-11 09:04:14] INFO root fetch - processPackages [gdal2numpy]: Downloading https://files.pythonhosted.org/packages/67/ee/9c755bd5249fc9dc6a1dd773cb241c19b8df83a94fc0674017b57bd19e20/gdal2numpy-0.0.99.tar.gz
+[2023-07-11 09:04:14] INFO root fetch - processPackages [desktop-notifier]: New version: [3.5.5] Old Version: [3.5.4]
+[2023-07-11 09:04:14] INFO root fetch - processPackages [gdal2numpy]: Downloading https://files.pythonhosted.org/packages/67/ee/9c755bd5249fc9dc6a1dd773cb241c19b8df83a94fc0674017b57bd19e20/gdal2numpy-0.0.99.tar.gz
+[2023-07-11 09:04:14] INFO root fetch - processPackages [desktop-notifier]: Downloading https://files.pythonhosted.org/packages/d3/f4/acd7ae7c2b733df88f6c13d51e3c784af5f37353828fc9f4c6b8c6c03abf/desktop-notifier-3.5.4.tar.gz
+[2023-07-11 09:04:14] INFO root fetch - processPackages [gdal2numpy]: executing diffoscope
+[2023-07-11 09:04:14] INFO root fetch - processPackages [gdal2numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdal2numpy-0.0.98.tar.gz tmp/gdal2numpy-0.0.99.tar.gz --markdown 20230711/g/gdal2numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-11 09:04:14] INFO root fetch - processPackages [tzspace]: Downloading https://files.pythonhosted.org/packages/18/f3/a1379afe80f55965dc050e8b1bb22f701af503e87b3d81c346bf9584203d/tzspace-0.0.3.tar.gz
+[2023-07-11 09:04:14] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/2a/76/25f4c7602cdd724deac948a914e454756abfad2119a525c06d9ce341b918/seqio-nightly-0.0.8.dev20220907.tar.gz
+[2023-07-11 09:04:14] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/c7/46/0f42bc025c61bcf7528be4662164372850647ddcc00ec2a211a0b9e071cc/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz
+[2023-07-11 09:04:14] INFO root fetch - processPackages [bluepyefe]: Downloading https://files.pythonhosted.org/packages/00/67/72af895420a56c7320eb06e9ac357741a7a558951118b7357162634f6a39/bluepyefe-2.2.72.tar.gz
+[2023-07-11 09:04:14] INFO root fetch - processPackages [triad]: Downloading https://files.pythonhosted.org/packages/d9/7b/338d4749f71a2f525c085dae4323d19ed486ab6f10329d40ecaa30015705/triad-0.9.1.tar.gz
+[2023-07-11 09:04:14] INFO root fetch - processPackages [gdal2numpy]: executing diffoscope
+[2023-07-11 09:04:14] INFO root fetch - processPackages [gdal2numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdal2numpy-0.0.98.tar.gz tmp/gdal2numpy-0.0.99.tar.gz --markdown 20230711/g/gdal2numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-11 09:04:14] INFO root fetch - processPackages [bmtrain]: Downloading https://files.pythonhosted.org/packages/99/72/24d4f34ed889470208faeb08682ffdbc9624452dea3a539167e7440bc883/bmtrain-0.2.3.tar.gz
+[2023-07-11 09:04:14] INFO root fetch - processPackages [tzspace]: executing diffoscope
+[2023-07-11 09:04:14] INFO root fetch - processPackages [tzspace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tzspace-0.0.2.tar.gz tmp/tzspace-0.0.3.tar.gz --markdown 20230711/t/tzspace/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-11 09:04:14] INFO root fetch - processPackages [bluepyefe]: executing diffoscope
+[2023-07-11 09:04:14] INFO root fetch - processPackages [bluepyefe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bluepyefe-2.2.70.tar.gz tmp/bluepyefe-2.2.72.tar.gz --markdown 20230711/b/bluepyefe/2.2.70-2.2.72/diff.md --exclude *.pyd
+[2023-07-11 09:04:14] INFO root fetch - processPackages [seqio-nightly]: executing diffoscope
+[2023-07-11 09:04:14] INFO root fetch - processPackages [seqio-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqio-nightly-0.0.8.dev20220906.tar.gz tmp/seqio-nightly-0.0.8.dev20220907.tar.gz --markdown 20230711/s/seqio-nightly/0.0.8.dev20220906-0.0.8.dev20220907/diff.md --exclude *.pyd
+[2023-07-11 09:04:14] INFO root fetch - processPackages [desktop-notifier]: Downloading https://files.pythonhosted.org/packages/a0/ed/1bacb00ae9e2e1730ac58b89ffe1057431dfe37b37dafe1aefb79037e7e5/desktop-notifier-3.5.5.tar.gz
+[2023-07-11 09:04:14] INFO root fetch - processPackages [triad]: executing diffoscope
+[2023-07-11 09:04:14] INFO root fetch - processPackages [triad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/triad-0.9.0.tar.gz tmp/triad-0.9.1.tar.gz --markdown 20230711/t/triad/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-11 09:04:14] INFO root fetch - processPackages [jetson-adapter-pkg]: Downloading https://files.pythonhosted.org/packages/72/00/a891658f9a46b96ef65fd6ff67fcff3ef56950599664ca5d47df029b4f81/jetson_adapter_pkg-0.9.5-py3-none-any.whl
+[2023-07-11 09:04:15] INFO root fetch - processPackages [bmtrain]: executing diffoscope
+[2023-07-11 09:04:15] INFO root fetch - processPackages [bmtrain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bmtrain-0.2.2.tar.gz tmp/bmtrain-0.2.3.tar.gz --markdown 20230711/b/bmtrain/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-11 09:04:15] INFO root fetch - processPackages [desktop-notifier]: executing diffoscope
+[2023-07-11 09:04:15] INFO root fetch - processPackages [desktop-notifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/desktop-notifier-3.5.4.tar.gz tmp/desktop-notifier-3.5.5.tar.gz --markdown 20230711/d/desktop-notifier/3.5.4-3.5.5/diff.md --exclude *.pyd
+[2023-07-11 09:04:15] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-07-11 09:04:15] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230711/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-07-11 09:04:15] INFO root fetch - processPackages [jetson-adapter-pkg]: executing diffoscope
+[2023-07-11 09:04:15] INFO root fetch - processPackages [jetson-adapter-pkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jetson-adapter-pkg-0.9.4.tar.gz tmp/jetson_adapter_pkg-0.9.5-py3-none-any.whl.zip --markdown 20230711/j/jetson-adapter-pkg/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-07-11 09:04:16] INFO root fetch - processPackages [gdal2numpy]: Remove: archive file [/home/abi/fetcher/tmp/gdal2numpy-0.0.98.tar.gz]
+[2023-07-11 09:04:16] INFO root fetch - processPackages [gdal2numpy]: Remove: archive file [/home/abi/fetcher/tmp/gdal2numpy-0.0.99.tar.gz]
+[2023-07-11 09:04:16] INFO root fetch - processPackages [gdal2numpy]: Start processing: tzspace
+[2023-07-11 09:04:16] INFO root fetch - main [MainThread]: End processing [gdal2numpy]: success
+[2023-07-11 09:04:16] INFO root fetch - processPackages [tzspace]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-11 09:04:16] INFO root fetch - processPackages [tzspace]: Remove: archive file [/home/abi/fetcher/tmp/tzspace-0.0.2.tar.gz]
+[2023-07-11 09:04:16] INFO root fetch - processPackages [tzspace]: Remove: archive file [/home/abi/fetcher/tmp/tzspace-0.0.3.tar.gz]
+[2023-07-11 09:04:16] INFO root fetch - processPackages [tzspace]: Start processing: lvhao-lib
+[2023-07-11 09:04:16] INFO root fetch - main [MainThread]: End processing [tzspace]: success
+[2023-07-11 09:04:16] INFO root fetch - processPackages [gdal2numpy]: Start processing: report2junit
+[2023-07-11 09:04:16] INFO root fetch - main [MainThread]: End processing [gdal2numpy]: success
+[2023-07-11 09:04:16] INFO root fetch - processPackages [tzspace]: Downloading https://files.pythonhosted.org/packages/fd/cd/62e57f75b5ca7d06715cf65a6ce7337c63f29a9c03bfa57774207c6904bb/tzspace-0.0.4.tar.gz
+[2023-07-11 09:04:16] INFO root fetch - processPackages [lvhao-lib]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-07-11 09:04:16] INFO root fetch - processPackages [report2junit]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-11 09:04:16] INFO root fetch - processPackages [bluepyefe]: Remove: archive file [/home/abi/fetcher/tmp/bluepyefe-2.2.70.tar.gz]
+[2023-07-11 09:04:16] INFO root fetch - processPackages [bluepyefe]: Remove: archive file [/home/abi/fetcher/tmp/bluepyefe-2.2.72.tar.gz]
+[2023-07-11 09:04:16] INFO root fetch - main [MainThread]: End processing [bluepyefe]: success
+[2023-07-11 09:04:16] INFO root fetch - processPackages [triad]: Remove: archive file [/home/abi/fetcher/tmp/triad-0.9.0.tar.gz]
+[2023-07-11 09:04:16] INFO root fetch - processPackages [triad]: Remove: archive file [/home/abi/fetcher/tmp/triad-0.9.1.tar.gz]
+[2023-07-11 09:04:16] INFO root fetch - main [MainThread]: End processing [triad]: success
+[2023-07-11 09:04:16] INFO root fetch - processPackages [desktop-notifier]: Remove: archive file [/home/abi/fetcher/tmp/desktop-notifier-3.5.4.tar.gz]
+[2023-07-11 09:04:16] INFO root fetch - processPackages [desktop-notifier]: Remove: archive file [/home/abi/fetcher/tmp/desktop-notifier-3.5.5.tar.gz]
+[2023-07-11 09:04:16] INFO root fetch - main [MainThread]: End processing [desktop-notifier]: success
+[2023-07-11 09:04:16] INFO root fetch - processPackages [tzspace]: executing diffoscope
+[2023-07-11 09:04:16] INFO root fetch - processPackages [tzspace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tzspace-0.0.3.tar.gz tmp/tzspace-0.0.4.tar.gz --markdown 20230711/t/tzspace/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-11 09:04:16] INFO root fetch - processPackages [jetson-adapter-pkg]: Remove: archive file [/home/abi/fetcher/tmp/jetson-adapter-pkg-0.9.4.tar.gz]
+[2023-07-11 09:04:16] INFO root fetch - processPackages [jetson-adapter-pkg]: Remove: archive file [/home/abi/fetcher/tmp/jetson_adapter_pkg-0.9.5-py3-none-any.whl.zip]
+[2023-07-11 09:04:16] INFO root fetch - main [MainThread]: End processing [jetson-adapter-pkg]: success
+[2023-07-11 09:04:16] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220906.tar.gz]
+[2023-07-11 09:04:16] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220907.tar.gz]
+[2023-07-11 09:04:17] INFO root fetch - main [MainThread]: End processing [seqio-nightly]: success
+[2023-07-11 09:04:17] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz]
+[2023-07-11 09:04:17] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz]
+[2023-07-11 09:04:17] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-07-11 09:04:17] INFO root fetch - processPackages [lvhao-lib]: Downloading https://files.pythonhosted.org/packages/cc/e4/544b24e4a0f9b5e4f31edb6fc85809a0ac59efb914e011eed89751aa8020/lvhao_lib-0.7.0.tar.gz
+[2023-07-11 09:04:17] INFO root fetch - processPackages [report2junit]: Downloading https://files.pythonhosted.org/packages/90/2c/3ec18769736523cb628af0dd428c9278de959198b43453b4b02a559ad719/report2junit-0.3.1.tar.gz
+[2023-07-11 09:04:17] INFO root fetch - processPackages [bmtrain]: Remove: archive file [/home/abi/fetcher/tmp/bmtrain-0.2.2.tar.gz]
+[2023-07-11 09:04:17] INFO root fetch - processPackages [bmtrain]: Remove: archive file [/home/abi/fetcher/tmp/bmtrain-0.2.3.tar.gz]
+[2023-07-11 09:04:17] INFO root fetch - main [MainThread]: End processing [bmtrain]: success
+[2023-07-11 09:04:17] INFO root fetch - processPackages [report2junit]: Downloading https://files.pythonhosted.org/packages/3e/4d/0f532a34600c4018f4b6f27d5b3dcd896062afc446c8c4eb8eaaeeeb10ad/report2junit-0.3.2.tar.gz
+[2023-07-11 09:04:17] INFO root fetch - processPackages [lvhao-lib]: Downloading https://files.pythonhosted.org/packages/18/ee/7d685ada61734509f49fb1d2257bb70f46543e68a8a3631546885a096af6/lvhao_lib-0.7.1.tar.gz
+[2023-07-11 09:04:17] ERROR root fetch - processPackages [tzspace]: Diffoscope failed: time="2023-07-11T09:04:16+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/tzspace-0.0.3.tar.gz: No such file or directory
+
+[2023-07-11 09:04:17] INFO root fetch - main [MainThread]: End processing [tzspace] error
+[2023-07-11 09:04:17] INFO root fetch - processPackages [report2junit]: executing diffoscope
+[2023-07-11 09:04:17] INFO root fetch - processPackages [report2junit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/report2junit-0.3.1.tar.gz tmp/report2junit-0.3.2.tar.gz --markdown 20230711/r/report2junit/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-11 09:04:18] INFO root fetch - processPackages [lvhao-lib]: executing diffoscope
+[2023-07-11 09:04:18] INFO root fetch - processPackages [lvhao-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lvhao_lib-0.7.0.tar.gz tmp/lvhao_lib-0.7.1.tar.gz --markdown 20230711/l/lvhao-lib/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-07-11 09:04:18] INFO root fetch - processPackages [report2junit]: Remove: archive file [/home/abi/fetcher/tmp/report2junit-0.3.1.tar.gz]
+[2023-07-11 09:04:18] INFO root fetch - processPackages [report2junit]: Remove: archive file [/home/abi/fetcher/tmp/report2junit-0.3.2.tar.gz]
+[2023-07-11 09:04:18] INFO root fetch - main [MainThread]: End processing [report2junit]: success
+[2023-07-11 09:04:24] INFO root fetch - processPackages [lvhao-lib]: Remove: archive file [/home/abi/fetcher/tmp/lvhao_lib-0.7.0.tar.gz]
+[2023-07-11 09:04:24] INFO root fetch - processPackages [lvhao-lib]: Remove: archive file [/home/abi/fetcher/tmp/lvhao_lib-0.7.1.tar.gz]
+[2023-07-11 09:04:24] INFO root fetch - main [MainThread]: End processing [lvhao-lib]: success
+[2023-07-11 09:04:24] INFO root fetch - main [MainThread]: Store serial: [18841753]
