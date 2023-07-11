@@ -10119,3 +10119,74 @@ AssertionError: tmp/doctran-0.0.6.tar.gz does not exist
 [2023-07-11 07:14:32] INFO root fetch - processPackages [odoo10-addon-module-prototyper]: Remove: archive file [/home/abi/fetcher/tmp/odoo10_addon_module_prototyper-10.0.1.0.0.99.dev9-py2-none-any.whl.zip]
 [2023-07-11 07:14:32] INFO root fetch - main [MainThread]: End processing [odoo10-addon-module-prototyper]: success
 [2023-07-11 07:14:32] INFO root fetch - main [MainThread]: Store serial: [18841047]
+[2023-07-11 07:19:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18841047]
+[2023-07-11 07:19:41] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-11 07:19:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pinject-design
+[2023-07-11 07:19:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pinject-design
+[2023-07-11 07:19:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyaware
+[2023-07-11 07:19:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rapidpe-rift-pipe
+[2023-07-11 07:19:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: grassmanntn
+[2023-07-11 07:19:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tflite-model-maker-nightly
+[2023-07-11 07:19:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: safeway-coupons
+[2023-07-11 07:19:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pinject-design
+[2023-07-11 07:19:41] INFO root fetch - processPackages [pinject-design]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-11 07:19:41] INFO root fetch - processPackages [pinject-design]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-11 07:19:41] INFO root fetch - processPackages [grassmanntn]: New version: [1.2.0] Old Version: [1.1.9]
+[2023-07-11 07:19:41] INFO root fetch - processPackages [safeway-coupons]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-07-11 07:19:41] INFO root fetch - processPackages [pinject-design]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-11 07:19:41] INFO root fetch - processPackages [pyaware]: New version: [6.1.1] Old Version: [6.1.0]
+[2023-07-11 07:19:41] INFO root fetch - processPackages [rapidpe-rift-pipe]: New version: [0.5.4.dev20230711] Old Version: [0.5.3]
+[2023-07-11 07:19:42] INFO root fetch - processPackages [tflite-model-maker-nightly]: New version: [0.4.3.dev202307110517] Old Version: [0.4.3.dev202307100510]
+[2023-07-11 07:19:42] INFO root fetch - processPackages [safeway-coupons]: Downloading https://files.pythonhosted.org/packages/da/29/0d71053db01d48d58ec5370ededff885461a25c4e57dc5c504cb0a491695/safeway_coupons-0.2.3.tar.gz
+[2023-07-11 07:19:42] INFO root fetch - processPackages [rapidpe-rift-pipe]: Downloading https://files.pythonhosted.org/packages/3c/20/fd09a4208f048c5ab30b868d6d44f605313e0c3694ba06b4ad5c7d970744/rapidpe_rift_pipe-0.5.3.tar.gz
+[2023-07-11 07:19:42] INFO root fetch - processPackages [pinject-design]: Downloading https://files.pythonhosted.org/packages/5f/f2/6f47beb8ae7800164b86a0ca180efa5ad86edb3b1419d97531dddcc0c026/pinject-design-0.1.8.tar.gz
+[2023-07-11 07:19:42] INFO root fetch - processPackages [pinject-design]: Downloading https://files.pythonhosted.org/packages/5f/f2/6f47beb8ae7800164b86a0ca180efa5ad86edb3b1419d97531dddcc0c026/pinject-design-0.1.8.tar.gz
+[2023-07-11 07:19:42] INFO root fetch - processPackages [pinject-design]: Downloading https://files.pythonhosted.org/packages/5f/f2/6f47beb8ae7800164b86a0ca180efa5ad86edb3b1419d97531dddcc0c026/pinject-design-0.1.8.tar.gz
+[2023-07-11 07:19:42] INFO root fetch - processPackages [grassmanntn]: Downloading https://files.pythonhosted.org/packages/9a/6a/38af9036bc7e2828f2270774cedd765679be0dddf566bb7089e3d441cd66/grassmanntn-1.1.9.tar.gz
+[2023-07-11 07:19:42] INFO root fetch - processPackages [tflite-model-maker-nightly]: Downloading https://files.pythonhosted.org/packages/a4/76/5aed6c996ccff6a059fe69def029fcac02284e0ab6686a93c44c22fb9b6a/tflite-model-maker-nightly-0.4.3.dev202307100510.tar.gz
+[2023-07-11 07:19:42] INFO root fetch - processPackages [pyaware]: Downloading https://files.pythonhosted.org/packages/8a/6a/c955938c353c5eabd7c04894a975c4abe028d944102c76d072fee8e78ce2/pyaware-6.1.0-py3-none-any.whl
+[2023-07-11 07:19:42] INFO root fetch - processPackages [safeway-coupons]: Downloading https://files.pythonhosted.org/packages/9c/18/4696e02fc120a6d067f313edff1a1248b1bdd1262ba5fed68cb886cc1db3/safeway_coupons-0.2.4.tar.gz
+[2023-07-11 07:19:42] INFO root fetch - processPackages [rapidpe-rift-pipe]: Downloading https://files.pythonhosted.org/packages/c1/3d/db716177db3fb0f6d586f24b617a87439f898e9d3b524716ae6062fb18b0/rapidpe_rift_pipe-0.5.4.dev20230711.tar.gz
+[2023-07-11 07:19:42] INFO root fetch - processPackages [pinject-design]: Downloading https://files.pythonhosted.org/packages/52/12/a13d2115034630043d98ad1bf73e273115201ee763cd0fd21c61df995b87/pinject-design-0.1.9.tar.gz
+[2023-07-11 07:19:42] INFO root fetch - processPackages [pinject-design]: Downloading https://files.pythonhosted.org/packages/52/12/a13d2115034630043d98ad1bf73e273115201ee763cd0fd21c61df995b87/pinject-design-0.1.9.tar.gz
+[2023-07-11 07:19:42] INFO root fetch - processPackages [safeway-coupons]: executing diffoscope
+[2023-07-11 07:19:42] INFO root fetch - processPackages [safeway-coupons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/safeway_coupons-0.2.3.tar.gz tmp/safeway_coupons-0.2.4.tar.gz --markdown 20230711/s/safeway-coupons/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-07-11 07:19:42] INFO root fetch - processPackages [pinject-design]: Downloading https://files.pythonhosted.org/packages/52/12/a13d2115034630043d98ad1bf73e273115201ee763cd0fd21c61df995b87/pinject-design-0.1.9.tar.gz
+[2023-07-11 07:19:42] INFO root fetch - processPackages [grassmanntn]: Downloading https://files.pythonhosted.org/packages/39/3b/ef50155cb57752c1ee882df0907ba5997782e36dec650e7bed8c9e27d3f2/grassmanntn-1.2.0.tar.gz
+[2023-07-11 07:19:42] INFO root fetch - processPackages [tflite-model-maker-nightly]: Downloading https://files.pythonhosted.org/packages/ef/fc/a01f472af91d375ff180dfebb48b0a216d899e7bbb3a8faf5c37ca899422/tflite-model-maker-nightly-0.4.3.dev202307110517.tar.gz
+[2023-07-11 07:19:42] INFO root fetch - processPackages [pinject-design]: executing diffoscope
+[2023-07-11 07:19:42] INFO root fetch - processPackages [pinject-design]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pinject-design-0.1.8.tar.gz tmp/pinject-design-0.1.9.tar.gz --markdown 20230711/p/pinject-design/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-11 07:19:42] INFO root fetch - processPackages [pinject-design]: executing diffoscope
+[2023-07-11 07:19:42] INFO root fetch - processPackages [pinject-design]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pinject-design-0.1.8.tar.gz tmp/pinject-design-0.1.9.tar.gz --markdown 20230711/p/pinject-design/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-11 07:19:42] INFO root fetch - processPackages [pinject-design]: executing diffoscope
+[2023-07-11 07:19:42] INFO root fetch - processPackages [pinject-design]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pinject-design-0.1.8.tar.gz tmp/pinject-design-0.1.9.tar.gz --markdown 20230711/p/pinject-design/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-11 07:19:43] INFO root fetch - processPackages [rapidpe-rift-pipe]: executing diffoscope
+[2023-07-11 07:19:43] INFO root fetch - processPackages [rapidpe-rift-pipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapidpe_rift_pipe-0.5.3.tar.gz tmp/rapidpe_rift_pipe-0.5.4.dev20230711.tar.gz --markdown 20230711/r/rapidpe-rift-pipe/0.5.3-0.5.4.dev20230711/diff.md --exclude *.pyd
+[2023-07-11 07:19:43] INFO root fetch - processPackages [pyaware]: Downloading https://files.pythonhosted.org/packages/ab/f0/3a3e7bff3634ae74500ff40cf02e01f57accc265e5e360ae0dca36cac63d/pyaware-6.1.1-py3-none-any.whl
+[2023-07-11 07:19:43] INFO root fetch - processPackages [grassmanntn]: executing diffoscope
+[2023-07-11 07:19:43] INFO root fetch - processPackages [grassmanntn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grassmanntn-1.1.9.tar.gz tmp/grassmanntn-1.2.0.tar.gz --markdown 20230711/g/grassmanntn/1.1.9-1.2.0/diff.md --exclude *.pyd
+[2023-07-11 07:19:43] INFO root fetch - processPackages [tflite-model-maker-nightly]: executing diffoscope
+[2023-07-11 07:19:43] INFO root fetch - processPackages [tflite-model-maker-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tflite-model-maker-nightly-0.4.3.dev202307100510.tar.gz tmp/tflite-model-maker-nightly-0.4.3.dev202307110517.tar.gz --markdown 20230711/t/tflite-model-maker-nightly/0.4.3.dev202307100510-0.4.3.dev202307110517/diff.md --exclude *.pyd
+[2023-07-11 07:19:43] INFO root fetch - processPackages [pyaware]: executing diffoscope
+[2023-07-11 07:19:43] INFO root fetch - processPackages [pyaware]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyaware-6.1.0-py3-none-any.whl.zip tmp/pyaware-6.1.1-py3-none-any.whl.zip --markdown 20230711/p/pyaware/6.1.0-6.1.1/diff.md --exclude *.pyd
+[2023-07-11 07:19:44] INFO root fetch - processPackages [safeway-coupons]: Remove: archive file [/home/abi/fetcher/tmp/safeway_coupons-0.2.3.tar.gz]
+[2023-07-11 07:19:44] INFO root fetch - processPackages [safeway-coupons]: Remove: archive file [/home/abi/fetcher/tmp/safeway_coupons-0.2.4.tar.gz]
+[2023-07-11 07:19:44] INFO root fetch - main [MainThread]: End processing [safeway-coupons]: success
+[2023-07-11 07:19:44] INFO root fetch - processPackages [pinject-design]: Remove: archive file [/home/abi/fetcher/tmp/pinject-design-0.1.8.tar.gz]
+[2023-07-11 07:19:44] INFO root fetch - processPackages [pinject-design]: Remove: archive file [/home/abi/fetcher/tmp/pinject-design-0.1.9.tar.gz]
+[2023-07-11 07:19:44] INFO root fetch - main [MainThread]: End processing [pinject-design]: success
+[2023-07-11 07:19:44] INFO root fetch - main [MainThread]: End processing [pinject-design]: success
+[2023-07-11 07:19:44] INFO root fetch - processPackages [rapidpe-rift-pipe]: Remove: archive file [/home/abi/fetcher/tmp/rapidpe_rift_pipe-0.5.3.tar.gz]
+[2023-07-11 07:19:44] INFO root fetch - processPackages [rapidpe-rift-pipe]: Remove: archive file [/home/abi/fetcher/tmp/rapidpe_rift_pipe-0.5.4.dev20230711.tar.gz]
+[2023-07-11 07:19:44] INFO root fetch - main [MainThread]: End processing [rapidpe-rift-pipe]: success
+[2023-07-11 07:19:44] INFO root fetch - main [MainThread]: End processing [pinject-design]: success
+[2023-07-11 07:19:44] INFO root fetch - processPackages [grassmanntn]: Remove: archive file [/home/abi/fetcher/tmp/grassmanntn-1.1.9.tar.gz]
+[2023-07-11 07:19:44] INFO root fetch - processPackages [grassmanntn]: Remove: archive file [/home/abi/fetcher/tmp/grassmanntn-1.2.0.tar.gz]
+[2023-07-11 07:19:44] INFO root fetch - main [MainThread]: End processing [grassmanntn]: success
+[2023-07-11 07:19:45] INFO root fetch - processPackages [pyaware]: Remove: archive file [/home/abi/fetcher/tmp/pyaware-6.1.0-py3-none-any.whl.zip]
+[2023-07-11 07:19:45] INFO root fetch - processPackages [pyaware]: Remove: archive file [/home/abi/fetcher/tmp/pyaware-6.1.1-py3-none-any.whl.zip]
+[2023-07-11 07:19:45] INFO root fetch - main [MainThread]: End processing [pyaware]: success
+[2023-07-11 07:19:45] INFO root fetch - processPackages [tflite-model-maker-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite-model-maker-nightly-0.4.3.dev202307100510.tar.gz]
+[2023-07-11 07:19:45] INFO root fetch - processPackages [tflite-model-maker-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite-model-maker-nightly-0.4.3.dev202307110517.tar.gz]
+[2023-07-11 07:19:45] INFO root fetch - main [MainThread]: End processing [tflite-model-maker-nightly]: success
+[2023-07-11 07:19:45] INFO root fetch - main [MainThread]: Store serial: [18841071]
