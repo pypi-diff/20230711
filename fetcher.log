@@ -11863,3 +11863,42 @@ AssertionError: tmp/doctran-0.0.6.tar.gz does not exist
 [2023-07-11 09:09:37] INFO root fetch - main [MainThread]: End processing [maggma]: success
 [2023-07-11 09:09:37] INFO root fetch - main [MainThread]: End processing [zensvi]: success
 [2023-07-11 09:09:37] INFO root fetch - main [MainThread]: Store serial: [18841786]
+[2023-07-11 09:14:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18841786]
+[2023-07-11 09:14:46] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-11 09:14:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: oceanum
+[2023-07-11 09:14:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: web3py-ext
+[2023-07-11 09:14:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cognite-sdk
+[2023-07-11 09:14:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jolli
+[2023-07-11 09:14:46] INFO root fetch - processPackages [oceanum]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-07-11 09:14:46] INFO root fetch - processPackages [web3py-ext]: New version: [0.9.1b0] Old Version: [0.9.0b0]
+[2023-07-11 09:14:46] INFO root fetch - processPackages [jolli]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-11 09:14:46] INFO root fetch - processPackages [cognite-sdk]: New version: [6.8.1] Old Version: [6.8.0]
+[2023-07-11 09:14:46] INFO root fetch - processPackages [jolli]: Downloading https://files.pythonhosted.org/packages/52/35/fab4eae6b23550c2dceb663a94e216240d18d2550d4bd6f68c2f1ef815d4/jolli-0.0.4.tar.gz
+[2023-07-11 09:14:46] INFO root fetch - processPackages [cognite-sdk]: Downloading https://files.pythonhosted.org/packages/8a/f4/b7821604f73f15c22a5f0c4431e3cacc859e9971dc13527fadf0739f1caa/cognite_sdk-6.8.0.tar.gz
+[2023-07-11 09:14:46] INFO root fetch - processPackages [oceanum]: Downloading https://files.pythonhosted.org/packages/fe/5d/062eb0094cfc89d589d2dce5b84709dc4ab1b01ab95bf71dbbd30e87e045/oceanum-0.7.8.tar.gz
+[2023-07-11 09:14:46] INFO root fetch - processPackages [web3py-ext]: Downloading https://files.pythonhosted.org/packages/01/60/f07cba263d8bdb6582de38b608246dc8323e80642d025859a4aa3f84aea9/web3py_ext-0.9.0b0-py3-none-any.whl
+[2023-07-11 09:14:46] INFO root fetch - processPackages [jolli]: Downloading https://files.pythonhosted.org/packages/3c/d0/04a977cda4631dc8f374f7a4c386440b5401b6da71a055c13d5c94de7665/jolli-0.0.5.tar.gz
+[2023-07-11 09:14:47] INFO root fetch - processPackages [cognite-sdk]: Downloading https://files.pythonhosted.org/packages/63/23/ab55a6e138e900c24b76873941ce8bfd68b2b68e10889a0bf9912e5eb8d2/cognite_sdk-6.8.1.tar.gz
+[2023-07-11 09:14:47] INFO root fetch - processPackages [web3py-ext]: Downloading https://files.pythonhosted.org/packages/ab/0e/51a3f873e76687171a137977c12e2398359ad30144b8ef18be8bc1287012/web3py_ext-0.9.1b0-py3-none-any.whl
+[2023-07-11 09:14:47] INFO root fetch - processPackages [jolli]: executing diffoscope
+[2023-07-11 09:14:47] INFO root fetch - processPackages [jolli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jolli-0.0.4.tar.gz tmp/jolli-0.0.5.tar.gz --markdown 20230711/j/jolli/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-11 09:14:47] INFO root fetch - processPackages [web3py-ext]: executing diffoscope
+[2023-07-11 09:14:47] INFO root fetch - processPackages [web3py-ext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/web3py_ext-0.9.0b0-py3-none-any.whl.zip tmp/web3py_ext-0.9.1b0-py3-none-any.whl.zip --markdown 20230711/w/web3py-ext/0.9.0b0-0.9.1b0/diff.md --exclude *.pyd
+[2023-07-11 09:14:47] INFO root fetch - processPackages [oceanum]: Downloading https://files.pythonhosted.org/packages/a9/f8/1d7695e36b445abdaff6fe9a6d845689f712ce083b5fa35876e3b7a1a9b8/oceanum-0.7.9.tar.gz
+[2023-07-11 09:14:47] INFO root fetch - processPackages [cognite-sdk]: executing diffoscope
+[2023-07-11 09:14:47] INFO root fetch - processPackages [cognite-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_sdk-6.8.0.tar.gz tmp/cognite_sdk-6.8.1.tar.gz --markdown 20230711/c/cognite-sdk/6.8.0-6.8.1/diff.md --exclude *.pyd
+[2023-07-11 09:14:47] INFO root fetch - processPackages [oceanum]: executing diffoscope
+[2023-07-11 09:14:47] INFO root fetch - processPackages [oceanum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oceanum-0.7.8.tar.gz tmp/oceanum-0.7.9.tar.gz --markdown 20230711/o/oceanum/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-07-11 09:14:48] INFO root fetch - processPackages [jolli]: Remove: archive file [/home/abi/fetcher/tmp/jolli-0.0.4.tar.gz]
+[2023-07-11 09:14:48] INFO root fetch - processPackages [jolli]: Remove: archive file [/home/abi/fetcher/tmp/jolli-0.0.5.tar.gz]
+[2023-07-11 09:14:48] INFO root fetch - main [MainThread]: End processing [jolli]: success
+[2023-07-11 09:14:48] INFO root fetch - processPackages [web3py-ext]: Remove: archive file [/home/abi/fetcher/tmp/web3py_ext-0.9.0b0-py3-none-any.whl.zip]
+[2023-07-11 09:14:48] INFO root fetch - processPackages [web3py-ext]: Remove: archive file [/home/abi/fetcher/tmp/web3py_ext-0.9.1b0-py3-none-any.whl.zip]
+[2023-07-11 09:14:48] INFO root fetch - main [MainThread]: End processing [web3py-ext]: success
+[2023-07-11 09:14:48] INFO root fetch - processPackages [cognite-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cognite_sdk-6.8.0.tar.gz]
+[2023-07-11 09:14:48] INFO root fetch - processPackages [cognite-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cognite_sdk-6.8.1.tar.gz]
+[2023-07-11 09:14:48] INFO root fetch - main [MainThread]: End processing [cognite-sdk]: success
+[2023-07-11 09:14:49] INFO root fetch - processPackages [oceanum]: Remove: archive file [/home/abi/fetcher/tmp/oceanum-0.7.8.tar.gz]
+[2023-07-11 09:14:49] INFO root fetch - processPackages [oceanum]: Remove: archive file [/home/abi/fetcher/tmp/oceanum-0.7.9.tar.gz]
+[2023-07-11 09:14:49] INFO root fetch - main [MainThread]: End processing [oceanum]: success
+[2023-07-11 09:14:49] INFO root fetch - main [MainThread]: Store serial: [18841810]
