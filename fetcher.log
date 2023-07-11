@@ -10535,3 +10535,66 @@ AssertionError: tmp/doctran-0.0.6.tar.gz does not exist
 [2023-07-11 07:45:46] INFO root fetch - processPackages [pyVoIP]: Remove: archive file [/home/abi/fetcher/tmp/pyVoIP-1.6.5rc1.tar.gz]
 [2023-07-11 07:45:46] INFO root fetch - main [MainThread]: End processing [pyVoIP]: success
 [2023-07-11 07:45:46] INFO root fetch - main [MainThread]: Store serial: [18841192]
+[2023-07-11 07:50:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18841192]
+[2023-07-11 07:50:55] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-11 07:50:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: relics-run-api
+[2023-07-11 07:50:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: layerx-sdk-beta
+[2023-07-11 07:50:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: onedriveintegrate
+[2023-07-11 07:50:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: skitai
+[2023-07-11 07:50:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wiremock
+[2023-07-11 07:50:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pinject-design
+[2023-07-11 07:50:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dela
+[2023-07-11 07:50:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pinject-design
+[2023-07-11 07:50:55] INFO root fetch - processPackages [pinject-design]: New version: [0.1.9] Old Version: [0.1.80]
+[2023-07-11 07:50:55] INFO root fetch - processPackages [layerx-sdk-beta]: New version: [1.0.9b2] Old Version: [1.0.9b1]
+[2023-07-11 07:50:55] INFO root fetch - processPackages [onedriveintegrate]: New version: [1.4] Old Version: [1.3]
+[2023-07-11 07:50:55] INFO root fetch - processPackages [dela]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-11 07:50:55] INFO root fetch - processPackages [pinject-design]: New version: [0.1.9] Old Version: [0.1.80]
+[2023-07-11 07:50:55] WARNING root fetch - processPackages [relics-run-api]: Skipping, unable to determine old version
+[2023-07-11 07:50:55] INFO root fetch - main [MainThread]: End processing [relics-run-api] error
+[2023-07-11 07:50:55] INFO root fetch - processPackages [wiremock]: New version: [2.6.0a0] Old Version: [2.5.0]
+[2023-07-11 07:50:55] INFO root fetch - processPackages [skitai]: New version: [0.9.4.21] Old Version: [0.56.9]
+[2023-07-11 07:50:55] INFO root fetch - processPackages [layerx-sdk-beta]: Downloading https://files.pythonhosted.org/packages/82/30/49db849a17663ef31174e31654b943efd6d652d8fead1d082f103f9ab59e/layerx-sdk-beta-1.0.9b1.tar.gz
+[2023-07-11 07:50:55] INFO root fetch - processPackages [dela]: Downloading https://files.pythonhosted.org/packages/a4/0f/c7a08a8687d0825bafb906a96cf807a432d2a4f26fb3b39b5f6d64b229e4/dela-0.1.2.tar.gz
+[2023-07-11 07:50:55] INFO root fetch - processPackages [onedriveintegrate]: Downloading https://files.pythonhosted.org/packages/1a/30/23cde13f2dcf6a9ef8cb35347e844ddaac43772a64140daa9a0026bb7908/onedriveintegrate-1.3.tar.gz
+[2023-07-11 07:50:56] INFO root fetch - processPackages [pinject-design]: Downloading https://files.pythonhosted.org/packages/06/44/0c3c47ebe9788c351760069e291b73766a383812ec430c1a97cd666c93ad/pinject_design-0.1.80.tar.gz
+[2023-07-11 07:50:56] INFO root fetch - processPackages [pinject-design]: Downloading https://files.pythonhosted.org/packages/06/44/0c3c47ebe9788c351760069e291b73766a383812ec430c1a97cd666c93ad/pinject_design-0.1.80.tar.gz
+[2023-07-11 07:50:56] INFO root fetch - processPackages [wiremock]: Downloading https://files.pythonhosted.org/packages/64/62/47ff9efd49339fc99a8715df4787b76dda77b58e8a147284c0eca578bc86/wiremock-2.5.0.tar.gz
+[2023-07-11 07:50:56] INFO root fetch - processPackages [skitai]: Downloading https://files.pythonhosted.org/packages/66/dd/c0c6d2707c3b230622a562b449eb2d59317660369903b630f28c4d5d92ab/skitai-0.56.9-py3-none-any.whl
+[2023-07-11 07:50:56] WARNING root fetch - processPackages [wiremock]: Skipping package: exceeds size limit 14196704>=10485760
+[2023-07-11 07:50:56] INFO root fetch - main [MainThread]: End processing [wiremock] error
+[2023-07-11 07:50:56] INFO root fetch - processPackages [layerx-sdk-beta]: Downloading https://files.pythonhosted.org/packages/80/17/9c39f674089d0687a6ebb4bb5cb263194817e74bbf02632c5b1f95ed63ed/layerx-sdk-beta-1.0.9b2.tar.gz
+[2023-07-11 07:50:56] INFO root fetch - processPackages [pinject-design]: Downloading https://files.pythonhosted.org/packages/52/12/a13d2115034630043d98ad1bf73e273115201ee763cd0fd21c61df995b87/pinject-design-0.1.9.tar.gz
+[2023-07-11 07:50:56] INFO root fetch - processPackages [pinject-design]: Downloading https://files.pythonhosted.org/packages/52/12/a13d2115034630043d98ad1bf73e273115201ee763cd0fd21c61df995b87/pinject-design-0.1.9.tar.gz
+[2023-07-11 07:50:56] INFO root fetch - processPackages [dela]: Downloading https://files.pythonhosted.org/packages/8c/c4/75419a10333e2202eed1eeed310999452d1546b1ed87d70832d5db0703c1/dela-0.1.3.tar.gz
+[2023-07-11 07:50:56] INFO root fetch - processPackages [onedriveintegrate]: Downloading https://files.pythonhosted.org/packages/ab/fe/26d575e7e760a736932f5e91112ba6f553e703b5cf979d86112d19bde62c/onedriveintegrate-1.4.tar.gz
+[2023-07-11 07:50:56] INFO root fetch - processPackages [layerx-sdk-beta]: executing diffoscope
+[2023-07-11 07:50:56] INFO root fetch - processPackages [layerx-sdk-beta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/layerx-sdk-beta-1.0.9b1.tar.gz tmp/layerx-sdk-beta-1.0.9b2.tar.gz --markdown 20230711/l/layerx-sdk-beta/1.0.9b1-1.0.9b2/diff.md --exclude *.pyd
+[2023-07-11 07:50:56] INFO root fetch - processPackages [pinject-design]: executing diffoscope
+[2023-07-11 07:50:56] INFO root fetch - processPackages [pinject-design]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pinject_design-0.1.80.tar.gz tmp/pinject-design-0.1.9.tar.gz --markdown 20230711/p/pinject-design/0.1.80-0.1.9/diff.md --exclude *.pyd
+[2023-07-11 07:50:56] INFO root fetch - processPackages [skitai]: Downloading https://files.pythonhosted.org/packages/8d/5d/a745681ceb89c9d426e23cf1ee7c610fe4cf82be126d0f18eea708f6527f/skitai-0.9.4.21.tar.gz
+[2023-07-11 07:50:56] INFO root fetch - processPackages [pinject-design]: executing diffoscope
+[2023-07-11 07:50:56] INFO root fetch - processPackages [pinject-design]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pinject_design-0.1.80.tar.gz tmp/pinject-design-0.1.9.tar.gz --markdown 20230711/p/pinject-design/0.1.80-0.1.9/diff.md --exclude *.pyd
+[2023-07-11 07:50:56] INFO root fetch - processPackages [onedriveintegrate]: executing diffoscope
+[2023-07-11 07:50:56] INFO root fetch - processPackages [onedriveintegrate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onedriveintegrate-1.3.tar.gz tmp/onedriveintegrate-1.4.tar.gz --markdown 20230711/o/onedriveintegrate/1.3-1.4/diff.md --exclude *.pyd
+[2023-07-11 07:50:56] INFO root fetch - processPackages [dela]: executing diffoscope
+[2023-07-11 07:50:56] INFO root fetch - processPackages [dela]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dela-0.1.2.tar.gz tmp/dela-0.1.3.tar.gz --markdown 20230711/d/dela/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-11 07:50:56] INFO root fetch - processPackages [skitai]: executing diffoscope
+[2023-07-11 07:50:56] INFO root fetch - processPackages [skitai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skitai-0.56.9-py3-none-any.whl.zip tmp/skitai-0.9.4.21.tar.gz --markdown 20230711/s/skitai/0.56.9-0.9.4.21/diff.md --exclude *.pyd
+[2023-07-11 07:50:57] INFO root fetch - processPackages [pinject-design]: Remove: archive file [/home/abi/fetcher/tmp/pinject_design-0.1.80.tar.gz]
+[2023-07-11 07:50:57] INFO root fetch - processPackages [pinject-design]: Remove: archive file [/home/abi/fetcher/tmp/pinject-design-0.1.9.tar.gz]
+[2023-07-11 07:50:57] INFO root fetch - main [MainThread]: End processing [pinject-design]: success
+[2023-07-11 07:50:57] INFO root fetch - processPackages [layerx-sdk-beta]: Remove: archive file [/home/abi/fetcher/tmp/layerx-sdk-beta-1.0.9b1.tar.gz]
+[2023-07-11 07:50:57] INFO root fetch - processPackages [layerx-sdk-beta]: Remove: archive file [/home/abi/fetcher/tmp/layerx-sdk-beta-1.0.9b2.tar.gz]
+[2023-07-11 07:50:57] INFO root fetch - main [MainThread]: End processing [layerx-sdk-beta]: success
+[2023-07-11 07:50:57] INFO root fetch - processPackages [onedriveintegrate]: Remove: archive file [/home/abi/fetcher/tmp/onedriveintegrate-1.3.tar.gz]
+[2023-07-11 07:50:57] INFO root fetch - processPackages [onedriveintegrate]: Remove: archive file [/home/abi/fetcher/tmp/onedriveintegrate-1.4.tar.gz]
+[2023-07-11 07:50:57] INFO root fetch - main [MainThread]: End processing [onedriveintegrate]: success
+[2023-07-11 07:50:57] INFO root fetch - processPackages [dela]: Remove: archive file [/home/abi/fetcher/tmp/dela-0.1.2.tar.gz]
+[2023-07-11 07:50:57] INFO root fetch - processPackages [dela]: Remove: archive file [/home/abi/fetcher/tmp/dela-0.1.3.tar.gz]
+[2023-07-11 07:50:57] INFO root fetch - main [MainThread]: End processing [dela]: success
+[2023-07-11 07:50:57] INFO root fetch - processPackages [skitai]: Remove: archive file [/home/abi/fetcher/tmp/skitai-0.56.9-py3-none-any.whl.zip]
+[2023-07-11 07:50:57] INFO root fetch - processPackages [skitai]: Remove: archive file [/home/abi/fetcher/tmp/skitai-0.9.4.21.tar.gz]
+[2023-07-11 07:50:57] INFO root fetch - main [MainThread]: End processing [skitai]: success
+[2023-07-11 07:50:57] INFO root fetch - main [MainThread]: End processing [pinject-design]: success
+[2023-07-11 07:50:57] INFO root fetch - main [MainThread]: Store serial: [18841219]
