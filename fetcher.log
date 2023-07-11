@@ -11425,3 +11425,101 @@ AssertionError: tmp/doctran-0.0.6.tar.gz does not exist
 [2023-07-11 08:48:36] INFO root fetch - processPackages [scml]: Remove: archive file [/home/abi/fetcher/tmp/scml-0.6.1.tar.gz]
 [2023-07-11 08:48:36] INFO root fetch - main [MainThread]: End processing [scml]: success
 [2023-07-11 08:48:36] INFO root fetch - main [MainThread]: Store serial: [18841634]
+[2023-07-11 08:53:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18841634]
+[2023-07-11 08:53:45] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-11 08:53:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wagtail-cjk404
+[2023-07-11 08:53:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jolli
+[2023-07-11 08:53:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ez-a-sync
+[2023-07-11 08:53:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gdal2numpy
+[2023-07-11 08:53:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pepperize.cdk-terraform-state-backend
+[2023-07-11 08:53:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ai2-kit
+[2023-07-11 08:53:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: insight-python-win
+[2023-07-11 08:53:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bluecast
+[2023-07-11 08:53:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: rio-cogeo
+[2023-07-11 08:53:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-07-11 08:53:46] INFO root fetch - processPackages [ez-a-sync]: New version: [0.6.1.dev9] Old Version: [0.6.1.dev7]
+[2023-07-11 08:53:46] INFO root fetch - processPackages [rio-cogeo]: New version: [4.0.0] Old Version: [3.5.2]
+[2023-07-11 08:53:46] INFO root fetch - processPackages [ai2-kit]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-11 08:53:46] INFO root fetch - processPackages [bluecast]: New version: [0.9] Old Version: [0.8]
+[2023-07-11 08:53:46] INFO root fetch - processPackages [jolli]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-11 08:53:46] INFO root fetch - processPackages [wagtail-cjk404]: New version: [23.7.1] Old Version: [22.11.1]
+[2023-07-11 08:53:46] INFO root fetch - processPackages [insight-python-win]: New version: [4.5.0] Old Version: [4.4.1]
+[2023-07-11 08:53:46] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-11 08:53:46] INFO root fetch - processPackages [gdal2numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-11 08:53:46] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-07-11 08:53:46] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/67/44/1dba32653c7525f0fbd8908ad6d202d1043a5fcb6cf364972a4c23bffeac/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz
+[2023-07-11 08:53:46] INFO root fetch - processPackages [jolli]: Downloading https://files.pythonhosted.org/packages/9c/bd/5c6b7a6d0bb90a088739be696b59da4a43849036767a6d83cffce83b9f19/jolli-0.0.3.tar.gz
+[2023-07-11 08:53:46] INFO root fetch - processPackages [ai2-kit]: Downloading https://files.pythonhosted.org/packages/eb/f4/ea38d8c9f78873edcbb17216f185baee2019ecb183cd80b334c593f2b1bc/ai2_kit-0.3.8.tar.gz
+[2023-07-11 08:53:46] INFO root fetch - processPackages [rio-cogeo]: Downloading https://files.pythonhosted.org/packages/e4/76/664ebd7d0567184eca36dfdf84014be1330c536cf350bbffa61fdbc1bfec/rio_cogeo-3.5.2.tar.gz
+[2023-07-11 08:53:46] INFO root fetch - processPackages [gdal2numpy]: Downloading https://files.pythonhosted.org/packages/8b/c7/c38f143f5db75454a9df08f7ff287cb3de46fb5f10139def0fcb92a15404/gdal2numpy-0.0.98.tar.gz
+[2023-07-11 08:53:46] INFO root fetch - processPackages [ez-a-sync]: Downloading https://files.pythonhosted.org/packages/ee/b7/5c07b4c4fa54d28b016c1b61072e160e24d4f241b2a87b602655d7dcd198/ez-a-sync-0.6.1.dev7.tar.gz
+[2023-07-11 08:53:46] INFO root fetch - processPackages [insight-python-win]: Downloading https://files.pythonhosted.org/packages/af/af/ea3eb1aad37e85c82d526006e5983f78268494f1642ecaf82da6f296c356/insight_python_win-4.4.1.tar.gz
+[2023-07-11 08:53:46] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/b5/4b/0742a4ab14bdc0e7e1a1efa5e089f45c05c18e939582e562ff5095837d67/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz
+[2023-07-11 08:53:46] INFO root fetch - processPackages [wagtail-cjk404]: Downloading https://files.pythonhosted.org/packages/e1/aa/ff171b1cd4a7633b663ad2b31f260b17514bbd7ac376ab275348a64dc90d/wagtail-cjk404-22.11.1.tar.gz
+[2023-07-11 08:53:46] WARNING root fetch - processPackages [insight-python-win]: Skipping package: exceeds size limit 18341609>=10485760
+[2023-07-11 08:53:46] INFO root fetch - processPackages [insight-python-win]: Start processing: pyhttpx
+[2023-07-11 08:53:46] INFO root fetch - main [MainThread]: End processing [insight-python-win] error
+[2023-07-11 08:53:46] INFO root fetch - processPackages [bluecast]: Downloading https://files.pythonhosted.org/packages/ec/3d/50055360ed61d23dcf174f7fce737def086bcd8b7ce250ec97745eb8d831/bluecast-0.8.tar.gz
+[2023-07-11 08:53:46] INFO root fetch - processPackages [pyhttpx]: New version: [2.10.9] Old Version: [2.10.8]
+[2023-07-11 08:53:46] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/49/e5/a2d418e8a59e46c739ecaa72adebcb65d676b8149513d576b8cd05d6324e/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz
+[2023-07-11 08:53:46] INFO root fetch - processPackages [ai2-kit]: Downloading https://files.pythonhosted.org/packages/f8/ec/3044fde579418570279eb9f4c2d60facdbd573ed724ec7fa07e3a4c940aa/ai2_kit-0.3.9.tar.gz
+[2023-07-11 08:53:46] INFO root fetch - processPackages [gdal2numpy]: Downloading https://files.pythonhosted.org/packages/67/ee/9c755bd5249fc9dc6a1dd773cb241c19b8df83a94fc0674017b57bd19e20/gdal2numpy-0.0.99.tar.gz
+[2023-07-11 08:53:46] INFO root fetch - processPackages [pyhttpx]: Downloading https://files.pythonhosted.org/packages/e8/7b/8f8de8c1845d046a8c6555caab2bab64211d8f348be59963d654c6028d42/pyhttpx-2.10.8.tar.gz
+[2023-07-11 08:53:46] INFO root fetch - processPackages [jolli]: Downloading https://files.pythonhosted.org/packages/52/35/fab4eae6b23550c2dceb663a94e216240d18d2550d4bd6f68c2f1ef815d4/jolli-0.0.4.tar.gz
+[2023-07-11 08:53:46] INFO root fetch - processPackages [ez-a-sync]: Downloading https://files.pythonhosted.org/packages/cc/4f/8c521a64a24a1bdf3eb9a9d1a36662b66f690a0513797ea66ea988b2c2fd/ez-a-sync-0.6.1.dev9.tar.gz
+[2023-07-11 08:53:46] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: executing diffoscope
+[2023-07-11 08:53:46] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz --markdown 20230711/p/pepperize.cdk-terraform-state-backend/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-11 08:53:47] INFO root fetch - processPackages [wagtail-cjk404]: Downloading https://files.pythonhosted.org/packages/5b/68/ce3b2133ca7304feca1088b2ee0e1050ed3de00783f7e3fbccc5187bec0c/wagtail-cjk404-23.7.1.tar.gz
+[2023-07-11 08:53:47] INFO root fetch - processPackages [ai2-kit]: executing diffoscope
+[2023-07-11 08:53:47] INFO root fetch - processPackages [ai2-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai2_kit-0.3.8.tar.gz tmp/ai2_kit-0.3.9.tar.gz --markdown 20230711/a/ai2-kit/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-11 08:53:47] INFO root fetch - processPackages [gdal2numpy]: executing diffoscope
+[2023-07-11 08:53:47] INFO root fetch - processPackages [gdal2numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdal2numpy-0.0.98.tar.gz tmp/gdal2numpy-0.0.99.tar.gz --markdown 20230711/g/gdal2numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-11 08:53:47] INFO root fetch - processPackages [jolli]: executing diffoscope
+[2023-07-11 08:53:47] INFO root fetch - processPackages [jolli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jolli-0.0.3.tar.gz tmp/jolli-0.0.4.tar.gz --markdown 20230711/j/jolli/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-11 08:53:47] INFO root fetch - processPackages [ez-a-sync]: executing diffoscope
+[2023-07-11 08:53:47] INFO root fetch - processPackages [ez-a-sync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ez-a-sync-0.6.1.dev7.tar.gz tmp/ez-a-sync-0.6.1.dev9.tar.gz --markdown 20230711/e/ez-a-sync/0.6.1.dev7-0.6.1.dev9/diff.md --exclude *.pyd
+[2023-07-11 08:53:47] INFO root fetch - processPackages [rio-cogeo]: Downloading https://files.pythonhosted.org/packages/13/e0/c050dfeb342248d1f137a856eca12955bffe0cd3536133cfd5b78b1a3735/rio_cogeo-4.0.0.tar.gz
+[2023-07-11 08:53:47] INFO root fetch - processPackages [wagtail-cjk404]: executing diffoscope
+[2023-07-11 08:53:47] INFO root fetch - processPackages [wagtail-cjk404]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtail-cjk404-22.11.1.tar.gz tmp/wagtail-cjk404-23.7.1.tar.gz --markdown 20230711/w/wagtail-cjk404/22.11.1-23.7.1/diff.md --exclude *.pyd
+[2023-07-11 08:53:47] INFO root fetch - processPackages [pyhttpx]: Downloading https://files.pythonhosted.org/packages/42/27/1c53acb55e76b786991c330e65d19e810d5b3acc2029a35f603b63a14b7c/pyhttpx-2.10.9.tar.gz
+[2023-07-11 08:53:47] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/c7/46/0f42bc025c61bcf7528be4662164372850647ddcc00ec2a211a0b9e071cc/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz
+[2023-07-11 08:53:47] INFO root fetch - processPackages [bluecast]: Downloading https://files.pythonhosted.org/packages/4c/dd/ff7880db0e7fc26a888065b8f429a2bddace77a3ea05a72224e8a4f90fb4/bluecast-0.9.tar.gz
+[2023-07-11 08:53:47] INFO root fetch - processPackages [rio-cogeo]: executing diffoscope
+[2023-07-11 08:53:47] INFO root fetch - processPackages [rio-cogeo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rio_cogeo-3.5.2.tar.gz tmp/rio_cogeo-4.0.0.tar.gz --markdown 20230711/r/rio-cogeo/3.5.2-4.0.0/diff.md --exclude *.pyd
+[2023-07-11 08:53:47] INFO root fetch - processPackages [pyhttpx]: executing diffoscope
+[2023-07-11 08:53:47] INFO root fetch - processPackages [pyhttpx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhttpx-2.10.8.tar.gz tmp/pyhttpx-2.10.9.tar.gz --markdown 20230711/p/pyhttpx/2.10.8-2.10.9/diff.md --exclude *.pyd
+[2023-07-11 08:53:47] INFO root fetch - processPackages [bluecast]: executing diffoscope
+[2023-07-11 08:53:47] INFO root fetch - processPackages [bluecast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bluecast-0.8.tar.gz tmp/bluecast-0.9.tar.gz --markdown 20230711/b/bluecast/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-11 08:53:47] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-07-11 08:53:47] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230711/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-07-11 08:53:49] INFO root fetch - processPackages [gdal2numpy]: Remove: archive file [/home/abi/fetcher/tmp/gdal2numpy-0.0.98.tar.gz]
+[2023-07-11 08:53:49] INFO root fetch - processPackages [gdal2numpy]: Remove: archive file [/home/abi/fetcher/tmp/gdal2numpy-0.0.99.tar.gz]
+[2023-07-11 08:53:49] INFO root fetch - main [MainThread]: End processing [gdal2numpy]: success
+[2023-07-11 08:53:49] INFO root fetch - processPackages [jolli]: Remove: archive file [/home/abi/fetcher/tmp/jolli-0.0.3.tar.gz]
+[2023-07-11 08:53:49] INFO root fetch - processPackages [jolli]: Remove: archive file [/home/abi/fetcher/tmp/jolli-0.0.4.tar.gz]
+[2023-07-11 08:53:49] INFO root fetch - main [MainThread]: End processing [jolli]: success
+[2023-07-11 08:53:49] INFO root fetch - processPackages [ai2-kit]: Remove: archive file [/home/abi/fetcher/tmp/ai2_kit-0.3.8.tar.gz]
+[2023-07-11 08:53:49] INFO root fetch - processPackages [ai2-kit]: Remove: archive file [/home/abi/fetcher/tmp/ai2_kit-0.3.9.tar.gz]
+[2023-07-11 08:53:49] INFO root fetch - main [MainThread]: End processing [ai2-kit]: success
+[2023-07-11 08:53:49] INFO root fetch - processPackages [ez-a-sync]: Remove: archive file [/home/abi/fetcher/tmp/ez-a-sync-0.6.1.dev7.tar.gz]
+[2023-07-11 08:53:49] INFO root fetch - processPackages [ez-a-sync]: Remove: archive file [/home/abi/fetcher/tmp/ez-a-sync-0.6.1.dev9.tar.gz]
+[2023-07-11 08:53:49] INFO root fetch - main [MainThread]: End processing [ez-a-sync]: success
+[2023-07-11 08:53:49] INFO root fetch - processPackages [wagtail-cjk404]: Remove: archive file [/home/abi/fetcher/tmp/wagtail-cjk404-22.11.1.tar.gz]
+[2023-07-11 08:53:49] INFO root fetch - processPackages [wagtail-cjk404]: Remove: archive file [/home/abi/fetcher/tmp/wagtail-cjk404-23.7.1.tar.gz]
+[2023-07-11 08:53:49] INFO root fetch - main [MainThread]: End processing [wagtail-cjk404]: success
+[2023-07-11 08:53:49] INFO root fetch - processPackages [rio-cogeo]: Remove: archive file [/home/abi/fetcher/tmp/rio_cogeo-3.5.2.tar.gz]
+[2023-07-11 08:53:49] INFO root fetch - processPackages [rio-cogeo]: Remove: archive file [/home/abi/fetcher/tmp/rio_cogeo-4.0.0.tar.gz]
+[2023-07-11 08:53:49] INFO root fetch - main [MainThread]: End processing [rio-cogeo]: success
+[2023-07-11 08:53:49] INFO root fetch - processPackages [pyhttpx]: Remove: archive file [/home/abi/fetcher/tmp/pyhttpx-2.10.8.tar.gz]
+[2023-07-11 08:53:49] INFO root fetch - processPackages [pyhttpx]: Remove: archive file [/home/abi/fetcher/tmp/pyhttpx-2.10.9.tar.gz]
+[2023-07-11 08:53:49] INFO root fetch - main [MainThread]: End processing [pyhttpx]: success
+[2023-07-11 08:53:49] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz]
+[2023-07-11 08:53:49] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz]
+[2023-07-11 08:53:49] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-07-11 08:53:49] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz]
+[2023-07-11 08:53:49] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz]
+[2023-07-11 08:53:49] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-terraform-state-backend]: success
+[2023-07-11 08:53:50] INFO root fetch - processPackages [bluecast]: Remove: archive file [/home/abi/fetcher/tmp/bluecast-0.8.tar.gz]
+[2023-07-11 08:53:50] INFO root fetch - processPackages [bluecast]: Remove: archive file [/home/abi/fetcher/tmp/bluecast-0.9.tar.gz]
+[2023-07-11 08:53:50] INFO root fetch - main [MainThread]: End processing [bluecast]: success
+[2023-07-11 08:53:50] INFO root fetch - main [MainThread]: Store serial: [18841665]
