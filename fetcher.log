@@ -8882,3 +8882,55 @@ AssertionError: tmp/doctran-0.0.6.tar.gz does not exist
 [2023-07-11 05:39:26] INFO root fetch - processPackages [usda]: Remove: archive file [/home/abi/fetcher/tmp/usda-0.0.24.tar.gz]
 [2023-07-11 05:39:26] INFO root fetch - main [MainThread]: End processing [usda]: success
 [2023-07-11 05:39:26] INFO root fetch - main [MainThread]: Store serial: [18840545]
+[2023-07-11 05:44:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18840545]
+[2023-07-11 05:44:35] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-11 05:44:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sysml2py
+[2023-07-11 05:44:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: open-gpt-torch
+[2023-07-11 05:44:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tifffile
+[2023-07-11 05:44:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: imagecodecs
+[2023-07-11 05:44:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zfl-ai
+[2023-07-11 05:44:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hisv
+[2023-07-11 05:44:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: zit
+[2023-07-11 05:44:35] INFO root fetch - processPackages [tifffile]: New version: [2023.7.4] Old Version: [2023.7.10]
+[2023-07-11 05:44:35] INFO root fetch - processPackages [sysml2py]: New version: [0.3.1] Old Version: [0.2.5]
+[2023-07-11 05:44:35] INFO root fetch - processPackages [zit]: New version: [0.0.3a0] Old Version: [0.0.2a9]
+[2023-07-11 05:44:35] INFO root fetch - processPackages [zfl-ai]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-11 05:44:35] INFO root fetch - processPackages [open-gpt-torch]: New version: [0.0.9.dev2] Old Version: [0.0.9.dev1]
+[2023-07-11 05:44:35] INFO root fetch - processPackages [imagecodecs]: New version: [2023.7.4] Old Version: [2023.7.10]
+[2023-07-11 05:44:35] WARNING root fetch - processPackages [hisv]: Skipping, unable to determine old version
+[2023-07-11 05:44:35] INFO root fetch - main [MainThread]: End processing [hisv] error
+[2023-07-11 05:44:35] INFO root fetch - processPackages [zit]: Downloading https://files.pythonhosted.org/packages/a4/82/8acbbc7fb714d5fa1967462dcfd7ed8517c4d85f00ac7d63188980ac02a3/zit-0.0.2a9.tar.gz
+[2023-07-11 05:44:36] INFO root fetch - processPackages [zfl-ai]: Downloading https://files.pythonhosted.org/packages/b5/a4/14a900209133a88d3b623f0aabdfdffd8b9c88d7867c4ee97768110c2301/zfl_ai-0.0.1.tar.gz
+[2023-07-11 05:44:36] INFO root fetch - processPackages [tifffile]: Downloading https://files.pythonhosted.org/packages/43/22/4d19feaba862f06f6392499d5617f96b0d8eb9a876e33e9b6aab292b88f2/tifffile-2023.7.10.tar.gz
+[2023-07-11 05:44:36] INFO root fetch - processPackages [open-gpt-torch]: Downloading https://files.pythonhosted.org/packages/26/81/fbe34f4ba5ac8fe314218f19136de0fb5155cfb04f58ec35a16bfc756c1a/open-gpt-torch-0.0.9.dev1.tar.gz
+[2023-07-11 05:44:36] WARNING root fetch - processPackages [zfl-ai]: Skipping package: exceeds size limit 30239880>=10485760
+[2023-07-11 05:44:36] INFO root fetch - main [MainThread]: End processing [zfl-ai] error
+[2023-07-11 05:44:36] INFO root fetch - processPackages [sysml2py]: Downloading https://files.pythonhosted.org/packages/c6/15/f1140f9fdac275d017eb7ef148b2a68c612f347554d4f1bc5a93b912af2e/sysml2py-0.2.5.tar.gz
+[2023-07-11 05:44:36] INFO root fetch - processPackages [imagecodecs]: Downloading https://files.pythonhosted.org/packages/ba/b4/a00e3231619d7b94893902e781440eeffa351349d4db325ef096953959ca/imagecodecs-2023.7.10-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-11 05:44:36] INFO root fetch - processPackages [zit]: Downloading https://files.pythonhosted.org/packages/42/7b/66f23d7292ff4c25ecd96e4ad34c2996bf95d5b6693f5249fee6d8cc7c9a/zit-0.0.3a0.tar.gz
+[2023-07-11 05:44:36] INFO root fetch - processPackages [zit]: executing diffoscope
+[2023-07-11 05:44:36] INFO root fetch - processPackages [zit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zit-0.0.2a9.tar.gz tmp/zit-0.0.3a0.tar.gz --markdown 20230711/z/zit/0.0.2a9-0.0.3a0/diff.md --exclude *.pyd
+[2023-07-11 05:44:36] WARNING root fetch - processPackages [imagecodecs]: Skipping package: exceeds size limit 34418143>=10485760
+[2023-07-11 05:44:36] INFO root fetch - main [MainThread]: End processing [imagecodecs] error
+[2023-07-11 05:44:36] INFO root fetch - processPackages [open-gpt-torch]: Downloading https://files.pythonhosted.org/packages/f2/39/4e48e66313b5aca4a636946a7f31cfdc9bc2b1b43c35fe150b8f915b85ea/open-gpt-torch-0.0.9.dev2.tar.gz
+[2023-07-11 05:44:36] INFO root fetch - processPackages [open-gpt-torch]: executing diffoscope
+[2023-07-11 05:44:36] INFO root fetch - processPackages [open-gpt-torch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open-gpt-torch-0.0.9.dev1.tar.gz tmp/open-gpt-torch-0.0.9.dev2.tar.gz --markdown 20230711/o/open-gpt-torch/0.0.9.dev1-0.0.9.dev2/diff.md --exclude *.pyd
+[2023-07-11 05:44:36] INFO root fetch - processPackages [tifffile]: Downloading https://files.pythonhosted.org/packages/a4/86/564cf8e5e773a7f747ba79a6b40eed678e6e919a48f4b09d0c28444c36aa/tifffile-2023.7.4.tar.gz
+[2023-07-11 05:44:36] INFO root fetch - processPackages [tifffile]: executing diffoscope
+[2023-07-11 05:44:36] INFO root fetch - processPackages [tifffile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tifffile-2023.7.10.tar.gz tmp/tifffile-2023.7.4.tar.gz --markdown 20230711/t/tifffile/2023.7.10-2023.7.4/diff.md --exclude *.pyd
+[2023-07-11 05:44:36] INFO root fetch - processPackages [sysml2py]: Downloading https://files.pythonhosted.org/packages/00/53/921c522b54cac5cc207ed276997fc1c31c77ad529bbdcf0694ae4a2b1864/sysml2py-0.3.1.tar.gz
+[2023-07-11 05:44:36] INFO root fetch - processPackages [sysml2py]: executing diffoscope
+[2023-07-11 05:44:36] INFO root fetch - processPackages [sysml2py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sysml2py-0.2.5.tar.gz tmp/sysml2py-0.3.1.tar.gz --markdown 20230711/s/sysml2py/0.2.5-0.3.1/diff.md --exclude *.pyd
+[2023-07-11 05:44:37] INFO root fetch - processPackages [zit]: Remove: archive file [/home/abi/fetcher/tmp/zit-0.0.2a9.tar.gz]
+[2023-07-11 05:44:37] INFO root fetch - processPackages [zit]: Remove: archive file [/home/abi/fetcher/tmp/zit-0.0.3a0.tar.gz]
+[2023-07-11 05:44:37] INFO root fetch - main [MainThread]: End processing [zit]: success
+[2023-07-11 05:44:37] INFO root fetch - processPackages [open-gpt-torch]: Remove: archive file [/home/abi/fetcher/tmp/open-gpt-torch-0.0.9.dev1.tar.gz]
+[2023-07-11 05:44:37] INFO root fetch - processPackages [open-gpt-torch]: Remove: archive file [/home/abi/fetcher/tmp/open-gpt-torch-0.0.9.dev2.tar.gz]
+[2023-07-11 05:44:37] INFO root fetch - main [MainThread]: End processing [open-gpt-torch]: success
+[2023-07-11 05:44:37] INFO root fetch - processPackages [sysml2py]: Remove: archive file [/home/abi/fetcher/tmp/sysml2py-0.2.5.tar.gz]
+[2023-07-11 05:44:37] INFO root fetch - processPackages [sysml2py]: Remove: archive file [/home/abi/fetcher/tmp/sysml2py-0.3.1.tar.gz]
+[2023-07-11 05:44:37] INFO root fetch - main [MainThread]: End processing [sysml2py]: success
+[2023-07-11 05:44:38] INFO root fetch - processPackages [tifffile]: Remove: archive file [/home/abi/fetcher/tmp/tifffile-2023.7.10.tar.gz]
+[2023-07-11 05:44:38] INFO root fetch - processPackages [tifffile]: Remove: archive file [/home/abi/fetcher/tmp/tifffile-2023.7.4.tar.gz]
+[2023-07-11 05:44:38] INFO root fetch - main [MainThread]: End processing [tifffile]: success
+[2023-07-11 05:44:38] INFO root fetch - main [MainThread]: Store serial: [18840570]
