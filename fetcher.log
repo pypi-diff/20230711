@@ -11309,3 +11309,62 @@ AssertionError: tmp/doctran-0.0.6.tar.gz does not exist
 [2023-07-11 08:38:10] INFO root fetch - processPackages [grokcore.site]: Remove: archive file [/home/abi/fetcher/tmp/grokcore.site-4.0.tar.gz]
 [2023-07-11 08:38:10] INFO root fetch - main [MainThread]: End processing [grokcore.site]: success
 [2023-07-11 08:38:10] INFO root fetch - main [MainThread]: Store serial: [18841577]
+[2023-07-11 08:43:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18841577]
+[2023-07-11 08:43:20] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-11 08:43:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zensvi
+[2023-07-11 08:43:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mpservice
+[2023-07-11 08:43:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nautobot-floor-plan
+[2023-07-11 08:43:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: scml-agents
+[2023-07-11 08:43:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: autoevals
+[2023-07-11 08:43:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-07-11 08:43:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ndp-app-versioncontrol
+[2023-07-11 08:43:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: TMFuncs
+[2023-07-11 08:43:20] ERROR root fetch - processPackages [nautobot-floor-plan]: Unable to get metadata: No such project 'nautobot-floor-plan'
+[2023-07-11 08:43:20] INFO root fetch - main [MainThread]: End processing [nautobot-floor-plan] error
+[2023-07-11 08:43:20] INFO root fetch - processPackages [zensvi]: New version: [0.6.4] Old Version: [0.6.3]
+[2023-07-11 08:43:20] INFO root fetch - processPackages [autoevals]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-11 08:43:20] INFO root fetch - processPackages [scml-agents]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-07-11 08:43:20] INFO root fetch - processPackages [mpservice]: New version: [0.9.9.post1] Old Version: [0.9.9]
+[2023-07-11 08:43:20] WARNING root fetch - processPackages [ndp-app-versioncontrol]: Skipping, unable to determine old version
+[2023-07-11 08:43:20] INFO root fetch - main [MainThread]: End processing [ndp-app-versioncontrol] error
+[2023-07-11 08:43:20] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-07-11 08:43:20] INFO root fetch - processPackages [TMFuncs]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-11 08:43:20] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/b5/4b/0742a4ab14bdc0e7e1a1efa5e089f45c05c18e939582e562ff5095837d67/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz
+[2023-07-11 08:43:20] INFO root fetch - processPackages [scml-agents]: Downloading https://files.pythonhosted.org/packages/67/0f/e2b25c4fd5ac05f4532d5ce6e2e29e2145588904c60a2e7c8155a1c583db/scml-agents-0.4.1.tar.gz
+[2023-07-11 08:43:20] INFO root fetch - processPackages [autoevals]: Downloading https://files.pythonhosted.org/packages/e1/fd/f05ec657771ea8722de7db9138c0cb8ac94f25398646299c83a884f84280/autoevals-0.0.1.tar.gz
+[2023-07-11 08:43:20] INFO root fetch - processPackages [zensvi]: Downloading https://files.pythonhosted.org/packages/b1/16/6d1ec8f241f34a727e2a85e64195f766b232ddf058ba2bf69c454e00128a/zensvi-0.6.3.tar.gz
+[2023-07-11 08:43:20] WARNING root fetch - processPackages [scml-agents]: Skipping package: exceeds size limit 30821991>=10485760
+[2023-07-11 08:43:20] INFO root fetch - main [MainThread]: End processing [scml-agents] error
+[2023-07-11 08:43:20] INFO root fetch - processPackages [mpservice]: Downloading https://files.pythonhosted.org/packages/a4/76/0caf3e54fc1b0c685c01abdb7deb283a4e0ab62467df218edf79256efe6d/mpservice-0.9.9.tar.gz
+[2023-07-11 08:43:20] INFO root fetch - processPackages [TMFuncs]: Downloading https://files.pythonhosted.org/packages/a9/75/8c5a895417628aacc8488d59f74fc29bb830b7d17aa7fcd10576b53bd623/TMFuncs-0.0.8.tar.gz
+[2023-07-11 08:43:20] INFO root fetch - processPackages [autoevals]: Downloading https://files.pythonhosted.org/packages/b5/9e/90b2882c75853e60a7d695dde8d1466be8a8faf4892eaa54753bf652b06e/autoevals-0.0.2.tar.gz
+[2023-07-11 08:43:21] INFO root fetch - processPackages [zensvi]: Downloading https://files.pythonhosted.org/packages/cc/85/def76859fde664145c24754259cec2fd0825e7f781a76ea933b9e8738062/zensvi-0.6.4.tar.gz
+[2023-07-11 08:43:21] INFO root fetch - processPackages [mpservice]: Downloading https://files.pythonhosted.org/packages/62/83/992eb812676a1d5b8ffbc5c9ba7e1bd57f82c86ae5c8a0e509834c8df031/mpservice-0.9.9.post1.tar.gz
+[2023-07-11 08:43:21] INFO root fetch - processPackages [TMFuncs]: Downloading https://files.pythonhosted.org/packages/f5/9a/2ea7461f34a997b20aad63036088735ef6af7d88d3af5ad34c312cfb9c21/TMFuncs-0.0.9.tar.gz
+[2023-07-11 08:43:21] INFO root fetch - processPackages [autoevals]: executing diffoscope
+[2023-07-11 08:43:21] INFO root fetch - processPackages [autoevals]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autoevals-0.0.1.tar.gz tmp/autoevals-0.0.2.tar.gz --markdown 20230711/a/autoevals/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-11 08:43:21] INFO root fetch - processPackages [zensvi]: executing diffoscope
+[2023-07-11 08:43:21] INFO root fetch - processPackages [zensvi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zensvi-0.6.3.tar.gz tmp/zensvi-0.6.4.tar.gz --markdown 20230711/z/zensvi/0.6.3-0.6.4/diff.md --exclude *.pyd
+[2023-07-11 08:43:21] INFO root fetch - processPackages [mpservice]: executing diffoscope
+[2023-07-11 08:43:21] INFO root fetch - processPackages [mpservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpservice-0.9.9.tar.gz tmp/mpservice-0.9.9.post1.tar.gz --markdown 20230711/m/mpservice/0.9.9-0.9.9.post1/diff.md --exclude *.pyd
+[2023-07-11 08:43:21] INFO root fetch - processPackages [TMFuncs]: executing diffoscope
+[2023-07-11 08:43:21] INFO root fetch - processPackages [TMFuncs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TMFuncs-0.0.8.tar.gz tmp/TMFuncs-0.0.9.tar.gz --markdown 20230711/T/TMFuncs/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-11 08:43:21] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/c7/46/0f42bc025c61bcf7528be4662164372850647ddcc00ec2a211a0b9e071cc/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz
+[2023-07-11 08:43:22] INFO root fetch - processPackages [autoevals]: Remove: archive file [/home/abi/fetcher/tmp/autoevals-0.0.1.tar.gz]
+[2023-07-11 08:43:22] INFO root fetch - processPackages [autoevals]: Remove: archive file [/home/abi/fetcher/tmp/autoevals-0.0.2.tar.gz]
+[2023-07-11 08:43:22] INFO root fetch - main [MainThread]: End processing [autoevals]: success
+[2023-07-11 08:43:22] INFO root fetch - processPackages [TMFuncs]: Remove: archive file [/home/abi/fetcher/tmp/TMFuncs-0.0.8.tar.gz]
+[2023-07-11 08:43:22] INFO root fetch - processPackages [TMFuncs]: Remove: archive file [/home/abi/fetcher/tmp/TMFuncs-0.0.9.tar.gz]
+[2023-07-11 08:43:22] INFO root fetch - main [MainThread]: End processing [TMFuncs]: success
+[2023-07-11 08:43:22] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-07-11 08:43:22] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230711/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-07-11 08:43:22] INFO root fetch - processPackages [zensvi]: Remove: archive file [/home/abi/fetcher/tmp/zensvi-0.6.3.tar.gz]
+[2023-07-11 08:43:22] INFO root fetch - processPackages [zensvi]: Remove: archive file [/home/abi/fetcher/tmp/zensvi-0.6.4.tar.gz]
+[2023-07-11 08:43:22] INFO root fetch - main [MainThread]: End processing [zensvi]: success
+[2023-07-11 08:43:22] INFO root fetch - processPackages [mpservice]: Remove: archive file [/home/abi/fetcher/tmp/mpservice-0.9.9.tar.gz]
+[2023-07-11 08:43:22] INFO root fetch - processPackages [mpservice]: Remove: archive file [/home/abi/fetcher/tmp/mpservice-0.9.9.post1.tar.gz]
+[2023-07-11 08:43:22] INFO root fetch - main [MainThread]: End processing [mpservice]: success
+[2023-07-11 08:43:23] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz]
+[2023-07-11 08:43:23] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz]
+[2023-07-11 08:43:23] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-07-11 08:43:23] INFO root fetch - main [MainThread]: Store serial: [18841612]
