@@ -10491,3 +10491,47 @@ AssertionError: tmp/doctran-0.0.6.tar.gz does not exist
 [2023-07-11 07:40:35] INFO root fetch - processPackages [clickzetta-sqlalchemy]: Remove: archive file [/home/abi/fetcher/tmp/clickzetta-sqlalchemy-0.8.9.tar.gz]
 [2023-07-11 07:40:35] INFO root fetch - main [MainThread]: End processing [clickzetta-sqlalchemy]: success
 [2023-07-11 07:40:35] INFO root fetch - main [MainThread]: Store serial: [18841177]
+[2023-07-11 07:45:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18841177]
+[2023-07-11 07:45:45] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-11 07:45:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyVoIP
+[2023-07-11 07:45:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: arxiv
+[2023-07-11 07:45:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: layerx-sdk-beta
+[2023-07-11 07:45:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-autoutils
+[2023-07-11 07:45:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: scml-agents
+[2023-07-11 07:45:45] INFO root fetch - processPackages [django-autoutils]: New version: [1.4.0] Old Version: [1.3.2]
+[2023-07-11 07:45:45] INFO root fetch - processPackages [scml-agents]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-07-11 07:45:45] INFO root fetch - processPackages [arxiv]: New version: [1.4.8] Old Version: [1.4.7]
+[2023-07-11 07:45:45] INFO root fetch - processPackages [pyVoIP]: New version: [1.6.5rc1] Old Version: [1.6.5]
+[2023-07-11 07:45:45] INFO root fetch - processPackages [layerx-sdk-beta]: New version: [1.0.9b2] Old Version: [1.0.9b1]
+[2023-07-11 07:45:45] INFO root fetch - processPackages [layerx-sdk-beta]: Downloading https://files.pythonhosted.org/packages/82/30/49db849a17663ef31174e31654b943efd6d652d8fead1d082f103f9ab59e/layerx-sdk-beta-1.0.9b1.tar.gz
+[2023-07-11 07:45:45] INFO root fetch - processPackages [arxiv]: Downloading https://files.pythonhosted.org/packages/c7/25/8465d0e43bdf6295c99ece75d04246d0967cac934a9a22e5f3553e058e0f/arxiv-1.4.7.tar.gz
+[2023-07-11 07:45:45] INFO root fetch - processPackages [pyVoIP]: Downloading https://files.pythonhosted.org/packages/98/0e/be9b79dc91c65cdc9a86d8dd4db5e14c4ba930531c6be7d58fbdb3871a54/pyVoIP-1.6.5.tar.gz
+[2023-07-11 07:45:45] INFO root fetch - processPackages [django-autoutils]: Downloading https://files.pythonhosted.org/packages/0a/8e/59e532613e4717c99fadaa183b1e9ea4eebd6f3b55e45304e6866a77173a/django_autoutils-1.3.2.tar.gz
+[2023-07-11 07:45:45] INFO root fetch - processPackages [scml-agents]: Downloading https://files.pythonhosted.org/packages/bc/fb/80943a2e25cd9b4d1afd75d16548c85d687925ee2d92eb1f7f2e31991cc9/scml-agents-0.4.0.tar.gz
+[2023-07-11 07:45:45] INFO root fetch - processPackages [layerx-sdk-beta]: Downloading https://files.pythonhosted.org/packages/80/17/9c39f674089d0687a6ebb4bb5cb263194817e74bbf02632c5b1f95ed63ed/layerx-sdk-beta-1.0.9b2.tar.gz
+[2023-07-11 07:45:45] WARNING root fetch - processPackages [scml-agents]: Skipping package: exceeds size limit 30825047>=10485760
+[2023-07-11 07:45:45] INFO root fetch - main [MainThread]: End processing [scml-agents] error
+[2023-07-11 07:45:45] INFO root fetch - processPackages [layerx-sdk-beta]: executing diffoscope
+[2023-07-11 07:45:45] INFO root fetch - processPackages [layerx-sdk-beta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/layerx-sdk-beta-1.0.9b1.tar.gz tmp/layerx-sdk-beta-1.0.9b2.tar.gz --markdown 20230711/l/layerx-sdk-beta/1.0.9b1-1.0.9b2/diff.md --exclude *.pyd
+[2023-07-11 07:45:45] INFO root fetch - processPackages [pyVoIP]: Downloading https://files.pythonhosted.org/packages/ab/d0/3fd36834db477ab78d451c0c6f87d534f4ba28a2c931844c943c5b0eb156/pyVoIP-1.6.5rc1.tar.gz
+[2023-07-11 07:45:45] INFO root fetch - processPackages [arxiv]: Downloading https://files.pythonhosted.org/packages/64/f7/33f30d9d1fc9e1396fedf909d7151155f6c2abbd51fe78398ae880daae9a/arxiv-1.4.8.tar.gz
+[2023-07-11 07:45:45] INFO root fetch - processPackages [django-autoutils]: Downloading https://files.pythonhosted.org/packages/51/24/d8626a850bc83b53713173e9b5434e158860561f0371608fee115be3fdbd/django_autoutils-1.4.0-py3-none-any.whl
+[2023-07-11 07:45:46] INFO root fetch - processPackages [arxiv]: executing diffoscope
+[2023-07-11 07:45:46] INFO root fetch - processPackages [arxiv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arxiv-1.4.7.tar.gz tmp/arxiv-1.4.8.tar.gz --markdown 20230711/a/arxiv/1.4.7-1.4.8/diff.md --exclude *.pyd
+[2023-07-11 07:45:46] INFO root fetch - processPackages [django-autoutils]: executing diffoscope
+[2023-07-11 07:45:46] INFO root fetch - processPackages [django-autoutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_autoutils-1.3.2.tar.gz tmp/django_autoutils-1.4.0-py3-none-any.whl.zip --markdown 20230711/d/django-autoutils/1.3.2-1.4.0/diff.md --exclude *.pyd
+[2023-07-11 07:45:46] INFO root fetch - processPackages [pyVoIP]: executing diffoscope
+[2023-07-11 07:45:46] INFO root fetch - processPackages [pyVoIP]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyVoIP-1.6.5.tar.gz tmp/pyVoIP-1.6.5rc1.tar.gz --markdown 20230711/p/pyVoIP/1.6.5-1.6.5rc1/diff.md --exclude *.pyd
+[2023-07-11 07:45:46] INFO root fetch - processPackages [django-autoutils]: Remove: archive file [/home/abi/fetcher/tmp/django_autoutils-1.3.2.tar.gz]
+[2023-07-11 07:45:46] INFO root fetch - processPackages [django-autoutils]: Remove: archive file [/home/abi/fetcher/tmp/django_autoutils-1.4.0-py3-none-any.whl.zip]
+[2023-07-11 07:45:46] INFO root fetch - main [MainThread]: End processing [django-autoutils]: success
+[2023-07-11 07:45:46] INFO root fetch - processPackages [layerx-sdk-beta]: Remove: archive file [/home/abi/fetcher/tmp/layerx-sdk-beta-1.0.9b1.tar.gz]
+[2023-07-11 07:45:46] INFO root fetch - processPackages [layerx-sdk-beta]: Remove: archive file [/home/abi/fetcher/tmp/layerx-sdk-beta-1.0.9b2.tar.gz]
+[2023-07-11 07:45:46] INFO root fetch - main [MainThread]: End processing [layerx-sdk-beta]: success
+[2023-07-11 07:45:46] INFO root fetch - processPackages [arxiv]: Remove: archive file [/home/abi/fetcher/tmp/arxiv-1.4.7.tar.gz]
+[2023-07-11 07:45:46] INFO root fetch - processPackages [arxiv]: Remove: archive file [/home/abi/fetcher/tmp/arxiv-1.4.8.tar.gz]
+[2023-07-11 07:45:46] INFO root fetch - main [MainThread]: End processing [arxiv]: success
+[2023-07-11 07:45:46] INFO root fetch - processPackages [pyVoIP]: Remove: archive file [/home/abi/fetcher/tmp/pyVoIP-1.6.5.tar.gz]
+[2023-07-11 07:45:46] INFO root fetch - processPackages [pyVoIP]: Remove: archive file [/home/abi/fetcher/tmp/pyVoIP-1.6.5rc1.tar.gz]
+[2023-07-11 07:45:46] INFO root fetch - main [MainThread]: End processing [pyVoIP]: success
+[2023-07-11 07:45:46] INFO root fetch - main [MainThread]: Store serial: [18841192]
