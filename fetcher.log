@@ -9276,3 +9276,155 @@ AssertionError: tmp/doctran-0.0.6.tar.gz does not exist
 [2023-07-11 06:11:08] INFO root fetch - processPackages [odoo-addon-mgmtsystem]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mgmtsystem-16.0.1.0.0.5-py3-none-any.whl.zip]
 [2023-07-11 06:11:08] INFO root fetch - main [MainThread]: End processing [odoo-addon-mgmtsystem]: success
 [2023-07-11 06:11:08] INFO root fetch - main [MainThread]: Store serial: [18840748]
+[2023-07-11 06:16:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18840748]
+[2023-07-11 06:16:18] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-11 06:16:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pydflow
+[2023-07-11 06:16:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: MetaCalls
+[2023-07-11 06:16:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-mgmtsystem
+[2023-07-11 06:16:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: limeutils
+[2023-07-11 06:16:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyl3dmd
+[2023-07-11 06:16:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo12-addon-mrp-request-workcenter-cycle
+[2023-07-11 06:16:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gameTheory
+[2023-07-11 06:16:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mcemtools
+[2023-07-11 06:16:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: py4web
+[2023-07-11 06:16:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-mrp-warehouse-calendar
+[2023-07-11 06:16:18] INFO root fetch - processPackages [MetaCalls]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-11 06:16:18] INFO root fetch - processPackages [pydflow]: New version: [1.7.9] Old Version: [1.7.8]
+[2023-07-11 06:16:18] INFO root fetch - processPackages [pyl3dmd]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-11 06:16:18] INFO root fetch - processPackages [odoo-addon-mgmtsystem]: New version: [16.0.1.0.0.6] Old Version: [16.0.1.0.0.5]
+[2023-07-11 06:16:18] INFO root fetch - processPackages [py4web]: New version: [1.20230710.3] Old Version: [1.20230710.1]
+[2023-07-11 06:16:18] INFO root fetch - processPackages [odoo12-addon-mrp-request-workcenter-cycle]: New version: [12.0.1.0.1.99.dev3] Old Version: [12.0.1.0.1.99.dev2]
+[2023-07-11 06:16:18] INFO root fetch - processPackages [mcemtools]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-11 06:16:18] INFO root fetch - processPackages [limeutils]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-11 06:16:18] INFO root fetch - processPackages [odoo-addon-mrp-warehouse-calendar]: New version: [16.0.1.0.0.6] Old Version: [16.0.1.0.0.4]
+[2023-07-11 06:16:18] INFO root fetch - processPackages [gameTheory]: New version: [0.0.9.dev0] Old Version: [0.0.4]
+[2023-07-11 06:16:18] INFO root fetch - processPackages [mcemtools]: Downloading https://files.pythonhosted.org/packages/60/e4/2ecd0bcf60e7bf1ceda31d918ca6a47a08ab50450d09a37c498373ec4914/mcemtools-0.2.0.tar.gz
+[2023-07-11 06:16:18] INFO root fetch - processPackages [limeutils]: Downloading https://files.pythonhosted.org/packages/65/cc/4a1595891c809ee04a180174c0dffb51f67648bbb9c342e008e1b42bef56/limeutils-0.2.8.tar.gz
+[2023-07-11 06:16:18] INFO root fetch - processPackages [gameTheory]: Downloading https://files.pythonhosted.org/packages/fb/fa/36521913efde8f029c5bd764aa1e45e9073c96cb7cda27f075cb71a44ca5/gameTheory-0.0.4.tar.gz
+[2023-07-11 06:16:18] INFO root fetch - processPackages [MetaCalls]: Downloading https://files.pythonhosted.org/packages/4e/b5/daa92da4c54afe467cb91dc001557bc3d39d53949a275156f65a460b752f/MetaCalls-0.0.4-cp311-cp311-win_amd64.whl
+[2023-07-11 06:16:18] INFO root fetch - processPackages [pyl3dmd]: Downloading https://files.pythonhosted.org/packages/3a/08/cdcccc6f009455c67fd2e158b76969c152cd3468af9f12277ee5fd073210/pyl3dmd-0.1.0.tar.gz
+[2023-07-11 06:16:18] INFO root fetch - processPackages [pydflow]: Downloading https://files.pythonhosted.org/packages/33/96/a989d9cfcdb5dcb43d60a72640c59e2efb7fd053182742205b332006f813/pydflow-1.7.8.tar.gz
+[2023-07-11 06:16:18] INFO root fetch - processPackages [py4web]: Downloading https://files.pythonhosted.org/packages/af/ca/bf1a4758d8ca7b6f739e4f67289b65d646b413e0de7e569369cb3349364a/py4web-1.20230710.1.tar.gz
+[2023-07-11 06:16:18] WARNING root fetch - processPackages [MetaCalls]: Skipping package: exceeds size limit 17452942>=10485760
+[2023-07-11 06:16:18] INFO root fetch - processPackages [MetaCalls]: Start processing: odoo-addon-mrp-bom-component-menu
+[2023-07-11 06:16:18] INFO root fetch - main [MainThread]: End processing [MetaCalls] error
+[2023-07-11 06:16:18] INFO root fetch - processPackages [odoo-addon-mgmtsystem]: Downloading https://files.pythonhosted.org/packages/c4/11/43cde66814a3948f832fcf8bb1309316ea2008ae796710715d3577d5009c/odoo_addon_mgmtsystem-16.0.1.0.0.5-py3-none-any.whl
+[2023-07-11 06:16:18] INFO root fetch - processPackages [odoo-addon-mrp-warehouse-calendar]: Downloading https://files.pythonhosted.org/packages/fe/75/f9f0ed60e13ee4fdcacbdabff03fe3b8fc8ce062f295f7f3c817308384a7/odoo_addon_mrp_warehouse_calendar-16.0.1.0.0.4-py3-none-any.whl
+[2023-07-11 06:16:18] INFO root fetch - processPackages [odoo12-addon-mrp-request-workcenter-cycle]: Downloading https://files.pythonhosted.org/packages/b4/33/ea18500dd74a68bb103a03284eacf08ce370561f4803d1177e8ef0a862bb/odoo12_addon_mrp_request_workcenter_cycle-12.0.1.0.1.99.dev2-py3-none-any.whl
+[2023-07-11 06:16:18] INFO root fetch - processPackages [odoo-addon-mrp-bom-component-menu]: New version: [16.0.1.0.0.6] Old Version: [16.0.1.0.0.4]
+[2023-07-11 06:16:19] INFO root fetch - processPackages [limeutils]: Downloading https://files.pythonhosted.org/packages/98/c2/7ff94a2a9a6cf75af8237f31a295bea3f113301179e6bf1789e2c17810a4/limeutils-0.2.9.tar.gz
+[2023-07-11 06:16:19] INFO root fetch - processPackages [gameTheory]: Downloading https://files.pythonhosted.org/packages/94/10/ec1b156b67356fd26e40ff01da322bed2e7e58ce41622d222b4e127633a3/gameTheory-0.0.9.dev0.tar.gz
+[2023-07-11 06:16:19] INFO root fetch - processPackages [mcemtools]: Downloading https://files.pythonhosted.org/packages/4d/ac/fb0e4c3a2ffcd989f2966814e3577eb2f4aafc6a1f0b95ef9d4c80547353/mcemtools-0.3.0.tar.gz
+[2023-07-11 06:16:19] INFO root fetch - processPackages [odoo-addon-mrp-bom-component-menu]: Downloading https://files.pythonhosted.org/packages/0d/a5/3fc77f767fa99f3158b1099f8a2525ed79803c898299336185afe2de1392/odoo_addon_mrp_bom_component_menu-16.0.1.0.0.4-py3-none-any.whl
+[2023-07-11 06:16:19] INFO root fetch - processPackages [limeutils]: executing diffoscope
+[2023-07-11 06:16:19] INFO root fetch - processPackages [limeutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/limeutils-0.2.8.tar.gz tmp/limeutils-0.2.9.tar.gz --markdown 20230711/l/limeutils/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-11 06:16:19] INFO root fetch - processPackages [pyl3dmd]: Downloading https://files.pythonhosted.org/packages/b4/38/9dd8769e5b807dc4db161b829dcbf789985bd42524c0492a85abcfd68cc9/pyl3dmd-0.1.1.tar.gz
+[2023-07-11 06:16:19] INFO root fetch - processPackages [gameTheory]: executing diffoscope
+[2023-07-11 06:16:19] INFO root fetch - processPackages [gameTheory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gameTheory-0.0.4.tar.gz tmp/gameTheory-0.0.9.dev0.tar.gz --markdown 20230711/g/gameTheory/0.0.4-0.0.9.dev0/diff.md --exclude *.pyd
+[2023-07-11 06:16:19] INFO root fetch - processPackages [odoo-addon-mrp-warehouse-calendar]: Downloading https://files.pythonhosted.org/packages/53/9e/8c6b9a47f80bc39239fe32457d2abedfc08666ccf988de437be2cdad0459/odoo_addon_mrp_warehouse_calendar-16.0.1.0.0.6-py3-none-any.whl
+[2023-07-11 06:16:19] INFO root fetch - processPackages [mcemtools]: executing diffoscope
+[2023-07-11 06:16:19] INFO root fetch - processPackages [mcemtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mcemtools-0.2.0.tar.gz tmp/mcemtools-0.3.0.tar.gz --markdown 20230711/m/mcemtools/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-11 06:16:19] INFO root fetch - processPackages [odoo-addon-mgmtsystem]: Downloading https://files.pythonhosted.org/packages/05/53/513fbe5057001729fee17e29a7797b2682f56a38d2ee4bd7de0d7bc0dc21/odoo_addon_mgmtsystem-16.0.1.0.0.6-py3-none-any.whl
+[2023-07-11 06:16:19] INFO root fetch - processPackages [pydflow]: Downloading https://files.pythonhosted.org/packages/9c/41/6c9bc72fde943869899725f55fade9f850f62ecbc6fa31e53b8fa79ae5a3/pydflow-1.7.9.tar.gz
+[2023-07-11 06:16:19] INFO root fetch - processPackages [pyl3dmd]: executing diffoscope
+[2023-07-11 06:16:19] INFO root fetch - processPackages [pyl3dmd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyl3dmd-0.1.0.tar.gz tmp/pyl3dmd-0.1.1.tar.gz --markdown 20230711/p/pyl3dmd/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-11 06:16:19] INFO root fetch - processPackages [odoo12-addon-mrp-request-workcenter-cycle]: Downloading https://files.pythonhosted.org/packages/3c/4b/e1421364ccf9214559ed0ac5b7a9aa71edb4deb8f3a703054a79df8da2cb/odoo12_addon_mrp_request_workcenter_cycle-12.0.1.0.1.99.dev3-py3-none-any.whl
+[2023-07-11 06:16:19] INFO root fetch - processPackages [odoo-addon-mrp-warehouse-calendar]: executing diffoscope
+[2023-07-11 06:16:19] INFO root fetch - processPackages [odoo-addon-mrp-warehouse-calendar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mrp_warehouse_calendar-16.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_mrp_warehouse_calendar-16.0.1.0.0.6-py3-none-any.whl.zip --markdown 20230711/o/odoo-addon-mrp-warehouse-calendar/16.0.1.0.0.4-16.0.1.0.0.6/diff.md --exclude *.pyd
+[2023-07-11 06:16:19] INFO root fetch - processPackages [pydflow]: executing diffoscope
+[2023-07-11 06:16:19] INFO root fetch - processPackages [pydflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydflow-1.7.8.tar.gz tmp/pydflow-1.7.9.tar.gz --markdown 20230711/p/pydflow/1.7.8-1.7.9/diff.md --exclude *.pyd
+[2023-07-11 06:16:19] INFO root fetch - processPackages [odoo-addon-mrp-bom-component-menu]: Downloading https://files.pythonhosted.org/packages/84/c2/fadce3d6a660a064c061a6ffe9256482f797f5c7175f2315904fa6b5823e/odoo_addon_mrp_bom_component_menu-16.0.1.0.0.6-py3-none-any.whl
+[2023-07-11 06:16:19] INFO root fetch - processPackages [py4web]: Downloading https://files.pythonhosted.org/packages/2f/97/37d32438d3f7c77fcb6be3d62ec4a80c8ef05a1e6c7754e17dc9f89b757f/py4web-1.20230710.3.tar.gz
+[2023-07-11 06:16:19] INFO root fetch - processPackages [odoo12-addon-mrp-request-workcenter-cycle]: executing diffoscope
+[2023-07-11 06:16:19] INFO root fetch - processPackages [odoo12-addon-mrp-request-workcenter-cycle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_mrp_request_workcenter_cycle-12.0.1.0.1.99.dev2-py3-none-any.whl.zip tmp/odoo12_addon_mrp_request_workcenter_cycle-12.0.1.0.1.99.dev3-py3-none-any.whl.zip --markdown 20230711/o/odoo12-addon-mrp-request-workcenter-cycle/12.0.1.0.1.99.dev2-12.0.1.0.1.99.dev3/diff.md --exclude *.pyd
+[2023-07-11 06:16:19] INFO root fetch - processPackages [odoo-addon-mrp-bom-component-menu]: executing diffoscope
+[2023-07-11 06:16:19] INFO root fetch - processPackages [odoo-addon-mrp-bom-component-menu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mrp_bom_component_menu-16.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_mrp_bom_component_menu-16.0.1.0.0.6-py3-none-any.whl.zip --markdown 20230711/o/odoo-addon-mrp-bom-component-menu/16.0.1.0.0.4-16.0.1.0.0.6/diff.md --exclude *.pyd
+[2023-07-11 06:16:19] INFO root fetch - processPackages [odoo-addon-mgmtsystem]: executing diffoscope
+[2023-07-11 06:16:19] INFO root fetch - processPackages [odoo-addon-mgmtsystem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mgmtsystem-16.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_mgmtsystem-16.0.1.0.0.6-py3-none-any.whl.zip --markdown 20230711/o/odoo-addon-mgmtsystem/16.0.1.0.0.5-16.0.1.0.0.6/diff.md --exclude *.pyd
+[2023-07-11 06:16:20] INFO root fetch - processPackages [py4web]: executing diffoscope
+[2023-07-11 06:16:20] INFO root fetch - processPackages [py4web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py4web-1.20230710.1.tar.gz tmp/py4web-1.20230710.3.tar.gz --markdown 20230711/p/py4web/1.20230710.1-1.20230710.3/diff.md --exclude *.pyd
+[2023-07-11 06:16:20] INFO root fetch - processPackages [gameTheory]: Remove: archive file [/home/abi/fetcher/tmp/gameTheory-0.0.4.tar.gz]
+[2023-07-11 06:16:20] INFO root fetch - processPackages [gameTheory]: Remove: archive file [/home/abi/fetcher/tmp/gameTheory-0.0.9.dev0.tar.gz]
+[2023-07-11 06:16:20] INFO root fetch - processPackages [gameTheory]: Start processing: odoo-addon-mrp-restrict-lot
+[2023-07-11 06:16:20] INFO root fetch - main [MainThread]: End processing [gameTheory]: success
+[2023-07-11 06:16:20] INFO root fetch - processPackages [limeutils]: Remove: archive file [/home/abi/fetcher/tmp/limeutils-0.2.8.tar.gz]
+[2023-07-11 06:16:20] INFO root fetch - processPackages [limeutils]: Remove: archive file [/home/abi/fetcher/tmp/limeutils-0.2.9.tar.gz]
+[2023-07-11 06:16:20] INFO root fetch - processPackages [limeutils]: Start processing: odoo-addon-mrp-production-quant-manual-assign
+[2023-07-11 06:16:20] INFO root fetch - main [MainThread]: End processing [limeutils]: success
+[2023-07-11 06:16:20] INFO root fetch - processPackages [mcemtools]: Remove: archive file [/home/abi/fetcher/tmp/mcemtools-0.2.0.tar.gz]
+[2023-07-11 06:16:20] INFO root fetch - processPackages [mcemtools]: Remove: archive file [/home/abi/fetcher/tmp/mcemtools-0.3.0.tar.gz]
+[2023-07-11 06:16:20] INFO root fetch - processPackages [mcemtools]: Start processing: odoo-addon-mrp-sale-info
+[2023-07-11 06:16:20] INFO root fetch - main [MainThread]: End processing [mcemtools]: success
+[2023-07-11 06:16:20] INFO root fetch - processPackages [odoo-addon-mrp-restrict-lot]: New version: [16.0.1.0.0.7] Old Version: [16.0.1.0.0.5]
+[2023-07-11 06:16:20] INFO root fetch - processPackages [odoo-addon-mrp-production-quant-manual-assign]: New version: [16.0.1.0.0.7] Old Version: [16.0.1.0.0.5]
+[2023-07-11 06:16:20] INFO root fetch - processPackages [odoo-addon-mrp-sale-info]: New version: [16.0.1.1.0.1] Old Version: [16.0.1.1.0]
+[2023-07-11 06:16:21] INFO root fetch - processPackages [odoo-addon-mrp-warehouse-calendar]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mrp_warehouse_calendar-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-07-11 06:16:21] INFO root fetch - processPackages [odoo-addon-mrp-warehouse-calendar]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mrp_warehouse_calendar-16.0.1.0.0.6-py3-none-any.whl.zip]
+[2023-07-11 06:16:21] INFO root fetch - processPackages [odoo-addon-mrp-warehouse-calendar]: Start processing: CalSim
+[2023-07-11 06:16:21] INFO root fetch - main [MainThread]: End processing [odoo-addon-mrp-warehouse-calendar]: success
+[2023-07-11 06:16:21] INFO root fetch - processPackages [odoo-addon-mrp-restrict-lot]: Downloading https://files.pythonhosted.org/packages/c0/95/843a0fa918fb0e8a0a5e025536033a913046286fecde374f9c77d589f470/odoo_addon_mrp_restrict_lot-16.0.1.0.0.5-py3-none-any.whl
+[2023-07-11 06:16:21] INFO root fetch - processPackages [odoo-addon-mrp-production-quant-manual-assign]: Downloading https://files.pythonhosted.org/packages/ef/68/2c34f1719a12321c44beee3f811b8ecd5d2545e17846304f3da1f72ccbe3/odoo_addon_mrp_production_quant_manual_assign-16.0.1.0.0.5-py3-none-any.whl
+[2023-07-11 06:16:21] INFO root fetch - processPackages [CalSim]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-11 06:16:21] INFO root fetch - processPackages [pyl3dmd]: Remove: archive file [/home/abi/fetcher/tmp/pyl3dmd-0.1.0.tar.gz]
+[2023-07-11 06:16:21] INFO root fetch - processPackages [pyl3dmd]: Remove: archive file [/home/abi/fetcher/tmp/pyl3dmd-0.1.1.tar.gz]
+[2023-07-11 06:16:21] INFO root fetch - processPackages [pyl3dmd]: Start processing: odoo-addon-mrp-bom-location
+[2023-07-11 06:16:21] INFO root fetch - main [MainThread]: End processing [pyl3dmd]: success
+[2023-07-11 06:16:21] INFO root fetch - processPackages [odoo-addon-mrp-sale-info]: Downloading https://files.pythonhosted.org/packages/78/6e/40bac2db3611764c31c693de959e434ee1b54938a93a5d2736637d0299b4/odoo_addon_mrp_sale_info-16.0.1.1.0-py3-none-any.whl
+[2023-07-11 06:16:21] INFO root fetch - processPackages [CalSim]: Downloading https://files.pythonhosted.org/packages/9c/ee/10ee1f0aac4cceb86a1b873cf16fb9b223bd38be45cc04d38f07d7d0b40c/calsim-0.0.8.tar.gz
+[2023-07-11 06:16:21] INFO root fetch - processPackages [odoo-addon-mrp-bom-component-menu]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mrp_bom_component_menu-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-07-11 06:16:21] INFO root fetch - processPackages [odoo-addon-mrp-bom-component-menu]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mrp_bom_component_menu-16.0.1.0.0.6-py3-none-any.whl.zip]
+[2023-07-11 06:16:21] INFO root fetch - processPackages [odoo-addon-mrp-bom-component-menu]: Start processing: idownload
+[2023-07-11 06:16:21] INFO root fetch - main [MainThread]: End processing [odoo-addon-mrp-bom-component-menu]: success
+[2023-07-11 06:16:21] INFO root fetch - processPackages [odoo-addon-mrp-bom-location]: New version: [16.0.1.0.0.6] Old Version: [16.0.1.0.0.4]
+[2023-07-11 06:16:21] INFO root fetch - processPackages [pydflow]: Remove: archive file [/home/abi/fetcher/tmp/pydflow-1.7.8.tar.gz]
+[2023-07-11 06:16:21] INFO root fetch - processPackages [pydflow]: Remove: archive file [/home/abi/fetcher/tmp/pydflow-1.7.9.tar.gz]
+[2023-07-11 06:16:21] INFO root fetch - main [MainThread]: End processing [pydflow]: success
+[2023-07-11 06:16:21] INFO root fetch - processPackages [odoo-addon-mrp-restrict-lot]: Downloading https://files.pythonhosted.org/packages/34/3f/6fd69237d1e7f7302e312f33d1d37f9be4183bf363f6c27ae5245593796e/odoo_addon_mrp_restrict_lot-16.0.1.0.0.7-py3-none-any.whl
+[2023-07-11 06:16:21] INFO root fetch - processPackages [idownload]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-07-11 06:16:21] INFO root fetch - processPackages [odoo-addon-mrp-production-quant-manual-assign]: Downloading https://files.pythonhosted.org/packages/bb/d2/041a7b9736ccae1e0601d38db7198b3b1e5a5f3f8f9b5e0948e89ee397a6/odoo_addon_mrp_production_quant_manual_assign-16.0.1.0.0.7-py3-none-any.whl
+[2023-07-11 06:16:21] INFO root fetch - processPackages [CalSim]: Downloading https://files.pythonhosted.org/packages/65/a1/95437c20af234eb1ed67c5cd349670e67df09bd27fafd7f248f5f12a3045/calsim-0.0.9.tar.gz
+[2023-07-11 06:16:21] INFO root fetch - processPackages [odoo-addon-mrp-sale-info]: Downloading https://files.pythonhosted.org/packages/51/67/4d493071db61eb7b4c92dc5e20dd107f9e631089297a6b25f0b6ec8e9ca3/odoo_addon_mrp_sale_info-16.0.1.1.0.1-py3-none-any.whl
+[2023-07-11 06:16:21] INFO root fetch - processPackages [odoo12-addon-mrp-request-workcenter-cycle]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_mrp_request_workcenter_cycle-12.0.1.0.1.99.dev2-py3-none-any.whl.zip]
+[2023-07-11 06:16:21] INFO root fetch - processPackages [odoo12-addon-mrp-request-workcenter-cycle]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_mrp_request_workcenter_cycle-12.0.1.0.1.99.dev3-py3-none-any.whl.zip]
+[2023-07-11 06:16:21] INFO root fetch - main [MainThread]: End processing [odoo12-addon-mrp-request-workcenter-cycle]: success
+[2023-07-11 06:16:21] INFO root fetch - processPackages [odoo-addon-mgmtsystem]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mgmtsystem-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2023-07-11 06:16:21] INFO root fetch - processPackages [odoo-addon-mgmtsystem]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mgmtsystem-16.0.1.0.0.6-py3-none-any.whl.zip]
+[2023-07-11 06:16:21] INFO root fetch - main [MainThread]: End processing [odoo-addon-mgmtsystem]: success
+[2023-07-11 06:16:21] INFO root fetch - processPackages [CalSim]: executing diffoscope
+[2023-07-11 06:16:21] INFO root fetch - processPackages [CalSim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/calsim-0.0.8.tar.gz tmp/calsim-0.0.9.tar.gz --markdown 20230711/C/CalSim/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-11 06:16:21] INFO root fetch - processPackages [odoo-addon-mrp-bom-location]: Downloading https://files.pythonhosted.org/packages/6d/75/c75e7bd655332a57c9ab814ceb8c3f2050f51e6c00ed8beca3f832f0ff69/odoo_addon_mrp_bom_location-16.0.1.0.0.4-py3-none-any.whl
+[2023-07-11 06:16:21] INFO root fetch - processPackages [odoo-addon-mrp-restrict-lot]: executing diffoscope
+[2023-07-11 06:16:21] INFO root fetch - processPackages [odoo-addon-mrp-restrict-lot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mrp_restrict_lot-16.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_mrp_restrict_lot-16.0.1.0.0.7-py3-none-any.whl.zip --markdown 20230711/o/odoo-addon-mrp-restrict-lot/16.0.1.0.0.5-16.0.1.0.0.7/diff.md --exclude *.pyd
+[2023-07-11 06:16:21] INFO root fetch - processPackages [odoo-addon-mrp-production-quant-manual-assign]: executing diffoscope
+[2023-07-11 06:16:21] INFO root fetch - processPackages [odoo-addon-mrp-production-quant-manual-assign]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mrp_production_quant_manual_assign-16.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_mrp_production_quant_manual_assign-16.0.1.0.0.7-py3-none-any.whl.zip --markdown 20230711/o/odoo-addon-mrp-production-quant-manual-assign/16.0.1.0.0.5-16.0.1.0.0.7/diff.md --exclude *.pyd
+[2023-07-11 06:16:21] INFO root fetch - processPackages [idownload]: Downloading https://files.pythonhosted.org/packages/69/dc/14d66869be66d0dc3c00c88745c8fb0352b0ac1b9d63c000cd7ca52d04bc/idownload-1.1.0-py3-none-any.whl
+[2023-07-11 06:16:21] INFO root fetch - processPackages [odoo-addon-mrp-sale-info]: executing diffoscope
+[2023-07-11 06:16:21] INFO root fetch - processPackages [odoo-addon-mrp-sale-info]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mrp_sale_info-16.0.1.1.0-py3-none-any.whl.zip tmp/odoo_addon_mrp_sale_info-16.0.1.1.0.1-py3-none-any.whl.zip --markdown 20230711/o/odoo-addon-mrp-sale-info/16.0.1.1.0-16.0.1.1.0.1/diff.md --exclude *.pyd
+[2023-07-11 06:16:22] INFO root fetch - processPackages [odoo-addon-mrp-bom-location]: Downloading https://files.pythonhosted.org/packages/61/ca/3f18159719816c61e868a60b5d77ec7cdfe334b8adde4dc755f6b1dbb7f2/odoo_addon_mrp_bom_location-16.0.1.0.0.6-py3-none-any.whl
+[2023-07-11 06:16:22] INFO root fetch - processPackages [idownload]: Downloading https://files.pythonhosted.org/packages/cf/32/41970d3cb2f69907eeac850599b5472070459c759d659212538f39c20d02/idownload-1.2.0-py3-none-any.whl
+[2023-07-11 06:16:22] INFO root fetch - processPackages [idownload]: executing diffoscope
+[2023-07-11 06:16:22] INFO root fetch - processPackages [idownload]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idownload-1.1.0-py3-none-any.whl.zip tmp/idownload-1.2.0-py3-none-any.whl.zip --markdown 20230711/i/idownload/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-07-11 06:16:22] INFO root fetch - processPackages [odoo-addon-mrp-bom-location]: executing diffoscope
+[2023-07-11 06:16:22] INFO root fetch - processPackages [odoo-addon-mrp-bom-location]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mrp_bom_location-16.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_mrp_bom_location-16.0.1.0.0.6-py3-none-any.whl.zip --markdown 20230711/o/odoo-addon-mrp-bom-location/16.0.1.0.0.4-16.0.1.0.0.6/diff.md --exclude *.pyd
+[2023-07-11 06:16:22] INFO root fetch - processPackages [odoo-addon-mrp-restrict-lot]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mrp_restrict_lot-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2023-07-11 06:16:22] INFO root fetch - processPackages [odoo-addon-mrp-restrict-lot]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mrp_restrict_lot-16.0.1.0.0.7-py3-none-any.whl.zip]
+[2023-07-11 06:16:22] INFO root fetch - main [MainThread]: End processing [odoo-addon-mrp-restrict-lot]: success
+[2023-07-11 06:16:22] INFO root fetch - processPackages [CalSim]: Remove: archive file [/home/abi/fetcher/tmp/calsim-0.0.8.tar.gz]
+[2023-07-11 06:16:22] INFO root fetch - processPackages [CalSim]: Remove: archive file [/home/abi/fetcher/tmp/calsim-0.0.9.tar.gz]
+[2023-07-11 06:16:22] INFO root fetch - main [MainThread]: End processing [CalSim]: success
+[2023-07-11 06:16:22] INFO root fetch - processPackages [odoo-addon-mrp-production-quant-manual-assign]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mrp_production_quant_manual_assign-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2023-07-11 06:16:22] INFO root fetch - processPackages [odoo-addon-mrp-production-quant-manual-assign]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mrp_production_quant_manual_assign-16.0.1.0.0.7-py3-none-any.whl.zip]
+[2023-07-11 06:16:22] INFO root fetch - main [MainThread]: End processing [odoo-addon-mrp-production-quant-manual-assign]: success
+[2023-07-11 06:16:23] INFO root fetch - processPackages [odoo-addon-mrp-sale-info]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mrp_sale_info-16.0.1.1.0-py3-none-any.whl.zip]
+[2023-07-11 06:16:23] INFO root fetch - processPackages [odoo-addon-mrp-sale-info]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mrp_sale_info-16.0.1.1.0.1-py3-none-any.whl.zip]
+[2023-07-11 06:16:23] INFO root fetch - main [MainThread]: End processing [odoo-addon-mrp-sale-info]: success
+[2023-07-11 06:16:23] INFO root fetch - processPackages [idownload]: Remove: archive file [/home/abi/fetcher/tmp/idownload-1.1.0-py3-none-any.whl.zip]
+[2023-07-11 06:16:23] INFO root fetch - processPackages [idownload]: Remove: archive file [/home/abi/fetcher/tmp/idownload-1.2.0-py3-none-any.whl.zip]
+[2023-07-11 06:16:23] INFO root fetch - main [MainThread]: End processing [idownload]: success
+[2023-07-11 06:16:23] INFO root fetch - processPackages [odoo-addon-mrp-bom-location]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mrp_bom_location-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-07-11 06:16:23] INFO root fetch - processPackages [odoo-addon-mrp-bom-location]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mrp_bom_location-16.0.1.0.0.6-py3-none-any.whl.zip]
+[2023-07-11 06:16:23] INFO root fetch - main [MainThread]: End processing [odoo-addon-mrp-bom-location]: success
+[2023-07-11 06:16:28] INFO root fetch - processPackages [py4web]: Remove: archive file [/home/abi/fetcher/tmp/py4web-1.20230710.1.tar.gz]
+[2023-07-11 06:16:28] INFO root fetch - processPackages [py4web]: Remove: archive file [/home/abi/fetcher/tmp/py4web-1.20230710.3.tar.gz]
+[2023-07-11 06:16:28] INFO root fetch - main [MainThread]: End processing [py4web]: success
+[2023-07-11 06:16:28] INFO root fetch - main [MainThread]: Store serial: [18840792]
