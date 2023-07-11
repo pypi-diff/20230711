@@ -17382,3 +17382,108 @@ AssertionError: tmp/doctran-0.0.6.tar.gz does not exist
 [2023-07-11 12:55:29] INFO root fetch - processPackages [WeTextProcessing]: Remove: archive file [/home/abi/fetcher/tmp/WeTextProcessing-0.1.2.tar.gz]
 [2023-07-11 12:55:29] INFO root fetch - main [MainThread]: End processing [WeTextProcessing]: success
 [2023-07-11 12:55:29] INFO root fetch - main [MainThread]: Store serial: [18844039]
+[2023-07-11 13:00:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18844039]
+[2023-07-11 13:00:39] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-11 13:00:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: picamera2
+[2023-07-11 13:00:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: taichu-storage
+[2023-07-11 13:00:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: skale.py
+[2023-07-11 13:00:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: papertronics-sdk
+[2023-07-11 13:00:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tidevice
+[2023-07-11 13:00:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: osemosys2iamc
+[2023-07-11 13:00:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ryantam626-jupyterlab-vim
+[2023-07-11 13:00:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: satosa-oidcop
+[2023-07-11 13:00:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: middleware-apm
+[2023-07-11 13:00:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pepperize.cdk-private-bucket
+[2023-07-11 13:00:39] INFO root fetch - processPackages [papertronics-sdk]: New version: [0.0.30] Old Version: [0.0.29]
+[2023-07-11 13:00:40] INFO root fetch - processPackages [picamera2]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-11 13:00:40] WARNING root fetch - processPackages [osemosys2iamc]: Skipping, unable to determine old version
+[2023-07-11 13:00:40] INFO root fetch - processPackages [osemosys2iamc]: Start processing: VisionFive.gpio
+[2023-07-11 13:00:40] INFO root fetch - main [MainThread]: End processing [osemosys2iamc] error
+[2023-07-11 13:00:40] INFO root fetch - processPackages [taichu-storage]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-11 13:00:40] INFO root fetch - processPackages [satosa-oidcop]: New version: [2.1.0] Old Version: [2.0.3]
+[2023-07-11 13:00:40] INFO root fetch - processPackages [middleware-apm]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-11 13:00:40] INFO root fetch - processPackages [ryantam626-jupyterlab-vim]: New version: [0.16.1] Old Version: [0.16.0]
+[2023-07-11 13:00:40] INFO root fetch - processPackages [skale.py]: New version: [6.0.dev4] Old Version: [6.0.dev3]
+[2023-07-11 13:00:40] INFO root fetch - processPackages [tidevice]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-11 13:00:40] INFO root fetch - processPackages [VisionFive.gpio]: New version: [1.2.14] Old Version: [1.2.12]
+[2023-07-11 13:00:40] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-11 13:00:40] INFO root fetch - processPackages [papertronics-sdk]: Downloading https://files.pythonhosted.org/packages/de/21/cad01ec76a6cc2be4965a38f91524a926fd5e7611abef5d0c4047cc1a60e/papertronics-sdk-0.0.29.tar.gz
+[2023-07-11 13:00:40] INFO root fetch - processPackages [taichu-storage]: Downloading https://files.pythonhosted.org/packages/a0/f7/b01c89332caae3f3993ffa203f3cdcb7947ac105927df6005fe88cb730b5/taichu-storage-0.0.7.tar.gz
+[2023-07-11 13:00:40] INFO root fetch - processPackages [middleware-apm]: Downloading https://files.pythonhosted.org/packages/c9/db/fa7ab1c9673926a8c26bdabf7311df866a835268e7663803b060886a9354/middleware-apm-0.1.8.tar.gz
+[2023-07-11 13:00:40] INFO root fetch - processPackages [picamera2]: Downloading https://files.pythonhosted.org/packages/d5/ef/15d5ebb19a68db1ff6aab0b400fbcc45796ab8db67601520086d6f5acc0b/picamera2-0.3.8.tar.gz
+[2023-07-11 13:00:40] INFO root fetch - processPackages [tidevice]: Downloading https://files.pythonhosted.org/packages/56/86/dd8f7742c20194dce5edb12b48b80d8eebd0a33d93f39d36d07486e5d2ee/tidevice-0.9.8.tar.gz
+[2023-07-11 13:00:40] INFO root fetch - processPackages [ryantam626-jupyterlab-vim]: Downloading https://files.pythonhosted.org/packages/8a/5b/fc69c5b7e80aa182eb9cccd1bd2cd6bed5123711ffd8662fc506abae6055/ryantam626_jupyterlab_vim-0.16.0.tar.gz
+[2023-07-11 13:00:40] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Downloading https://files.pythonhosted.org/packages/e7/b6/4073de848e06d760b3ef30686b0684410fc4bb899faf50e7ef4a0b2fac85/pepperize.cdk-private-bucket-0.0.98.tar.gz
+[2023-07-11 13:00:40] INFO root fetch - processPackages [skale.py]: Downloading https://files.pythonhosted.org/packages/34/08/616e1c5523d0eb3d569190476949f6b8e5b0d0547566dd6b3adffd01d6c2/skale.py-6.0.dev3.tar.gz
+[2023-07-11 13:00:40] INFO root fetch - processPackages [VisionFive.gpio]: Downloading https://files.pythonhosted.org/packages/95/84/09f1f82c8f79a4bcf287e1715b5467f7ec0a136b0dee21fadd156e24de39/VisionFive.gpio-1.2.12-cp34-abi3-any.whl
+[2023-07-11 13:00:40] INFO root fetch - processPackages [satosa-oidcop]: Downloading https://files.pythonhosted.org/packages/e4/c4/c2df39d81e244091a648e543f4d1d689478f57f0ee3c906a8a875b19467c/satosa_oidcop-2.0.3.tar.gz
+[2023-07-11 13:00:40] INFO root fetch - processPackages [middleware-apm]: Downloading https://files.pythonhosted.org/packages/85/4e/51d46e303433412c897f03bf1f831155e665f691f00202ec4c762fb8eed6/middleware-apm-0.1.9.tar.gz
+[2023-07-11 13:00:40] INFO root fetch - processPackages [papertronics-sdk]: Downloading https://files.pythonhosted.org/packages/49/07/9a6ed3ad390e1f1b87146c99788198bf844cef8d96aaa9b296b87f882dde/papertronics-sdk-0.0.30.tar.gz
+[2023-07-11 13:00:40] INFO root fetch - processPackages [taichu-storage]: Downloading https://files.pythonhosted.org/packages/57/5d/bf204333cd526dc68a86cdc89d8516f961e0c6c2479200372c68de8a0c00/taichu-storage-0.0.8.tar.gz
+[2023-07-11 13:00:40] INFO root fetch - processPackages [papertronics-sdk]: executing diffoscope
+[2023-07-11 13:00:40] INFO root fetch - processPackages [papertronics-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/papertronics-sdk-0.0.29.tar.gz tmp/papertronics-sdk-0.0.30.tar.gz --markdown 20230711/p/papertronics-sdk/0.0.29-0.0.30/diff.md --exclude *.pyd
+[2023-07-11 13:00:40] INFO root fetch - processPackages [middleware-apm]: executing diffoscope
+[2023-07-11 13:00:40] INFO root fetch - processPackages [middleware-apm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/middleware-apm-0.1.8.tar.gz tmp/middleware-apm-0.1.9.tar.gz --markdown 20230711/m/middleware-apm/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-11 13:00:40] INFO root fetch - processPackages [ryantam626-jupyterlab-vim]: Downloading https://files.pythonhosted.org/packages/c6/8f/f95661991bbd84920ff983dbab3b94385d8bd9589d301941a792e1be9d88/ryantam626_jupyterlab_vim-0.16.1.tar.gz
+[2023-07-11 13:00:40] INFO root fetch - processPackages [picamera2]: Downloading https://files.pythonhosted.org/packages/68/44/0eef4a37afc194f5a3eb2459be378d4ccededefb060f9796e6a0e68601a9/picamera2-0.3.9.tar.gz
+[2023-07-11 13:00:40] INFO root fetch - processPackages [taichu-storage]: executing diffoscope
+[2023-07-11 13:00:40] INFO root fetch - processPackages [taichu-storage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taichu-storage-0.0.7.tar.gz tmp/taichu-storage-0.0.8.tar.gz --markdown 20230711/t/taichu-storage/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-11 13:00:41] INFO root fetch - processPackages [satosa-oidcop]: Downloading https://files.pythonhosted.org/packages/25/46/bd879148059bb57df6ab13d6253465fbd51565379762facaeaed2a1ffe84/satosa_oidcop-2.1.0.tar.gz
+[2023-07-11 13:00:41] INFO root fetch - processPackages [skale.py]: Downloading https://files.pythonhosted.org/packages/be/f3/e847a50ecd41dbfe492c811c0502905e188e2bbc010676649693d361a504/skale.py-6.0.dev4.tar.gz
+[2023-07-11 13:00:41] INFO root fetch - processPackages [VisionFive.gpio]: Downloading https://files.pythonhosted.org/packages/6d/72/96fa678b61e03cdbd945dbb26b96cc28ff03a6429bc6897f321fcd3b2df7/VisionFive.gpio-1.2.14-cp310-cp310-any.whl
+[2023-07-11 13:00:41] INFO root fetch - processPackages [ryantam626-jupyterlab-vim]: executing diffoscope
+[2023-07-11 13:00:41] INFO root fetch - processPackages [ryantam626-jupyterlab-vim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ryantam626_jupyterlab_vim-0.16.0.tar.gz tmp/ryantam626_jupyterlab_vim-0.16.1.tar.gz --markdown 20230711/r/ryantam626-jupyterlab-vim/0.16.0-0.16.1/diff.md --exclude *.pyd
+[2023-07-11 13:00:41] INFO root fetch - processPackages [tidevice]: Downloading https://files.pythonhosted.org/packages/d0/2b/0785b0a9a84f8204b3554b13a0135ae6d21afc9840aaea71e9d3f1fbddb1/tidevice-0.9.9.tar.gz
+[2023-07-11 13:00:41] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Downloading https://files.pythonhosted.org/packages/e3/22/68d054109f3033e215b3e2bb124cce096ee16c91911cef45f98e5a69d1ca/pepperize.cdk-private-bucket-0.0.99.tar.gz
+[2023-07-11 13:00:41] INFO root fetch - processPackages [picamera2]: executing diffoscope
+[2023-07-11 13:00:41] INFO root fetch - processPackages [picamera2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/picamera2-0.3.8.tar.gz tmp/picamera2-0.3.9.tar.gz --markdown 20230711/p/picamera2/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-11 13:00:41] INFO root fetch - processPackages [skale.py]: executing diffoscope
+[2023-07-11 13:00:41] INFO root fetch - processPackages [skale.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skale.py-6.0.dev3.tar.gz tmp/skale.py-6.0.dev4.tar.gz --markdown 20230711/s/skale.py/6.0.dev3-6.0.dev4/diff.md --exclude *.pyd
+[2023-07-11 13:00:41] INFO root fetch - processPackages [satosa-oidcop]: executing diffoscope
+[2023-07-11 13:00:41] INFO root fetch - processPackages [satosa-oidcop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/satosa_oidcop-2.0.3.tar.gz tmp/satosa_oidcop-2.1.0.tar.gz --markdown 20230711/s/satosa-oidcop/2.0.3-2.1.0/diff.md --exclude *.pyd
+[2023-07-11 13:00:41] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: executing diffoscope
+[2023-07-11 13:00:41] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-private-bucket-0.0.98.tar.gz tmp/pepperize.cdk-private-bucket-0.0.99.tar.gz --markdown 20230711/p/pepperize.cdk-private-bucket/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-11 13:00:41] INFO root fetch - processPackages [tidevice]: executing diffoscope
+[2023-07-11 13:00:41] INFO root fetch - processPackages [tidevice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tidevice-0.9.8.tar.gz tmp/tidevice-0.9.9.tar.gz --markdown 20230711/t/tidevice/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-11 13:00:41] INFO root fetch - processPackages [VisionFive.gpio]: executing diffoscope
+[2023-07-11 13:00:41] INFO root fetch - processPackages [VisionFive.gpio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/VisionFive.gpio-1.2.12-cp34-abi3-any.whl.zip tmp/VisionFive.gpio-1.2.14-cp310-cp310-any.whl.zip --markdown 20230711/V/VisionFive.gpio/1.2.12-1.2.14/diff.md --exclude *.pyd
+[2023-07-11 13:00:42] INFO root fetch - processPackages [middleware-apm]: Remove: archive file [/home/abi/fetcher/tmp/middleware-apm-0.1.8.tar.gz]
+[2023-07-11 13:00:42] INFO root fetch - processPackages [middleware-apm]: Remove: archive file [/home/abi/fetcher/tmp/middleware-apm-0.1.9.tar.gz]
+[2023-07-11 13:00:42] INFO root fetch - processPackages [middleware-apm]: Start processing: pygmtools
+[2023-07-11 13:00:42] INFO root fetch - main [MainThread]: End processing [middleware-apm]: success
+[2023-07-11 13:00:42] INFO root fetch - processPackages [pygmtools]: New version: [0.3.8a9] Old Version: [0.3.8a8]
+[2023-07-11 13:00:42] INFO root fetch - processPackages [papertronics-sdk]: Remove: archive file [/home/abi/fetcher/tmp/papertronics-sdk-0.0.29.tar.gz]
+[2023-07-11 13:00:42] INFO root fetch - processPackages [papertronics-sdk]: Remove: archive file [/home/abi/fetcher/tmp/papertronics-sdk-0.0.30.tar.gz]
+[2023-07-11 13:00:42] INFO root fetch - main [MainThread]: End processing [papertronics-sdk]: success
+[2023-07-11 13:00:42] INFO root fetch - processPackages [taichu-storage]: Remove: archive file [/home/abi/fetcher/tmp/taichu-storage-0.0.7.tar.gz]
+[2023-07-11 13:00:42] INFO root fetch - processPackages [taichu-storage]: Remove: archive file [/home/abi/fetcher/tmp/taichu-storage-0.0.8.tar.gz]
+[2023-07-11 13:00:42] INFO root fetch - main [MainThread]: End processing [taichu-storage]: success
+[2023-07-11 13:00:42] INFO root fetch - processPackages [ryantam626-jupyterlab-vim]: Remove: archive file [/home/abi/fetcher/tmp/ryantam626_jupyterlab_vim-0.16.0.tar.gz]
+[2023-07-11 13:00:42] INFO root fetch - processPackages [ryantam626-jupyterlab-vim]: Remove: archive file [/home/abi/fetcher/tmp/ryantam626_jupyterlab_vim-0.16.1.tar.gz]
+[2023-07-11 13:00:42] INFO root fetch - main [MainThread]: End processing [ryantam626-jupyterlab-vim]: success
+[2023-07-11 13:00:42] INFO root fetch - processPackages [pygmtools]: Downloading https://files.pythonhosted.org/packages/f8/8c/1f0e828d7314764991a815dbe13cdb3a9b03dc10a0d897980af025b4904b/pygmtools-0.3.8a8.tar.gz
+[2023-07-11 13:00:42] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-private-bucket-0.0.98.tar.gz]
+[2023-07-11 13:00:42] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-private-bucket-0.0.99.tar.gz]
+[2023-07-11 13:00:42] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-private-bucket]: success
+[2023-07-11 13:00:43] INFO root fetch - processPackages [satosa-oidcop]: Remove: archive file [/home/abi/fetcher/tmp/satosa_oidcop-2.0.3.tar.gz]
+[2023-07-11 13:00:43] INFO root fetch - processPackages [satosa-oidcop]: Remove: archive file [/home/abi/fetcher/tmp/satosa_oidcop-2.1.0.tar.gz]
+[2023-07-11 13:00:43] INFO root fetch - main [MainThread]: End processing [satosa-oidcop]: success
+[2023-07-11 13:00:43] INFO root fetch - processPackages [picamera2]: Remove: archive file [/home/abi/fetcher/tmp/picamera2-0.3.8.tar.gz]
+[2023-07-11 13:00:43] INFO root fetch - processPackages [picamera2]: Remove: archive file [/home/abi/fetcher/tmp/picamera2-0.3.9.tar.gz]
+[2023-07-11 13:00:43] INFO root fetch - main [MainThread]: End processing [picamera2]: success
+[2023-07-11 13:00:43] INFO root fetch - processPackages [pygmtools]: Downloading https://files.pythonhosted.org/packages/18/09/d9f8c479401206e79acfd70dcc8e5c470fb93666058fba5469022d832019/pygmtools-0.3.8a9.tar.gz
+[2023-07-11 13:00:43] INFO root fetch - processPackages [skale.py]: Remove: archive file [/home/abi/fetcher/tmp/skale.py-6.0.dev3.tar.gz]
+[2023-07-11 13:00:43] INFO root fetch - processPackages [skale.py]: Remove: archive file [/home/abi/fetcher/tmp/skale.py-6.0.dev4.tar.gz]
+[2023-07-11 13:00:43] INFO root fetch - main [MainThread]: End processing [skale.py]: success
+[2023-07-11 13:00:43] INFO root fetch - processPackages [tidevice]: Remove: archive file [/home/abi/fetcher/tmp/tidevice-0.9.8.tar.gz]
+[2023-07-11 13:00:43] INFO root fetch - processPackages [tidevice]: Remove: archive file [/home/abi/fetcher/tmp/tidevice-0.9.9.tar.gz]
+[2023-07-11 13:00:43] INFO root fetch - main [MainThread]: End processing [tidevice]: success
+[2023-07-11 13:00:43] INFO root fetch - processPackages [pygmtools]: executing diffoscope
+[2023-07-11 13:00:43] INFO root fetch - processPackages [pygmtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygmtools-0.3.8a8.tar.gz tmp/pygmtools-0.3.8a9.tar.gz --markdown 20230711/p/pygmtools/0.3.8a8-0.3.8a9/diff.md --exclude *.pyd
+[2023-07-11 13:00:44] INFO root fetch - processPackages [pygmtools]: Remove: archive file [/home/abi/fetcher/tmp/pygmtools-0.3.8a8.tar.gz]
+[2023-07-11 13:00:44] INFO root fetch - processPackages [pygmtools]: Remove: archive file [/home/abi/fetcher/tmp/pygmtools-0.3.8a9.tar.gz]
+[2023-07-11 13:00:44] INFO root fetch - main [MainThread]: End processing [pygmtools]: success
+[2023-07-11 13:00:44] INFO root fetch - processPackages [VisionFive.gpio]: Remove: archive file [/home/abi/fetcher/tmp/VisionFive.gpio-1.2.12-cp34-abi3-any.whl.zip]
+[2023-07-11 13:00:44] INFO root fetch - processPackages [VisionFive.gpio]: Remove: archive file [/home/abi/fetcher/tmp/VisionFive.gpio-1.2.14-cp310-cp310-any.whl.zip]
+[2023-07-11 13:00:44] INFO root fetch - main [MainThread]: End processing [VisionFive.gpio]: success
+[2023-07-11 13:00:44] INFO root fetch - main [MainThread]: Store serial: [18844078]
