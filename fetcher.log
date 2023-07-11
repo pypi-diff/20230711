@@ -15965,3 +15965,194 @@ AssertionError: tmp/doctran-0.0.6.tar.gz does not exist
 [2023-07-11 12:01:15] INFO root fetch - processPackages [libres]: Remove: archive file [/home/abi/fetcher/tmp/libres-0.7.0.tar.gz]
 [2023-07-11 12:01:15] INFO root fetch - main [MainThread]: End processing [libres]: success
 [2023-07-11 12:01:15] INFO root fetch - main [MainThread]: Store serial: [18843460]
+[2023-07-11 12:06:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18843460]
+[2023-07-11 12:06:36] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-07-11 12:06:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: easy-terminal
+[2023-07-11 12:06:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openlane
+[2023-07-11 12:06:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pydcc
+[2023-07-11 12:06:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bicleaner-ai
+[2023-07-11 12:06:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: matlab-proxy
+[2023-07-11 12:06:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: smart-vector
+[2023-07-11 12:06:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pref-voting
+[2023-07-11 12:06:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: threedidepth
+[2023-07-11 12:06:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: FedArtML
+[2023-07-11 12:06:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: splashlab
+[2023-07-11 12:06:37] INFO root fetch - processPackages [bicleaner-ai]: New version: [2.3] Old Version: [2.2.2]
+[2023-07-11 12:06:37] INFO root fetch - processPackages [smart-vector]: New version: [0.1.dev735] Old Version: [0.1.dev734]
+[2023-07-11 12:06:37] INFO root fetch - processPackages [FedArtML]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-11 12:06:37] INFO root fetch - processPackages [pydcc]: New version: [0.2.24] Old Version: [0.2.23]
+[2023-07-11 12:06:37] INFO root fetch - processPackages [matlab-proxy]: New version: [0.7.2] Old Version: [0.7.0]
+[2023-07-11 12:06:37] INFO root fetch - processPackages [easy-terminal]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-07-11 12:06:37] INFO root fetch - processPackages [openlane]: New version: [2.0.0a9] Old Version: [2.0.0a8]
+[2023-07-11 12:06:37] INFO root fetch - processPackages [splashlab]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-11 12:06:37] INFO root fetch - processPackages [threedidepth]: New version: [0.6.1] Old Version: [0.5]
+[2023-07-11 12:06:37] INFO root fetch - processPackages [pref-voting]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-07-11 12:06:37] INFO root fetch - processPackages [FedArtML]: Downloading https://files.pythonhosted.org/packages/f2/e0/c2df23cf55a2dc762d772ef2cb885e353d6a7a6311f9377fbc3601775946/FedArtML-0.1.8.tar.gz
+[2023-07-11 12:06:37] INFO root fetch - processPackages [pref-voting]: Downloading https://files.pythonhosted.org/packages/77/25/ffa5ff3e018fc7f7c9fb8831d3ec2f3537f5fb2b9ae6b49310fcdce19d48/pref_voting-0.4.8.tar.gz
+[2023-07-11 12:06:37] INFO root fetch - processPackages [smart-vector]: Downloading https://files.pythonhosted.org/packages/8b/86/cd8c1c4d7a6d679570d9f0f9293b814a0e3e86703298fab9abb406c9e9e5/smart_vector-0.1.dev734.tar.gz
+[2023-07-11 12:06:37] INFO root fetch - processPackages [openlane]: Downloading https://files.pythonhosted.org/packages/f9/e1/2bc6d40f7a838d2e5cfcd0d8b4d3b5f2a822440b2a94b0ce02148cab52bc/openlane-2.0.0a8.tar.gz
+[2023-07-11 12:06:37] INFO root fetch - processPackages [matlab-proxy]: Downloading https://files.pythonhosted.org/packages/ab/10/aee0717a9765d163b87b58254dac2bea4c5a7f3b8822ddf34ca57656b387/matlab-proxy-0.7.0.tar.gz
+[2023-07-11 12:06:37] INFO root fetch - processPackages [pydcc]: Downloading https://files.pythonhosted.org/packages/00/21/09ad73586cb4694b22677675ffbdbbfcf6d515d63e52fe3a58e813359524/pydcc-0.2.23-py2.py3-none-any.whl
+[2023-07-11 12:06:37] INFO root fetch - processPackages [bicleaner-ai]: Downloading https://files.pythonhosted.org/packages/ed/bb/5facfa311de13da4360c12853543715252d637471364a01c8c60b58c4b15/bicleaner-ai-2.2.2.tar.gz
+[2023-07-11 12:06:37] INFO root fetch - processPackages [threedidepth]: Downloading https://files.pythonhosted.org/packages/05/44/6dc056b4bd025b20a0c23e0cd7164f7f764fe7c7df0d858e0431f851a6d2/threedidepth-0.5.tar.gz
+[2023-07-11 12:06:37] INFO root fetch - processPackages [easy-terminal]: Downloading https://files.pythonhosted.org/packages/2c/5e/8d4caec4791fb5998b19e3e04b2e766a564d3b9fdf3fd636aca127c07eb7/easy-terminal-0.6.1.tar.gz
+[2023-07-11 12:06:37] INFO root fetch - processPackages [splashlab]: Downloading https://files.pythonhosted.org/packages/f4/61/daec8b865651d30336f3f746e1a3498d0da73cda961bcd9f0183cff84477/splashlab-0.0.8.tar.gz
+[2023-07-11 12:06:37] INFO root fetch - processPackages [FedArtML]: Downloading https://files.pythonhosted.org/packages/3b/c0/e904e477eb20a05047137d0945a73ab54386b2b74bfc5ca073cbf80c33fb/FedArtML-0.1.9.tar.gz
+[2023-07-11 12:06:37] INFO root fetch - processPackages [pref-voting]: Downloading https://files.pythonhosted.org/packages/25/33/15bd2e1b3749a053085a61c8c9e6deafd9ffce855827db1f7ad34acb69bb/pref_voting-0.4.9.tar.gz
+[2023-07-11 12:06:37] INFO root fetch - processPackages [openlane]: Downloading https://files.pythonhosted.org/packages/3b/36/ef13f9e1e09e4ec49090d033dcc88d1ce603bd51886f214690e50b2e5357/openlane-2.0.0a9.tar.gz
+[2023-07-11 12:06:37] INFO root fetch - processPackages [FedArtML]: executing diffoscope
+[2023-07-11 12:06:37] INFO root fetch - processPackages [FedArtML]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FedArtML-0.1.8.tar.gz tmp/FedArtML-0.1.9.tar.gz --markdown 20230711/F/FedArtML/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-11 12:06:38] INFO root fetch - processPackages [pydcc]: Downloading https://files.pythonhosted.org/packages/08/a7/76b06d78f4e2570080055dfcc03ba6e14a55753f049a03125259ca70655a/pydcc-0.2.24.tar.gz
+[2023-07-11 12:06:38] INFO root fetch - processPackages [pref-voting]: executing diffoscope
+[2023-07-11 12:06:38] INFO root fetch - processPackages [pref-voting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pref_voting-0.4.8.tar.gz tmp/pref_voting-0.4.9.tar.gz --markdown 20230711/p/pref-voting/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-07-11 12:06:38] INFO root fetch - processPackages [smart-vector]: Downloading https://files.pythonhosted.org/packages/80/6d/198dd4cd98a181a5a69e6f42616a92401791baf9e148a4a2e44a512a06f9/smart_vector-0.1.dev735.tar.gz
+[2023-07-11 12:06:38] INFO root fetch - processPackages [splashlab]: Downloading https://files.pythonhosted.org/packages/77/ec/2608c5bae18854b26dbad44a6158ed55a0202163e276a74afb95381acac9/splashlab-0.0.9.tar.gz
+[2023-07-11 12:06:38] INFO root fetch - processPackages [openlane]: executing diffoscope
+[2023-07-11 12:06:38] INFO root fetch - processPackages [openlane]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openlane-2.0.0a8.tar.gz tmp/openlane-2.0.0a9.tar.gz --markdown 20230711/o/openlane/2.0.0a8-2.0.0a9/diff.md --exclude *.pyd
+[2023-07-11 12:06:38] INFO root fetch - processPackages [pydcc]: executing diffoscope
+[2023-07-11 12:06:38] INFO root fetch - processPackages [pydcc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydcc-0.2.23-py2.py3-none-any.whl.zip tmp/pydcc-0.2.24.tar.gz --markdown 20230711/p/pydcc/0.2.23-0.2.24/diff.md --exclude *.pyd
+[2023-07-11 12:06:38] INFO root fetch - processPackages [easy-terminal]: Downloading https://files.pythonhosted.org/packages/d4/21/2edf3c8a201b325a9785e3aa57d3e5b2cf89701f766162a9ebae5d75c54f/easy-terminal-0.6.2.tar.gz
+[2023-07-11 12:06:38] INFO root fetch - processPackages [bicleaner-ai]: Downloading https://files.pythonhosted.org/packages/84/42/910ec31a3c61a12aabbc07f02aa190e9435bfe0dc7aeba7dac87e0caba55/bicleaner-ai-2.3.tar.gz
+[2023-07-11 12:06:38] INFO root fetch - processPackages [matlab-proxy]: Downloading https://files.pythonhosted.org/packages/e3/a7/64aaaf2407e7011051b531f181b4005fd954f8fc7941af5d77d4346bc973/matlab-proxy-0.7.2.tar.gz
+[2023-07-11 12:06:38] INFO root fetch - processPackages [threedidepth]: Downloading https://files.pythonhosted.org/packages/5c/5c/a94c463e6f307e196b274e27751dad1abae35192221a20225f5874764134/threedidepth-0.6.1.tar.gz
+[2023-07-11 12:06:38] INFO root fetch - processPackages [bicleaner-ai]: executing diffoscope
+[2023-07-11 12:06:38] INFO root fetch - processPackages [bicleaner-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bicleaner-ai-2.2.2.tar.gz tmp/bicleaner-ai-2.3.tar.gz --markdown 20230711/b/bicleaner-ai/2.2.2-2.3/diff.md --exclude *.pyd
+[2023-07-11 12:06:38] INFO root fetch - processPackages [smart-vector]: executing diffoscope
+[2023-07-11 12:06:38] INFO root fetch - processPackages [smart-vector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smart_vector-0.1.dev734.tar.gz tmp/smart_vector-0.1.dev735.tar.gz --markdown 20230711/s/smart-vector/0.1.dev734-0.1.dev735/diff.md --exclude *.pyd
+[2023-07-11 12:06:38] INFO root fetch - processPackages [splashlab]: executing diffoscope
+[2023-07-11 12:06:38] INFO root fetch - processPackages [splashlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/splashlab-0.0.8.tar.gz tmp/splashlab-0.0.9.tar.gz --markdown 20230711/s/splashlab/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-11 12:06:38] INFO root fetch - processPackages [easy-terminal]: executing diffoscope
+[2023-07-11 12:06:38] INFO root fetch - processPackages [easy-terminal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy-terminal-0.6.1.tar.gz tmp/easy-terminal-0.6.2.tar.gz --markdown 20230711/e/easy-terminal/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-07-11 12:06:38] INFO root fetch - processPackages [matlab-proxy]: executing diffoscope
+[2023-07-11 12:06:38] INFO root fetch - processPackages [matlab-proxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matlab-proxy-0.7.0.tar.gz tmp/matlab-proxy-0.7.2.tar.gz --markdown 20230711/m/matlab-proxy/0.7.0-0.7.2/diff.md --exclude *.pyd
+[2023-07-11 12:06:38] INFO root fetch - processPackages [threedidepth]: executing diffoscope
+[2023-07-11 12:06:38] INFO root fetch - processPackages [threedidepth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threedidepth-0.5.tar.gz tmp/threedidepth-0.6.1.tar.gz --markdown 20230711/t/threedidepth/0.5-0.6.1/diff.md --exclude *.pyd
+[2023-07-11 12:06:39] INFO root fetch - processPackages [FedArtML]: Remove: archive file [/home/abi/fetcher/tmp/FedArtML-0.1.8.tar.gz]
+[2023-07-11 12:06:39] INFO root fetch - processPackages [FedArtML]: Remove: archive file [/home/abi/fetcher/tmp/FedArtML-0.1.9.tar.gz]
+[2023-07-11 12:06:39] INFO root fetch - processPackages [FedArtML]: Start processing: certora-cli-alpha-master
+[2023-07-11 12:06:39] INFO root fetch - main [MainThread]: End processing [FedArtML]: success
+[2023-07-11 12:06:39] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230711.10.2.772916] Old Version: [20230710.9.1.470895]
+[2023-07-11 12:06:39] INFO root fetch - processPackages [pydcc]: Remove: archive file [/home/abi/fetcher/tmp/pydcc-0.2.23-py2.py3-none-any.whl.zip]
+[2023-07-11 12:06:39] INFO root fetch - processPackages [pydcc]: Remove: archive file [/home/abi/fetcher/tmp/pydcc-0.2.24.tar.gz]
+[2023-07-11 12:06:39] INFO root fetch - processPackages [pydcc]: Start processing: st-pandas-text-editor
+[2023-07-11 12:06:39] INFO root fetch - main [MainThread]: End processing [pydcc]: success
+[2023-07-11 12:06:39] INFO root fetch - processPackages [st-pandas-text-editor]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-11 12:06:39] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/fc/2c/85fc26e2b588cd26d3644aa88c44c980866fe84d445405492bcecd92b2c2/certora-cli-alpha-master-20230710.9.1.470895.tar.gz
+[2023-07-11 12:06:39] INFO root fetch - processPackages [st-pandas-text-editor]: Downloading https://files.pythonhosted.org/packages/9d/7d/8484b09b3a3f629205cd1ff28664f90bd5f3d3fdffb4e151cbff3e9cd200/st_pandas_text_editor-0.0.1.tar.gz
+[2023-07-11 12:06:39] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 37465001>=10485760
+[2023-07-11 12:06:39] INFO root fetch - processPackages [certora-cli-alpha-master]: Start processing: omicverse
+[2023-07-11 12:06:39] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-07-11 12:06:39] INFO root fetch - processPackages [pref-voting]: Remove: archive file [/home/abi/fetcher/tmp/pref_voting-0.4.8.tar.gz]
+[2023-07-11 12:06:39] INFO root fetch - processPackages [pref-voting]: Remove: archive file [/home/abi/fetcher/tmp/pref_voting-0.4.9.tar.gz]
+[2023-07-11 12:06:39] INFO root fetch - processPackages [pref-voting]: Start processing: odxtools
+[2023-07-11 12:06:39] INFO root fetch - main [MainThread]: End processing [pref-voting]: success
+[2023-07-11 12:06:39] INFO root fetch - processPackages [omicverse]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-07-11 12:06:39] INFO root fetch - processPackages [odxtools]: New version: [4.0.5] Old Version: [4.0.4]
+[2023-07-11 12:06:40] INFO root fetch - processPackages [threedidepth]: Remove: archive file [/home/abi/fetcher/tmp/threedidepth-0.5.tar.gz]
+[2023-07-11 12:06:40] INFO root fetch - processPackages [threedidepth]: Remove: archive file [/home/abi/fetcher/tmp/threedidepth-0.6.1.tar.gz]
+[2023-07-11 12:06:40] INFO root fetch - processPackages [threedidepth]: Start processing: fastchecks
+[2023-07-11 12:06:40] INFO root fetch - main [MainThread]: End processing [threedidepth]: success
+[2023-07-11 12:06:40] INFO root fetch - processPackages [easy-terminal]: Remove: archive file [/home/abi/fetcher/tmp/easy-terminal-0.6.1.tar.gz]
+[2023-07-11 12:06:40] INFO root fetch - processPackages [easy-terminal]: Remove: archive file [/home/abi/fetcher/tmp/easy-terminal-0.6.2.tar.gz]
+[2023-07-11 12:06:40] INFO root fetch - processPackages [easy-terminal]: Start processing: adbench
+[2023-07-11 12:06:40] INFO root fetch - main [MainThread]: End processing [easy-terminal]: success
+[2023-07-11 12:06:40] INFO root fetch - processPackages [omicverse]: Downloading https://files.pythonhosted.org/packages/65/e7/7af99817b6a4daeccfd1d730da16caa5534e801d1a03773924bcef64cfe9/omicverse-1.4.8.tar.gz
+[2023-07-11 12:06:40] INFO root fetch - processPackages [fastchecks]: New version: [0.1.0rc5] Old Version: [0.1.0rc4]
+[2023-07-11 12:06:40] INFO root fetch - processPackages [bicleaner-ai]: Remove: archive file [/home/abi/fetcher/tmp/bicleaner-ai-2.2.2.tar.gz]
+[2023-07-11 12:06:40] INFO root fetch - processPackages [bicleaner-ai]: Remove: archive file [/home/abi/fetcher/tmp/bicleaner-ai-2.3.tar.gz]
+[2023-07-11 12:06:40] INFO root fetch - processPackages [odxtools]: Downloading https://files.pythonhosted.org/packages/c4/29/2c226a8ad39bfb777d9c0ae083beff8402841a12963fd033bc2d15eee826/odxtools-4.0.4.tar.gz
+[2023-07-11 12:06:40] INFO root fetch - processPackages [bicleaner-ai]: Start processing: swh.lister
+[2023-07-11 12:06:40] INFO root fetch - main [MainThread]: End processing [bicleaner-ai]: success
+[2023-07-11 12:06:40] WARNING root fetch - processPackages [adbench]: Skipping, unable to determine old version
+[2023-07-11 12:06:40] INFO root fetch - processPackages [adbench]: Start processing: pudu
+[2023-07-11 12:06:40] INFO root fetch - main [MainThread]: End processing [adbench] error
+[2023-07-11 12:06:40] INFO root fetch - processPackages [splashlab]: Remove: archive file [/home/abi/fetcher/tmp/splashlab-0.0.8.tar.gz]
+[2023-07-11 12:06:40] INFO root fetch - processPackages [splashlab]: Remove: archive file [/home/abi/fetcher/tmp/splashlab-0.0.9.tar.gz]
+[2023-07-11 12:06:40] INFO root fetch - processPackages [splashlab]: Start processing: pref-voting
+[2023-07-11 12:06:40] INFO root fetch - main [MainThread]: End processing [splashlab]: success
+[2023-07-11 12:06:40] INFO root fetch - processPackages [pudu]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-11 12:06:40] INFO root fetch - processPackages [pref-voting]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-07-11 12:06:40] INFO root fetch - processPackages [fastchecks]: Downloading https://files.pythonhosted.org/packages/db/d3/36491dc86840ab0b1948f360ecc1a4090d01437a1fdaff0487fe26f34255/fastchecks-0.1.0rc4.tar.gz
+[2023-07-11 12:06:40] INFO root fetch - processPackages [st-pandas-text-editor]: Downloading https://files.pythonhosted.org/packages/5e/b7/994b3a1d7b8d64fbeeb96b7236bdf82833dc45c5f3d29a99dd1e4a2a8cec/st_pandas_text_editor-0.0.2.tar.gz
+[2023-07-11 12:06:40] INFO root fetch - processPackages [swh.lister]: New version: [5.8.0] Old Version: [5.7.4]
+[2023-07-11 12:06:40] INFO root fetch - processPackages [pref-voting]: Downloading https://files.pythonhosted.org/packages/77/25/ffa5ff3e018fc7f7c9fb8831d3ec2f3537f5fb2b9ae6b49310fcdce19d48/pref_voting-0.4.8.tar.gz
+[2023-07-11 12:06:40] INFO root fetch - processPackages [openlane]: Remove: archive file [/home/abi/fetcher/tmp/openlane-2.0.0a8.tar.gz]
+[2023-07-11 12:06:40] INFO root fetch - processPackages [openlane]: Remove: archive file [/home/abi/fetcher/tmp/openlane-2.0.0a9.tar.gz]
+[2023-07-11 12:06:40] INFO root fetch - processPackages [openlane]: Start processing: qiskit-han
+[2023-07-11 12:06:40] INFO root fetch - main [MainThread]: End processing [openlane]: success
+[2023-07-11 12:06:40] INFO root fetch - processPackages [st-pandas-text-editor]: executing diffoscope
+[2023-07-11 12:06:40] INFO root fetch - processPackages [st-pandas-text-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/st_pandas_text_editor-0.0.1.tar.gz tmp/st_pandas_text_editor-0.0.2.tar.gz --markdown 20230711/s/st-pandas-text-editor/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-11 12:06:40] INFO root fetch - processPackages [qiskit-han]: New version: [0.5.0] Old Version: [0.0.5]
+[2023-07-11 12:06:40] INFO root fetch - processPackages [pudu]: Downloading https://files.pythonhosted.org/packages/2b/77/61d470ab2536224f138501d9aeee432ecd3c8256e744a20f644869f94cf3/pudu-0.3.0.tar.gz
+[2023-07-11 12:06:40] INFO root fetch - processPackages [odxtools]: Downloading https://files.pythonhosted.org/packages/2c/cc/795b09496bacb49c11dee0f6be4aacb557bd6f983806595ea4272e00b721/odxtools-4.0.5.tar.gz
+[2023-07-11 12:06:40] INFO root fetch - processPackages [swh.lister]: Downloading https://files.pythonhosted.org/packages/32/86/8a2e8ef993f3ec338a238a9bb003ee39d7d375b5049c636a056394f972f1/swh.lister-5.7.4.tar.gz
+[2023-07-11 12:06:40] INFO root fetch - processPackages [smart-vector]: Remove: archive file [/home/abi/fetcher/tmp/smart_vector-0.1.dev734.tar.gz]
+[2023-07-11 12:06:40] INFO root fetch - processPackages [smart-vector]: Remove: archive file [/home/abi/fetcher/tmp/smart_vector-0.1.dev735.tar.gz]
+[2023-07-11 12:06:40] INFO root fetch - processPackages [smart-vector]: Start processing: opn-sonarqube-api
+[2023-07-11 12:06:40] INFO root fetch - main [MainThread]: End processing [smart-vector]: success
+[2023-07-11 12:06:40] INFO root fetch - processPackages [pref-voting]: Downloading https://files.pythonhosted.org/packages/25/33/15bd2e1b3749a053085a61c8c9e6deafd9ffce855827db1f7ad34acb69bb/pref_voting-0.4.9.tar.gz
+[2023-07-11 12:06:40] INFO root fetch - processPackages [qiskit-han]: Downloading https://files.pythonhosted.org/packages/4d/74/1e9831a22143439bb884f6b75b4fc43a86ef8cde6e94a307286bfd0638c6/qiskit_han-0.0.5.tar.gz
+[2023-07-11 12:06:40] INFO root fetch - processPackages [matlab-proxy]: Remove: archive file [/home/abi/fetcher/tmp/matlab-proxy-0.7.0.tar.gz]
+[2023-07-11 12:06:40] INFO root fetch - processPackages [matlab-proxy]: Remove: archive file [/home/abi/fetcher/tmp/matlab-proxy-0.7.2.tar.gz]
+[2023-07-11 12:06:40] INFO root fetch - processPackages [matlab-proxy]: Start processing: dataclass-array
+[2023-07-11 12:06:40] INFO root fetch - main [MainThread]: End processing [matlab-proxy]: success
+[2023-07-11 12:06:40] INFO root fetch - processPackages [odxtools]: executing diffoscope
+[2023-07-11 12:06:40] INFO root fetch - processPackages [odxtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odxtools-4.0.4.tar.gz tmp/odxtools-4.0.5.tar.gz --markdown 20230711/o/odxtools/4.0.4-4.0.5/diff.md --exclude *.pyd
+[2023-07-11 12:06:40] INFO root fetch - processPackages [omicverse]: Downloading https://files.pythonhosted.org/packages/66/c8/f57e969d7ae412b92fa97e857ccb04286c18bd60cd1464a2e1ef11fb5351/omicverse-1.4.9.tar.gz
+[2023-07-11 12:06:40] INFO root fetch - processPackages [fastchecks]: Downloading https://files.pythonhosted.org/packages/19/91/a8a7cc4058adf3d69be46380cc9d4894f05d9572814122f9ae13ee0541fc/fastchecks-0.1.0rc5.tar.gz
+[2023-07-11 12:06:40] INFO root fetch - processPackages [opn-sonarqube-api]: New version: [2.3.3.3143527] Old Version: [2.3.3.3089652]
+[2023-07-11 12:06:40] INFO root fetch - processPackages [pref-voting]: executing diffoscope
+[2023-07-11 12:06:40] INFO root fetch - processPackages [pref-voting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pref_voting-0.4.8.tar.gz tmp/pref_voting-0.4.9.tar.gz --markdown 20230711/p/pref-voting/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-07-11 12:06:40] INFO root fetch - processPackages [dataclass-array]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-07-11 12:06:40] INFO root fetch - processPackages [pudu]: Downloading https://files.pythonhosted.org/packages/60/14/5a89eabfe639dca3a209fb07385ade5e14be75449e60fdf6f516d28326e1/pudu-0.3.1.tar.gz
+[2023-07-11 12:06:40] INFO root fetch - processPackages [qiskit-han]: Downloading https://files.pythonhosted.org/packages/80/a3/3b6b3c79be3c7392be8722a637220db0f419b61ab94203f72386fc42741b/qiskit_han-0.5.0.tar.gz
+[2023-07-11 12:06:40] INFO root fetch - processPackages [fastchecks]: executing diffoscope
+[2023-07-11 12:06:40] INFO root fetch - processPackages [fastchecks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastchecks-0.1.0rc4.tar.gz tmp/fastchecks-0.1.0rc5.tar.gz --markdown 20230711/f/fastchecks/0.1.0rc4-0.1.0rc5/diff.md --exclude *.pyd
+[2023-07-11 12:06:40] INFO root fetch - processPackages [pudu]: executing diffoscope
+[2023-07-11 12:06:40] INFO root fetch - processPackages [pudu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pudu-0.3.0.tar.gz tmp/pudu-0.3.1.tar.gz --markdown 20230711/p/pudu/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-11 12:06:41] INFO root fetch - processPackages [swh.lister]: Downloading https://files.pythonhosted.org/packages/a4/da/c9759339b836bbcfdc84806fa91b99166dd855a8996b45e72f30da847e50/swh.lister-5.8.0.tar.gz
+[2023-07-11 12:06:41] INFO root fetch - processPackages [qiskit-han]: executing diffoscope
+[2023-07-11 12:06:41] INFO root fetch - processPackages [qiskit-han]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qiskit_han-0.0.5.tar.gz tmp/qiskit_han-0.5.0.tar.gz --markdown 20230711/q/qiskit-han/0.0.5-0.5.0/diff.md --exclude *.pyd
+[2023-07-11 12:06:41] INFO root fetch - processPackages [opn-sonarqube-api]: Downloading https://files.pythonhosted.org/packages/b2/68/57c6e8183bb202c84c75beb504d6bba92a4a2fc8737880b5aff337af1250/opn_sonarqube_api-2.3.3.3089652.tar.gz
+[2023-07-11 12:06:41] INFO root fetch - processPackages [omicverse]: executing diffoscope
+[2023-07-11 12:06:41] INFO root fetch - processPackages [omicverse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omicverse-1.4.8.tar.gz tmp/omicverse-1.4.9.tar.gz --markdown 20230711/o/omicverse/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-07-11 12:06:41] INFO root fetch - processPackages [dataclass-array]: Downloading https://files.pythonhosted.org/packages/e8/dd/8e03c721b8edac6df26d627298e16b894349d401b33d73dddbdaa05b5d25/dataclass_array-1.4.1.tar.gz
+[2023-07-11 12:06:41] INFO root fetch - processPackages [swh.lister]: executing diffoscope
+[2023-07-11 12:06:41] INFO root fetch - processPackages [swh.lister]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swh.lister-5.7.4.tar.gz tmp/swh.lister-5.8.0.tar.gz --markdown 20230711/s/swh.lister/5.7.4-5.8.0/diff.md --exclude *.pyd
+[2023-07-11 12:06:41] INFO root fetch - processPackages [opn-sonarqube-api]: Downloading https://files.pythonhosted.org/packages/42/4c/f02a7c69ff1eaaff4546e54cfccdafa434da310ad53793a66e932c380623/opn_sonarqube_api-2.3.3.3143527.tar.gz
+[2023-07-11 12:06:41] INFO root fetch - processPackages [dataclass-array]: Downloading https://files.pythonhosted.org/packages/cb/1c/c6113c1598b2f39e1528c6ee1b217c9880c1365106f2cf808f4cc71d9182/dataclass_array-1.4.2.tar.gz
+[2023-07-11 12:06:41] INFO root fetch - processPackages [opn-sonarqube-api]: executing diffoscope
+[2023-07-11 12:06:41] INFO root fetch - processPackages [opn-sonarqube-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opn_sonarqube_api-2.3.3.3089652.tar.gz tmp/opn_sonarqube_api-2.3.3.3143527.tar.gz --markdown 20230711/o/opn-sonarqube-api/2.3.3.3089652-2.3.3.3143527/diff.md --exclude *.pyd
+[2023-07-11 12:06:41] INFO root fetch - processPackages [dataclass-array]: executing diffoscope
+[2023-07-11 12:06:41] INFO root fetch - processPackages [dataclass-array]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataclass_array-1.4.1.tar.gz tmp/dataclass_array-1.4.2.tar.gz --markdown 20230711/d/dataclass-array/1.4.1-1.4.2/diff.md --exclude *.pyd
+[2023-07-11 12:06:42] INFO root fetch - processPackages [pref-voting]: Remove: archive file [/home/abi/fetcher/tmp/pref_voting-0.4.8.tar.gz]
+[2023-07-11 12:06:42] INFO root fetch - processPackages [pref-voting]: Remove: archive file [/home/abi/fetcher/tmp/pref_voting-0.4.9.tar.gz]
+[2023-07-11 12:06:42] INFO root fetch - main [MainThread]: End processing [pref-voting]: success
+[2023-07-11 12:06:42] INFO root fetch - processPackages [fastchecks]: Remove: archive file [/home/abi/fetcher/tmp/fastchecks-0.1.0rc4.tar.gz]
+[2023-07-11 12:06:42] INFO root fetch - processPackages [fastchecks]: Remove: archive file [/home/abi/fetcher/tmp/fastchecks-0.1.0rc5.tar.gz]
+[2023-07-11 12:06:42] INFO root fetch - main [MainThread]: End processing [fastchecks]: success
+[2023-07-11 12:06:42] INFO root fetch - processPackages [qiskit-han]: Remove: archive file [/home/abi/fetcher/tmp/qiskit_han-0.0.5.tar.gz]
+[2023-07-11 12:06:42] INFO root fetch - processPackages [qiskit-han]: Remove: archive file [/home/abi/fetcher/tmp/qiskit_han-0.5.0.tar.gz]
+[2023-07-11 12:06:42] INFO root fetch - main [MainThread]: End processing [qiskit-han]: success
+[2023-07-11 12:06:42] INFO root fetch - processPackages [pudu]: Remove: archive file [/home/abi/fetcher/tmp/pudu-0.3.0.tar.gz]
+[2023-07-11 12:06:42] INFO root fetch - processPackages [pudu]: Remove: archive file [/home/abi/fetcher/tmp/pudu-0.3.1.tar.gz]
+[2023-07-11 12:06:42] INFO root fetch - main [MainThread]: End processing [pudu]: success
+[2023-07-11 12:06:42] INFO root fetch - processPackages [odxtools]: Remove: archive file [/home/abi/fetcher/tmp/odxtools-4.0.4.tar.gz]
+[2023-07-11 12:06:42] INFO root fetch - processPackages [odxtools]: Remove: archive file [/home/abi/fetcher/tmp/odxtools-4.0.5.tar.gz]
+[2023-07-11 12:06:42] INFO root fetch - main [MainThread]: End processing [odxtools]: success
+[2023-07-11 12:06:43] INFO root fetch - processPackages [opn-sonarqube-api]: Remove: archive file [/home/abi/fetcher/tmp/opn_sonarqube_api-2.3.3.3089652.tar.gz]
+[2023-07-11 12:06:43] INFO root fetch - processPackages [opn-sonarqube-api]: Remove: archive file [/home/abi/fetcher/tmp/opn_sonarqube_api-2.3.3.3143527.tar.gz]
+[2023-07-11 12:06:43] INFO root fetch - main [MainThread]: End processing [opn-sonarqube-api]: success
+[2023-07-11 12:06:43] INFO root fetch - processPackages [dataclass-array]: Remove: archive file [/home/abi/fetcher/tmp/dataclass_array-1.4.1.tar.gz]
+[2023-07-11 12:06:43] INFO root fetch - processPackages [dataclass-array]: Remove: archive file [/home/abi/fetcher/tmp/dataclass_array-1.4.2.tar.gz]
+[2023-07-11 12:06:43] INFO root fetch - main [MainThread]: End processing [dataclass-array]: success
+[2023-07-11 12:06:43] INFO root fetch - processPackages [omicverse]: Remove: archive file [/home/abi/fetcher/tmp/omicverse-1.4.8.tar.gz]
+[2023-07-11 12:06:43] INFO root fetch - processPackages [omicverse]: Remove: archive file [/home/abi/fetcher/tmp/omicverse-1.4.9.tar.gz]
+[2023-07-11 12:06:43] INFO root fetch - main [MainThread]: End processing [omicverse]: success
+[2023-07-11 12:06:44] INFO root fetch - processPackages [swh.lister]: Remove: archive file [/home/abi/fetcher/tmp/swh.lister-5.7.4.tar.gz]
+[2023-07-11 12:06:44] INFO root fetch - processPackages [swh.lister]: Remove: archive file [/home/abi/fetcher/tmp/swh.lister-5.8.0.tar.gz]
+[2023-07-11 12:06:44] INFO root fetch - main [MainThread]: End processing [swh.lister]: success
+[2023-07-11 12:07:35] INFO root fetch - processPackages [st-pandas-text-editor]: Remove: archive file [/home/abi/fetcher/tmp/st_pandas_text_editor-0.0.1.tar.gz]
+[2023-07-11 12:07:35] INFO root fetch - processPackages [st-pandas-text-editor]: Remove: archive file [/home/abi/fetcher/tmp/st_pandas_text_editor-0.0.2.tar.gz]
+[2023-07-11 12:07:35] INFO root fetch - main [MainThread]: End processing [st-pandas-text-editor]: success
+[2023-07-11 12:07:35] INFO root fetch - main [MainThread]: Store serial: [18843529]
