@@ -20761,3 +20761,140 @@ AssertionError: tmp/doctran-0.0.6.tar.gz does not exist
 [2023-07-11 15:01:34] INFO root fetch - processPackages [Geode-Implicit]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Implicit-2.2.0rc1-cp39-cp39-win_amd64.whl.zip]
 [2023-07-11 15:01:34] INFO root fetch - main [MainThread]: End processing [Geode-Implicit]: success
 [2023-07-11 15:01:34] INFO root fetch - main [MainThread]: Store serial: [18845645]
+[2023-07-11 15:06:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18845645]
+[2023-07-11 15:06:43] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-11 15:06:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odd-cli
+[2023-07-11 15:06:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: threads-net
+[2023-07-11 15:06:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: diambra
+[2023-07-11 15:06:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PVNet
+[2023-07-11 15:06:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tellosync
+[2023-07-11 15:06:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: supervisely
+[2023-07-11 15:06:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cg
+[2023-07-11 15:06:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: anylearn
+[2023-07-11 15:06:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tierkreis
+[2023-07-11 15:06:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pytest-nhsd-apim
+[2023-07-11 15:06:43] INFO root fetch - processPackages [supervisely]: New version: [6.9.2] Old Version: [6.9.1]
+[2023-07-11 15:06:43] INFO root fetch - processPackages [odd-cli]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-11 15:06:43] INFO root fetch - processPackages [pytest-nhsd-apim]: New version: [3.3.6] Old Version: [3.3.5]
+[2023-07-11 15:06:43] INFO root fetch - processPackages [tellosync]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-11 15:06:43] INFO root fetch - processPackages [threads-net]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-11 15:06:43] INFO root fetch - processPackages [tierkreis]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-11 15:06:43] INFO root fetch - processPackages [anylearn]: New version: [0.18.2] Old Version: [0.18.1rc1]
+[2023-07-11 15:06:43] INFO root fetch - processPackages [PVNet]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-07-11 15:06:43] INFO root fetch - processPackages [diambra]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-11 15:06:43] INFO root fetch - processPackages [cg]: New version: [38.2.0] Old Version: [38.1.9]
+[2023-07-11 15:06:43] INFO root fetch - processPackages [pytest-nhsd-apim]: Downloading https://files.pythonhosted.org/packages/1e/6f/4d939c6596cd311876dbaa2ef93199dbd15d60e8eb907b4c40fbfb5a644d/pytest-nhsd-apim-3.3.5.tar.gz
+[2023-07-11 15:06:43] INFO root fetch - processPackages [anylearn]: Downloading https://files.pythonhosted.org/packages/3c/81/6f29584dabc54e4be74b335b41d69748e8daaa46b7a600fa15d45fba05cb/anylearn-0.18.1rc1.tar.gz
+[2023-07-11 15:06:43] INFO root fetch - processPackages [threads-net]: Downloading https://files.pythonhosted.org/packages/11/ba/483f4770d7c413aff80cfdfd96da75d50912f6604255f4a04d7e8448a5a1/threads-net-0.0.7.tar.gz
+[2023-07-11 15:06:43] INFO root fetch - processPackages [tellosync]: Downloading https://files.pythonhosted.org/packages/35/52/f7bff8152863d0830f58508e21fae8e77d9a5efa1e8e697bee3469bf830e/tellosync-0.0.7.tar.gz
+[2023-07-11 15:06:43] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/03/bb/a0998fe89de8bc2d918234e4a363b66150577d1dc0b66361eecb23ea9899/cg-38.1.9.tar.gz
+[2023-07-11 15:06:43] INFO root fetch - processPackages [supervisely]: Downloading https://files.pythonhosted.org/packages/bf/5a/d1c5e1830d747d899ac781f368bbd65eb9c02eaf0faf98d318a7dd8cce53/supervisely-6.9.1.tar.gz
+[2023-07-11 15:06:43] INFO root fetch - processPackages [odd-cli]: Downloading https://files.pythonhosted.org/packages/da/28/d59ec31015858eae56e776c482a6d087078806f2a41e3857b6903cecac2a/odd_cli-0.1.8.tar.gz
+[2023-07-11 15:06:43] INFO root fetch - processPackages [PVNet]: Downloading https://files.pythonhosted.org/packages/69/09/f33a8c25bbe470ac36ab6fcbc17dfb91e283c4b4920a26dc0e72553f686c/PVNet-2.1.8.tar.gz
+[2023-07-11 15:06:43] INFO root fetch - processPackages [tierkreis]: Downloading https://files.pythonhosted.org/packages/8e/27/8daa115cd97cb5e61e5864b0ac6e784c15ab2b480e1bb56d5459ed7d2eae/tierkreis-0.1.0.tar.gz
+[2023-07-11 15:06:43] INFO root fetch - processPackages [diambra]: Downloading https://files.pythonhosted.org/packages/fc/26/431ae9f7ba1db20f119b715a454ed935ffec2f60f713b374413de18c27a5/diambra-0.0.8-py3-none-win_amd64.whl
+[2023-07-11 15:06:44] INFO root fetch - processPackages [pytest-nhsd-apim]: Downloading https://files.pythonhosted.org/packages/72/c4/57e467347e2c5fdcf331bbc116ccecb00d22bf829d0d466adcf4e1d22d9c/pytest-nhsd-apim-3.3.6.tar.gz
+[2023-07-11 15:06:44] INFO root fetch - processPackages [threads-net]: Downloading https://files.pythonhosted.org/packages/de/bd/e372c12fe307c562ec3785151d74201431eddd2312171d55b8ee4ac81db6/threads-net-0.0.8.tar.gz
+[2023-07-11 15:06:44] INFO root fetch - processPackages [anylearn]: Downloading https://files.pythonhosted.org/packages/e4/58/6c5bc70138e64219361e0c8a45559e2132b66c9a9cff13708763fe3de445/anylearn-0.18.2.tar.gz
+[2023-07-11 15:06:44] INFO root fetch - processPackages [threads-net]: executing diffoscope
+[2023-07-11 15:06:44] INFO root fetch - processPackages [threads-net]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threads-net-0.0.7.tar.gz tmp/threads-net-0.0.8.tar.gz --markdown 20230711/t/threads-net/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-11 15:06:44] INFO root fetch - processPackages [pytest-nhsd-apim]: executing diffoscope
+[2023-07-11 15:06:44] INFO root fetch - processPackages [pytest-nhsd-apim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-nhsd-apim-3.3.5.tar.gz tmp/pytest-nhsd-apim-3.3.6.tar.gz --markdown 20230711/p/pytest-nhsd-apim/3.3.5-3.3.6/diff.md --exclude *.pyd
+[2023-07-11 15:06:44] INFO root fetch - processPackages [tierkreis]: Downloading https://files.pythonhosted.org/packages/60/bc/9bec6af8fe434b6aa92372f5d4d3945650f3da712f384623cddd8e2df256/tierkreis-0.2.0.tar.gz
+[2023-07-11 15:06:44] INFO root fetch - processPackages [anylearn]: executing diffoscope
+[2023-07-11 15:06:44] INFO root fetch - processPackages [anylearn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anylearn-0.18.1rc1.tar.gz tmp/anylearn-0.18.2.tar.gz --markdown 20230711/a/anylearn/0.18.1rc1-0.18.2/diff.md --exclude *.pyd
+[2023-07-11 15:06:44] INFO root fetch - processPackages [PVNet]: Downloading https://files.pythonhosted.org/packages/d4/ba/ef96e95b87f300f958926cc7928727e003991e00e4da411929847acb2b71/PVNet-2.1.9.tar.gz
+[2023-07-11 15:06:44] INFO root fetch - processPackages [odd-cli]: Downloading https://files.pythonhosted.org/packages/f9/f5/14c61e8cbd460872feffaa66736fc22bb7b7ec0e7dd265674cd0d657ccc4/odd_cli-0.1.9.tar.gz
+[2023-07-11 15:06:44] INFO root fetch - processPackages [tierkreis]: executing diffoscope
+[2023-07-11 15:06:44] INFO root fetch - processPackages [tierkreis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tierkreis-0.1.0.tar.gz tmp/tierkreis-0.2.0.tar.gz --markdown 20230711/t/tierkreis/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-11 15:06:44] INFO root fetch - processPackages [odd-cli]: executing diffoscope
+[2023-07-11 15:06:44] INFO root fetch - processPackages [odd-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odd_cli-0.1.8.tar.gz tmp/odd_cli-0.1.9.tar.gz --markdown 20230711/o/odd-cli/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-11 15:06:44] INFO root fetch - processPackages [PVNet]: executing diffoscope
+[2023-07-11 15:06:44] INFO root fetch - processPackages [PVNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PVNet-2.1.8.tar.gz tmp/PVNet-2.1.9.tar.gz --markdown 20230711/P/PVNet/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-07-11 15:06:44] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/00/e9/a2e2b5f68b2c2aabac571be4550fc1169d11860d356841644f40ac16d135/cg-38.2.0.tar.gz
+[2023-07-11 15:06:44] INFO root fetch - processPackages [tellosync]: Downloading https://files.pythonhosted.org/packages/fa/22/5701ee38f8c4ac062f2b126e357953c988da604c90125374293743eee6ba/tellosync-0.0.8.tar.gz
+[2023-07-11 15:06:45] INFO root fetch - processPackages [supervisely]: Downloading https://files.pythonhosted.org/packages/bf/56/78987e56220fcb935013105de97143fb9371ba9732a7dcdcb9451350a28f/supervisely-6.9.2.tar.gz
+[2023-07-11 15:06:45] INFO root fetch - processPackages [tellosync]: executing diffoscope
+[2023-07-11 15:06:45] INFO root fetch - processPackages [tellosync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tellosync-0.0.7.tar.gz tmp/tellosync-0.0.8.tar.gz --markdown 20230711/t/tellosync/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-11 15:06:45] INFO root fetch - processPackages [supervisely]: executing diffoscope
+[2023-07-11 15:06:45] INFO root fetch - processPackages [supervisely]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/supervisely-6.9.1.tar.gz tmp/supervisely-6.9.2.tar.gz --markdown 20230711/s/supervisely/6.9.1-6.9.2/diff.md --exclude *.pyd
+[2023-07-11 15:06:45] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-07-11 15:06:45] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-38.1.9.tar.gz tmp/cg-38.2.0.tar.gz --markdown 20230711/c/cg/38.1.9-38.2.0/diff.md --exclude *.pyd
+[2023-07-11 15:06:45] INFO root fetch - processPackages [diambra]: Downloading https://files.pythonhosted.org/packages/d6/fb/cbc8d3d1f7406d425beebb7761bf8e6e10e96bdc2ecc0d2459899d5d1948/diambra-0.0.9-py3-none-win_amd64.whl
+[2023-07-11 15:06:45] INFO root fetch - processPackages [threads-net]: Remove: archive file [/home/abi/fetcher/tmp/threads-net-0.0.7.tar.gz]
+[2023-07-11 15:06:45] INFO root fetch - processPackages [threads-net]: Remove: archive file [/home/abi/fetcher/tmp/threads-net-0.0.8.tar.gz]
+[2023-07-11 15:06:45] INFO root fetch - processPackages [threads-net]: Start processing: kappadata
+[2023-07-11 15:06:45] INFO root fetch - main [MainThread]: End processing [threads-net]: success
+[2023-07-11 15:06:45] INFO root fetch - processPackages [pytest-nhsd-apim]: Remove: archive file [/home/abi/fetcher/tmp/pytest-nhsd-apim-3.3.5.tar.gz]
+[2023-07-11 15:06:45] INFO root fetch - processPackages [pytest-nhsd-apim]: Remove: archive file [/home/abi/fetcher/tmp/pytest-nhsd-apim-3.3.6.tar.gz]
+[2023-07-11 15:06:45] INFO root fetch - processPackages [pytest-nhsd-apim]: Start processing: moto
+[2023-07-11 15:06:45] INFO root fetch - main [MainThread]: End processing [pytest-nhsd-apim]: success
+[2023-07-11 15:06:45] INFO root fetch - processPackages [kappadata]: New version: [1.3.4] Old Version: [1.3.3]
+[2023-07-11 15:06:45] INFO root fetch - processPackages [moto]: New version: [4.1.9.dev9] Old Version: [4.1.9.dev8]
+[2023-07-11 15:06:45] INFO root fetch - processPackages [odd-cli]: Remove: archive file [/home/abi/fetcher/tmp/odd_cli-0.1.8.tar.gz]
+[2023-07-11 15:06:45] INFO root fetch - processPackages [odd-cli]: Remove: archive file [/home/abi/fetcher/tmp/odd_cli-0.1.9.tar.gz]
+[2023-07-11 15:06:45] INFO root fetch - processPackages [odd-cli]: Start processing: ansys-fluent-core
+[2023-07-11 15:06:45] INFO root fetch - main [MainThread]: End processing [odd-cli]: success
+[2023-07-11 15:06:46] INFO root fetch - processPackages [ansys-fluent-core]: New version: [0.16.dev2] Old Version: [0.16.dev1]
+[2023-07-11 15:06:46] INFO root fetch - processPackages [kappadata]: Downloading https://files.pythonhosted.org/packages/79/e5/1d3e58959375769d1cdc7b550740d8ea1840d10d7139a4a80948a5daa429/kappadata-1.3.3.tar.gz
+[2023-07-11 15:06:46] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/2c/d4/8e03b33a9179ac2880d9ee7985f188927368b16081e05a142152e556685c/moto-4.1.9.dev8.tar.gz
+[2023-07-11 15:06:46] INFO root fetch - processPackages [PVNet]: Remove: archive file [/home/abi/fetcher/tmp/PVNet-2.1.8.tar.gz]
+[2023-07-11 15:06:46] INFO root fetch - processPackages [PVNet]: Remove: archive file [/home/abi/fetcher/tmp/PVNet-2.1.9.tar.gz]
+[2023-07-11 15:06:46] INFO root fetch - processPackages [PVNet]: Start processing: cognite-pygen
+[2023-07-11 15:06:46] INFO root fetch - main [MainThread]: End processing [PVNet]: success
+[2023-07-11 15:06:46] INFO root fetch - processPackages [anylearn]: Remove: archive file [/home/abi/fetcher/tmp/anylearn-0.18.1rc1.tar.gz]
+[2023-07-11 15:06:46] INFO root fetch - processPackages [anylearn]: Remove: archive file [/home/abi/fetcher/tmp/anylearn-0.18.2.tar.gz]
+[2023-07-11 15:06:46] INFO root fetch - processPackages [anylearn]: Start processing: proxy-seller-user-api
+[2023-07-11 15:06:46] INFO root fetch - main [MainThread]: End processing [anylearn]: success
+[2023-07-11 15:06:46] INFO root fetch - processPackages [cognite-pygen]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-11 15:06:46] INFO root fetch - processPackages [proxy-seller-user-api]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-11 15:06:46] INFO root fetch - processPackages [tierkreis]: Remove: archive file [/home/abi/fetcher/tmp/tierkreis-0.1.0.tar.gz]
+[2023-07-11 15:06:46] INFO root fetch - processPackages [tierkreis]: Remove: archive file [/home/abi/fetcher/tmp/tierkreis-0.2.0.tar.gz]
+[2023-07-11 15:06:46] INFO root fetch - main [MainThread]: End processing [tierkreis]: success
+[2023-07-11 15:06:46] INFO root fetch - processPackages [ansys-fluent-core]: Downloading https://files.pythonhosted.org/packages/5e/bb/fc357fc845def626f4fd35dddae9c4efe751f38e4d0aa5543334148f99a6/ansys-fluent-core-0.16.dev1.tar.gz
+[2023-07-11 15:06:46] INFO root fetch - processPackages [proxy-seller-user-api]: Downloading https://files.pythonhosted.org/packages/de/89/b6bacfb353656c42a2fecd9462954265f1067424c33b3e8917afe1f0eb02/proxy_seller_user_api-1.0.0.tar.gz
+[2023-07-11 15:06:46] INFO root fetch - processPackages [kappadata]: Downloading https://files.pythonhosted.org/packages/49/38/74ed2ba69310b380f0af4032858550e047fc066010f5e653d55cb2bda78b/kappadata-1.3.4.tar.gz
+[2023-07-11 15:06:46] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/4b/79/8731bdd68db60192dd81a418b0552fc817d87bba0726d6c4ff2dbd93f913/moto-4.1.9.dev9.tar.gz
+[2023-07-11 15:06:46] INFO root fetch - processPackages [tellosync]: Remove: archive file [/home/abi/fetcher/tmp/tellosync-0.0.7.tar.gz]
+[2023-07-11 15:06:46] INFO root fetch - processPackages [tellosync]: Remove: archive file [/home/abi/fetcher/tmp/tellosync-0.0.8.tar.gz]
+[2023-07-11 15:06:46] INFO root fetch - main [MainThread]: End processing [tellosync]: success
+[2023-07-11 15:06:46] INFO root fetch - processPackages [cognite-pygen]: Downloading https://files.pythonhosted.org/packages/00/1d/45e130588e398bb316a98f0e6793ef0d61220b74c7d14db5213e3f9f977e/cognite_pygen-0.9.0.tar.gz
+[2023-07-11 15:06:46] INFO root fetch - processPackages [kappadata]: executing diffoscope
+[2023-07-11 15:06:46] INFO root fetch - processPackages [kappadata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kappadata-1.3.3.tar.gz tmp/kappadata-1.3.4.tar.gz --markdown 20230711/k/kappadata/1.3.3-1.3.4/diff.md --exclude *.pyd
+[2023-07-11 15:06:46] INFO root fetch - processPackages [proxy-seller-user-api]: Downloading https://files.pythonhosted.org/packages/42/79/2ad1a849f58a21f847f327a2df572f4f1f5aff78a5d72b736b706d0069eb/proxy_seller_user_api-1.0.1.tar.gz
+[2023-07-11 15:06:46] INFO root fetch - processPackages [proxy-seller-user-api]: executing diffoscope
+[2023-07-11 15:06:46] INFO root fetch - processPackages [proxy-seller-user-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proxy_seller_user_api-1.0.0.tar.gz tmp/proxy_seller_user_api-1.0.1.tar.gz --markdown 20230711/p/proxy-seller-user-api/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-11 15:06:46] INFO root fetch - processPackages [moto]: executing diffoscope
+[2023-07-11 15:06:46] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-4.1.9.dev8.tar.gz tmp/moto-4.1.9.dev9.tar.gz --markdown 20230711/m/moto/4.1.9.dev8-4.1.9.dev9/diff.md --exclude *.pyd
+[2023-07-11 15:06:46] INFO root fetch - processPackages [ansys-fluent-core]: Downloading https://files.pythonhosted.org/packages/e2/48/ad77f92bafe4a265338bcb7032f349a2517c2784725db17d30991058e74e/ansys-fluent-core-0.16.dev2.tar.gz
+[2023-07-11 15:06:46] INFO root fetch - processPackages [diambra]: executing diffoscope
+[2023-07-11 15:06:46] INFO root fetch - processPackages [diambra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diambra-0.0.8-py3-none-win_amd64.whl.zip tmp/diambra-0.0.9-py3-none-win_amd64.whl.zip --markdown 20230711/d/diambra/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-11 15:06:46] INFO root fetch - processPackages [cognite-pygen]: Downloading https://files.pythonhosted.org/packages/ce/02/7ecd0882d447246a79ac11eff331b1c4e7890eb9fd3e85568a959aef9aa9/cognite_pygen-0.9.1.tar.gz
+[2023-07-11 15:06:47] INFO root fetch - processPackages [cognite-pygen]: executing diffoscope
+[2023-07-11 15:06:47] INFO root fetch - processPackages [cognite-pygen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_pygen-0.9.0.tar.gz tmp/cognite_pygen-0.9.1.tar.gz --markdown 20230711/c/cognite-pygen/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-11 15:06:47] INFO root fetch - processPackages [ansys-fluent-core]: executing diffoscope
+[2023-07-11 15:06:47] INFO root fetch - processPackages [ansys-fluent-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansys-fluent-core-0.16.dev1.tar.gz tmp/ansys-fluent-core-0.16.dev2.tar.gz --markdown 20230711/a/ansys-fluent-core/0.16.dev1-0.16.dev2/diff.md --exclude *.pyd
+[2023-07-11 15:06:47] INFO root fetch - processPackages [supervisely]: Remove: archive file [/home/abi/fetcher/tmp/supervisely-6.9.1.tar.gz]
+[2023-07-11 15:06:47] INFO root fetch - processPackages [supervisely]: Remove: archive file [/home/abi/fetcher/tmp/supervisely-6.9.2.tar.gz]
+[2023-07-11 15:06:47] INFO root fetch - main [MainThread]: End processing [supervisely]: success
+[2023-07-11 15:06:48] INFO root fetch - processPackages [proxy-seller-user-api]: Remove: archive file [/home/abi/fetcher/tmp/proxy_seller_user_api-1.0.0.tar.gz]
+[2023-07-11 15:06:48] INFO root fetch - processPackages [proxy-seller-user-api]: Remove: archive file [/home/abi/fetcher/tmp/proxy_seller_user_api-1.0.1.tar.gz]
+[2023-07-11 15:06:48] INFO root fetch - main [MainThread]: End processing [proxy-seller-user-api]: success
+[2023-07-11 15:06:48] INFO root fetch - processPackages [kappadata]: Remove: archive file [/home/abi/fetcher/tmp/kappadata-1.3.3.tar.gz]
+[2023-07-11 15:06:48] INFO root fetch - processPackages [kappadata]: Remove: archive file [/home/abi/fetcher/tmp/kappadata-1.3.4.tar.gz]
+[2023-07-11 15:06:48] INFO root fetch - main [MainThread]: End processing [kappadata]: success
+[2023-07-11 15:06:48] INFO root fetch - processPackages [cognite-pygen]: Remove: archive file [/home/abi/fetcher/tmp/cognite_pygen-0.9.0.tar.gz]
+[2023-07-11 15:06:48] INFO root fetch - processPackages [cognite-pygen]: Remove: archive file [/home/abi/fetcher/tmp/cognite_pygen-0.9.1.tar.gz]
+[2023-07-11 15:06:48] INFO root fetch - main [MainThread]: End processing [cognite-pygen]: success
+[2023-07-11 15:06:53] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-38.1.9.tar.gz]
+[2023-07-11 15:06:53] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-38.2.0.tar.gz]
+[2023-07-11 15:06:53] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-07-11 15:07:04] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev8.tar.gz]
+[2023-07-11 15:07:04] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev9.tar.gz]
+[2023-07-11 15:07:04] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2023-07-11 15:09:30] INFO root fetch - processPackages [ansys-fluent-core]: Remove: archive file [/home/abi/fetcher/tmp/ansys-fluent-core-0.16.dev1.tar.gz]
+[2023-07-11 15:09:30] INFO root fetch - processPackages [ansys-fluent-core]: Remove: archive file [/home/abi/fetcher/tmp/ansys-fluent-core-0.16.dev2.tar.gz]
+[2023-07-11 15:09:30] INFO root fetch - main [MainThread]: End processing [ansys-fluent-core]: success
+[2023-07-11 15:09:46] ERROR root fetch - processPackages [diambra]: Timeout during execution of pkgdiff
+[2023-07-11 15:09:46] INFO root fetch - main [MainThread]: End processing [diambra] error
+[2023-07-11 15:09:46] INFO root fetch - main [MainThread]: Store serial: [18845692]
