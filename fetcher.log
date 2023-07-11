@@ -12545,3 +12545,193 @@ AssertionError: tmp/doctran-0.0.6.tar.gz does not exist
 [2023-07-11 09:51:31] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-38.1.9.tar.gz]
 [2023-07-11 09:51:31] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2023-07-11 09:51:31] INFO root fetch - main [MainThread]: Store serial: [18842068]
+[2023-07-11 09:56:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18842068]
+[2023-07-11 09:56:40] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-07-11 09:56:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mstk
+[2023-07-11 09:56:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PyAlgoEngine
+[2023-07-11 09:56:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jennifer-python
+[2023-07-11 09:56:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sekm-pump
+[2023-07-11 09:56:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vrt-lss-account
+[2023-07-11 09:56:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vrt-lss-agro
+[2023-07-11 09:56:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vrt-lss-packer
+[2023-07-11 09:56:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: vrt-lss-routing
+[2023-07-11 09:56:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: vrt-lss-studio
+[2023-07-11 09:56:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: vrt-lss-universal
+[2023-07-11 09:56:40] INFO root fetch - processPackages [jennifer-python]: New version: [5.6.1.9] Old Version: [5.6.1.8]
+[2023-07-11 09:56:40] INFO root fetch - processPackages [sekm-pump]: New version: [1.0.0.9] Old Version: [1.0.0]
+[2023-07-11 09:56:40] INFO root fetch - processPackages [vrt-lss-packer]: New version: [6.8.2055] Old Version: [6.7.2022]
+[2023-07-11 09:56:40] INFO root fetch - processPackages [vrt-lss-universal]: New version: [6.8.2055] Old Version: [6.7.2022]
+[2023-07-11 09:56:40] INFO root fetch - processPackages [vrt-lss-studio]: New version: [6.8.2055] Old Version: [6.7.2022]
+[2023-07-11 09:56:40] INFO root fetch - processPackages [PyAlgoEngine]: New version: [0.3.8] Old Version: [0.3.6]
+[2023-07-11 09:56:40] INFO root fetch - processPackages [mstk]: New version: [0.3.4] Old Version: [0.3.3.dev11]
+[2023-07-11 09:56:40] INFO root fetch - processPackages [vrt-lss-agro]: New version: [6.8.2055] Old Version: [6.7.2022]
+[2023-07-11 09:56:40] INFO root fetch - processPackages [vrt-lss-account]: New version: [6.8.2055] Old Version: [6.7.2022]
+[2023-07-11 09:56:40] INFO root fetch - processPackages [vrt-lss-routing]: New version: [6.8.2055] Old Version: [6.7.2022]
+[2023-07-11 09:56:41] INFO root fetch - processPackages [sekm-pump]: Downloading https://files.pythonhosted.org/packages/3f/78/3b177231a1817728574cb27854b78c13ac4428deecd0f92fd6d1a6d7d599/sekm-pump-1.0.0.tar.gz
+[2023-07-11 09:56:41] INFO root fetch - processPackages [jennifer-python]: Downloading https://files.pythonhosted.org/packages/84/e3/9c582270919735d5262b2290d99baeb712cc7d9389196c14973ee923780b/jennifer_python-5.6.1.8-py3-none-any.whl
+[2023-07-11 09:56:41] INFO root fetch - processPackages [vrt-lss-packer]: Downloading https://files.pythonhosted.org/packages/fe/48/14651907a678cb635b1ae03cedb79aa398752a9efa5f2ee447c9e0a21eb8/vrt_lss_packer-6.7.2022-py3-none-any.whl
+[2023-07-11 09:56:41] INFO root fetch - processPackages [vrt-lss-universal]: Downloading https://files.pythonhosted.org/packages/bc/49/c6601095c6c21275f9cd2514e86036ada28dc521261ce3724210acc1fd85/vrt_lss_universal-6.7.2022-py3-none-any.whl
+[2023-07-11 09:56:41] INFO root fetch - processPackages [mstk]: Downloading https://files.pythonhosted.org/packages/06/6b/dac1aaab3b0df6bb84d2602ccf9a45d04c90689fdc695f7031f70f1568fd/mstk-0.3.3.dev11.tar.gz
+[2023-07-11 09:56:41] INFO root fetch - processPackages [vrt-lss-studio]: Downloading https://files.pythonhosted.org/packages/9d/7a/1b8686fda3825cf66245f8fa29a83b10c8793999b2e2e52bc90eeaf0d3a9/vrt_lss_studio-6.7.2022-py3-none-any.whl
+[2023-07-11 09:56:41] INFO root fetch - processPackages [PyAlgoEngine]: Downloading https://files.pythonhosted.org/packages/55/54/37c2e245d8d5e5d41f3df844429d76fd9bb52d8f40463c2c9fa1e2ae6465/PyAlgoEngine-0.3.6.tar.gz
+[2023-07-11 09:56:41] INFO root fetch - processPackages [vrt-lss-agro]: Downloading https://files.pythonhosted.org/packages/ec/78/f5acf4e33fbb3c791f662a582595dd33b44de4ac9910e19d97077090a6f1/vrt_lss_agro-6.7.2022-py3-none-any.whl
+[2023-07-11 09:56:41] INFO root fetch - processPackages [vrt-lss-routing]: Downloading https://files.pythonhosted.org/packages/37/73/a7433ca41ee634dbab66b66f203aa68d266a296049815c97c052099ee7d2/vrt_lss_routing-6.7.2022-py3-none-any.whl
+[2023-07-11 09:56:41] INFO root fetch - processPackages [vrt-lss-account]: Downloading https://files.pythonhosted.org/packages/d1/0a/cacd9803c086bd0285fc89d5e088f9317dbb8e7a8f7f3f4f5ee206488b4f/vrt_lss_account-6.7.2022-py3-none-any.whl
+[2023-07-11 09:56:41] INFO root fetch - processPackages [sekm-pump]: Downloading https://files.pythonhosted.org/packages/0a/68/c3001bafb10870f678dc1d6d55e561e5df2312e3adf3795f667aa0cfbe42/sekm-pump-1.0.0.9.tar.gz
+[2023-07-11 09:56:41] INFO root fetch - processPackages [vrt-lss-packer]: Downloading https://files.pythonhosted.org/packages/00/0e/72811d64515c8d20a8d85c244f6fe3240fe7d478e41d72b1a00cc0af7433/vrt_lss_packer-6.8.2055-py3-none-any.whl
+[2023-07-11 09:56:41] INFO root fetch - processPackages [vrt-lss-universal]: Downloading https://files.pythonhosted.org/packages/65/93/d2190a058296bd30193e071d84c1672d66f518516a18028b239b16386b74/vrt_lss_universal-6.8.2055-py3-none-any.whl
+[2023-07-11 09:56:41] INFO root fetch - processPackages [mstk]: Downloading https://files.pythonhosted.org/packages/0e/45/37e6ec91cdcbf5cbb107e0ea39dd78394f75cd332fa5bec5268e2e810506/mstk-0.3.4.tar.gz
+[2023-07-11 09:56:41] INFO root fetch - processPackages [PyAlgoEngine]: Downloading https://files.pythonhosted.org/packages/8d/0e/9b777f7d0d6c4f983e5cd21804942be70df74c8b4f82829fd3e940246ca7/PyAlgoEngine-0.3.8.tar.gz
+[2023-07-11 09:56:41] INFO root fetch - processPackages [vrt-lss-routing]: Downloading https://files.pythonhosted.org/packages/bb/75/67f6a5b4189af9aa57c4da5a0c1c7fb6f4d0f46b44f405c0f445378b74fc/vrt_lss_routing-6.8.2055-py3-none-any.whl
+[2023-07-11 09:56:41] INFO root fetch - processPackages [sekm-pump]: executing diffoscope
+[2023-07-11 09:56:41] INFO root fetch - processPackages [sekm-pump]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sekm-pump-1.0.0.tar.gz tmp/sekm-pump-1.0.0.9.tar.gz --markdown 20230711/s/sekm-pump/1.0.0-1.0.0.9/diff.md --exclude *.pyd
+[2023-07-11 09:56:41] INFO root fetch - processPackages [vrt-lss-studio]: Downloading https://files.pythonhosted.org/packages/b9/91/69242047ccadcf79a1c4f131738070e9de5ef6f3166f83e96051c36a86c6/vrt_lss_studio-6.8.2055-py3-none-any.whl
+[2023-07-11 09:56:41] INFO root fetch - processPackages [vrt-lss-agro]: Downloading https://files.pythonhosted.org/packages/a8/c5/057d5516ee662066649fb68edaa8f207fa902255f75e4bb399a32a05ac48/vrt_lss_agro-6.8.2055-py3-none-any.whl
+[2023-07-11 09:56:41] INFO root fetch - processPackages [vrt-lss-packer]: executing diffoscope
+[2023-07-11 09:56:41] INFO root fetch - processPackages [vrt-lss-packer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vrt_lss_packer-6.7.2022-py3-none-any.whl.zip tmp/vrt_lss_packer-6.8.2055-py3-none-any.whl.zip --markdown 20230711/v/vrt-lss-packer/6.7.2022-6.8.2055/diff.md --exclude *.pyd
+[2023-07-11 09:56:41] INFO root fetch - processPackages [vrt-lss-account]: Downloading https://files.pythonhosted.org/packages/fa/97/95725cf4296d9c4adebe0ed735c9f53e84ac517f1ab32406aecdc1482635/vrt_lss_account-6.8.2055-py3-none-any.whl
+[2023-07-11 09:56:41] INFO root fetch - processPackages [mstk]: executing diffoscope
+[2023-07-11 09:56:41] INFO root fetch - processPackages [mstk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mstk-0.3.3.dev11.tar.gz tmp/mstk-0.3.4.tar.gz --markdown 20230711/m/mstk/0.3.3.dev11-0.3.4/diff.md --exclude *.pyd
+[2023-07-11 09:56:41] INFO root fetch - processPackages [vrt-lss-universal]: executing diffoscope
+[2023-07-11 09:56:41] INFO root fetch - processPackages [vrt-lss-universal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vrt_lss_universal-6.7.2022-py3-none-any.whl.zip tmp/vrt_lss_universal-6.8.2055-py3-none-any.whl.zip --markdown 20230711/v/vrt-lss-universal/6.7.2022-6.8.2055/diff.md --exclude *.pyd
+[2023-07-11 09:56:42] INFO root fetch - processPackages [PyAlgoEngine]: executing diffoscope
+[2023-07-11 09:56:42] INFO root fetch - processPackages [PyAlgoEngine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyAlgoEngine-0.3.6.tar.gz tmp/PyAlgoEngine-0.3.8.tar.gz --markdown 20230711/P/PyAlgoEngine/0.3.6-0.3.8/diff.md --exclude *.pyd
+[2023-07-11 09:56:42] INFO root fetch - processPackages [vrt-lss-routing]: executing diffoscope
+[2023-07-11 09:56:42] INFO root fetch - processPackages [vrt-lss-routing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vrt_lss_routing-6.7.2022-py3-none-any.whl.zip tmp/vrt_lss_routing-6.8.2055-py3-none-any.whl.zip --markdown 20230711/v/vrt-lss-routing/6.7.2022-6.8.2055/diff.md --exclude *.pyd
+[2023-07-11 09:56:42] INFO root fetch - processPackages [vrt-lss-agro]: executing diffoscope
+[2023-07-11 09:56:42] INFO root fetch - processPackages [vrt-lss-agro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vrt_lss_agro-6.7.2022-py3-none-any.whl.zip tmp/vrt_lss_agro-6.8.2055-py3-none-any.whl.zip --markdown 20230711/v/vrt-lss-agro/6.7.2022-6.8.2055/diff.md --exclude *.pyd
+[2023-07-11 09:56:42] INFO root fetch - processPackages [vrt-lss-studio]: executing diffoscope
+[2023-07-11 09:56:42] INFO root fetch - processPackages [vrt-lss-studio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vrt_lss_studio-6.7.2022-py3-none-any.whl.zip tmp/vrt_lss_studio-6.8.2055-py3-none-any.whl.zip --markdown 20230711/v/vrt-lss-studio/6.7.2022-6.8.2055/diff.md --exclude *.pyd
+[2023-07-11 09:56:42] INFO root fetch - processPackages [vrt-lss-account]: executing diffoscope
+[2023-07-11 09:56:42] INFO root fetch - processPackages [vrt-lss-account]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vrt_lss_account-6.7.2022-py3-none-any.whl.zip tmp/vrt_lss_account-6.8.2055-py3-none-any.whl.zip --markdown 20230711/v/vrt-lss-account/6.7.2022-6.8.2055/diff.md --exclude *.pyd
+[2023-07-11 09:56:42] INFO root fetch - processPackages [jennifer-python]: Downloading https://files.pythonhosted.org/packages/07/a3/c5a6f754fe4a116f0f354d41ce768809ca3ec12d6a074d85545c82764e47/jennifer_python-5.6.1.9-py3-none-any.whl
+[2023-07-11 09:56:43] INFO root fetch - processPackages [sekm-pump]: Remove: archive file [/home/abi/fetcher/tmp/sekm-pump-1.0.0.tar.gz]
+[2023-07-11 09:56:43] INFO root fetch - processPackages [sekm-pump]: Remove: archive file [/home/abi/fetcher/tmp/sekm-pump-1.0.0.9.tar.gz]
+[2023-07-11 09:56:43] INFO root fetch - processPackages [sekm-pump]: Start processing: drift-cli
+[2023-07-11 09:56:43] INFO root fetch - main [MainThread]: End processing [sekm-pump]: success
+[2023-07-11 09:56:43] INFO root fetch - processPackages [drift-cli]: New version: [0.8.0] Old Version: [0.7.1]
+[2023-07-11 09:56:43] INFO root fetch - processPackages [PyAlgoEngine]: Remove: archive file [/home/abi/fetcher/tmp/PyAlgoEngine-0.3.6.tar.gz]
+[2023-07-11 09:56:43] INFO root fetch - processPackages [PyAlgoEngine]: Remove: archive file [/home/abi/fetcher/tmp/PyAlgoEngine-0.3.8.tar.gz]
+[2023-07-11 09:56:43] INFO root fetch - processPackages [PyAlgoEngine]: Start processing: pybotarena
+[2023-07-11 09:56:43] INFO root fetch - main [MainThread]: End processing [PyAlgoEngine]: success
+[2023-07-11 09:56:43] WARNING root fetch - processPackages [pybotarena]: Skipping, unable to determine old version
+[2023-07-11 09:56:43] INFO root fetch - processPackages [pybotarena]: Start processing: hermessplitter
+[2023-07-11 09:56:43] INFO root fetch - main [MainThread]: End processing [pybotarena] error
+[2023-07-11 09:56:43] INFO root fetch - processPackages [hermessplitter]: New version: [3.1.0] Old Version: [3.0.83]
+[2023-07-11 09:56:43] INFO root fetch - processPackages [drift-cli]: Downloading https://files.pythonhosted.org/packages/60/8c/b00edc2aa994cae19c78b0cb7cb8a0fba158e51e5844af001250b796962b/drift_cli-0.7.1-py3-none-any.whl
+[2023-07-11 09:56:43] INFO root fetch - processPackages [jennifer-python]: executing diffoscope
+[2023-07-11 09:56:43] INFO root fetch - processPackages [jennifer-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jennifer_python-5.6.1.8-py3-none-any.whl.zip tmp/jennifer_python-5.6.1.9-py3-none-any.whl.zip --markdown 20230711/j/jennifer-python/5.6.1.8-5.6.1.9/diff.md --exclude *.pyd
+[2023-07-11 09:56:43] INFO root fetch - processPackages [hermessplitter]: Downloading https://files.pythonhosted.org/packages/c3/a5/e1e388b7249f947301cb6d49f0ebdedbcc255194f311716736157a78ab5b/hermessplitter-3.0.83-py3-none-any.whl
+[2023-07-11 09:56:44] INFO root fetch - processPackages [drift-cli]: Downloading https://files.pythonhosted.org/packages/b8/ee/e3f9388e74af1a52ec31ec4746b7f75c6e0500eb7272a98b0190b7d81b2d/drift_cli-0.8.0-py3-none-any.whl
+[2023-07-11 09:56:44] INFO root fetch - processPackages [vrt-lss-routing]: Remove: archive file [/home/abi/fetcher/tmp/vrt_lss_routing-6.7.2022-py3-none-any.whl.zip]
+[2023-07-11 09:56:44] INFO root fetch - processPackages [vrt-lss-routing]: Remove: archive file [/home/abi/fetcher/tmp/vrt_lss_routing-6.8.2055-py3-none-any.whl.zip]
+[2023-07-11 09:56:44] INFO root fetch - processPackages [vrt-lss-routing]: Start processing: atomcache
+[2023-07-11 09:56:44] INFO root fetch - main [MainThread]: End processing [vrt-lss-routing]: success
+[2023-07-11 09:56:44] INFO root fetch - processPackages [atomcache]: New version: [0.7.5] Old Version: [0.7.4]
+[2023-07-11 09:56:44] INFO root fetch - processPackages [vrt-lss-packer]: Remove: archive file [/home/abi/fetcher/tmp/vrt_lss_packer-6.7.2022-py3-none-any.whl.zip]
+[2023-07-11 09:56:44] INFO root fetch - processPackages [vrt-lss-packer]: Remove: archive file [/home/abi/fetcher/tmp/vrt_lss_packer-6.8.2055-py3-none-any.whl.zip]
+[2023-07-11 09:56:44] INFO root fetch - processPackages [vrt-lss-packer]: Start processing: aioesphomeapi
+[2023-07-11 09:56:44] INFO root fetch - main [MainThread]: End processing [vrt-lss-packer]: success
+[2023-07-11 09:56:44] INFO root fetch - processPackages [hermessplitter]: Downloading https://files.pythonhosted.org/packages/e2/ca/7a1043fde43617f664d8d03b7f1f4dc690b3b6b83fe8ab47f98f00b9a4ab/hermessplitter-3.1.0-py3-none-any.whl
+[2023-07-11 09:56:44] INFO root fetch - processPackages [drift-cli]: executing diffoscope
+[2023-07-11 09:56:44] INFO root fetch - processPackages [drift-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drift_cli-0.7.1-py3-none-any.whl.zip tmp/drift_cli-0.8.0-py3-none-any.whl.zip --markdown 20230711/d/drift-cli/0.7.1-0.8.0/diff.md --exclude *.pyd
+[2023-07-11 09:56:44] INFO root fetch - processPackages [aioesphomeapi]: New version: [9.1.5] Old Version: [9.1.4]
+[2023-07-11 09:56:44] INFO root fetch - processPackages [vrt-lss-account]: Remove: archive file [/home/abi/fetcher/tmp/vrt_lss_account-6.7.2022-py3-none-any.whl.zip]
+[2023-07-11 09:56:44] INFO root fetch - processPackages [vrt-lss-account]: Remove: archive file [/home/abi/fetcher/tmp/vrt_lss_account-6.8.2055-py3-none-any.whl.zip]
+[2023-07-11 09:56:44] INFO root fetch - processPackages [vrt-lss-account]: Start processing: blickfeld-qb2
+[2023-07-11 09:56:44] INFO root fetch - main [MainThread]: End processing [vrt-lss-account]: success
+[2023-07-11 09:56:44] INFO root fetch - processPackages [blickfeld-qb2]: New version: [1.6.1] Old Version: [1.5.3]
+[2023-07-11 09:56:44] INFO root fetch - processPackages [aioesphomeapi]: Downloading https://files.pythonhosted.org/packages/62/7f/d2cc3b95dfe936bbad8f3956f274147389d6625de031d1105261491bffd9/aioesphomeapi-9.1.4.tar.gz
+[2023-07-11 09:56:44] INFO root fetch - processPackages [vrt-lss-agro]: Remove: archive file [/home/abi/fetcher/tmp/vrt_lss_agro-6.7.2022-py3-none-any.whl.zip]
+[2023-07-11 09:56:44] INFO root fetch - processPackages [vrt-lss-agro]: Remove: archive file [/home/abi/fetcher/tmp/vrt_lss_agro-6.8.2055-py3-none-any.whl.zip]
+[2023-07-11 09:56:44] INFO root fetch - processPackages [vrt-lss-agro]: Start processing: ul-data-aggregator-sdk
+[2023-07-11 09:56:44] INFO root fetch - main [MainThread]: End processing [vrt-lss-agro]: success
+[2023-07-11 09:56:44] INFO root fetch - processPackages [mstk]: Remove: archive file [/home/abi/fetcher/tmp/mstk-0.3.3.dev11.tar.gz]
+[2023-07-11 09:56:44] INFO root fetch - processPackages [mstk]: Remove: archive file [/home/abi/fetcher/tmp/mstk-0.3.4.tar.gz]
+[2023-07-11 09:56:44] INFO root fetch - processPackages [mstk]: Start processing: abqpy
+[2023-07-11 09:56:44] INFO root fetch - main [MainThread]: End processing [mstk]: success
+[2023-07-11 09:56:44] INFO root fetch - processPackages [atomcache]: Downloading https://files.pythonhosted.org/packages/fb/80/6b83447ea15fdc93d58e04e8994fa58bb1cb1750ff39c835ed89e102c1c8/atomcache-0.7.4.tar.gz
+[2023-07-11 09:56:44] INFO root fetch - processPackages [ul-data-aggregator-sdk]: New version: [8.9.5] Old Version: [8.11.6]
+[2023-07-11 09:56:44] INFO root fetch - processPackages [hermessplitter]: executing diffoscope
+[2023-07-11 09:56:44] INFO root fetch - processPackages [hermessplitter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hermessplitter-3.0.83-py3-none-any.whl.zip tmp/hermessplitter-3.1.0-py3-none-any.whl.zip --markdown 20230711/h/hermessplitter/3.0.83-3.1.0/diff.md --exclude *.pyd
+[2023-07-11 09:56:44] INFO root fetch - processPackages [ul-data-aggregator-sdk]: Downloading https://files.pythonhosted.org/packages/63/66/4ad7497514fb94f406ec95e6d16080dc7d8cf5bd269cf58a9191956f9feb/ul-data-aggregator-sdk-8.11.6.tar.gz
+[2023-07-11 09:56:44] INFO root fetch - processPackages [blickfeld-qb2]: Downloading https://files.pythonhosted.org/packages/23/cb/a3f59e44847a628370934855263908c7cde596105763b4c997e80ca35fd3/blickfeld_qb2-1.5.3.tar.gz
+[2023-07-11 09:56:44] INFO root fetch - processPackages [aioesphomeapi]: Downloading https://files.pythonhosted.org/packages/95/57/381c894380ec58a8c891a923696dc0d97d7af266921f326f942ec3332685/aioesphomeapi-9.1.5.tar.gz
+[2023-07-11 09:56:44] INFO root fetch - processPackages [atomcache]: Downloading https://files.pythonhosted.org/packages/1a/42/5020c4d397c105b5e8c34c1a43e32c62f7bb27825948600336fd55eb6259/atomcache-0.7.5.tar.gz
+[2023-07-11 09:56:44] INFO root fetch - processPackages [abqpy]: New version: [2023.5.3] Old Version: [2023.5.2]
+[2023-07-11 09:56:44] INFO root fetch - processPackages [aioesphomeapi]: executing diffoscope
+[2023-07-11 09:56:44] INFO root fetch - processPackages [aioesphomeapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioesphomeapi-9.1.4.tar.gz tmp/aioesphomeapi-9.1.5.tar.gz --markdown 20230711/a/aioesphomeapi/9.1.4-9.1.5/diff.md --exclude *.pyd
+[2023-07-11 09:56:44] INFO root fetch - processPackages [ul-data-aggregator-sdk]: Downloading https://files.pythonhosted.org/packages/ae/cf/20ade1e77c7db14608e4ad73e7b31dd0bd4ee46d7222add34aa0ee1abaca/ul-data-aggregator-sdk-8.9.5.tar.gz
+[2023-07-11 09:56:44] INFO root fetch - processPackages [vrt-lss-universal]: Remove: archive file [/home/abi/fetcher/tmp/vrt_lss_universal-6.7.2022-py3-none-any.whl.zip]
+[2023-07-11 09:56:44] INFO root fetch - processPackages [vrt-lss-universal]: Remove: archive file [/home/abi/fetcher/tmp/vrt_lss_universal-6.8.2055-py3-none-any.whl.zip]
+[2023-07-11 09:56:44] INFO root fetch - processPackages [vrt-lss-universal]: Start processing: sysproxy
+[2023-07-11 09:56:44] INFO root fetch - main [MainThread]: End processing [vrt-lss-universal]: success
+[2023-07-11 09:56:45] WARNING root fetch - processPackages [sysproxy]: Skipping, unable to determine old version
+[2023-07-11 09:56:45] INFO root fetch - processPackages [sysproxy]: Start processing: abqpy
+[2023-07-11 09:56:45] INFO root fetch - main [MainThread]: End processing [sysproxy] error
+[2023-07-11 09:56:45] INFO root fetch - processPackages [blickfeld-qb2]: Downloading https://files.pythonhosted.org/packages/54/ce/2e7d8cacef2b1bfc9b8d96d49e0264dd66b4c922a95816323a851235f729/blickfeld_qb2-1.6.1.tar.gz
+[2023-07-11 09:56:45] INFO root fetch - processPackages [atomcache]: executing diffoscope
+[2023-07-11 09:56:45] INFO root fetch - processPackages [atomcache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atomcache-0.7.4.tar.gz tmp/atomcache-0.7.5.tar.gz --markdown 20230711/a/atomcache/0.7.4-0.7.5/diff.md --exclude *.pyd
+[2023-07-11 09:56:45] INFO root fetch - processPackages [abqpy]: Downloading https://files.pythonhosted.org/packages/8f/73/9ee79ba56edebe8f535bea0f880196acfbee09a607e596b6cef7f6c4b96b/abqpy-2023.5.2.tar.gz
+[2023-07-11 09:56:45] INFO root fetch - processPackages [abqpy]: New version: [2023.5.3] Old Version: [2023.5.2]
+[2023-07-11 09:56:45] INFO root fetch - processPackages [ul-data-aggregator-sdk]: executing diffoscope
+[2023-07-11 09:56:45] INFO root fetch - processPackages [ul-data-aggregator-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ul-data-aggregator-sdk-8.11.6.tar.gz tmp/ul-data-aggregator-sdk-8.9.5.tar.gz --markdown 20230711/u/ul-data-aggregator-sdk/8.11.6-8.9.5/diff.md --exclude *.pyd
+[2023-07-11 09:56:45] INFO root fetch - processPackages [abqpy]: Downloading https://files.pythonhosted.org/packages/8f/73/9ee79ba56edebe8f535bea0f880196acfbee09a607e596b6cef7f6c4b96b/abqpy-2023.5.2.tar.gz
+[2023-07-11 09:56:45] INFO root fetch - processPackages [blickfeld-qb2]: executing diffoscope
+[2023-07-11 09:56:45] INFO root fetch - processPackages [blickfeld-qb2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blickfeld_qb2-1.5.3.tar.gz tmp/blickfeld_qb2-1.6.1.tar.gz --markdown 20230711/b/blickfeld-qb2/1.5.3-1.6.1/diff.md --exclude *.pyd
+[2023-07-11 09:56:45] INFO root fetch - processPackages [drift-cli]: Remove: archive file [/home/abi/fetcher/tmp/drift_cli-0.7.1-py3-none-any.whl.zip]
+[2023-07-11 09:56:45] INFO root fetch - processPackages [drift-cli]: Remove: archive file [/home/abi/fetcher/tmp/drift_cli-0.8.0-py3-none-any.whl.zip]
+[2023-07-11 09:56:45] INFO root fetch - processPackages [drift-cli]: Start processing: strmprivacy-api-definitions
+[2023-07-11 09:56:45] INFO root fetch - main [MainThread]: End processing [drift-cli]: success
+[2023-07-11 09:56:45] INFO root fetch - processPackages [strmprivacy-api-definitions]: New version: [3.4.0] Old Version: [3.3.0]
+[2023-07-11 09:56:45] INFO root fetch - processPackages [hermessplitter]: Remove: archive file [/home/abi/fetcher/tmp/hermessplitter-3.0.83-py3-none-any.whl.zip]
+[2023-07-11 09:56:45] INFO root fetch - processPackages [hermessplitter]: Remove: archive file [/home/abi/fetcher/tmp/hermessplitter-3.1.0-py3-none-any.whl.zip]
+[2023-07-11 09:56:45] INFO root fetch - processPackages [hermessplitter]: Start processing: abqpy
+[2023-07-11 09:56:45] INFO root fetch - main [MainThread]: End processing [hermessplitter]: success
+[2023-07-11 09:56:45] INFO root fetch - processPackages [abqpy]: New version: [2023.5.3] Old Version: [2023.5.2]
+[2023-07-11 09:56:45] INFO root fetch - processPackages [abqpy]: Downloading https://files.pythonhosted.org/packages/8f/73/9ee79ba56edebe8f535bea0f880196acfbee09a607e596b6cef7f6c4b96b/abqpy-2023.5.2.tar.gz
+[2023-07-11 09:56:45] INFO root fetch - processPackages [strmprivacy-api-definitions]: Downloading https://files.pythonhosted.org/packages/4a/e4/b2301e5500a1990b772f52e43f750de61b5488b59c311520e4f7dabe7c4a/strmprivacy-api-definitions-3.3.0.tar.gz
+[2023-07-11 09:56:46] INFO root fetch - processPackages [aioesphomeapi]: Remove: archive file [/home/abi/fetcher/tmp/aioesphomeapi-9.1.4.tar.gz]
+[2023-07-11 09:56:46] INFO root fetch - processPackages [aioesphomeapi]: Remove: archive file [/home/abi/fetcher/tmp/aioesphomeapi-9.1.5.tar.gz]
+[2023-07-11 09:56:46] INFO root fetch - processPackages [aioesphomeapi]: Start processing: fastdup
+[2023-07-11 09:56:46] INFO root fetch - main [MainThread]: End processing [aioesphomeapi]: success
+[2023-07-11 09:56:46] INFO root fetch - processPackages [vrt-lss-studio]: Remove: archive file [/home/abi/fetcher/tmp/vrt_lss_studio-6.7.2022-py3-none-any.whl.zip]
+[2023-07-11 09:56:46] INFO root fetch - processPackages [vrt-lss-studio]: Remove: archive file [/home/abi/fetcher/tmp/vrt_lss_studio-6.8.2055-py3-none-any.whl.zip]
+[2023-07-11 09:56:46] INFO root fetch - main [MainThread]: End processing [vrt-lss-studio]: success
+[2023-07-11 09:56:46] INFO root fetch - processPackages [atomcache]: Remove: archive file [/home/abi/fetcher/tmp/atomcache-0.7.4.tar.gz]
+[2023-07-11 09:56:46] INFO root fetch - processPackages [atomcache]: Remove: archive file [/home/abi/fetcher/tmp/atomcache-0.7.5.tar.gz]
+[2023-07-11 09:56:46] INFO root fetch - main [MainThread]: End processing [atomcache]: success
+[2023-07-11 09:56:46] INFO root fetch - processPackages [strmprivacy-api-definitions]: Downloading https://files.pythonhosted.org/packages/e0/54/ee98d38d103f69b97297932137f9e1b3131eef6c521bd8ca4a18379c5a47/strmprivacy-api-definitions-3.4.0.tar.gz
+[2023-07-11 09:56:46] INFO root fetch - processPackages [fastdup]: New version: [1.9] Old Version: [1.8]
+[2023-07-11 09:56:46] INFO root fetch - processPackages [ul-data-aggregator-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ul-data-aggregator-sdk-8.11.6.tar.gz]
+[2023-07-11 09:56:46] INFO root fetch - processPackages [ul-data-aggregator-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ul-data-aggregator-sdk-8.9.5.tar.gz]
+[2023-07-11 09:56:46] INFO root fetch - main [MainThread]: End processing [ul-data-aggregator-sdk]: success
+[2023-07-11 09:56:46] INFO root fetch - processPackages [abqpy]: Downloading https://files.pythonhosted.org/packages/74/5d/d80a690b524f6c9eadcebef4df8ad0b3ddac604eb003bdbbcdfeefc47cbd/abqpy-2023.5.3.tar.gz
+[2023-07-11 09:56:46] INFO root fetch - processPackages [abqpy]: Downloading https://files.pythonhosted.org/packages/74/5d/d80a690b524f6c9eadcebef4df8ad0b3ddac604eb003bdbbcdfeefc47cbd/abqpy-2023.5.3.tar.gz
+[2023-07-11 09:56:46] INFO root fetch - processPackages [abqpy]: Downloading https://files.pythonhosted.org/packages/74/5d/d80a690b524f6c9eadcebef4df8ad0b3ddac604eb003bdbbcdfeefc47cbd/abqpy-2023.5.3.tar.gz
+[2023-07-11 09:56:46] INFO root fetch - processPackages [strmprivacy-api-definitions]: executing diffoscope
+[2023-07-11 09:56:46] INFO root fetch - processPackages [strmprivacy-api-definitions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strmprivacy-api-definitions-3.3.0.tar.gz tmp/strmprivacy-api-definitions-3.4.0.tar.gz --markdown 20230711/s/strmprivacy-api-definitions/3.3.0-3.4.0/diff.md --exclude *.pyd
+[2023-07-11 09:56:46] INFO root fetch - processPackages [fastdup]: Downloading https://files.pythonhosted.org/packages/29/5d/10769d5b684287bffedfa8f0e0bfeb77ada87f6bf7f9bf2a3845a805ebed/fastdup-1.8-cp39-cp39-manylinux_2_31_x86_64.whl
+[2023-07-11 09:56:46] INFO root fetch - processPackages [blickfeld-qb2]: Remove: archive file [/home/abi/fetcher/tmp/blickfeld_qb2-1.5.3.tar.gz]
+[2023-07-11 09:56:46] INFO root fetch - processPackages [blickfeld-qb2]: Remove: archive file [/home/abi/fetcher/tmp/blickfeld_qb2-1.6.1.tar.gz]
+[2023-07-11 09:56:46] INFO root fetch - main [MainThread]: End processing [blickfeld-qb2]: success
+[2023-07-11 09:56:46] WARNING root fetch - processPackages [fastdup]: Skipping package: exceeds size limit 75116546>=10485760
+[2023-07-11 09:56:46] INFO root fetch - main [MainThread]: End processing [fastdup] error
+[2023-07-11 09:56:47] INFO root fetch - processPackages [abqpy]: executing diffoscope
+[2023-07-11 09:56:47] INFO root fetch - processPackages [abqpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abqpy-2023.5.2.tar.gz tmp/abqpy-2023.5.3.tar.gz --markdown 20230711/a/abqpy/2023.5.2-2023.5.3/diff.md --exclude *.pyd
+[2023-07-11 09:56:47] INFO root fetch - processPackages [abqpy]: executing diffoscope
+[2023-07-11 09:56:47] INFO root fetch - processPackages [abqpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abqpy-2023.5.2.tar.gz tmp/abqpy-2023.5.3.tar.gz --markdown 20230711/a/abqpy/2023.5.2-2023.5.3/diff.md --exclude *.pyd
+[2023-07-11 09:56:47] INFO root fetch - processPackages [abqpy]: executing diffoscope
+[2023-07-11 09:56:47] INFO root fetch - processPackages [abqpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abqpy-2023.5.2.tar.gz tmp/abqpy-2023.5.3.tar.gz --markdown 20230711/a/abqpy/2023.5.2-2023.5.3/diff.md --exclude *.pyd
+[2023-07-11 09:56:47] INFO root fetch - processPackages [strmprivacy-api-definitions]: Remove: archive file [/home/abi/fetcher/tmp/strmprivacy-api-definitions-3.3.0.tar.gz]
+[2023-07-11 09:56:47] INFO root fetch - processPackages [strmprivacy-api-definitions]: Remove: archive file [/home/abi/fetcher/tmp/strmprivacy-api-definitions-3.4.0.tar.gz]
+[2023-07-11 09:56:47] INFO root fetch - main [MainThread]: End processing [strmprivacy-api-definitions]: success
+[2023-07-11 09:56:58] INFO root fetch - processPackages [abqpy]: Remove: archive file [/home/abi/fetcher/tmp/abqpy-2023.5.2.tar.gz]
+[2023-07-11 09:56:58] INFO root fetch - processPackages [abqpy]: Remove: archive file [/home/abi/fetcher/tmp/abqpy-2023.5.3.tar.gz]
+[2023-07-11 09:56:58] INFO root fetch - main [MainThread]: End processing [abqpy]: success
+[2023-07-11 09:56:58] INFO root fetch - main [MainThread]: End processing [abqpy]: success
+[2023-07-11 09:56:58] INFO root fetch - main [MainThread]: End processing [abqpy]: success
+[2023-07-11 09:57:06] INFO root fetch - processPackages [jennifer-python]: Remove: archive file [/home/abi/fetcher/tmp/jennifer_python-5.6.1.8-py3-none-any.whl.zip]
+[2023-07-11 09:57:06] INFO root fetch - processPackages [jennifer-python]: Remove: archive file [/home/abi/fetcher/tmp/jennifer_python-5.6.1.9-py3-none-any.whl.zip]
+[2023-07-11 09:57:06] INFO root fetch - main [MainThread]: End processing [jennifer-python]: success
+[2023-07-11 09:57:06] INFO root fetch - main [MainThread]: Store serial: [18842144]
