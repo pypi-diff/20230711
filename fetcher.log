@@ -6129,3 +6129,166 @@ AssertionError: tmp/doctran-0.0.6.tar.gz does not exist
 [2023-07-11 03:09:47] INFO root fetch - processPackages [datacube]: Remove: archive file [/home/abi/fetcher/tmp/datacube-1.8.9.tar.gz]
 [2023-07-11 03:09:47] INFO root fetch - main [MainThread]: End processing [datacube]: success
 [2023-07-11 03:09:47] INFO root fetch - main [MainThread]: Store serial: [18839324]
+[2023-07-11 03:14:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18839324]
+[2023-07-11 03:14:56] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-07-11 03:14:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: datacube
+[2023-07-11 03:14:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pepperize.cdk-organizations
+[2023-07-11 03:14:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: oloren
+[2023-07-11 03:14:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: onedrive-integration
+[2023-07-11 03:14:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: imodelsx
+[2023-07-11 03:14:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: python-djangogql
+[2023-07-11 03:14:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Geode-Simplex
+[2023-07-11 03:14:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pydra-dcm2niix
+[2023-07-11 03:14:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: notros2
+[2023-07-11 03:14:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: notros2
+[2023-07-11 03:14:56] INFO root fetch - processPackages [imodelsx]: New version: [0.9] Old Version: [0.8]
+[2023-07-11 03:14:56] INFO root fetch - processPackages [onedrive-integration]: New version: [1.3] Old Version: [1.2]
+[2023-07-11 03:14:56] INFO root fetch - processPackages [python-djangogql]: New version: [1.2.0] Old Version: [1.1.1]
+[2023-07-11 03:14:56] INFO root fetch - processPackages [pydra-dcm2niix]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-07-11 03:14:56] INFO root fetch - processPackages [oloren]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-11 03:14:56] INFO root fetch - processPackages [datacube]: New version: [1.8.9] Old Version: [1.8.8rc1]
+[2023-07-11 03:14:56] INFO root fetch - processPackages [Geode-Simplex]: New version: [6.1.0rc1] Old Version: [6.1.0]
+[2023-07-11 03:14:56] INFO root fetch - processPackages [pepperize.cdk-organizations]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-07-11 03:14:56] INFO root fetch - processPackages [notros2]: New version: [23.7.11.11106] Old Version: [23.7.11.11057]
+[2023-07-11 03:14:56] INFO root fetch - processPackages [notros2]: New version: [23.7.11.11106] Old Version: [23.7.11.11057]
+[2023-07-11 03:14:56] INFO root fetch - processPackages [python-djangogql]: Downloading https://files.pythonhosted.org/packages/fa/9d/a4196ab36440ec41fed524bdb3bc98a3ff05edc4c8614768c09b4c8b5fbf/python-djangogql-1.1.1.tar.gz
+[2023-07-11 03:14:56] INFO root fetch - processPackages [onedrive-integration]: Downloading https://files.pythonhosted.org/packages/c2/27/8b6a9a578e148f485680934623be98706d2072c13ae6bb1d1bbe4e60d102/onedrive-integration-1.2.tar.gz
+[2023-07-11 03:14:56] INFO root fetch - processPackages [oloren]: Downloading https://files.pythonhosted.org/packages/a3/76/06db9dcd349a4094baa829da1112066fd4fe60d5748d1b0c8c0833367603/oloren-0.0.8.tar.gz
+[2023-07-11 03:14:56] INFO root fetch - processPackages [pydra-dcm2niix]: Downloading https://files.pythonhosted.org/packages/8c/b7/841d3349019c861fba66f6c8057a3a10a0034ee11e2f38b581b6811f8d44/pydra-dcm2niix-1.2.0.tar.gz
+[2023-07-11 03:14:56] INFO root fetch - processPackages [imodelsx]: Downloading https://files.pythonhosted.org/packages/d5/f9/2d56764d32ee40aea23493b6fc2968b0791e761a96413e5a3d9bae38ba6f/imodelsx-0.8.tar.gz
+[2023-07-11 03:14:56] INFO root fetch - processPackages [Geode-Simplex]: Downloading https://files.pythonhosted.org/packages/15/be/851fd626dc02c5928f0b9839809622a45952be2b3bf96f03c1a32eda2741/Geode_Simplex-6.1.0-cp39-cp39-win_amd64.whl
+[2023-07-11 03:14:57] INFO root fetch - processPackages [notros2]: Downloading https://files.pythonhosted.org/packages/c8/c7/9c837593c307ca880255d9c7aaeee72acb346a00e52a957c08428dd784e9/notros2-23.7.11.11057.tar.gz
+[2023-07-11 03:14:57] INFO root fetch - processPackages [datacube]: Downloading https://files.pythonhosted.org/packages/51/9d/6f73aa589a09061f1e4da57703199b73d30a3a188151cf5e291831aefaaa/datacube-1.8.8rc1.tar.gz
+[2023-07-11 03:14:57] INFO root fetch - processPackages [notros2]: Downloading https://files.pythonhosted.org/packages/c8/c7/9c837593c307ca880255d9c7aaeee72acb346a00e52a957c08428dd784e9/notros2-23.7.11.11057.tar.gz
+[2023-07-11 03:14:57] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/c4/ec/fa2c14031b7b9ce22e4b044c652dd13a1a81769141fcd90e55c9eeb24d66/pepperize.cdk-organizations-0.7.98.tar.gz
+[2023-07-11 03:14:57] INFO root fetch - processPackages [python-djangogql]: Downloading https://files.pythonhosted.org/packages/ac/75/db6f9faa6831fe5e4ebc66f38c92778d90dff531dbb512f8ece441b7b27b/python-djangogql-1.2.0.tar.gz
+[2023-07-11 03:14:57] INFO root fetch - processPackages [oloren]: Downloading https://files.pythonhosted.org/packages/8f/84/66581190d09357a5dd522267963c2d727e20650e6690064dc2efadd1c020/oloren-0.0.9.tar.gz
+[2023-07-11 03:14:57] INFO root fetch - processPackages [pydra-dcm2niix]: Downloading https://files.pythonhosted.org/packages/44/19/2a5724ed64f5e45e0d861d379dd5de56a41f434493e6b125356971a8d2fe/pydra-dcm2niix-1.2.1.tar.gz
+[2023-07-11 03:14:57] INFO root fetch - processPackages [onedrive-integration]: Downloading https://files.pythonhosted.org/packages/a8/5c/0e3990780f95dfebbc400d6a34c69f9845519a38f87bba99367fb997cd6c/onedrive-integration-1.3.tar.gz
+[2023-07-11 03:14:57] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/12/45/1106cc30844f7f4d96f7898a6ef3647d24a597c297bab995920a5915750e/pepperize.cdk-organizations-0.7.99.tar.gz
+[2023-07-11 03:14:57] INFO root fetch - processPackages [imodelsx]: Downloading https://files.pythonhosted.org/packages/9a/a6/ebfa9059ea8d305d2b71083145584142efa7669def05d5af8cc2db17c8ec/imodelsx-0.9.tar.gz
+[2023-07-11 03:14:57] INFO root fetch - processPackages [notros2]: Downloading https://files.pythonhosted.org/packages/2d/fd/65008b71657dede4eebb3b0e10ea496783d92c8403aba9151430ac6fc36e/notros2-23.7.11.11106-py3-none-any.whl
+[2023-07-11 03:14:57] INFO root fetch - processPackages [notros2]: Downloading https://files.pythonhosted.org/packages/2d/fd/65008b71657dede4eebb3b0e10ea496783d92c8403aba9151430ac6fc36e/notros2-23.7.11.11106-py3-none-any.whl
+[2023-07-11 03:14:57] INFO root fetch - processPackages [Geode-Simplex]: Downloading https://files.pythonhosted.org/packages/75/8a/2baa8b664d03bf77d04227e7de622c7f0ed28654cacd5afe427f0e4e8b55/Geode_Simplex-6.1.0rc1-cp39-cp39-win_amd64.whl
+[2023-07-11 03:14:57] INFO root fetch - processPackages [onedrive-integration]: executing diffoscope
+[2023-07-11 03:14:57] INFO root fetch - processPackages [onedrive-integration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onedrive-integration-1.2.tar.gz tmp/onedrive-integration-1.3.tar.gz --markdown 20230711/o/onedrive-integration/1.2-1.3/diff.md --exclude *.pyd
+[2023-07-11 03:14:57] INFO root fetch - processPackages [python-djangogql]: executing diffoscope
+[2023-07-11 03:14:57] INFO root fetch - processPackages [python-djangogql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-djangogql-1.1.1.tar.gz tmp/python-djangogql-1.2.0.tar.gz --markdown 20230711/p/python-djangogql/1.1.1-1.2.0/diff.md --exclude *.pyd
+[2023-07-11 03:14:57] INFO root fetch - processPackages [oloren]: executing diffoscope
+[2023-07-11 03:14:57] INFO root fetch - processPackages [oloren]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oloren-0.0.8.tar.gz tmp/oloren-0.0.9.tar.gz --markdown 20230711/o/oloren/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-11 03:14:57] INFO root fetch - processPackages [pydra-dcm2niix]: executing diffoscope
+[2023-07-11 03:14:57] INFO root fetch - processPackages [pydra-dcm2niix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydra-dcm2niix-1.2.0.tar.gz tmp/pydra-dcm2niix-1.2.1.tar.gz --markdown 20230711/p/pydra-dcm2niix/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-07-11 03:14:57] INFO root fetch - processPackages [pepperize.cdk-organizations]: executing diffoscope
+[2023-07-11 03:14:57] INFO root fetch - processPackages [pepperize.cdk-organizations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-organizations-0.7.98.tar.gz tmp/pepperize.cdk-organizations-0.7.99.tar.gz --markdown 20230711/p/pepperize.cdk-organizations/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-07-11 03:14:57] INFO root fetch - processPackages [datacube]: Downloading https://files.pythonhosted.org/packages/29/f4/22fd735e40ad3ed6feafa1deafa257e4831d5722849e1b9b70d62544cea0/datacube-1.8.9.tar.gz
+[2023-07-11 03:14:57] INFO root fetch - processPackages [notros2]: executing diffoscope
+[2023-07-11 03:14:57] INFO root fetch - processPackages [notros2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notros2-23.7.11.11057.tar.gz tmp/notros2-23.7.11.11106-py3-none-any.whl.zip --markdown 20230711/n/notros2/23.7.11.11057-23.7.11.11106/diff.md --exclude *.pyd
+[2023-07-11 03:14:57] INFO root fetch - processPackages [notros2]: executing diffoscope
+[2023-07-11 03:14:57] INFO root fetch - processPackages [notros2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notros2-23.7.11.11057.tar.gz tmp/notros2-23.7.11.11106-py3-none-any.whl.zip --markdown 20230711/n/notros2/23.7.11.11057-23.7.11.11106/diff.md --exclude *.pyd
+[2023-07-11 03:14:57] INFO root fetch - processPackages [imodelsx]: executing diffoscope
+[2023-07-11 03:14:57] INFO root fetch - processPackages [imodelsx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imodelsx-0.8.tar.gz tmp/imodelsx-0.9.tar.gz --markdown 20230711/i/imodelsx/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-11 03:14:58] INFO root fetch - processPackages [datacube]: executing diffoscope
+[2023-07-11 03:14:58] INFO root fetch - processPackages [datacube]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datacube-1.8.8rc1.tar.gz tmp/datacube-1.8.9.tar.gz --markdown 20230711/d/datacube/1.8.8rc1-1.8.9/diff.md --exclude *.pyd
+[2023-07-11 03:14:58] INFO root fetch - processPackages [Geode-Simplex]: executing diffoscope
+[2023-07-11 03:14:58] INFO root fetch - processPackages [Geode-Simplex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Simplex-6.1.0-cp39-cp39-win_amd64.whl.zip tmp/Geode_Simplex-6.1.0rc1-cp39-cp39-win_amd64.whl.zip --markdown 20230711/G/Geode-Simplex/6.1.0-6.1.0rc1/diff.md --exclude *.pyd
+[2023-07-11 03:14:59] INFO root fetch - processPackages [onedrive-integration]: Remove: archive file [/home/abi/fetcher/tmp/onedrive-integration-1.2.tar.gz]
+[2023-07-11 03:14:59] INFO root fetch - processPackages [onedrive-integration]: Remove: archive file [/home/abi/fetcher/tmp/onedrive-integration-1.3.tar.gz]
+[2023-07-11 03:14:59] INFO root fetch - processPackages [onedrive-integration]: Start processing: web-2-album
+[2023-07-11 03:14:59] INFO root fetch - main [MainThread]: End processing [onedrive-integration]: success
+[2023-07-11 03:14:59] INFO root fetch - processPackages [web-2-album]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-11 03:14:59] INFO root fetch - processPackages [python-djangogql]: Remove: archive file [/home/abi/fetcher/tmp/python-djangogql-1.1.1.tar.gz]
+[2023-07-11 03:14:59] INFO root fetch - processPackages [python-djangogql]: Remove: archive file [/home/abi/fetcher/tmp/python-djangogql-1.2.0.tar.gz]
+[2023-07-11 03:14:59] INFO root fetch - processPackages [python-djangogql]: Start processing: onedrive-integration
+[2023-07-11 03:14:59] INFO root fetch - main [MainThread]: End processing [python-djangogql]: success
+[2023-07-11 03:14:59] INFO root fetch - processPackages [pydra-dcm2niix]: Remove: archive file [/home/abi/fetcher/tmp/pydra-dcm2niix-1.2.0.tar.gz]
+[2023-07-11 03:14:59] INFO root fetch - processPackages [pydra-dcm2niix]: Remove: archive file [/home/abi/fetcher/tmp/pydra-dcm2niix-1.2.1.tar.gz]
+[2023-07-11 03:14:59] INFO root fetch - processPackages [pydra-dcm2niix]: Start processing: nonebot-plugin-ping
+[2023-07-11 03:14:59] INFO root fetch - main [MainThread]: End processing [pydra-dcm2niix]: success
+[2023-07-11 03:14:59] INFO root fetch - processPackages [onedrive-integration]: New version: [1.3] Old Version: [1.2]
+[2023-07-11 03:14:59] INFO root fetch - processPackages [web-2-album]: Downloading https://files.pythonhosted.org/packages/e2/56/6ad41e27a2b4cb22151449f4c371edca14b0ded11c1a30023e8768e5bb51/web_2_album-0.0.8.tar.gz
+[2023-07-11 03:14:59] INFO root fetch - processPackages [nonebot-plugin-ping]: New version: [1.6.7] Old Version: [1.6.6]
+[2023-07-11 03:14:59] INFO root fetch - processPackages [onedrive-integration]: Downloading https://files.pythonhosted.org/packages/c2/27/8b6a9a578e148f485680934623be98706d2072c13ae6bb1d1bbe4e60d102/onedrive-integration-1.2.tar.gz
+[2023-07-11 03:14:59] INFO root fetch - processPackages [notros2]: Remove: archive file [/home/abi/fetcher/tmp/notros2-23.7.11.11057.tar.gz]
+[2023-07-11 03:14:59] INFO root fetch - processPackages [notros2]: Remove: archive file [/home/abi/fetcher/tmp/notros2-23.7.11.11106-py3-none-any.whl.zip]
+[2023-07-11 03:14:59] INFO root fetch - processPackages [notros2]: Start processing: tensorflow-serving-api
+[2023-07-11 03:14:59] INFO root fetch - main [MainThread]: End processing [notros2]: success
+[2023-07-11 03:14:59] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.98.tar.gz]
+[2023-07-11 03:14:59] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.99.tar.gz]
+[2023-07-11 03:14:59] INFO root fetch - processPackages [pepperize.cdk-organizations]: Start processing: mmif-python
+[2023-07-11 03:14:59] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-organizations]: success
+[2023-07-11 03:14:59] INFO root fetch - processPackages [notros2]: Start processing: nonebot-plugin-summon
+[2023-07-11 03:14:59] INFO root fetch - main [MainThread]: End processing [notros2]: success
+[2023-07-11 03:14:59] INFO root fetch - processPackages [tensorflow-serving-api]: New version: [2.9.3] Old Version: [2.9.2]
+[2023-07-11 03:14:59] INFO root fetch - processPackages [mmif-python]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-11 03:14:59] INFO root fetch - processPackages [nonebot-plugin-summon]: New version: [2.5.4] Old Version: [2.5.3]
+[2023-07-11 03:14:59] INFO root fetch - processPackages [imodelsx]: Remove: archive file [/home/abi/fetcher/tmp/imodelsx-0.8.tar.gz]
+[2023-07-11 03:14:59] INFO root fetch - processPackages [imodelsx]: Remove: archive file [/home/abi/fetcher/tmp/imodelsx-0.9.tar.gz]
+[2023-07-11 03:14:59] INFO root fetch - processPackages [imodelsx]: Start processing: Geode-Explicit
+[2023-07-11 03:14:59] INFO root fetch - main [MainThread]: End processing [imodelsx]: success
+[2023-07-11 03:14:59] INFO root fetch - processPackages [nonebot-plugin-ping]: Downloading https://files.pythonhosted.org/packages/ed/62/35eadb058e464236b9e1b0a05eed2856c0f9cedc81edea218bbe81da95f1/nonebot_plugin_ping-1.6.6.tar.gz
+[2023-07-11 03:14:59] INFO root fetch - processPackages [Geode-Explicit]: New version: [4.1.1rc1] Old Version: [4.1.1]
+[2023-07-11 03:14:59] INFO root fetch - processPackages [web-2-album]: Downloading https://files.pythonhosted.org/packages/3c/b4/db33274effe3dedf1f115b7cc172b70792edc416c89b0a0bc5c1ee85078f/web_2_album-0.0.9.tar.gz
+[2023-07-11 03:14:59] INFO root fetch - processPackages [onedrive-integration]: Downloading https://files.pythonhosted.org/packages/a8/5c/0e3990780f95dfebbc400d6a34c69f9845519a38f87bba99367fb997cd6c/onedrive-integration-1.3.tar.gz
+[2023-07-11 03:14:59] INFO root fetch - processPackages [onedrive-integration]: executing diffoscope
+[2023-07-11 03:14:59] INFO root fetch - processPackages [onedrive-integration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onedrive-integration-1.2.tar.gz tmp/onedrive-integration-1.3.tar.gz --markdown 20230711/o/onedrive-integration/1.2-1.3/diff.md --exclude *.pyd
+[2023-07-11 03:14:59] INFO root fetch - processPackages [tensorflow-serving-api]: Downloading https://files.pythonhosted.org/packages/dd/4f/419cb1e87abd0220c270fee4c493dd910acdb511ecb3533e0c280c8d36c1/tensorflow_serving_api-2.9.2-py2.py3-none-any.whl
+[2023-07-11 03:14:59] INFO root fetch - processPackages [mmif-python]: Downloading https://files.pythonhosted.org/packages/06/57/4af865ada51078617d9e1f7f63c8df749982cda31ec71054cb5cc5ccee53/mmif-python-1.0.1.tar.gz
+[2023-07-11 03:14:59] INFO root fetch - processPackages [nonebot-plugin-summon]: Downloading https://files.pythonhosted.org/packages/92/ab/8501e43d037a61461ce9ab3e75b271aa8253d712953c469b5457bdbad7f4/nonebot_plugin_summon-2.5.3.tar.gz
+[2023-07-11 03:15:00] INFO root fetch - processPackages [web-2-album]: executing diffoscope
+[2023-07-11 03:15:00] INFO root fetch - processPackages [web-2-album]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/web_2_album-0.0.8.tar.gz tmp/web_2_album-0.0.9.tar.gz --markdown 20230711/w/web-2-album/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-11 03:15:00] INFO root fetch - processPackages [Geode-Explicit]: Downloading https://files.pythonhosted.org/packages/a7/13/2edab82f5c2d0b8b05f7290d50f49ee6932bbadb53ac7b3887d39ea637fe/Geode_Explicit-4.1.1-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-11 03:15:00] INFO root fetch - processPackages [nonebot-plugin-ping]: Downloading https://files.pythonhosted.org/packages/52/34/873478c6a7a6b7979279f0ed29b56d3f8e22e84dea8fef890921ab79aeef/nonebot_plugin_ping-1.6.7.tar.gz
+[2023-07-11 03:15:00] INFO root fetch - processPackages [nonebot-plugin-ping]: executing diffoscope
+[2023-07-11 03:15:00] INFO root fetch - processPackages [nonebot-plugin-ping]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_ping-1.6.6.tar.gz tmp/nonebot_plugin_ping-1.6.7.tar.gz --markdown 20230711/n/nonebot-plugin-ping/1.6.6-1.6.7/diff.md --exclude *.pyd
+[2023-07-11 03:15:00] INFO root fetch - processPackages [Geode-Explicit]: Downloading https://files.pythonhosted.org/packages/78/02/d497d0962a36326c36658d17a4680f6897cebdb054fecd0338f70d112025/Geode_Explicit-4.1.1rc1-cp39-cp39-win_amd64.whl
+[2023-07-11 03:15:00] INFO root fetch - processPackages [mmif-python]: Downloading https://files.pythonhosted.org/packages/26/ea/baef5c9e7780e4737fb3aa5aba9ac303836e84a919c788804330054c99af/mmif-python-1.0.2.tar.gz
+[2023-07-11 03:15:00] INFO root fetch - processPackages [nonebot-plugin-summon]: Downloading https://files.pythonhosted.org/packages/76/58/dfe351f28480fa40909837ad92483a82473b05e7cd3562ba856dec841fba/nonebot_plugin_summon-2.5.4.tar.gz
+[2023-07-11 03:15:00] INFO root fetch - processPackages [tensorflow-serving-api]: Downloading https://files.pythonhosted.org/packages/e2/3d/f692757268766c25b643541fa0991d646c3660c5b55d17054d9bfd390bf4/tensorflow_serving_api-2.9.3-py2.py3-none-any.whl
+[2023-07-11 03:15:00] INFO root fetch - processPackages [mmif-python]: executing diffoscope
+[2023-07-11 03:15:00] INFO root fetch - processPackages [mmif-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mmif-python-1.0.1.tar.gz tmp/mmif-python-1.0.2.tar.gz --markdown 20230711/m/mmif-python/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-11 03:15:00] INFO root fetch - processPackages [nonebot-plugin-summon]: executing diffoscope
+[2023-07-11 03:15:00] INFO root fetch - processPackages [nonebot-plugin-summon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_summon-2.5.3.tar.gz tmp/nonebot_plugin_summon-2.5.4.tar.gz --markdown 20230711/n/nonebot-plugin-summon/2.5.3-2.5.4/diff.md --exclude *.pyd
+[2023-07-11 03:15:00] INFO root fetch - processPackages [tensorflow-serving-api]: executing diffoscope
+[2023-07-11 03:15:00] INFO root fetch - processPackages [tensorflow-serving-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorflow_serving_api-2.9.2-py2.py3-none-any.whl.zip tmp/tensorflow_serving_api-2.9.3-py2.py3-none-any.whl.zip --markdown 20230711/t/tensorflow-serving-api/2.9.2-2.9.3/diff.md --exclude *.pyd
+[2023-07-11 03:15:01] INFO root fetch - processPackages [Geode-Explicit]: executing diffoscope
+[2023-07-11 03:15:01] INFO root fetch - processPackages [Geode-Explicit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Explicit-4.1.1-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/Geode_Explicit-4.1.1rc1-cp39-cp39-win_amd64.whl.zip --markdown 20230711/G/Geode-Explicit/4.1.1-4.1.1rc1/diff.md --exclude *.pyd
+[2023-07-11 03:15:01] INFO root fetch - processPackages [onedrive-integration]: Remove: archive file [/home/abi/fetcher/tmp/onedrive-integration-1.2.tar.gz]
+[2023-07-11 03:15:01] INFO root fetch - processPackages [onedrive-integration]: Remove: archive file [/home/abi/fetcher/tmp/onedrive-integration-1.3.tar.gz]
+[2023-07-11 03:15:01] INFO root fetch - processPackages [onedrive-integration]: Start processing: baumanecbank-common
+[2023-07-11 03:15:01] INFO root fetch - main [MainThread]: End processing [onedrive-integration]: success
+[2023-07-11 03:15:01] INFO root fetch - processPackages [baumanecbank-common]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-07-11 03:15:01] INFO root fetch - processPackages [web-2-album]: Remove: archive file [/home/abi/fetcher/tmp/web_2_album-0.0.8.tar.gz]
+[2023-07-11 03:15:01] INFO root fetch - processPackages [web-2-album]: Remove: archive file [/home/abi/fetcher/tmp/web_2_album-0.0.9.tar.gz]
+[2023-07-11 03:15:01] INFO root fetch - main [MainThread]: End processing [web-2-album]: success
+[2023-07-11 03:15:01] INFO root fetch - processPackages [baumanecbank-common]: Downloading https://files.pythonhosted.org/packages/58/90/65c23fc93902ac6294eda5ca9120785555720736a4d8ee77463a3bed4b18/baumanecbank_common-1.1.1.tar.gz
+[2023-07-11 03:15:01] INFO root fetch - processPackages [nonebot-plugin-ping]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_ping-1.6.6.tar.gz]
+[2023-07-11 03:15:01] INFO root fetch - processPackages [nonebot-plugin-ping]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_ping-1.6.7.tar.gz]
+[2023-07-11 03:15:01] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-ping]: success
+[2023-07-11 03:15:01] INFO root fetch - processPackages [baumanecbank-common]: Downloading https://files.pythonhosted.org/packages/b6/94/62520ff5837445ef7cc6ab00103561507a2bb916c9289337314d5b0cd12d/baumanecbank_common-1.1.2.tar.gz
+[2023-07-11 03:15:01] INFO root fetch - processPackages [baumanecbank-common]: executing diffoscope
+[2023-07-11 03:15:01] INFO root fetch - processPackages [baumanecbank-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/baumanecbank_common-1.1.1.tar.gz tmp/baumanecbank_common-1.1.2.tar.gz --markdown 20230711/b/baumanecbank-common/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-07-11 03:15:01] INFO root fetch - processPackages [nonebot-plugin-summon]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_summon-2.5.3.tar.gz]
+[2023-07-11 03:15:01] INFO root fetch - processPackages [nonebot-plugin-summon]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_summon-2.5.4.tar.gz]
+[2023-07-11 03:15:01] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-summon]: success
+[2023-07-11 03:15:02] INFO root fetch - processPackages [mmif-python]: Remove: archive file [/home/abi/fetcher/tmp/mmif-python-1.0.1.tar.gz]
+[2023-07-11 03:15:02] INFO root fetch - processPackages [mmif-python]: Remove: archive file [/home/abi/fetcher/tmp/mmif-python-1.0.2.tar.gz]
+[2023-07-11 03:15:02] INFO root fetch - main [MainThread]: End processing [mmif-python]: success
+[2023-07-11 03:15:02] INFO root fetch - processPackages [tensorflow-serving-api]: Remove: archive file [/home/abi/fetcher/tmp/tensorflow_serving_api-2.9.2-py2.py3-none-any.whl.zip]
+[2023-07-11 03:15:02] INFO root fetch - processPackages [tensorflow-serving-api]: Remove: archive file [/home/abi/fetcher/tmp/tensorflow_serving_api-2.9.3-py2.py3-none-any.whl.zip]
+[2023-07-11 03:15:02] INFO root fetch - main [MainThread]: End processing [tensorflow-serving-api]: success
+[2023-07-11 03:15:02] INFO root fetch - processPackages [Geode-Explicit]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Explicit-4.1.1-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-07-11 03:15:02] INFO root fetch - processPackages [Geode-Explicit]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Explicit-4.1.1rc1-cp39-cp39-win_amd64.whl.zip]
+[2023-07-11 03:15:02] INFO root fetch - main [MainThread]: End processing [Geode-Explicit]: success
+[2023-07-11 03:15:02] INFO root fetch - processPackages [datacube]: Remove: archive file [/home/abi/fetcher/tmp/datacube-1.8.8rc1.tar.gz]
+[2023-07-11 03:15:02] INFO root fetch - processPackages [datacube]: Remove: archive file [/home/abi/fetcher/tmp/datacube-1.8.9.tar.gz]
+[2023-07-11 03:15:02] INFO root fetch - main [MainThread]: End processing [datacube]: success
+[2023-07-11 03:15:02] INFO root fetch - processPackages [baumanecbank-common]: Remove: archive file [/home/abi/fetcher/tmp/baumanecbank_common-1.1.1.tar.gz]
+[2023-07-11 03:15:02] INFO root fetch - processPackages [baumanecbank-common]: Remove: archive file [/home/abi/fetcher/tmp/baumanecbank_common-1.1.2.tar.gz]
+[2023-07-11 03:15:02] INFO root fetch - main [MainThread]: End processing [baumanecbank-common]: success
+[2023-07-11 03:15:03] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.8.tar.gz]
+[2023-07-11 03:15:03] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.9.tar.gz]
+[2023-07-11 03:15:03] INFO root fetch - main [MainThread]: End processing [oloren]: success
+[2023-07-11 03:15:11] INFO root fetch - processPackages [Geode-Simplex]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Simplex-6.1.0-cp39-cp39-win_amd64.whl.zip]
+[2023-07-11 03:15:11] INFO root fetch - processPackages [Geode-Simplex]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Simplex-6.1.0rc1-cp39-cp39-win_amd64.whl.zip]
+[2023-07-11 03:15:11] INFO root fetch - main [MainThread]: End processing [Geode-Simplex]: success
+[2023-07-11 03:15:11] INFO root fetch - main [MainThread]: Store serial: [18839380]
