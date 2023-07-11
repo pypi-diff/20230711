@@ -14668,3 +14668,114 @@ AssertionError: tmp/doctran-0.0.6.tar.gz does not exist
 [2023-07-11 11:12:47] INFO root fetch - processPackages [influx-si]: Remove: archive file [/home/abi/fetcher/tmp/influx_si-7.0.tar.gz]
 [2023-07-11 11:12:47] INFO root fetch - main [MainThread]: End processing [influx-si]: success
 [2023-07-11 11:12:47] INFO root fetch - main [MainThread]: Store serial: [18842945]
+[2023-07-11 11:17:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18842945]
+[2023-07-11 11:17:57] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-11 11:17:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pinject-design
+[2023-07-11 11:17:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pydflow
+[2023-07-11 11:17:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fastchecks
+[2023-07-11 11:17:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: papertronics-sdk
+[2023-07-11 11:17:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: proofy-sdk-python
+[2023-07-11 11:17:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: acquire
+[2023-07-11 11:17:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: FedArtML
+[2023-07-11 11:17:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: wagtail-formation
+[2023-07-11 11:17:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tinybird-cli
+[2023-07-11 11:17:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: types-flake8-bugbear
+[2023-07-11 11:17:57] INFO root fetch - processPackages [pinject-design]: New version: [0.1.9] Old Version: [0.1.88]
+[2023-07-11 11:17:57] INFO root fetch - processPackages [acquire]: New version: [3.8.dev2] Old Version: [3.8.dev1]
+[2023-07-11 11:17:57] INFO root fetch - processPackages [types-flake8-bugbear]: New version: [23.7.10.0] Old Version: [23.6.5.0]
+[2023-07-11 11:17:57] INFO root fetch - processPackages [fastchecks]: New version: [0.1.0rc3] Old Version: [0.1.0rc2]
+[2023-07-11 11:17:57] INFO root fetch - processPackages [FedArtML]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-11 11:17:57] INFO root fetch - processPackages [papertronics-sdk]: New version: [0.0.20] Old Version: [0.0.19]
+[2023-07-11 11:17:57] INFO root fetch - processPackages [wagtail-formation]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-11 11:17:57] INFO root fetch - processPackages [proofy-sdk-python]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-11 11:17:58] INFO root fetch - processPackages [pydflow]: New version: [1.7.9] Old Version: [1.7.8]
+[2023-07-11 11:17:58] INFO root fetch - processPackages [tinybird-cli]: New version: [1.0.0b99] Old Version: [1.0.0b98]
+[2023-07-11 11:17:58] INFO root fetch - processPackages [fastchecks]: Downloading https://files.pythonhosted.org/packages/e2/57/309c96a727ad62dc7d8dcc793e0e3088381b4883c340cb59c6aa2d71a7c6/fastchecks-0.1.0rc2.tar.gz
+[2023-07-11 11:17:58] INFO root fetch - processPackages [papertronics-sdk]: Downloading https://files.pythonhosted.org/packages/1e/00/d9c19a768d6e7106303d9c2687243aee1507256054055592a032069e6c21/papertronics-sdk-0.0.19.tar.gz
+[2023-07-11 11:17:58] INFO root fetch - processPackages [pydflow]: Downloading https://files.pythonhosted.org/packages/33/96/a989d9cfcdb5dcb43d60a72640c59e2efb7fd053182742205b332006f813/pydflow-1.7.8.tar.gz
+[2023-07-11 11:17:58] INFO root fetch - processPackages [tinybird-cli]: Downloading https://files.pythonhosted.org/packages/cf/bc/f6fe2aa48ad97fc6f03b105a263497f0cc5d7173fa89703bbc609c18f13a/tinybird-cli-1.0.0b98.tar.gz
+[2023-07-11 11:17:58] INFO root fetch - processPackages [pinject-design]: Downloading https://files.pythonhosted.org/packages/18/64/383ec8e66efaf0d678f7f993b7c0d25693fdac560ed90659592e544e05fc/pinject_design-0.1.88.tar.gz
+[2023-07-11 11:17:58] INFO root fetch - processPackages [types-flake8-bugbear]: Downloading https://files.pythonhosted.org/packages/36/2b/cd4256c903a6a998e9128d17f7dea0f5732f29db0906721daeb7f70ce246/types-flake8-bugbear-23.6.5.0.tar.gz
+[2023-07-11 11:17:58] INFO root fetch - processPackages [proofy-sdk-python]: Downloading https://files.pythonhosted.org/packages/21/ab/55a712d47f8aca6b51877e0b5fe23a5f4d0a1316519f0de99d3b06f333b9/proofy-sdk-python-0.0.1.tar.gz
+[2023-07-11 11:17:58] INFO root fetch - processPackages [acquire]: Downloading https://files.pythonhosted.org/packages/30/13/2be3e24470e1f2d6843a0fb3d6eab58a5259d34523497d11699304d5e2b6/acquire-3.8.dev1.tar.gz
+[2023-07-11 11:17:58] INFO root fetch - processPackages [FedArtML]: Downloading https://files.pythonhosted.org/packages/f2/e0/c2df23cf55a2dc762d772ef2cb885e353d6a7a6311f9377fbc3601775946/FedArtML-0.1.8.tar.gz
+[2023-07-11 11:17:58] INFO root fetch - processPackages [wagtail-formation]: Downloading https://files.pythonhosted.org/packages/cc/70/5d4c4984fc81a42c9568f2eaad230fe0069080c68c3e318772ffcbf71275/wagtail_formation-0.1.3.tar.gz
+[2023-07-11 11:17:58] INFO root fetch - processPackages [fastchecks]: Downloading https://files.pythonhosted.org/packages/9f/4d/9f99ce0a5d9118eba51dde1f12dda42f98f57201b82b12133aedc2ddbedc/fastchecks-0.1.0rc3.tar.gz
+[2023-07-11 11:17:58] INFO root fetch - processPackages [papertronics-sdk]: Downloading https://files.pythonhosted.org/packages/d5/cc/23b735f0832b7389d30221494abda7730d557fe6eef4abdca396ef89fd7d/papertronics-sdk-0.0.20.tar.gz
+[2023-07-11 11:17:58] INFO root fetch - processPackages [pydflow]: Downloading https://files.pythonhosted.org/packages/9c/41/6c9bc72fde943869899725f55fade9f850f62ecbc6fa31e53b8fa79ae5a3/pydflow-1.7.9.tar.gz
+[2023-07-11 11:17:58] INFO root fetch - processPackages [tinybird-cli]: Downloading https://files.pythonhosted.org/packages/6a/27/a5d411f1a02b44b9f386c7d18397784dcaa5fe1129d9a77e87a5e048edc5/tinybird-cli-1.0.0b99.tar.gz
+[2023-07-11 11:17:58] INFO root fetch - processPackages [proofy-sdk-python]: Downloading https://files.pythonhosted.org/packages/d9/20/a693e4c53c4c2c2ffe1408faa2a404c81f4cc853f8a274fa495f0f529974/proofy-sdk-python-0.0.2.tar.gz
+[2023-07-11 11:17:58] INFO root fetch - processPackages [acquire]: Downloading https://files.pythonhosted.org/packages/fd/bc/6f989833a2abada68156c9d2294876951775696db955d4e8edbb3aad6ec5/acquire-3.8.dev2.tar.gz
+[2023-07-11 11:17:58] INFO root fetch - processPackages [fastchecks]: executing diffoscope
+[2023-07-11 11:17:58] INFO root fetch - processPackages [fastchecks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastchecks-0.1.0rc2.tar.gz tmp/fastchecks-0.1.0rc3.tar.gz --markdown 20230711/f/fastchecks/0.1.0rc2-0.1.0rc3/diff.md --exclude *.pyd
+[2023-07-11 11:17:58] INFO root fetch - processPackages [types-flake8-bugbear]: Downloading https://files.pythonhosted.org/packages/66/da/bd7217b4525dd42133dad71b9bd13a5c82abc2e10437d351c45833ec349b/types-flake8-bugbear-23.7.10.0.tar.gz
+[2023-07-11 11:17:58] INFO root fetch - processPackages [pinject-design]: Downloading https://files.pythonhosted.org/packages/52/12/a13d2115034630043d98ad1bf73e273115201ee763cd0fd21c61df995b87/pinject-design-0.1.9.tar.gz
+[2023-07-11 11:17:58] INFO root fetch - processPackages [papertronics-sdk]: executing diffoscope
+[2023-07-11 11:17:58] INFO root fetch - processPackages [papertronics-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/papertronics-sdk-0.0.19.tar.gz tmp/papertronics-sdk-0.0.20.tar.gz --markdown 20230711/p/papertronics-sdk/0.0.19-0.0.20/diff.md --exclude *.pyd
+[2023-07-11 11:17:58] INFO root fetch - processPackages [wagtail-formation]: Downloading https://files.pythonhosted.org/packages/10/f6/a232158ad4a500df2cfcbf738248c268ea1efc9c23aece8accf4add66d4f/wagtail_formation-0.1.4.tar.gz
+[2023-07-11 11:17:58] INFO root fetch - processPackages [FedArtML]: Downloading https://files.pythonhosted.org/packages/3b/c0/e904e477eb20a05047137d0945a73ab54386b2b74bfc5ca073cbf80c33fb/FedArtML-0.1.9.tar.gz
+[2023-07-11 11:17:58] INFO root fetch - processPackages [pydflow]: executing diffoscope
+[2023-07-11 11:17:58] INFO root fetch - processPackages [pydflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydflow-1.7.8.tar.gz tmp/pydflow-1.7.9.tar.gz --markdown 20230711/p/pydflow/1.7.8-1.7.9/diff.md --exclude *.pyd
+[2023-07-11 11:17:58] INFO root fetch - processPackages [tinybird-cli]: executing diffoscope
+[2023-07-11 11:17:58] INFO root fetch - processPackages [tinybird-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinybird-cli-1.0.0b98.tar.gz tmp/tinybird-cli-1.0.0b99.tar.gz --markdown 20230711/t/tinybird-cli/1.0.0b98-1.0.0b99/diff.md --exclude *.pyd
+[2023-07-11 11:17:59] INFO root fetch - processPackages [proofy-sdk-python]: executing diffoscope
+[2023-07-11 11:17:59] INFO root fetch - processPackages [proofy-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proofy-sdk-python-0.0.1.tar.gz tmp/proofy-sdk-python-0.0.2.tar.gz --markdown 20230711/p/proofy-sdk-python/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-11 11:17:59] INFO root fetch - processPackages [acquire]: executing diffoscope
+[2023-07-11 11:17:59] INFO root fetch - processPackages [acquire]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acquire-3.8.dev1.tar.gz tmp/acquire-3.8.dev2.tar.gz --markdown 20230711/a/acquire/3.8.dev1-3.8.dev2/diff.md --exclude *.pyd
+[2023-07-11 11:17:59] INFO root fetch - processPackages [pinject-design]: executing diffoscope
+[2023-07-11 11:17:59] INFO root fetch - processPackages [pinject-design]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pinject_design-0.1.88.tar.gz tmp/pinject-design-0.1.9.tar.gz --markdown 20230711/p/pinject-design/0.1.88-0.1.9/diff.md --exclude *.pyd
+[2023-07-11 11:17:59] INFO root fetch - processPackages [FedArtML]: executing diffoscope
+[2023-07-11 11:17:59] INFO root fetch - processPackages [FedArtML]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FedArtML-0.1.8.tar.gz tmp/FedArtML-0.1.9.tar.gz --markdown 20230711/F/FedArtML/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-11 11:17:59] INFO root fetch - processPackages [types-flake8-bugbear]: executing diffoscope
+[2023-07-11 11:17:59] INFO root fetch - processPackages [types-flake8-bugbear]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-flake8-bugbear-23.6.5.0.tar.gz tmp/types-flake8-bugbear-23.7.10.0.tar.gz --markdown 20230711/t/types-flake8-bugbear/23.6.5.0-23.7.10.0/diff.md --exclude *.pyd
+[2023-07-11 11:17:59] INFO root fetch - processPackages [wagtail-formation]: executing diffoscope
+[2023-07-11 11:17:59] INFO root fetch - processPackages [wagtail-formation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtail_formation-0.1.3.tar.gz tmp/wagtail_formation-0.1.4.tar.gz --markdown 20230711/w/wagtail-formation/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-11 11:18:00] INFO root fetch - processPackages [fastchecks]: Remove: archive file [/home/abi/fetcher/tmp/fastchecks-0.1.0rc2.tar.gz]
+[2023-07-11 11:18:00] INFO root fetch - processPackages [fastchecks]: Remove: archive file [/home/abi/fetcher/tmp/fastchecks-0.1.0rc3.tar.gz]
+[2023-07-11 11:18:00] INFO root fetch - processPackages [fastchecks]: Start processing: types-braintree
+[2023-07-11 11:18:00] INFO root fetch - main [MainThread]: End processing [fastchecks]: success
+[2023-07-11 11:18:00] INFO root fetch - processPackages [types-braintree]: New version: [4.21.0.0] Old Version: [4.20.0.0]
+[2023-07-11 11:18:00] INFO root fetch - processPackages [papertronics-sdk]: Remove: archive file [/home/abi/fetcher/tmp/papertronics-sdk-0.0.19.tar.gz]
+[2023-07-11 11:18:00] INFO root fetch - processPackages [papertronics-sdk]: Remove: archive file [/home/abi/fetcher/tmp/papertronics-sdk-0.0.20.tar.gz]
+[2023-07-11 11:18:00] INFO root fetch - processPackages [papertronics-sdk]: Start processing: tap-exact
+[2023-07-11 11:18:00] INFO root fetch - main [MainThread]: End processing [papertronics-sdk]: success
+[2023-07-11 11:18:00] INFO root fetch - processPackages [types-braintree]: Downloading https://files.pythonhosted.org/packages/3f/da/66ba5b66807c66d165e8098c045e79915c97b23ae663d869d930bf56b988/types-braintree-4.20.0.0.tar.gz
+[2023-07-11 11:18:00] INFO root fetch - processPackages [tap-exact]: New version: [0.6.0] Old Version: [0.5.4]
+[2023-07-11 11:18:00] INFO root fetch - processPackages [tinybird-cli]: Remove: archive file [/home/abi/fetcher/tmp/tinybird-cli-1.0.0b98.tar.gz]
+[2023-07-11 11:18:00] INFO root fetch - processPackages [tinybird-cli]: Remove: archive file [/home/abi/fetcher/tmp/tinybird-cli-1.0.0b99.tar.gz]
+[2023-07-11 11:18:00] INFO root fetch - main [MainThread]: End processing [tinybird-cli]: success
+[2023-07-11 11:18:00] INFO root fetch - processPackages [proofy-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/proofy-sdk-python-0.0.1.tar.gz]
+[2023-07-11 11:18:00] INFO root fetch - processPackages [proofy-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/proofy-sdk-python-0.0.2.tar.gz]
+[2023-07-11 11:18:00] INFO root fetch - main [MainThread]: End processing [proofy-sdk-python]: success
+[2023-07-11 11:18:00] INFO root fetch - processPackages [FedArtML]: Remove: archive file [/home/abi/fetcher/tmp/FedArtML-0.1.8.tar.gz]
+[2023-07-11 11:18:00] INFO root fetch - processPackages [FedArtML]: Remove: archive file [/home/abi/fetcher/tmp/FedArtML-0.1.9.tar.gz]
+[2023-07-11 11:18:00] INFO root fetch - main [MainThread]: End processing [FedArtML]: success
+[2023-07-11 11:18:00] INFO root fetch - processPackages [pinject-design]: Remove: archive file [/home/abi/fetcher/tmp/pinject_design-0.1.88.tar.gz]
+[2023-07-11 11:18:00] INFO root fetch - processPackages [pinject-design]: Remove: archive file [/home/abi/fetcher/tmp/pinject-design-0.1.9.tar.gz]
+[2023-07-11 11:18:00] INFO root fetch - main [MainThread]: End processing [pinject-design]: success
+[2023-07-11 11:18:00] INFO root fetch - processPackages [types-flake8-bugbear]: Remove: archive file [/home/abi/fetcher/tmp/types-flake8-bugbear-23.6.5.0.tar.gz]
+[2023-07-11 11:18:00] INFO root fetch - processPackages [types-flake8-bugbear]: Remove: archive file [/home/abi/fetcher/tmp/types-flake8-bugbear-23.7.10.0.tar.gz]
+[2023-07-11 11:18:00] INFO root fetch - main [MainThread]: End processing [types-flake8-bugbear]: success
+[2023-07-11 11:18:00] INFO root fetch - processPackages [pydflow]: Remove: archive file [/home/abi/fetcher/tmp/pydflow-1.7.8.tar.gz]
+[2023-07-11 11:18:00] INFO root fetch - processPackages [pydflow]: Remove: archive file [/home/abi/fetcher/tmp/pydflow-1.7.9.tar.gz]
+[2023-07-11 11:18:00] INFO root fetch - main [MainThread]: End processing [pydflow]: success
+[2023-07-11 11:18:01] INFO root fetch - processPackages [tap-exact]: Downloading https://files.pythonhosted.org/packages/58/e3/4211f421cc286757c205a788ddcb1a75dcd75c212cc4658e232b2937af02/tap_exact-0.5.4.tar.gz
+[2023-07-11 11:18:01] INFO root fetch - processPackages [acquire]: Remove: archive file [/home/abi/fetcher/tmp/acquire-3.8.dev1.tar.gz]
+[2023-07-11 11:18:01] INFO root fetch - processPackages [acquire]: Remove: archive file [/home/abi/fetcher/tmp/acquire-3.8.dev2.tar.gz]
+[2023-07-11 11:18:01] INFO root fetch - main [MainThread]: End processing [acquire]: success
+[2023-07-11 11:18:01] INFO root fetch - processPackages [wagtail-formation]: Remove: archive file [/home/abi/fetcher/tmp/wagtail_formation-0.1.3.tar.gz]
+[2023-07-11 11:18:01] INFO root fetch - processPackages [wagtail-formation]: Remove: archive file [/home/abi/fetcher/tmp/wagtail_formation-0.1.4.tar.gz]
+[2023-07-11 11:18:01] INFO root fetch - main [MainThread]: End processing [wagtail-formation]: success
+[2023-07-11 11:18:01] INFO root fetch - processPackages [types-braintree]: Downloading https://files.pythonhosted.org/packages/95/0d/7661f28b7793cc99a9d8de8bb2b27eab726658d70888ed4e90534be77b15/types-braintree-4.21.0.0.tar.gz
+[2023-07-11 11:18:01] INFO root fetch - processPackages [tap-exact]: Downloading https://files.pythonhosted.org/packages/18/bc/3a34ae63551a04dc7067fb3a35884261834067a869ceafdd793ba89c21c1/tap_exact-0.6.0.tar.gz
+[2023-07-11 11:18:01] INFO root fetch - processPackages [types-braintree]: executing diffoscope
+[2023-07-11 11:18:01] INFO root fetch - processPackages [types-braintree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-braintree-4.20.0.0.tar.gz tmp/types-braintree-4.21.0.0.tar.gz --markdown 20230711/t/types-braintree/4.20.0.0-4.21.0.0/diff.md --exclude *.pyd
+[2023-07-11 11:18:01] INFO root fetch - processPackages [tap-exact]: executing diffoscope
+[2023-07-11 11:18:01] INFO root fetch - processPackages [tap-exact]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tap_exact-0.5.4.tar.gz tmp/tap_exact-0.6.0.tar.gz --markdown 20230711/t/tap-exact/0.5.4-0.6.0/diff.md --exclude *.pyd
+[2023-07-11 11:18:02] INFO root fetch - processPackages [types-braintree]: Remove: archive file [/home/abi/fetcher/tmp/types-braintree-4.20.0.0.tar.gz]
+[2023-07-11 11:18:02] INFO root fetch - processPackages [types-braintree]: Remove: archive file [/home/abi/fetcher/tmp/types-braintree-4.21.0.0.tar.gz]
+[2023-07-11 11:18:02] INFO root fetch - main [MainThread]: End processing [types-braintree]: success
+[2023-07-11 11:18:02] INFO root fetch - processPackages [tap-exact]: Remove: archive file [/home/abi/fetcher/tmp/tap_exact-0.5.4.tar.gz]
+[2023-07-11 11:18:02] INFO root fetch - processPackages [tap-exact]: Remove: archive file [/home/abi/fetcher/tmp/tap_exact-0.6.0.tar.gz]
+[2023-07-11 11:18:02] INFO root fetch - main [MainThread]: End processing [tap-exact]: success
+[2023-07-11 11:18:02] INFO root fetch - main [MainThread]: Store serial: [18842990]
