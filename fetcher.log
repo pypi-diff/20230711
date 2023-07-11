@@ -6980,3 +6980,74 @@ AssertionError: tmp/doctran-0.0.6.tar.gz does not exist
 [2023-07-11 03:54:33] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev9.tar.gz]
 [2023-07-11 03:54:33] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2023-07-11 03:54:33] INFO root fetch - main [MainThread]: Store serial: [18839741]
+[2023-07-11 03:59:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18839741]
+[2023-07-11 03:59:42] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-11 03:59:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tictactools
+[2023-07-11 03:59:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qlcpy
+[2023-07-11 03:59:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cmdcomp
+[2023-07-11 03:59:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: findlike
+[2023-07-11 03:59:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: specklia
+[2023-07-11 03:59:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hx-requests
+[2023-07-11 03:59:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nnabla
+[2023-07-11 03:59:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: baumanecbank-common
+[2023-07-11 03:59:42] INFO root fetch - processPackages [tictactools]: New version: [1.1] Old Version: [1.0]
+[2023-07-11 03:59:42] INFO root fetch - processPackages [qlcpy]: New version: [1.0.9] Old Version: [1.0.4]
+[2023-07-11 03:59:42] INFO root fetch - processPackages [findlike]: New version: [1.4.0] Old Version: [1.3.1]
+[2023-07-11 03:59:42] INFO root fetch - processPackages [hx-requests]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-11 03:59:42] INFO root fetch - processPackages [baumanecbank-common]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-07-11 03:59:42] INFO root fetch - processPackages [cmdcomp]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-07-11 03:59:42] INFO root fetch - processPackages [specklia]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-07-11 03:59:42] INFO root fetch - processPackages [nnabla]: New version: [1.36.0] Old Version: [1.35.1]
+[2023-07-11 03:59:43] INFO root fetch - processPackages [baumanecbank-common]: Downloading https://files.pythonhosted.org/packages/58/90/65c23fc93902ac6294eda5ca9120785555720736a4d8ee77463a3bed4b18/baumanecbank_common-1.1.1.tar.gz
+[2023-07-11 03:59:43] INFO root fetch - processPackages [cmdcomp]: Downloading https://files.pythonhosted.org/packages/55/ac/04430aeee9f4be4823d9f9d8945aa1c4abe2bae15ed40f865e7701ee3cf0/cmdcomp-1.1.2.tar.gz
+[2023-07-11 03:59:43] INFO root fetch - processPackages [specklia]: Downloading https://files.pythonhosted.org/packages/2a/bd/1379d90b6bd45442f7550556688400cbbbfc9ca64d3a7d78533565069eda/specklia-1.2.8.tar.gz
+[2023-07-11 03:59:43] INFO root fetch - processPackages [tictactools]: Downloading https://files.pythonhosted.org/packages/2c/10/a0761c1db1ae26d572db049d22846b4b9a81379403b018cafb4ec33a6bd2/tictactools-1.0.tar.gz
+[2023-07-11 03:59:43] INFO root fetch - processPackages [qlcpy]: Downloading https://files.pythonhosted.org/packages/e0/65/c81220058d326eb788eecce502b8ca38a94446108df168b8f04d12914adc/qlcpy-1.0.4.tar.gz
+[2023-07-11 03:59:43] INFO root fetch - processPackages [findlike]: Downloading https://files.pythonhosted.org/packages/79/ef/86339ecfb7d6d765381b8ac0404feeabc7d437082595a9e47d849676030b/findlike-1.3.1.tar.gz
+[2023-07-11 03:59:43] INFO root fetch - processPackages [hx-requests]: Downloading https://files.pythonhosted.org/packages/3a/66/abe3611c9a7b331352d0d584b6cb03b625bec10e97ea4d64a76fa90a7369/hx_requests-0.8.0.tar.gz
+[2023-07-11 03:59:43] INFO root fetch - processPackages [nnabla]: Downloading https://files.pythonhosted.org/packages/a3/14/03517d258cefec1db78269aae9b22f347f6617393be0d87088a52181bd4d/nnabla-1.35.1-cp39-cp39-win_amd64.whl
+[2023-07-11 03:59:43] INFO root fetch - processPackages [baumanecbank-common]: Downloading https://files.pythonhosted.org/packages/b6/94/62520ff5837445ef7cc6ab00103561507a2bb916c9289337314d5b0cd12d/baumanecbank_common-1.1.2.tar.gz
+[2023-07-11 03:59:43] INFO root fetch - processPackages [baumanecbank-common]: executing diffoscope
+[2023-07-11 03:59:43] INFO root fetch - processPackages [baumanecbank-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/baumanecbank_common-1.1.1.tar.gz tmp/baumanecbank_common-1.1.2.tar.gz --markdown 20230711/b/baumanecbank-common/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-07-11 03:59:43] INFO root fetch - processPackages [tictactools]: Downloading https://files.pythonhosted.org/packages/92/8b/06b90983bd04fd73e47f5ec9d29f75dae78e4540f58974cc31fcbe1b15e0/tictactools-1.1.tar.gz
+[2023-07-11 03:59:43] INFO root fetch - processPackages [cmdcomp]: Downloading https://files.pythonhosted.org/packages/07/4a/c58d3db3bb4ef345d8461a496ad99ab8fb5e615cc8fda567c9b179a0b8e1/cmdcomp-1.1.3.tar.gz
+[2023-07-11 03:59:43] INFO root fetch - processPackages [specklia]: Downloading https://files.pythonhosted.org/packages/82/ab/63cdd26880b2cbe03073ca9cb599a0ed43a52df679f722fa5d3eaab6c4c5/specklia-1.2.9.tar.gz
+[2023-07-11 03:59:43] INFO root fetch - processPackages [findlike]: Downloading https://files.pythonhosted.org/packages/ee/b7/ac39dfbe1b15b301fac09a887d10c5fdb995d70c799d90b2e98752dda35d/findlike-1.4.0.tar.gz
+[2023-07-11 03:59:43] INFO root fetch - processPackages [tictactools]: executing diffoscope
+[2023-07-11 03:59:43] INFO root fetch - processPackages [tictactools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tictactools-1.0.tar.gz tmp/tictactools-1.1.tar.gz --markdown 20230711/t/tictactools/1.0-1.1/diff.md --exclude *.pyd
+[2023-07-11 03:59:43] INFO root fetch - processPackages [cmdcomp]: executing diffoscope
+[2023-07-11 03:59:43] INFO root fetch - processPackages [cmdcomp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmdcomp-1.1.2.tar.gz tmp/cmdcomp-1.1.3.tar.gz --markdown 20230711/c/cmdcomp/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-07-11 03:59:43] INFO root fetch - processPackages [qlcpy]: Downloading https://files.pythonhosted.org/packages/72/0d/883947a9d4ea4106065fc0e0487f6c1672ae9dfa7504fa86b5472730e1df/qlcpy-1.0.9.tar.gz
+[2023-07-11 03:59:43] INFO root fetch - processPackages [specklia]: executing diffoscope
+[2023-07-11 03:59:43] INFO root fetch - processPackages [specklia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/specklia-1.2.8.tar.gz tmp/specklia-1.2.9.tar.gz --markdown 20230711/s/specklia/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-07-11 03:59:43] INFO root fetch - processPackages [hx-requests]: Downloading https://files.pythonhosted.org/packages/38/c2/cd7ffd390e8f65981518e18497e49a3b71e5ded11c98762b6fcf15ff54ba/hx_requests-0.9.0.tar.gz
+[2023-07-11 03:59:43] INFO root fetch - processPackages [findlike]: executing diffoscope
+[2023-07-11 03:59:43] INFO root fetch - processPackages [findlike]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/findlike-1.3.1.tar.gz tmp/findlike-1.4.0.tar.gz --markdown 20230711/f/findlike/1.3.1-1.4.0/diff.md --exclude *.pyd
+[2023-07-11 03:59:43] INFO root fetch - processPackages [qlcpy]: executing diffoscope
+[2023-07-11 03:59:43] INFO root fetch - processPackages [qlcpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qlcpy-1.0.4.tar.gz tmp/qlcpy-1.0.9.tar.gz --markdown 20230711/q/qlcpy/1.0.4-1.0.9/diff.md --exclude *.pyd
+[2023-07-11 03:59:44] WARNING root fetch - processPackages [nnabla]: Skipping package: exceeds size limit 12488031>=10485760
+[2023-07-11 03:59:44] INFO root fetch - main [MainThread]: End processing [nnabla] error
+[2023-07-11 03:59:44] INFO root fetch - processPackages [hx-requests]: executing diffoscope
+[2023-07-11 03:59:44] INFO root fetch - processPackages [hx-requests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hx_requests-0.8.0.tar.gz tmp/hx_requests-0.9.0.tar.gz --markdown 20230711/h/hx-requests/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-11 03:59:44] INFO root fetch - processPackages [tictactools]: Remove: archive file [/home/abi/fetcher/tmp/tictactools-1.0.tar.gz]
+[2023-07-11 03:59:44] INFO root fetch - processPackages [tictactools]: Remove: archive file [/home/abi/fetcher/tmp/tictactools-1.1.tar.gz]
+[2023-07-11 03:59:44] INFO root fetch - main [MainThread]: End processing [tictactools]: success
+[2023-07-11 03:59:44] INFO root fetch - processPackages [baumanecbank-common]: Remove: archive file [/home/abi/fetcher/tmp/baumanecbank_common-1.1.1.tar.gz]
+[2023-07-11 03:59:44] INFO root fetch - processPackages [baumanecbank-common]: Remove: archive file [/home/abi/fetcher/tmp/baumanecbank_common-1.1.2.tar.gz]
+[2023-07-11 03:59:44] INFO root fetch - main [MainThread]: End processing [baumanecbank-common]: success
+[2023-07-11 03:59:44] INFO root fetch - processPackages [specklia]: Remove: archive file [/home/abi/fetcher/tmp/specklia-1.2.8.tar.gz]
+[2023-07-11 03:59:44] INFO root fetch - processPackages [specklia]: Remove: archive file [/home/abi/fetcher/tmp/specklia-1.2.9.tar.gz]
+[2023-07-11 03:59:44] INFO root fetch - main [MainThread]: End processing [specklia]: success
+[2023-07-11 03:59:44] INFO root fetch - processPackages [cmdcomp]: Remove: archive file [/home/abi/fetcher/tmp/cmdcomp-1.1.2.tar.gz]
+[2023-07-11 03:59:44] INFO root fetch - processPackages [cmdcomp]: Remove: archive file [/home/abi/fetcher/tmp/cmdcomp-1.1.3.tar.gz]
+[2023-07-11 03:59:44] INFO root fetch - main [MainThread]: End processing [cmdcomp]: success
+[2023-07-11 03:59:45] INFO root fetch - processPackages [hx-requests]: Remove: archive file [/home/abi/fetcher/tmp/hx_requests-0.8.0.tar.gz]
+[2023-07-11 03:59:45] INFO root fetch - processPackages [hx-requests]: Remove: archive file [/home/abi/fetcher/tmp/hx_requests-0.9.0.tar.gz]
+[2023-07-11 03:59:45] INFO root fetch - main [MainThread]: End processing [hx-requests]: success
+[2023-07-11 03:59:45] INFO root fetch - processPackages [findlike]: Remove: archive file [/home/abi/fetcher/tmp/findlike-1.3.1.tar.gz]
+[2023-07-11 03:59:45] INFO root fetch - processPackages [findlike]: Remove: archive file [/home/abi/fetcher/tmp/findlike-1.4.0.tar.gz]
+[2023-07-11 03:59:45] INFO root fetch - main [MainThread]: End processing [findlike]: success
+[2023-07-11 03:59:45] INFO root fetch - processPackages [qlcpy]: Remove: archive file [/home/abi/fetcher/tmp/qlcpy-1.0.4.tar.gz]
+[2023-07-11 03:59:45] INFO root fetch - processPackages [qlcpy]: Remove: archive file [/home/abi/fetcher/tmp/qlcpy-1.0.9.tar.gz]
+[2023-07-11 03:59:45] INFO root fetch - main [MainThread]: End processing [qlcpy]: success
+[2023-07-11 03:59:45] INFO root fetch - main [MainThread]: Store serial: [18839774]
