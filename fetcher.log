@@ -10190,3 +10190,62 @@ AssertionError: tmp/doctran-0.0.6.tar.gz does not exist
 [2023-07-11 07:19:45] INFO root fetch - processPackages [tflite-model-maker-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite-model-maker-nightly-0.4.3.dev202307110517.tar.gz]
 [2023-07-11 07:19:45] INFO root fetch - main [MainThread]: End processing [tflite-model-maker-nightly]: success
 [2023-07-11 07:19:45] INFO root fetch - main [MainThread]: Store serial: [18841071]
+[2023-07-11 07:24:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18841071]
+[2023-07-11 07:24:54] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-11 07:24:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: offensivetext
+[2023-07-11 07:24:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo12-addon-stock-barcodes
+[2023-07-11 07:24:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-stock-barcodes
+[2023-07-11 07:24:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-stock-barcodes
+[2023-07-11 07:24:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pinject-design
+[2023-07-11 07:24:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pytelibs
+[2023-07-11 07:24:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: uagents-whatsapp-utility-test
+[2023-07-11 07:24:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pptx-tools
+[2023-07-11 07:24:54] INFO root fetch - processPackages [odoo14-addon-stock-barcodes]: New version: [14.0.2.2.2.dev9] Old Version: [14.0.2.2.2.dev8]
+[2023-07-11 07:24:55] WARNING root fetch - processPackages [uagents-whatsapp-utility-test]: Skipping, unable to determine old version
+[2023-07-11 07:24:55] INFO root fetch - main [MainThread]: End processing [uagents-whatsapp-utility-test] error
+[2023-07-11 07:24:55] INFO root fetch - processPackages [pptx-tools]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-11 07:24:55] INFO root fetch - processPackages [odoo-addon-stock-barcodes]: New version: [15.0.1.2.2.9] Old Version: [15.0.1.2.2.8]
+[2023-07-11 07:24:55] WARNING root fetch - processPackages [pytelibs]: Skipping, unable to determine old version
+[2023-07-11 07:24:55] INFO root fetch - processPackages [pinject-design]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-11 07:24:55] INFO root fetch - main [MainThread]: End processing [pytelibs] error
+[2023-07-11 07:24:55] INFO root fetch - processPackages [offensivetext]: New version: [1.3.9] Old Version: [1.3.7]
+[2023-07-11 07:24:55] INFO root fetch - processPackages [odoo12-addon-stock-barcodes]: New version: [12.0.2.3.0.99.dev9] Old Version: [12.0.2.3.0.99.dev8]
+[2023-07-11 07:24:55] INFO root fetch - processPackages [pinject-design]: Downloading https://files.pythonhosted.org/packages/5f/f2/6f47beb8ae7800164b86a0ca180efa5ad86edb3b1419d97531dddcc0c026/pinject-design-0.1.8.tar.gz
+[2023-07-11 07:24:55] INFO root fetch - processPackages [odoo14-addon-stock-barcodes]: Downloading https://files.pythonhosted.org/packages/f1/a9/843e0ed992ce2f46616f9ee781677bb32d4ab1d118bdbe0179a74b8ce4e8/odoo14_addon_stock_barcodes-14.0.2.2.2.dev8-py3-none-any.whl
+[2023-07-11 07:24:55] INFO root fetch - processPackages [odoo12-addon-stock-barcodes]: Downloading https://files.pythonhosted.org/packages/ea/60/dd787ab5fb856b209354a29fa7a8ca8e690de5def43a9727f349a53e2ce4/odoo12_addon_stock_barcodes-12.0.2.3.0.99.dev8-py3-none-any.whl
+[2023-07-11 07:24:55] INFO root fetch - processPackages [pptx-tools]: Downloading https://files.pythonhosted.org/packages/42/37/9e616bd4a2008e4b2d9bd69222818ed35c7c07e45697bd3952f9d2b5cbab/pptx-tools-0.1.1.tar.gz
+[2023-07-11 07:24:55] INFO root fetch - processPackages [odoo-addon-stock-barcodes]: Downloading https://files.pythonhosted.org/packages/7b/ae/0b18f8699b19301fc395d48fd04e04259e4f0ee1c649ae8bc243912b6480/odoo_addon_stock_barcodes-15.0.1.2.2.8-py3-none-any.whl
+[2023-07-11 07:24:55] INFO root fetch - processPackages [offensivetext]: Downloading https://files.pythonhosted.org/packages/bf/44/bf847293608da7f6176f66134965c3ff7e5dce5641e07b7098445ca9db7b/offensivetext-1.3.7-py3-none-any.whl
+[2023-07-11 07:24:55] INFO root fetch - processPackages [pinject-design]: Downloading https://files.pythonhosted.org/packages/52/12/a13d2115034630043d98ad1bf73e273115201ee763cd0fd21c61df995b87/pinject-design-0.1.9.tar.gz
+[2023-07-11 07:24:55] WARNING root fetch - processPackages [offensivetext]: Skipping package: exceeds size limit 37236887>=10485760
+[2023-07-11 07:24:55] INFO root fetch - main [MainThread]: End processing [offensivetext] error
+[2023-07-11 07:24:55] INFO root fetch - processPackages [pinject-design]: executing diffoscope
+[2023-07-11 07:24:55] INFO root fetch - processPackages [pinject-design]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pinject-design-0.1.8.tar.gz tmp/pinject-design-0.1.9.tar.gz --markdown 20230711/p/pinject-design/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-11 07:24:55] INFO root fetch - processPackages [odoo14-addon-stock-barcodes]: Downloading https://files.pythonhosted.org/packages/81/09/40588fd0485e2fe0fa8d00730cf8d4eefea890f28a3cd287b2ed57a2687f/odoo14_addon_stock_barcodes-14.0.2.2.2.dev9-py3-none-any.whl
+[2023-07-11 07:24:55] INFO root fetch - processPackages [odoo12-addon-stock-barcodes]: Downloading https://files.pythonhosted.org/packages/5d/29/2114485f917b8818641d0bb3c43d05af3d40e3d8185e97844b621f02b2b4/odoo12_addon_stock_barcodes-12.0.2.3.0.99.dev9-py3-none-any.whl
+[2023-07-11 07:24:55] INFO root fetch - processPackages [odoo-addon-stock-barcodes]: Downloading https://files.pythonhosted.org/packages/1a/e3/04c2fd819928bf41869e3a25fd6f8420d24f8b3c4193d518b04580d83d10/odoo_addon_stock_barcodes-15.0.1.2.2.9-py3-none-any.whl
+[2023-07-11 07:24:55] INFO root fetch - processPackages [pptx-tools]: Downloading https://files.pythonhosted.org/packages/02/53/abe862bcd859f2ed196ab0ded877db99c2acec21e56b0a753dc9e58b32c9/pptx-tools-0.1.2.tar.gz
+[2023-07-11 07:24:55] INFO root fetch - processPackages [odoo12-addon-stock-barcodes]: executing diffoscope
+[2023-07-11 07:24:55] INFO root fetch - processPackages [odoo12-addon-stock-barcodes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_stock_barcodes-12.0.2.3.0.99.dev8-py3-none-any.whl.zip tmp/odoo12_addon_stock_barcodes-12.0.2.3.0.99.dev9-py3-none-any.whl.zip --markdown 20230711/o/odoo12-addon-stock-barcodes/12.0.2.3.0.99.dev8-12.0.2.3.0.99.dev9/diff.md --exclude *.pyd
+[2023-07-11 07:24:55] INFO root fetch - processPackages [odoo14-addon-stock-barcodes]: executing diffoscope
+[2023-07-11 07:24:55] INFO root fetch - processPackages [odoo14-addon-stock-barcodes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_stock_barcodes-14.0.2.2.2.dev8-py3-none-any.whl.zip tmp/odoo14_addon_stock_barcodes-14.0.2.2.2.dev9-py3-none-any.whl.zip --markdown 20230711/o/odoo14-addon-stock-barcodes/14.0.2.2.2.dev8-14.0.2.2.2.dev9/diff.md --exclude *.pyd
+[2023-07-11 07:24:55] INFO root fetch - processPackages [odoo-addon-stock-barcodes]: executing diffoscope
+[2023-07-11 07:24:55] INFO root fetch - processPackages [odoo-addon-stock-barcodes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_barcodes-15.0.1.2.2.8-py3-none-any.whl.zip tmp/odoo_addon_stock_barcodes-15.0.1.2.2.9-py3-none-any.whl.zip --markdown 20230711/o/odoo-addon-stock-barcodes/15.0.1.2.2.8-15.0.1.2.2.9/diff.md --exclude *.pyd
+[2023-07-11 07:24:55] INFO root fetch - processPackages [pptx-tools]: executing diffoscope
+[2023-07-11 07:24:55] INFO root fetch - processPackages [pptx-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pptx-tools-0.1.1.tar.gz tmp/pptx-tools-0.1.2.tar.gz --markdown 20230711/p/pptx-tools/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-11 07:24:56] INFO root fetch - processPackages [pinject-design]: Remove: archive file [/home/abi/fetcher/tmp/pinject-design-0.1.8.tar.gz]
+[2023-07-11 07:24:56] INFO root fetch - processPackages [pinject-design]: Remove: archive file [/home/abi/fetcher/tmp/pinject-design-0.1.9.tar.gz]
+[2023-07-11 07:24:56] INFO root fetch - main [MainThread]: End processing [pinject-design]: success
+[2023-07-11 07:24:56] INFO root fetch - processPackages [pptx-tools]: Remove: archive file [/home/abi/fetcher/tmp/pptx-tools-0.1.1.tar.gz]
+[2023-07-11 07:24:56] INFO root fetch - processPackages [pptx-tools]: Remove: archive file [/home/abi/fetcher/tmp/pptx-tools-0.1.2.tar.gz]
+[2023-07-11 07:24:56] INFO root fetch - main [MainThread]: End processing [pptx-tools]: success
+[2023-07-11 07:24:56] INFO root fetch - processPackages [odoo12-addon-stock-barcodes]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_stock_barcodes-12.0.2.3.0.99.dev8-py3-none-any.whl.zip]
+[2023-07-11 07:24:56] INFO root fetch - processPackages [odoo12-addon-stock-barcodes]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_stock_barcodes-12.0.2.3.0.99.dev9-py3-none-any.whl.zip]
+[2023-07-11 07:24:56] INFO root fetch - main [MainThread]: End processing [odoo12-addon-stock-barcodes]: success
+[2023-07-11 07:24:57] INFO root fetch - processPackages [odoo14-addon-stock-barcodes]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_stock_barcodes-14.0.2.2.2.dev8-py3-none-any.whl.zip]
+[2023-07-11 07:24:57] INFO root fetch - processPackages [odoo14-addon-stock-barcodes]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_stock_barcodes-14.0.2.2.2.dev9-py3-none-any.whl.zip]
+[2023-07-11 07:24:57] INFO root fetch - main [MainThread]: End processing [odoo14-addon-stock-barcodes]: success
+[2023-07-11 07:24:57] INFO root fetch - processPackages [odoo-addon-stock-barcodes]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_barcodes-15.0.1.2.2.8-py3-none-any.whl.zip]
+[2023-07-11 07:24:57] INFO root fetch - processPackages [odoo-addon-stock-barcodes]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_barcodes-15.0.1.2.2.9-py3-none-any.whl.zip]
+[2023-07-11 07:24:57] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-barcodes]: success
+[2023-07-11 07:24:57] INFO root fetch - main [MainThread]: Store serial: [18841097]
