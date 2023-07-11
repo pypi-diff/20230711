@@ -8465,3 +8465,48 @@ AssertionError: tmp/doctran-0.0.6.tar.gz does not exist
 [2023-07-11 05:18:33] INFO root fetch - processPackages [allianceauth]: Remove: archive file [/home/abi/fetcher/tmp/allianceauth-3.5.0.tar.gz]
 [2023-07-11 05:18:33] INFO root fetch - main [MainThread]: End processing [allianceauth]: success
 [2023-07-11 05:18:33] INFO root fetch - main [MainThread]: Store serial: [18840355]
+[2023-07-11 05:23:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18840355]
+[2023-07-11 05:23:42] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-11 05:23:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zit
+[2023-07-11 05:23:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: CalSim
+[2023-07-11 05:23:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mysqlx
+[2023-07-11 05:23:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: snk
+[2023-07-11 05:23:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: BREWasm
+[2023-07-11 05:23:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: huhk
+[2023-07-11 05:23:42] INFO root fetch - processPackages [mysqlx]: New version: [1.3.5] Old Version: [1.3.4]
+[2023-07-11 05:23:42] INFO root fetch - processPackages [CalSim]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-11 05:23:42] INFO root fetch - processPackages [zit]: New version: [0.0.3a0] Old Version: [0.0.2a9]
+[2023-07-11 05:23:42] INFO root fetch - processPackages [snk]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-07-11 05:23:42] INFO root fetch - processPackages [mysqlx]: Downloading https://files.pythonhosted.org/packages/9e/91/5504a37df086d5617db27763240af5690f70c9a121b2088db60a6494c503/mysqlx-1.3.4.tar.gz
+[2023-07-11 05:23:42] WARNING root fetch - processPackages [BREWasm]: Skipping, unable to determine old version
+[2023-07-11 05:23:42] INFO root fetch - main [MainThread]: End processing [BREWasm] error
+[2023-07-11 05:23:42] WARNING root fetch - processPackages [huhk]: Skipping, unable to determine old version
+[2023-07-11 05:23:42] INFO root fetch - main [MainThread]: End processing [huhk] error
+[2023-07-11 05:23:42] INFO root fetch - processPackages [CalSim]: Downloading https://files.pythonhosted.org/packages/9c/ee/10ee1f0aac4cceb86a1b873cf16fb9b223bd38be45cc04d38f07d7d0b40c/calsim-0.0.8.tar.gz
+[2023-07-11 05:23:42] INFO root fetch - processPackages [zit]: Downloading https://files.pythonhosted.org/packages/a4/82/8acbbc7fb714d5fa1967462dcfd7ed8517c4d85f00ac7d63188980ac02a3/zit-0.0.2a9.tar.gz
+[2023-07-11 05:23:42] INFO root fetch - processPackages [mysqlx]: Downloading https://files.pythonhosted.org/packages/4b/23/258492bc8d6e473070465a80aa2a16921c5591b5266c77548c6bd6de7c51/mysqlx-1.3.5.tar.gz
+[2023-07-11 05:23:42] INFO root fetch - processPackages [snk]: Downloading https://files.pythonhosted.org/packages/54/33/ed6257a47eacf50e2ac7965bb117827af5a1e5eddb02d20dc3f15cc9a81a/snk-0.9.2.tar.gz
+[2023-07-11 05:23:43] INFO root fetch - processPackages [mysqlx]: executing diffoscope
+[2023-07-11 05:23:43] INFO root fetch - processPackages [mysqlx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mysqlx-1.3.4.tar.gz tmp/mysqlx-1.3.5.tar.gz --markdown 20230711/m/mysqlx/1.3.4-1.3.5/diff.md --exclude *.pyd
+[2023-07-11 05:23:43] INFO root fetch - processPackages [CalSim]: Downloading https://files.pythonhosted.org/packages/65/a1/95437c20af234eb1ed67c5cd349670e67df09bd27fafd7f248f5f12a3045/calsim-0.0.9.tar.gz
+[2023-07-11 05:23:43] INFO root fetch - processPackages [zit]: Downloading https://files.pythonhosted.org/packages/42/7b/66f23d7292ff4c25ecd96e4ad34c2996bf95d5b6693f5249fee6d8cc7c9a/zit-0.0.3a0.tar.gz
+[2023-07-11 05:23:43] INFO root fetch - processPackages [CalSim]: executing diffoscope
+[2023-07-11 05:23:43] INFO root fetch - processPackages [CalSim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/calsim-0.0.8.tar.gz tmp/calsim-0.0.9.tar.gz --markdown 20230711/C/CalSim/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-11 05:23:43] INFO root fetch - processPackages [snk]: Downloading https://files.pythonhosted.org/packages/1c/e9/336f86dec3e01b44b3e34cc162ca9a0ca4108fb07244fd97031ad3205df1/snk-0.9.3.tar.gz
+[2023-07-11 05:23:43] INFO root fetch - processPackages [zit]: executing diffoscope
+[2023-07-11 05:23:43] INFO root fetch - processPackages [zit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zit-0.0.2a9.tar.gz tmp/zit-0.0.3a0.tar.gz --markdown 20230711/z/zit/0.0.2a9-0.0.3a0/diff.md --exclude *.pyd
+[2023-07-11 05:23:43] INFO root fetch - processPackages [snk]: executing diffoscope
+[2023-07-11 05:23:43] INFO root fetch - processPackages [snk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snk-0.9.2.tar.gz tmp/snk-0.9.3.tar.gz --markdown 20230711/s/snk/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-07-11 05:23:44] INFO root fetch - processPackages [mysqlx]: Remove: archive file [/home/abi/fetcher/tmp/mysqlx-1.3.4.tar.gz]
+[2023-07-11 05:23:44] INFO root fetch - processPackages [mysqlx]: Remove: archive file [/home/abi/fetcher/tmp/mysqlx-1.3.5.tar.gz]
+[2023-07-11 05:23:44] INFO root fetch - main [MainThread]: End processing [mysqlx]: success
+[2023-07-11 05:23:44] INFO root fetch - processPackages [CalSim]: Remove: archive file [/home/abi/fetcher/tmp/calsim-0.0.8.tar.gz]
+[2023-07-11 05:23:44] INFO root fetch - processPackages [CalSim]: Remove: archive file [/home/abi/fetcher/tmp/calsim-0.0.9.tar.gz]
+[2023-07-11 05:23:44] INFO root fetch - main [MainThread]: End processing [CalSim]: success
+[2023-07-11 05:23:44] INFO root fetch - processPackages [zit]: Remove: archive file [/home/abi/fetcher/tmp/zit-0.0.2a9.tar.gz]
+[2023-07-11 05:23:44] INFO root fetch - processPackages [zit]: Remove: archive file [/home/abi/fetcher/tmp/zit-0.0.3a0.tar.gz]
+[2023-07-11 05:23:44] INFO root fetch - main [MainThread]: End processing [zit]: success
+[2023-07-11 05:23:44] INFO root fetch - processPackages [snk]: Remove: archive file [/home/abi/fetcher/tmp/snk-0.9.2.tar.gz]
+[2023-07-11 05:23:44] INFO root fetch - processPackages [snk]: Remove: archive file [/home/abi/fetcher/tmp/snk-0.9.3.tar.gz]
+[2023-07-11 05:23:44] INFO root fetch - main [MainThread]: End processing [snk]: success
+[2023-07-11 05:23:44] INFO root fetch - main [MainThread]: Store serial: [18840380]
