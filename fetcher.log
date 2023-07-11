@@ -17626,3 +17626,176 @@ AssertionError: tmp/doctran-0.0.6.tar.gz does not exist
 [2023-07-11 13:06:01] INFO root fetch - processPackages [franky-panda]: Remove: archive file [/home/abi/fetcher/tmp/franky_panda-0.4.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-07-11 13:06:01] INFO root fetch - main [MainThread]: End processing [franky-panda]: success
 [2023-07-11 13:06:01] INFO root fetch - main [MainThread]: Store serial: [18844132]
+[2023-07-11 13:11:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18844132]
+[2023-07-11 13:11:11] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-07-11 13:11:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: safe-eth-py
+[2023-07-11 13:11:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aleph-message
+[2023-07-11 13:11:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pybigbuy
+[2023-07-11 13:11:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: power-grid-model
+[2023-07-11 13:11:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sekoia-automation-sdk
+[2023-07-11 13:11:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aliyun-python-sdk-polardb
+[2023-07-11 13:11:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: viur-cli
+[2023-07-11 13:11:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hahomematic
+[2023-07-11 13:11:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mdrpaLibrary
+[2023-07-11 13:11:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ais-dom-frontend
+[2023-07-11 13:11:12] INFO root fetch - processPackages [safe-eth-py]: New version: [5.6.0] Old Version: [5.5.0]
+[2023-07-11 13:11:12] INFO root fetch - processPackages [aliyun-python-sdk-polardb]: New version: [1.8.9] Old Version: [1.8.8]
+[2023-07-11 13:11:12] INFO root fetch - processPackages [sekoia-automation-sdk]: New version: [1.3.6] Old Version: [1.3.5]
+[2023-07-11 13:11:12] INFO root fetch - processPackages [mdrpaLibrary]: New version: [2.3] Old Version: [2.2]
+[2023-07-11 13:11:12] INFO root fetch - processPackages [pybigbuy]: New version: [3.18.0] Old Version: [3.17.0]
+[2023-07-11 13:11:12] INFO root fetch - processPackages [aleph-message]: New version: [0.4.0a3] Old Version: [0.4.0a2]
+[2023-07-11 13:11:12] INFO root fetch - processPackages [viur-cli]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-07-11 13:11:12] INFO root fetch - processPackages [ais-dom-frontend]: New version: [20230705.2] Old Version: [20230705.1]
+[2023-07-11 13:11:12] INFO root fetch - processPackages [hahomematic]: New version: [2023.7.1] Old Version: [2023.7.0]
+[2023-07-11 13:11:12] INFO root fetch - processPackages [power-grid-model]: New version: [1.5.0rc9209002596082] Old Version: [1.5.0rc9207800836909]
+[2023-07-11 13:11:12] INFO root fetch - processPackages [mdrpaLibrary]: Downloading https://files.pythonhosted.org/packages/2f/de/ef02241e5bc39bbcddd678f0eeae766bb2a4dd9db82f86c6be4e911fb8a8/mdrpaLibrary-2.2.tar.gz
+[2023-07-11 13:11:12] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/b9/c9/fc5e12f4cbd7509974e3b7c344689b63c99ab5ca757e6ec7a507b6d19e4c/power-grid-model-1.5.0rc9207800836909.tar.gz
+[2023-07-11 13:11:12] INFO root fetch - processPackages [sekoia-automation-sdk]: Downloading https://files.pythonhosted.org/packages/56/b9/f270bbf51656bc7396561402904f11dccd2af465d516b53dca376ee7f2e5/sekoia_automation_sdk-1.3.5.tar.gz
+[2023-07-11 13:11:12] INFO root fetch - processPackages [aliyun-python-sdk-polardb]: Downloading https://files.pythonhosted.org/packages/01/fe/f5790b8610dcb697110bfde0cee5a9b77c5d4fdda092e10ee9c36171477c/aliyun-python-sdk-polardb-1.8.8.tar.gz
+[2023-07-11 13:11:12] INFO root fetch - processPackages [hahomematic]: Downloading https://files.pythonhosted.org/packages/ae/fd/50e0403aaa476d3c854fd113bc887b201a0cb3610f778f12e3593f5b35cc/hahomematic-2023.7.0.tar.gz
+[2023-07-11 13:11:12] INFO root fetch - processPackages [safe-eth-py]: Downloading https://files.pythonhosted.org/packages/45/86/81a1a9de0940ec570dbd3efebb88256db0f5981473d132475060f87ae2c7/safe-eth-py-5.5.0.tar.gz
+[2023-07-11 13:11:12] INFO root fetch - processPackages [pybigbuy]: Downloading https://files.pythonhosted.org/packages/62/57/737aa6a0d950627024718a420cc9d8e6d442e68d219b32eb90a04ae56cb4/pybigbuy-3.17.0.tar.gz
+[2023-07-11 13:11:12] INFO root fetch - processPackages [aleph-message]: Downloading https://files.pythonhosted.org/packages/55/7f/721a77aca62146be4873667395c48a93985c4888f1abff8207d3a3e45a8e/aleph-message-0.4.0a2.tar.gz
+[2023-07-11 13:11:12] INFO root fetch - processPackages [viur-cli]: Downloading https://files.pythonhosted.org/packages/c8/1c/6283509f032138d991091630b83866fb71b0ce5fe62d0701d67a281b297b/viur_cli-1.0.6.tar.gz
+[2023-07-11 13:11:12] INFO root fetch - processPackages [ais-dom-frontend]: Downloading https://files.pythonhosted.org/packages/f2/b3/15671caa3d0236bbe75aff4529329d8cec910198a06c492973c30554fdd3/ais_dom_frontend-20230705.1-py3-none-any.whl
+[2023-07-11 13:11:12] WARNING root fetch - processPackages [ais-dom-frontend]: Skipping package: exceeds size limit 42892353>=10485760
+[2023-07-11 13:11:12] INFO root fetch - processPackages [ais-dom-frontend]: Start processing: ert-storage
+[2023-07-11 13:11:12] INFO root fetch - main [MainThread]: End processing [ais-dom-frontend] error
+[2023-07-11 13:11:12] INFO root fetch - processPackages [ert-storage]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-11 13:11:12] INFO root fetch - processPackages [mdrpaLibrary]: Downloading https://files.pythonhosted.org/packages/5b/80/0641702b3c17c7b6bd5d08b8d73f3c5af741673173efd6c2ef5637cb12a3/mdrpaLibrary-2.3.tar.gz
+[2023-07-11 13:11:12] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/57/58/9e6ae1caf9623103cccf7168ce4634626c82f85ca59cb11b532fbc3ac941/power-grid-model-1.5.0rc9209002596082.tar.gz
+[2023-07-11 13:11:13] INFO root fetch - processPackages [sekoia-automation-sdk]: Downloading https://files.pythonhosted.org/packages/ac/3c/b353a94aa9553f86d49a27a5c819178834098175da8e3f397700329d841f/sekoia_automation_sdk-1.3.6.tar.gz
+[2023-07-11 13:11:13] INFO root fetch - processPackages [mdrpaLibrary]: executing diffoscope
+[2023-07-11 13:11:13] INFO root fetch - processPackages [mdrpaLibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mdrpaLibrary-2.2.tar.gz tmp/mdrpaLibrary-2.3.tar.gz --markdown 20230711/m/mdrpaLibrary/2.2-2.3/diff.md --exclude *.pyd
+[2023-07-11 13:11:13] INFO root fetch - processPackages [hahomematic]: Downloading https://files.pythonhosted.org/packages/41/fb/5c54ae8d5618249f0546c7b99faf17068a528b7888dbbb6e8dbf3a5d7f58/hahomematic-2023.7.1.tar.gz
+[2023-07-11 13:11:13] INFO root fetch - processPackages [viur-cli]: Downloading https://files.pythonhosted.org/packages/21/f6/e36519fe29e32c70c294845ea7d62768bfc2b57ca460e37fa6e0f9c67ac4/viur_cli-1.0.7.tar.gz
+[2023-07-11 13:11:13] INFO root fetch - processPackages [aliyun-python-sdk-polardb]: Downloading https://files.pythonhosted.org/packages/98/11/7b55beb702af2e9183edd5e70523b817de7c96f4f0e211ad727fd870afd2/aliyun-python-sdk-polardb-1.8.9.tar.gz
+[2023-07-11 13:11:13] INFO root fetch - processPackages [aleph-message]: Downloading https://files.pythonhosted.org/packages/f9/76/f04f2614a20c152ded41e74c6a88e0426846c8270fcfef942e3421ae917e/aleph_message-0.4.0a3-py3-none-any.whl
+[2023-07-11 13:11:13] INFO root fetch - processPackages [pybigbuy]: Downloading https://files.pythonhosted.org/packages/64/36/c538a1e052c2e468e7adbb61a114e010ccf89110a3c4cd5259ddf276034f/pybigbuy-3.18.0.tar.gz
+[2023-07-11 13:11:13] INFO root fetch - processPackages [ert-storage]: Downloading https://files.pythonhosted.org/packages/7c/40/e43467d9d6ed2f04b0f62b7f350664d362f362a1e8b231afca72396dfcbb/ert_storage-0.3.8-py3-none-any.whl
+[2023-07-11 13:11:13] INFO root fetch - processPackages [sekoia-automation-sdk]: executing diffoscope
+[2023-07-11 13:11:13] INFO root fetch - processPackages [sekoia-automation-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sekoia_automation_sdk-1.3.5.tar.gz tmp/sekoia_automation_sdk-1.3.6.tar.gz --markdown 20230711/s/sekoia-automation-sdk/1.3.5-1.3.6/diff.md --exclude *.pyd
+[2023-07-11 13:11:13] INFO root fetch - processPackages [safe-eth-py]: Downloading https://files.pythonhosted.org/packages/45/ea/1c871af51d90f2d4ba1e6f97fca548b9926a80796c3f744f4f449a5c7d47/safe-eth-py-5.6.0.tar.gz
+[2023-07-11 13:11:13] INFO root fetch - processPackages [power-grid-model]: executing diffoscope
+[2023-07-11 13:11:13] INFO root fetch - processPackages [power-grid-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/power-grid-model-1.5.0rc9207800836909.tar.gz tmp/power-grid-model-1.5.0rc9209002596082.tar.gz --markdown 20230711/p/power-grid-model/1.5.0rc9207800836909-1.5.0rc9209002596082/diff.md --exclude *.pyd
+[2023-07-11 13:11:13] INFO root fetch - processPackages [hahomematic]: executing diffoscope
+[2023-07-11 13:11:13] INFO root fetch - processPackages [hahomematic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hahomematic-2023.7.0.tar.gz tmp/hahomematic-2023.7.1.tar.gz --markdown 20230711/h/hahomematic/2023.7.0-2023.7.1/diff.md --exclude *.pyd
+[2023-07-11 13:11:13] INFO root fetch - processPackages [viur-cli]: executing diffoscope
+[2023-07-11 13:11:13] INFO root fetch - processPackages [viur-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/viur_cli-1.0.6.tar.gz tmp/viur_cli-1.0.7.tar.gz --markdown 20230711/v/viur-cli/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-07-11 13:11:13] INFO root fetch - processPackages [pybigbuy]: executing diffoscope
+[2023-07-11 13:11:13] INFO root fetch - processPackages [pybigbuy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybigbuy-3.17.0.tar.gz tmp/pybigbuy-3.18.0.tar.gz --markdown 20230711/p/pybigbuy/3.17.0-3.18.0/diff.md --exclude *.pyd
+[2023-07-11 13:11:13] INFO root fetch - processPackages [aleph-message]: executing diffoscope
+[2023-07-11 13:11:13] INFO root fetch - processPackages [aleph-message]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aleph-message-0.4.0a2.tar.gz tmp/aleph_message-0.4.0a3-py3-none-any.whl.zip --markdown 20230711/a/aleph-message/0.4.0a2-0.4.0a3/diff.md --exclude *.pyd
+[2023-07-11 13:11:13] INFO root fetch - processPackages [aliyun-python-sdk-polardb]: executing diffoscope
+[2023-07-11 13:11:13] INFO root fetch - processPackages [aliyun-python-sdk-polardb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-polardb-1.8.8.tar.gz tmp/aliyun-python-sdk-polardb-1.8.9.tar.gz --markdown 20230711/a/aliyun-python-sdk-polardb/1.8.8-1.8.9/diff.md --exclude *.pyd
+[2023-07-11 13:11:13] INFO root fetch - processPackages [safe-eth-py]: executing diffoscope
+[2023-07-11 13:11:13] INFO root fetch - processPackages [safe-eth-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/safe-eth-py-5.5.0.tar.gz tmp/safe-eth-py-5.6.0.tar.gz --markdown 20230711/s/safe-eth-py/5.5.0-5.6.0/diff.md --exclude *.pyd
+[2023-07-11 13:11:13] INFO root fetch - processPackages [ert-storage]: Downloading https://files.pythonhosted.org/packages/09/16/a28e21f34daada2b0bf38f30bfcd3d95e3710e8ab4489b684af3863fed10/ert_storage-0.3.9-py3-none-any.whl
+[2023-07-11 13:11:14] INFO root fetch - processPackages [ert-storage]: executing diffoscope
+[2023-07-11 13:11:14] INFO root fetch - processPackages [ert-storage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ert_storage-0.3.8-py3-none-any.whl.zip tmp/ert_storage-0.3.9-py3-none-any.whl.zip --markdown 20230711/e/ert-storage/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-11 13:11:14] INFO root fetch - processPackages [mdrpaLibrary]: Remove: archive file [/home/abi/fetcher/tmp/mdrpaLibrary-2.2.tar.gz]
+[2023-07-11 13:11:14] INFO root fetch - processPackages [mdrpaLibrary]: Remove: archive file [/home/abi/fetcher/tmp/mdrpaLibrary-2.3.tar.gz]
+[2023-07-11 13:11:14] INFO root fetch - processPackages [mdrpaLibrary]: Start processing: uniem
+[2023-07-11 13:11:14] INFO root fetch - main [MainThread]: End processing [mdrpaLibrary]: success
+[2023-07-11 13:11:14] INFO root fetch - processPackages [uniem]: New version: [0.3.0] Old Version: [0.2.4.post1]
+[2023-07-11 13:11:15] INFO root fetch - processPackages [aleph-message]: Remove: archive file [/home/abi/fetcher/tmp/aleph-message-0.4.0a2.tar.gz]
+[2023-07-11 13:11:15] INFO root fetch - processPackages [aleph-message]: Remove: archive file [/home/abi/fetcher/tmp/aleph_message-0.4.0a3-py3-none-any.whl.zip]
+[2023-07-11 13:11:15] INFO root fetch - processPackages [aleph-message]: Start processing: fastapi-filter
+[2023-07-11 13:11:15] INFO root fetch - main [MainThread]: End processing [aleph-message]: success
+[2023-07-11 13:11:15] INFO root fetch - processPackages [uniem]: Downloading https://files.pythonhosted.org/packages/65/50/b15b71f11b53562652f2f95cd9d8ff160f112da84ad9525068050d257aad/uniem-0.2.4.post1.tar.gz
+[2023-07-11 13:11:15] INFO root fetch - processPackages [sekoia-automation-sdk]: Remove: archive file [/home/abi/fetcher/tmp/sekoia_automation_sdk-1.3.5.tar.gz]
+[2023-07-11 13:11:15] INFO root fetch - processPackages [sekoia-automation-sdk]: Remove: archive file [/home/abi/fetcher/tmp/sekoia_automation_sdk-1.3.6.tar.gz]
+[2023-07-11 13:11:15] INFO root fetch - processPackages [sekoia-automation-sdk]: Start processing: VisionFive.gpio
+[2023-07-11 13:11:15] INFO root fetch - main [MainThread]: End processing [sekoia-automation-sdk]: success
+[2023-07-11 13:11:15] INFO root fetch - processPackages [fastapi-filter]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-07-11 13:11:15] INFO root fetch - processPackages [VisionFive.gpio]: New version: [1.2.15] Old Version: [1.2.12]
+[2023-07-11 13:11:15] INFO root fetch - processPackages [pybigbuy]: Remove: archive file [/home/abi/fetcher/tmp/pybigbuy-3.17.0.tar.gz]
+[2023-07-11 13:11:15] INFO root fetch - processPackages [pybigbuy]: Remove: archive file [/home/abi/fetcher/tmp/pybigbuy-3.18.0.tar.gz]
+[2023-07-11 13:11:15] INFO root fetch - processPackages [pybigbuy]: Start processing: bwd
+[2023-07-11 13:11:15] INFO root fetch - main [MainThread]: End processing [pybigbuy]: success
+[2023-07-11 13:11:15] INFO root fetch - processPackages [bwd]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-11 13:11:15] INFO root fetch - processPackages [viur-cli]: Remove: archive file [/home/abi/fetcher/tmp/viur_cli-1.0.6.tar.gz]
+[2023-07-11 13:11:15] INFO root fetch - processPackages [viur-cli]: Remove: archive file [/home/abi/fetcher/tmp/viur_cli-1.0.7.tar.gz]
+[2023-07-11 13:11:15] INFO root fetch - processPackages [viur-cli]: Start processing: planbee
+[2023-07-11 13:11:15] INFO root fetch - main [MainThread]: End processing [viur-cli]: success
+[2023-07-11 13:11:15] INFO root fetch - processPackages [fastapi-filter]: Downloading https://files.pythonhosted.org/packages/c9/b8/24667e23c49ac882f380d93e18a63ec6c8becd1d9288e42b712abce23a78/fastapi_filter-0.6.0.tar.gz
+[2023-07-11 13:11:15] INFO root fetch - processPackages [bwd]: Downloading https://files.pythonhosted.org/packages/3a/cb/2b94fd4f67921392f2fd98ad6a3e8e9141dc5c61b774acd1cc9d9c10d17d/bwd-0.1.1.tar.gz
+[2023-07-11 13:11:15] INFO root fetch - processPackages [hahomematic]: Remove: archive file [/home/abi/fetcher/tmp/hahomematic-2023.7.0.tar.gz]
+[2023-07-11 13:11:15] INFO root fetch - processPackages [hahomematic]: Remove: archive file [/home/abi/fetcher/tmp/hahomematic-2023.7.1.tar.gz]
+[2023-07-11 13:11:15] INFO root fetch - processPackages [hahomematic]: Start processing: tkmilan
+[2023-07-11 13:11:15] INFO root fetch - main [MainThread]: End processing [hahomematic]: success
+[2023-07-11 13:11:15] INFO root fetch - processPackages [uniem]: Downloading https://files.pythonhosted.org/packages/47/4e/03361455a0dee3e9f772cb73cf1ce10237d333a5f08acc0c0a1ed7214ffb/uniem-0.3.0.tar.gz
+[2023-07-11 13:11:15] INFO root fetch - processPackages [VisionFive.gpio]: Downloading https://files.pythonhosted.org/packages/95/84/09f1f82c8f79a4bcf287e1715b5467f7ec0a136b0dee21fadd156e24de39/VisionFive.gpio-1.2.12-cp34-abi3-any.whl
+[2023-07-11 13:11:15] INFO root fetch - processPackages [planbee]: New version: [0.1.3] Old Version: [0.0.0]
+[2023-07-11 13:11:15] INFO root fetch - processPackages [tkmilan]: New version: [0.9] Old Version: [0.8]
+[2023-07-11 13:11:15] INFO root fetch - processPackages [uniem]: executing diffoscope
+[2023-07-11 13:11:15] INFO root fetch - processPackages [uniem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uniem-0.2.4.post1.tar.gz tmp/uniem-0.3.0.tar.gz --markdown 20230711/u/uniem/0.2.4.post1-0.3.0/diff.md --exclude *.pyd
+[2023-07-11 13:11:15] INFO root fetch - processPackages [tkmilan]: Downloading https://files.pythonhosted.org/packages/93/01/f5623f24ff225bb71aab5bb6bc9911818cb0b0e3f554efe31d89236fdb3b/tkmilan-0.8.tar.gz
+[2023-07-11 13:11:15] INFO root fetch - processPackages [planbee]: Downloading https://files.pythonhosted.org/packages/6a/07/c4c7ac60defc042dbac26046447276c5db38ac8cde66b51cba00065d0d8e/planbee-0.0.0.tar.gz
+[2023-07-11 13:11:15] INFO root fetch - processPackages [aliyun-python-sdk-polardb]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-polardb-1.8.8.tar.gz]
+[2023-07-11 13:11:15] INFO root fetch - processPackages [aliyun-python-sdk-polardb]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-polardb-1.8.9.tar.gz]
+[2023-07-11 13:11:15] INFO root fetch - processPackages [aliyun-python-sdk-polardb]: Start processing: mcemtools
+[2023-07-11 13:11:15] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-polardb]: success
+[2023-07-11 13:11:15] INFO root fetch - processPackages [bwd]: Downloading https://files.pythonhosted.org/packages/65/dd/fe8490fd6d2ab2555286b5fe40c1e31e1e1515013f48ff209e2db98b6c7c/bwd-0.1.2.tar.gz
+[2023-07-11 13:11:15] INFO root fetch - processPackages [mcemtools]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-11 13:11:15] INFO root fetch - processPackages [ert-storage]: Remove: archive file [/home/abi/fetcher/tmp/ert_storage-0.3.8-py3-none-any.whl.zip]
+[2023-07-11 13:11:15] INFO root fetch - processPackages [ert-storage]: Remove: archive file [/home/abi/fetcher/tmp/ert_storage-0.3.9-py3-none-any.whl.zip]
+[2023-07-11 13:11:15] INFO root fetch - processPackages [ert-storage]: Start processing: authentication-factory
+[2023-07-11 13:11:15] INFO root fetch - main [MainThread]: End processing [ert-storage]: success
+[2023-07-11 13:11:15] INFO root fetch - processPackages [fastapi-filter]: Downloading https://files.pythonhosted.org/packages/6b/12/7be42561be105603c054d90c49d94f84caae0459857637be7180750fad04/fastapi_filter-0.6.1.tar.gz
+[2023-07-11 13:11:15] INFO root fetch - processPackages [VisionFive.gpio]: Downloading https://files.pythonhosted.org/packages/de/0b/e688c490b313357c0fa2807a1d81e7a3c2c30fecee0f3b6b382dc718370a/VisionFive.gpio-1.2.15-cp310-cp310-any.whl
+[2023-07-11 13:11:15] INFO root fetch - processPackages [bwd]: executing diffoscope
+[2023-07-11 13:11:15] INFO root fetch - processPackages [bwd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bwd-0.1.1.tar.gz tmp/bwd-0.1.2.tar.gz --markdown 20230711/b/bwd/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-11 13:11:16] INFO root fetch - processPackages [tkmilan]: Downloading https://files.pythonhosted.org/packages/70/21/636dc6b5746848fad3d891699437a1b2e0f60d118440791af68a531f53fd/tkmilan-0.9.tar.gz
+[2023-07-11 13:11:16] INFO root fetch - processPackages [mcemtools]: Downloading https://files.pythonhosted.org/packages/60/e4/2ecd0bcf60e7bf1ceda31d918ca6a47a08ab50450d09a37c498373ec4914/mcemtools-0.2.0.tar.gz
+[2023-07-11 13:11:16] INFO root fetch - processPackages [fastapi-filter]: executing diffoscope
+[2023-07-11 13:11:16] INFO root fetch - processPackages [fastapi-filter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_filter-0.6.0.tar.gz tmp/fastapi_filter-0.6.1.tar.gz --markdown 20230711/f/fastapi-filter/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-07-11 13:11:16] ERROR root fetch - processPackages [authentication-factory]: Unable to get metadata: No such project 'authentication-factory'
+[2023-07-11 13:11:16] INFO root fetch - processPackages [authentication-factory]: Start processing: PyVCG
+[2023-07-11 13:11:16] INFO root fetch - main [MainThread]: End processing [authentication-factory] error
+[2023-07-11 13:11:16] INFO root fetch - processPackages [VisionFive.gpio]: executing diffoscope
+[2023-07-11 13:11:16] INFO root fetch - processPackages [VisionFive.gpio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/VisionFive.gpio-1.2.12-cp34-abi3-any.whl.zip tmp/VisionFive.gpio-1.2.15-cp310-cp310-any.whl.zip --markdown 20230711/V/VisionFive.gpio/1.2.12-1.2.15/diff.md --exclude *.pyd
+[2023-07-11 13:11:16] INFO root fetch - processPackages [tkmilan]: executing diffoscope
+[2023-07-11 13:11:16] INFO root fetch - processPackages [tkmilan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tkmilan-0.8.tar.gz tmp/tkmilan-0.9.tar.gz --markdown 20230711/t/tkmilan/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-11 13:11:16] INFO root fetch - processPackages [planbee]: Downloading https://files.pythonhosted.org/packages/49/07/95d92efae6004a3998e6e825c30c7be74dfaf5fb48568898809e678e11e6/planbee-0.1.3.tar.gz
+[2023-07-11 13:11:16] INFO root fetch - processPackages [mcemtools]: Downloading https://files.pythonhosted.org/packages/4d/ac/fb0e4c3a2ffcd989f2966814e3577eb2f4aafc6a1f0b95ef9d4c80547353/mcemtools-0.3.0.tar.gz
+[2023-07-11 13:11:16] INFO root fetch - processPackages [PyVCG]: New version: [1.0.0] Old Version: [0.0.0]
+[2023-07-11 13:11:16] INFO root fetch - processPackages [planbee]: executing diffoscope
+[2023-07-11 13:11:16] INFO root fetch - processPackages [planbee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/planbee-0.0.0.tar.gz tmp/planbee-0.1.3.tar.gz --markdown 20230711/p/planbee/0.0.0-0.1.3/diff.md --exclude *.pyd
+[2023-07-11 13:11:16] INFO root fetch - processPackages [mcemtools]: executing diffoscope
+[2023-07-11 13:11:16] INFO root fetch - processPackages [mcemtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mcemtools-0.2.0.tar.gz tmp/mcemtools-0.3.0.tar.gz --markdown 20230711/m/mcemtools/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-11 13:11:16] INFO root fetch - processPackages [PyVCG]: Downloading https://files.pythonhosted.org/packages/db/5a/729fb9cfdb80644df40d0f86a8c6b8b310b0d8168daba0e7c549e88aa14a/PyVCG-0.0.0-py3-none-any.whl
+[2023-07-11 13:11:16] INFO root fetch - processPackages [safe-eth-py]: Remove: archive file [/home/abi/fetcher/tmp/safe-eth-py-5.5.0.tar.gz]
+[2023-07-11 13:11:16] INFO root fetch - processPackages [safe-eth-py]: Remove: archive file [/home/abi/fetcher/tmp/safe-eth-py-5.6.0.tar.gz]
+[2023-07-11 13:11:16] INFO root fetch - main [MainThread]: End processing [safe-eth-py]: success
+[2023-07-11 13:11:17] INFO root fetch - processPackages [uniem]: Remove: archive file [/home/abi/fetcher/tmp/uniem-0.2.4.post1.tar.gz]
+[2023-07-11 13:11:17] INFO root fetch - processPackages [uniem]: Remove: archive file [/home/abi/fetcher/tmp/uniem-0.3.0.tar.gz]
+[2023-07-11 13:11:17] INFO root fetch - main [MainThread]: End processing [uniem]: success
+[2023-07-11 13:11:17] INFO root fetch - processPackages [PyVCG]: Downloading https://files.pythonhosted.org/packages/98/a3/6fb954f8e3647b0f6430944bbb38f0e0cf3242f5302f2cf739c1523ead59/PyVCG-1.0.0.tar.gz
+[2023-07-11 13:11:17] INFO root fetch - processPackages [bwd]: Remove: archive file [/home/abi/fetcher/tmp/bwd-0.1.1.tar.gz]
+[2023-07-11 13:11:17] INFO root fetch - processPackages [bwd]: Remove: archive file [/home/abi/fetcher/tmp/bwd-0.1.2.tar.gz]
+[2023-07-11 13:11:17] INFO root fetch - main [MainThread]: End processing [bwd]: success
+[2023-07-11 13:11:17] INFO root fetch - processPackages [PyVCG]: executing diffoscope
+[2023-07-11 13:11:17] INFO root fetch - processPackages [PyVCG]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyVCG-0.0.0-py3-none-any.whl.zip tmp/PyVCG-1.0.0.tar.gz --markdown 20230711/P/PyVCG/0.0.0-1.0.0/diff.md --exclude *.pyd
+[2023-07-11 13:11:17] INFO root fetch - processPackages [fastapi-filter]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_filter-0.6.0.tar.gz]
+[2023-07-11 13:11:17] INFO root fetch - processPackages [fastapi-filter]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_filter-0.6.1.tar.gz]
+[2023-07-11 13:11:17] INFO root fetch - main [MainThread]: End processing [fastapi-filter]: success
+[2023-07-11 13:11:17] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.5.0rc9207800836909.tar.gz]
+[2023-07-11 13:11:17] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.5.0rc9209002596082.tar.gz]
+[2023-07-11 13:11:17] INFO root fetch - main [MainThread]: End processing [power-grid-model]: success
+[2023-07-11 13:11:17] INFO root fetch - processPackages [planbee]: Remove: archive file [/home/abi/fetcher/tmp/planbee-0.0.0.tar.gz]
+[2023-07-11 13:11:17] INFO root fetch - processPackages [tkmilan]: Remove: archive file [/home/abi/fetcher/tmp/tkmilan-0.8.tar.gz]
+[2023-07-11 13:11:17] INFO root fetch - processPackages [planbee]: Remove: archive file [/home/abi/fetcher/tmp/planbee-0.1.3.tar.gz]
+[2023-07-11 13:11:17] INFO root fetch - processPackages [tkmilan]: Remove: archive file [/home/abi/fetcher/tmp/tkmilan-0.9.tar.gz]
+[2023-07-11 13:11:17] INFO root fetch - main [MainThread]: End processing [planbee]: success
+[2023-07-11 13:11:17] INFO root fetch - main [MainThread]: End processing [tkmilan]: success
+[2023-07-11 13:11:17] INFO root fetch - processPackages [mcemtools]: Remove: archive file [/home/abi/fetcher/tmp/mcemtools-0.2.0.tar.gz]
+[2023-07-11 13:11:17] INFO root fetch - processPackages [mcemtools]: Remove: archive file [/home/abi/fetcher/tmp/mcemtools-0.3.0.tar.gz]
+[2023-07-11 13:11:17] INFO root fetch - main [MainThread]: End processing [mcemtools]: success
+[2023-07-11 13:11:18] INFO root fetch - processPackages [PyVCG]: Remove: archive file [/home/abi/fetcher/tmp/PyVCG-0.0.0-py3-none-any.whl.zip]
+[2023-07-11 13:11:18] INFO root fetch - processPackages [PyVCG]: Remove: archive file [/home/abi/fetcher/tmp/PyVCG-1.0.0.tar.gz]
+[2023-07-11 13:11:18] INFO root fetch - main [MainThread]: End processing [PyVCG]: success
+[2023-07-11 13:11:19] INFO root fetch - processPackages [VisionFive.gpio]: Remove: archive file [/home/abi/fetcher/tmp/VisionFive.gpio-1.2.12-cp34-abi3-any.whl.zip]
+[2023-07-11 13:11:19] INFO root fetch - processPackages [VisionFive.gpio]: Remove: archive file [/home/abi/fetcher/tmp/VisionFive.gpio-1.2.15-cp310-cp310-any.whl.zip]
+[2023-07-11 13:11:19] INFO root fetch - main [MainThread]: End processing [VisionFive.gpio]: success
+[2023-07-11 13:11:19] INFO root fetch - main [MainThread]: Store serial: [18844219]
