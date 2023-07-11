@@ -2334,3 +2334,215 @@ AssertionError: tmp/doctran-0.0.6.tar.gz does not exist
 [2023-07-11 02:05:32] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-1.9.0.20230710.post454.tar.gz]
 [2023-07-11 02:05:32] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
 [2023-07-11 02:05:32] INFO root fetch - main [MainThread]: Store serial: [18837896]
+[2023-07-11 02:10:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18837896]
+[2023-07-11 02:10:41] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-07-11 02:10:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hopsy
+[2023-07-11 02:10:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: TheSilent
+[2023-07-11 02:10:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-l10n-br-coa-generic
+[2023-07-11 02:10:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-l10n-br-purchase
+[2023-07-11 02:10:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-l10n-br-account-nfe
+[2023-07-11 02:10:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addon-l10n-br-base
+[2023-07-11 02:10:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jaxutils-nightly
+[2023-07-11 02:10:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo14-addon-l10n-br-cnab-structure
+[2023-07-11 02:10:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: microSWIFTtelemetry
+[2023-07-11 02:10:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo14-addon-l10n-br-sale
+[2023-07-11 02:10:41] INFO root fetch - processPackages [hopsy]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-07-11 02:10:41] INFO root fetch - processPackages [odoo14-addon-l10n-br-base]: New version: [14.0.3.5.1] Old Version: [14.0.3.5.0]
+[2023-07-11 02:10:41] INFO root fetch - processPackages [odoo14-addon-l10n-br-account-nfe]: New version: [14.0.2.1.3] Old Version: [14.0.2.1.2]
+[2023-07-11 02:10:41] INFO root fetch - processPackages [odoo14-addon-l10n-br-sale]: New version: [14.0.3.1.2] Old Version: [14.0.3.1.1]
+[2023-07-11 02:10:41] INFO root fetch - processPackages [microSWIFTtelemetry]: New version: [0.3] Old Version: [0.2.3]
+[2023-07-11 02:10:41] INFO root fetch - processPackages [odoo14-addon-l10n-br-coa-generic]: New version: [14.0.2.2.2] Old Version: [14.0.2.2.1]
+[2023-07-11 02:10:41] INFO root fetch - processPackages [odoo14-addon-l10n-br-cnab-structure]: New version: [14.0.1.0.1.dev2] Old Version: [14.0.1.0.1.dev1]
+[2023-07-11 02:10:41] INFO root fetch - processPackages [odoo14-addon-l10n-br-purchase]: New version: [14.0.3.2.2] Old Version: [14.0.3.2.1.dev1]
+[2023-07-11 02:10:41] INFO root fetch - processPackages [TheSilent]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-11 02:10:41] INFO root fetch - processPackages [jaxutils-nightly]: New version: [0.0.8.dev20230710] Old Version: [0.0.8.dev20230709]
+[2023-07-11 02:10:41] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/38/8d/5f649b6d78ee99f7cfd1d38e16bee5d0f6543940aac254e1bf597dcea102/jaxutils-nightly-0.0.8.dev20230709.tar.gz
+[2023-07-11 02:10:41] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/ad/09/2a1f42483bf3fbc17417489cf4f3d6ec17c5c763e219aa02ad1827f29dc1/TheSilent-0.0.98.tar.gz
+[2023-07-11 02:10:42] INFO root fetch - processPackages [hopsy]: Downloading https://files.pythonhosted.org/packages/26/bd/049ae2b8708a3506c0b6c78ef92c4c33afe712b7f8f29ba3b0034e8efb04/hopsy-1.1.0-cp39-cp39-win_amd64.whl
+[2023-07-11 02:10:42] INFO root fetch - processPackages [odoo14-addon-l10n-br-account-nfe]: Downloading https://files.pythonhosted.org/packages/4d/fd/72e03437e304a917012f2e225156b6aaeefd7ffdb77f23d99c88e193a264/odoo14_addon_l10n_br_account_nfe-14.0.2.1.2-py3-none-any.whl
+[2023-07-11 02:10:42] INFO root fetch - processPackages [odoo14-addon-l10n-br-sale]: Downloading https://files.pythonhosted.org/packages/6d/69/ffe771020e6137ddeabab4787f44d4fa5d11da88397e7c79dae16c228648/odoo14_addon_l10n_br_sale-14.0.3.1.1-py3-none-any.whl
+[2023-07-11 02:10:42] INFO root fetch - processPackages [odoo14-addon-l10n-br-purchase]: Downloading https://files.pythonhosted.org/packages/09/dd/b618c7ecea77da5da6871635a07bc5c2b8789b2d89a83ae70e8b42431138/odoo14_addon_l10n_br_purchase-14.0.3.2.1.dev1-py3-none-any.whl
+[2023-07-11 02:10:42] INFO root fetch - processPackages [microSWIFTtelemetry]: Downloading https://files.pythonhosted.org/packages/57/e8/822d42d80e852eea47f1684529087dd5ba6688a3c165e637b16da9c300db/microSWIFTtelemetry-0.2.3.tar.gz
+[2023-07-11 02:10:42] INFO root fetch - processPackages [odoo14-addon-l10n-br-coa-generic]: Downloading https://files.pythonhosted.org/packages/68/e2/3293fa1ec0205c38e7adc8447a0aa4d30054866001759e0fe9a9c46ddff8/odoo14_addon_l10n_br_coa_generic-14.0.2.2.1-py3-none-any.whl
+[2023-07-11 02:10:42] INFO root fetch - processPackages [odoo14-addon-l10n-br-cnab-structure]: Downloading https://files.pythonhosted.org/packages/05/95/2cb93fb16580db153e8b7cff1a701cd430e10ab4bd266b47099b28ae6508/odoo14_addon_l10n_br_cnab_structure-14.0.1.0.1.dev1-py3-none-any.whl
+[2023-07-11 02:10:42] INFO root fetch - processPackages [odoo14-addon-l10n-br-base]: Downloading https://files.pythonhosted.org/packages/6b/01/d9ff774cc44aa7c5e26094d4c156e5a4eb793bc7bf8319acd0d8731a353e/odoo14_addon_l10n_br_base-14.0.3.5.1-py3-none-any.whl
+[2023-07-11 02:10:42] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/38/21/9b42cfa55edd85cfd4fefba7fb94aab0891af2b6c90ef59e687a42228a0b/TheSilent-0.0.99.tar.gz
+[2023-07-11 02:10:42] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/49/13/2d0443cd83c89fa241a5354714ee97710ea50d6842216f58b58d1f74b463/jaxutils-nightly-0.0.8.dev20230710.tar.gz
+[2023-07-11 02:10:42] INFO root fetch - processPackages [hopsy]: Downloading https://files.pythonhosted.org/packages/47/77/af6bc34ac1efda4eb4ddee80580f06785ff5b7cd3c24dec19186d76c4731/hopsy-1.2.0-cp39-cp39-win_amd64.whl
+[2023-07-11 02:10:42] INFO root fetch - processPackages [odoo14-addon-l10n-br-base]: executing diffoscope
+[2023-07-11 02:10:42] INFO root fetch - processPackages [TheSilent]: executing diffoscope
+[2023-07-11 02:10:42] INFO root fetch - processPackages [odoo14-addon-l10n-br-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_br_base-14.0.3.5.0-py3-none-any.whl.zip tmp/odoo14_addon_l10n_br_base-14.0.3.5.1-py3-none-any.whl.zip --markdown 20230711/o/odoo14-addon-l10n-br-base/14.0.3.5.0-14.0.3.5.1/diff.md --exclude *.pyd
+[2023-07-11 02:10:42] INFO root fetch - processPackages [TheSilent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TheSilent-0.0.98.tar.gz tmp/TheSilent-0.0.99.tar.gz --markdown 20230711/T/TheSilent/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-11 02:10:42] INFO root fetch - processPackages [odoo14-addon-l10n-br-account-nfe]: Downloading https://files.pythonhosted.org/packages/c7/67/d733971136656f4548ac05b6111e0370c068d1d3f63c57050dc1ed1b93f9/odoo14_addon_l10n_br_account_nfe-14.0.2.1.3-py3-none-any.whl
+[2023-07-11 02:10:42] INFO root fetch - processPackages [odoo14-addon-l10n-br-purchase]: Downloading https://files.pythonhosted.org/packages/c6/d1/6021917c30b0c17e1b99f647c48a2c11ab48d0f3e87528e627cf13228376/odoo14_addon_l10n_br_purchase-14.0.3.2.2-py3-none-any.whl
+[2023-07-11 02:10:42] INFO root fetch - processPackages [microSWIFTtelemetry]: Downloading https://files.pythonhosted.org/packages/14/0a/cdb6819f689cfd633eee4f637a44cff9e9d17d8de2e31bff9e478fc02fb6/microSWIFTtelemetry-0.3.tar.gz
+[2023-07-11 02:10:42] INFO root fetch - processPackages [odoo14-addon-l10n-br-sale]: Downloading https://files.pythonhosted.org/packages/69/f4/0d088a5d1e499ccc56e19c651421445ab817a64d1098954a0d6331cfa4dc/odoo14_addon_l10n_br_sale-14.0.3.1.2-py3-none-any.whl
+[2023-07-11 02:10:42] INFO root fetch - processPackages [jaxutils-nightly]: executing diffoscope
+[2023-07-11 02:10:42] INFO root fetch - processPackages [jaxutils-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxutils-nightly-0.0.8.dev20230709.tar.gz tmp/jaxutils-nightly-0.0.8.dev20230710.tar.gz --markdown 20230711/j/jaxutils-nightly/0.0.8.dev20230709-0.0.8.dev20230710/diff.md --exclude *.pyd
+[2023-07-11 02:10:42] INFO root fetch - processPackages [odoo14-addon-l10n-br-cnab-structure]: Downloading https://files.pythonhosted.org/packages/c0/38/4ddd6b5d2a69fcd5bc2e1a43397f721eb178641d0f2269013013d28f0e71/odoo14_addon_l10n_br_cnab_structure-14.0.1.0.1.dev2-py3-none-any.whl
+[2023-07-11 02:10:42] INFO root fetch - processPackages [odoo14-addon-l10n-br-account-nfe]: executing diffoscope
+[2023-07-11 02:10:42] INFO root fetch - processPackages [odoo14-addon-l10n-br-account-nfe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_br_account_nfe-14.0.2.1.2-py3-none-any.whl.zip tmp/odoo14_addon_l10n_br_account_nfe-14.0.2.1.3-py3-none-any.whl.zip --markdown 20230711/o/odoo14-addon-l10n-br-account-nfe/14.0.2.1.2-14.0.2.1.3/diff.md --exclude *.pyd
+[2023-07-11 02:10:42] INFO root fetch - processPackages [odoo14-addon-l10n-br-purchase]: executing diffoscope
+[2023-07-11 02:10:42] INFO root fetch - processPackages [odoo14-addon-l10n-br-purchase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_br_purchase-14.0.3.2.1.dev1-py3-none-any.whl.zip tmp/odoo14_addon_l10n_br_purchase-14.0.3.2.2-py3-none-any.whl.zip --markdown 20230711/o/odoo14-addon-l10n-br-purchase/14.0.3.2.1.dev1-14.0.3.2.2/diff.md --exclude *.pyd
+[2023-07-11 02:10:43] INFO root fetch - processPackages [odoo14-addon-l10n-br-cnab-structure]: executing diffoscope
+[2023-07-11 02:10:43] INFO root fetch - processPackages [odoo14-addon-l10n-br-cnab-structure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_br_cnab_structure-14.0.1.0.1.dev1-py3-none-any.whl.zip tmp/odoo14_addon_l10n_br_cnab_structure-14.0.1.0.1.dev2-py3-none-any.whl.zip --markdown 20230711/o/odoo14-addon-l10n-br-cnab-structure/14.0.1.0.1.dev1-14.0.1.0.1.dev2/diff.md --exclude *.pyd
+[2023-07-11 02:10:43] INFO root fetch - processPackages [microSWIFTtelemetry]: executing diffoscope
+[2023-07-11 02:10:43] INFO root fetch - processPackages [microSWIFTtelemetry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/microSWIFTtelemetry-0.2.3.tar.gz tmp/microSWIFTtelemetry-0.3.tar.gz --markdown 20230711/m/microSWIFTtelemetry/0.2.3-0.3/diff.md --exclude *.pyd
+[2023-07-11 02:10:43] INFO root fetch - processPackages [hopsy]: executing diffoscope
+[2023-07-11 02:10:43] INFO root fetch - processPackages [hopsy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hopsy-1.1.0-cp39-cp39-win_amd64.whl.zip tmp/hopsy-1.2.0-cp39-cp39-win_amd64.whl.zip --markdown 20230711/h/hopsy/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-07-11 02:10:43] INFO root fetch - processPackages [odoo14-addon-l10n-br-coa-generic]: Downloading https://files.pythonhosted.org/packages/52/23/2c4f732ee535936d9280f9b1a4b8b5b0fa4066cb3166429f0da2638d966a/odoo14_addon_l10n_br_coa_generic-14.0.2.2.2-py3-none-any.whl
+[2023-07-11 02:10:43] INFO root fetch - processPackages [odoo14-addon-l10n-br-sale]: executing diffoscope
+[2023-07-11 02:10:43] INFO root fetch - processPackages [odoo14-addon-l10n-br-sale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_br_sale-14.0.3.1.1-py3-none-any.whl.zip tmp/odoo14_addon_l10n_br_sale-14.0.3.1.2-py3-none-any.whl.zip --markdown 20230711/o/odoo14-addon-l10n-br-sale/14.0.3.1.1-14.0.3.1.2/diff.md --exclude *.pyd
+[2023-07-11 02:10:43] INFO root fetch - processPackages [odoo14-addon-l10n-br-base]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_base-14.0.3.5.0-py3-none-any.whl.zip]
+[2023-07-11 02:10:43] INFO root fetch - processPackages [odoo14-addon-l10n-br-base]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_base-14.0.3.5.1-py3-none-any.whl.zip]
+[2023-07-11 02:10:43] INFO root fetch - processPackages [odoo14-addon-l10n-br-base]: Start processing: odoo14-addon-l10n-br-coa-simple
+[2023-07-11 02:10:43] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-base]: success
+[2023-07-11 02:10:43] INFO root fetch - processPackages [odoo14-addon-l10n-br-coa-simple]: New version: [14.0.2.4.1] Old Version: [14.0.2.4.0]
+[2023-07-11 02:10:43] INFO root fetch - processPackages [odoo14-addon-l10n-br-coa-generic]: executing diffoscope
+[2023-07-11 02:10:43] INFO root fetch - processPackages [odoo14-addon-l10n-br-coa-generic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_br_coa_generic-14.0.2.2.1-py3-none-any.whl.zip tmp/odoo14_addon_l10n_br_coa_generic-14.0.2.2.2-py3-none-any.whl.zip --markdown 20230711/o/odoo14-addon-l10n-br-coa-generic/14.0.2.2.1-14.0.2.2.2/diff.md --exclude *.pyd
+[2023-07-11 02:10:44] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.98.tar.gz]
+[2023-07-11 02:10:44] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.99.tar.gz]
+[2023-07-11 02:10:44] INFO root fetch - processPackages [TheSilent]: Start processing: odoo14-addon-l10n-br-fiscal
+[2023-07-11 02:10:44] INFO root fetch - main [MainThread]: End processing [TheSilent]: success
+[2023-07-11 02:10:44] INFO root fetch - processPackages [odoo14-addon-l10n-br-coa-simple]: Downloading https://files.pythonhosted.org/packages/78/e2/565d6ed207630c3f2eaaeb06cc8df21603647daaca2e4c8a12e1f872cb14/odoo14_addon_l10n_br_coa_simple-14.0.2.4.0-py3-none-any.whl
+[2023-07-11 02:10:44] INFO root fetch - processPackages [odoo14-addon-l10n-br-fiscal]: New version: [14.0.9.2.1.dev3] Old Version: [14.0.9.2.1.dev2]
+[2023-07-11 02:10:44] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20230709.tar.gz]
+[2023-07-11 02:10:44] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20230710.tar.gz]
+[2023-07-11 02:10:44] INFO root fetch - processPackages [jaxutils-nightly]: Start processing: odoo14-addon-l10n-br-stock
+[2023-07-11 02:10:44] INFO root fetch - main [MainThread]: End processing [jaxutils-nightly]: success
+[2023-07-11 02:10:44] INFO root fetch - processPackages [odoo14-addon-l10n-br-stock]: New version: [14.0.2.0.3.dev3] Old Version: [14.0.2.0.3.dev1]
+[2023-07-11 02:10:44] INFO root fetch - processPackages [odoo14-addon-l10n-br-fiscal]: Downloading https://files.pythonhosted.org/packages/b6/ae/9800d777e4d7166c8a0ee02cd7c2602421433738397b582d529f48db7c5b/odoo14_addon_l10n_br_fiscal-14.0.9.2.1.dev2-py3-none-any.whl
+[2023-07-11 02:10:44] INFO root fetch - processPackages [odoo14-addon-l10n-br-account-nfe]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_account_nfe-14.0.2.1.2-py3-none-any.whl.zip]
+[2023-07-11 02:10:44] INFO root fetch - processPackages [odoo14-addon-l10n-br-account-nfe]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_account_nfe-14.0.2.1.3-py3-none-any.whl.zip]
+[2023-07-11 02:10:44] INFO root fetch - processPackages [odoo14-addon-l10n-br-account-nfe]: Start processing: odoo14-addon-l10n-br-stock-account
+[2023-07-11 02:10:44] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-account-nfe]: success
+[2023-07-11 02:10:44] INFO root fetch - processPackages [odoo14-addon-l10n-br-stock-account]: New version: [14.0.3.1.1] Old Version: [14.0.3.1.0]
+[2023-07-11 02:10:44] INFO root fetch - processPackages [microSWIFTtelemetry]: Remove: archive file [/home/abi/fetcher/tmp/microSWIFTtelemetry-0.2.3.tar.gz]
+[2023-07-11 02:10:44] INFO root fetch - processPackages [microSWIFTtelemetry]: Remove: archive file [/home/abi/fetcher/tmp/microSWIFTtelemetry-0.3.tar.gz]
+[2023-07-11 02:10:44] INFO root fetch - processPackages [microSWIFTtelemetry]: Start processing: nlb-tools
+[2023-07-11 02:10:44] INFO root fetch - main [MainThread]: End processing [microSWIFTtelemetry]: success
+[2023-07-11 02:10:44] INFO root fetch - processPackages [nlb-tools]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-11 02:10:44] INFO root fetch - processPackages [odoo14-addon-l10n-br-coa-simple]: Downloading https://files.pythonhosted.org/packages/72/82/6e93e466811fd8567ec82c0db4213fbbaf7b9070ffff1febe543c0e8e551/odoo14_addon_l10n_br_coa_simple-14.0.2.4.1-py3-none-any.whl
+[2023-07-11 02:10:44] INFO root fetch - processPackages [odoo14-addon-l10n-br-stock]: Downloading https://files.pythonhosted.org/packages/df/af/654f5229563a47a0d8d36d2125724ed13969bb5c1fdfd7e2405782779acc/odoo14_addon_l10n_br_stock-14.0.2.0.3.dev1-py3-none-any.whl
+[2023-07-11 02:10:44] INFO root fetch - processPackages [hopsy]: Remove: archive file [/home/abi/fetcher/tmp/hopsy-1.1.0-cp39-cp39-win_amd64.whl.zip]
+[2023-07-11 02:10:44] INFO root fetch - processPackages [hopsy]: Remove: archive file [/home/abi/fetcher/tmp/hopsy-1.2.0-cp39-cp39-win_amd64.whl.zip]
+[2023-07-11 02:10:44] INFO root fetch - processPackages [hopsy]: Start processing: council-ai
+[2023-07-11 02:10:44] INFO root fetch - main [MainThread]: End processing [hopsy]: success
+[2023-07-11 02:10:44] INFO root fetch - processPackages [odoo14-addon-l10n-br-purchase]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_purchase-14.0.3.2.1.dev1-py3-none-any.whl.zip]
+[2023-07-11 02:10:44] INFO root fetch - processPackages [odoo14-addon-l10n-br-purchase]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_purchase-14.0.3.2.2-py3-none-any.whl.zip]
+[2023-07-11 02:10:44] INFO root fetch - processPackages [odoo14-addon-l10n-br-purchase]: Start processing: pip-inside
+[2023-07-11 02:10:44] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-purchase]: success
+[2023-07-11 02:10:44] WARNING root fetch - processPackages [council-ai]: Skipping, unable to determine old version
+[2023-07-11 02:10:44] INFO root fetch - processPackages [council-ai]: Start processing: metdig
+[2023-07-11 02:10:44] INFO root fetch - main [MainThread]: End processing [council-ai] error
+[2023-07-11 02:10:44] INFO root fetch - processPackages [pip-inside]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-11 02:10:44] INFO root fetch - processPackages [odoo14-addon-l10n-br-stock-account]: Downloading https://files.pythonhosted.org/packages/05/65/dd2c07b394f742bdb41e33f0d3fbc5e9ee497916f51fdc0f1476d1058c7d/odoo14_addon_l10n_br_stock_account-14.0.3.1.0-py3-none-any.whl
+[2023-07-11 02:10:44] INFO root fetch - processPackages [metdig]: New version: [0.1.9.9.9] Old Version: [0.1.9.9.8]
+[2023-07-11 02:10:44] INFO root fetch - processPackages [odoo14-addon-l10n-br-coa-simple]: executing diffoscope
+[2023-07-11 02:10:44] INFO root fetch - processPackages [odoo14-addon-l10n-br-coa-simple]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_br_coa_simple-14.0.2.4.0-py3-none-any.whl.zip tmp/odoo14_addon_l10n_br_coa_simple-14.0.2.4.1-py3-none-any.whl.zip --markdown 20230711/o/odoo14-addon-l10n-br-coa-simple/14.0.2.4.0-14.0.2.4.1/diff.md --exclude *.pyd
+[2023-07-11 02:10:44] INFO root fetch - processPackages [odoo14-addon-l10n-br-sale]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_sale-14.0.3.1.1-py3-none-any.whl.zip]
+[2023-07-11 02:10:44] INFO root fetch - processPackages [odoo14-addon-l10n-br-sale]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_sale-14.0.3.1.2-py3-none-any.whl.zip]
+[2023-07-11 02:10:44] INFO root fetch - processPackages [odoo14-addon-l10n-br-sale]: Start processing: ml-compiler-opt
+[2023-07-11 02:10:44] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-sale]: success
+[2023-07-11 02:10:44] INFO root fetch - processPackages [nlb-tools]: Downloading https://files.pythonhosted.org/packages/f6/00/bf16407f4be57bef972fd4623bee8df5c1665bdca156af95bc870610b2f2/nlb_tools-0.0.1.tar.gz
+[2023-07-11 02:10:44] INFO root fetch - processPackages [ml-compiler-opt]: New version: [0.0.1.dev202307110008] Old Version: [0.0.1.dev202307100008]
+[2023-07-11 02:10:44] INFO root fetch - processPackages [odoo14-addon-l10n-br-cnab-structure]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_cnab_structure-14.0.1.0.1.dev1-py3-none-any.whl.zip]
+[2023-07-11 02:10:44] INFO root fetch - processPackages [odoo14-addon-l10n-br-cnab-structure]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_cnab_structure-14.0.1.0.1.dev2-py3-none-any.whl.zip]
+[2023-07-11 02:10:44] INFO root fetch - processPackages [odoo14-addon-l10n-br-cnab-structure]: Start processing: torchlayers-nightly
+[2023-07-11 02:10:44] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-cnab-structure]: success
+[2023-07-11 02:10:44] INFO root fetch - processPackages [ml-compiler-opt]: Downloading https://files.pythonhosted.org/packages/a2/96/9a9d0a0204009c77ffe7a86824085d2cdab97b2df3641320a0d4149de688/ml_compiler_opt-0.0.1.dev202307100008-py3-none-any.whl
+[2023-07-11 02:10:45] INFO root fetch - processPackages [torchlayers-nightly]: New version: [1688947723] Old Version: [1688861361]
+[2023-07-11 02:10:45] INFO root fetch - processPackages [odoo14-addon-l10n-br-stock]: Downloading https://files.pythonhosted.org/packages/e1/e8/b1b80e197f94ff51512dd30536d449db69234b8d5a06a126ef0077bf0ad7/odoo14_addon_l10n_br_stock-14.0.2.0.3.dev3-py3-none-any.whl
+[2023-07-11 02:10:45] INFO root fetch - processPackages [pip-inside]: Downloading https://files.pythonhosted.org/packages/d3/cc/9bb6c9f2e1c4e2f7965ffe44c641d8e763c9edbf489228ff87fc220fd19e/pip-inside-0.1.8.tar.gz
+[2023-07-11 02:10:45] INFO root fetch - processPackages [metdig]: Downloading https://files.pythonhosted.org/packages/b1/3c/6f99d5b25b3bfab92bfe158379ff91e93f0226f0cfce9bfadd9bd77189e5/metdig-0.1.9.9.8-py3-none-any.whl
+[2023-07-11 02:10:45] INFO root fetch - processPackages [torchlayers-nightly]: Downloading https://files.pythonhosted.org/packages/c0/65/9e778cc44fc89e2a6062d3bd06dfdc33d6a19e6f568f118238c99770ccb5/torchlayers-nightly-1688861361.tar.gz
+[2023-07-11 02:10:45] INFO root fetch - processPackages [odoo14-addon-l10n-br-stock-account]: Downloading https://files.pythonhosted.org/packages/95/f0/9f486896b4bfa3a4498663cab733e5d9b606b58e1791300ed2afd1d90194/odoo14_addon_l10n_br_stock_account-14.0.3.1.1-py3-none-any.whl
+[2023-07-11 02:10:45] INFO root fetch - processPackages [odoo14-addon-l10n-br-coa-generic]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_coa_generic-14.0.2.2.1-py3-none-any.whl.zip]
+[2023-07-11 02:10:45] INFO root fetch - processPackages [odoo14-addon-l10n-br-coa-generic]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_coa_generic-14.0.2.2.2-py3-none-any.whl.zip]
+[2023-07-11 02:10:45] INFO root fetch - processPackages [odoo14-addon-l10n-br-coa-generic]: Start processing: datatransform
+[2023-07-11 02:10:45] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-coa-generic]: success
+[2023-07-11 02:10:45] INFO root fetch - processPackages [odoo14-addon-l10n-br-stock]: executing diffoscope
+[2023-07-11 02:10:45] INFO root fetch - processPackages [odoo14-addon-l10n-br-stock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_br_stock-14.0.2.0.3.dev1-py3-none-any.whl.zip tmp/odoo14_addon_l10n_br_stock-14.0.2.0.3.dev3-py3-none-any.whl.zip --markdown 20230711/o/odoo14-addon-l10n-br-stock/14.0.2.0.3.dev1-14.0.2.0.3.dev3/diff.md --exclude *.pyd
+[2023-07-11 02:10:45] INFO root fetch - processPackages [datatransform]: New version: [1.6] Old Version: [1.5]
+[2023-07-11 02:10:45] INFO root fetch - processPackages [nlb-tools]: Downloading https://files.pythonhosted.org/packages/33/98/1025fe4b87b2ff1e5ac4b0841d94c0f7739481d09ebe02bba21bb24301af/nlb_tools-0.0.2.tar.gz
+[2023-07-11 02:10:45] INFO root fetch - processPackages [datatransform]: Downloading https://files.pythonhosted.org/packages/f8/1f/bdb51f0a2c6873de5eda1486e38a56211e77ebfeec4d707761ebef387aeb/datatransform-1.5.tar.gz
+[2023-07-11 02:10:45] INFO root fetch - processPackages [ml-compiler-opt]: Downloading https://files.pythonhosted.org/packages/c9/79/9ce034e815dd03061ee506dada12af04d7034d9130303ac2853d40772bed/ml-compiler-opt-0.0.1.dev202307110008.tar.gz
+[2023-07-11 02:10:45] INFO root fetch - processPackages [odoo14-addon-l10n-br-stock-account]: executing diffoscope
+[2023-07-11 02:10:45] INFO root fetch - processPackages [odoo14-addon-l10n-br-stock-account]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_br_stock_account-14.0.3.1.0-py3-none-any.whl.zip tmp/odoo14_addon_l10n_br_stock_account-14.0.3.1.1-py3-none-any.whl.zip --markdown 20230711/o/odoo14-addon-l10n-br-stock-account/14.0.3.1.0-14.0.3.1.1/diff.md --exclude *.pyd
+[2023-07-11 02:10:45] INFO root fetch - processPackages [nlb-tools]: executing diffoscope
+[2023-07-11 02:10:45] INFO root fetch - processPackages [nlb-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nlb_tools-0.0.1.tar.gz tmp/nlb_tools-0.0.2.tar.gz --markdown 20230711/n/nlb-tools/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-11 02:10:45] INFO root fetch - processPackages [pip-inside]: Downloading https://files.pythonhosted.org/packages/03/29/8da5b4e43dd72f20de380f015a3da26ad5d6903ca91d52f6707e3fff7ee9/pip-inside-0.1.9.tar.gz
+[2023-07-11 02:10:45] INFO root fetch - processPackages [ml-compiler-opt]: executing diffoscope
+[2023-07-11 02:10:45] INFO root fetch - processPackages [ml-compiler-opt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml_compiler_opt-0.0.1.dev202307100008-py3-none-any.whl.zip tmp/ml-compiler-opt-0.0.1.dev202307110008.tar.gz --markdown 20230711/m/ml-compiler-opt/0.0.1.dev202307100008-0.0.1.dev202307110008/diff.md --exclude *.pyd
+[2023-07-11 02:10:45] INFO root fetch - processPackages [torchlayers-nightly]: Downloading https://files.pythonhosted.org/packages/84/3f/340b79e9258e58bf16f34f3aaf1755c30a140704788c1f12749c3da15f4e/torchlayers-nightly-1688947723.tar.gz
+[2023-07-11 02:10:45] INFO root fetch - processPackages [pip-inside]: executing diffoscope
+[2023-07-11 02:10:45] INFO root fetch - processPackages [pip-inside]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pip-inside-0.1.8.tar.gz tmp/pip-inside-0.1.9.tar.gz --markdown 20230711/p/pip-inside/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-11 02:10:45] INFO root fetch - processPackages [datatransform]: Downloading https://files.pythonhosted.org/packages/73/02/4fd5235bc1a32d8def91cb468a5efcb53f61280bae8055563e8dcdd5d0a0/datatransform-1.6.tar.gz
+[2023-07-11 02:10:45] INFO root fetch - processPackages [odoo14-addon-l10n-br-coa-simple]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_coa_simple-14.0.2.4.0-py3-none-any.whl.zip]
+[2023-07-11 02:10:45] INFO root fetch - processPackages [odoo14-addon-l10n-br-coa-simple]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_coa_simple-14.0.2.4.1-py3-none-any.whl.zip]
+[2023-07-11 02:10:45] INFO root fetch - processPackages [odoo14-addon-l10n-br-coa-simple]: Start processing: vesselapi
+[2023-07-11 02:10:45] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-coa-simple]: success
+[2023-07-11 02:10:45] INFO root fetch - processPackages [odoo14-addon-l10n-br-fiscal]: Downloading https://files.pythonhosted.org/packages/3e/9d/f06739d0fc5ac83076dbdce19b1fc1ffc33e068724d0f81d8a08b9fed2ef/odoo14_addon_l10n_br_fiscal-14.0.9.2.1.dev3-py3-none-any.whl
+[2023-07-11 02:10:45] INFO root fetch - processPackages [torchlayers-nightly]: executing diffoscope
+[2023-07-11 02:10:45] INFO root fetch - processPackages [torchlayers-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchlayers-nightly-1688861361.tar.gz tmp/torchlayers-nightly-1688947723.tar.gz --markdown 20230711/t/torchlayers-nightly/1688861361-1688947723/diff.md --exclude *.pyd
+[2023-07-11 02:10:45] INFO root fetch - processPackages [vesselapi]: New version: [3.5.2] Old Version: [3.36.0]
+[2023-07-11 02:10:45] INFO root fetch - processPackages [datatransform]: executing diffoscope
+[2023-07-11 02:10:45] INFO root fetch - processPackages [datatransform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datatransform-1.5.tar.gz tmp/datatransform-1.6.tar.gz --markdown 20230711/d/datatransform/1.5-1.6/diff.md --exclude *.pyd
+[2023-07-11 02:10:46] INFO root fetch - processPackages [vesselapi]: Downloading https://files.pythonhosted.org/packages/7b/20/4a21c56e95b161ecb3d29de9430dec8a75fd64d0e5b6b25e97f91b03efd5/vesselapi-3.36.0.tar.gz
+[2023-07-11 02:10:46] INFO root fetch - processPackages [odoo14-addon-l10n-br-fiscal]: executing diffoscope
+[2023-07-11 02:10:46] INFO root fetch - processPackages [odoo14-addon-l10n-br-fiscal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_br_fiscal-14.0.9.2.1.dev2-py3-none-any.whl.zip tmp/odoo14_addon_l10n_br_fiscal-14.0.9.2.1.dev3-py3-none-any.whl.zip --markdown 20230711/o/odoo14-addon-l10n-br-fiscal/14.0.9.2.1.dev2-14.0.9.2.1.dev3/diff.md --exclude *.pyd
+[2023-07-11 02:10:46] INFO root fetch - processPackages [vesselapi]: Downloading https://files.pythonhosted.org/packages/82/f2/105170d36bec43bbe554de48bf20f0f1727c0db0e62b44a2412f0e180fa6/vesselapi-3.5.2.tar.gz
+[2023-07-11 02:10:46] INFO root fetch - processPackages [odoo14-addon-l10n-br-stock]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_stock-14.0.2.0.3.dev1-py3-none-any.whl.zip]
+[2023-07-11 02:10:46] INFO root fetch - processPackages [odoo14-addon-l10n-br-stock]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_stock-14.0.2.0.3.dev3-py3-none-any.whl.zip]
+[2023-07-11 02:10:46] INFO root fetch - processPackages [odoo14-addon-l10n-br-stock]: Start processing: pepperize.cdk-github
+[2023-07-11 02:10:46] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-stock]: success
+[2023-07-11 02:10:46] INFO root fetch - processPackages [pepperize.cdk-github]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-11 02:10:46] INFO root fetch - processPackages [vesselapi]: executing diffoscope
+[2023-07-11 02:10:46] INFO root fetch - processPackages [vesselapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vesselapi-3.36.0.tar.gz tmp/vesselapi-3.5.2.tar.gz --markdown 20230711/v/vesselapi/3.36.0-3.5.2/diff.md --exclude *.pyd
+[2023-07-11 02:10:46] INFO root fetch - processPackages [pepperize.cdk-github]: Downloading https://files.pythonhosted.org/packages/24/6d/598d06b1a4e959b347586ba22a01a1bc105e61fe7d1318c6fb190d545b38/pepperize.cdk-github-0.0.98.tar.gz
+[2023-07-11 02:10:46] INFO root fetch - processPackages [nlb-tools]: Remove: archive file [/home/abi/fetcher/tmp/nlb_tools-0.0.1.tar.gz]
+[2023-07-11 02:10:46] INFO root fetch - processPackages [nlb-tools]: Remove: archive file [/home/abi/fetcher/tmp/nlb_tools-0.0.2.tar.gz]
+[2023-07-11 02:10:46] INFO root fetch - processPackages [nlb-tools]: Start processing: tccli
+[2023-07-11 02:10:46] INFO root fetch - main [MainThread]: End processing [nlb-tools]: success
+[2023-07-11 02:10:46] INFO root fetch - processPackages [tccli]: New version: [3.0.99.1] Old Version: [3.0.98.1]
+[2023-07-11 02:10:46] INFO root fetch - processPackages [ml-compiler-opt]: Remove: archive file [/home/abi/fetcher/tmp/ml_compiler_opt-0.0.1.dev202307100008-py3-none-any.whl.zip]
+[2023-07-11 02:10:46] INFO root fetch - processPackages [ml-compiler-opt]: Remove: archive file [/home/abi/fetcher/tmp/ml-compiler-opt-0.0.1.dev202307110008.tar.gz]
+[2023-07-11 02:10:46] INFO root fetch - main [MainThread]: End processing [ml-compiler-opt]: success
+[2023-07-11 02:10:46] INFO root fetch - processPackages [tccli]: Downloading https://files.pythonhosted.org/packages/d5/c0/3ba1e7e48c25d80695e0216e1e772ed1492bdb76a0d81d9ddca3443d1353/tccli-3.0.98.1.tar.gz
+[2023-07-11 02:10:46] INFO root fetch - processPackages [odoo14-addon-l10n-br-stock-account]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_stock_account-14.0.3.1.0-py3-none-any.whl.zip]
+[2023-07-11 02:10:46] INFO root fetch - processPackages [odoo14-addon-l10n-br-stock-account]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_stock_account-14.0.3.1.1-py3-none-any.whl.zip]
+[2023-07-11 02:10:46] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-stock-account]: success
+[2023-07-11 02:10:46] INFO root fetch - processPackages [pepperize.cdk-github]: Downloading https://files.pythonhosted.org/packages/c3/a7/0446f664eacf32838f54f1c66d5396c5ab08f1bcd671ef0f29c503c0f763/pepperize.cdk-github-0.0.99.tar.gz
+[2023-07-11 02:10:47] INFO root fetch - processPackages [pip-inside]: Remove: archive file [/home/abi/fetcher/tmp/pip-inside-0.1.8.tar.gz]
+[2023-07-11 02:10:47] INFO root fetch - processPackages [pip-inside]: Remove: archive file [/home/abi/fetcher/tmp/pip-inside-0.1.9.tar.gz]
+[2023-07-11 02:10:47] INFO root fetch - main [MainThread]: End processing [pip-inside]: success
+[2023-07-11 02:10:47] INFO root fetch - processPackages [torchlayers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchlayers-nightly-1688861361.tar.gz]
+[2023-07-11 02:10:47] INFO root fetch - processPackages [torchlayers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchlayers-nightly-1688947723.tar.gz]
+[2023-07-11 02:10:47] INFO root fetch - main [MainThread]: End processing [torchlayers-nightly]: success
+[2023-07-11 02:10:47] INFO root fetch - processPackages [pepperize.cdk-github]: executing diffoscope
+[2023-07-11 02:10:47] INFO root fetch - processPackages [pepperize.cdk-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-github-0.0.98.tar.gz tmp/pepperize.cdk-github-0.0.99.tar.gz --markdown 20230711/p/pepperize.cdk-github/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-11 02:10:47] INFO root fetch - processPackages [tccli]: Downloading https://files.pythonhosted.org/packages/f6/c1/6e489190b9983c2b5d4a0260a36bcfb8647ee614634e4992013766cbc5cc/tccli-3.0.99.1.tar.gz
+[2023-07-11 02:10:47] INFO root fetch - processPackages [datatransform]: Remove: archive file [/home/abi/fetcher/tmp/datatransform-1.5.tar.gz]
+[2023-07-11 02:10:47] INFO root fetch - processPackages [datatransform]: Remove: archive file [/home/abi/fetcher/tmp/datatransform-1.6.tar.gz]
+[2023-07-11 02:10:47] INFO root fetch - main [MainThread]: End processing [datatransform]: success
+[2023-07-11 02:10:47] INFO root fetch - processPackages [tccli]: executing diffoscope
+[2023-07-11 02:10:47] INFO root fetch - processPackages [tccli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tccli-3.0.98.1.tar.gz tmp/tccli-3.0.99.1.tar.gz --markdown 20230711/t/tccli/3.0.98.1-3.0.99.1/diff.md --exclude *.pyd
+[2023-07-11 02:10:47] INFO root fetch - processPackages [metdig]: Downloading https://files.pythonhosted.org/packages/96/6e/1c393cb969c82fe1c39fc922d6de4aedb7830f5ce13e7be8c7ac41f5115f/metdig-0.1.9.9.9-py3-none-any.whl
+[2023-07-11 02:10:48] INFO root fetch - processPackages [pepperize.cdk-github]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-github-0.0.98.tar.gz]
+[2023-07-11 02:10:48] INFO root fetch - processPackages [pepperize.cdk-github]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-github-0.0.99.tar.gz]
+[2023-07-11 02:10:48] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-github]: success
+[2023-07-11 02:10:48] INFO root fetch - processPackages [odoo14-addon-l10n-br-fiscal]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_fiscal-14.0.9.2.1.dev2-py3-none-any.whl.zip]
+[2023-07-11 02:10:48] INFO root fetch - processPackages [odoo14-addon-l10n-br-fiscal]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_fiscal-14.0.9.2.1.dev3-py3-none-any.whl.zip]
+[2023-07-11 02:10:48] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-fiscal]: success
+[2023-07-11 02:10:48] INFO root fetch - processPackages [vesselapi]: Remove: archive file [/home/abi/fetcher/tmp/vesselapi-3.36.0.tar.gz]
+[2023-07-11 02:10:48] INFO root fetch - processPackages [vesselapi]: Remove: archive file [/home/abi/fetcher/tmp/vesselapi-3.5.2.tar.gz]
+[2023-07-11 02:10:48] INFO root fetch - main [MainThread]: End processing [vesselapi]: success
+[2023-07-11 02:10:49] INFO root fetch - processPackages [metdig]: executing diffoscope
+[2023-07-11 02:10:49] INFO root fetch - processPackages [metdig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metdig-0.1.9.9.8-py3-none-any.whl.zip tmp/metdig-0.1.9.9.9-py3-none-any.whl.zip --markdown 20230711/m/metdig/0.1.9.9.8-0.1.9.9.9/diff.md --exclude *.pyd
+[2023-07-11 02:10:50] INFO root fetch - processPackages [tccli]: Remove: archive file [/home/abi/fetcher/tmp/tccli-3.0.98.1.tar.gz]
+[2023-07-11 02:10:50] INFO root fetch - processPackages [tccli]: Remove: archive file [/home/abi/fetcher/tmp/tccli-3.0.99.1.tar.gz]
+[2023-07-11 02:10:50] INFO root fetch - main [MainThread]: End processing [tccli]: success
+[2023-07-11 02:10:53] INFO root fetch - processPackages [metdig]: Remove: archive file [/home/abi/fetcher/tmp/metdig-0.1.9.9.8-py3-none-any.whl.zip]
+[2023-07-11 02:10:53] INFO root fetch - processPackages [metdig]: Remove: archive file [/home/abi/fetcher/tmp/metdig-0.1.9.9.9-py3-none-any.whl.zip]
+[2023-07-11 02:10:53] INFO root fetch - main [MainThread]: End processing [metdig]: success
+[2023-07-11 02:10:53] INFO root fetch - main [MainThread]: Store serial: [18837970]
