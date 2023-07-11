@@ -19778,3 +19778,153 @@ AssertionError: tmp/doctran-0.0.6.tar.gz does not exist
 [2023-07-11 14:29:11] INFO root fetch - processPackages [Finance-Hermes]: Remove: archive file [/home/abi/fetcher/tmp/Finance-Hermes-0.2.7.tar.gz]
 [2023-07-11 14:29:11] INFO root fetch - main [MainThread]: End processing [Finance-Hermes]: success
 [2023-07-11 14:29:11] INFO root fetch - main [MainThread]: Store serial: [18845238]
+[2023-07-11 14:34:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18845238]
+[2023-07-11 14:34:22] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-07-11 14:34:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: uatg
+[2023-07-11 14:34:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openepd
+[2023-07-11 14:34:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-contract-split
+[2023-07-11 14:34:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: one-sdk
+[2023-07-11 14:34:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pact-python
+[2023-07-11 14:34:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cPredictor
+[2023-07-11 14:34:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: moonlight
+[2023-07-11 14:34:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cryptoadvance.specter
+[2023-07-11 14:34:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cmsis-stream
+[2023-07-11 14:34:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-stock-reserve-rule
+[2023-07-11 14:34:22] INFO root fetch - processPackages [uatg]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-07-11 14:34:22] INFO root fetch - processPackages [openepd]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-07-11 14:34:22] INFO root fetch - processPackages [cPredictor]: New version: [0.2.0] Old Version: [0.1.3]
+[2023-07-11 14:34:22] INFO root fetch - processPackages [one-sdk]: New version: [1.0.0b1] Old Version: [1.0.0b0]
+[2023-07-11 14:34:22] INFO root fetch - processPackages [cmsis-stream]: New version: [1.5.0] Old Version: [1.4.0]
+[2023-07-11 14:34:22] WARNING root fetch - processPackages [odoo-addon-stock-reserve-rule]: Skipping, unable to determine old version
+[2023-07-11 14:34:22] INFO root fetch - processPackages [odoo-addon-stock-reserve-rule]: Start processing: pymispwarninglists
+[2023-07-11 14:34:22] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-reserve-rule] error
+[2023-07-11 14:34:22] INFO root fetch - processPackages [moonlight]: New version: [0.2.1b1] Old Version: [0.0.9]
+[2023-07-11 14:34:22] INFO root fetch - processPackages [cryptoadvance.specter]: New version: [2.0.2rc4] Old Version: [2.0.2rc3]
+[2023-07-11 14:34:22] WARNING root fetch - processPackages [odoo14-addon-contract-split]: Skipping, unable to determine old version
+[2023-07-11 14:34:22] INFO root fetch - processPackages [pact-python]: New version: [2.0.0] Old Version: [1.7.0]
+[2023-07-11 14:34:22] INFO root fetch - processPackages [odoo14-addon-contract-split]: Start processing: nornir-easy-netmiko
+[2023-07-11 14:34:22] INFO root fetch - main [MainThread]: End processing [odoo14-addon-contract-split] error
+[2023-07-11 14:34:22] INFO root fetch - processPackages [pymispwarninglists]: New version: [1.5] Old Version: [1.4]
+[2023-07-11 14:34:22] INFO root fetch - processPackages [openepd]: Downloading https://files.pythonhosted.org/packages/bd/55/12e33e58caea9f6afbebd5920044ce47a2a1036208d761b9504265ff79b4/openepd-0.8.1.tar.gz
+[2023-07-11 14:34:22] WARNING root fetch - processPackages [nornir-easy-netmiko]: Skipping, unable to determine old version
+[2023-07-11 14:34:22] INFO root fetch - processPackages [nornir-easy-netmiko]: Start processing: shell-whiz
+[2023-07-11 14:34:22] INFO root fetch - main [MainThread]: End processing [nornir-easy-netmiko] error
+[2023-07-11 14:34:22] INFO root fetch - processPackages [shell-whiz]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-11 14:34:22] INFO root fetch - processPackages [uatg]: Downloading https://files.pythonhosted.org/packages/58/bd/2f44dbcc589d5f195c0c29fa50b81538b79204cf6332e86d42b4ba677603/uatg-1.8.0.tar.gz
+[2023-07-11 14:34:22] INFO root fetch - processPackages [one-sdk]: Downloading https://files.pythonhosted.org/packages/f2/03/4853a4b32fa5b59238df78d835bd93919d28b5eb800bf405b95477f84e80/one-sdk-1.0.0b0.tar.gz
+[2023-07-11 14:34:22] INFO root fetch - processPackages [cmsis-stream]: Downloading https://files.pythonhosted.org/packages/69/8e/47c12fd1a5cdd04fc40395f2f98193867587031d284c2f4d1341a71961bb/cmsis_stream-1.4.0-py3-none-any.whl
+[2023-07-11 14:34:22] INFO root fetch - processPackages [pact-python]: Downloading https://files.pythonhosted.org/packages/bf/39/d26fb4bd37412abdf87d4885648e74330e8d3942c4bf01d687a0984a9de6/pact-python-1.7.0.tar.gz
+[2023-07-11 14:34:22] INFO root fetch - processPackages [moonlight]: Downloading https://files.pythonhosted.org/packages/cc/3e/133031fd20d06bd266c70180f53911c95ebbe317daf8e9fe263f57fa0a20/moonlight-0.0.9.tar.gz
+[2023-07-11 14:34:22] INFO root fetch - processPackages [cPredictor]: Downloading https://files.pythonhosted.org/packages/32/62/b2146a1948f8a360e3c17516dc733768d80f217a90c9bd762a2ecf5e1876/cPredictor-0.1.3-py3-none-any.whl
+[2023-07-11 14:34:22] INFO root fetch - processPackages [pymispwarninglists]: Downloading https://files.pythonhosted.org/packages/e2/48/e2b661f8485af02e2d7c054980325e64805417b6bfd09902356846acff60/pymispwarninglists-1.4.tar.gz
+[2023-07-11 14:34:23] WARNING root fetch - processPackages [pact-python]: Skipping package: exceeds size limit 29352456>=10485760
+[2023-07-11 14:34:23] INFO root fetch - processPackages [pact-python]: Start processing: wizata-dsapi
+[2023-07-11 14:34:23] INFO root fetch - main [MainThread]: End processing [pact-python] error
+[2023-07-11 14:34:23] INFO root fetch - processPackages [cryptoadvance.specter]: Downloading https://files.pythonhosted.org/packages/db/7b/d5c4a422fecfbb1c51167c73f96c11108a0420b5a658c4f65eefca2f690e/cryptoadvance.specter-2.0.2rc3.tar.gz
+[2023-07-11 14:34:23] INFO root fetch - processPackages [shell-whiz]: Downloading https://files.pythonhosted.org/packages/17/16/6e001bfef62473cc882af14529748697b9bcf513cb06ea186effcd28805e/shell_whiz-0.1.0.tar.gz
+[2023-07-11 14:34:23] WARNING root fetch - processPackages [cryptoadvance.specter]: Skipping package: exceeds size limit 13662253>=10485760
+[2023-07-11 14:34:23] INFO root fetch - processPackages [cryptoadvance.specter]: Start processing: quickstart-vdk
+[2023-07-11 14:34:23] INFO root fetch - main [MainThread]: End processing [cryptoadvance.specter] error
+[2023-07-11 14:34:23] INFO root fetch - processPackages [wizata-dsapi]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-07-11 14:34:23] WARNING root fetch - processPackages [pymispwarninglists]: Skipping package: exceeds size limit 11985683>=10485760
+[2023-07-11 14:34:23] INFO root fetch - processPackages [pymispwarninglists]: Start processing: pixano
+[2023-07-11 14:34:23] INFO root fetch - main [MainThread]: End processing [pymispwarninglists] error
+[2023-07-11 14:34:23] INFO root fetch - processPackages [quickstart-vdk]: New version: [0.2.927572457.dev12204] Old Version: [0.2.927063221.dev12187]
+[2023-07-11 14:34:23] INFO root fetch - processPackages [pixano]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-11 14:34:23] INFO root fetch - processPackages [uatg]: Downloading https://files.pythonhosted.org/packages/61/c3/da23e56af6bd0b80b4d248a9c2be841eb754ccca36e93458a17dea2f5b31/uatg-1.9.0.tar.gz
+[2023-07-11 14:34:23] INFO root fetch - processPackages [openepd]: Downloading https://files.pythonhosted.org/packages/b3/6b/8bab32a2cf0b8a740a76c5043fa333b2690ecf08c1de5115bd0f0c84f9cb/openepd-0.9.0.tar.gz
+[2023-07-11 14:34:23] INFO root fetch - processPackages [wizata-dsapi]: Downloading https://files.pythonhosted.org/packages/74/1b/056e7d94787cec33765a22069537fcbaa7434c5651b0b4ed261d0bb3569f/wizata-dsapi-0.2.7.tar.gz
+[2023-07-11 14:34:23] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/5f/8f/38d805f5442683504c3a8a07ea8be8b94cebfd7dda289825e964ced496c4/quickstart-vdk-0.2.927063221.dev12187.tar.gz
+[2023-07-11 14:34:23] INFO root fetch - processPackages [cPredictor]: Downloading https://files.pythonhosted.org/packages/84/f3/f5accbe174c75247fbd84ba42194fdee306dab9f99451433e61f5974ae98/cPredictor-0.2.0-py3-none-any.whl
+[2023-07-11 14:34:23] INFO root fetch - processPackages [cmsis-stream]: Downloading https://files.pythonhosted.org/packages/31/a8/2206f797167583d319bb0920780d94f556a4fa567cc1b919696e08f4442d/cmsis_stream-1.5.0-py3-none-any.whl
+[2023-07-11 14:34:23] INFO root fetch - processPackages [one-sdk]: Downloading https://files.pythonhosted.org/packages/91/c5/93a863e06318dd34965c990279be831bdb2fb0448215842181bdca0ffbd1/one-sdk-1.0.0b1.tar.gz
+[2023-07-11 14:34:23] INFO root fetch - processPackages [uatg]: executing diffoscope
+[2023-07-11 14:34:23] INFO root fetch - processPackages [uatg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uatg-1.8.0.tar.gz tmp/uatg-1.9.0.tar.gz --markdown 20230711/u/uatg/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-07-11 14:34:23] INFO root fetch - processPackages [shell-whiz]: Downloading https://files.pythonhosted.org/packages/b1/09/000213991240747d22b47fd1b27fd0f28f48167f970f2e174831bb3e31e2/shell_whiz-0.1.1.tar.gz
+[2023-07-11 14:34:23] INFO root fetch - processPackages [moonlight]: Downloading https://files.pythonhosted.org/packages/75/d1/f92625cf34dfaeee7c546bd04c75be1ba44335c8abcae7a7adb9068ff181/moonlight-0.2.1b1.tar.gz
+[2023-07-11 14:34:23] INFO root fetch - processPackages [pixano]: Downloading https://files.pythonhosted.org/packages/32/d4/1c19c128a726d4f23dd612e9d9fcc8b739888c04f033067ba011cf50d948/pixano-0.3.1.tar.gz
+[2023-07-11 14:34:23] INFO root fetch - processPackages [openepd]: executing diffoscope
+[2023-07-11 14:34:23] INFO root fetch - processPackages [openepd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openepd-0.8.1.tar.gz tmp/openepd-0.9.0.tar.gz --markdown 20230711/o/openepd/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-07-11 14:34:23] INFO root fetch - processPackages [cPredictor]: executing diffoscope
+[2023-07-11 14:34:23] INFO root fetch - processPackages [cPredictor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cPredictor-0.1.3-py3-none-any.whl.zip tmp/cPredictor-0.2.0-py3-none-any.whl.zip --markdown 20230711/c/cPredictor/0.1.3-0.2.0/diff.md --exclude *.pyd
+[2023-07-11 14:34:23] INFO root fetch - processPackages [cmsis-stream]: executing diffoscope
+[2023-07-11 14:34:23] INFO root fetch - processPackages [cmsis-stream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmsis_stream-1.4.0-py3-none-any.whl.zip tmp/cmsis_stream-1.5.0-py3-none-any.whl.zip --markdown 20230711/c/cmsis-stream/1.4.0-1.5.0/diff.md --exclude *.pyd
+[2023-07-11 14:34:23] INFO root fetch - processPackages [shell-whiz]: executing diffoscope
+[2023-07-11 14:34:23] INFO root fetch - processPackages [shell-whiz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shell_whiz-0.1.0.tar.gz tmp/shell_whiz-0.1.1.tar.gz --markdown 20230711/s/shell-whiz/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-11 14:34:23] WARNING root fetch - processPackages [moonlight]: Skipping package: exceeds size limit 24655025>=10485760
+[2023-07-11 14:34:23] INFO root fetch - processPackages [moonlight]: Start processing: agixt
+[2023-07-11 14:34:23] INFO root fetch - main [MainThread]: End processing [moonlight] error
+[2023-07-11 14:34:23] INFO root fetch - processPackages [one-sdk]: executing diffoscope
+[2023-07-11 14:34:23] INFO root fetch - processPackages [one-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/one-sdk-1.0.0b0.tar.gz tmp/one-sdk-1.0.0b1.tar.gz --markdown 20230711/o/one-sdk/1.0.0b0-1.0.0b1/diff.md --exclude *.pyd
+[2023-07-11 14:34:24] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/16/95/d2a5c0ac9121d5c6ef94cd8976a13902ceed807b142336abe5ee05bb6341/quickstart-vdk-0.2.927572457.dev12204.tar.gz
+[2023-07-11 14:34:24] INFO root fetch - processPackages [wizata-dsapi]: Downloading https://files.pythonhosted.org/packages/f4/04/42339e03644a3f77745377e93f0285d9ab9df3b519985af95662517306d2/wizata-dsapi-0.2.8.tar.gz
+[2023-07-11 14:34:24] INFO root fetch - processPackages [agixt]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-07-11 14:34:24] INFO root fetch - processPackages [agixt]: Downloading https://files.pythonhosted.org/packages/9b/11/abab4d9f1ba0cda023b8a8f3683cf10face70f19995cd228ece61cde00d0/agixt-1.3.8.tar.gz
+[2023-07-11 14:34:24] INFO root fetch - processPackages [pixano]: Downloading https://files.pythonhosted.org/packages/44/86/e05468b0679cb3538c4c834dd940ff93e1feeaebfd8a9f49f31d4977cad2/pixano-0.3.2.tar.gz
+[2023-07-11 14:34:24] INFO root fetch - processPackages [quickstart-vdk]: executing diffoscope
+[2023-07-11 14:34:24] INFO root fetch - processPackages [quickstart-vdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickstart-vdk-0.2.927063221.dev12187.tar.gz tmp/quickstart-vdk-0.2.927572457.dev12204.tar.gz --markdown 20230711/q/quickstart-vdk/0.2.927063221.dev12187-0.2.927572457.dev12204/diff.md --exclude *.pyd
+[2023-07-11 14:34:24] INFO root fetch - processPackages [wizata-dsapi]: executing diffoscope
+[2023-07-11 14:34:24] INFO root fetch - processPackages [wizata-dsapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wizata-dsapi-0.2.7.tar.gz tmp/wizata-dsapi-0.2.8.tar.gz --markdown 20230711/w/wizata-dsapi/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-07-11 14:34:24] INFO root fetch - processPackages [agixt]: Downloading https://files.pythonhosted.org/packages/0f/92/cb9f740c60a0e8bc877dff4b237b465b3144035abfefc80d41fb7c1e5603/agixt-1.3.9.tar.gz
+[2023-07-11 14:34:24] INFO root fetch - processPackages [pixano]: executing diffoscope
+[2023-07-11 14:34:24] INFO root fetch - processPackages [pixano]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pixano-0.3.1.tar.gz tmp/pixano-0.3.2.tar.gz --markdown 20230711/p/pixano/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-11 14:34:24] INFO root fetch - processPackages [agixt]: executing diffoscope
+[2023-07-11 14:34:24] INFO root fetch - processPackages [agixt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agixt-1.3.8.tar.gz tmp/agixt-1.3.9.tar.gz --markdown 20230711/a/agixt/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-07-11 14:34:25] INFO root fetch - processPackages [uatg]: Remove: archive file [/home/abi/fetcher/tmp/uatg-1.8.0.tar.gz]
+[2023-07-11 14:34:25] INFO root fetch - processPackages [uatg]: Remove: archive file [/home/abi/fetcher/tmp/uatg-1.9.0.tar.gz]
+[2023-07-11 14:34:25] INFO root fetch - processPackages [uatg]: Start processing: feaASTools
+[2023-07-11 14:34:25] INFO root fetch - main [MainThread]: End processing [uatg]: success
+[2023-07-11 14:34:25] INFO root fetch - processPackages [feaASTools]: New version: [0.2.2] Old Version: [0.0.0]
+[2023-07-11 14:34:25] INFO root fetch - processPackages [cPredictor]: Remove: archive file [/home/abi/fetcher/tmp/cPredictor-0.1.3-py3-none-any.whl.zip]
+[2023-07-11 14:34:25] INFO root fetch - processPackages [cPredictor]: Remove: archive file [/home/abi/fetcher/tmp/cPredictor-0.2.0-py3-none-any.whl.zip]
+[2023-07-11 14:34:25] INFO root fetch - processPackages [cPredictor]: Start processing: odoo-addon-mrp-production-quant-manual-assign
+[2023-07-11 14:34:25] INFO root fetch - main [MainThread]: End processing [cPredictor]: success
+[2023-07-11 14:34:25] INFO root fetch - processPackages [feaASTools]: Downloading https://files.pythonhosted.org/packages/9d/8e/f0934d329013045087e6a3b9449f52d634e724f66270562cc329e90642bd/feaASTools-0.0.0.tar.gz
+[2023-07-11 14:34:25] INFO root fetch - processPackages [odoo-addon-mrp-production-quant-manual-assign]: New version: [16.0.1.0.0.7] Old Version: [16.0.1.0.0.5]
+[2023-07-11 14:34:26] INFO root fetch - processPackages [odoo-addon-mrp-production-quant-manual-assign]: Downloading https://files.pythonhosted.org/packages/ef/68/2c34f1719a12321c44beee3f811b8ecd5d2545e17846304f3da1f72ccbe3/odoo_addon_mrp_production_quant_manual_assign-16.0.1.0.0.5-py3-none-any.whl
+[2023-07-11 14:34:26] INFO root fetch - processPackages [openepd]: Remove: archive file [/home/abi/fetcher/tmp/openepd-0.8.1.tar.gz]
+[2023-07-11 14:34:26] INFO root fetch - processPackages [openepd]: Remove: archive file [/home/abi/fetcher/tmp/openepd-0.9.0.tar.gz]
+[2023-07-11 14:34:26] INFO root fetch - processPackages [openepd]: Start processing: pandas-indexing
+[2023-07-11 14:34:26] INFO root fetch - main [MainThread]: End processing [openepd]: success
+[2023-07-11 14:34:26] INFO root fetch - processPackages [shell-whiz]: Remove: archive file [/home/abi/fetcher/tmp/shell_whiz-0.1.0.tar.gz]
+[2023-07-11 14:34:26] INFO root fetch - processPackages [shell-whiz]: Remove: archive file [/home/abi/fetcher/tmp/shell_whiz-0.1.1.tar.gz]
+[2023-07-11 14:34:26] INFO root fetch - main [MainThread]: End processing [shell-whiz]: success
+[2023-07-11 14:34:26] INFO root fetch - processPackages [feaASTools]: Downloading https://files.pythonhosted.org/packages/8a/85/391b6cecc7f1e30d59cc596638b7e35c504218158f933308dc65f316a7fb/feaASTools-0.2.2.tar.gz
+[2023-07-11 14:34:26] INFO root fetch - processPackages [pandas-indexing]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-11 14:34:26] INFO root fetch - processPackages [odoo-addon-mrp-production-quant-manual-assign]: Downloading https://files.pythonhosted.org/packages/bb/d2/041a7b9736ccae1e0601d38db7198b3b1e5a5f3f8f9b5e0948e89ee397a6/odoo_addon_mrp_production_quant_manual_assign-16.0.1.0.0.7-py3-none-any.whl
+[2023-07-11 14:34:26] INFO root fetch - processPackages [feaASTools]: executing diffoscope
+[2023-07-11 14:34:26] INFO root fetch - processPackages [feaASTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feaASTools-0.0.0.tar.gz tmp/feaASTools-0.2.2.tar.gz --markdown 20230711/f/feaASTools/0.0.0-0.2.2/diff.md --exclude *.pyd
+[2023-07-11 14:34:26] INFO root fetch - processPackages [pandas-indexing]: Downloading https://files.pythonhosted.org/packages/1a/b2/0cc4a6200d2e41b5b9ab5d82a8b1b59f81d995a697fb2732db8130cc10ee/pandas-indexing-0.2.8.tar.gz
+[2023-07-11 14:34:26] INFO root fetch - processPackages [odoo-addon-mrp-production-quant-manual-assign]: executing diffoscope
+[2023-07-11 14:34:26] INFO root fetch - processPackages [odoo-addon-mrp-production-quant-manual-assign]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mrp_production_quant_manual_assign-16.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_mrp_production_quant_manual_assign-16.0.1.0.0.7-py3-none-any.whl.zip --markdown 20230711/o/odoo-addon-mrp-production-quant-manual-assign/16.0.1.0.0.5-16.0.1.0.0.7/diff.md --exclude *.pyd
+[2023-07-11 14:34:27] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.927063221.dev12187.tar.gz]
+[2023-07-11 14:34:27] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.927572457.dev12204.tar.gz]
+[2023-07-11 14:34:27] INFO root fetch - main [MainThread]: End processing [quickstart-vdk]: success
+[2023-07-11 14:34:27] INFO root fetch - processPackages [pandas-indexing]: Downloading https://files.pythonhosted.org/packages/d9/f5/84f569382537af34b038eeb650f92ead8bf4d93c9a4c11945d7321c5ac66/pandas-indexing-0.2.9.tar.gz
+[2023-07-11 14:34:27] INFO root fetch - processPackages [pandas-indexing]: executing diffoscope
+[2023-07-11 14:34:27] INFO root fetch - processPackages [pandas-indexing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandas-indexing-0.2.8.tar.gz tmp/pandas-indexing-0.2.9.tar.gz --markdown 20230711/p/pandas-indexing/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-11 14:34:27] INFO root fetch - processPackages [wizata-dsapi]: Remove: archive file [/home/abi/fetcher/tmp/wizata-dsapi-0.2.7.tar.gz]
+[2023-07-11 14:34:27] INFO root fetch - processPackages [wizata-dsapi]: Remove: archive file [/home/abi/fetcher/tmp/wizata-dsapi-0.2.8.tar.gz]
+[2023-07-11 14:34:27] INFO root fetch - main [MainThread]: End processing [wizata-dsapi]: success
+[2023-07-11 14:34:27] INFO root fetch - processPackages [cmsis-stream]: Remove: archive file [/home/abi/fetcher/tmp/cmsis_stream-1.4.0-py3-none-any.whl.zip]
+[2023-07-11 14:34:27] INFO root fetch - processPackages [cmsis-stream]: Remove: archive file [/home/abi/fetcher/tmp/cmsis_stream-1.5.0-py3-none-any.whl.zip]
+[2023-07-11 14:34:27] INFO root fetch - main [MainThread]: End processing [cmsis-stream]: success
+[2023-07-11 14:34:28] INFO root fetch - processPackages [agixt]: Remove: archive file [/home/abi/fetcher/tmp/agixt-1.3.8.tar.gz]
+[2023-07-11 14:34:28] INFO root fetch - processPackages [agixt]: Remove: archive file [/home/abi/fetcher/tmp/agixt-1.3.9.tar.gz]
+[2023-07-11 14:34:28] INFO root fetch - main [MainThread]: End processing [agixt]: success
+[2023-07-11 14:34:28] INFO root fetch - processPackages [feaASTools]: Remove: archive file [/home/abi/fetcher/tmp/feaASTools-0.0.0.tar.gz]
+[2023-07-11 14:34:28] INFO root fetch - processPackages [feaASTools]: Remove: archive file [/home/abi/fetcher/tmp/feaASTools-0.2.2.tar.gz]
+[2023-07-11 14:34:28] INFO root fetch - main [MainThread]: End processing [feaASTools]: success
+[2023-07-11 14:34:29] INFO root fetch - processPackages [odoo-addon-mrp-production-quant-manual-assign]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mrp_production_quant_manual_assign-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2023-07-11 14:34:29] INFO root fetch - processPackages [odoo-addon-mrp-production-quant-manual-assign]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mrp_production_quant_manual_assign-16.0.1.0.0.7-py3-none-any.whl.zip]
+[2023-07-11 14:34:29] INFO root fetch - main [MainThread]: End processing [odoo-addon-mrp-production-quant-manual-assign]: success
+[2023-07-11 14:34:33] INFO root fetch - processPackages [one-sdk]: Remove: archive file [/home/abi/fetcher/tmp/one-sdk-1.0.0b0.tar.gz]
+[2023-07-11 14:34:33] INFO root fetch - processPackages [one-sdk]: Remove: archive file [/home/abi/fetcher/tmp/one-sdk-1.0.0b1.tar.gz]
+[2023-07-11 14:34:33] INFO root fetch - main [MainThread]: End processing [one-sdk]: success
+[2023-07-11 14:34:44] INFO root fetch - processPackages [pixano]: Remove: archive file [/home/abi/fetcher/tmp/pixano-0.3.1.tar.gz]
+[2023-07-11 14:34:44] INFO root fetch - processPackages [pixano]: Remove: archive file [/home/abi/fetcher/tmp/pixano-0.3.2.tar.gz]
+[2023-07-11 14:34:44] INFO root fetch - main [MainThread]: End processing [pixano]: success
+[2023-07-11 14:34:54] INFO root fetch - processPackages [pandas-indexing]: Remove: archive file [/home/abi/fetcher/tmp/pandas-indexing-0.2.8.tar.gz]
+[2023-07-11 14:34:54] INFO root fetch - processPackages [pandas-indexing]: Remove: archive file [/home/abi/fetcher/tmp/pandas-indexing-0.2.9.tar.gz]
+[2023-07-11 14:34:54] INFO root fetch - main [MainThread]: End processing [pandas-indexing]: success
+[2023-07-11 14:34:54] INFO root fetch - main [MainThread]: Store serial: [18845314]
