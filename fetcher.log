@@ -23568,3 +23568,96 @@ EOFError: EOF read where object expected
 [2023-07-11 16:38:40] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-38.2.2.tar.gz]
 [2023-07-11 16:38:40] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2023-07-11 16:38:40] INFO root fetch - main [MainThread]: Store serial: [18846775]
+[2023-07-11 16:43:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18846775]
+[2023-07-11 16:43:51] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-11 16:43:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: potato-annotation
+[2023-07-11 16:43:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: configdict
+[2023-07-11 16:43:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lfinancial
+[2023-07-11 16:43:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: snapstream
+[2023-07-11 16:43:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: certora-cli-alpha-master
+[2023-07-11 16:43:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tag-version
+[2023-07-11 16:43:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: DQR-Data
+[2023-07-11 16:43:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: oceanograpy
+[2023-07-11 16:43:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kpops
+[2023-07-11 16:43:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: whyPrint
+[2023-07-11 16:43:51] INFO root fetch - processPackages [lfinancial]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-07-11 16:43:51] INFO root fetch - processPackages [configdict]: New version: [2.8.2] Old Version: [2.8.1]
+[2023-07-11 16:43:51] INFO root fetch - processPackages [snapstream]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-11 16:43:51] INFO root fetch - processPackages [tag-version]: New version: [0.1.3rc1] Old Version: [0.1.2]
+[2023-07-11 16:43:51] INFO root fetch - processPackages [oceanograpy]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-11 16:43:51] INFO root fetch - processPackages [potato-annotation]: New version: [1.2.0.9] Old Version: [1.2.0.8]
+[2023-07-11 16:43:51] INFO root fetch - processPackages [kpops]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-07-11 16:43:51] INFO root fetch - processPackages [DQR-Data]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-11 16:43:51] WARNING root fetch - processPackages [whyPrint]: Skipping, unable to determine old version
+[2023-07-11 16:43:51] INFO root fetch - processPackages [whyPrint]: Start processing: DQR-Data
+[2023-07-11 16:43:51] INFO root fetch - main [MainThread]: End processing [whyPrint] error
+[2023-07-11 16:43:51] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230711.14.40.932744] Old Version: [20230711.10.2.772916]
+[2023-07-11 16:43:51] INFO root fetch - processPackages [lfinancial]: Downloading https://files.pythonhosted.org/packages/e3/6c/ae6e388d8ef6565c8830eee99d59b73bcb04cc6dad9adbc2bca706452f13/lfinancial-0.2.7.tar.gz
+[2023-07-11 16:43:51] INFO root fetch - processPackages [DQR-Data]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-11 16:43:51] INFO root fetch - processPackages [configdict]: Downloading https://files.pythonhosted.org/packages/c4/52/493e8bf714c9be387ac15675220cc0f2449fab9d5b4f8f1c3cea9b618ec7/configdict-2.8.1-py3-none-any.whl
+[2023-07-11 16:43:51] INFO root fetch - processPackages [tag-version]: Downloading https://files.pythonhosted.org/packages/a8/bd/ced759e6fdc8da17ded5dee6954419943fa2f69586f81210eb34e64b04d1/tag-version-0.1.2.tar.gz
+[2023-07-11 16:43:51] INFO root fetch - processPackages [potato-annotation]: Downloading https://files.pythonhosted.org/packages/97/11/7b938befc793f6c05a732849dfb983a399f427fd5dd70339b2cbc3dff92b/potato-annotation-1.2.0.8.tar.gz
+[2023-07-11 16:43:52] INFO root fetch - processPackages [kpops]: Downloading https://files.pythonhosted.org/packages/1e/c3/71b0533f06cd0aa6d07349b3bfbe1ce8de94a380970365f62940ed911ce3/kpops-1.3.0.tar.gz
+[2023-07-11 16:43:52] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/49/e7/1707a9b723dcd9d29b86a1eab33a4ea93d19071b98771c1f682b4dcf9602/certora-cli-alpha-master-20230711.10.2.772916.tar.gz
+[2023-07-11 16:43:52] INFO root fetch - processPackages [DQR-Data]: Downloading https://files.pythonhosted.org/packages/af/2f/9c41040af297846c177892a7b3f618409c349f2dfffd8aefe282623cfeea/DQR_Data-0.1.2.tar.gz
+[2023-07-11 16:43:52] INFO root fetch - processPackages [DQR-Data]: Downloading https://files.pythonhosted.org/packages/af/2f/9c41040af297846c177892a7b3f618409c349f2dfffd8aefe282623cfeea/DQR_Data-0.1.2.tar.gz
+[2023-07-11 16:43:52] INFO root fetch - processPackages [oceanograpy]: Downloading https://files.pythonhosted.org/packages/fe/ae/9fb7f6b13bc0bd3bf060ef8870f3b112fabf3be18ad4e901a31dc7e98c17/oceanograpy-0.0.3.tar.gz
+[2023-07-11 16:43:52] INFO root fetch - processPackages [snapstream]: Downloading https://files.pythonhosted.org/packages/0b/33/453d621c0bb5e36d422ff13afe939add3e209f70972a3fcf9e18a333cfaa/snapstream-0.0.7.tar.gz
+[2023-07-11 16:43:52] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 37464597>=10485760
+[2023-07-11 16:43:52] INFO root fetch - processPackages [certora-cli-alpha-master]: Start processing: aliste
+[2023-07-11 16:43:52] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-07-11 16:43:52] INFO root fetch - processPackages [lfinancial]: Downloading https://files.pythonhosted.org/packages/2b/d1/4175f1070a822900820ac79a3866576a49a63ff3a7864a419cfa3a37c457/lfinancial-0.2.8.tar.gz
+[2023-07-11 16:43:52] WARNING root fetch - processPackages [aliste]: Skipping, unable to determine old version
+[2023-07-11 16:43:52] INFO root fetch - main [MainThread]: End processing [aliste] error
+[2023-07-11 16:43:52] INFO root fetch - processPackages [configdict]: Downloading https://files.pythonhosted.org/packages/4a/aa/44d5147f31d7115aedd422b4f3c004293ca17e81c82a518043f531d0b544/configdict-2.8.2-py3-none-any.whl
+[2023-07-11 16:43:52] INFO root fetch - processPackages [tag-version]: Downloading https://files.pythonhosted.org/packages/78/b2/bba23c4adbfc15102d2334eff8b3c9725cc6e1a42ef54f9e90910c17d2bc/tag-version-0.1.3rc1.tar.gz
+[2023-07-11 16:43:52] INFO root fetch - processPackages [lfinancial]: executing diffoscope
+[2023-07-11 16:43:52] INFO root fetch - processPackages [lfinancial]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lfinancial-0.2.7.tar.gz tmp/lfinancial-0.2.8.tar.gz --markdown 20230711/l/lfinancial/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-07-11 16:43:52] INFO root fetch - processPackages [configdict]: executing diffoscope
+[2023-07-11 16:43:52] INFO root fetch - processPackages [configdict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/configdict-2.8.1-py3-none-any.whl.zip tmp/configdict-2.8.2-py3-none-any.whl.zip --markdown 20230711/c/configdict/2.8.1-2.8.2/diff.md --exclude *.pyd
+[2023-07-11 16:43:52] INFO root fetch - processPackages [DQR-Data]: Downloading https://files.pythonhosted.org/packages/c2/5f/0bfb25e9fc3688d394fc21d0035d2fc713c4bd046cf3fceceb8c8947381a/DQR_Data-0.1.3.tar.gz
+[2023-07-11 16:43:52] INFO root fetch - processPackages [DQR-Data]: Downloading https://files.pythonhosted.org/packages/c2/5f/0bfb25e9fc3688d394fc21d0035d2fc713c4bd046cf3fceceb8c8947381a/DQR_Data-0.1.3.tar.gz
+[2023-07-11 16:43:52] INFO root fetch - processPackages [kpops]: Downloading https://files.pythonhosted.org/packages/b4/1d/72334a2f38e18ae0fa1cf42a71a01130541e3624f148fa70fc296b32cdca/kpops-1.3.1.tar.gz
+[2023-07-11 16:43:52] INFO root fetch - processPackages [potato-annotation]: Downloading https://files.pythonhosted.org/packages/9d/d7/657ca751047cfdbe61f3eb4d71e0f6516d6f57ec0b107ab14280493f8c9a/potato-annotation-1.2.0.9.tar.gz
+[2023-07-11 16:43:52] INFO root fetch - processPackages [oceanograpy]: Downloading https://files.pythonhosted.org/packages/a5/f5/5a0db20f6a049a839d166bae62d711ff9240eee8f951d0eab7e50b0f4353/oceanograpy-0.0.4.tar.gz
+[2023-07-11 16:43:52] INFO root fetch - processPackages [snapstream]: Downloading https://files.pythonhosted.org/packages/53/df/9dc1f5a2fffeefa16a9283e9c926c459aa0e77db7620a5e374d07d8bd42c/snapstream-0.0.8.tar.gz
+[2023-07-11 16:43:52] INFO root fetch - processPackages [tag-version]: executing diffoscope
+[2023-07-11 16:43:52] INFO root fetch - processPackages [tag-version]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tag-version-0.1.2.tar.gz tmp/tag-version-0.1.3rc1.tar.gz --markdown 20230711/t/tag-version/0.1.2-0.1.3rc1/diff.md --exclude *.pyd
+[2023-07-11 16:43:52] INFO root fetch - processPackages [snapstream]: executing diffoscope
+[2023-07-11 16:43:52] INFO root fetch - processPackages [oceanograpy]: executing diffoscope
+[2023-07-11 16:43:52] INFO root fetch - processPackages [snapstream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snapstream-0.0.7.tar.gz tmp/snapstream-0.0.8.tar.gz --markdown 20230711/s/snapstream/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-11 16:43:52] INFO root fetch - processPackages [oceanograpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oceanograpy-0.0.3.tar.gz tmp/oceanograpy-0.0.4.tar.gz --markdown 20230711/o/oceanograpy/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-11 16:43:52] INFO root fetch - processPackages [DQR-Data]: executing diffoscope
+[2023-07-11 16:43:52] INFO root fetch - processPackages [DQR-Data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DQR_Data-0.1.2.tar.gz tmp/DQR_Data-0.1.3.tar.gz --markdown 20230711/D/DQR-Data/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-11 16:43:52] INFO root fetch - processPackages [DQR-Data]: executing diffoscope
+[2023-07-11 16:43:52] INFO root fetch - processPackages [DQR-Data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DQR_Data-0.1.2.tar.gz tmp/DQR_Data-0.1.3.tar.gz --markdown 20230711/D/DQR-Data/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-11 16:43:52] INFO root fetch - processPackages [kpops]: executing diffoscope
+[2023-07-11 16:43:52] INFO root fetch - processPackages [kpops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kpops-1.3.0.tar.gz tmp/kpops-1.3.1.tar.gz --markdown 20230711/k/kpops/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-07-11 16:43:52] INFO root fetch - processPackages [potato-annotation]: executing diffoscope
+[2023-07-11 16:43:52] INFO root fetch - processPackages [potato-annotation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/potato-annotation-1.2.0.8.tar.gz tmp/potato-annotation-1.2.0.9.tar.gz --markdown 20230711/p/potato-annotation/1.2.0.8-1.2.0.9/diff.md --exclude *.pyd
+[2023-07-11 16:43:53] INFO root fetch - processPackages [configdict]: Remove: archive file [/home/abi/fetcher/tmp/configdict-2.8.1-py3-none-any.whl.zip]
+[2023-07-11 16:43:53] INFO root fetch - processPackages [configdict]: Remove: archive file [/home/abi/fetcher/tmp/configdict-2.8.2-py3-none-any.whl.zip]
+[2023-07-11 16:43:53] INFO root fetch - main [MainThread]: End processing [configdict]: success
+[2023-07-11 16:43:53] INFO root fetch - processPackages [lfinancial]: Remove: archive file [/home/abi/fetcher/tmp/lfinancial-0.2.7.tar.gz]
+[2023-07-11 16:43:53] INFO root fetch - processPackages [lfinancial]: Remove: archive file [/home/abi/fetcher/tmp/lfinancial-0.2.8.tar.gz]
+[2023-07-11 16:43:53] INFO root fetch - main [MainThread]: End processing [lfinancial]: success
+[2023-07-11 16:43:54] INFO root fetch - processPackages [DQR-Data]: Remove: archive file [/home/abi/fetcher/tmp/DQR_Data-0.1.2.tar.gz]
+[2023-07-11 16:43:54] INFO root fetch - processPackages [DQR-Data]: Remove: archive file [/home/abi/fetcher/tmp/DQR_Data-0.1.3.tar.gz]
+[2023-07-11 16:43:54] INFO root fetch - main [MainThread]: End processing [DQR-Data]: success
+[2023-07-11 16:43:54] INFO root fetch - processPackages [tag-version]: Remove: archive file [/home/abi/fetcher/tmp/tag-version-0.1.2.tar.gz]
+[2023-07-11 16:43:54] INFO root fetch - processPackages [tag-version]: Remove: archive file [/home/abi/fetcher/tmp/tag-version-0.1.3rc1.tar.gz]
+[2023-07-11 16:43:54] INFO root fetch - main [MainThread]: End processing [tag-version]: success
+[2023-07-11 16:43:54] INFO root fetch - processPackages [snapstream]: Remove: archive file [/home/abi/fetcher/tmp/snapstream-0.0.7.tar.gz]
+[2023-07-11 16:43:54] INFO root fetch - processPackages [snapstream]: Remove: archive file [/home/abi/fetcher/tmp/snapstream-0.0.8.tar.gz]
+[2023-07-11 16:43:54] INFO root fetch - main [MainThread]: End processing [snapstream]: success
+[2023-07-11 16:43:54] INFO root fetch - processPackages [oceanograpy]: Remove: archive file [/home/abi/fetcher/tmp/oceanograpy-0.0.3.tar.gz]
+[2023-07-11 16:43:54] INFO root fetch - processPackages [oceanograpy]: Remove: archive file [/home/abi/fetcher/tmp/oceanograpy-0.0.4.tar.gz]
+[2023-07-11 16:43:54] INFO root fetch - main [MainThread]: End processing [oceanograpy]: success
+[2023-07-11 16:43:54] INFO root fetch - main [MainThread]: End processing [DQR-Data]: success
+[2023-07-11 16:43:54] INFO root fetch - processPackages [kpops]: Remove: archive file [/home/abi/fetcher/tmp/kpops-1.3.0.tar.gz]
+[2023-07-11 16:43:54] INFO root fetch - processPackages [kpops]: Remove: archive file [/home/abi/fetcher/tmp/kpops-1.3.1.tar.gz]
+[2023-07-11 16:43:54] INFO root fetch - main [MainThread]: End processing [kpops]: success
+[2023-07-11 16:43:54] INFO root fetch - processPackages [potato-annotation]: Remove: archive file [/home/abi/fetcher/tmp/potato-annotation-1.2.0.8.tar.gz]
+[2023-07-11 16:43:54] INFO root fetch - processPackages [potato-annotation]: Remove: archive file [/home/abi/fetcher/tmp/potato-annotation-1.2.0.9.tar.gz]
+[2023-07-11 16:43:54] INFO root fetch - main [MainThread]: End processing [potato-annotation]: success
+[2023-07-11 16:43:54] INFO root fetch - main [MainThread]: Store serial: [18846826]
