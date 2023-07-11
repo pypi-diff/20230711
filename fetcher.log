@@ -9763,3 +9763,51 @@ AssertionError: tmp/doctran-0.0.6.tar.gz does not exist
 [2023-07-11 06:48:16] INFO root fetch - processPackages [deepchem]: Remove: archive file [/home/abi/fetcher/tmp/deepchem-2.7.2.dev20230711044341.tar.gz]
 [2023-07-11 06:48:16] INFO root fetch - main [MainThread]: End processing [deepchem]: success
 [2023-07-11 06:48:16] INFO root fetch - main [MainThread]: Store serial: [18840928]
+[2023-07-11 06:53:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18840928]
+[2023-07-11 06:53:25] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-11 06:53:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo8-addon-base-report-to-printer
+[2023-07-11 06:53:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: peelml
+[2023-07-11 06:53:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: atmos-rng
+[2023-07-11 06:53:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nonebot-plugin-stable-diffusion-diao
+[2023-07-11 06:53:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bittensor-wallet
+[2023-07-11 06:53:25] INFO root fetch - processPackages [peelml]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-11 06:53:25] INFO root fetch - processPackages [bittensor-wallet]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-11 06:53:25] INFO root fetch - processPackages [odoo8-addon-base-report-to-printer]: New version: [8.0.0.2.0.99.dev9] Old Version: [8.0.0.2.0.99.dev8]
+[2023-07-11 06:53:25] INFO root fetch - processPackages [atmos-rng]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-11 06:53:25] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-11 06:53:25] INFO root fetch - processPackages [peelml]: Downloading https://files.pythonhosted.org/packages/67/5f/13b4669b98d118d14b48474fc039cdefa43ae8500eddc91805ff289f92bb/peelml-0.0.2.tar.gz
+[2023-07-11 06:53:25] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Downloading https://files.pythonhosted.org/packages/3f/19/114ac59e3eae4a4cac916f5602118381e89ed4a71f21700a4fd634e382cb/nonebot_plugin_stable_diffusion_diao-0.3.1.tar.gz
+[2023-07-11 06:53:26] INFO root fetch - processPackages [odoo8-addon-base-report-to-printer]: Downloading https://files.pythonhosted.org/packages/b3/b0/8ed14a1c476ca6ccbd8a57ad20f1a87dea3b493838ee5e5b79eeffcaa978/odoo8_addon_base_report_to_printer-8.0.0.2.0.99.dev8-py2-none-any.whl
+[2023-07-11 06:53:26] INFO root fetch - processPackages [atmos-rng]: Downloading https://files.pythonhosted.org/packages/4e/2d/cb6a4a816b8e4a7edf70ebf546cacc2ccf000ec3baeafad97af42dfbcab3/atmos-rng-1.0.0.tar.gz
+[2023-07-11 06:53:26] INFO root fetch - processPackages [bittensor-wallet]: Downloading https://files.pythonhosted.org/packages/c9/76/2efdf965e6e4a1c15f39e1a66e276dd54ecff58c73a32355be7a6a9a2223/bittensor-wallet-0.0.2.tar.gz
+[2023-07-11 06:53:26] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Downloading https://files.pythonhosted.org/packages/fe/95/b0bd8ce3740c5846b281f5325d01027fa5d5041b0702cfcfa6345ca17bf1/nonebot_plugin_stable_diffusion_diao-0.3.2.tar.gz
+[2023-07-11 06:53:26] INFO root fetch - processPackages [atmos-rng]: Downloading https://files.pythonhosted.org/packages/93/e3/33f673eec3103462155d9913be23956dd96be4f7815b55d8f5541c25eb3e/atmos-rng-1.0.1.tar.gz
+[2023-07-11 06:53:26] INFO root fetch - processPackages [peelml]: Downloading https://files.pythonhosted.org/packages/00/5d/7b7b6ce9753c97bdf9ce44160b640ba083a1813af3a4cfca2e1bcc27e4fe/peelml-0.0.3.tar.gz
+[2023-07-11 06:53:26] INFO root fetch - processPackages [bittensor-wallet]: Downloading https://files.pythonhosted.org/packages/bf/56/88179d26f21931e69c81368411de4b479c0aaefbb0386190503af318f243/bittensor-wallet-0.0.3.tar.gz
+[2023-07-11 06:53:26] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: executing diffoscope
+[2023-07-11 06:53:26] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_stable_diffusion_diao-0.3.1.tar.gz tmp/nonebot_plugin_stable_diffusion_diao-0.3.2.tar.gz --markdown 20230711/n/nonebot-plugin-stable-diffusion-diao/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-11 06:53:26] INFO root fetch - processPackages [atmos-rng]: executing diffoscope
+[2023-07-11 06:53:26] INFO root fetch - processPackages [atmos-rng]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atmos-rng-1.0.0.tar.gz tmp/atmos-rng-1.0.1.tar.gz --markdown 20230711/a/atmos-rng/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-11 06:53:26] INFO root fetch - processPackages [odoo8-addon-base-report-to-printer]: Downloading https://files.pythonhosted.org/packages/8f/5f/0cf72f300d607a4d6277f364f9a3224e6f0a496ad092fbc45be91b9f0bda/odoo8_addon_base_report_to_printer-8.0.0.2.0.99.dev9-py2-none-any.whl
+[2023-07-11 06:53:26] INFO root fetch - processPackages [bittensor-wallet]: executing diffoscope
+[2023-07-11 06:53:26] INFO root fetch - processPackages [bittensor-wallet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bittensor-wallet-0.0.2.tar.gz tmp/bittensor-wallet-0.0.3.tar.gz --markdown 20230711/b/bittensor-wallet/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-11 06:53:26] INFO root fetch - processPackages [peelml]: executing diffoscope
+[2023-07-11 06:53:26] INFO root fetch - processPackages [peelml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peelml-0.0.2.tar.gz tmp/peelml-0.0.3.tar.gz --markdown 20230711/p/peelml/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-11 06:53:26] INFO root fetch - processPackages [odoo8-addon-base-report-to-printer]: executing diffoscope
+[2023-07-11 06:53:26] INFO root fetch - processPackages [odoo8-addon-base-report-to-printer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_base_report_to_printer-8.0.0.2.0.99.dev8-py2-none-any.whl.zip tmp/odoo8_addon_base_report_to_printer-8.0.0.2.0.99.dev9-py2-none-any.whl.zip --markdown 20230711/o/odoo8-addon-base-report-to-printer/8.0.0.2.0.99.dev8-8.0.0.2.0.99.dev9/diff.md --exclude *.pyd
+[2023-07-11 06:53:27] INFO root fetch - processPackages [atmos-rng]: Remove: archive file [/home/abi/fetcher/tmp/atmos-rng-1.0.0.tar.gz]
+[2023-07-11 06:53:27] INFO root fetch - processPackages [atmos-rng]: Remove: archive file [/home/abi/fetcher/tmp/atmos-rng-1.0.1.tar.gz]
+[2023-07-11 06:53:27] INFO root fetch - main [MainThread]: End processing [atmos-rng]: success
+[2023-07-11 06:53:27] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_stable_diffusion_diao-0.3.1.tar.gz]
+[2023-07-11 06:53:27] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_stable_diffusion_diao-0.3.2.tar.gz]
+[2023-07-11 06:53:27] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-stable-diffusion-diao]: success
+[2023-07-11 06:53:27] INFO root fetch - processPackages [bittensor-wallet]: Remove: archive file [/home/abi/fetcher/tmp/bittensor-wallet-0.0.2.tar.gz]
+[2023-07-11 06:53:27] INFO root fetch - processPackages [bittensor-wallet]: Remove: archive file [/home/abi/fetcher/tmp/bittensor-wallet-0.0.3.tar.gz]
+[2023-07-11 06:53:27] INFO root fetch - main [MainThread]: End processing [bittensor-wallet]: success
+[2023-07-11 06:53:27] INFO root fetch - processPackages [odoo8-addon-base-report-to-printer]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_base_report_to_printer-8.0.0.2.0.99.dev8-py2-none-any.whl.zip]
+[2023-07-11 06:53:27] INFO root fetch - processPackages [odoo8-addon-base-report-to-printer]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_base_report_to_printer-8.0.0.2.0.99.dev9-py2-none-any.whl.zip]
+[2023-07-11 06:53:27] INFO root fetch - main [MainThread]: End processing [odoo8-addon-base-report-to-printer]: success
+[2023-07-11 06:53:28] INFO root fetch - processPackages [peelml]: Remove: archive file [/home/abi/fetcher/tmp/peelml-0.0.2.tar.gz]
+[2023-07-11 06:53:28] INFO root fetch - processPackages [peelml]: Remove: archive file [/home/abi/fetcher/tmp/peelml-0.0.3.tar.gz]
+[2023-07-11 06:53:28] INFO root fetch - main [MainThread]: End processing [peelml]: success
+[2023-07-11 06:53:28] INFO root fetch - main [MainThread]: Store serial: [18840943]
