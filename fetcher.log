@@ -13836,3 +13836,163 @@ AssertionError: tmp/doctran-0.0.6.tar.gz does not exist
 [2023-07-11 10:46:01] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
 [2023-07-11 10:46:01] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
 [2023-07-11 10:46:01] INFO root fetch - main [MainThread]: Store serial: [18842610]
+[2023-07-11 10:51:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18842610]
+[2023-07-11 10:51:12] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-07-11 10:51:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: volworld-aws-api-common
+[2023-07-11 10:51:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rin-string-manip
+[2023-07-11 10:51:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wcferry
+[2023-07-11 10:51:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyproject-installer
+[2023-07-11 10:51:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: SPACEL
+[2023-07-11 10:51:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: volworld-aws-api-common
+[2023-07-11 10:51:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pinject-design
+[2023-07-11 10:51:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bowtie-json-schema
+[2023-07-11 10:51:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: remotivelabs-cli
+[2023-07-11 10:51:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ecallisto-ng
+[2023-07-11 10:51:12] INFO root fetch - processPackages [bowtie-json-schema]: New version: [2023.7.7] Old Version: [2023.7.6]
+[2023-07-11 10:51:12] INFO root fetch - processPackages [volworld-aws-api-common]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-11 10:51:12] INFO root fetch - processPackages [wcferry]: New version: [39.0.0.0a1] Old Version: [39.0.0.0a0]
+[2023-07-11 10:51:12] WARNING root fetch - processPackages [rin-string-manip]: Skipping, unable to determine old version
+[2023-07-11 10:51:12] INFO root fetch - processPackages [rin-string-manip]: Start processing: hcs-cli
+[2023-07-11 10:51:12] INFO root fetch - main [MainThread]: End processing [rin-string-manip] error
+[2023-07-11 10:51:12] INFO root fetch - processPackages [pyproject-installer]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-07-11 10:51:12] INFO root fetch - processPackages [ecallisto-ng]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-11 10:51:12] INFO root fetch - processPackages [volworld-aws-api-common]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-11 10:51:12] INFO root fetch - processPackages [pinject-design]: New version: [0.1.9] Old Version: [0.1.85]
+[2023-07-11 10:51:12] INFO root fetch - processPackages [SPACEL]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-07-11 10:51:12] INFO root fetch - processPackages [remotivelabs-cli]: New version: [0.0.1a9] Old Version: [0.0.1a8]
+[2023-07-11 10:51:13] INFO root fetch - processPackages [hcs-cli]: New version: [0.1.44] Old Version: [0.1.43]
+[2023-07-11 10:51:13] INFO root fetch - processPackages [ecallisto-ng]: Downloading https://files.pythonhosted.org/packages/c3/ae/f97216612ec64bb3d4c9800e452111e944360a45f5b4a672686406903fff/ecallisto_ng-0.0.6.tar.gz
+[2023-07-11 10:51:13] INFO root fetch - processPackages [wcferry]: Downloading https://files.pythonhosted.org/packages/65/62/3a36b8f4f0276224355621865985e6930f9c714fab93ec86a81ce0fcecf3/wcferry-39.0.0.0a0.tar.gz
+[2023-07-11 10:51:13] INFO root fetch - processPackages [volworld-aws-api-common]: Downloading https://files.pythonhosted.org/packages/c7/82/7aefcc55e9d34309e43a1c4f62f535a10cbf84c23f14b0b54efb88505de6/volworld_aws_api_common-0.1.98.tar.gz
+[2023-07-11 10:51:13] INFO root fetch - processPackages [volworld-aws-api-common]: Downloading https://files.pythonhosted.org/packages/c7/82/7aefcc55e9d34309e43a1c4f62f535a10cbf84c23f14b0b54efb88505de6/volworld_aws_api_common-0.1.98.tar.gz
+[2023-07-11 10:51:13] INFO root fetch - processPackages [bowtie-json-schema]: Downloading https://files.pythonhosted.org/packages/83/6e/e8051074fb621317324ceb039d1bba8675f5f47b8f7eb0e87a90147ab0e5/bowtie_json_schema-2023.7.6.tar.gz
+[2023-07-11 10:51:13] INFO root fetch - processPackages [SPACEL]: Downloading https://files.pythonhosted.org/packages/4f/5b/2faf4a1d3a3dc5b0fa4646b23a754132c2747d167a00e6faa7bd36e8ac35/SPACEL-1.0.1.tar.gz
+[2023-07-11 10:51:13] INFO root fetch - processPackages [hcs-cli]: Downloading https://files.pythonhosted.org/packages/c8/e0/576bcfd95b162ba66ff7d9c07c49d20017be2e672e3ef371901f64dab316/hcs-cli-0.1.43.tar.gz
+[2023-07-11 10:51:13] INFO root fetch - processPackages [remotivelabs-cli]: Downloading https://files.pythonhosted.org/packages/9e/af/b85d4ab12b3ff8b26eeb84f5748bf68a170ccb0483ce464fbc14dfacaa8e/remotivelabs_cli-0.0.1a8.tar.gz
+[2023-07-11 10:51:13] INFO root fetch - processPackages [pinject-design]: Downloading https://files.pythonhosted.org/packages/d5/a2/24b2275895f68f8b90ba2f5691b5953d3fc24b5af7773581288b20c61761/pinject_design-0.1.85.tar.gz
+[2023-07-11 10:51:13] INFO root fetch - processPackages [pyproject-installer]: Downloading https://files.pythonhosted.org/packages/3a/b6/ceed8d57cb16ae6977df841dda0d2aa0d71170706153f64619da5b7134cd/pyproject_installer-0.5.1.tar.gz
+[2023-07-11 10:51:13] INFO root fetch - processPackages [ecallisto-ng]: Downloading https://files.pythonhosted.org/packages/bb/cb/ed633b9f31997d7526363eece53c4166990bf829716f41549e0c638da7e8/ecallisto_ng-0.0.7.tar.gz
+[2023-07-11 10:51:13] INFO root fetch - processPackages [SPACEL]: Downloading https://files.pythonhosted.org/packages/62/54/ff38ce611234c0f8b41ea5657539340cd702dceb35ce87b867524ed3cedc/SPACEL-1.1.0.tar.gz
+[2023-07-11 10:51:13] INFO root fetch - processPackages [volworld-aws-api-common]: Downloading https://files.pythonhosted.org/packages/85/c0/0151fa36df35a94f04ec24e70e3a88eb186696b9f9258ee1d18d894c66d6/volworld_aws_api_common-0.1.99.tar.gz
+[2023-07-11 10:51:13] INFO root fetch - processPackages [volworld-aws-api-common]: Downloading https://files.pythonhosted.org/packages/85/c0/0151fa36df35a94f04ec24e70e3a88eb186696b9f9258ee1d18d894c66d6/volworld_aws_api_common-0.1.99.tar.gz
+[2023-07-11 10:51:13] INFO root fetch - processPackages [hcs-cli]: Downloading https://files.pythonhosted.org/packages/7e/0b/133576c4a88eb242b441a696db028aa8f83b06bc1b7d549e1b7b2dc77336/hcs-cli-0.1.44.tar.gz
+[2023-07-11 10:51:13] INFO root fetch - processPackages [remotivelabs-cli]: Downloading https://files.pythonhosted.org/packages/6e/ec/8b4e17df12c5a2d39a005264591da395be8eae3517772654316d89e40301/remotivelabs_cli-0.0.1a9.tar.gz
+[2023-07-11 10:51:13] INFO root fetch - processPackages [wcferry]: Downloading https://files.pythonhosted.org/packages/b9/c6/320661585469b994f11188937083c320d2d81d17f0f4d2169425dd9727ec/wcferry-39.0.0.0a1.tar.gz
+[2023-07-11 10:51:13] INFO root fetch - processPackages [pyproject-installer]: Downloading https://files.pythonhosted.org/packages/9a/86/811ee7528e9ab6225f2bc26a58dcf91bf89bb7348b735aeec558cff356bf/pyproject_installer-0.5.2.tar.gz
+[2023-07-11 10:51:13] INFO root fetch - processPackages [pinject-design]: Downloading https://files.pythonhosted.org/packages/52/12/a13d2115034630043d98ad1bf73e273115201ee763cd0fd21c61df995b87/pinject-design-0.1.9.tar.gz
+[2023-07-11 10:51:13] INFO root fetch - processPackages [bowtie-json-schema]: Downloading https://files.pythonhosted.org/packages/0a/31/f1d895398a4ee26167a3f21f52f6fcdb35b42ce01b8de36265b308df6b47/bowtie_json_schema-2023.7.7.tar.gz
+[2023-07-11 10:51:13] INFO root fetch - processPackages [volworld-aws-api-common]: executing diffoscope
+[2023-07-11 10:51:13] INFO root fetch - processPackages [volworld-aws-api-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volworld_aws_api_common-0.1.98.tar.gz tmp/volworld_aws_api_common-0.1.99.tar.gz --markdown 20230711/v/volworld-aws-api-common/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-11 10:51:13] INFO root fetch - processPackages [volworld-aws-api-common]: executing diffoscope
+[2023-07-11 10:51:13] INFO root fetch - processPackages [volworld-aws-api-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volworld_aws_api_common-0.1.98.tar.gz tmp/volworld_aws_api_common-0.1.99.tar.gz --markdown 20230711/v/volworld-aws-api-common/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-11 10:51:14] INFO root fetch - processPackages [ecallisto-ng]: executing diffoscope
+[2023-07-11 10:51:14] INFO root fetch - processPackages [remotivelabs-cli]: executing diffoscope
+[2023-07-11 10:51:14] INFO root fetch - processPackages [ecallisto-ng]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecallisto_ng-0.0.6.tar.gz tmp/ecallisto_ng-0.0.7.tar.gz --markdown 20230711/e/ecallisto-ng/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-11 10:51:14] INFO root fetch - processPackages [remotivelabs-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remotivelabs_cli-0.0.1a8.tar.gz tmp/remotivelabs_cli-0.0.1a9.tar.gz --markdown 20230711/r/remotivelabs-cli/0.0.1a8-0.0.1a9/diff.md --exclude *.pyd
+[2023-07-11 10:51:14] INFO root fetch - processPackages [SPACEL]: executing diffoscope
+[2023-07-11 10:51:14] INFO root fetch - processPackages [SPACEL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SPACEL-1.0.1.tar.gz tmp/SPACEL-1.1.0.tar.gz --markdown 20230711/S/SPACEL/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-07-11 10:51:14] INFO root fetch - processPackages [hcs-cli]: executing diffoscope
+[2023-07-11 10:51:14] INFO root fetch - processPackages [hcs-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcs-cli-0.1.43.tar.gz tmp/hcs-cli-0.1.44.tar.gz --markdown 20230711/h/hcs-cli/0.1.43-0.1.44/diff.md --exclude *.pyd
+[2023-07-11 10:51:14] INFO root fetch - processPackages [pinject-design]: executing diffoscope
+[2023-07-11 10:51:14] INFO root fetch - processPackages [pinject-design]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pinject_design-0.1.85.tar.gz tmp/pinject-design-0.1.9.tar.gz --markdown 20230711/p/pinject-design/0.1.85-0.1.9/diff.md --exclude *.pyd
+[2023-07-11 10:51:14] INFO root fetch - processPackages [wcferry]: executing diffoscope
+[2023-07-11 10:51:14] INFO root fetch - processPackages [wcferry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wcferry-39.0.0.0a0.tar.gz tmp/wcferry-39.0.0.0a1.tar.gz --markdown 20230711/w/wcferry/39.0.0.0a0-39.0.0.0a1/diff.md --exclude *.pyd
+[2023-07-11 10:51:14] INFO root fetch - processPackages [pyproject-installer]: executing diffoscope
+[2023-07-11 10:51:14] INFO root fetch - processPackages [pyproject-installer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyproject_installer-0.5.1.tar.gz tmp/pyproject_installer-0.5.2.tar.gz --markdown 20230711/p/pyproject-installer/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-07-11 10:51:14] INFO root fetch - processPackages [bowtie-json-schema]: executing diffoscope
+[2023-07-11 10:51:14] INFO root fetch - processPackages [bowtie-json-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bowtie_json_schema-2023.7.6.tar.gz tmp/bowtie_json_schema-2023.7.7.tar.gz --markdown 20230711/b/bowtie-json-schema/2023.7.6-2023.7.7/diff.md --exclude *.pyd
+[2023-07-11 10:51:15] INFO root fetch - processPackages [volworld-aws-api-common]: Remove: archive file [/home/abi/fetcher/tmp/volworld_aws_api_common-0.1.98.tar.gz]
+[2023-07-11 10:51:15] INFO root fetch - processPackages [volworld-aws-api-common]: Remove: archive file [/home/abi/fetcher/tmp/volworld_aws_api_common-0.1.99.tar.gz]
+[2023-07-11 10:51:15] INFO root fetch - processPackages [volworld-aws-api-common]: Start processing: streamlit-antd-components
+[2023-07-11 10:51:15] INFO root fetch - main [MainThread]: End processing [volworld-aws-api-common]: success
+[2023-07-11 10:51:15] INFO root fetch - processPackages [volworld-aws-api-common]: Start processing: streamlit-nightly
+[2023-07-11 10:51:15] INFO root fetch - main [MainThread]: End processing [volworld-aws-api-common]: success
+[2023-07-11 10:51:15] INFO root fetch - processPackages [streamlit-antd-components]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-11 10:51:15] INFO root fetch - processPackages [ecallisto-ng]: Remove: archive file [/home/abi/fetcher/tmp/ecallisto_ng-0.0.6.tar.gz]
+[2023-07-11 10:51:15] INFO root fetch - processPackages [ecallisto-ng]: Remove: archive file [/home/abi/fetcher/tmp/ecallisto_ng-0.0.7.tar.gz]
+[2023-07-11 10:51:15] INFO root fetch - processPackages [ecallisto-ng]: Start processing: tf-nightly
+[2023-07-11 10:51:15] INFO root fetch - main [MainThread]: End processing [ecallisto-ng]: success
+[2023-07-11 10:51:15] INFO root fetch - processPackages [streamlit-nightly]: New version: [1.9.3.dev20220601] Old Version: [1.9.3.dev20220531]
+[2023-07-11 10:51:15] INFO root fetch - processPackages [pinject-design]: Remove: archive file [/home/abi/fetcher/tmp/pinject_design-0.1.85.tar.gz]
+[2023-07-11 10:51:15] INFO root fetch - processPackages [pinject-design]: Remove: archive file [/home/abi/fetcher/tmp/pinject-design-0.1.9.tar.gz]
+[2023-07-11 10:51:15] INFO root fetch - processPackages [pinject-design]: Start processing: TheSilent
+[2023-07-11 10:51:15] INFO root fetch - main [MainThread]: End processing [pinject-design]: success
+[2023-07-11 10:51:15] INFO root fetch - processPackages [streamlit-antd-components]: Downloading https://files.pythonhosted.org/packages/fe/69/18d307662a9ba20ea60a0a40729dc8dbf08998feda0b1be9390d9fc8e0ea/streamlit_antd_components-0.1.7-py3-none-any.whl
+[2023-07-11 10:51:15] INFO root fetch - processPackages [remotivelabs-cli]: Remove: archive file [/home/abi/fetcher/tmp/remotivelabs_cli-0.0.1a8.tar.gz]
+[2023-07-11 10:51:15] INFO root fetch - processPackages [remotivelabs-cli]: Remove: archive file [/home/abi/fetcher/tmp/remotivelabs_cli-0.0.1a9.tar.gz]
+[2023-07-11 10:51:15] INFO root fetch - processPackages [remotivelabs-cli]: Start processing: zbxtool-cfomp
+[2023-07-11 10:51:15] INFO root fetch - main [MainThread]: End processing [remotivelabs-cli]: success
+[2023-07-11 10:51:15] INFO root fetch - processPackages [TheSilent]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-11 10:51:15] INFO root fetch - processPackages [tf-nightly]: New version: [2.14.0.dev20230711] Old Version: [2.14.0.dev20230710]
+[2023-07-11 10:51:15] INFO root fetch - processPackages [zbxtool-cfomp]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-11 10:51:15] INFO root fetch - processPackages [SPACEL]: Remove: archive file [/home/abi/fetcher/tmp/SPACEL-1.0.1.tar.gz]
+[2023-07-11 10:51:15] INFO root fetch - processPackages [SPACEL]: Remove: archive file [/home/abi/fetcher/tmp/SPACEL-1.1.0.tar.gz]
+[2023-07-11 10:51:15] INFO root fetch - processPackages [SPACEL]: Start processing: astropitography
+[2023-07-11 10:51:15] INFO root fetch - main [MainThread]: End processing [SPACEL]: success
+[2023-07-11 10:51:15] INFO root fetch - processPackages [wcferry]: Remove: archive file [/home/abi/fetcher/tmp/wcferry-39.0.0.0a0.tar.gz]
+[2023-07-11 10:51:15] INFO root fetch - processPackages [wcferry]: Remove: archive file [/home/abi/fetcher/tmp/wcferry-39.0.0.0a1.tar.gz]
+[2023-07-11 10:51:15] INFO root fetch - processPackages [wcferry]: Start processing: jinja2-jsonschema
+[2023-07-11 10:51:15] INFO root fetch - main [MainThread]: End processing [wcferry]: success
+[2023-07-11 10:51:15] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/ad/09/2a1f42483bf3fbc17417489cf4f3d6ec17c5c763e219aa02ad1827f29dc1/TheSilent-0.0.98.tar.gz
+[2023-07-11 10:51:16] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/bb/77/73ca36b159a0852f16710c30eca243772d04e8d37c1497e26e837ebad465/streamlit-nightly-1.9.3.dev20220531.tar.gz
+[2023-07-11 10:51:16] WARNING root fetch - processPackages [astropitography]: Skipping, unable to determine old version
+[2023-07-11 10:51:16] INFO root fetch - processPackages [astropitography]: Start processing: tigerblog
+[2023-07-11 10:51:16] INFO root fetch - main [MainThread]: End processing [astropitography] error
+[2023-07-11 10:51:16] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/ef/07/997bb91d2cd480fafddea18ff80b86d663fd9bab7fe63905314a08be5a14/tf_nightly-2.14.0.dev20230710-cp39-cp39-win_amd64.whl
+[2023-07-11 10:51:16] INFO root fetch - processPackages [jinja2-jsonschema]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-11 10:51:16] INFO root fetch - processPackages [tigerblog]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-11 10:51:16] INFO root fetch - processPackages [bowtie-json-schema]: Remove: archive file [/home/abi/fetcher/tmp/bowtie_json_schema-2023.7.6.tar.gz]
+[2023-07-11 10:51:16] INFO root fetch - processPackages [bowtie-json-schema]: Remove: archive file [/home/abi/fetcher/tmp/bowtie_json_schema-2023.7.7.tar.gz]
+[2023-07-11 10:51:16] INFO root fetch - processPackages [bowtie-json-schema]: Start processing: CausalDisco
+[2023-07-11 10:51:16] INFO root fetch - main [MainThread]: End processing [bowtie-json-schema]: success
+[2023-07-11 10:51:16] INFO root fetch - processPackages [pyproject-installer]: Remove: archive file [/home/abi/fetcher/tmp/pyproject_installer-0.5.1.tar.gz]
+[2023-07-11 10:51:16] INFO root fetch - processPackages [pyproject-installer]: Remove: archive file [/home/abi/fetcher/tmp/pyproject_installer-0.5.2.tar.gz]
+[2023-07-11 10:51:16] INFO root fetch - main [MainThread]: End processing [pyproject-installer]: success
+[2023-07-11 10:51:16] INFO root fetch - processPackages [zbxtool-cfomp]: Downloading https://files.pythonhosted.org/packages/a2/af/b197bd86cab21e82f9a9e5f3178e2cd10c9ed0caccddd151f0a722e203dd/zbxtool-cfomp-0.9.8.tar.gz
+[2023-07-11 10:51:16] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/38/21/9b42cfa55edd85cfd4fefba7fb94aab0891af2b6c90ef59e687a42228a0b/TheSilent-0.0.99.tar.gz
+[2023-07-11 10:51:16] WARNING root fetch - processPackages [CausalDisco]: Skipping, unable to determine old version
+[2023-07-11 10:51:16] INFO root fetch - main [MainThread]: End processing [CausalDisco] error
+[2023-07-11 10:51:16] INFO root fetch - processPackages [tigerblog]: Downloading https://files.pythonhosted.org/packages/b6/1f/99d7e75f9b78c86b5f90c83a64054f3b34b5ed82c7a78bf51fd86095cdba/tigerblog-0.1.8.tar.gz
+[2023-07-11 10:51:16] INFO root fetch - processPackages [jinja2-jsonschema]: Downloading https://files.pythonhosted.org/packages/f9/02/941022f440afa99ff2eeb5b73f5da2dc916832748cf3b17a426b374a9457/jinja2_jsonschema-0.2.0.tar.gz
+[2023-07-11 10:51:16] INFO root fetch - processPackages [TheSilent]: executing diffoscope
+[2023-07-11 10:51:16] INFO root fetch - processPackages [TheSilent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TheSilent-0.0.98.tar.gz tmp/TheSilent-0.0.99.tar.gz --markdown 20230711/T/TheSilent/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-11 10:51:16] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/75/69/8a2a3f8a2d117d6b4af78909dd2c3e8fc9bc346d62676eeca5dae1d04ac1/tf_nightly-2.14.0.dev20230711-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-11 10:51:16] INFO root fetch - processPackages [hcs-cli]: Remove: archive file [/home/abi/fetcher/tmp/hcs-cli-0.1.43.tar.gz]
+[2023-07-11 10:51:16] INFO root fetch - processPackages [hcs-cli]: Remove: archive file [/home/abi/fetcher/tmp/hcs-cli-0.1.44.tar.gz]
+[2023-07-11 10:51:16] INFO root fetch - main [MainThread]: End processing [hcs-cli]: success
+[2023-07-11 10:51:16] INFO root fetch - processPackages [streamlit-antd-components]: Downloading https://files.pythonhosted.org/packages/71/a4/69b2b5d35db7fea0b23623f5a3e30bf4d55ea7a3508199af446c0d2727ee/streamlit_antd_components-0.1.8-py3-none-any.whl
+[2023-07-11 10:51:16] WARNING root fetch - processPackages [tf-nightly]: Skipping package: exceeds size limit 490968710>=10485760
+[2023-07-11 10:51:16] INFO root fetch - main [MainThread]: End processing [tf-nightly] error
+[2023-07-11 10:51:16] INFO root fetch - processPackages [tigerblog]: Downloading https://files.pythonhosted.org/packages/23/0f/6a0fec4b0cafdb4c1a9f42e93a456ba31cc0b1f03240d001db6df1ee282d/tigerblog-0.1.9.tar.gz
+[2023-07-11 10:51:16] INFO root fetch - processPackages [zbxtool-cfomp]: Downloading https://files.pythonhosted.org/packages/d7/f7/5b055effe9c5650ac3ff3993bd9d1e2077b59cb55512af186bf0ed073c5c/zbxtool-cfomp-0.9.9.tar.gz
+[2023-07-11 10:51:16] INFO root fetch - processPackages [jinja2-jsonschema]: Downloading https://files.pythonhosted.org/packages/dd/2a/128c68717fc2e923a08885b7caa7ac2ce0e35df2f2c5c4bc93304ba258a6/jinja2_jsonschema-0.2.1.tar.gz
+[2023-07-11 10:51:16] INFO root fetch - processPackages [tigerblog]: executing diffoscope
+[2023-07-11 10:51:16] INFO root fetch - processPackages [tigerblog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tigerblog-0.1.8.tar.gz tmp/tigerblog-0.1.9.tar.gz --markdown 20230711/t/tigerblog/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-11 10:51:16] INFO root fetch - processPackages [zbxtool-cfomp]: executing diffoscope
+[2023-07-11 10:51:16] INFO root fetch - processPackages [zbxtool-cfomp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zbxtool-cfomp-0.9.8.tar.gz tmp/zbxtool-cfomp-0.9.9.tar.gz --markdown 20230711/z/zbxtool-cfomp/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-11 10:51:17] INFO root fetch - processPackages [streamlit-antd-components]: executing diffoscope
+[2023-07-11 10:51:17] INFO root fetch - processPackages [streamlit-antd-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit_antd_components-0.1.7-py3-none-any.whl.zip tmp/streamlit_antd_components-0.1.8-py3-none-any.whl.zip --markdown 20230711/s/streamlit-antd-components/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-11 10:51:17] INFO root fetch - processPackages [jinja2-jsonschema]: executing diffoscope
+[2023-07-11 10:51:17] INFO root fetch - processPackages [jinja2-jsonschema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jinja2_jsonschema-0.2.0.tar.gz tmp/jinja2_jsonschema-0.2.1.tar.gz --markdown 20230711/j/jinja2-jsonschema/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-11 10:51:17] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.98.tar.gz]
+[2023-07-11 10:51:17] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.99.tar.gz]
+[2023-07-11 10:51:17] INFO root fetch - main [MainThread]: End processing [TheSilent]: success
+[2023-07-11 10:51:17] INFO root fetch - processPackages [tigerblog]: Remove: archive file [/home/abi/fetcher/tmp/tigerblog-0.1.8.tar.gz]
+[2023-07-11 10:51:17] INFO root fetch - processPackages [tigerblog]: Remove: archive file [/home/abi/fetcher/tmp/tigerblog-0.1.9.tar.gz]
+[2023-07-11 10:51:17] INFO root fetch - main [MainThread]: End processing [tigerblog]: success
+[2023-07-11 10:51:17] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/3f/2a/57340e81e1d94e80229a3f8d9acc663cdad9ffd0ead21e2c20c76b879c18/streamlit-nightly-1.9.3.dev20220601.tar.gz
+[2023-07-11 10:51:17] INFO root fetch - processPackages [zbxtool-cfomp]: Remove: archive file [/home/abi/fetcher/tmp/zbxtool-cfomp-0.9.8.tar.gz]
+[2023-07-11 10:51:17] INFO root fetch - processPackages [zbxtool-cfomp]: Remove: archive file [/home/abi/fetcher/tmp/zbxtool-cfomp-0.9.9.tar.gz]
+[2023-07-11 10:51:17] INFO root fetch - main [MainThread]: End processing [zbxtool-cfomp]: success
+[2023-07-11 10:51:18] INFO root fetch - processPackages [jinja2-jsonschema]: Remove: archive file [/home/abi/fetcher/tmp/jinja2_jsonschema-0.2.0.tar.gz]
+[2023-07-11 10:51:18] INFO root fetch - processPackages [jinja2-jsonschema]: Remove: archive file [/home/abi/fetcher/tmp/jinja2_jsonschema-0.2.1.tar.gz]
+[2023-07-11 10:51:18] INFO root fetch - main [MainThread]: End processing [jinja2-jsonschema]: success
+[2023-07-11 10:51:18] INFO root fetch - processPackages [streamlit-antd-components]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_antd_components-0.1.7-py3-none-any.whl.zip]
+[2023-07-11 10:51:18] INFO root fetch - processPackages [streamlit-antd-components]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_antd_components-0.1.8-py3-none-any.whl.zip]
+[2023-07-11 10:51:18] INFO root fetch - main [MainThread]: End processing [streamlit-antd-components]: success
+[2023-07-11 10:51:18] INFO root fetch - processPackages [streamlit-nightly]: executing diffoscope
+[2023-07-11 10:51:18] INFO root fetch - processPackages [streamlit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-nightly-1.9.3.dev20220531.tar.gz tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz --markdown 20230711/s/streamlit-nightly/1.9.3.dev20220531-1.9.3.dev20220601/diff.md --exclude *.pyd
+[2023-07-11 10:51:27] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.9.3.dev20220531.tar.gz]
+[2023-07-11 10:51:27] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz]
+[2023-07-11 10:51:27] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
+[2023-07-11 10:51:27] INFO root fetch - main [MainThread]: Store serial: [18842682]
