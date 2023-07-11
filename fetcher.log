@@ -9966,3 +9966,105 @@ AssertionError: tmp/doctran-0.0.6.tar.gz does not exist
 [2023-07-11 07:03:52] INFO root fetch - processPackages [odoo14-addon-sale-product-set-packaging-qty]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_product_set_packaging_qty-14.0.1.1.1.dev4-py3-none-any.whl.zip]
 [2023-07-11 07:03:52] INFO root fetch - main [MainThread]: End processing [odoo14-addon-sale-product-set-packaging-qty]: success
 [2023-07-11 07:03:52] INFO root fetch - main [MainThread]: Store serial: [18840986]
+[2023-07-11 07:08:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18840986]
+[2023-07-11 07:09:02] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-11 07:09:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mercury-sync
+[2023-07-11 07:09:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: geemap
+[2023-07-11 07:09:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aioarp
+[2023-07-11 07:09:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rapid-pe
+[2023-07-11 07:09:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pydantic-collections
+[2023-07-11 07:09:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dask-cuda
+[2023-07-11 07:09:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ej2-streamlit-grids
+[2023-07-11 07:09:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo9-addon-module-prototyper
+[2023-07-11 07:09:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: otx
+[2023-07-11 07:09:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo8-addon-module-prototyper
+[2023-07-11 07:09:02] INFO root fetch - processPackages [aioarp]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-11 07:09:02] INFO root fetch - processPackages [pydantic-collections]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-07-11 07:09:02] INFO root fetch - processPackages [dask-cuda]: New version: [23.8.0a230711] Old Version: [23.8.0a230710]
+[2023-07-11 07:09:02] INFO root fetch - processPackages [otx]: New version: [1.4.0rc1] Old Version: [1.3.2rc1]
+[2023-07-11 07:09:02] INFO root fetch - processPackages [mercury-sync]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-11 07:09:02] INFO root fetch - processPackages [geemap]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-07-11 07:09:02] INFO root fetch - processPackages [rapid-pe]: New version: [0.1.1.dev20230711] Old Version: [0.1.1.dev20230710]
+[2023-07-11 07:09:02] INFO root fetch - processPackages [ej2-streamlit-grids]: New version: [22.1.34] Old Version: [1.0.0]
+[2023-07-11 07:09:02] INFO root fetch - processPackages [odoo9-addon-module-prototyper]: New version: [9.0.0.1.0.99.dev9] Old Version: [9.0.0.1.0.99.dev8]
+[2023-07-11 07:09:02] INFO root fetch - processPackages [otx]: Downloading https://files.pythonhosted.org/packages/8d/3f/5da28ed62fb87653b7489b3033b00f1a18093f189ce0d96de854d492aa85/otx-1.3.2rc1.tar.gz
+[2023-07-11 07:09:02] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/fc/14/1d39dd9235dabf96d76e4d75c33913925e7c2c8cf909562945deacb1a6c9/dask-cuda-23.8.0a230710.tar.gz
+[2023-07-11 07:09:02] INFO root fetch - processPackages [geemap]: Downloading https://files.pythonhosted.org/packages/21/6e/5898075af0a4f152ce0b4ef0db8767cefbddd5b8df12dd72816394caa45d/geemap-0.9.4.tar.gz
+[2023-07-11 07:09:02] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/2e/64/9311ab8727883b86283e65aa4382cf5ca9df5925768f35174b95e7375dfc/rapid_pe-0.1.1.dev20230710.tar.gz
+[2023-07-11 07:09:02] INFO root fetch - processPackages [odoo8-addon-module-prototyper]: New version: [8.0.0.3.0.99.dev50] Old Version: [8.0.0.3.0.99.dev49]
+[2023-07-11 07:09:02] INFO root fetch - processPackages [pydantic-collections]: Downloading https://files.pythonhosted.org/packages/fb/41/876a6baf493ab751958b9545e32fbed560f88c370d9f1d287ab7fd3fe7eb/pydantic-collections-0.4.0.tar.gz
+[2023-07-11 07:09:02] INFO root fetch - processPackages [aioarp]: Downloading https://files.pythonhosted.org/packages/34/27/9534d9ebcbe9e8e05c50858b881dff670d1f16ceab7289ef073d07d6525e/aioarp-0.0.8.tar.gz
+[2023-07-11 07:09:02] INFO root fetch - processPackages [mercury-sync]: Downloading https://files.pythonhosted.org/packages/46/e4/83ccbd4b046d0b6d3bb32fbb922e1c5589a7053e79b57e8af1b29cf92014/mercury-sync-0.3.8.tar.gz
+[2023-07-11 07:09:02] INFO root fetch - processPackages [ej2-streamlit-grids]: Downloading https://files.pythonhosted.org/packages/08/b7/63f6b131346170a25992e3d7717c07f8851a016851fc1362d60366c1f366/ej2_streamlit_grids-1.0.0.tar.gz
+[2023-07-11 07:09:02] INFO root fetch - processPackages [odoo9-addon-module-prototyper]: Downloading https://files.pythonhosted.org/packages/ad/e1/c409537aefb6c66bf02aa726ec17a290ac77da50f1a3ce6237780682c653/odoo9_addon_module_prototyper-9.0.0.1.0.99.dev8-py2-none-any.whl
+[2023-07-11 07:09:03] INFO root fetch - processPackages [odoo8-addon-module-prototyper]: Downloading https://files.pythonhosted.org/packages/16/87/878355f031c381688d97fdadd725dc26ff55cc678b958c7ea69d8c9c0289/odoo8_addon_module_prototyper-8.0.0.3.0.99.dev49-py2-none-any.whl
+[2023-07-11 07:09:03] INFO root fetch - processPackages [otx]: Downloading https://files.pythonhosted.org/packages/24/63/4d81d868ee3a245c5c9be8414ecf54ab41a4e09504113e610111844e98d8/otx-1.4.0rc1.tar.gz
+[2023-07-11 07:09:03] INFO root fetch - processPackages [geemap]: Downloading https://files.pythonhosted.org/packages/f3/0f/46be1c7fd40f4c083db73c113c1fe2026351af6892514fbe4303a371b938/geemap-0.9.5.tar.gz
+[2023-07-11 07:09:03] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/09/2f/4478ba3e88744f70bcca54e77c31ae318d42adf1089bab3c8a859792e74c/dask-cuda-23.8.0a230711.tar.gz
+[2023-07-11 07:09:03] INFO root fetch - processPackages [pydantic-collections]: Downloading https://files.pythonhosted.org/packages/3a/10/4beb18bb6c82194d9985b874aac32b537b21c8a661995208f834f7f53b22/pydantic-collections-0.4.1.tar.gz
+[2023-07-11 07:09:03] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/85/01/c86f02628dc3d625944458a1346bb6ab8035d46b71e56bbc8ac129597871/rapid_pe-0.1.1.dev20230711.tar.gz
+[2023-07-11 07:09:03] INFO root fetch - processPackages [mercury-sync]: Downloading https://files.pythonhosted.org/packages/52/5b/22b9f5a98c3db5cd9c110f77b7d9a30fd31021331f22b9c2b6c755ca5017/mercury-sync-0.3.9.tar.gz
+[2023-07-11 07:09:03] INFO root fetch - processPackages [otx]: executing diffoscope
+[2023-07-11 07:09:03] INFO root fetch - processPackages [otx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otx-1.3.2rc1.tar.gz tmp/otx-1.4.0rc1.tar.gz --markdown 20230711/o/otx/1.3.2rc1-1.4.0rc1/diff.md --exclude *.pyd
+[2023-07-11 07:09:03] INFO root fetch - processPackages [aioarp]: Downloading https://files.pythonhosted.org/packages/e7/48/e8a5213f1116e61ac7ec7cce505f2852ff81279e01aa9e5ce20cdca42cc9/aioarp-0.0.9.tar.gz
+[2023-07-11 07:09:03] INFO root fetch - processPackages [pydantic-collections]: executing diffoscope
+[2023-07-11 07:09:03] INFO root fetch - processPackages [pydantic-collections]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic-collections-0.4.0.tar.gz tmp/pydantic-collections-0.4.1.tar.gz --markdown 20230711/p/pydantic-collections/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-07-11 07:09:03] INFO root fetch - processPackages [dask-cuda]: executing diffoscope
+[2023-07-11 07:09:03] INFO root fetch - processPackages [dask-cuda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dask-cuda-23.8.0a230710.tar.gz tmp/dask-cuda-23.8.0a230711.tar.gz --markdown 20230711/d/dask-cuda/23.8.0a230710-23.8.0a230711/diff.md --exclude *.pyd
+[2023-07-11 07:09:03] INFO root fetch - processPackages [odoo9-addon-module-prototyper]: Downloading https://files.pythonhosted.org/packages/a4/7c/df8167150a003b3e8b930d41d59e0cdd252d3a519445919d763f59dc7f39/odoo9_addon_module_prototyper-9.0.0.1.0.99.dev9-py2-none-any.whl
+[2023-07-11 07:09:03] INFO root fetch - processPackages [mercury-sync]: executing diffoscope
+[2023-07-11 07:09:03] INFO root fetch - processPackages [mercury-sync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mercury-sync-0.3.8.tar.gz tmp/mercury-sync-0.3.9.tar.gz --markdown 20230711/m/mercury-sync/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-11 07:09:03] INFO root fetch - processPackages [odoo8-addon-module-prototyper]: Downloading https://files.pythonhosted.org/packages/41/55/c4a065ad7e7d4aae208a4afb38bc97ccc0ddfed63b2755b61fa8af6d38b6/odoo8_addon_module_prototyper-8.0.0.3.0.99.dev50-py2-none-any.whl
+[2023-07-11 07:09:03] INFO root fetch - processPackages [ej2-streamlit-grids]: Downloading https://files.pythonhosted.org/packages/89/f5/a4c4db6862bc366ae46b07d5c54f717a38edfe771caa8bdcb7ea289c5a1c/ej2_streamlit_grids-22.1.34.tar.gz
+[2023-07-11 07:09:03] INFO root fetch - processPackages [aioarp]: executing diffoscope
+[2023-07-11 07:09:03] INFO root fetch - processPackages [aioarp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioarp-0.0.8.tar.gz tmp/aioarp-0.0.9.tar.gz --markdown 20230711/a/aioarp/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-11 07:09:03] INFO root fetch - processPackages [rapid-pe]: executing diffoscope
+[2023-07-11 07:09:03] INFO root fetch - processPackages [rapid-pe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapid_pe-0.1.1.dev20230710.tar.gz tmp/rapid_pe-0.1.1.dev20230711.tar.gz --markdown 20230711/r/rapid-pe/0.1.1.dev20230710-0.1.1.dev20230711/diff.md --exclude *.pyd
+[2023-07-11 07:09:03] INFO root fetch - processPackages [odoo9-addon-module-prototyper]: executing diffoscope
+[2023-07-11 07:09:03] INFO root fetch - processPackages [odoo9-addon-module-prototyper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo9_addon_module_prototyper-9.0.0.1.0.99.dev8-py2-none-any.whl.zip tmp/odoo9_addon_module_prototyper-9.0.0.1.0.99.dev9-py2-none-any.whl.zip --markdown 20230711/o/odoo9-addon-module-prototyper/9.0.0.1.0.99.dev8-9.0.0.1.0.99.dev9/diff.md --exclude *.pyd
+[2023-07-11 07:09:03] INFO root fetch - processPackages [odoo8-addon-module-prototyper]: executing diffoscope
+[2023-07-11 07:09:03] INFO root fetch - processPackages [odoo8-addon-module-prototyper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_module_prototyper-8.0.0.3.0.99.dev49-py2-none-any.whl.zip tmp/odoo8_addon_module_prototyper-8.0.0.3.0.99.dev50-py2-none-any.whl.zip --markdown 20230711/o/odoo8-addon-module-prototyper/8.0.0.3.0.99.dev49-8.0.0.3.0.99.dev50/diff.md --exclude *.pyd
+[2023-07-11 07:09:04] INFO root fetch - processPackages [geemap]: executing diffoscope
+[2023-07-11 07:09:04] INFO root fetch - processPackages [geemap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geemap-0.9.4.tar.gz tmp/geemap-0.9.5.tar.gz --markdown 20230711/g/geemap/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-07-11 07:09:04] INFO root fetch - processPackages [ej2-streamlit-grids]: executing diffoscope
+[2023-07-11 07:09:04] INFO root fetch - processPackages [ej2-streamlit-grids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ej2_streamlit_grids-1.0.0.tar.gz tmp/ej2_streamlit_grids-22.1.34.tar.gz --markdown 20230711/e/ej2-streamlit-grids/1.0.0-22.1.34/diff.md --exclude *.pyd
+[2023-07-11 07:09:04] INFO root fetch - processPackages [pydantic-collections]: Remove: archive file [/home/abi/fetcher/tmp/pydantic-collections-0.4.0.tar.gz]
+[2023-07-11 07:09:04] INFO root fetch - processPackages [pydantic-collections]: Remove: archive file [/home/abi/fetcher/tmp/pydantic-collections-0.4.1.tar.gz]
+[2023-07-11 07:09:04] INFO root fetch - processPackages [pydantic-collections]: Start processing: mercury-sync
+[2023-07-11 07:09:04] INFO root fetch - main [MainThread]: End processing [pydantic-collections]: success
+[2023-07-11 07:09:04] INFO root fetch - processPackages [mercury-sync]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-11 07:09:05] INFO root fetch - processPackages [mercury-sync]: executing diffoscope
+[2023-07-11 07:09:05] INFO root fetch - processPackages [mercury-sync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mercury-sync-0.3.8.tar.gz tmp/mercury-sync-0.3.9.tar.gz --markdown 20230711/m/mercury-sync/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-11 07:09:05] INFO root fetch - processPackages [dask-cuda]: Remove: archive file [/home/abi/fetcher/tmp/dask-cuda-23.8.0a230710.tar.gz]
+[2023-07-11 07:09:05] INFO root fetch - processPackages [dask-cuda]: Remove: archive file [/home/abi/fetcher/tmp/dask-cuda-23.8.0a230711.tar.gz]
+[2023-07-11 07:09:05] INFO root fetch - main [MainThread]: End processing [dask-cuda]: success
+[2023-07-11 07:09:05] INFO root fetch - processPackages [mercury-sync]: Remove: archive file [/home/abi/fetcher/tmp/mercury-sync-0.3.8.tar.gz]
+[2023-07-11 07:09:05] INFO root fetch - processPackages [mercury-sync]: Remove: archive file [/home/abi/fetcher/tmp/mercury-sync-0.3.9.tar.gz]
+[2023-07-11 07:09:05] INFO root fetch - main [MainThread]: End processing [mercury-sync]: success
+[2023-07-11 07:09:05] INFO root fetch - processPackages [aioarp]: Remove: archive file [/home/abi/fetcher/tmp/aioarp-0.0.8.tar.gz]
+[2023-07-11 07:09:05] INFO root fetch - processPackages [aioarp]: Remove: archive file [/home/abi/fetcher/tmp/aioarp-0.0.9.tar.gz]
+[2023-07-11 07:09:05] INFO root fetch - main [MainThread]: End processing [aioarp]: success
+[2023-07-11 07:09:05] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.1.dev20230710.tar.gz]
+[2023-07-11 07:09:05] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.1.dev20230711.tar.gz]
+[2023-07-11 07:09:05] INFO root fetch - main [MainThread]: End processing [rapid-pe]: success
+[2023-07-11 07:09:05] INFO root fetch - processPackages [odoo9-addon-module-prototyper]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_module_prototyper-9.0.0.1.0.99.dev8-py2-none-any.whl.zip]
+[2023-07-11 07:09:05] INFO root fetch - processPackages [odoo9-addon-module-prototyper]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_module_prototyper-9.0.0.1.0.99.dev9-py2-none-any.whl.zip]
+[2023-07-11 07:09:05] INFO root fetch - main [MainThread]: End processing [odoo9-addon-module-prototyper]: success
+[2023-07-11 07:09:05] INFO root fetch - processPackages [odoo8-addon-module-prototyper]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_module_prototyper-8.0.0.3.0.99.dev49-py2-none-any.whl.zip]
+[2023-07-11 07:09:05] INFO root fetch - processPackages [odoo8-addon-module-prototyper]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_module_prototyper-8.0.0.3.0.99.dev50-py2-none-any.whl.zip]
+[2023-07-11 07:09:05] INFO root fetch - main [MainThread]: End processing [odoo8-addon-module-prototyper]: success
+[2023-07-11 07:09:05] ERROR root fetch - processPackages [mercury-sync]: Diffoscope failed: time="2023-07-11T07:09:05+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/mercury-sync-0.3.8.tar.gz: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/mercury-sync-0.3.9.tar.gz: No such file or directory
+
+[2023-07-11 07:09:05] INFO root fetch - main [MainThread]: End processing [mercury-sync] error
+[2023-07-11 07:09:06] INFO root fetch - processPackages [geemap]: Remove: archive file [/home/abi/fetcher/tmp/geemap-0.9.4.tar.gz]
+[2023-07-11 07:09:06] INFO root fetch - processPackages [geemap]: Remove: archive file [/home/abi/fetcher/tmp/geemap-0.9.5.tar.gz]
+[2023-07-11 07:09:06] INFO root fetch - main [MainThread]: End processing [geemap]: success
+[2023-07-11 07:09:07] INFO root fetch - processPackages [ej2-streamlit-grids]: Remove: archive file [/home/abi/fetcher/tmp/ej2_streamlit_grids-1.0.0.tar.gz]
+[2023-07-11 07:09:07] INFO root fetch - processPackages [ej2-streamlit-grids]: Remove: archive file [/home/abi/fetcher/tmp/ej2_streamlit_grids-22.1.34.tar.gz]
+[2023-07-11 07:09:07] INFO root fetch - main [MainThread]: End processing [ej2-streamlit-grids]: success
+[2023-07-11 07:09:20] INFO root fetch - processPackages [otx]: Remove: archive file [/home/abi/fetcher/tmp/otx-1.3.2rc1.tar.gz]
+[2023-07-11 07:09:20] INFO root fetch - processPackages [otx]: Remove: archive file [/home/abi/fetcher/tmp/otx-1.4.0rc1.tar.gz]
+[2023-07-11 07:09:20] INFO root fetch - main [MainThread]: End processing [otx]: success
+[2023-07-11 07:09:20] INFO root fetch - main [MainThread]: Store serial: [18841024]
