@@ -6292,3 +6292,108 @@ AssertionError: tmp/doctran-0.0.6.tar.gz does not exist
 [2023-07-11 03:15:11] INFO root fetch - processPackages [Geode-Simplex]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Simplex-6.1.0rc1-cp39-cp39-win_amd64.whl.zip]
 [2023-07-11 03:15:11] INFO root fetch - main [MainThread]: End processing [Geode-Simplex]: success
 [2023-07-11 03:15:11] INFO root fetch - main [MainThread]: Store serial: [18839380]
+[2023-07-11 03:20:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18839380]
+[2023-07-11 03:20:20] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-11 03:20:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-hugo-deploy
+[2023-07-11 03:20:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: swanapi
+[2023-07-11 03:20:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: notros2
+[2023-07-11 03:20:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: notros2
+[2023-07-11 03:20:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: oloren
+[2023-07-11 03:20:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-jet-new
+[2023-07-11 03:20:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: duckdb
+[2023-07-11 03:20:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pepperize.cdk-organizations
+[2023-07-11 03:20:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: yplib
+[2023-07-11 03:20:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: alpaca-eval
+[2023-07-11 03:20:20] INFO root fetch - processPackages [pepperize.cdk-organizations]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-07-11 03:20:20] INFO root fetch - processPackages [notros2]: New version: [23.7.11.11717] Old Version: [23.7.11.11708]
+[2023-07-11 03:20:20] INFO root fetch - processPackages [swanapi]: New version: [0.2.0] Old Version: [0.1.9b2]
+[2023-07-11 03:20:20] INFO root fetch - processPackages [notros2]: New version: [23.7.11.11717] Old Version: [23.7.11.11708]
+[2023-07-11 03:20:20] INFO root fetch - processPackages [django-jet-new]: New version: [2.3.2] Old Version: [2.3.1]
+[2023-07-11 03:20:20] INFO root fetch - processPackages [oloren]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-11 03:20:20] INFO root fetch - processPackages [yplib]: New version: [2.4.4] Old Version: [2.4.3]
+[2023-07-11 03:20:20] INFO root fetch - processPackages [cdk-hugo-deploy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-11 03:20:20] INFO root fetch - processPackages [duckdb]: New version: [0.8.2.dev1549] Old Version: [0.8.2.dev1493]
+[2023-07-11 03:20:21] INFO root fetch - processPackages [alpaca-eval]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-11 03:20:21] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/c4/ec/fa2c14031b7b9ce22e4b044c652dd13a1a81769141fcd90e55c9eeb24d66/pepperize.cdk-organizations-0.7.98.tar.gz
+[2023-07-11 03:20:21] INFO root fetch - processPackages [cdk-hugo-deploy]: Downloading https://files.pythonhosted.org/packages/33/a0/02c1c61c08488072b10045f13351cac91a6dc5b3b289a3a38fb162ac9cfa/cdk-hugo-deploy-0.0.98.tar.gz
+[2023-07-11 03:20:21] INFO root fetch - processPackages [swanapi]: Downloading https://files.pythonhosted.org/packages/22/75/9a76d67b3ec78bfef079d3e0206ada6d21746af8549253efdbd2959c9e66/swanapi-0.1.9b2-py3-none-any.whl
+[2023-07-11 03:20:21] INFO root fetch - processPackages [oloren]: Downloading https://files.pythonhosted.org/packages/a3/76/06db9dcd349a4094baa829da1112066fd4fe60d5748d1b0c8c0833367603/oloren-0.0.8.tar.gz
+[2023-07-11 03:20:21] INFO root fetch - processPackages [django-jet-new]: Downloading https://files.pythonhosted.org/packages/7a/9e/d825dc68f2c2ba538c40704aa6d60294e82251714ac21885937744bd7191/django-jet-new-2.3.1.tar.gz
+[2023-07-11 03:20:21] INFO root fetch - processPackages [notros2]: Downloading https://files.pythonhosted.org/packages/cd/57/0c4510d17992cb6a1ad6b4065ef89064dad2a6843ea256a432fbf7097089/notros2-23.7.11.11708.tar.gz
+[2023-07-11 03:20:21] INFO root fetch - processPackages [notros2]: Downloading https://files.pythonhosted.org/packages/cd/57/0c4510d17992cb6a1ad6b4065ef89064dad2a6843ea256a432fbf7097089/notros2-23.7.11.11708.tar.gz
+[2023-07-11 03:20:21] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/c0/83/f1b111595069ab3ab95982be3cb0597b618efb43c6aea8c6308467e3eaba/yplib-2.4.3.tar.gz
+[2023-07-11 03:20:21] INFO root fetch - processPackages [alpaca-eval]: Downloading https://files.pythonhosted.org/packages/29/07/86e7229298395524a300eec72e61a255fceb6e3634f40357210004fa61d4/alpaca_eval-0.2.0.tar.gz
+[2023-07-11 03:20:21] INFO root fetch - processPackages [cdk-hugo-deploy]: Downloading https://files.pythonhosted.org/packages/69/65/61cf4e2d01ce9f811649f2d5a9b579e9603a4b6257774c90a60bc13109ee/cdk-hugo-deploy-0.0.99.tar.gz
+[2023-07-11 03:20:21] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/12/45/1106cc30844f7f4d96f7898a6ef3647d24a597c297bab995920a5915750e/pepperize.cdk-organizations-0.7.99.tar.gz
+[2023-07-11 03:20:21] INFO root fetch - processPackages [oloren]: Downloading https://files.pythonhosted.org/packages/8f/84/66581190d09357a5dd522267963c2d727e20650e6690064dc2efadd1c020/oloren-0.0.9.tar.gz
+[2023-07-11 03:20:21] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/89/fe/1883e04a60a233e007de321435172676a86d3cdeb73bad5c9ffd45a3f654/yplib-2.4.4.tar.gz
+[2023-07-11 03:20:21] INFO root fetch - processPackages [swanapi]: Downloading https://files.pythonhosted.org/packages/33/c6/1084ba5f60c34a843342d00311ce58ca2ff8dd1134e608f7e5483095df4a/swanapi-0.2.0-py3-none-any.whl
+[2023-07-11 03:20:21] INFO root fetch - processPackages [django-jet-new]: Downloading https://files.pythonhosted.org/packages/cf/c6/02489f974ef11156b92184d5367d39b63293a277b9bf4322cbe78871a33c/django-jet-new-2.3.2.tar.gz
+[2023-07-11 03:20:21] INFO root fetch - processPackages [cdk-hugo-deploy]: executing diffoscope
+[2023-07-11 03:20:21] INFO root fetch - processPackages [cdk-hugo-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-hugo-deploy-0.0.98.tar.gz tmp/cdk-hugo-deploy-0.0.99.tar.gz --markdown 20230711/c/cdk-hugo-deploy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-11 03:20:21] INFO root fetch - processPackages [notros2]: Downloading https://files.pythonhosted.org/packages/2d/9e/98966d9642c1694a4600ae5158eb26a7cb0f95de38619d69fa0efe0705c3/notros2-23.7.11.11717-py3-none-any.whl
+[2023-07-11 03:20:21] INFO root fetch - processPackages [notros2]: Downloading https://files.pythonhosted.org/packages/2d/9e/98966d9642c1694a4600ae5158eb26a7cb0f95de38619d69fa0efe0705c3/notros2-23.7.11.11717-py3-none-any.whl
+[2023-07-11 03:20:21] INFO root fetch - processPackages [pepperize.cdk-organizations]: executing diffoscope
+[2023-07-11 03:20:21] INFO root fetch - processPackages [pepperize.cdk-organizations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-organizations-0.7.98.tar.gz tmp/pepperize.cdk-organizations-0.7.99.tar.gz --markdown 20230711/p/pepperize.cdk-organizations/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-07-11 03:20:21] INFO root fetch - processPackages [duckdb]: Downloading https://files.pythonhosted.org/packages/a4/8e/f35745fabed9b7c33ae4879c4854e5e7cbd824d7d6d186a4bc8cf3f3ad4e/duckdb-0.8.2.dev1549.tar.gz
+[2023-07-11 03:20:21] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2023-07-11 03:20:21] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-2.4.3.tar.gz tmp/yplib-2.4.4.tar.gz --markdown 20230711/y/yplib/2.4.3-2.4.4/diff.md --exclude *.pyd
+[2023-07-11 03:20:21] INFO root fetch - processPackages [swanapi]: executing diffoscope
+[2023-07-11 03:20:21] INFO root fetch - processPackages [swanapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swanapi-0.1.9b2-py3-none-any.whl.zip tmp/swanapi-0.2.0-py3-none-any.whl.zip --markdown 20230711/s/swanapi/0.1.9b2-0.2.0/diff.md --exclude *.pyd
+[2023-07-11 03:20:21] INFO root fetch - processPackages [notros2]: executing diffoscope
+[2023-07-11 03:20:21] INFO root fetch - processPackages [notros2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notros2-23.7.11.11708.tar.gz tmp/notros2-23.7.11.11717-py3-none-any.whl.zip --markdown 20230711/n/notros2/23.7.11.11708-23.7.11.11717/diff.md --exclude *.pyd
+[2023-07-11 03:20:21] WARNING root fetch - processPackages [duckdb]: Skipping package: exceeds size limit 10486780>=10485760
+[2023-07-11 03:20:21] INFO root fetch - processPackages [duckdb]: Start processing: psychicapi
+[2023-07-11 03:20:21] INFO root fetch - main [MainThread]: End processing [duckdb] error
+[2023-07-11 03:20:21] INFO root fetch - processPackages [django-jet-new]: executing diffoscope
+[2023-07-11 03:20:21] INFO root fetch - processPackages [django-jet-new]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-jet-new-2.3.1.tar.gz tmp/django-jet-new-2.3.2.tar.gz --markdown 20230711/d/django-jet-new/2.3.1-2.3.2/diff.md --exclude *.pyd
+[2023-07-11 03:20:21] INFO root fetch - processPackages [alpaca-eval]: Downloading https://files.pythonhosted.org/packages/09/5d/4368a2a648341c1378cf7566695622ecd36b82d7215ae4f4daee75200c3b/alpaca_eval-0.2.1.tar.gz
+[2023-07-11 03:20:21] INFO root fetch - processPackages [notros2]: executing diffoscope
+[2023-07-11 03:20:21] INFO root fetch - processPackages [notros2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notros2-23.7.11.11708.tar.gz tmp/notros2-23.7.11.11717-py3-none-any.whl.zip --markdown 20230711/n/notros2/23.7.11.11708-23.7.11.11717/diff.md --exclude *.pyd
+[2023-07-11 03:20:22] INFO root fetch - processPackages [psychicapi]: New version: [0.8.3] Old Version: [0.8.2]
+[2023-07-11 03:20:22] INFO root fetch - processPackages [oloren]: executing diffoscope
+[2023-07-11 03:20:22] INFO root fetch - processPackages [oloren]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oloren-0.0.8.tar.gz tmp/oloren-0.0.9.tar.gz --markdown 20230711/o/oloren/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-11 03:20:22] INFO root fetch - processPackages [psychicapi]: Downloading https://files.pythonhosted.org/packages/20/ac/f2db2b695ee353d91d4057a05ff83c2802fbe6bbce4bda0f1fe99c68b8f3/psychicapi-0.8.2.tar.gz
+[2023-07-11 03:20:22] INFO root fetch - processPackages [alpaca-eval]: executing diffoscope
+[2023-07-11 03:20:22] INFO root fetch - processPackages [alpaca-eval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alpaca_eval-0.2.0.tar.gz tmp/alpaca_eval-0.2.1.tar.gz --markdown 20230711/a/alpaca-eval/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-11 03:20:22] INFO root fetch - processPackages [psychicapi]: Downloading https://files.pythonhosted.org/packages/eb/73/e54b3fff92fceccf236c4bf2054220b7f576a4d4eb7da8a8663faaae03a2/psychicapi-0.8.3.tar.gz
+[2023-07-11 03:20:22] INFO root fetch - processPackages [psychicapi]: executing diffoscope
+[2023-07-11 03:20:22] INFO root fetch - processPackages [psychicapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psychicapi-0.8.2.tar.gz tmp/psychicapi-0.8.3.tar.gz --markdown 20230711/p/psychicapi/0.8.2-0.8.3/diff.md --exclude *.pyd
+[2023-07-11 03:20:22] INFO root fetch - processPackages [cdk-hugo-deploy]: Remove: archive file [/home/abi/fetcher/tmp/cdk-hugo-deploy-0.0.98.tar.gz]
+[2023-07-11 03:20:22] INFO root fetch - processPackages [cdk-hugo-deploy]: Remove: archive file [/home/abi/fetcher/tmp/cdk-hugo-deploy-0.0.99.tar.gz]
+[2023-07-11 03:20:22] INFO root fetch - processPackages [cdk-hugo-deploy]: Start processing: cdk-sops-secrets
+[2023-07-11 03:20:22] INFO root fetch - main [MainThread]: End processing [cdk-hugo-deploy]: success
+[2023-07-11 03:20:23] INFO root fetch - processPackages [cdk-sops-secrets]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-07-11 03:20:23] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/e2/8d/e29915f1e26b1a9d52bb33bc0abeaa259422cbc8e7fb8d8031fb9d7855e5/cdk-sops-secrets-1.2.98.tar.gz
+[2023-07-11 03:20:23] INFO root fetch - processPackages [swanapi]: Remove: archive file [/home/abi/fetcher/tmp/swanapi-0.1.9b2-py3-none-any.whl.zip]
+[2023-07-11 03:20:23] INFO root fetch - processPackages [swanapi]: Remove: archive file [/home/abi/fetcher/tmp/swanapi-0.2.0-py3-none-any.whl.zip]
+[2023-07-11 03:20:23] INFO root fetch - main [MainThread]: End processing [swanapi]: success
+[2023-07-11 03:20:23] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.98.tar.gz]
+[2023-07-11 03:20:23] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.99.tar.gz]
+[2023-07-11 03:20:23] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-organizations]: success
+[2023-07-11 03:20:23] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-2.4.3.tar.gz]
+[2023-07-11 03:20:23] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-2.4.4.tar.gz]
+[2023-07-11 03:20:23] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2023-07-11 03:20:23] INFO root fetch - processPackages [notros2]: Remove: archive file [/home/abi/fetcher/tmp/notros2-23.7.11.11708.tar.gz]
+[2023-07-11 03:20:23] INFO root fetch - processPackages [notros2]: Remove: archive file [/home/abi/fetcher/tmp/notros2-23.7.11.11717-py3-none-any.whl.zip]
+[2023-07-11 03:20:23] INFO root fetch - main [MainThread]: End processing [notros2]: success
+[2023-07-11 03:20:23] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/10/33/e08c5e7bb6d5b198c75b53cba42224da6ac877f65fd4a4343fecdad9a93e/cdk-sops-secrets-1.2.99.tar.gz
+[2023-07-11 03:20:23] INFO root fetch - main [MainThread]: End processing [notros2]: success
+[2023-07-11 03:20:23] INFO root fetch - processPackages [cdk-sops-secrets]: executing diffoscope
+[2023-07-11 03:20:23] INFO root fetch - processPackages [cdk-sops-secrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sops-secrets-1.2.98.tar.gz tmp/cdk-sops-secrets-1.2.99.tar.gz --markdown 20230711/c/cdk-sops-secrets/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-07-11 03:20:23] INFO root fetch - processPackages [psychicapi]: Remove: archive file [/home/abi/fetcher/tmp/psychicapi-0.8.2.tar.gz]
+[2023-07-11 03:20:23] INFO root fetch - processPackages [psychicapi]: Remove: archive file [/home/abi/fetcher/tmp/psychicapi-0.8.3.tar.gz]
+[2023-07-11 03:20:23] INFO root fetch - main [MainThread]: End processing [psychicapi]: success
+[2023-07-11 03:20:24] INFO root fetch - processPackages [alpaca-eval]: Remove: archive file [/home/abi/fetcher/tmp/alpaca_eval-0.2.0.tar.gz]
+[2023-07-11 03:20:24] INFO root fetch - processPackages [alpaca-eval]: Remove: archive file [/home/abi/fetcher/tmp/alpaca_eval-0.2.1.tar.gz]
+[2023-07-11 03:20:24] INFO root fetch - main [MainThread]: End processing [alpaca-eval]: success
+[2023-07-11 03:20:25] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.98.tar.gz]
+[2023-07-11 03:20:25] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.99.tar.gz]
+[2023-07-11 03:20:25] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
+[2023-07-11 03:20:25] INFO root fetch - processPackages [django-jet-new]: Remove: archive file [/home/abi/fetcher/tmp/django-jet-new-2.3.1.tar.gz]
+[2023-07-11 03:20:25] INFO root fetch - processPackages [django-jet-new]: Remove: archive file [/home/abi/fetcher/tmp/django-jet-new-2.3.2.tar.gz]
+[2023-07-11 03:20:25] INFO root fetch - main [MainThread]: End processing [django-jet-new]: success
+[2023-07-11 03:20:26] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.8.tar.gz]
+[2023-07-11 03:20:26] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.9.tar.gz]
+[2023-07-11 03:20:26] INFO root fetch - main [MainThread]: End processing [oloren]: success
+[2023-07-11 03:20:26] INFO root fetch - main [MainThread]: Store serial: [18839414]
