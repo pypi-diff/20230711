@@ -17487,3 +17487,142 @@ AssertionError: tmp/doctran-0.0.6.tar.gz does not exist
 [2023-07-11 13:00:44] INFO root fetch - processPackages [VisionFive.gpio]: Remove: archive file [/home/abi/fetcher/tmp/VisionFive.gpio-1.2.14-cp310-cp310-any.whl.zip]
 [2023-07-11 13:00:44] INFO root fetch - main [MainThread]: End processing [VisionFive.gpio]: success
 [2023-07-11 13:00:44] INFO root fetch - main [MainThread]: Store serial: [18844078]
+[2023-07-11 13:05:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18844078]
+[2023-07-11 13:05:54] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-11 13:05:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yangke
+[2023-07-11 13:05:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pygmtools
+[2023-07-11 13:05:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mwsqlite
+[2023-07-11 13:05:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: prodiapy
+[2023-07-11 13:05:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sensenova
+[2023-07-11 13:05:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: franky-panda
+[2023-07-11 13:05:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: amiyabot
+[2023-07-11 13:05:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bwd
+[2023-07-11 13:05:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: papertronics-sdk
+[2023-07-11 13:05:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pepperize.cdk-private-bucket
+[2023-07-11 13:05:54] INFO root fetch - processPackages [franky-panda]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-07-11 13:05:54] INFO root fetch - processPackages [mwsqlite]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-07-11 13:05:54] INFO root fetch - processPackages [yangke]: New version: [1.9.1] Old Version: [1.8.4]
+[2023-07-11 13:05:54] INFO root fetch - processPackages [bwd]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-11 13:05:54] INFO root fetch - processPackages [sensenova]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-11 13:05:54] INFO root fetch - processPackages [papertronics-sdk]: New version: [0.0.31] Old Version: [0.0.30]
+[2023-07-11 13:05:54] INFO root fetch - processPackages [prodiapy]: New version: [3.4] Old Version: [3.3]
+[2023-07-11 13:05:54] INFO root fetch - processPackages [amiyabot]: New version: [1.5.5] Old Version: [1.5.4]
+[2023-07-11 13:05:54] INFO root fetch - processPackages [pygmtools]: New version: [0.3.8a9] Old Version: [0.3.8a8]
+[2023-07-11 13:05:54] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-11 13:05:54] INFO root fetch - processPackages [franky-panda]: Downloading https://files.pythonhosted.org/packages/82/44/adbe24d7c520e1c7ca6d124278ec8a61f62830c391d7dcd159e1c79b2997/franky_panda-0.4.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-11 13:05:54] INFO root fetch - processPackages [pygmtools]: Downloading https://files.pythonhosted.org/packages/f8/8c/1f0e828d7314764991a815dbe13cdb3a9b03dc10a0d897980af025b4904b/pygmtools-0.3.8a8.tar.gz
+[2023-07-11 13:05:54] INFO root fetch - processPackages [papertronics-sdk]: Downloading https://files.pythonhosted.org/packages/49/07/9a6ed3ad390e1f1b87146c99788198bf844cef8d96aaa9b296b87f882dde/papertronics-sdk-0.0.30.tar.gz
+[2023-07-11 13:05:54] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Downloading https://files.pythonhosted.org/packages/e7/b6/4073de848e06d760b3ef30686b0684410fc4bb899faf50e7ef4a0b2fac85/pepperize.cdk-private-bucket-0.0.98.tar.gz
+[2023-07-11 13:05:54] INFO root fetch - processPackages [yangke]: Downloading https://files.pythonhosted.org/packages/22/e0/99cdbe32a4f8a7e45c22c3180823a535aea657f5ffee3e35fcb23971b8b0/yangke-1.8.4.tar.gz
+[2023-07-11 13:05:54] INFO root fetch - processPackages [mwsqlite]: Downloading https://files.pythonhosted.org/packages/6a/0d/3e5dfc32c24a8dc1cfa39ad668741c79b5eb70e1a17300603aaf776e23ed/mwsqlite-1.2.2.tar.gz
+[2023-07-11 13:05:54] INFO root fetch - processPackages [sensenova]: Downloading https://files.pythonhosted.org/packages/80/41/ec299aa19470580656479e0d91b604f2fb5a7c568774bbbcae631f67105a/sensenova-1.0.0.tar.gz
+[2023-07-11 13:05:54] INFO root fetch - processPackages [prodiapy]: Downloading https://files.pythonhosted.org/packages/fe/c4/863dc9e0cf9c06d3cfd6b6023aa3505b02f0919a78b5f7b58b262250e595/prodiapy-3.3.tar.gz
+[2023-07-11 13:05:54] INFO root fetch - processPackages [bwd]: Downloading https://files.pythonhosted.org/packages/ad/4b/3b5b8a0ed8843b5f3376146247a950088c01c271c9a2683712386e4ed75f/bwd-0.1.0.tar.gz
+[2023-07-11 13:05:54] INFO root fetch - processPackages [amiyabot]: Downloading https://files.pythonhosted.org/packages/62/8a/8a79533d3f81e96b3e0d12ff2563780a35d28a67c166e0ab8ba90e3fb870/amiyabot-1.5.4-py3-none-any.whl
+[2023-07-11 13:05:55] WARNING root fetch - processPackages [amiyabot]: Skipping package: exceeds size limit 11310537>=10485760
+[2023-07-11 13:05:55] INFO root fetch - processPackages [amiyabot]: Start processing: nanoCEM
+[2023-07-11 13:05:55] INFO root fetch - main [MainThread]: End processing [amiyabot] error
+[2023-07-11 13:05:55] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Downloading https://files.pythonhosted.org/packages/e3/22/68d054109f3033e215b3e2bb124cce096ee16c91911cef45f98e5a69d1ca/pepperize.cdk-private-bucket-0.0.99.tar.gz
+[2023-07-11 13:05:55] INFO root fetch - processPackages [nanoCEM]: New version: [0.0.2.0] Old Version: [0.0.1.8]
+[2023-07-11 13:05:55] INFO root fetch - processPackages [nanoCEM]: Downloading https://files.pythonhosted.org/packages/40/c2/1270a2266d38d71787c2465f3323a5e7424c6f3da882febb00ccf11eb49c/nanoCEM-0.0.1.8.tar.gz
+[2023-07-11 13:05:55] INFO root fetch - processPackages [sensenova]: Downloading https://files.pythonhosted.org/packages/c6/11/71a55725b79cb7f0a3384e9fec6958ae3151393da69475cac37f685b4e84/sensenova-1.0.1.tar.gz
+[2023-07-11 13:05:55] INFO root fetch - processPackages [bwd]: Downloading https://files.pythonhosted.org/packages/3a/cb/2b94fd4f67921392f2fd98ad6a3e8e9141dc5c61b774acd1cc9d9c10d17d/bwd-0.1.1.tar.gz
+[2023-07-11 13:05:55] INFO root fetch - processPackages [papertronics-sdk]: Downloading https://files.pythonhosted.org/packages/91/f3/51a4aadbd5451a6d600f0988a277c8f2a73854e9f35a8fe3ab513a9e0e07/papertronics-sdk-0.0.31.tar.gz
+[2023-07-11 13:05:55] WARNING root fetch - processPackages [yangke]: Skipping package: exceeds size limit 61137220>=10485760
+[2023-07-11 13:05:55] INFO root fetch - processPackages [yangke]: Start processing: blastpipe
+[2023-07-11 13:05:55] INFO root fetch - main [MainThread]: End processing [yangke] error
+[2023-07-11 13:05:55] INFO root fetch - processPackages [mwsqlite]: Downloading https://files.pythonhosted.org/packages/9c/8e/46efb110fecc925e774857560f4253a620051dbae92f6822bcd4c2fea567/mwsqlite-1.2.3.tar.gz
+[2023-07-11 13:05:55] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: executing diffoscope
+[2023-07-11 13:05:55] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-private-bucket-0.0.98.tar.gz tmp/pepperize.cdk-private-bucket-0.0.99.tar.gz --markdown 20230711/p/pepperize.cdk-private-bucket/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-11 13:05:55] INFO root fetch - processPackages [pygmtools]: Downloading https://files.pythonhosted.org/packages/18/09/d9f8c479401206e79acfd70dcc8e5c470fb93666058fba5469022d832019/pygmtools-0.3.8a9.tar.gz
+[2023-07-11 13:05:55] INFO root fetch - processPackages [prodiapy]: Downloading https://files.pythonhosted.org/packages/60/d1/066ce6e4c60c1751ea7eab07265f714cbe6a447577eb03c7751302125a6e/prodiapy-3.4.tar.gz
+[2023-07-11 13:05:55] INFO root fetch - processPackages [blastpipe]: New version: [0.4.27] Old Version: [0.4.26]
+[2023-07-11 13:05:55] INFO root fetch - processPackages [sensenova]: executing diffoscope
+[2023-07-11 13:05:55] INFO root fetch - processPackages [sensenova]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sensenova-1.0.0.tar.gz tmp/sensenova-1.0.1.tar.gz --markdown 20230711/s/sensenova/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-11 13:05:55] INFO root fetch - processPackages [bwd]: executing diffoscope
+[2023-07-11 13:05:55] INFO root fetch - processPackages [bwd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bwd-0.1.0.tar.gz tmp/bwd-0.1.1.tar.gz --markdown 20230711/b/bwd/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-11 13:05:55] INFO root fetch - processPackages [franky-panda]: Downloading https://files.pythonhosted.org/packages/0e/15/28f31e0062671e1f1c1a5d515f1e394a9e321f58c19ce0bcd82cf9a47127/franky_panda-0.4.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-11 13:05:55] INFO root fetch - processPackages [papertronics-sdk]: executing diffoscope
+[2023-07-11 13:05:55] INFO root fetch - processPackages [papertronics-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/papertronics-sdk-0.0.30.tar.gz tmp/papertronics-sdk-0.0.31.tar.gz --markdown 20230711/p/papertronics-sdk/0.0.30-0.0.31/diff.md --exclude *.pyd
+[2023-07-11 13:05:55] INFO root fetch - processPackages [mwsqlite]: executing diffoscope
+[2023-07-11 13:05:55] INFO root fetch - processPackages [mwsqlite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mwsqlite-1.2.2.tar.gz tmp/mwsqlite-1.2.3.tar.gz --markdown 20230711/m/mwsqlite/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-07-11 13:05:55] INFO root fetch - processPackages [prodiapy]: executing diffoscope
+[2023-07-11 13:05:55] INFO root fetch - processPackages [prodiapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prodiapy-3.3.tar.gz tmp/prodiapy-3.4.tar.gz --markdown 20230711/p/prodiapy/3.3-3.4/diff.md --exclude *.pyd
+[2023-07-11 13:05:55] INFO root fetch - processPackages [pygmtools]: executing diffoscope
+[2023-07-11 13:05:55] INFO root fetch - processPackages [pygmtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygmtools-0.3.8a8.tar.gz tmp/pygmtools-0.3.8a9.tar.gz --markdown 20230711/p/pygmtools/0.3.8a8-0.3.8a9/diff.md --exclude *.pyd
+[2023-07-11 13:05:55] INFO root fetch - processPackages [franky-panda]: executing diffoscope
+[2023-07-11 13:05:55] INFO root fetch - processPackages [franky-panda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/franky_panda-0.4.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/franky_panda-0.4.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230711/f/franky-panda/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-07-11 13:05:55] INFO root fetch - processPackages [blastpipe]: Downloading https://files.pythonhosted.org/packages/af/39/0dcf31ee1764c21ae7efe058faeda435bc573e0281f0b137318a82993872/blastpipe-0.4.26.tar.gz
+[2023-07-11 13:05:55] INFO root fetch - processPackages [nanoCEM]: Downloading https://files.pythonhosted.org/packages/bf/00/54d36b806f04b17ab7b7a1e93a91099bf07fc43f83d239ec8ee24d7d34a1/nanoCEM-0.0.2.0.tar.gz
+[2023-07-11 13:05:56] INFO root fetch - processPackages [nanoCEM]: executing diffoscope
+[2023-07-11 13:05:56] INFO root fetch - processPackages [nanoCEM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nanoCEM-0.0.1.8.tar.gz tmp/nanoCEM-0.0.2.0.tar.gz --markdown 20230711/n/nanoCEM/0.0.1.8-0.0.2.0/diff.md --exclude *.pyd
+[2023-07-11 13:05:56] INFO root fetch - processPackages [blastpipe]: Downloading https://files.pythonhosted.org/packages/79/97/f3ee92c48664464659c08585f559b186a522d6191f0101baa4b4fcd604ab/blastpipe-0.4.27.tar.gz
+[2023-07-11 13:05:56] INFO root fetch - processPackages [blastpipe]: executing diffoscope
+[2023-07-11 13:05:56] INFO root fetch - processPackages [blastpipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blastpipe-0.4.26.tar.gz tmp/blastpipe-0.4.27.tar.gz --markdown 20230711/b/blastpipe/0.4.26-0.4.27/diff.md --exclude *.pyd
+[2023-07-11 13:05:57] INFO root fetch - processPackages [bwd]: Remove: archive file [/home/abi/fetcher/tmp/bwd-0.1.0.tar.gz]
+[2023-07-11 13:05:57] INFO root fetch - processPackages [bwd]: Remove: archive file [/home/abi/fetcher/tmp/bwd-0.1.1.tar.gz]
+[2023-07-11 13:05:57] INFO root fetch - processPackages [bwd]: Start processing: db-gpt
+[2023-07-11 13:05:57] INFO root fetch - main [MainThread]: End processing [bwd]: success
+[2023-07-11 13:05:57] INFO root fetch - processPackages [db-gpt]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-07-11 13:05:57] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-private-bucket-0.0.98.tar.gz]
+[2023-07-11 13:05:57] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-private-bucket-0.0.99.tar.gz]
+[2023-07-11 13:05:57] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Start processing: ryantam626-jupyterlab-vim
+[2023-07-11 13:05:57] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-private-bucket]: success
+[2023-07-11 13:05:57] INFO root fetch - processPackages [ryantam626-jupyterlab-vim]: New version: [0.16.2] Old Version: [0.16.1]
+[2023-07-11 13:05:57] INFO root fetch - processPackages [db-gpt]: Downloading https://files.pythonhosted.org/packages/dd/ac/e4ba8eacfe241c3155eb416bd8d68bffd4cc0edf3e6d5a76488e5acbf7b4/db-gpt-0.2.7.tar.gz
+[2023-07-11 13:05:57] INFO root fetch - processPackages [papertronics-sdk]: Remove: archive file [/home/abi/fetcher/tmp/papertronics-sdk-0.0.30.tar.gz]
+[2023-07-11 13:05:57] INFO root fetch - processPackages [papertronics-sdk]: Remove: archive file [/home/abi/fetcher/tmp/papertronics-sdk-0.0.31.tar.gz]
+[2023-07-11 13:05:57] INFO root fetch - processPackages [papertronics-sdk]: Start processing: cmem-plugin-graphql
+[2023-07-11 13:05:57] INFO root fetch - main [MainThread]: End processing [papertronics-sdk]: success
+[2023-07-11 13:05:57] INFO root fetch - processPackages [cmem-plugin-graphql]: New version: [3.0.0] Old Version: [2.2.2]
+[2023-07-11 13:05:57] INFO root fetch - processPackages [prodiapy]: Remove: archive file [/home/abi/fetcher/tmp/prodiapy-3.3.tar.gz]
+[2023-07-11 13:05:57] INFO root fetch - processPackages [prodiapy]: Remove: archive file [/home/abi/fetcher/tmp/prodiapy-3.4.tar.gz]
+[2023-07-11 13:05:57] INFO root fetch - processPackages [prodiapy]: Start processing: molgenis-emx2-pyclient
+[2023-07-11 13:05:57] INFO root fetch - main [MainThread]: End processing [prodiapy]: success
+[2023-07-11 13:05:57] INFO root fetch - processPackages [ryantam626-jupyterlab-vim]: Downloading https://files.pythonhosted.org/packages/c6/8f/f95661991bbd84920ff983dbab3b94385d8bd9589d301941a792e1be9d88/ryantam626_jupyterlab_vim-0.16.1.tar.gz
+[2023-07-11 13:05:57] INFO root fetch - processPackages [molgenis-emx2-pyclient]: New version: [8.202.2] Old Version: [8.202.1]
+[2023-07-11 13:05:57] INFO root fetch - processPackages [mwsqlite]: Remove: archive file [/home/abi/fetcher/tmp/mwsqlite-1.2.2.tar.gz]
+[2023-07-11 13:05:57] INFO root fetch - processPackages [mwsqlite]: Remove: archive file [/home/abi/fetcher/tmp/mwsqlite-1.2.3.tar.gz]
+[2023-07-11 13:05:57] INFO root fetch - main [MainThread]: End processing [mwsqlite]: success
+[2023-07-11 13:05:57] INFO root fetch - processPackages [sensenova]: Remove: archive file [/home/abi/fetcher/tmp/sensenova-1.0.0.tar.gz]
+[2023-07-11 13:05:57] INFO root fetch - processPackages [sensenova]: Remove: archive file [/home/abi/fetcher/tmp/sensenova-1.0.1.tar.gz]
+[2023-07-11 13:05:57] INFO root fetch - main [MainThread]: End processing [sensenova]: success
+[2023-07-11 13:05:57] INFO root fetch - processPackages [db-gpt]: Downloading https://files.pythonhosted.org/packages/c1/a0/d13a573d1b15dfae9879a58a0dcd966b1b56df4292a401561519bf395c9b/db-gpt-0.2.8.tar.gz
+[2023-07-11 13:05:57] INFO root fetch - processPackages [molgenis-emx2-pyclient]: Downloading https://files.pythonhosted.org/packages/db/73/375203c597087430a9f4d3301624a9114f2101bc7e15bdb42fcf33b30cbb/molgenis_emx2_pyclient-8.202.1.tar.gz
+[2023-07-11 13:05:57] INFO root fetch - processPackages [cmem-plugin-graphql]: Downloading https://files.pythonhosted.org/packages/ed/72/8ce7528ff0857d7c2564c3a8ca05f8fa664e8c00a567dd4a63b753c00d8c/cmem_plugin_graphql-2.2.2.tar.gz
+[2023-07-11 13:05:57] INFO root fetch - processPackages [nanoCEM]: Remove: archive file [/home/abi/fetcher/tmp/nanoCEM-0.0.1.8.tar.gz]
+[2023-07-11 13:05:57] INFO root fetch - processPackages [nanoCEM]: Remove: archive file [/home/abi/fetcher/tmp/nanoCEM-0.0.2.0.tar.gz]
+[2023-07-11 13:05:57] INFO root fetch - main [MainThread]: End processing [nanoCEM]: success
+[2023-07-11 13:05:57] INFO root fetch - processPackages [db-gpt]: executing diffoscope
+[2023-07-11 13:05:57] INFO root fetch - processPackages [db-gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/db-gpt-0.2.7.tar.gz tmp/db-gpt-0.2.8.tar.gz --markdown 20230711/d/db-gpt/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-07-11 13:05:57] INFO root fetch - processPackages [pygmtools]: Remove: archive file [/home/abi/fetcher/tmp/pygmtools-0.3.8a8.tar.gz]
+[2023-07-11 13:05:57] INFO root fetch - processPackages [pygmtools]: Remove: archive file [/home/abi/fetcher/tmp/pygmtools-0.3.8a9.tar.gz]
+[2023-07-11 13:05:57] INFO root fetch - main [MainThread]: End processing [pygmtools]: success
+[2023-07-11 13:05:57] INFO root fetch - processPackages [ryantam626-jupyterlab-vim]: Downloading https://files.pythonhosted.org/packages/c7/14/9bd48109c88a59b9fa609a6b7448a9ac019a12fcac63351c619c6b306e58/ryantam626_jupyterlab_vim-0.16.2.tar.gz
+[2023-07-11 13:05:57] INFO root fetch - processPackages [molgenis-emx2-pyclient]: Downloading https://files.pythonhosted.org/packages/98/2c/9bdaf19b3e657b6b88d76bdbc52c3bbec3dad59dc247f340fe3d72df1011/molgenis_emx2_pyclient-8.202.2.tar.gz
+[2023-07-11 13:05:57] INFO root fetch - processPackages [blastpipe]: Remove: archive file [/home/abi/fetcher/tmp/blastpipe-0.4.26.tar.gz]
+[2023-07-11 13:05:57] INFO root fetch - processPackages [blastpipe]: Remove: archive file [/home/abi/fetcher/tmp/blastpipe-0.4.27.tar.gz]
+[2023-07-11 13:05:57] INFO root fetch - main [MainThread]: End processing [blastpipe]: success
+[2023-07-11 13:05:57] INFO root fetch - processPackages [cmem-plugin-graphql]: Downloading https://files.pythonhosted.org/packages/3a/55/6cae79e5fd60c4055e612e9df9764e41823697d502b9902d48b3d6ebd087/cmem_plugin_graphql-3.0.0.tar.gz
+[2023-07-11 13:05:58] INFO root fetch - processPackages [ryantam626-jupyterlab-vim]: executing diffoscope
+[2023-07-11 13:05:58] INFO root fetch - processPackages [ryantam626-jupyterlab-vim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ryantam626_jupyterlab_vim-0.16.1.tar.gz tmp/ryantam626_jupyterlab_vim-0.16.2.tar.gz --markdown 20230711/r/ryantam626-jupyterlab-vim/0.16.1-0.16.2/diff.md --exclude *.pyd
+[2023-07-11 13:05:58] INFO root fetch - processPackages [molgenis-emx2-pyclient]: executing diffoscope
+[2023-07-11 13:05:58] INFO root fetch - processPackages [molgenis-emx2-pyclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/molgenis_emx2_pyclient-8.202.1.tar.gz tmp/molgenis_emx2_pyclient-8.202.2.tar.gz --markdown 20230711/m/molgenis-emx2-pyclient/8.202.1-8.202.2/diff.md --exclude *.pyd
+[2023-07-11 13:05:58] INFO root fetch - processPackages [cmem-plugin-graphql]: executing diffoscope
+[2023-07-11 13:05:58] INFO root fetch - processPackages [cmem-plugin-graphql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmem_plugin_graphql-2.2.2.tar.gz tmp/cmem_plugin_graphql-3.0.0.tar.gz --markdown 20230711/c/cmem-plugin-graphql/2.2.2-3.0.0/diff.md --exclude *.pyd
+[2023-07-11 13:05:58] INFO root fetch - processPackages [molgenis-emx2-pyclient]: Remove: archive file [/home/abi/fetcher/tmp/molgenis_emx2_pyclient-8.202.1.tar.gz]
+[2023-07-11 13:05:58] INFO root fetch - processPackages [molgenis-emx2-pyclient]: Remove: archive file [/home/abi/fetcher/tmp/molgenis_emx2_pyclient-8.202.2.tar.gz]
+[2023-07-11 13:05:58] INFO root fetch - main [MainThread]: End processing [molgenis-emx2-pyclient]: success
+[2023-07-11 13:05:59] INFO root fetch - processPackages [cmem-plugin-graphql]: Remove: archive file [/home/abi/fetcher/tmp/cmem_plugin_graphql-2.2.2.tar.gz]
+[2023-07-11 13:05:59] INFO root fetch - processPackages [cmem-plugin-graphql]: Remove: archive file [/home/abi/fetcher/tmp/cmem_plugin_graphql-3.0.0.tar.gz]
+[2023-07-11 13:05:59] INFO root fetch - main [MainThread]: End processing [cmem-plugin-graphql]: success
+[2023-07-11 13:05:59] INFO root fetch - processPackages [ryantam626-jupyterlab-vim]: Remove: archive file [/home/abi/fetcher/tmp/ryantam626_jupyterlab_vim-0.16.1.tar.gz]
+[2023-07-11 13:05:59] INFO root fetch - processPackages [ryantam626-jupyterlab-vim]: Remove: archive file [/home/abi/fetcher/tmp/ryantam626_jupyterlab_vim-0.16.2.tar.gz]
+[2023-07-11 13:05:59] INFO root fetch - main [MainThread]: End processing [ryantam626-jupyterlab-vim]: success
+[2023-07-11 13:05:59] INFO root fetch - processPackages [db-gpt]: Remove: archive file [/home/abi/fetcher/tmp/db-gpt-0.2.7.tar.gz]
+[2023-07-11 13:05:59] INFO root fetch - processPackages [db-gpt]: Remove: archive file [/home/abi/fetcher/tmp/db-gpt-0.2.8.tar.gz]
+[2023-07-11 13:05:59] INFO root fetch - main [MainThread]: End processing [db-gpt]: success
+[2023-07-11 13:06:01] INFO root fetch - processPackages [franky-panda]: Remove: archive file [/home/abi/fetcher/tmp/franky_panda-0.4.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-11 13:06:01] INFO root fetch - processPackages [franky-panda]: Remove: archive file [/home/abi/fetcher/tmp/franky_panda-0.4.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-11 13:06:01] INFO root fetch - main [MainThread]: End processing [franky-panda]: success
+[2023-07-11 13:06:01] INFO root fetch - main [MainThread]: Store serial: [18844132]
