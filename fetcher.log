@@ -22178,3 +22178,141 @@ EOFError: EOF read where object expected
 [2023-07-11 15:55:35] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-38.2.1.tar.gz]
 [2023-07-11 15:55:35] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2023-07-11 15:55:35] INFO root fetch - main [MainThread]: Store serial: [18846214]
+[2023-07-11 16:00:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18846214]
+[2023-07-11 16:00:46] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-11 16:00:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: coiled
+[2023-07-11 16:00:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tensordict-nightly
+[2023-07-11 16:00:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: FigureGenerator
+[2023-07-11 16:00:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: document-merge-service
+[2023-07-11 16:00:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jcci
+[2023-07-11 16:00:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bqplot
+[2023-07-11 16:00:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: momositemaps
+[2023-07-11 16:00:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: stlog
+[2023-07-11 16:00:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ms-python-client
+[2023-07-11 16:00:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: domolibrary
+[2023-07-11 16:00:46] INFO root fetch - processPackages [domolibrary]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-11 16:00:46] INFO root fetch - processPackages [FigureGenerator]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-11 16:00:46] INFO root fetch - processPackages [momositemaps]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-11 16:00:46] INFO root fetch - processPackages [ms-python-client]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-11 16:00:46] INFO root fetch - processPackages [stlog]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-11 16:00:46] INFO root fetch - processPackages [document-merge-service]: New version: [6.2.0] Old Version: [6.1.2]
+[2023-07-11 16:00:46] INFO root fetch - processPackages [jcci]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-11 16:00:46] INFO root fetch - processPackages [coiled]: New version: [0.8.6.dev15] Old Version: [0.8.6.dev14]
+[2023-07-11 16:00:46] INFO root fetch - processPackages [bqplot]: New version: [0.9.1] Old Version: [0.9.0b9]
+[2023-07-11 16:00:46] INFO root fetch - processPackages [tensordict-nightly]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-11 16:00:46] INFO root fetch - processPackages [domolibrary]: Downloading https://files.pythonhosted.org/packages/84/f8/ca22b28a893290f3f077d48d12f9bbfa0b351b8a23052c67d9d2df56c886/domolibrary-0.1.98.tar.gz
+[2023-07-11 16:00:46] INFO root fetch - processPackages [FigureGenerator]: Downloading https://files.pythonhosted.org/packages/28/b1/c3ed928652cfad7824fae2f2da024ef19493daf616d68555a17b1aa272d4/FigureGenerator-0.0.3.tar.gz
+[2023-07-11 16:00:46] INFO root fetch - processPackages [jcci]: Downloading https://files.pythonhosted.org/packages/57/29/9f961ecea1427bb3bab7442418097c2c465c0d60bdef359c614a1482a0e7/jcci-0.0.8.tar.gz
+[2023-07-11 16:00:46] INFO root fetch - processPackages [momositemaps]: Downloading https://files.pythonhosted.org/packages/45/e1/84edfb46571ee75c3f99475a2041ee851916364613914213fcf9fb05b6d9/momositemaps-0.0.1.tar.gz
+[2023-07-11 16:00:47] INFO root fetch - processPackages [ms-python-client]: Downloading https://files.pythonhosted.org/packages/fd/41/cb670c9433db776623ab66ae943362be4bdcbe6d119f5a265781fd071ad3/ms_python_client-1.0.2.tar.gz
+[2023-07-11 16:00:47] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/c5/79/bac5cca77c530f0599a8ae6dde1139aa7643274742ed0236b2ffa50e5ea2/coiled-0.8.6.dev14.tar.gz
+[2023-07-11 16:00:47] INFO root fetch - processPackages [stlog]: Downloading https://files.pythonhosted.org/packages/b4/81/908380511979d80fde18415b2cd7b2af5e14cd7da216681684186f5f94cf/stlog-0.1.2.tar.gz
+[2023-07-11 16:00:47] INFO root fetch - processPackages [document-merge-service]: Downloading https://files.pythonhosted.org/packages/df/31/f1201bad041926d7a579d3464dcf406cfda45ff9882d457fd84818167794/document_merge_service-6.1.2.tar.gz
+[2023-07-11 16:00:47] INFO root fetch - processPackages [bqplot]: Downloading https://files.pythonhosted.org/packages/5c/b5/68e5f504e869d97fad1fcb63a1cf013bcca3a816aa529f9fa429ab530450/bqplot-0.9.0b9.tar.gz
+[2023-07-11 16:00:47] INFO root fetch - processPackages [tensordict-nightly]: Downloading https://files.pythonhosted.org/packages/e7/5f/a8e12c8c9db4733b807edf690c79f8ee7fb4897c1bec72f6bfafdf1cf1c6/tensordict_nightly-2023.7.8-cp39-cp39-win_amd64.whl
+[2023-07-11 16:00:47] INFO root fetch - processPackages [FigureGenerator]: Downloading https://files.pythonhosted.org/packages/cc/a4/5a670d207a6b5a60c4316e3d50743053bf074d44b6a9d04d7cae559fe976/FigureGenerator-0.0.4.tar.gz
+[2023-07-11 16:00:47] INFO root fetch - processPackages [jcci]: Downloading https://files.pythonhosted.org/packages/99/09/7079f722ce6e4dc1679cae0aca66eefb094f8551b1866296febe00cd9f5b/jcci-0.0.9.tar.gz
+[2023-07-11 16:00:47] INFO root fetch - processPackages [momositemaps]: Downloading https://files.pythonhosted.org/packages/ea/80/578224b1d72e67e831a9eedf015c77042073fa113d95940ecb4d010df602/momositemaps-0.0.2.tar.gz
+[2023-07-11 16:00:47] INFO root fetch - processPackages [ms-python-client]: Downloading https://files.pythonhosted.org/packages/08/c0/8ad111072573d88b5f464c1cde76327080f52f776deeca4c4e9de5b2f824/ms_python_client-1.0.3.tar.gz
+[2023-07-11 16:00:47] INFO root fetch - processPackages [domolibrary]: Downloading https://files.pythonhosted.org/packages/ef/ec/fc9564bd79a2ddb4e26b61efd0fc792975bd04a769102587a579e3693e90/domolibrary-0.1.99.tar.gz
+[2023-07-11 16:00:47] INFO root fetch - processPackages [ms-python-client]: executing diffoscope
+[2023-07-11 16:00:47] INFO root fetch - processPackages [ms-python-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ms_python_client-1.0.2.tar.gz tmp/ms_python_client-1.0.3.tar.gz --markdown 20230711/m/ms-python-client/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-11 16:00:47] INFO root fetch - processPackages [stlog]: Downloading https://files.pythonhosted.org/packages/a4/c7/82a6bf9efeb071e8d53d7e4c4ba555c063e5cc2c21534c3913ba5bd32bb9/stlog-0.1.3.tar.gz
+[2023-07-11 16:00:47] INFO root fetch - processPackages [FigureGenerator]: executing diffoscope
+[2023-07-11 16:00:47] INFO root fetch - processPackages [FigureGenerator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FigureGenerator-0.0.3.tar.gz tmp/FigureGenerator-0.0.4.tar.gz --markdown 20230711/F/FigureGenerator/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-11 16:00:47] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/9a/3a/433a5f51db150f72053e75a08e2b3de05729ccf15cc220df8af734f1e3bb/coiled-0.8.6.dev15.tar.gz
+[2023-07-11 16:00:47] INFO root fetch - processPackages [jcci]: executing diffoscope
+[2023-07-11 16:00:47] INFO root fetch - processPackages [jcci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jcci-0.0.8.tar.gz tmp/jcci-0.0.9.tar.gz --markdown 20230711/j/jcci/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-11 16:00:47] INFO root fetch - processPackages [tensordict-nightly]: Downloading https://files.pythonhosted.org/packages/20/92/5489eefecb62a3da531fb19097d65b32ec71c60f929be10b1407a03894e5/tensordict_nightly-2023.7.9-cp39-cp39-win_amd64.whl
+[2023-07-11 16:00:47] INFO root fetch - processPackages [document-merge-service]: Downloading https://files.pythonhosted.org/packages/c0/ce/df01e13feec4abe613b8087edb03e104884539d69bbf99b6cac2967de7ab/document_merge_service-6.2.0.tar.gz
+[2023-07-11 16:00:47] INFO root fetch - processPackages [momositemaps]: executing diffoscope
+[2023-07-11 16:00:47] INFO root fetch - processPackages [momositemaps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/momositemaps-0.0.1.tar.gz tmp/momositemaps-0.0.2.tar.gz --markdown 20230711/m/momositemaps/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-11 16:00:47] INFO root fetch - processPackages [domolibrary]: executing diffoscope
+[2023-07-11 16:00:47] INFO root fetch - processPackages [domolibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domolibrary-0.1.98.tar.gz tmp/domolibrary-0.1.99.tar.gz --markdown 20230711/d/domolibrary/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-11 16:00:47] INFO root fetch - processPackages [tensordict-nightly]: executing diffoscope
+[2023-07-11 16:00:47] INFO root fetch - processPackages [tensordict-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensordict_nightly-2023.7.8-cp39-cp39-win_amd64.whl.zip tmp/tensordict_nightly-2023.7.9-cp39-cp39-win_amd64.whl.zip --markdown 20230711/t/tensordict-nightly/2023.7.8-2023.7.9/diff.md --exclude *.pyd
+[2023-07-11 16:00:48] INFO root fetch - processPackages [bqplot]: Downloading https://files.pythonhosted.org/packages/ee/f6/51d998ca1bc520c75636c6a580530863ee3c006a5bd9fcd4c8bf94665695/bqplot-0.9.1.tar.gz
+[2023-07-11 16:00:48] INFO root fetch - processPackages [stlog]: executing diffoscope
+[2023-07-11 16:00:48] INFO root fetch - processPackages [stlog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stlog-0.1.2.tar.gz tmp/stlog-0.1.3.tar.gz --markdown 20230711/s/stlog/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-11 16:00:48] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-07-11 16:00:48] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.8.6.dev14.tar.gz tmp/coiled-0.8.6.dev15.tar.gz --markdown 20230711/c/coiled/0.8.6.dev14-0.8.6.dev15/diff.md --exclude *.pyd
+[2023-07-11 16:00:48] INFO root fetch - processPackages [document-merge-service]: executing diffoscope
+[2023-07-11 16:00:48] INFO root fetch - processPackages [document-merge-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/document_merge_service-6.1.2.tar.gz tmp/document_merge_service-6.2.0.tar.gz --markdown 20230711/d/document-merge-service/6.1.2-6.2.0/diff.md --exclude *.pyd
+[2023-07-11 16:00:48] INFO root fetch - processPackages [bqplot]: executing diffoscope
+[2023-07-11 16:00:48] INFO root fetch - processPackages [bqplot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bqplot-0.9.0b9.tar.gz tmp/bqplot-0.9.1.tar.gz --markdown 20230711/b/bqplot/0.9.0b9-0.9.1/diff.md --exclude *.pyd
+[2023-07-11 16:00:49] INFO root fetch - processPackages [ms-python-client]: Remove: archive file [/home/abi/fetcher/tmp/ms_python_client-1.0.2.tar.gz]
+[2023-07-11 16:00:49] INFO root fetch - processPackages [ms-python-client]: Remove: archive file [/home/abi/fetcher/tmp/ms_python_client-1.0.3.tar.gz]
+[2023-07-11 16:00:49] INFO root fetch - processPackages [ms-python-client]: Start processing: fhir-utils
+[2023-07-11 16:00:49] INFO root fetch - main [MainThread]: End processing [ms-python-client]: success
+[2023-07-11 16:00:49] INFO root fetch - processPackages [momositemaps]: Remove: archive file [/home/abi/fetcher/tmp/momositemaps-0.0.1.tar.gz]
+[2023-07-11 16:00:49] INFO root fetch - processPackages [momositemaps]: Remove: archive file [/home/abi/fetcher/tmp/momositemaps-0.0.2.tar.gz]
+[2023-07-11 16:00:49] INFO root fetch - processPackages [momositemaps]: Start processing: onnx2tf
+[2023-07-11 16:00:49] INFO root fetch - main [MainThread]: End processing [momositemaps]: success
+[2023-07-11 16:00:49] INFO root fetch - processPackages [FigureGenerator]: Remove: archive file [/home/abi/fetcher/tmp/FigureGenerator-0.0.3.tar.gz]
+[2023-07-11 16:00:49] INFO root fetch - processPackages [FigureGenerator]: Remove: archive file [/home/abi/fetcher/tmp/FigureGenerator-0.0.4.tar.gz]
+[2023-07-11 16:00:49] INFO root fetch - processPackages [FigureGenerator]: Start processing: kidash
+[2023-07-11 16:00:49] INFO root fetch - main [MainThread]: End processing [FigureGenerator]: success
+[2023-07-11 16:00:49] INFO root fetch - processPackages [jcci]: Remove: archive file [/home/abi/fetcher/tmp/jcci-0.0.8.tar.gz]
+[2023-07-11 16:00:49] INFO root fetch - processPackages [jcci]: Remove: archive file [/home/abi/fetcher/tmp/jcci-0.0.9.tar.gz]
+[2023-07-11 16:00:49] INFO root fetch - processPackages [jcci]: Start processing: selenium-remote
+[2023-07-11 16:00:49] INFO root fetch - main [MainThread]: End processing [jcci]: success
+[2023-07-11 16:00:49] WARNING root fetch - processPackages [fhir-utils]: Skipping, unable to determine old version
+[2023-07-11 16:00:49] INFO root fetch - processPackages [fhir-utils]: Start processing: grimoirelab-toolkit
+[2023-07-11 16:00:49] INFO root fetch - main [MainThread]: End processing [fhir-utils] error
+[2023-07-11 16:00:49] INFO root fetch - processPackages [onnx2tf]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-07-11 16:00:49] INFO root fetch - processPackages [grimoirelab-toolkit]: New version: [0.3.6rc1] Old Version: [0.3.5rc1]
+[2023-07-11 16:00:49] INFO root fetch - processPackages [kidash]: New version: [0.5.8rc1] Old Version: [0.5.7rc1]
+[2023-07-11 16:00:49] WARNING root fetch - processPackages [selenium-remote]: Skipping, unable to determine old version
+[2023-07-11 16:00:49] INFO root fetch - processPackages [selenium-remote]: Start processing: onnx2kerastl
+[2023-07-11 16:00:49] INFO root fetch - main [MainThread]: End processing [selenium-remote] error
+[2023-07-11 16:00:49] INFO root fetch - processPackages [onnx2kerastl]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-11 16:00:49] INFO root fetch - processPackages [stlog]: Remove: archive file [/home/abi/fetcher/tmp/stlog-0.1.2.tar.gz]
+[2023-07-11 16:00:49] INFO root fetch - processPackages [stlog]: Remove: archive file [/home/abi/fetcher/tmp/stlog-0.1.3.tar.gz]
+[2023-07-11 16:00:49] INFO root fetch - processPackages [stlog]: Start processing: dlcore
+[2023-07-11 16:00:49] INFO root fetch - main [MainThread]: End processing [stlog]: success
+[2023-07-11 16:00:49] INFO root fetch - processPackages [tensordict-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensordict_nightly-2023.7.8-cp39-cp39-win_amd64.whl.zip]
+[2023-07-11 16:00:49] INFO root fetch - processPackages [tensordict-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensordict_nightly-2023.7.9-cp39-cp39-win_amd64.whl.zip]
+[2023-07-11 16:00:49] INFO root fetch - main [MainThread]: End processing [tensordict-nightly]: success
+[2023-07-11 16:00:49] INFO root fetch - processPackages [kidash]: Downloading https://files.pythonhosted.org/packages/86/cb/52964106ec325c958254156859c58159c97f0d6401c101168043e7ce085c/kidash-0.5.7rc1.tar.gz
+[2023-07-11 16:00:49] ERROR root fetch - processPackages [dlcore]: Unable to get metadata: No such project 'dlcore'
+[2023-07-11 16:00:49] INFO root fetch - main [MainThread]: End processing [dlcore] error
+[2023-07-11 16:00:49] INFO root fetch - processPackages [onnx2kerastl]: Downloading https://files.pythonhosted.org/packages/56/30/4fe6a62a391b7a1f4849721540cb3c2ac08682ab3718cd0bf95ad8649005/onnx2kerastl-0.0.98.tar.gz
+[2023-07-11 16:00:49] INFO root fetch - processPackages [grimoirelab-toolkit]: Downloading https://files.pythonhosted.org/packages/4e/c8/a413bcb9c3e9f64cd25f1b1ec51b060e02dd4036facc8e93388f9a8b6e64/grimoirelab_toolkit-0.3.5rc1.tar.gz
+[2023-07-11 16:00:49] INFO root fetch - processPackages [onnx2tf]: Downloading https://files.pythonhosted.org/packages/6f/b3/519ee148592d2531639c5f3c1434df000ecf2c24a5b55b61cba8fd4767f9/onnx2tf-1.9.8.tar.gz
+[2023-07-11 16:00:49] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.8.6.dev14.tar.gz]
+[2023-07-11 16:00:49] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.8.6.dev15.tar.gz]
+[2023-07-11 16:00:49] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-07-11 16:00:49] INFO root fetch - processPackages [document-merge-service]: Remove: archive file [/home/abi/fetcher/tmp/document_merge_service-6.1.2.tar.gz]
+[2023-07-11 16:00:49] INFO root fetch - processPackages [document-merge-service]: Remove: archive file [/home/abi/fetcher/tmp/document_merge_service-6.2.0.tar.gz]
+[2023-07-11 16:00:49] INFO root fetch - main [MainThread]: End processing [document-merge-service]: success
+[2023-07-11 16:00:50] INFO root fetch - processPackages [domolibrary]: Remove: archive file [/home/abi/fetcher/tmp/domolibrary-0.1.98.tar.gz]
+[2023-07-11 16:00:50] INFO root fetch - processPackages [domolibrary]: Remove: archive file [/home/abi/fetcher/tmp/domolibrary-0.1.99.tar.gz]
+[2023-07-11 16:00:50] INFO root fetch - main [MainThread]: End processing [domolibrary]: success
+[2023-07-11 16:00:50] INFO root fetch - processPackages [onnx2kerastl]: Downloading https://files.pythonhosted.org/packages/42/31/7e8fff9b0c93088de0c4c5543ffd14e079e872d9a350b1b6f99febee59e8/onnx2kerastl-0.0.99.tar.gz
+[2023-07-11 16:00:50] INFO root fetch - processPackages [kidash]: Downloading https://files.pythonhosted.org/packages/dd/85/50e7f036b68a7d4930fcf18f06e413aea4dd70b2947f806dd87190740177/kidash-0.5.8rc1.tar.gz
+[2023-07-11 16:00:50] INFO root fetch - processPackages [onnx2kerastl]: executing diffoscope
+[2023-07-11 16:00:50] INFO root fetch - processPackages [onnx2kerastl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnx2kerastl-0.0.98.tar.gz tmp/onnx2kerastl-0.0.99.tar.gz --markdown 20230711/o/onnx2kerastl/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-11 16:00:50] INFO root fetch - processPackages [grimoirelab-toolkit]: Downloading https://files.pythonhosted.org/packages/25/2c/f9cce724e3735186027fffcdcd50cdb6a7406d58670da60237c39f651dbb/grimoirelab_toolkit-0.3.6rc1.tar.gz
+[2023-07-11 16:00:50] INFO root fetch - processPackages [kidash]: executing diffoscope
+[2023-07-11 16:00:50] INFO root fetch - processPackages [kidash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kidash-0.5.7rc1.tar.gz tmp/kidash-0.5.8rc1.tar.gz --markdown 20230711/k/kidash/0.5.7rc1-0.5.8rc1/diff.md --exclude *.pyd
+[2023-07-11 16:00:50] INFO root fetch - processPackages [onnx2tf]: Downloading https://files.pythonhosted.org/packages/0e/df/e0c6978b06db6c5c04de100ecbe0bbb281caed31c4dd88663e61e36ca571/onnx2tf-1.9.9.tar.gz
+[2023-07-11 16:00:50] INFO root fetch - processPackages [grimoirelab-toolkit]: executing diffoscope
+[2023-07-11 16:00:50] INFO root fetch - processPackages [grimoirelab-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grimoirelab_toolkit-0.3.5rc1.tar.gz tmp/grimoirelab_toolkit-0.3.6rc1.tar.gz --markdown 20230711/g/grimoirelab-toolkit/0.3.5rc1-0.3.6rc1/diff.md --exclude *.pyd
+[2023-07-11 16:00:50] INFO root fetch - processPackages [onnx2tf]: executing diffoscope
+[2023-07-11 16:00:50] INFO root fetch - processPackages [onnx2tf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnx2tf-1.9.8.tar.gz tmp/onnx2tf-1.9.9.tar.gz --markdown 20230711/o/onnx2tf/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-07-11 16:00:51] INFO root fetch - processPackages [kidash]: Remove: archive file [/home/abi/fetcher/tmp/kidash-0.5.7rc1.tar.gz]
+[2023-07-11 16:00:51] INFO root fetch - processPackages [kidash]: Remove: archive file [/home/abi/fetcher/tmp/kidash-0.5.8rc1.tar.gz]
+[2023-07-11 16:00:51] INFO root fetch - main [MainThread]: End processing [kidash]: success
+[2023-07-11 16:00:51] INFO root fetch - processPackages [onnx2kerastl]: Remove: archive file [/home/abi/fetcher/tmp/onnx2kerastl-0.0.98.tar.gz]
+[2023-07-11 16:00:51] INFO root fetch - processPackages [onnx2kerastl]: Remove: archive file [/home/abi/fetcher/tmp/onnx2kerastl-0.0.99.tar.gz]
+[2023-07-11 16:00:51] INFO root fetch - main [MainThread]: End processing [onnx2kerastl]: success
+[2023-07-11 16:00:51] INFO root fetch - processPackages [grimoirelab-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/grimoirelab_toolkit-0.3.5rc1.tar.gz]
+[2023-07-11 16:00:51] INFO root fetch - processPackages [grimoirelab-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/grimoirelab_toolkit-0.3.6rc1.tar.gz]
+[2023-07-11 16:00:51] INFO root fetch - main [MainThread]: End processing [grimoirelab-toolkit]: success
+[2023-07-11 16:00:52] INFO root fetch - processPackages [onnx2tf]: Remove: archive file [/home/abi/fetcher/tmp/onnx2tf-1.9.8.tar.gz]
+[2023-07-11 16:00:52] INFO root fetch - processPackages [onnx2tf]: Remove: archive file [/home/abi/fetcher/tmp/onnx2tf-1.9.9.tar.gz]
+[2023-07-11 16:00:52] INFO root fetch - main [MainThread]: End processing [onnx2tf]: success
+[2023-07-11 16:00:55] INFO root fetch - processPackages [bqplot]: Remove: archive file [/home/abi/fetcher/tmp/bqplot-0.9.0b9.tar.gz]
+[2023-07-11 16:00:55] INFO root fetch - processPackages [bqplot]: Remove: archive file [/home/abi/fetcher/tmp/bqplot-0.9.1.tar.gz]
+[2023-07-11 16:00:55] INFO root fetch - main [MainThread]: End processing [bqplot]: success
+[2023-07-11 16:00:55] INFO root fetch - main [MainThread]: Store serial: [18846276]
