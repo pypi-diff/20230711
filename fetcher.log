@@ -9724,3 +9724,42 @@ AssertionError: tmp/doctran-0.0.6.tar.gz does not exist
 [2023-07-11 06:43:04] INFO root fetch - processPackages [jk-version]: Remove: archive file [/home/abi/fetcher/tmp/jk_version-0.2023.7.11.tar.gz]
 [2023-07-11 06:43:04] INFO root fetch - main [MainThread]: End processing [jk-version]: success
 [2023-07-11 06:43:04] INFO root fetch - main [MainThread]: Store serial: [18840917]
+[2023-07-11 06:48:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18840917]
+[2023-07-11 06:48:13] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-11 06:48:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pinject-design
+[2023-07-11 06:48:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: deepchem
+[2023-07-11 06:48:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: card91-python-package
+[2023-07-11 06:48:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aitomatic
+[2023-07-11 06:48:13] INFO root fetch - processPackages [card91-python-package]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-11 06:48:13] INFO root fetch - processPackages [aitomatic]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-07-11 06:48:13] INFO root fetch - processPackages [pinject-design]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-11 06:48:13] INFO root fetch - processPackages [deepchem]: New version: [2.7.2.dev20230711044341] Old Version: [2.7.2.dev20230710190635]
+[2023-07-11 06:48:14] INFO root fetch - processPackages [aitomatic]: Downloading https://files.pythonhosted.org/packages/e8/0d/eb2a04c057ffc615622f7d9ff1a3ef989e78697d416141333e6266d53b9a/aitomatic-1.3.0.tar.gz
+[2023-07-11 06:48:14] INFO root fetch - processPackages [deepchem]: Downloading https://files.pythonhosted.org/packages/b2/a3/cc9bfed76ba35a33b62fc78327748891e4f6014e861a49d8d254440a34d9/deepchem-2.7.2.dev20230710190635.tar.gz
+[2023-07-11 06:48:14] INFO root fetch - processPackages [card91-python-package]: Downloading https://files.pythonhosted.org/packages/2f/84/6584f7c6923b08458d117ccc824b7503b44ef562d9f806d13b215deccb74/card91_python_package-0.0.1.tar.gz
+[2023-07-11 06:48:14] INFO root fetch - processPackages [pinject-design]: Downloading https://files.pythonhosted.org/packages/5f/f2/6f47beb8ae7800164b86a0ca180efa5ad86edb3b1419d97531dddcc0c026/pinject-design-0.1.8.tar.gz
+[2023-07-11 06:48:14] INFO root fetch - processPackages [aitomatic]: Downloading https://files.pythonhosted.org/packages/8c/81/d0517299cf6cde4e192783dfbab596514d26562a5138e652d1a4ffca2ee7/aitomatic-1.3.1.tar.gz
+[2023-07-11 06:48:14] INFO root fetch - processPackages [card91-python-package]: Downloading https://files.pythonhosted.org/packages/19/23/af0d41bc729949954856fcff6bc1149ca04627ddea83d30f4d70351bc3a5/card91_python_package-0.0.2.tar.gz
+[2023-07-11 06:48:14] INFO root fetch - processPackages [deepchem]: Downloading https://files.pythonhosted.org/packages/10/90/52a19f31d630a96187e0c4b2cf69cf89907dbb082cc405de0acd2f2000c8/deepchem-2.7.2.dev20230711044341.tar.gz
+[2023-07-11 06:48:14] INFO root fetch - processPackages [aitomatic]: executing diffoscope
+[2023-07-11 06:48:14] INFO root fetch - processPackages [aitomatic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aitomatic-1.3.0.tar.gz tmp/aitomatic-1.3.1.tar.gz --markdown 20230711/a/aitomatic/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-07-11 06:48:14] INFO root fetch - processPackages [pinject-design]: Downloading https://files.pythonhosted.org/packages/52/12/a13d2115034630043d98ad1bf73e273115201ee763cd0fd21c61df995b87/pinject-design-0.1.9.tar.gz
+[2023-07-11 06:48:14] INFO root fetch - processPackages [card91-python-package]: executing diffoscope
+[2023-07-11 06:48:14] INFO root fetch - processPackages [card91-python-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/card91_python_package-0.0.1.tar.gz tmp/card91_python_package-0.0.2.tar.gz --markdown 20230711/c/card91-python-package/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-11 06:48:14] INFO root fetch - processPackages [deepchem]: executing diffoscope
+[2023-07-11 06:48:14] INFO root fetch - processPackages [deepchem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepchem-2.7.2.dev20230710190635.tar.gz tmp/deepchem-2.7.2.dev20230711044341.tar.gz --markdown 20230711/d/deepchem/2.7.2.dev20230710190635-2.7.2.dev20230711044341/diff.md --exclude *.pyd
+[2023-07-11 06:48:14] INFO root fetch - processPackages [pinject-design]: executing diffoscope
+[2023-07-11 06:48:14] INFO root fetch - processPackages [pinject-design]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pinject-design-0.1.8.tar.gz tmp/pinject-design-0.1.9.tar.gz --markdown 20230711/p/pinject-design/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-11 06:48:15] INFO root fetch - processPackages [card91-python-package]: Remove: archive file [/home/abi/fetcher/tmp/card91_python_package-0.0.1.tar.gz]
+[2023-07-11 06:48:15] INFO root fetch - processPackages [card91-python-package]: Remove: archive file [/home/abi/fetcher/tmp/card91_python_package-0.0.2.tar.gz]
+[2023-07-11 06:48:15] INFO root fetch - main [MainThread]: End processing [card91-python-package]: success
+[2023-07-11 06:48:15] INFO root fetch - processPackages [aitomatic]: Remove: archive file [/home/abi/fetcher/tmp/aitomatic-1.3.0.tar.gz]
+[2023-07-11 06:48:15] INFO root fetch - processPackages [aitomatic]: Remove: archive file [/home/abi/fetcher/tmp/aitomatic-1.3.1.tar.gz]
+[2023-07-11 06:48:15] INFO root fetch - main [MainThread]: End processing [aitomatic]: success
+[2023-07-11 06:48:15] INFO root fetch - processPackages [pinject-design]: Remove: archive file [/home/abi/fetcher/tmp/pinject-design-0.1.8.tar.gz]
+[2023-07-11 06:48:15] INFO root fetch - processPackages [pinject-design]: Remove: archive file [/home/abi/fetcher/tmp/pinject-design-0.1.9.tar.gz]
+[2023-07-11 06:48:15] INFO root fetch - main [MainThread]: End processing [pinject-design]: success
+[2023-07-11 06:48:16] INFO root fetch - processPackages [deepchem]: Remove: archive file [/home/abi/fetcher/tmp/deepchem-2.7.2.dev20230710190635.tar.gz]
+[2023-07-11 06:48:16] INFO root fetch - processPackages [deepchem]: Remove: archive file [/home/abi/fetcher/tmp/deepchem-2.7.2.dev20230711044341.tar.gz]
+[2023-07-11 06:48:16] INFO root fetch - main [MainThread]: End processing [deepchem]: success
+[2023-07-11 06:48:16] INFO root fetch - main [MainThread]: Store serial: [18840928]
