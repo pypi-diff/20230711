@@ -17060,3 +17060,104 @@ AssertionError: tmp/doctran-0.0.6.tar.gz does not exist
 [2023-07-11 12:39:44] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307102057-py3-none-any.whl.zip]
 [2023-07-11 12:39:44] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-07-11 12:39:44] INFO root fetch - main [MainThread]: Store serial: [18843921]
+[2023-07-11 12:44:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18843921]
+[2023-07-11 12:44:53] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-11 12:44:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: papertronics-sdk
+[2023-07-11 12:44:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fastchecks
+[2023-07-11 12:44:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyoxynet
+[2023-07-11 12:44:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kfish
+[2023-07-11 12:44:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-ddmrp
+[2023-07-11 12:44:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pixel-collect
+[2023-07-11 12:44:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: quao
+[2023-07-11 12:44:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: eccodes
+[2023-07-11 12:44:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: doubleblind
+[2023-07-11 12:44:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: scida
+[2023-07-11 12:44:53] INFO root fetch - processPackages [fastchecks]: New version: [0.2.0] Old Version: [0.1.0rc8]
+[2023-07-11 12:44:53] INFO root fetch - processPackages [odoo14-addon-ddmrp]: New version: [14.0.1.9.1.dev1] Old Version: [14.0.1.9.0]
+[2023-07-11 12:44:53] INFO root fetch - processPackages [papertronics-sdk]: New version: [0.0.27] Old Version: [0.0.26]
+[2023-07-11 12:44:53] WARNING root fetch - processPackages [pixel-collect]: Skipping, unable to determine old version
+[2023-07-11 12:44:53] INFO root fetch - processPackages [pixel-collect]: Start processing: nonebot-plugin-splatoon3
+[2023-07-11 12:44:53] INFO root fetch - main [MainThread]: End processing [pixel-collect] error
+[2023-07-11 12:44:53] INFO root fetch - processPackages [scida]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-11 12:44:53] INFO root fetch - processPackages [doubleblind]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-11 12:44:53] INFO root fetch - processPackages [quao]: New version: [0.3.0] Old Version: [0.2.9]
+[2023-07-11 12:44:53] INFO root fetch - processPackages [eccodes]: New version: [1.6.0] Old Version: [1.5.2]
+[2023-07-11 12:44:53] INFO root fetch - processPackages [pyoxynet]: New version: [0.0.9.9] Old Version: [0.0.9.8]
+[2023-07-11 12:44:53] INFO root fetch - processPackages [kfish]: New version: [99.0.202307111042] Old Version: [99.0.202307102059]
+[2023-07-11 12:44:53] INFO root fetch - processPackages [nonebot-plugin-splatoon3]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-07-11 12:44:53] INFO root fetch - processPackages [fastchecks]: Downloading https://files.pythonhosted.org/packages/41/57/97ff03c6e26ad5b7038f03e83bcdd7b40d2181363f9a796ec6defbd4970f/fastchecks-0.1.0rc8.tar.gz
+[2023-07-11 12:44:53] INFO root fetch - processPackages [papertronics-sdk]: Downloading https://files.pythonhosted.org/packages/3b/7d/bfc7b3c7e64602d5e45985ae098847e0fc31ba44926a1e9dbb11e01e4728/papertronics-sdk-0.0.26.tar.gz
+[2023-07-11 12:44:53] INFO root fetch - processPackages [odoo14-addon-ddmrp]: Downloading https://files.pythonhosted.org/packages/92/c5/5cc91e541a0dfd7e1a564e2754c43b3bf8dad8a3f510617e8a7c737dd29e/odoo14_addon_ddmrp-14.0.1.9.0-py3-none-any.whl
+[2023-07-11 12:44:53] INFO root fetch - processPackages [scida]: Downloading https://files.pythonhosted.org/packages/8a/87/cb0d115f4abcfd508f96d6b15d1047dbfee2901e678542ee3008ff79303e/scida-0.2.1.tar.gz
+[2023-07-11 12:44:53] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/b9/f2/9a1dcbb4afc7f12db257f8d8df89a7bd5f23033bbc517fc75ade10a3b998/kfish-99.0.202307102059-py3-none-any.whl
+[2023-07-11 12:44:53] INFO root fetch - processPackages [pyoxynet]: Downloading https://files.pythonhosted.org/packages/b0/fc/515fba70151d23e2002eff3cb89de86f3323f2de498b24ac5634ad424107/pyoxynet-0.0.9.8.tar.gz
+[2023-07-11 12:44:53] INFO root fetch - processPackages [quao]: Downloading https://files.pythonhosted.org/packages/71/09/bd8cda58d91a73371f9e83c0e98473af677f6309c58284adcb968c002aa8/quao-0.2.9.tar.gz
+[2023-07-11 12:44:53] INFO root fetch - processPackages [eccodes]: Downloading https://files.pythonhosted.org/packages/af/b9/57d55d70ca6fbf9ce8dc096904d6bd4984d6eaacfff20c771245d99e1f1b/eccodes-1.5.2.tar.gz
+[2023-07-11 12:44:53] INFO root fetch - processPackages [doubleblind]: Downloading https://files.pythonhosted.org/packages/7a/96/4773bd57135e1a15639659d0c5bb61cb4fd6986d8f43b9033a56e5c5b2d5/doubleblind-1.0.0.tar.gz
+[2023-07-11 12:44:53] INFO root fetch - processPackages [nonebot-plugin-splatoon3]: Downloading https://files.pythonhosted.org/packages/23/5d/fb79308429988d4fd472a36b94f584285f0c518599eb8252518d354e787b/nonebot_plugin_splatoon3-1.1.4.tar.gz
+[2023-07-11 12:44:53] INFO root fetch - processPackages [papertronics-sdk]: Downloading https://files.pythonhosted.org/packages/28/18/94889a016dd5d8a9b83132b405a64c59a1dde30f8f4e95ac614ceccd0281/papertronics-sdk-0.0.27.tar.gz
+[2023-07-11 12:44:53] WARNING root fetch - processPackages [nonebot-plugin-splatoon3]: Skipping package: exceeds size limit 49045263>=10485760
+[2023-07-11 12:44:53] INFO root fetch - processPackages [nonebot-plugin-splatoon3]: Start processing: mlbi-at-dku-lib
+[2023-07-11 12:44:53] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-splatoon3] error
+[2023-07-11 12:44:53] INFO root fetch - processPackages [fastchecks]: Downloading https://files.pythonhosted.org/packages/11/7b/2a1f50fb12ae93d34de28afbd66aa5525a410f026d1d377547aee71a5f4a/fastchecks-0.2.0.tar.gz
+[2023-07-11 12:44:54] INFO root fetch - processPackages [odoo14-addon-ddmrp]: Downloading https://files.pythonhosted.org/packages/47/ef/92f082c955236c0b4ec84ba6f9e93d400901d2b87e31d1399f2d4e310029/odoo14_addon_ddmrp-14.0.1.9.1.dev1-py3-none-any.whl
+[2023-07-11 12:44:54] INFO root fetch - processPackages [mlbi-at-dku-lib]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-07-11 12:44:54] INFO root fetch - processPackages [scida]: Downloading https://files.pythonhosted.org/packages/85/19/cba42730d4c7e45a235bc1534ab12f2d5b5f61103f43289af07ce37555d9/scida-0.2.2.tar.gz
+[2023-07-11 12:44:54] INFO root fetch - processPackages [mlbi-at-dku-lib]: Downloading https://files.pythonhosted.org/packages/66/67/a694812ab665a466963ca747a296a4c3fd4351f13686a894ca2af79b9efd/mlbi_at_dku_lib-0.2.4.tar.gz
+[2023-07-11 12:44:54] INFO root fetch - processPackages [odoo14-addon-ddmrp]: executing diffoscope
+[2023-07-11 12:44:54] INFO root fetch - processPackages [odoo14-addon-ddmrp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_ddmrp-14.0.1.9.0-py3-none-any.whl.zip tmp/odoo14_addon_ddmrp-14.0.1.9.1.dev1-py3-none-any.whl.zip --markdown 20230711/o/odoo14-addon-ddmrp/14.0.1.9.0-14.0.1.9.1.dev1/diff.md --exclude *.pyd
+[2023-07-11 12:44:54] INFO root fetch - processPackages [papertronics-sdk]: executing diffoscope
+[2023-07-11 12:44:54] INFO root fetch - processPackages [papertronics-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/papertronics-sdk-0.0.26.tar.gz tmp/papertronics-sdk-0.0.27.tar.gz --markdown 20230711/p/papertronics-sdk/0.0.26-0.0.27/diff.md --exclude *.pyd
+[2023-07-11 12:44:54] INFO root fetch - processPackages [quao]: Downloading https://files.pythonhosted.org/packages/85/1c/6ac8e0e92db9bbfbcae49d5b2bddab1e9dccaa82b6cde636db4fced44f5d/quao-0.3.0.tar.gz
+[2023-07-11 12:44:54] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/03/82/09ec501e9d6e3a886f457c915fb2710f0a8807e5d5acd3b9d62f1cde5682/kfish-99.0.202307111042-py3-none-any.whl
+[2023-07-11 12:44:54] INFO root fetch - processPackages [doubleblind]: Downloading https://files.pythonhosted.org/packages/25/fa/57729bea5efd68b88e0dcd2ff15f6ed22f85595069dfb0e70defafaefde0/doubleblind-1.0.1.tar.gz
+[2023-07-11 12:44:54] INFO root fetch - processPackages [fastchecks]: executing diffoscope
+[2023-07-11 12:44:54] INFO root fetch - processPackages [fastchecks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastchecks-0.1.0rc8.tar.gz tmp/fastchecks-0.2.0.tar.gz --markdown 20230711/f/fastchecks/0.1.0rc8-0.2.0/diff.md --exclude *.pyd
+[2023-07-11 12:44:54] INFO root fetch - processPackages [scida]: executing diffoscope
+[2023-07-11 12:44:54] INFO root fetch - processPackages [scida]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scida-0.2.1.tar.gz tmp/scida-0.2.2.tar.gz --markdown 20230711/s/scida/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-11 12:44:54] INFO root fetch - processPackages [quao]: executing diffoscope
+[2023-07-11 12:44:54] INFO root fetch - processPackages [quao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quao-0.2.9.tar.gz tmp/quao-0.3.0.tar.gz --markdown 20230711/q/quao/0.2.9-0.3.0/diff.md --exclude *.pyd
+[2023-07-11 12:44:54] INFO root fetch - processPackages [eccodes]: Downloading https://files.pythonhosted.org/packages/f5/4c/8a3c62a4f055b13d407b28d9073fef771127c2f80999380fd09464bdb836/eccodes-1.6.0.tar.gz
+[2023-07-11 12:44:54] INFO root fetch - processPackages [doubleblind]: executing diffoscope
+[2023-07-11 12:44:54] INFO root fetch - processPackages [doubleblind]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/doubleblind-1.0.0.tar.gz tmp/doubleblind-1.0.1.tar.gz --markdown 20230711/d/doubleblind/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-11 12:44:54] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-07-11 12:44:54] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202307102059-py3-none-any.whl.zip tmp/kfish-99.0.202307111042-py3-none-any.whl.zip --markdown 20230711/k/kfish/99.0.202307102059-99.0.202307111042/diff.md --exclude *.pyd
+[2023-07-11 12:44:54] INFO root fetch - processPackages [pyoxynet]: Downloading https://files.pythonhosted.org/packages/41/8b/2c3056a7fa525137845d730655c8ebdc5f75e1a43909a910d81142b5a885/pyoxynet-0.0.9.9.tar.gz
+[2023-07-11 12:44:54] INFO root fetch - processPackages [eccodes]: executing diffoscope
+[2023-07-11 12:44:54] INFO root fetch - processPackages [eccodes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eccodes-1.5.2.tar.gz tmp/eccodes-1.6.0.tar.gz --markdown 20230711/e/eccodes/1.5.2-1.6.0/diff.md --exclude *.pyd
+[2023-07-11 12:44:54] INFO root fetch - processPackages [mlbi-at-dku-lib]: Downloading https://files.pythonhosted.org/packages/35/82/6173c866ce153a468f677358bef5e57c1e22a09b5be39538aa0856e51671/mlbi_at_dku_lib-0.2.5.tar.gz
+[2023-07-11 12:44:55] INFO root fetch - processPackages [mlbi-at-dku-lib]: executing diffoscope
+[2023-07-11 12:44:55] INFO root fetch - processPackages [mlbi-at-dku-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlbi_at_dku_lib-0.2.4.tar.gz tmp/mlbi_at_dku_lib-0.2.5.tar.gz --markdown 20230711/m/mlbi-at-dku-lib/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-07-11 12:44:55] INFO root fetch - processPackages [pyoxynet]: executing diffoscope
+[2023-07-11 12:44:55] INFO root fetch - processPackages [pyoxynet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyoxynet-0.0.9.8.tar.gz tmp/pyoxynet-0.0.9.9.tar.gz --markdown 20230711/p/pyoxynet/0.0.9.8-0.0.9.9/diff.md --exclude *.pyd
+[2023-07-11 12:44:55] INFO root fetch - processPackages [fastchecks]: Remove: archive file [/home/abi/fetcher/tmp/fastchecks-0.1.0rc8.tar.gz]
+[2023-07-11 12:44:55] INFO root fetch - processPackages [fastchecks]: Remove: archive file [/home/abi/fetcher/tmp/fastchecks-0.2.0.tar.gz]
+[2023-07-11 12:44:55] INFO root fetch - main [MainThread]: End processing [fastchecks]: success
+[2023-07-11 12:44:55] INFO root fetch - processPackages [papertronics-sdk]: Remove: archive file [/home/abi/fetcher/tmp/papertronics-sdk-0.0.26.tar.gz]
+[2023-07-11 12:44:55] INFO root fetch - processPackages [papertronics-sdk]: Remove: archive file [/home/abi/fetcher/tmp/papertronics-sdk-0.0.27.tar.gz]
+[2023-07-11 12:44:55] INFO root fetch - main [MainThread]: End processing [papertronics-sdk]: success
+[2023-07-11 12:44:55] INFO root fetch - processPackages [quao]: Remove: archive file [/home/abi/fetcher/tmp/quao-0.2.9.tar.gz]
+[2023-07-11 12:44:55] INFO root fetch - processPackages [quao]: Remove: archive file [/home/abi/fetcher/tmp/quao-0.3.0.tar.gz]
+[2023-07-11 12:44:55] INFO root fetch - main [MainThread]: End processing [quao]: success
+[2023-07-11 12:44:56] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202307102059-py3-none-any.whl.zip]
+[2023-07-11 12:44:56] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202307111042-py3-none-any.whl.zip]
+[2023-07-11 12:44:56] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-07-11 12:44:56] INFO root fetch - processPackages [scida]: Remove: archive file [/home/abi/fetcher/tmp/scida-0.2.1.tar.gz]
+[2023-07-11 12:44:56] INFO root fetch - processPackages [scida]: Remove: archive file [/home/abi/fetcher/tmp/scida-0.2.2.tar.gz]
+[2023-07-11 12:44:56] INFO root fetch - main [MainThread]: End processing [scida]: success
+[2023-07-11 12:44:56] INFO root fetch - processPackages [doubleblind]: Remove: archive file [/home/abi/fetcher/tmp/doubleblind-1.0.0.tar.gz]
+[2023-07-11 12:44:56] INFO root fetch - processPackages [doubleblind]: Remove: archive file [/home/abi/fetcher/tmp/doubleblind-1.0.1.tar.gz]
+[2023-07-11 12:44:56] INFO root fetch - main [MainThread]: End processing [doubleblind]: success
+[2023-07-11 12:44:56] INFO root fetch - processPackages [odoo14-addon-ddmrp]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ddmrp-14.0.1.9.0-py3-none-any.whl.zip]
+[2023-07-11 12:44:56] INFO root fetch - processPackages [odoo14-addon-ddmrp]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ddmrp-14.0.1.9.1.dev1-py3-none-any.whl.zip]
+[2023-07-11 12:44:56] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ddmrp]: success
+[2023-07-11 12:44:56] INFO root fetch - processPackages [eccodes]: Remove: archive file [/home/abi/fetcher/tmp/eccodes-1.5.2.tar.gz]
+[2023-07-11 12:44:56] INFO root fetch - processPackages [eccodes]: Remove: archive file [/home/abi/fetcher/tmp/eccodes-1.6.0.tar.gz]
+[2023-07-11 12:44:56] INFO root fetch - main [MainThread]: End processing [eccodes]: success
+[2023-07-11 12:44:57] INFO root fetch - processPackages [pyoxynet]: Remove: archive file [/home/abi/fetcher/tmp/pyoxynet-0.0.9.8.tar.gz]
+[2023-07-11 12:44:57] INFO root fetch - processPackages [pyoxynet]: Remove: archive file [/home/abi/fetcher/tmp/pyoxynet-0.0.9.9.tar.gz]
+[2023-07-11 12:44:57] INFO root fetch - main [MainThread]: End processing [pyoxynet]: success
+[2023-07-11 12:44:59] INFO root fetch - processPackages [mlbi-at-dku-lib]: Remove: archive file [/home/abi/fetcher/tmp/mlbi_at_dku_lib-0.2.4.tar.gz]
+[2023-07-11 12:44:59] INFO root fetch - processPackages [mlbi-at-dku-lib]: Remove: archive file [/home/abi/fetcher/tmp/mlbi_at_dku_lib-0.2.5.tar.gz]
+[2023-07-11 12:44:59] INFO root fetch - main [MainThread]: End processing [mlbi-at-dku-lib]: success
+[2023-07-11 12:44:59] INFO root fetch - main [MainThread]: Store serial: [18843958]
