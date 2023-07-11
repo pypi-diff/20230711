@@ -11902,3 +11902,51 @@ AssertionError: tmp/doctran-0.0.6.tar.gz does not exist
 [2023-07-11 09:14:49] INFO root fetch - processPackages [oceanum]: Remove: archive file [/home/abi/fetcher/tmp/oceanum-0.7.9.tar.gz]
 [2023-07-11 09:14:49] INFO root fetch - main [MainThread]: End processing [oceanum]: success
 [2023-07-11 09:14:49] INFO root fetch - main [MainThread]: Store serial: [18841810]
+[2023-07-11 09:19:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18841810]
+[2023-07-11 09:19:57] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-11 09:19:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gpt4-api
+[2023-07-11 09:19:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aioesphomeapi
+[2023-07-11 09:19:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bolt11
+[2023-07-11 09:19:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: steampunk-spotter
+[2023-07-11 09:19:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: orquestra-sdk
+[2023-07-11 09:19:57] INFO root fetch - processPackages [gpt4-api]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-11 09:19:57] INFO root fetch - processPackages [bolt11]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-11 09:19:57] INFO root fetch - processPackages [aioesphomeapi]: New version: [9.1.5] Old Version: [9.1.4]
+[2023-07-11 09:19:57] INFO root fetch - processPackages [steampunk-spotter]: New version: [2.1.0a1] Old Version: [2.0.3rc1]
+[2023-07-11 09:19:57] INFO root fetch - processPackages [orquestra-sdk]: New version: [0.52.0] Old Version: [0.51.0]
+[2023-07-11 09:19:57] INFO root fetch - processPackages [bolt11]: Downloading https://files.pythonhosted.org/packages/9c/34/bf85f654746f530fa824e0e3f7bff601e2ea4f67bc2a7ec1245945e7ae5e/bolt11-1.0.1.tar.gz
+[2023-07-11 09:19:58] INFO root fetch - processPackages [gpt4-api]: Downloading https://files.pythonhosted.org/packages/40/b4/f1a8a0e1cba89c9fd7b0f5e90d6fc6dfab82dde7f699a795660af0ab1289/gpt4-api-0.2.2.tar.gz
+[2023-07-11 09:19:58] INFO root fetch - processPackages [steampunk-spotter]: Downloading https://files.pythonhosted.org/packages/43/45/9148624303bfbcc4ec37149770a561a05c349123d704cf6e7dca5d15d312/steampunk_spotter-2.0.3rc1-py3-none-any.whl
+[2023-07-11 09:19:58] INFO root fetch - processPackages [aioesphomeapi]: Downloading https://files.pythonhosted.org/packages/62/7f/d2cc3b95dfe936bbad8f3956f274147389d6625de031d1105261491bffd9/aioesphomeapi-9.1.4.tar.gz
+[2023-07-11 09:19:58] INFO root fetch - processPackages [orquestra-sdk]: Downloading https://files.pythonhosted.org/packages/2c/e8/254e4588f8432aeeea0b320c89b11bdd4d78c2827db5005e1efc638d5dd2/orquestra_sdk-0.51.0-py3-none-any.whl
+[2023-07-11 09:19:58] INFO root fetch - processPackages [bolt11]: Downloading https://files.pythonhosted.org/packages/8e/e8/78b6225646c1a671635f0ff6f843c7325bbc3bcd613b63234b1961c49d76/bolt11-1.0.2.tar.gz
+[2023-07-11 09:19:58] INFO root fetch - processPackages [bolt11]: executing diffoscope
+[2023-07-11 09:19:58] INFO root fetch - processPackages [bolt11]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bolt11-1.0.1.tar.gz tmp/bolt11-1.0.2.tar.gz --markdown 20230711/b/bolt11/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-11 09:19:58] INFO root fetch - processPackages [gpt4-api]: Downloading https://files.pythonhosted.org/packages/6e/10/deaed0596f47dd9a75e09006a0842cc85190783795dedc3d8af064331373/gpt4-api-0.2.3.tar.gz
+[2023-07-11 09:19:58] INFO root fetch - processPackages [gpt4-api]: executing diffoscope
+[2023-07-11 09:19:58] INFO root fetch - processPackages [gpt4-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt4-api-0.2.2.tar.gz tmp/gpt4-api-0.2.3.tar.gz --markdown 20230711/g/gpt4-api/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-11 09:19:58] INFO root fetch - processPackages [aioesphomeapi]: Downloading https://files.pythonhosted.org/packages/95/57/381c894380ec58a8c891a923696dc0d97d7af266921f326f942ec3332685/aioesphomeapi-9.1.5.tar.gz
+[2023-07-11 09:19:58] INFO root fetch - processPackages [aioesphomeapi]: executing diffoscope
+[2023-07-11 09:19:58] INFO root fetch - processPackages [aioesphomeapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioesphomeapi-9.1.4.tar.gz tmp/aioesphomeapi-9.1.5.tar.gz --markdown 20230711/a/aioesphomeapi/9.1.4-9.1.5/diff.md --exclude *.pyd
+[2023-07-11 09:19:58] INFO root fetch - processPackages [orquestra-sdk]: Downloading https://files.pythonhosted.org/packages/91/45/1ef16ad4972ddf417419dd7f2928b2c361ee6d09142c7d0cb1a21bdecdba/orquestra_sdk-0.52.0-py3-none-any.whl
+[2023-07-11 09:19:58] INFO root fetch - processPackages [orquestra-sdk]: executing diffoscope
+[2023-07-11 09:19:58] INFO root fetch - processPackages [orquestra-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orquestra_sdk-0.51.0-py3-none-any.whl.zip tmp/orquestra_sdk-0.52.0-py3-none-any.whl.zip --markdown 20230711/o/orquestra-sdk/0.51.0-0.52.0/diff.md --exclude *.pyd
+[2023-07-11 09:19:58] INFO root fetch - processPackages [steampunk-spotter]: Downloading https://files.pythonhosted.org/packages/37/70/c61e99f794957b6a8b9b44b09489759d84266131cef3bf6f3244ee2f20bb/steampunk_spotter-2.1.0a1-py3-none-any.whl
+[2023-07-11 09:19:59] INFO root fetch - processPackages [steampunk-spotter]: executing diffoscope
+[2023-07-11 09:19:59] INFO root fetch - processPackages [steampunk-spotter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/steampunk_spotter-2.0.3rc1-py3-none-any.whl.zip tmp/steampunk_spotter-2.1.0a1-py3-none-any.whl.zip --markdown 20230711/s/steampunk-spotter/2.0.3rc1-2.1.0a1/diff.md --exclude *.pyd
+[2023-07-11 09:19:59] INFO root fetch - processPackages [bolt11]: Remove: archive file [/home/abi/fetcher/tmp/bolt11-1.0.1.tar.gz]
+[2023-07-11 09:19:59] INFO root fetch - processPackages [bolt11]: Remove: archive file [/home/abi/fetcher/tmp/bolt11-1.0.2.tar.gz]
+[2023-07-11 09:19:59] INFO root fetch - main [MainThread]: End processing [bolt11]: success
+[2023-07-11 09:19:59] INFO root fetch - processPackages [gpt4-api]: Remove: archive file [/home/abi/fetcher/tmp/gpt4-api-0.2.2.tar.gz]
+[2023-07-11 09:19:59] INFO root fetch - processPackages [gpt4-api]: Remove: archive file [/home/abi/fetcher/tmp/gpt4-api-0.2.3.tar.gz]
+[2023-07-11 09:19:59] INFO root fetch - main [MainThread]: End processing [gpt4-api]: success
+[2023-07-11 09:19:59] INFO root fetch - processPackages [aioesphomeapi]: Remove: archive file [/home/abi/fetcher/tmp/aioesphomeapi-9.1.4.tar.gz]
+[2023-07-11 09:19:59] INFO root fetch - processPackages [aioesphomeapi]: Remove: archive file [/home/abi/fetcher/tmp/aioesphomeapi-9.1.5.tar.gz]
+[2023-07-11 09:19:59] INFO root fetch - main [MainThread]: End processing [aioesphomeapi]: success
+[2023-07-11 09:20:00] INFO root fetch - processPackages [steampunk-spotter]: Remove: archive file [/home/abi/fetcher/tmp/steampunk_spotter-2.0.3rc1-py3-none-any.whl.zip]
+[2023-07-11 09:20:00] INFO root fetch - processPackages [steampunk-spotter]: Remove: archive file [/home/abi/fetcher/tmp/steampunk_spotter-2.1.0a1-py3-none-any.whl.zip]
+[2023-07-11 09:20:00] INFO root fetch - main [MainThread]: End processing [steampunk-spotter]: success
+[2023-07-11 09:20:00] INFO root fetch - processPackages [orquestra-sdk]: Remove: archive file [/home/abi/fetcher/tmp/orquestra_sdk-0.51.0-py3-none-any.whl.zip]
+[2023-07-11 09:20:00] INFO root fetch - processPackages [orquestra-sdk]: Remove: archive file [/home/abi/fetcher/tmp/orquestra_sdk-0.52.0-py3-none-any.whl.zip]
+[2023-07-11 09:20:00] INFO root fetch - main [MainThread]: End processing [orquestra-sdk]: success
+[2023-07-11 09:20:00] INFO root fetch - main [MainThread]: Store serial: [18841823]
