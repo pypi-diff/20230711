@@ -16774,3 +16774,147 @@ AssertionError: tmp/doctran-0.0.6.tar.gz does not exist
 [2023-07-11 12:29:04] INFO root fetch - processPackages [wmcore]: Remove: archive file [/home/abi/fetcher/tmp/wmcore-2.2.2rc9.tar.gz]
 [2023-07-11 12:29:04] INFO root fetch - main [MainThread]: End processing [wmcore]: success
 [2023-07-11 12:29:04] INFO root fetch - main [MainThread]: Store serial: [18843771]
+[2023-07-11 12:34:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18843771]
+[2023-07-11 12:34:15] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-11 12:34:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: edwh-bundler-plugin
+[2023-07-11 12:34:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pheno-utils
+[2023-07-11 12:34:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: textnets
+[2023-07-11 12:34:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ert
+[2023-07-11 12:34:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qvsed
+[2023-07-11 12:34:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jupyter-kernel-provisioner-proxy
+[2023-07-11 12:34:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fix-db-wifi
+[2023-07-11 12:34:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nvidia-riva-client
+[2023-07-11 12:34:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: qgis-deployment-toolbelt
+[2023-07-11 12:34:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-fleet-vehicle-configuration
+[2023-07-11 12:34:15] INFO root fetch - processPackages [edwh-bundler-plugin]: New version: [0.2.0] Old Version: [0.1.7]
+[2023-07-11 12:34:15] INFO root fetch - processPackages [qvsed]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-07-11 12:34:16] WARNING root fetch - processPackages [jupyter-kernel-provisioner-proxy]: Skipping, unable to determine old version
+[2023-07-11 12:34:16] INFO root fetch - processPackages [jupyter-kernel-provisioner-proxy]: Start processing: text-office
+[2023-07-11 12:34:16] INFO root fetch - main [MainThread]: End processing [jupyter-kernel-provisioner-proxy] error
+[2023-07-11 12:34:16] INFO root fetch - processPackages [pheno-utils]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-11 12:34:16] INFO root fetch - processPackages [nvidia-riva-client]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-07-11 12:34:16] WARNING root fetch - processPackages [fix-db-wifi]: Skipping, unable to determine old version
+[2023-07-11 12:34:16] INFO root fetch - processPackages [fix-db-wifi]: Start processing: rudderclient
+[2023-07-11 12:34:16] INFO root fetch - main [MainThread]: End processing [fix-db-wifi] error
+[2023-07-11 12:34:16] INFO root fetch - processPackages [qgis-deployment-toolbelt]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-11 12:34:16] INFO root fetch - processPackages [odoo-addon-fleet-vehicle-configuration]: New version: [16.0.1.0.0.2] Old Version: [15.0.1.0.0.6]
+[2023-07-11 12:34:16] INFO root fetch - processPackages [rudderclient]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-07-11 12:34:16] INFO root fetch - processPackages [textnets]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-07-11 12:34:16] INFO root fetch - processPackages [text-office]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-11 12:34:16] INFO root fetch - processPackages [edwh-bundler-plugin]: Downloading https://files.pythonhosted.org/packages/26/48/7a1278e9bb41cf9ef02fd0f4bb157c2ffec8e8517c1d3c817a9701e702fa/edwh_bundler_plugin-0.1.7.tar.gz
+[2023-07-11 12:34:16] INFO root fetch - processPackages [ert]: New version: [5.1.0b3] Old Version: [5.1.0b2]
+[2023-07-11 12:34:16] INFO root fetch - processPackages [text-office]: Downloading https://files.pythonhosted.org/packages/ed/69/08413af1562533de1bf030dceb5cd46263ef2c95b61bf0843072d790b1d0/text-office-0.2.8.tar.gz
+[2023-07-11 12:34:16] INFO root fetch - processPackages [pheno-utils]: Downloading https://files.pythonhosted.org/packages/c0/3b/b4464f52c84b8a318641679f5bdf4a6a2282fdf0401ec4e0cb724cdd5fbd/pheno-utils-0.3.1.tar.gz
+[2023-07-11 12:34:16] INFO root fetch - processPackages [qvsed]: Downloading https://files.pythonhosted.org/packages/5f/e5/2fc6e1a3341c095cdd76c2d481b19945407483952b2ca8f558d909c5ed31/qvsed-1.4.1.tar.gz
+[2023-07-11 12:34:16] INFO root fetch - processPackages [nvidia-riva-client]: Downloading https://files.pythonhosted.org/packages/7d/a4/8211998d26b0bf39b325d873b1bceeac71e3952ed70489a447b7972ef645/nvidia_riva_client-2.8.0-py3-none-any.whl
+[2023-07-11 12:34:16] INFO root fetch - processPackages [rudderclient]: Downloading https://files.pythonhosted.org/packages/a5/4c/3a9afb62d90ff56381ecc175a96cf8cb4a4fb7732b6d3995b4784488a8ee/rudderclient-1.9.0.tar.gz
+[2023-07-11 12:34:16] INFO root fetch - processPackages [qgis-deployment-toolbelt]: Downloading https://files.pythonhosted.org/packages/4d/af/26cc6ca37c9029d2a68da3981972d583a710238e073fe44d2f33c039d869/qgis-deployment-toolbelt-0.8.0.tar.gz
+[2023-07-11 12:34:16] INFO root fetch - processPackages [textnets]: Downloading https://files.pythonhosted.org/packages/69/a0/3a4085fd0bc9cc8289eb925fa4a973302fa46c0f1ade4aea5d55fecc2d91/textnets-0.9.2.tar.gz
+[2023-07-11 12:34:16] INFO root fetch - processPackages [odoo-addon-fleet-vehicle-configuration]: Downloading https://files.pythonhosted.org/packages/fa/da/0e2e0eded4afe898f6af040bcd7617323c6174b74dcd69f971a4cb60aa94/odoo_addon_fleet_vehicle_configuration-15.0.1.0.0.6-py3-none-any.whl
+[2023-07-11 12:34:16] INFO root fetch - processPackages [ert]: Downloading https://files.pythonhosted.org/packages/2b/26/b7282bd9570f0247b6ca5528718dada34c4fe166df3e85cdb8f21b441fc6/ert-5.1.0b2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-11 12:34:16] INFO root fetch - processPackages [text-office]: Downloading https://files.pythonhosted.org/packages/ed/88/a4295e5c5ec8614d3afc3ad1d040e4c23208d62e7f378538c57a5881dcb1/text-office-0.2.9.tar.gz
+[2023-07-11 12:34:16] INFO root fetch - processPackages [pheno-utils]: Downloading https://files.pythonhosted.org/packages/66/78/7299bd5525fc804ba8d1f601e9d18168d003f9fad7309ad863241ba22817/pheno-utils-0.3.2.tar.gz
+[2023-07-11 12:34:16] INFO root fetch - processPackages [edwh-bundler-plugin]: Downloading https://files.pythonhosted.org/packages/25/c6/098b66b1cfb2d557d4711fcc40ddc212421a804b681307c4fa001cbe54ff/edwh_bundler_plugin-0.2.0.tar.gz
+[2023-07-11 12:34:16] INFO root fetch - processPackages [qvsed]: Downloading https://files.pythonhosted.org/packages/fd/41/594c3e02a447cb8f393c60e0a111ce6c767be55830be703d1e300ba7d429/qvsed-1.4.2.tar.gz
+[2023-07-11 12:34:16] INFO root fetch - processPackages [text-office]: executing diffoscope
+[2023-07-11 12:34:16] INFO root fetch - processPackages [text-office]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text-office-0.2.8.tar.gz tmp/text-office-0.2.9.tar.gz --markdown 20230711/t/text-office/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-11 12:34:16] INFO root fetch - processPackages [textnets]: Downloading https://files.pythonhosted.org/packages/58/30/0c6e4f885edfb687c5112c3fee329c437cde068018e73c17d61619e42352/textnets-0.9.3.tar.gz
+[2023-07-11 12:34:16] INFO root fetch - processPackages [nvidia-riva-client]: Downloading https://files.pythonhosted.org/packages/c3/f0/87cce28847a882918f14d6b4a492b6f75d7ba6dc1b5409529278d9a125c2/nvidia_riva_client-2.9.0-py3-none-any.whl
+[2023-07-11 12:34:17] INFO root fetch - processPackages [qvsed]: executing diffoscope
+[2023-07-11 12:34:17] INFO root fetch - processPackages [qvsed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qvsed-1.4.1.tar.gz tmp/qvsed-1.4.2.tar.gz --markdown 20230711/q/qvsed/1.4.1-1.4.2/diff.md --exclude *.pyd
+[2023-07-11 12:34:17] INFO root fetch - processPackages [edwh-bundler-plugin]: executing diffoscope
+[2023-07-11 12:34:17] INFO root fetch - processPackages [edwh-bundler-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edwh_bundler_plugin-0.1.7.tar.gz tmp/edwh_bundler_plugin-0.2.0.tar.gz --markdown 20230711/e/edwh-bundler-plugin/0.1.7-0.2.0/diff.md --exclude *.pyd
+[2023-07-11 12:34:17] INFO root fetch - processPackages [rudderclient]: Downloading https://files.pythonhosted.org/packages/a4/fe/2dab352156f0d6f5a40c80c9f3fbeb8f321f6e0c19ccd730f26a114a5da2/rudderclient-1.9.1.tar.gz
+[2023-07-11 12:34:17] INFO root fetch - processPackages [qgis-deployment-toolbelt]: Downloading https://files.pythonhosted.org/packages/d5/9a/086bf308844e6a51bcccd209e648d370690f6c9e5bb19bcf231bf1cad2dc/qgis-deployment-toolbelt-0.9.0.tar.gz
+[2023-07-11 12:34:17] INFO root fetch - processPackages [odoo-addon-fleet-vehicle-configuration]: Downloading https://files.pythonhosted.org/packages/99/09/4d3819004faf8dc5cf695586a6ca05dd3b5bb643e30418853209d67d1bdb/odoo_addon_fleet_vehicle_configuration-16.0.1.0.0.2-py3-none-any.whl
+[2023-07-11 12:34:17] INFO root fetch - processPackages [pheno-utils]: executing diffoscope
+[2023-07-11 12:34:17] INFO root fetch - processPackages [pheno-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pheno-utils-0.3.1.tar.gz tmp/pheno-utils-0.3.2.tar.gz --markdown 20230711/p/pheno-utils/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-11 12:34:17] INFO root fetch - processPackages [textnets]: executing diffoscope
+[2023-07-11 12:34:17] INFO root fetch - processPackages [textnets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/textnets-0.9.2.tar.gz tmp/textnets-0.9.3.tar.gz --markdown 20230711/t/textnets/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-07-11 12:34:17] INFO root fetch - processPackages [nvidia-riva-client]: executing diffoscope
+[2023-07-11 12:34:17] INFO root fetch - processPackages [nvidia-riva-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia_riva_client-2.8.0-py3-none-any.whl.zip tmp/nvidia_riva_client-2.9.0-py3-none-any.whl.zip --markdown 20230711/n/nvidia-riva-client/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-07-11 12:34:17] INFO root fetch - processPackages [odoo-addon-fleet-vehicle-configuration]: executing diffoscope
+[2023-07-11 12:34:17] INFO root fetch - processPackages [odoo-addon-fleet-vehicle-configuration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_fleet_vehicle_configuration-15.0.1.0.0.6-py3-none-any.whl.zip tmp/odoo_addon_fleet_vehicle_configuration-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20230711/o/odoo-addon-fleet-vehicle-configuration/15.0.1.0.0.6-16.0.1.0.0.2/diff.md --exclude *.pyd
+[2023-07-11 12:34:17] INFO root fetch - processPackages [rudderclient]: executing diffoscope
+[2023-07-11 12:34:17] INFO root fetch - processPackages [rudderclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rudderclient-1.9.0.tar.gz tmp/rudderclient-1.9.1.tar.gz --markdown 20230711/r/rudderclient/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-07-11 12:34:17] INFO root fetch - processPackages [qgis-deployment-toolbelt]: executing diffoscope
+[2023-07-11 12:34:17] INFO root fetch - processPackages [qgis-deployment-toolbelt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qgis-deployment-toolbelt-0.8.0.tar.gz tmp/qgis-deployment-toolbelt-0.9.0.tar.gz --markdown 20230711/q/qgis-deployment-toolbelt/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-11 12:34:17] INFO root fetch - processPackages [ert]: Downloading https://files.pythonhosted.org/packages/ce/d4/65d5abc2e7010477d6ba80ef0f47380093c6e2369eb9f3ac2abfd057835b/ert-5.1.0b3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-11 12:34:17] INFO root fetch - processPackages [ert]: executing diffoscope
+[2023-07-11 12:34:17] INFO root fetch - processPackages [ert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ert-5.1.0b2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/ert-5.1.0b3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230711/e/ert/5.1.0b2-5.1.0b3/diff.md --exclude *.pyd
+[2023-07-11 12:34:18] INFO root fetch - processPackages [text-office]: Remove: archive file [/home/abi/fetcher/tmp/text-office-0.2.8.tar.gz]
+[2023-07-11 12:34:18] INFO root fetch - processPackages [text-office]: Remove: archive file [/home/abi/fetcher/tmp/text-office-0.2.9.tar.gz]
+[2023-07-11 12:34:18] INFO root fetch - processPackages [text-office]: Start processing: pymodconn
+[2023-07-11 12:34:18] INFO root fetch - main [MainThread]: End processing [text-office]: success
+[2023-07-11 12:34:18] INFO root fetch - processPackages [pymodconn]: New version: [1.0.0] Old Version: [0.0.4]
+[2023-07-11 12:34:19] INFO root fetch - processPackages [pymodconn]: Downloading https://files.pythonhosted.org/packages/40/bd/f5b545bf83d6281248982f47b39f8317155ec235f0900e49289daa316197/pymodconn-0.0.4.tar.gz
+[2023-07-11 12:34:19] INFO root fetch - processPackages [edwh-bundler-plugin]: Remove: archive file [/home/abi/fetcher/tmp/edwh_bundler_plugin-0.1.7.tar.gz]
+[2023-07-11 12:34:19] INFO root fetch - processPackages [edwh-bundler-plugin]: Remove: archive file [/home/abi/fetcher/tmp/edwh_bundler_plugin-0.2.0.tar.gz]
+[2023-07-11 12:34:19] INFO root fetch - processPackages [edwh-bundler-plugin]: Start processing: cle-utilities
+[2023-07-11 12:34:19] INFO root fetch - main [MainThread]: End processing [edwh-bundler-plugin]: success
+[2023-07-11 12:34:19] INFO root fetch - processPackages [nvidia-riva-client]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_riva_client-2.8.0-py3-none-any.whl.zip]
+[2023-07-11 12:34:19] INFO root fetch - processPackages [nvidia-riva-client]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_riva_client-2.9.0-py3-none-any.whl.zip]
+[2023-07-11 12:34:19] INFO root fetch - processPackages [nvidia-riva-client]: Start processing: satosacontrib.perun
+[2023-07-11 12:34:19] INFO root fetch - main [MainThread]: End processing [nvidia-riva-client]: success
+[2023-07-11 12:34:19] INFO root fetch - processPackages [qvsed]: Remove: archive file [/home/abi/fetcher/tmp/qvsed-1.4.1.tar.gz]
+[2023-07-11 12:34:19] INFO root fetch - processPackages [qvsed]: Remove: archive file [/home/abi/fetcher/tmp/qvsed-1.4.2.tar.gz]
+[2023-07-11 12:34:19] INFO root fetch - processPackages [qvsed]: Start processing: nopasaran
+[2023-07-11 12:34:19] INFO root fetch - main [MainThread]: End processing [qvsed]: success
+[2023-07-11 12:34:19] INFO root fetch - processPackages [pheno-utils]: Remove: archive file [/home/abi/fetcher/tmp/pheno-utils-0.3.1.tar.gz]
+[2023-07-11 12:34:19] INFO root fetch - processPackages [pheno-utils]: Remove: archive file [/home/abi/fetcher/tmp/pheno-utils-0.3.2.tar.gz]
+[2023-07-11 12:34:19] INFO root fetch - processPackages [pheno-utils]: Start processing: PyQt6-Fluent-Widgets
+[2023-07-11 12:34:19] INFO root fetch - main [MainThread]: End processing [pheno-utils]: success
+[2023-07-11 12:34:19] INFO root fetch - processPackages [cle-utilities]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-11 12:34:19] INFO root fetch - processPackages [satosacontrib.perun]: New version: [3.7.0] Old Version: [3.6.2]
+[2023-07-11 12:34:19] INFO root fetch - processPackages [nopasaran]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-07-11 12:34:19] INFO root fetch - processPackages [odoo-addon-fleet-vehicle-configuration]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fleet_vehicle_configuration-15.0.1.0.0.6-py3-none-any.whl.zip]
+[2023-07-11 12:34:19] INFO root fetch - processPackages [odoo-addon-fleet-vehicle-configuration]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fleet_vehicle_configuration-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-07-11 12:34:19] INFO root fetch - main [MainThread]: End processing [odoo-addon-fleet-vehicle-configuration]: success
+[2023-07-11 12:34:19] INFO root fetch - processPackages [pymodconn]: Downloading https://files.pythonhosted.org/packages/b8/8b/de2851702fba099cbf04fd27badc63aff4a7c8ad5113859fb42545177c1c/pymodconn-1.0.0.tar.gz
+[2023-07-11 12:34:19] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-11 12:34:19] INFO root fetch - processPackages [cle-utilities]: Downloading https://files.pythonhosted.org/packages/cb/94/8f126d680fe7bb8baf72eec20ee8ae776da2d40a0eedff4bf6c1a8442800/cle_utilities-0.0.1.tar.gz
+[2023-07-11 12:34:19] INFO root fetch - processPackages [qgis-deployment-toolbelt]: Remove: archive file [/home/abi/fetcher/tmp/qgis-deployment-toolbelt-0.8.0.tar.gz]
+[2023-07-11 12:34:19] INFO root fetch - processPackages [qgis-deployment-toolbelt]: Remove: archive file [/home/abi/fetcher/tmp/qgis-deployment-toolbelt-0.9.0.tar.gz]
+[2023-07-11 12:34:19] INFO root fetch - main [MainThread]: End processing [qgis-deployment-toolbelt]: success
+[2023-07-11 12:34:19] INFO root fetch - processPackages [rudderclient]: Remove: archive file [/home/abi/fetcher/tmp/rudderclient-1.9.0.tar.gz]
+[2023-07-11 12:34:19] INFO root fetch - processPackages [rudderclient]: Remove: archive file [/home/abi/fetcher/tmp/rudderclient-1.9.1.tar.gz]
+[2023-07-11 12:34:19] INFO root fetch - main [MainThread]: End processing [rudderclient]: success
+[2023-07-11 12:34:19] INFO root fetch - processPackages [textnets]: Remove: archive file [/home/abi/fetcher/tmp/textnets-0.9.2.tar.gz]
+[2023-07-11 12:34:19] INFO root fetch - processPackages [textnets]: Remove: archive file [/home/abi/fetcher/tmp/textnets-0.9.3.tar.gz]
+[2023-07-11 12:34:19] INFO root fetch - main [MainThread]: End processing [textnets]: success
+[2023-07-11 12:34:19] INFO root fetch - processPackages [satosacontrib.perun]: Downloading https://files.pythonhosted.org/packages/d6/99/4893a0435582795166e225fc39b01214ceb62ab025b7ca036a771ed79c93/satosacontrib.perun-3.6.2.tar.gz
+[2023-07-11 12:34:19] INFO root fetch - processPackages [pymodconn]: executing diffoscope
+[2023-07-11 12:34:19] INFO root fetch - processPackages [pymodconn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymodconn-0.0.4.tar.gz tmp/pymodconn-1.0.0.tar.gz --markdown 20230711/p/pymodconn/0.0.4-1.0.0/diff.md --exclude *.pyd
+[2023-07-11 12:34:19] INFO root fetch - processPackages [nopasaran]: Downloading https://files.pythonhosted.org/packages/d2/a3/ed6e5f44e449cc06a2f436c3e7283d1f8bf24e0eddc6cda039bc16f99535/nopasaran-0.2.6.tar.gz
+[2023-07-11 12:34:19] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: Downloading https://files.pythonhosted.org/packages/a6/50/8e8d8120313f0f13d63c4f818f8b4032992788366c50824ac95652293846/PyQt6-Fluent-Widgets-1.0.1.tar.gz
+[2023-07-11 12:34:20] INFO root fetch - processPackages [cle-utilities]: Downloading https://files.pythonhosted.org/packages/76/78/3a2639e8a25d0b0fc0d8d207befdba8c611c304bfc3762336c831b39b38d/cle_utilities-0.0.2.tar.gz
+[2023-07-11 12:34:20] INFO root fetch - processPackages [nopasaran]: Downloading https://files.pythonhosted.org/packages/29/1a/80da0c102e9f5376e81d4be6848749059730e8c3eadf734eb99bcb7b79e0/nopasaran-0.2.7.tar.gz
+[2023-07-11 12:34:20] INFO root fetch - processPackages [satosacontrib.perun]: Downloading https://files.pythonhosted.org/packages/b7/71/c495ae72514b2e709608d23baff8de03e9479ca6174fdbd31cc34134d074/satosacontrib.perun-3.7.0.tar.gz
+[2023-07-11 12:34:20] INFO root fetch - processPackages [cle-utilities]: executing diffoscope
+[2023-07-11 12:34:20] INFO root fetch - processPackages [cle-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cle_utilities-0.0.1.tar.gz tmp/cle_utilities-0.0.2.tar.gz --markdown 20230711/c/cle-utilities/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-11 12:34:20] INFO root fetch - processPackages [nopasaran]: executing diffoscope
+[2023-07-11 12:34:20] INFO root fetch - processPackages [nopasaran]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nopasaran-0.2.6.tar.gz tmp/nopasaran-0.2.7.tar.gz --markdown 20230711/n/nopasaran/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-07-11 12:34:20] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: Downloading https://files.pythonhosted.org/packages/cb/e9/9cdf2ea4d066d86d89f124e5caec55369880a9a22db7b809dd52c5b7b56b/PyQt6-Fluent-Widgets-1.0.2.tar.gz
+[2023-07-11 12:34:20] INFO root fetch - processPackages [satosacontrib.perun]: executing diffoscope
+[2023-07-11 12:34:20] INFO root fetch - processPackages [satosacontrib.perun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/satosacontrib.perun-3.6.2.tar.gz tmp/satosacontrib.perun-3.7.0.tar.gz --markdown 20230711/s/satosacontrib.perun/3.6.2-3.7.0/diff.md --exclude *.pyd
+[2023-07-11 12:34:20] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: executing diffoscope
+[2023-07-11 12:34:20] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyQt6-Fluent-Widgets-1.0.1.tar.gz tmp/PyQt6-Fluent-Widgets-1.0.2.tar.gz --markdown 20230711/P/PyQt6-Fluent-Widgets/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-11 12:34:20] INFO root fetch - processPackages [pymodconn]: Remove: archive file [/home/abi/fetcher/tmp/pymodconn-0.0.4.tar.gz]
+[2023-07-11 12:34:20] INFO root fetch - processPackages [pymodconn]: Remove: archive file [/home/abi/fetcher/tmp/pymodconn-1.0.0.tar.gz]
+[2023-07-11 12:34:20] INFO root fetch - main [MainThread]: End processing [pymodconn]: success
+[2023-07-11 12:34:21] INFO root fetch - processPackages [cle-utilities]: Remove: archive file [/home/abi/fetcher/tmp/cle_utilities-0.0.1.tar.gz]
+[2023-07-11 12:34:21] INFO root fetch - processPackages [cle-utilities]: Remove: archive file [/home/abi/fetcher/tmp/cle_utilities-0.0.2.tar.gz]
+[2023-07-11 12:34:21] INFO root fetch - main [MainThread]: End processing [cle-utilities]: success
+[2023-07-11 12:34:21] INFO root fetch - processPackages [satosacontrib.perun]: Remove: archive file [/home/abi/fetcher/tmp/satosacontrib.perun-3.6.2.tar.gz]
+[2023-07-11 12:34:21] INFO root fetch - processPackages [satosacontrib.perun]: Remove: archive file [/home/abi/fetcher/tmp/satosacontrib.perun-3.7.0.tar.gz]
+[2023-07-11 12:34:21] INFO root fetch - main [MainThread]: End processing [satosacontrib.perun]: success
+[2023-07-11 12:34:21] INFO root fetch - processPackages [nopasaran]: Remove: archive file [/home/abi/fetcher/tmp/nopasaran-0.2.6.tar.gz]
+[2023-07-11 12:34:21] INFO root fetch - processPackages [nopasaran]: Remove: archive file [/home/abi/fetcher/tmp/nopasaran-0.2.7.tar.gz]
+[2023-07-11 12:34:21] INFO root fetch - main [MainThread]: End processing [nopasaran]: success
+[2023-07-11 12:34:24] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/PyQt6-Fluent-Widgets-1.0.1.tar.gz]
+[2023-07-11 12:34:24] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/PyQt6-Fluent-Widgets-1.0.2.tar.gz]
+[2023-07-11 12:34:24] INFO root fetch - main [MainThread]: End processing [PyQt6-Fluent-Widgets]: success
+[2023-07-11 12:34:25] INFO root fetch - processPackages [ert]: Remove: archive file [/home/abi/fetcher/tmp/ert-5.1.0b2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-11 12:34:25] INFO root fetch - processPackages [ert]: Remove: archive file [/home/abi/fetcher/tmp/ert-5.1.0b3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-11 12:34:25] INFO root fetch - main [MainThread]: End processing [ert]: success
+[2023-07-11 12:34:25] INFO root fetch - main [MainThread]: Store serial: [18843871]
