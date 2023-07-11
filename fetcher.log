@@ -6882,3 +6882,101 @@ AssertionError: tmp/doctran-0.0.6.tar.gz does not exist
 [2023-07-11 03:49:07] INFO root fetch - processPackages [bioregistry]: Remove: archive file [/home/abi/fetcher/tmp/bioregistry-0.9.9.tar.gz]
 [2023-07-11 03:49:07] INFO root fetch - main [MainThread]: End processing [bioregistry]: success
 [2023-07-11 03:49:07] INFO root fetch - main [MainThread]: Store serial: [18839700]
+[2023-07-11 03:54:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18839700]
+[2023-07-11 03:54:17] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-11 03:54:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xj-user
+[2023-07-11 03:54:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hypha
+[2023-07-11 03:54:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pylance
+[2023-07-11 03:54:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nbdev-apl
+[2023-07-11 03:54:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: neuroshape
+[2023-07-11 03:54:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-wordpress
+[2023-07-11 03:54:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: yplib
+[2023-07-11 03:54:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: moto
+[2023-07-11 03:54:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fosslight-yocto
+[2023-07-11 03:54:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ordotools
+[2023-07-11 03:54:18] INFO root fetch - processPackages [ordotools]: New version: [0.0.9] Old Version: [0.0.6]
+[2023-07-11 03:54:18] INFO root fetch - processPackages [neuroshape]: New version: [0.0.4.6.6] Old Version: [0.0.4.6.5]
+[2023-07-11 03:54:18] INFO root fetch - processPackages [xj-user]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-07-11 03:54:18] INFO root fetch - processPackages [hypha]: New version: [0.15.8] Old Version: [0.15.7]
+[2023-07-11 03:54:18] INFO root fetch - processPackages [fosslight-yocto]: New version: [3.1.20] Old Version: [3.1.19]
+[2023-07-11 03:54:18] INFO root fetch - processPackages [cdk-wordpress]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-11 03:54:18] INFO root fetch - processPackages [yplib]: New version: [2.4.5] Old Version: [2.4.4]
+[2023-07-11 03:54:18] INFO root fetch - processPackages [pylance]: New version: [0.5.4] Old Version: [0.5.3]
+[2023-07-11 03:54:18] INFO root fetch - processPackages [nbdev-apl]: New version: [0.0.887] Old Version: [0.0.886]
+[2023-07-11 03:54:18] INFO root fetch - processPackages [moto]: New version: [4.1.9.dev9] Old Version: [4.1.9.dev8]
+[2023-07-11 03:54:18] INFO root fetch - processPackages [ordotools]: Downloading https://files.pythonhosted.org/packages/c1/3b/1c77a37917843f29c2dce0c870193404fbcfc4ccc45f19a7b11a2f3ff732/ordotools-0.0.6.tar.gz
+[2023-07-11 03:54:18] INFO root fetch - processPackages [cdk-wordpress]: Downloading https://files.pythonhosted.org/packages/95/5a/46730445b7c8db7cad33c0b319cbd75004ba42b6cbe2f00628d2191c5516/cdk-wordpress-0.0.98.tar.gz
+[2023-07-11 03:54:18] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/89/fe/1883e04a60a233e007de321435172676a86d3cdeb73bad5c9ffd45a3f654/yplib-2.4.4.tar.gz
+[2023-07-11 03:54:18] INFO root fetch - processPackages [neuroshape]: Downloading https://files.pythonhosted.org/packages/97/2a/4b63c032e5cbb4ac4e9f6b206dea6788a9f4f2cd8467c6b57452b9af8d7b/neuroshape-0.0.4.6.5.tar.gz
+[2023-07-11 03:54:18] INFO root fetch - processPackages [fosslight-yocto]: Downloading https://files.pythonhosted.org/packages/da/7e/3d1c2f44461ab8ac8410f64b783e90d0fce797b4eee522d70b6cb38f5c4f/fosslight_yocto-3.1.19.tar.gz
+[2023-07-11 03:54:18] INFO root fetch - processPackages [xj-user]: Downloading https://files.pythonhosted.org/packages/26/be/e0d28eecf05fff47ab8dc5bf0e46eff90f3cee3ae03596f052698e5df93d/xj_user-1.2.98.tar.gz
+[2023-07-11 03:54:18] INFO root fetch - processPackages [hypha]: Downloading https://files.pythonhosted.org/packages/3b/1c/2587650834b82f5294e81891a15c92e1504fc26a7cb3ea08be1d64f1236a/hypha-0.15.7.tar.gz
+[2023-07-11 03:54:18] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/00/ca/19c31f2978bc32a1e1f66c2c24e6230cc1eabb83c94275929dd35d8ee46a/nbdev-apl-0.0.886.tar.gz
+[2023-07-11 03:54:18] INFO root fetch - processPackages [pylance]: Downloading https://files.pythonhosted.org/packages/ff/b5/3b413f14f2b996297a6fc257779e705bb1e2249254b5c8536e0dd8b07d59/pylance-0.5.3-cp38-abi3-win_amd64.whl
+[2023-07-11 03:54:18] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/2c/d4/8e03b33a9179ac2880d9ee7985f188927368b16081e05a142152e556685c/moto-4.1.9.dev8.tar.gz
+[2023-07-11 03:54:18] WARNING root fetch - processPackages [pylance]: Skipping package: exceeds size limit 22445227>=10485760
+[2023-07-11 03:54:18] INFO root fetch - processPackages [pylance]: Start processing: energy-tools
+[2023-07-11 03:54:18] INFO root fetch - main [MainThread]: End processing [pylance] error
+[2023-07-11 03:54:18] INFO root fetch - processPackages [cdk-wordpress]: Downloading https://files.pythonhosted.org/packages/f5/33/8bc435266e926cea52eb7df452e54c2c0657beef07580a86eae44236d88b/cdk-wordpress-0.0.99.tar.gz
+[2023-07-11 03:54:18] INFO root fetch - processPackages [ordotools]: Downloading https://files.pythonhosted.org/packages/01/db/6a489501f8c0e7ade876273a94a639d070a95fe91102e634e254e318bb3e/ordotools-0.0.9.tar.gz
+[2023-07-11 03:54:18] INFO root fetch - processPackages [energy-tools]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-07-11 03:54:18] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/4b/54/f884c457d5459967d545e97b70d8c3e6c2eb42fa4e9a6c1ab9b863df9db3/yplib-2.4.5.tar.gz
+[2023-07-11 03:54:18] INFO root fetch - processPackages [neuroshape]: Downloading https://files.pythonhosted.org/packages/76/b6/e6adc3b2ece51390c7c5409bcb9b5f097a07fa22bf6871891ff7998a52ba/neuroshape-0.0.4.6.6.tar.gz
+[2023-07-11 03:54:18] INFO root fetch - processPackages [cdk-wordpress]: executing diffoscope
+[2023-07-11 03:54:18] INFO root fetch - processPackages [cdk-wordpress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-wordpress-0.0.98.tar.gz tmp/cdk-wordpress-0.0.99.tar.gz --markdown 20230711/c/cdk-wordpress/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-11 03:54:19] INFO root fetch - processPackages [ordotools]: executing diffoscope
+[2023-07-11 03:54:19] INFO root fetch - processPackages [ordotools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ordotools-0.0.6.tar.gz tmp/ordotools-0.0.9.tar.gz --markdown 20230711/o/ordotools/0.0.6-0.0.9/diff.md --exclude *.pyd
+[2023-07-11 03:54:19] INFO root fetch - processPackages [fosslight-yocto]: Downloading https://files.pythonhosted.org/packages/b9/7b/82defd52f16410f9519856b4972262b608594e6ef6c64c11d37abf102fd9/fosslight_yocto-3.1.20.tar.gz
+[2023-07-11 03:54:19] INFO root fetch - processPackages [xj-user]: Downloading https://files.pythonhosted.org/packages/f9/79/9b7536f52cd2a21b092678ce5bc888a17a7c527cef9ae891d864354f2e5c/xj_user-1.2.99.tar.gz
+[2023-07-11 03:54:19] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/90/f1/7706141880f689924482a391a9796f1f450f5c9c1e87692f7340ff96cd8f/nbdev-apl-0.0.887.tar.gz
+[2023-07-11 03:54:19] INFO root fetch - processPackages [hypha]: Downloading https://files.pythonhosted.org/packages/5f/f5/974dbcd4812824cf3f90d85490f8c6b7df7931f35b4ea2b5bdb8cd72cdbf/hypha-0.15.8.tar.gz
+[2023-07-11 03:54:19] INFO root fetch - processPackages [fosslight-yocto]: executing diffoscope
+[2023-07-11 03:54:19] INFO root fetch - processPackages [fosslight-yocto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fosslight_yocto-3.1.19.tar.gz tmp/fosslight_yocto-3.1.20.tar.gz --markdown 20230711/f/fosslight-yocto/3.1.19-3.1.20/diff.md --exclude *.pyd
+[2023-07-11 03:54:19] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2023-07-11 03:54:19] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-2.4.4.tar.gz tmp/yplib-2.4.5.tar.gz --markdown 20230711/y/yplib/2.4.4-2.4.5/diff.md --exclude *.pyd
+[2023-07-11 03:54:19] INFO root fetch - processPackages [energy-tools]: Downloading https://files.pythonhosted.org/packages/1f/70/af0625abf905eb5ba5a13325238df7b37fdb039e418ab9d81966ba65e33c/energy_tools-1.1.1.tar.gz
+[2023-07-11 03:54:19] INFO root fetch - processPackages [neuroshape]: executing diffoscope
+[2023-07-11 03:54:19] INFO root fetch - processPackages [neuroshape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neuroshape-0.0.4.6.5.tar.gz tmp/neuroshape-0.0.4.6.6.tar.gz --markdown 20230711/n/neuroshape/0.0.4.6.5-0.0.4.6.6/diff.md --exclude *.pyd
+[2023-07-11 03:54:19] INFO root fetch - processPackages [xj-user]: executing diffoscope
+[2023-07-11 03:54:19] INFO root fetch - processPackages [xj-user]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_user-1.2.98.tar.gz tmp/xj_user-1.2.99.tar.gz --markdown 20230711/x/xj-user/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-07-11 03:54:19] INFO root fetch - processPackages [hypha]: executing diffoscope
+[2023-07-11 03:54:19] INFO root fetch - processPackages [hypha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hypha-0.15.7.tar.gz tmp/hypha-0.15.8.tar.gz --markdown 20230711/h/hypha/0.15.7-0.15.8/diff.md --exclude *.pyd
+[2023-07-11 03:54:19] INFO root fetch - processPackages [nbdev-apl]: executing diffoscope
+[2023-07-11 03:54:19] INFO root fetch - processPackages [nbdev-apl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-apl-0.0.886.tar.gz tmp/nbdev-apl-0.0.887.tar.gz --markdown 20230711/n/nbdev-apl/0.0.886-0.0.887/diff.md --exclude *.pyd
+[2023-07-11 03:54:19] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/4b/79/8731bdd68db60192dd81a418b0552fc817d87bba0726d6c4ff2dbd93f913/moto-4.1.9.dev9.tar.gz
+[2023-07-11 03:54:19] INFO root fetch - processPackages [energy-tools]: Downloading https://files.pythonhosted.org/packages/87/e7/6346437d413eff4b16b2975813370a2d356cba4264a50664c7085dcacc5b/energy_tools-1.1.2.tar.gz
+[2023-07-11 03:54:19] INFO root fetch - processPackages [energy-tools]: executing diffoscope
+[2023-07-11 03:54:19] INFO root fetch - processPackages [energy-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/energy_tools-1.1.1.tar.gz tmp/energy_tools-1.1.2.tar.gz --markdown 20230711/e/energy-tools/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-07-11 03:54:19] INFO root fetch - processPackages [moto]: executing diffoscope
+[2023-07-11 03:54:19] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-4.1.9.dev8.tar.gz tmp/moto-4.1.9.dev9.tar.gz --markdown 20230711/m/moto/4.1.9.dev8-4.1.9.dev9/diff.md --exclude *.pyd
+[2023-07-11 03:54:20] INFO root fetch - processPackages [cdk-wordpress]: Remove: archive file [/home/abi/fetcher/tmp/cdk-wordpress-0.0.98.tar.gz]
+[2023-07-11 03:54:20] INFO root fetch - processPackages [cdk-wordpress]: Remove: archive file [/home/abi/fetcher/tmp/cdk-wordpress-0.0.99.tar.gz]
+[2023-07-11 03:54:20] INFO root fetch - main [MainThread]: End processing [cdk-wordpress]: success
+[2023-07-11 03:54:20] INFO root fetch - processPackages [ordotools]: Remove: archive file [/home/abi/fetcher/tmp/ordotools-0.0.6.tar.gz]
+[2023-07-11 03:54:20] INFO root fetch - processPackages [ordotools]: Remove: archive file [/home/abi/fetcher/tmp/ordotools-0.0.9.tar.gz]
+[2023-07-11 03:54:20] INFO root fetch - main [MainThread]: End processing [ordotools]: success
+[2023-07-11 03:54:20] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-2.4.4.tar.gz]
+[2023-07-11 03:54:20] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-2.4.5.tar.gz]
+[2023-07-11 03:54:20] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2023-07-11 03:54:20] INFO root fetch - processPackages [fosslight-yocto]: Remove: archive file [/home/abi/fetcher/tmp/fosslight_yocto-3.1.19.tar.gz]
+[2023-07-11 03:54:20] INFO root fetch - processPackages [fosslight-yocto]: Remove: archive file [/home/abi/fetcher/tmp/fosslight_yocto-3.1.20.tar.gz]
+[2023-07-11 03:54:20] INFO root fetch - main [MainThread]: End processing [fosslight-yocto]: success
+[2023-07-11 03:54:20] INFO root fetch - processPackages [nbdev-apl]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-apl-0.0.886.tar.gz]
+[2023-07-11 03:54:20] INFO root fetch - processPackages [nbdev-apl]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-apl-0.0.887.tar.gz]
+[2023-07-11 03:54:20] INFO root fetch - main [MainThread]: End processing [nbdev-apl]: success
+[2023-07-11 03:54:21] INFO root fetch - processPackages [neuroshape]: Remove: archive file [/home/abi/fetcher/tmp/neuroshape-0.0.4.6.5.tar.gz]
+[2023-07-11 03:54:21] INFO root fetch - processPackages [neuroshape]: Remove: archive file [/home/abi/fetcher/tmp/neuroshape-0.0.4.6.6.tar.gz]
+[2023-07-11 03:54:21] INFO root fetch - main [MainThread]: End processing [neuroshape]: success
+[2023-07-11 03:54:21] INFO root fetch - processPackages [xj-user]: Remove: archive file [/home/abi/fetcher/tmp/xj_user-1.2.98.tar.gz]
+[2023-07-11 03:54:21] INFO root fetch - processPackages [xj-user]: Remove: archive file [/home/abi/fetcher/tmp/xj_user-1.2.99.tar.gz]
+[2023-07-11 03:54:21] INFO root fetch - main [MainThread]: End processing [xj-user]: success
+[2023-07-11 03:54:21] INFO root fetch - processPackages [energy-tools]: Remove: archive file [/home/abi/fetcher/tmp/energy_tools-1.1.1.tar.gz]
+[2023-07-11 03:54:21] INFO root fetch - processPackages [energy-tools]: Remove: archive file [/home/abi/fetcher/tmp/energy_tools-1.1.2.tar.gz]
+[2023-07-11 03:54:21] INFO root fetch - main [MainThread]: End processing [energy-tools]: success
+[2023-07-11 03:54:21] INFO root fetch - processPackages [hypha]: Remove: archive file [/home/abi/fetcher/tmp/hypha-0.15.7.tar.gz]
+[2023-07-11 03:54:21] INFO root fetch - processPackages [hypha]: Remove: archive file [/home/abi/fetcher/tmp/hypha-0.15.8.tar.gz]
+[2023-07-11 03:54:21] INFO root fetch - main [MainThread]: End processing [hypha]: success
+[2023-07-11 03:54:33] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev8.tar.gz]
+[2023-07-11 03:54:33] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev9.tar.gz]
+[2023-07-11 03:54:33] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2023-07-11 03:54:33] INFO root fetch - main [MainThread]: Store serial: [18839741]
