@@ -17161,3 +17161,108 @@ AssertionError: tmp/doctran-0.0.6.tar.gz does not exist
 [2023-07-11 12:44:59] INFO root fetch - processPackages [mlbi-at-dku-lib]: Remove: archive file [/home/abi/fetcher/tmp/mlbi_at_dku_lib-0.2.5.tar.gz]
 [2023-07-11 12:44:59] INFO root fetch - main [MainThread]: End processing [mlbi-at-dku-lib]: success
 [2023-07-11 12:44:59] INFO root fetch - main [MainThread]: Store serial: [18843958]
+[2023-07-11 12:50:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18843958]
+[2023-07-11 12:50:10] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-11 12:50:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-fleet-vehicle-service-kanban
+[2023-07-11 12:50:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mona-openai
+[2023-07-11 12:50:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chatllm
+[2023-07-11 12:50:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vgis-utils
+[2023-07-11 12:50:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fix-db-wifi
+[2023-07-11 12:50:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: papertronics-sdk
+[2023-07-11 12:50:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mayank-django-sql-explorer
+[2023-07-11 12:50:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: airflow-provider-lakefs
+[2023-07-11 12:50:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: VisionFive.gpio
+[2023-07-11 12:50:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: linestar
+[2023-07-11 12:50:11] INFO root fetch - processPackages [odoo14-addon-fleet-vehicle-service-kanban]: New version: [14.0.1.0.1.dev9] Old Version: [14.0.1.0.1.dev8]
+[2023-07-11 12:50:11] INFO root fetch - processPackages [fix-db-wifi]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-11 12:50:11] INFO root fetch - processPackages [papertronics-sdk]: New version: [0.0.28] Old Version: [0.0.27]
+[2023-07-11 12:50:11] WARNING root fetch - processPackages [mayank-django-sql-explorer]: Skipping, unable to determine old version
+[2023-07-11 12:50:11] INFO root fetch - processPackages [mayank-django-sql-explorer]: Start processing: quality-result-gui
+[2023-07-11 12:50:11] INFO root fetch - main [MainThread]: End processing [mayank-django-sql-explorer] error
+[2023-07-11 12:50:11] INFO root fetch - processPackages [vgis-utils]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-11 12:50:11] INFO root fetch - processPackages [airflow-provider-lakefs]: New version: [0.46.2] Old Version: [0.46.1]
+[2023-07-11 12:50:11] WARNING root fetch - processPackages [linestar]: Skipping, unable to determine old version
+[2023-07-11 12:50:11] INFO root fetch - processPackages [linestar]: Start processing: odoo-addon-ddmrp
+[2023-07-11 12:50:11] INFO root fetch - main [MainThread]: End processing [linestar] error
+[2023-07-11 12:50:11] INFO root fetch - processPackages [mona-openai]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-11 12:50:11] INFO root fetch - processPackages [VisionFive.gpio]: New version: [1.2.13] Old Version: [1.2.12]
+[2023-07-11 12:50:11] INFO root fetch - processPackages [chatllm]: New version: [2023.7.4.13.43.50] Old Version: [2023.7.4.12.13.14]
+[2023-07-11 12:50:11] INFO root fetch - processPackages [quality-result-gui]: New version: [2.0.0] Old Version: [1.1.6]
+[2023-07-11 12:50:11] INFO root fetch - processPackages [odoo-addon-ddmrp]: New version: [15.0.1.9.2] Old Version: [15.0.1.9.1]
+[2023-07-11 12:50:11] INFO root fetch - processPackages [papertronics-sdk]: Downloading https://files.pythonhosted.org/packages/28/18/94889a016dd5d8a9b83132b405a64c59a1dde30f8f4e95ac614ceccd0281/papertronics-sdk-0.0.27.tar.gz
+[2023-07-11 12:50:11] INFO root fetch - processPackages [fix-db-wifi]: Downloading https://files.pythonhosted.org/packages/e2/67/070ce0d2ec68f03f0ae92aa33e365887a2228f7890670cd8bb1cc6f9b566/fix_db_wifi-0.1.0.tar.gz
+[2023-07-11 12:50:11] INFO root fetch - processPackages [odoo-addon-ddmrp]: Downloading https://files.pythonhosted.org/packages/7a/8b/ae120c3aacff014bcf2b1c2834ecb9c06ce9b7d8db26797fea4524d4052c/odoo_addon_ddmrp-15.0.1.9.1-py3-none-any.whl
+[2023-07-11 12:50:11] INFO root fetch - processPackages [airflow-provider-lakefs]: Downloading https://files.pythonhosted.org/packages/ba/3d/94a987874a5e464c2adc7f510a7536fe522691cfd18b34a7591d9ce1ffbf/airflow-provider-lakefs-0.46.1.tar.gz
+[2023-07-11 12:50:11] INFO root fetch - processPackages [odoo14-addon-fleet-vehicle-service-kanban]: Downloading https://files.pythonhosted.org/packages/43/d7/90efccaa75833289979eb552ad67956c53844ec5a67cd37f3864196865a6/odoo14_addon_fleet_vehicle_service_kanban-14.0.1.0.1.dev8-py3-none-any.whl
+[2023-07-11 12:50:11] INFO root fetch - processPackages [vgis-utils]: Downloading https://files.pythonhosted.org/packages/7e/ab/7b590b6e8e54481b12b7557ec84965bf866bd0236fa571282f5af02b6b24/vgis_utils-1.0.8.tar.gz
+[2023-07-11 12:50:11] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/ac/15/d8015b5ea1834f5c18e47edecc9b74875a43e81a49b4b2b2372660959ee1/chatllm-2023.7.4.12.13.14.tar.gz
+[2023-07-11 12:50:11] INFO root fetch - processPackages [quality-result-gui]: Downloading https://files.pythonhosted.org/packages/8e/44/84897b185591f1a369b79311e7fc27d10792cb94641b24976c3e4f36ceea/quality-result-gui-1.1.6.tar.gz
+[2023-07-11 12:50:11] INFO root fetch - processPackages [VisionFive.gpio]: Downloading https://files.pythonhosted.org/packages/95/84/09f1f82c8f79a4bcf287e1715b5467f7ec0a136b0dee21fadd156e24de39/VisionFive.gpio-1.2.12-cp34-abi3-any.whl
+[2023-07-11 12:50:11] INFO root fetch - processPackages [mona-openai]: Downloading https://files.pythonhosted.org/packages/ea/d9/e649b3ccb059326978f85483f7e9321467227adeb8eb7c714e7f7092853f/mona-openai-0.1.0.tar.gz
+[2023-07-11 12:50:11] WARNING root fetch - processPackages [chatllm]: Skipping package: exceeds size limit 11352041>=10485760
+[2023-07-11 12:50:11] INFO root fetch - processPackages [chatllm]: Start processing: fix-db-wifi
+[2023-07-11 12:50:11] INFO root fetch - main [MainThread]: End processing [chatllm] error
+[2023-07-11 12:50:11] INFO root fetch - processPackages [papertronics-sdk]: Downloading https://files.pythonhosted.org/packages/ac/01/ac725d619b35540a240cbccd93fd718a4a03377ab33bb01e82d5e680acf1/papertronics-sdk-0.0.28.tar.gz
+[2023-07-11 12:50:11] INFO root fetch - processPackages [fix-db-wifi]: Downloading https://files.pythonhosted.org/packages/16/27/7db627adf66af798a8bad5ce38753d37a919e8de1e509941d9f651dc680a/fix_db_wifi-0.1.1.tar.gz
+[2023-07-11 12:50:11] INFO root fetch - processPackages [fix-db-wifi]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-11 12:50:11] INFO root fetch - processPackages [odoo-addon-ddmrp]: Downloading https://files.pythonhosted.org/packages/78/e0/1c9e1b10356a989dc58e5e8eae0c972705d4d9e557577dd094f4cbfec293/odoo_addon_ddmrp-15.0.1.9.2-py3-none-any.whl
+[2023-07-11 12:50:11] INFO root fetch - processPackages [vgis-utils]: Downloading https://files.pythonhosted.org/packages/30/4a/c32ee6c902c5fa54f5151865992048a00bc6e0b85f30fe5f01034bb92caf/vgis_utils-1.0.9.tar.gz
+[2023-07-11 12:50:11] INFO root fetch - processPackages [quality-result-gui]: Downloading https://files.pythonhosted.org/packages/03/cf/10edf56efbea55e4b8894dcd5d02b8656eed9f249e133c7d3d198a69cb6d/quality-result-gui-2.0.0.tar.gz
+[2023-07-11 12:50:11] INFO root fetch - processPackages [papertronics-sdk]: executing diffoscope
+[2023-07-11 12:50:11] INFO root fetch - processPackages [papertronics-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/papertronics-sdk-0.0.27.tar.gz tmp/papertronics-sdk-0.0.28.tar.gz --markdown 20230711/p/papertronics-sdk/0.0.27-0.0.28/diff.md --exclude *.pyd
+[2023-07-11 12:50:11] INFO root fetch - processPackages [fix-db-wifi]: Downloading https://files.pythonhosted.org/packages/16/27/7db627adf66af798a8bad5ce38753d37a919e8de1e509941d9f651dc680a/fix_db_wifi-0.1.1.tar.gz
+[2023-07-11 12:50:11] INFO root fetch - processPackages [airflow-provider-lakefs]: Downloading https://files.pythonhosted.org/packages/cd/cd/8cfe4a0169532c14b8349790d662710006247557e5ef9b351c4c49e1f99a/airflow-provider-lakefs-0.46.2.tar.gz
+[2023-07-11 12:50:11] INFO root fetch - processPackages [fix-db-wifi]: executing diffoscope
+[2023-07-11 12:50:11] INFO root fetch - processPackages [fix-db-wifi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fix_db_wifi-0.1.0.tar.gz tmp/fix_db_wifi-0.1.1.tar.gz --markdown 20230711/f/fix-db-wifi/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-11 12:50:11] INFO root fetch - processPackages [odoo14-addon-fleet-vehicle-service-kanban]: Downloading https://files.pythonhosted.org/packages/c2/43/5176e8c31315b589a7d2eef23fcd9bdc26dcc1e9cacbf7735d5416533262/odoo14_addon_fleet_vehicle_service_kanban-14.0.1.0.1.dev9-py3-none-any.whl
+[2023-07-11 12:50:12] INFO root fetch - processPackages [mona-openai]: Downloading https://files.pythonhosted.org/packages/cd/d6/dce0ed1e24fe0535a0acae50fc0493bf2e8879264c1a6cf2ef683f885222/mona-openai-0.1.1.tar.gz
+[2023-07-11 12:50:12] INFO root fetch - processPackages [VisionFive.gpio]: Downloading https://files.pythonhosted.org/packages/a1/04/1bbdda56db03a7de3cfd5f32d8bd77175b7bf936cd79a69d400cd767923f/VisionFive.gpio-1.2.13-cp310-abi3-any.whl
+[2023-07-11 12:50:12] INFO root fetch - processPackages [odoo-addon-ddmrp]: executing diffoscope
+[2023-07-11 12:50:12] INFO root fetch - processPackages [odoo-addon-ddmrp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_ddmrp-15.0.1.9.1-py3-none-any.whl.zip tmp/odoo_addon_ddmrp-15.0.1.9.2-py3-none-any.whl.zip --markdown 20230711/o/odoo-addon-ddmrp/15.0.1.9.1-15.0.1.9.2/diff.md --exclude *.pyd
+[2023-07-11 12:50:12] INFO root fetch - processPackages [vgis-utils]: executing diffoscope
+[2023-07-11 12:50:12] INFO root fetch - processPackages [vgis-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vgis_utils-1.0.8.tar.gz tmp/vgis_utils-1.0.9.tar.gz --markdown 20230711/v/vgis-utils/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-11 12:50:12] INFO root fetch - processPackages [quality-result-gui]: executing diffoscope
+[2023-07-11 12:50:12] INFO root fetch - processPackages [quality-result-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quality-result-gui-1.1.6.tar.gz tmp/quality-result-gui-2.0.0.tar.gz --markdown 20230711/q/quality-result-gui/1.1.6-2.0.0/diff.md --exclude *.pyd
+[2023-07-11 12:50:12] INFO root fetch - processPackages [airflow-provider-lakefs]: executing diffoscope
+[2023-07-11 12:50:12] INFO root fetch - processPackages [airflow-provider-lakefs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airflow-provider-lakefs-0.46.1.tar.gz tmp/airflow-provider-lakefs-0.46.2.tar.gz --markdown 20230711/a/airflow-provider-lakefs/0.46.1-0.46.2/diff.md --exclude *.pyd
+[2023-07-11 12:50:12] INFO root fetch - processPackages [odoo14-addon-fleet-vehicle-service-kanban]: executing diffoscope
+[2023-07-11 12:50:12] INFO root fetch - processPackages [odoo14-addon-fleet-vehicle-service-kanban]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_fleet_vehicle_service_kanban-14.0.1.0.1.dev8-py3-none-any.whl.zip tmp/odoo14_addon_fleet_vehicle_service_kanban-14.0.1.0.1.dev9-py3-none-any.whl.zip --markdown 20230711/o/odoo14-addon-fleet-vehicle-service-kanban/14.0.1.0.1.dev8-14.0.1.0.1.dev9/diff.md --exclude *.pyd
+[2023-07-11 12:50:12] INFO root fetch - processPackages [mona-openai]: executing diffoscope
+[2023-07-11 12:50:12] INFO root fetch - processPackages [mona-openai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mona-openai-0.1.0.tar.gz tmp/mona-openai-0.1.1.tar.gz --markdown 20230711/m/mona-openai/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-11 12:50:12] INFO root fetch - processPackages [fix-db-wifi]: Downloading https://files.pythonhosted.org/packages/86/ba/2c5be6ddd6efcda23f1445bab20cfbd471251b62969db72583b019171cc9/fix_db_wifi-0.1.2.tar.gz
+[2023-07-11 12:50:12] INFO root fetch - processPackages [VisionFive.gpio]: executing diffoscope
+[2023-07-11 12:50:12] INFO root fetch - processPackages [VisionFive.gpio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/VisionFive.gpio-1.2.12-cp34-abi3-any.whl.zip tmp/VisionFive.gpio-1.2.13-cp310-abi3-any.whl.zip --markdown 20230711/V/VisionFive.gpio/1.2.12-1.2.13/diff.md --exclude *.pyd
+[2023-07-11 12:50:12] INFO root fetch - processPackages [fix-db-wifi]: executing diffoscope
+[2023-07-11 12:50:12] INFO root fetch - processPackages [fix-db-wifi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fix_db_wifi-0.1.1.tar.gz tmp/fix_db_wifi-0.1.2.tar.gz --markdown 20230711/f/fix-db-wifi/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-11 12:50:13] INFO root fetch - processPackages [fix-db-wifi]: Remove: archive file [/home/abi/fetcher/tmp/fix_db_wifi-0.1.0.tar.gz]
+[2023-07-11 12:50:13] INFO root fetch - processPackages [fix-db-wifi]: Remove: archive file [/home/abi/fetcher/tmp/fix_db_wifi-0.1.1.tar.gz]
+[2023-07-11 12:50:13] INFO root fetch - main [MainThread]: End processing [fix-db-wifi]: success
+[2023-07-11 12:50:13] INFO root fetch - processPackages [papertronics-sdk]: Remove: archive file [/home/abi/fetcher/tmp/papertronics-sdk-0.0.27.tar.gz]
+[2023-07-11 12:50:13] INFO root fetch - processPackages [papertronics-sdk]: Remove: archive file [/home/abi/fetcher/tmp/papertronics-sdk-0.0.28.tar.gz]
+[2023-07-11 12:50:13] INFO root fetch - main [MainThread]: End processing [papertronics-sdk]: success
+[2023-07-11 12:50:13] ERROR root fetch - processPackages [fix-db-wifi]: Diffoscope failed: time="2023-07-11T12:50:12+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/fix_db_wifi-0.1.1.tar.gz: No such file or directory
+
+[2023-07-11 12:50:13] INFO root fetch - main [MainThread]: End processing [fix-db-wifi] error
+[2023-07-11 12:50:13] INFO root fetch - processPackages [airflow-provider-lakefs]: Remove: archive file [/home/abi/fetcher/tmp/airflow-provider-lakefs-0.46.1.tar.gz]
+[2023-07-11 12:50:13] INFO root fetch - processPackages [airflow-provider-lakefs]: Remove: archive file [/home/abi/fetcher/tmp/airflow-provider-lakefs-0.46.2.tar.gz]
+[2023-07-11 12:50:13] INFO root fetch - main [MainThread]: End processing [airflow-provider-lakefs]: success
+[2023-07-11 12:50:13] INFO root fetch - processPackages [vgis-utils]: Remove: archive file [/home/abi/fetcher/tmp/vgis_utils-1.0.8.tar.gz]
+[2023-07-11 12:50:13] INFO root fetch - processPackages [vgis-utils]: Remove: archive file [/home/abi/fetcher/tmp/vgis_utils-1.0.9.tar.gz]
+[2023-07-11 12:50:13] INFO root fetch - main [MainThread]: End processing [vgis-utils]: success
+[2023-07-11 12:50:13] INFO root fetch - processPackages [odoo14-addon-fleet-vehicle-service-kanban]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_fleet_vehicle_service_kanban-14.0.1.0.1.dev8-py3-none-any.whl.zip]
+[2023-07-11 12:50:13] INFO root fetch - processPackages [odoo14-addon-fleet-vehicle-service-kanban]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_fleet_vehicle_service_kanban-14.0.1.0.1.dev9-py3-none-any.whl.zip]
+[2023-07-11 12:50:13] INFO root fetch - main [MainThread]: End processing [odoo14-addon-fleet-vehicle-service-kanban]: success
+[2023-07-11 12:50:13] INFO root fetch - processPackages [quality-result-gui]: Remove: archive file [/home/abi/fetcher/tmp/quality-result-gui-1.1.6.tar.gz]
+[2023-07-11 12:50:13] INFO root fetch - processPackages [quality-result-gui]: Remove: archive file [/home/abi/fetcher/tmp/quality-result-gui-2.0.0.tar.gz]
+[2023-07-11 12:50:13] INFO root fetch - main [MainThread]: End processing [quality-result-gui]: success
+[2023-07-11 12:50:13] INFO root fetch - processPackages [mona-openai]: Remove: archive file [/home/abi/fetcher/tmp/mona-openai-0.1.0.tar.gz]
+[2023-07-11 12:50:13] INFO root fetch - processPackages [mona-openai]: Remove: archive file [/home/abi/fetcher/tmp/mona-openai-0.1.1.tar.gz]
+[2023-07-11 12:50:13] INFO root fetch - main [MainThread]: End processing [mona-openai]: success
+[2023-07-11 12:50:14] INFO root fetch - processPackages [odoo-addon-ddmrp]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_ddmrp-15.0.1.9.1-py3-none-any.whl.zip]
+[2023-07-11 12:50:14] INFO root fetch - processPackages [odoo-addon-ddmrp]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_ddmrp-15.0.1.9.2-py3-none-any.whl.zip]
+[2023-07-11 12:50:14] INFO root fetch - main [MainThread]: End processing [odoo-addon-ddmrp]: success
+[2023-07-11 12:50:15] INFO root fetch - processPackages [VisionFive.gpio]: Remove: archive file [/home/abi/fetcher/tmp/VisionFive.gpio-1.2.12-cp34-abi3-any.whl.zip]
+[2023-07-11 12:50:15] INFO root fetch - processPackages [VisionFive.gpio]: Remove: archive file [/home/abi/fetcher/tmp/VisionFive.gpio-1.2.13-cp310-abi3-any.whl.zip]
+[2023-07-11 12:50:15] INFO root fetch - main [MainThread]: End processing [VisionFive.gpio]: success
+[2023-07-11 12:50:15] INFO root fetch - main [MainThread]: Store serial: [18843999]

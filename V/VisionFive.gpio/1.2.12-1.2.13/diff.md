@@ -1,4 +1,4 @@
-# Comparing `tmp/VisionFive.gpio-1.2.12-cp34-abi3-any.whl.zip` & `tmp/VisionFive.gpio-1.2.13-cp310-cp310-any.whl.zip`
+# Comparing `tmp/VisionFive.gpio-1.2.12-cp34-abi3-any.whl.zip` & `tmp/VisionFive.gpio-1.2.13-cp310-abi3-any.whl.zip`
 
 ## zipinfo {}
 
@@ -42,43 +42,43 @@
 --rw-r--r--  2.0 unx       11 b- defN 23-May-26 01:37 VisionFive.gpio-1.2.12.dist-info/top_level.txt
 --rw-rw-r--  2.0 unx     3554 b- defN 23-May-26 01:37 VisionFive.gpio-1.2.12.dist-info/RECORD
 -36 files, 960096 bytes uncompressed, 479057 bytes compressed:  50.1%
-+Zip file size: 345221 bytes, number of entries: 35
-+-rw-r--r--  2.0 unx        0 b- defN 23-Jul-11 07:32 VisionFive/__init__.py
-+-rwxr-xr-x  2.0 unx    19440 b- defN 23-Jul-11 09:42 VisionFive/_boardtype.cpython-310-riscv64-linux-gnu.so
-+-rwxr-xr-x  2.0 unx   171792 b- defN 23-Jul-11 09:42 VisionFive/_gpio.cpython-310-riscv64-linux-gnu.so
-+-rwxr-xr-x  2.0 unx    30360 b- defN 23-Jul-11 09:42 VisionFive/_i2c.cpython-310-riscv64-linux-gnu.so
-+-rwxr-xr-x  2.0 unx    40936 b- defN 23-Jul-11 09:42 VisionFive/_spi.cpython-310-riscv64-linux-gnu.so
-+-rw-r--r--  2.0 unx     1241 b- defN 23-Jul-11 07:32 VisionFive/boardtype/__init__.py
-+-rw-r--r--  2.0 unx     1226 b- defN 23-Jul-11 07:32 VisionFive/gpio/__init__.py
-+-rw-r--r--  2.0 unx     1231 b- defN 23-Jul-11 07:32 VisionFive/i2c/__init__.py
-+-rw-r--r--  2.0 unx     3760 b- defN 23-Jul-11 07:32 VisionFive/sample-code/I2C_Sense_Hat.py
-+-rw-r--r--  2.0 unx     2569 b- defN 23-Jul-11 07:32 VisionFive/sample-code/LED_Matrix.py
-+-rw-r--r--  2.0 unx      946 b- defN 23-Jul-11 07:32 VisionFive/sample-code/RPi_demo_#GPIO_basic#_run_on_VisionFive.py
-+-rw-r--r--  2.0 unx      826 b- defN 23-Jul-11 07:32 VisionFive/sample-code/RPi_demo_#PWM#_run_on_VisionFive.py
-+-rw-r--r--  2.0 unx        0 b- defN 23-Jul-11 07:32 VisionFive/sample-code/__init__.py
-+-rw-r--r--  2.0 unx     2155 b- defN 23-Jul-11 07:32 VisionFive/sample-code/basic_edge_detection.py
-+-rw-r--r--  2.0 unx     1730 b- defN 23-Jul-11 07:32 VisionFive/sample-code/buzzer.py
-+-rw-r--r--  2.0 unx     4828 b- defN 23-Jul-11 07:32 VisionFive/sample-code/edge_detection_with_LED_Matrix.py
-+-rw-r--r--  2.0 unx     2817 b- defN 23-Jul-11 07:32 VisionFive/sample-code/edge_detection_with_waiting_time.py
-+-rw-r--r--  2.0 unx      925 b- defN 23-Jul-11 07:32 VisionFive/sample-code/led.py
-+-rw-r--r--  2.0 unx     1390 b- defN 23-Jul-11 07:32 VisionFive/sample-code/pud_test.py
-+-rw-r--r--  2.0 unx     1150 b- defN 23-Jul-11 07:32 VisionFive/sample-code/pwm_led.py
-+-rw-r--r--  2.0 unx     8642 b- defN 23-Jul-11 07:32 VisionFive/sample-code/uart_gps_demo.py
-+-rw-r--r--  2.0 unx        0 b- defN 23-Jul-11 07:32 VisionFive/sample-code/lcddemo/__init__.py
-+-rw-r--r--  2.0 unx     2598 b- defN 23-Jul-11 07:32 VisionFive/sample-code/lcddemo/example/2.4inch_LCD_demo.py
-+-rw-r--r--  2.0 unx    31487 b- defN 23-Jul-11 07:32 VisionFive/sample-code/lcddemo/example/LCD_2inch.jpg
-+-rw-r--r--  2.0 unx   153656 b- defN 23-Jul-11 07:32 VisionFive/sample-code/lcddemo/example/LCD_2inch4_parrot.bmp
-+-rw-r--r--  2.0 unx        0 b- defN 23-Jul-11 07:32 VisionFive/sample-code/lcddemo/example/__init__.py
-+-rw-r--r--  2.0 unx   230454 b- defN 23-Jul-11 07:32 VisionFive/sample-code/lcddemo/example/visionfive.bmp
-+-rw-r--r--  2.0 unx     7733 b- defN 23-Jul-11 07:32 VisionFive/sample-code/lcddemo/lib/LCD2inch4_lib.py
-+-rw-r--r--  2.0 unx        0 b- defN 23-Jul-11 07:32 VisionFive/sample-code/lcddemo/lib/__init__.py
-+-rw-r--r--  2.0 unx     1231 b- defN 23-Jul-11 07:32 VisionFive/spi/__init__.py
-+-rw-r--r--  2.0 unx     1060 b- defN 23-Jul-11 09:42 VisionFive.gpio-1.2.13.dist-info/LICENCE.txt
-+-rw-r--r--  2.0 unx     4254 b- defN 23-Jul-11 09:42 VisionFive.gpio-1.2.13.dist-info/METADATA
-+-rw-r--r--  2.0 unx      106 b- defN 23-Jul-11 09:42 VisionFive.gpio-1.2.13.dist-info/WHEEL
-+-rw-r--r--  2.0 unx       11 b- defN 23-Jul-11 09:41 VisionFive.gpio-1.2.13.dist-info/top_level.txt
-+?rw-rw-r--  2.0 unx     3441 b- defN 23-Jul-11 09:42 VisionFive.gpio-1.2.13.dist-info/RECORD
-+35 files, 733995 bytes uncompressed, 339517 bytes compressed:  53.7%
++Zip file size: 345233 bytes, number of entries: 35
++-rw-r--r--  2.0 unx        0 b- defN 23-Jul-11 10:09 VisionFive/__init__.py
++-rwxr-xr-x  2.0 unx    19440 b- defN 23-Jul-11 10:16 VisionFive/_boardtype.cpython-310-riscv64-linux-gnu.so
++-rwxr-xr-x  2.0 unx   171792 b- defN 23-Jul-11 10:16 VisionFive/_gpio.cpython-310-riscv64-linux-gnu.so
++-rwxr-xr-x  2.0 unx    30360 b- defN 23-Jul-11 10:16 VisionFive/_i2c.cpython-310-riscv64-linux-gnu.so
++-rwxr-xr-x  2.0 unx    40936 b- defN 23-Jul-11 10:16 VisionFive/_spi.cpython-310-riscv64-linux-gnu.so
++-rw-r--r--  2.0 unx     1241 b- defN 23-Jul-11 10:09 VisionFive/boardtype/__init__.py
++-rw-r--r--  2.0 unx     1226 b- defN 23-Jul-11 10:09 VisionFive/gpio/__init__.py
++-rw-r--r--  2.0 unx     1231 b- defN 23-Jul-11 10:09 VisionFive/i2c/__init__.py
++-rw-r--r--  2.0 unx     3760 b- defN 23-Jul-11 10:09 VisionFive/sample-code/I2C_Sense_Hat.py
++-rw-r--r--  2.0 unx     2569 b- defN 23-Jul-11 10:09 VisionFive/sample-code/LED_Matrix.py
++-rw-r--r--  2.0 unx      946 b- defN 23-Jul-11 10:09 VisionFive/sample-code/RPi_demo_#GPIO_basic#_run_on_VisionFive.py
++-rw-r--r--  2.0 unx      826 b- defN 23-Jul-11 10:09 VisionFive/sample-code/RPi_demo_#PWM#_run_on_VisionFive.py
++-rw-r--r--  2.0 unx        0 b- defN 23-Jul-11 10:09 VisionFive/sample-code/__init__.py
++-rw-r--r--  2.0 unx     2155 b- defN 23-Jul-11 10:09 VisionFive/sample-code/basic_edge_detection.py
++-rw-r--r--  2.0 unx     1730 b- defN 23-Jul-11 10:09 VisionFive/sample-code/buzzer.py
++-rw-r--r--  2.0 unx     4828 b- defN 23-Jul-11 10:09 VisionFive/sample-code/edge_detection_with_LED_Matrix.py
++-rw-r--r--  2.0 unx     2817 b- defN 23-Jul-11 10:09 VisionFive/sample-code/edge_detection_with_waiting_time.py
++-rw-r--r--  2.0 unx      925 b- defN 23-Jul-11 10:09 VisionFive/sample-code/led.py
++-rw-r--r--  2.0 unx     1390 b- defN 23-Jul-11 10:09 VisionFive/sample-code/pud_test.py
++-rw-r--r--  2.0 unx     1150 b- defN 23-Jul-11 10:09 VisionFive/sample-code/pwm_led.py
++-rw-r--r--  2.0 unx     8642 b- defN 23-Jul-11 10:09 VisionFive/sample-code/uart_gps_demo.py
++-rw-r--r--  2.0 unx        0 b- defN 23-Jul-11 10:09 VisionFive/sample-code/lcddemo/__init__.py
++-rw-r--r--  2.0 unx     2598 b- defN 23-Jul-11 10:09 VisionFive/sample-code/lcddemo/example/2.4inch_LCD_demo.py
++-rw-r--r--  2.0 unx    31487 b- defN 23-Jul-11 10:09 VisionFive/sample-code/lcddemo/example/LCD_2inch.jpg
++-rw-r--r--  2.0 unx   153656 b- defN 23-Jul-11 10:09 VisionFive/sample-code/lcddemo/example/LCD_2inch4_parrot.bmp
++-rw-r--r--  2.0 unx        0 b- defN 23-Jul-11 10:09 VisionFive/sample-code/lcddemo/example/__init__.py
++-rw-r--r--  2.0 unx   230454 b- defN 23-Jul-11 10:09 VisionFive/sample-code/lcddemo/example/visionfive.bmp
++-rw-r--r--  2.0 unx     7733 b- defN 23-Jul-11 10:09 VisionFive/sample-code/lcddemo/lib/LCD2inch4_lib.py
++-rw-r--r--  2.0 unx        0 b- defN 23-Jul-11 10:09 VisionFive/sample-code/lcddemo/lib/__init__.py
++-rw-r--r--  2.0 unx     1231 b- defN 23-Jul-11 10:09 VisionFive/spi/__init__.py
++-rw-r--r--  2.0 unx     1060 b- defN 23-Jul-11 10:45 VisionFive.gpio-1.2.13.dist-info/LICENCE.txt
++-rw-r--r--  2.0 unx     4331 b- defN 23-Jul-11 10:45 VisionFive.gpio-1.2.13.dist-info/METADATA
++-rw-r--r--  2.0 unx      106 b- defN 23-Jul-11 10:45 VisionFive.gpio-1.2.13.dist-info/WHEEL
++-rw-r--r--  2.0 unx       11 b- defN 23-Jul-11 10:44 VisionFive.gpio-1.2.13.dist-info/top_level.txt
++?rw-rw-r--  2.0 unx     3441 b- defN 23-Jul-11 10:45 VisionFive.gpio-1.2.13.dist-info/RECORD
++35 files, 734072 bytes uncompressed, 339529 bytes compressed:  53.7%
 ```
 
 ## zipnote {}
@@ -68027,220 +68027,6 @@
 
  * *Files identical despite different names*
 
-## Comparing `VisionFive.gpio-1.2.12.dist-info/METADATA` & `VisionFive.gpio-1.2.13.dist-info/METADATA`
-
- * *Files 22% similar despite different names*
-
-```diff
-@@ -1,10 +1,10 @@
- Metadata-Version: 2.1
- Name: VisionFive.gpio
--Version: 1.2.12
-+Version: 1.2.13
- Summary: A module to control VisionFive GPIO ports
- Home-page: http://gitlab.starfivetech.com/Product/Software AE/VisionFive-python-gpio/starfive_gpio
- Author: VisionFive
- Author-email: support@starfivetech.com
- License: MIT
- Keywords: VisionFive GPIO
- Classifier: Development Status :: 5 - Production/Stable
-@@ -14,115 +14,65 @@
- Classifier: Programming Language :: Python :: 2.7
- Classifier: Programming Language :: Python :: 3.8
- Classifier: Topic :: Software Development
- Classifier: Topic :: Home Automation
- Classifier: Topic :: System :: Hardware
- License-File: LICENCE.txt
- 
-+# Project description
- 
--This package provides a Python module to control the GPIO on a VisionFive.
-+This package provides a Python module to control the GPIO on a VisionFive SBC.
- 
--Support basic GPIO function including edge detection, I2C API, PWM API, SPI API。
-+Support basic GPIO function including I/O, edge detection, PWM, I2C, SPI. Although hardware PWM is not available yet, software PWM is available to use on all channels.
- 
-+# Installation
-+There are two ways to install VisionFive.gpio:
-+## pip:
-+a. First, access the following website to check the latest version number of VisionFive.gpio:
-+https://pypi.org/project/VisionFive.gpio/#history
-+b. Replace "1.x.x" in the following URL with the latest version number obtained from the above step:
-+https://pypi.org/project/VisionFive.gpio/1.x.x/#files
-+c. Visit the modified URL, for example:
-+https://pypi.org/project/VisionFive.gpio/1.2.12/#files
-+d. Hover over the file with the ".whl" extension (e.g., VisionFive.gpio-1.2.12-cp34-abi3-any.whl) and right-click to copy the link address.
-+e. Download the .whl installation package using the wget command:
-+wget download_address_of_whl_package
-+f. Rename the .whl package by replacing "any" with "linux_riscv64":
-+mv VisionFive.gpio-1.2.12-cp34-abi3-any.whl VisionFive.gpio-1.2.12-cp34-abi3-linux_riscv64.whl
-+g. Finally, install the .whl package using the following command:
-+pip install VisionFive.gpio-1.2.12-cp34-abi3-any.whl
-+## script:
-+You can use the method provided in the following URL to install the script: https://doc-en.rvspace.org/VisionFive2/AN_Edge_Detection/VisionFive2_ApplicationNotes/Shared_preparing_software%20-%20vf2.html
-+
-+# Usage
-+Same as RPi.GPIO, help and usage of APIs can be obtained through help() API:
-+```
-+import VisionFive.gpio as GPIO
-+help(GPIO)
-+help(GPIO.setup)
-+```
-+# Sample Code
- Support python sample, such as:
- - GPIO basic operation including input and output
- - Sense HAT(B) basing I2C API
- - LED_Matrix to display logo about Starfive
- - uart_gps_demo to read gps information from GPS NEO-6M
- - pwm_led to test PWM module works well
- - edge_detection_basic about basic edge API usage
- - edge_with_waiting_time about edge detection with specific time
- - edge_with_LED_Matrix about trigger LED display by button
- - RPi_demo_#GPIO_basic#_run_on_VisionFive about running RPi GPIO demo on VisionFive board
- - RPi_demo_#PWM#_run_on_VisionFive about running RPi PWM demo on VisionFive board
--
--how to use VisionFive.gpio API
--
-->>> import VisionFive.gpio as GPIO
-->>> help(GPIO)
-->>> help(GPIO.setup)
--
--how to use VisionFive.gpio PWM API
--
-->>> import VisionFive.gpio as GPIO
-->>> help(GPIO.PWM)
-->>> help(GPIO.PWM.start)
--
--
--how to use VisionFive.i2c API
--
-->>> import VisionFive.i2c as I2C
-->>> help(I2C)
-->>> help(I2C.open)
--
--
--how to use VisionFive.spi API
--
-->>> import VisionFive.spi as SPI
-->>> help(SPI)
-->>> help(SPI.setmode)
--
--how to use basic gpio API and I2C API
--
-->>> import VisionFive.gpio as GPIO
-->>> import VisionFive.i2c as I2C
-->>> 
-->>> GPIO.setup(37, GPIO.OUT)
-->>> GPIO.output(37, GPIO.HIGH)
-->>> GPIO.setup(37, GPIO.IN, pull_up_down=GPIO.PUD_DOWN)
-->>> GPIO.setup(37, GPIO.IN, pull_up_down=GPIO.PUD_UP)
-->>> IVAL = GPIO.input(37)
-->>> 
-->>> p = GPIO.PWM(37, 10)
-->>> p.start(20)
-->>> p.ChangeDutyRatio(50)
-->>> p.ChangeFreq(20)
-->>> p.stop()
-->>> 
-->>> 
-->>> GPIO.setup(key_pin, GPIO.IN)
-->>> GPIO.add_event_detect(37, GPIO.FALLING)
-->>> GPIO.remove_event_detect(37)
-->>> 
-->>> edge_detected = GPIO.wait_for_edge(key_pin, GPIO.FALLING, bouncetime=2, timeout=5000)
-->>> 
-->>> #read and write data with i2c 
-->>> I2C_DEVICE = "/dev/i2c-1"
-->>> SHTC3_I2C_ADDRESS = 0x70
-->>> 
-->>> ret = I2C.open(I2C_DEVICE, SHTC3_I2C_ADDRESS)
-->>> 
-->>> def SHTC3_WriteCommand(cmd):
-->>> 	buf0 =  (cmd >> 8)& 0xff
-->>> 	buf1 = cmd & 0xff
-->>> 	buf = [buf0, buf1]
-->>> 	I2C.write(buf)
-->>> 
-->>> SHTC3_WriteCommand(0x401A)
-->>> SHTC3_WriteCommand(0x7866)
-->>> buf_list = I2C.read(3)
-->>> I2C.close()
-->>> 
-->>> #how to read and write data about ADXL345
-->>> SPI.getdev('/dev/spidev1.0')
-->>> SPI.setmode(500000, 3, 8)
-->>> 
-->>> #set 0xaa to reg 0x1e 
-->>> SPI.write([0x1e,0xaa])
-->>> 
-->>> #read value of reg 0x1e
-->>> SPI.write([0x9e, 0x00])
-->>> SPI.read(1)
-->>> SPI.freedev()
--
--
--
--
--Change Log
-+All demos above are on the example folder.Change Log
- ==========
-+1.2.11
-+-------
-+- Supplementary help documentation
-+- Fix the missing warning message when 'GPIO.cleanup()' is repeated
-+
- 1.2.10
- -------
- - Fix gpio issues and text format
- 
- 1.2.9
- -------
- - Add help description for gpio, i2c, spi
-@@ -166,30 +116,26 @@
- 
- 1.1.1
- -------
- - Modify prompt information
- 
- 1.0.1
- -------
--- ###Basic function
-+- # Basic function
- - For SPI API: add a function to write multiple bytes
--- ###Python sample
-+- # Python sample
- - ADD a SPI demo: using VisionFive SPI support LCD display
- 
- 1.0.0
- -------
--- ###Basic function
-+- # Basic function
- - Support basic GPIO function
- - Support I2C API
- - Support PWM API
- - Support SPI API
--- ###Python sample
-+- # Python sample
- - GPIO basic operation, including input, output
- - Sense HAT(B) basing I2C API
- - LED_Matrix to display logo about Starfive
- - uart_test to test VersionFive's UART works well with UART loopback 
- - uart_gps_demo to read gps information from GPS NEO-6M
- - pwm_led to test PWM module works well
--
--
--
--
-```
-
-### encoding
-
-```diff
-@@ -1 +1 @@
--utf-8
-+us-ascii
-```
-
 ## Comparing `VisionFive.gpio-1.2.12.dist-info/RECORD` & `VisionFive.gpio-1.2.13.dist-info/RECORD`
 
  * *Files 14% similar despite different names*
@@ -68281,7 +68067,7 @@
 -VisionFive.gpio-1.2.12.dist-info/top_level.txt,sha256=GCt60jMIUKjSi4eBeR-eHR9ljlVtW0c93DPcHDYEMxs,11
 -VisionFive.gpio-1.2.12.dist-info/RECORD,,
 +VisionFive.gpio-1.2.13.dist-info/LICENCE.txt,sha256=k1uOLVIPEUr4GqzASwyGWxfjUdaSts7-7f4umKZHdRw,1060
-+VisionFive.gpio-1.2.13.dist-info/METADATA,sha256=Fy9VsOUv7ol9kBbF2V_dwIR-lOQXK3gAyGsXllXDoPk,4254
++VisionFive.gpio-1.2.13.dist-info/METADATA,sha256=YVSt7LCpchAdjAeg8khTHAQYQckQSMNmyjf6Ii-RVmc,4331
 +VisionFive.gpio-1.2.13.dist-info/WHEEL,sha256=s7dDbv1Zv-EKQRtCesu6QfKdPb-BpGVShUyTIMfKMks,106
 +VisionFive.gpio-1.2.13.dist-info/top_level.txt,sha256=GCt60jMIUKjSi4eBeR-eHR9ljlVtW0c93DPcHDYEMxs,11
 +VisionFive.gpio-1.2.13.dist-info/RECORD,,
