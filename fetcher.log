@@ -18895,3 +18895,128 @@ AssertionError: tmp/doctran-0.0.6.tar.gz does not exist
 [2023-07-11 13:56:55] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307111155-py3-none-any.whl.zip]
 [2023-07-11 13:56:55] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-07-11 13:56:55] INFO root fetch - main [MainThread]: Store serial: [18844733]
+[2023-07-11 14:01:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18844733]
+[2023-07-11 14:02:04] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-07-11 14:02:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zmqcli
+[2023-07-11 14:02:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kfish
+[2023-07-11 14:02:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cybotrade
+[2023-07-11 14:02:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pydantic-core
+[2023-07-11 14:02:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: h5-to-edf
+[2023-07-11 14:02:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: caravel-cocotb
+[2023-07-11 14:02:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: chaostoolkit-azure
+[2023-07-11 14:02:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: catchpoint-trace
+[2023-07-11 14:02:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: uagents-google-calendar-utility
+[2023-07-11 14:02:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ciderpolarity
+[2023-07-11 14:02:05] WARNING root fetch - processPackages [caravel-cocotb]: Skipping, unable to determine old version
+[2023-07-11 14:02:05] INFO root fetch - processPackages [caravel-cocotb]: Start processing: agixtsdk
+[2023-07-11 14:02:05] INFO root fetch - main [MainThread]: End processing [caravel-cocotb] error
+[2023-07-11 14:02:05] WARNING root fetch - processPackages [h5-to-edf]: Skipping, unable to determine old version
+[2023-07-11 14:02:05] INFO root fetch - processPackages [h5-to-edf]: Start processing: bigdl-dllib
+[2023-07-11 14:02:05] INFO root fetch - main [MainThread]: End processing [h5-to-edf] error
+[2023-07-11 14:02:05] INFO root fetch - processPackages [cybotrade]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-11 14:02:05] INFO root fetch - processPackages [chaostoolkit-azure]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-07-11 14:02:05] INFO root fetch - processPackages [zmqcli]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-07-11 14:02:05] INFO root fetch - processPackages [catchpoint-trace]: New version: [0.0.2b20230711115955] Old Version: [0.0.1a20230711082719]
+[2023-07-11 14:02:05] WARNING root fetch - processPackages [ciderpolarity]: Skipping, unable to determine old version
+[2023-07-11 14:02:05] INFO root fetch - processPackages [ciderpolarity]: Start processing: kevlar-system-inspector
+[2023-07-11 14:02:05] INFO root fetch - main [MainThread]: End processing [ciderpolarity] error
+[2023-07-11 14:02:05] WARNING root fetch - processPackages [uagents-google-calendar-utility]: Skipping, unable to determine old version
+[2023-07-11 14:02:05] INFO root fetch - processPackages [uagents-google-calendar-utility]: Start processing: bigdl-orca
+[2023-07-11 14:02:05] INFO root fetch - main [MainThread]: End processing [uagents-google-calendar-utility] error
+[2023-07-11 14:02:05] INFO root fetch - processPackages [kfish]: New version: [99.0.202307111157] Old Version: [99.0.202307111042]
+[2023-07-11 14:02:05] INFO root fetch - processPackages [agixtsdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-11 14:02:05] INFO root fetch - processPackages [pydantic-core]: New version: [2.2.0] Old Version: [2.1.3]
+[2023-07-11 14:02:05] INFO root fetch - processPackages [bigdl-dllib]: New version: [2.4.0b20230711] Old Version: [2.4.0b20230710]
+[2023-07-11 14:02:05] INFO root fetch - processPackages [kevlar-system-inspector]: New version: [1.1.0a1] Old Version: [1.0.1]
+[2023-07-11 14:02:05] INFO root fetch - processPackages [bigdl-orca]: New version: [2.4.0b20230711] Old Version: [2.4.0b20230710]
+[2023-07-11 14:02:05] INFO root fetch - processPackages [catchpoint-trace]: Downloading https://files.pythonhosted.org/packages/af/d6/00d1219ed6e2349b04f7964a2a2fad7369f86f8cd3b70ebb81c8ce9219a0/catchpoint-trace-0.0.1a20230711082719.tar.gz
+[2023-07-11 14:02:05] INFO root fetch - processPackages [chaostoolkit-azure]: Downloading https://files.pythonhosted.org/packages/36/b7/597652fcd9443a0bbadf6388b30b277267d82e11dd7a0b2c5502cbc357fa/chaostoolkit-azure-0.8.3.tar.gz
+[2023-07-11 14:02:05] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/03/82/09ec501e9d6e3a886f457c915fb2710f0a8807e5d5acd3b9d62f1cde5682/kfish-99.0.202307111042-py3-none-any.whl
+[2023-07-11 14:02:05] INFO root fetch - processPackages [cybotrade]: Downloading https://files.pythonhosted.org/packages/e0/7c/b593e31275b314679072845317bb6d0f4eddcf63d4c7e0f22f8a422657e7/cybotrade-0.1.5-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-11 14:02:05] INFO root fetch - processPackages [zmqcli]: Downloading https://files.pythonhosted.org/packages/f7/c4/60627db6b3948c819f533a9c9b4767ab20a7b7e8a4a897719f352a8e58a7/zmqcli-0.9.4.tar.gz
+[2023-07-11 14:02:05] INFO root fetch - processPackages [bigdl-dllib]: Downloading https://files.pythonhosted.org/packages/31/14/ef3956460ac8906b1be8e05fb24845f47f330203f80797870a6c343f20cf/bigdl-dllib-2.4.0b20230710.tar.gz
+[2023-07-11 14:02:05] WARNING root fetch - processPackages [cybotrade]: Skipping package: exceeds size limit 17800111>=10485760
+[2023-07-11 14:02:05] INFO root fetch - processPackages [cybotrade]: Start processing: bigdl-friesian
+[2023-07-11 14:02:05] INFO root fetch - main [MainThread]: End processing [cybotrade] error
+[2023-07-11 14:02:05] INFO root fetch - processPackages [agixtsdk]: Downloading https://files.pythonhosted.org/packages/fc/f4/85d852d47773fa6751a3ed8d3ca02e654579a0a110cdc23896aebd954b2c/agixtsdk-0.0.8.tar.gz
+[2023-07-11 14:02:05] INFO root fetch - processPackages [bigdl-friesian]: New version: [2.4.0b20230711] Old Version: [2.4.0b20230710]
+[2023-07-11 14:02:05] INFO root fetch - processPackages [kevlar-system-inspector]: Downloading https://files.pythonhosted.org/packages/1d/30/f1d7cd1b28a50649410ba50e91508f41202bc299758f880333e3fb0af072/kevlar-system-inspector-1.0.1.tar.gz
+[2023-07-11 14:02:05] INFO root fetch - processPackages [pydantic-core]: Downloading https://files.pythonhosted.org/packages/88/b9/52f38826a9913a1d483209ad1abf6f1b2046362d55a2df59d729b8a7c51c/pydantic_core-2.1.3.tar.gz
+[2023-07-11 14:02:05] INFO root fetch - processPackages [bigdl-orca]: Downloading https://files.pythonhosted.org/packages/5e/6c/445bbe983f6f568b3e445d3b7336bc0f4d70b3cfe0b8708a334081eb2d72/bigdl_orca-2.4.0b20230710-py3-none-manylinux1_x86_64.whl
+[2023-07-11 14:02:05] WARNING root fetch - processPackages [bigdl-dllib]: Skipping package: exceeds size limit 53637904>=10485760
+[2023-07-11 14:02:05] INFO root fetch - processPackages [bigdl-dllib]: Start processing: bigdl
+[2023-07-11 14:02:05] INFO root fetch - main [MainThread]: End processing [bigdl-dllib] error
+[2023-07-11 14:02:05] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/3d/0e/1056dadde7d4825fa8f828ec18eda7428011d31b790d3c63ef5a4881d3ed/kfish-99.0.202307111157-py3-none-any.whl
+[2023-07-11 14:02:05] INFO root fetch - processPackages [chaostoolkit-azure]: Downloading https://files.pythonhosted.org/packages/ae/88/335917f3a7bf843ca272505e1b59f4a817a74bcb329ed9cf0a6a8c7cfe72/chaostoolkit-azure-0.9.0.tar.gz
+[2023-07-11 14:02:05] INFO root fetch - processPackages [bigdl]: New version: [2.4.0b20230711] Old Version: [2.4.0b20230710]
+[2023-07-11 14:02:06] INFO root fetch - processPackages [zmqcli]: Downloading https://files.pythonhosted.org/packages/7d/fd/50a79efaf49987227447bef0fa3d354e67ef6dfa1246a35db8cd6657208b/zmqcli-0.9.5.tar.gz
+[2023-07-11 14:02:06] INFO root fetch - processPackages [catchpoint-trace]: Downloading https://files.pythonhosted.org/packages/92/6d/6c26e65b0638b219cf1e25464b0099f150a09d6bda715e9c320e1fde4d9d/catchpoint-trace-0.0.2b20230711115955.tar.gz
+[2023-07-11 14:02:06] INFO root fetch - processPackages [bigdl-friesian]: Downloading https://files.pythonhosted.org/packages/bb/dc/2db9d167c622bc621833ae7722176c72308e7c2b3c6d7503969673b5a71d/bigdl_friesian-2.4.0b20230710-py3-none-manylinux1_x86_64.whl
+[2023-07-11 14:02:06] INFO root fetch - processPackages [kevlar-system-inspector]: Downloading https://files.pythonhosted.org/packages/d3/14/17c2650b4b7da8cf294c1c4eafbf6c9447d69f33713c51b8f0c2d8592482/kevlar-system-inspector-1.1.0a1.tar.gz
+[2023-07-11 14:02:06] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-07-11 14:02:06] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202307111042-py3-none-any.whl.zip tmp/kfish-99.0.202307111157-py3-none-any.whl.zip --markdown 20230711/k/kfish/99.0.202307111042-99.0.202307111157/diff.md --exclude *.pyd
+[2023-07-11 14:02:06] INFO root fetch - processPackages [chaostoolkit-azure]: executing diffoscope
+[2023-07-11 14:02:06] INFO root fetch - processPackages [chaostoolkit-azure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chaostoolkit-azure-0.8.3.tar.gz tmp/chaostoolkit-azure-0.9.0.tar.gz --markdown 20230711/c/chaostoolkit-azure/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-07-11 14:02:06] INFO root fetch - processPackages [agixtsdk]: Downloading https://files.pythonhosted.org/packages/74/75/1048551801b0e2aa197b36b7a2d249437127d0d21a98a3aea7016e0929b9/agixtsdk-0.0.9.tar.gz
+[2023-07-11 14:02:06] INFO root fetch - processPackages [pydantic-core]: Downloading https://files.pythonhosted.org/packages/f2/97/5cd58849a79277dceef161310b04fe266c3577ed01fda722ca0419ba6f9c/pydantic_core-2.2.0.tar.gz
+[2023-07-11 14:02:06] INFO root fetch - processPackages [zmqcli]: executing diffoscope
+[2023-07-11 14:02:06] INFO root fetch - processPackages [zmqcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zmqcli-0.9.4.tar.gz tmp/zmqcli-0.9.5.tar.gz --markdown 20230711/z/zmqcli/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-07-11 14:02:06] INFO root fetch - processPackages [catchpoint-trace]: executing diffoscope
+[2023-07-11 14:02:06] INFO root fetch - processPackages [catchpoint-trace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/catchpoint-trace-0.0.1a20230711082719.tar.gz tmp/catchpoint-trace-0.0.2b20230711115955.tar.gz --markdown 20230711/c/catchpoint-trace/0.0.1a20230711082719-0.0.2b20230711115955/diff.md --exclude *.pyd
+[2023-07-11 14:02:06] INFO root fetch - processPackages [bigdl]: Downloading https://files.pythonhosted.org/packages/1e/08/a2f2ce83039506f66ba95a073827b484b012c0e23838fc236f21bcfac672/bigdl-2.4.0b20230710-py3-none-manylinux1_x86_64.whl
+[2023-07-11 14:02:06] INFO root fetch - processPackages [kevlar-system-inspector]: executing diffoscope
+[2023-07-11 14:02:06] INFO root fetch - processPackages [kevlar-system-inspector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kevlar-system-inspector-1.0.1.tar.gz tmp/kevlar-system-inspector-1.1.0a1.tar.gz --markdown 20230711/k/kevlar-system-inspector/1.0.1-1.1.0a1/diff.md --exclude *.pyd
+[2023-07-11 14:02:06] INFO root fetch - processPackages [agixtsdk]: executing diffoscope
+[2023-07-11 14:02:06] INFO root fetch - processPackages [agixtsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agixtsdk-0.0.8.tar.gz tmp/agixtsdk-0.0.9.tar.gz --markdown 20230711/a/agixtsdk/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-11 14:02:06] WARNING root fetch - processPackages [bigdl-orca]: Skipping package: exceeds size limit 20369795>=10485760
+[2023-07-11 14:02:06] INFO root fetch - processPackages [bigdl-orca]: Start processing: agixt
+[2023-07-11 14:02:06] INFO root fetch - main [MainThread]: End processing [bigdl-orca] error
+[2023-07-11 14:02:06] INFO root fetch - processPackages [pydantic-core]: executing diffoscope
+[2023-07-11 14:02:06] INFO root fetch - processPackages [pydantic-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic_core-2.1.3.tar.gz tmp/pydantic_core-2.2.0.tar.gz --markdown 20230711/p/pydantic-core/2.1.3-2.2.0/diff.md --exclude *.pyd
+[2023-07-11 14:02:06] INFO root fetch - processPackages [bigdl-friesian]: Downloading https://files.pythonhosted.org/packages/4c/b2/1cfa2ecf233bd43bec0a171f4a33e15605946f98eebc0c00a352dcabb3e4/bigdl_friesian-2.4.0b20230711-py3-none-manylinux1_x86_64.whl
+[2023-07-11 14:02:06] INFO root fetch - processPackages [agixt]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-07-11 14:02:06] INFO root fetch - processPackages [agixt]: Downloading https://files.pythonhosted.org/packages/9b/11/abab4d9f1ba0cda023b8a8f3683cf10face70f19995cd228ece61cde00d0/agixt-1.3.8.tar.gz
+[2023-07-11 14:02:06] INFO root fetch - processPackages [bigdl]: Downloading https://files.pythonhosted.org/packages/3a/50/e92ee106e24045a8faaca504cbb9f4fbff4bcb90c84cbca09abd0cfa2c7b/bigdl-2.4.0b20230711-py3-none-manylinux1_x86_64.whl
+[2023-07-11 14:02:06] INFO root fetch - processPackages [bigdl-friesian]: executing diffoscope
+[2023-07-11 14:02:06] INFO root fetch - processPackages [bigdl-friesian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_friesian-2.4.0b20230710-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_friesian-2.4.0b20230711-py3-none-manylinux1_x86_64.whl.zip --markdown 20230711/b/bigdl-friesian/2.4.0b20230710-2.4.0b20230711/diff.md --exclude *.pyd
+[2023-07-11 14:02:07] INFO root fetch - processPackages [bigdl]: executing diffoscope
+[2023-07-11 14:02:07] INFO root fetch - processPackages [bigdl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl-2.4.0b20230710-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl-2.4.0b20230711-py3-none-manylinux1_x86_64.whl.zip --markdown 20230711/b/bigdl/2.4.0b20230710-2.4.0b20230711/diff.md --exclude *.pyd
+[2023-07-11 14:02:07] INFO root fetch - processPackages [agixt]: Downloading https://files.pythonhosted.org/packages/0f/92/cb9f740c60a0e8bc877dff4b237b465b3144035abfefc80d41fb7c1e5603/agixt-1.3.9.tar.gz
+[2023-07-11 14:02:07] INFO root fetch - processPackages [agixt]: executing diffoscope
+[2023-07-11 14:02:07] INFO root fetch - processPackages [agixt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agixt-1.3.8.tar.gz tmp/agixt-1.3.9.tar.gz --markdown 20230711/a/agixt/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-07-11 14:02:07] INFO root fetch - processPackages [zmqcli]: Remove: archive file [/home/abi/fetcher/tmp/zmqcli-0.9.4.tar.gz]
+[2023-07-11 14:02:07] INFO root fetch - processPackages [zmqcli]: Remove: archive file [/home/abi/fetcher/tmp/zmqcli-0.9.5.tar.gz]
+[2023-07-11 14:02:07] INFO root fetch - processPackages [zmqcli]: Start processing: bigdl-dllib-spark2
+[2023-07-11 14:02:07] INFO root fetch - main [MainThread]: End processing [zmqcli]: success
+[2023-07-11 14:02:07] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202307111042-py3-none-any.whl.zip]
+[2023-07-11 14:02:07] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202307111157-py3-none-any.whl.zip]
+[2023-07-11 14:02:07] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-07-11 14:02:07] INFO root fetch - processPackages [bigdl-dllib-spark2]: New version: [2.4.0b20230710] Old Version: [2.4.0b20230708]
+[2023-07-11 14:02:08] INFO root fetch - processPackages [agixtsdk]: Remove: archive file [/home/abi/fetcher/tmp/agixtsdk-0.0.8.tar.gz]
+[2023-07-11 14:02:08] INFO root fetch - processPackages [agixtsdk]: Remove: archive file [/home/abi/fetcher/tmp/agixtsdk-0.0.9.tar.gz]
+[2023-07-11 14:02:08] INFO root fetch - main [MainThread]: End processing [agixtsdk]: success
+[2023-07-11 14:02:08] INFO root fetch - processPackages [bigdl-dllib-spark2]: Downloading https://files.pythonhosted.org/packages/04/29/8af062c427da48727d3df83b6e5cf481bb3b9af931c16e88cbfae670b008/bigdl-dllib-spark2-2.4.0b20230708.tar.gz
+[2023-07-11 14:02:08] INFO root fetch - processPackages [chaostoolkit-azure]: Remove: archive file [/home/abi/fetcher/tmp/chaostoolkit-azure-0.8.3.tar.gz]
+[2023-07-11 14:02:08] INFO root fetch - processPackages [chaostoolkit-azure]: Remove: archive file [/home/abi/fetcher/tmp/chaostoolkit-azure-0.9.0.tar.gz]
+[2023-07-11 14:02:08] INFO root fetch - main [MainThread]: End processing [chaostoolkit-azure]: success
+[2023-07-11 14:02:08] WARNING root fetch - processPackages [bigdl-dllib-spark2]: Skipping package: exceeds size limit 53638714>=10485760
+[2023-07-11 14:02:08] INFO root fetch - main [MainThread]: End processing [bigdl-dllib-spark2] error
+[2023-07-11 14:02:08] INFO root fetch - processPackages [kevlar-system-inspector]: Remove: archive file [/home/abi/fetcher/tmp/kevlar-system-inspector-1.0.1.tar.gz]
+[2023-07-11 14:02:08] INFO root fetch - processPackages [kevlar-system-inspector]: Remove: archive file [/home/abi/fetcher/tmp/kevlar-system-inspector-1.1.0a1.tar.gz]
+[2023-07-11 14:02:08] INFO root fetch - main [MainThread]: End processing [kevlar-system-inspector]: success
+[2023-07-11 14:02:08] INFO root fetch - processPackages [bigdl]: Remove: archive file [/home/abi/fetcher/tmp/bigdl-2.4.0b20230710-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-11 14:02:08] INFO root fetch - processPackages [bigdl]: Remove: archive file [/home/abi/fetcher/tmp/bigdl-2.4.0b20230711-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-11 14:02:08] INFO root fetch - main [MainThread]: End processing [bigdl]: success
+[2023-07-11 14:02:08] INFO root fetch - processPackages [catchpoint-trace]: Remove: archive file [/home/abi/fetcher/tmp/catchpoint-trace-0.0.1a20230711082719.tar.gz]
+[2023-07-11 14:02:08] INFO root fetch - processPackages [catchpoint-trace]: Remove: archive file [/home/abi/fetcher/tmp/catchpoint-trace-0.0.2b20230711115955.tar.gz]
+[2023-07-11 14:02:08] INFO root fetch - main [MainThread]: End processing [catchpoint-trace]: success
+[2023-07-11 14:02:08] INFO root fetch - processPackages [bigdl-friesian]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian-2.4.0b20230710-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-11 14:02:08] INFO root fetch - processPackages [bigdl-friesian]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian-2.4.0b20230711-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-11 14:02:08] INFO root fetch - main [MainThread]: End processing [bigdl-friesian]: success
+[2023-07-11 14:02:09] INFO root fetch - processPackages [agixt]: Remove: archive file [/home/abi/fetcher/tmp/agixt-1.3.8.tar.gz]
+[2023-07-11 14:02:09] INFO root fetch - processPackages [agixt]: Remove: archive file [/home/abi/fetcher/tmp/agixt-1.3.9.tar.gz]
+[2023-07-11 14:02:09] INFO root fetch - main [MainThread]: End processing [agixt]: success
+[2023-07-11 14:02:09] INFO root fetch - processPackages [pydantic-core]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_core-2.1.3.tar.gz]
+[2023-07-11 14:02:09] INFO root fetch - processPackages [pydantic-core]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_core-2.2.0.tar.gz]
+[2023-07-11 14:02:09] INFO root fetch - main [MainThread]: End processing [pydantic-core]: success
+[2023-07-11 14:02:09] INFO root fetch - main [MainThread]: Store serial: [18844891]
