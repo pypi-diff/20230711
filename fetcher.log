@@ -6477,3 +6477,98 @@ AssertionError: tmp/doctran-0.0.6.tar.gz does not exist
 [2023-07-11 03:25:50] INFO root fetch - processPackages [Geode-Implicit]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Implicit-2.1.2rc1-cp39-cp39-win_amd64.whl.zip]
 [2023-07-11 03:25:50] INFO root fetch - main [MainThread]: End processing [Geode-Implicit]: success
 [2023-07-11 03:25:50] INFO root fetch - main [MainThread]: Store serial: [18839444]
+[2023-07-11 03:30:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18839444]
+[2023-07-11 03:30:59] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-11 03:30:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: redmage
+[2023-07-11 03:30:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-lambda-subminute
+[2023-07-11 03:30:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: raydp
+[2023-07-11 03:30:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zfl-ai
+[2023-07-11 03:30:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: omnata-plugin-devkit
+[2023-07-11 03:30:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: TheSilent
+[2023-07-11 03:30:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tcompress
+[2023-07-11 03:30:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: geovis-upload-sdk
+[2023-07-11 03:30:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: oms-mqclient
+[2023-07-11 03:30:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cdk-lambda-layer-curl
+[2023-07-11 03:30:59] INFO root fetch - processPackages [redmage]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-11 03:30:59] WARNING root fetch - processPackages [zfl-ai]: Skipping, unable to determine old version
+[2023-07-11 03:30:59] INFO root fetch - processPackages [zfl-ai]: Start processing: tccli-intl-en
+[2023-07-11 03:30:59] INFO root fetch - main [MainThread]: End processing [zfl-ai] error
+[2023-07-11 03:30:59] WARNING root fetch - processPackages [geovis-upload-sdk]: Skipping, unable to determine old version
+[2023-07-11 03:30:59] INFO root fetch - processPackages [geovis-upload-sdk]: Start processing: oloren
+[2023-07-11 03:30:59] INFO root fetch - main [MainThread]: End processing [geovis-upload-sdk] error
+[2023-07-11 03:30:59] INFO root fetch - processPackages [raydp]: New version: [1.6.0b20230711.dev0] Old Version: [1.6.0b20230707.dev0]
+[2023-07-11 03:30:59] INFO root fetch - processPackages [oms-mqclient]: New version: [2.2.0] Old Version: [2.1.1]
+[2023-07-11 03:30:59] INFO root fetch - processPackages [omnata-plugin-devkit]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-11 03:30:59] INFO root fetch - processPackages [tcompress]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-07-11 03:30:59] INFO root fetch - processPackages [cdk-lambda-subminute]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-11 03:30:59] INFO root fetch - processPackages [TheSilent]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-11 03:30:59] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-11 03:30:59] INFO root fetch - processPackages [oloren]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-11 03:30:59] INFO root fetch - processPackages [tccli-intl-en]: New version: [3.0.99.1] Old Version: [3.0.98.1]
+[2023-07-11 03:30:59] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/ad/09/2a1f42483bf3fbc17417489cf4f3d6ec17c5c763e219aa02ad1827f29dc1/TheSilent-0.0.98.tar.gz
+[2023-07-11 03:30:59] INFO root fetch - processPackages [tcompress]: Downloading https://files.pythonhosted.org/packages/da/77/3d9dcb4b905da7fd05d747706270b8a4b1ab6dac7a8638414a8c8d27ccf1/tcompress-0.0.9.tar.gz
+[2023-07-11 03:30:59] INFO root fetch - processPackages [omnata-plugin-devkit]: Downloading https://files.pythonhosted.org/packages/a6/03/037aa46c1c15ce197872a42c2494fcfb0dd6fd4c14cebaeaf6f9495b5cbf/omnata_plugin_devkit-0.1.8.tar.gz
+[2023-07-11 03:30:59] INFO root fetch - processPackages [cdk-lambda-subminute]: Downloading https://files.pythonhosted.org/packages/e5/12/963a9c9137cb30feaf66b7d9cb7a08a6ea591ebef038343c3b132f84bba7/cdk_lambda_subminute-2.0.98.tar.gz
+[2023-07-11 03:31:00] INFO root fetch - processPackages [redmage]: Downloading https://files.pythonhosted.org/packages/46/23/0f9dd8b07317ab1fe82e78d9765cfca0c8c07a7b309061fd8cac8633093c/redmage-0.2.1.tar.gz
+[2023-07-11 03:31:00] INFO root fetch - processPackages [oloren]: Downloading https://files.pythonhosted.org/packages/a3/76/06db9dcd349a4094baa829da1112066fd4fe60d5748d1b0c8c0833367603/oloren-0.0.8.tar.gz
+[2023-07-11 03:31:00] INFO root fetch - processPackages [raydp]: Downloading https://files.pythonhosted.org/packages/30/8a/de5cbe862986493012cb564a5ab31bfc896988f9d9e3c12fa088df787bed/raydp-1.6.0b20230707.dev0-py3-none-any.whl
+[2023-07-11 03:31:00] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/c8/e2/39c88cfa63f418383f3a383b2b62dfe801cbfd5c53de4d005804c19d76dc/cdk-lambda-layer-curl-2.0.98.tar.gz
+[2023-07-11 03:31:00] INFO root fetch - processPackages [oms-mqclient]: Downloading https://files.pythonhosted.org/packages/f1/02/03f75a179ca9f0e1aa4c501f7b5d7a4d2776f1766f2fd209cb70b741259f/oms-mqclient-2.1.1.tar.gz
+[2023-07-11 03:31:00] INFO root fetch - processPackages [tccli-intl-en]: Downloading https://files.pythonhosted.org/packages/f1/30/41af4d3a9dae71d94a6518cc57186cc8cf5a5b38d29a6a50861712b42078/tccli-intl-en-3.0.98.1.tar.gz
+[2023-07-11 03:31:00] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/38/21/9b42cfa55edd85cfd4fefba7fb94aab0891af2b6c90ef59e687a42228a0b/TheSilent-0.0.99.tar.gz
+[2023-07-11 03:31:00] WARNING root fetch - processPackages [raydp]: Skipping package: exceeds size limit 14070379>=10485760
+[2023-07-11 03:31:00] INFO root fetch - main [MainThread]: End processing [raydp] error
+[2023-07-11 03:31:00] INFO root fetch - processPackages [omnata-plugin-devkit]: Downloading https://files.pythonhosted.org/packages/94/e1/5b8aa743f4bbe600dde3989489613981c39b2dfcd44174b9931cf0c42452/omnata_plugin_devkit-0.1.9.tar.gz
+[2023-07-11 03:31:00] INFO root fetch - processPackages [cdk-lambda-subminute]: Downloading https://files.pythonhosted.org/packages/72/85/0d48595efd9bc93c2b767982602157ef78a97896735d1d14075242ba3a9f/cdk_lambda_subminute-2.0.99.tar.gz
+[2023-07-11 03:31:00] INFO root fetch - processPackages [tcompress]: Downloading https://files.pythonhosted.org/packages/80/e8/6c3e081adc82d9e2de25afd70776a95fb34a8b81b1f7105c12b48b67ed9a/tcompress-0.1.0.tar.gz
+[2023-07-11 03:31:00] INFO root fetch - processPackages [redmage]: Downloading https://files.pythonhosted.org/packages/90/ce/6478acd07cb7e5a1bf3246498b4bcf366cb89f18834561d3bc567a87e1ee/redmage-0.2.2.tar.gz
+[2023-07-11 03:31:00] INFO root fetch - processPackages [TheSilent]: executing diffoscope
+[2023-07-11 03:31:00] INFO root fetch - processPackages [TheSilent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TheSilent-0.0.98.tar.gz tmp/TheSilent-0.0.99.tar.gz --markdown 20230711/T/TheSilent/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-11 03:31:00] INFO root fetch - processPackages [oms-mqclient]: Downloading https://files.pythonhosted.org/packages/eb/4b/99fc17453d5a5e0cc378b0c4fdbf09ff240576036929868bee064db4fdfd/oms-mqclient-2.2.0.tar.gz
+[2023-07-11 03:31:00] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/2e/02/9e7ab6bc6191e2cbe6705c1530f695ed00527096133668b731e72d6a6445/cdk-lambda-layer-curl-2.0.99.tar.gz
+[2023-07-11 03:31:00] INFO root fetch - processPackages [omnata-plugin-devkit]: executing diffoscope
+[2023-07-11 03:31:00] INFO root fetch - processPackages [omnata-plugin-devkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnata_plugin_devkit-0.1.8.tar.gz tmp/omnata_plugin_devkit-0.1.9.tar.gz --markdown 20230711/o/omnata-plugin-devkit/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-11 03:31:00] INFO root fetch - processPackages [cdk-lambda-subminute]: executing diffoscope
+[2023-07-11 03:31:00] INFO root fetch - processPackages [cdk-lambda-subminute]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_lambda_subminute-2.0.98.tar.gz tmp/cdk_lambda_subminute-2.0.99.tar.gz --markdown 20230711/c/cdk-lambda-subminute/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-11 03:31:00] INFO root fetch - processPackages [oloren]: Downloading https://files.pythonhosted.org/packages/8f/84/66581190d09357a5dd522267963c2d727e20650e6690064dc2efadd1c020/oloren-0.0.9.tar.gz
+[2023-07-11 03:31:00] INFO root fetch - processPackages [tcompress]: executing diffoscope
+[2023-07-11 03:31:00] INFO root fetch - processPackages [tcompress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tcompress-0.0.9.tar.gz tmp/tcompress-0.1.0.tar.gz --markdown 20230711/t/tcompress/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-07-11 03:31:00] INFO root fetch - processPackages [oms-mqclient]: executing diffoscope
+[2023-07-11 03:31:00] INFO root fetch - processPackages [oms-mqclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oms-mqclient-2.1.1.tar.gz tmp/oms-mqclient-2.2.0.tar.gz --markdown 20230711/o/oms-mqclient/2.1.1-2.2.0/diff.md --exclude *.pyd
+[2023-07-11 03:31:00] INFO root fetch - processPackages [redmage]: executing diffoscope
+[2023-07-11 03:31:00] INFO root fetch - processPackages [redmage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redmage-0.2.1.tar.gz tmp/redmage-0.2.2.tar.gz --markdown 20230711/r/redmage/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-11 03:31:00] INFO root fetch - processPackages [tccli-intl-en]: Downloading https://files.pythonhosted.org/packages/08/e0/99b129dd2c25cb88719c0b1692fbc03b299057b179a6c33831623b44d96b/tccli-intl-en-3.0.99.1.tar.gz
+[2023-07-11 03:31:01] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2023-07-11 03:31:01] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20230711/c/cdk-lambda-layer-curl/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-11 03:31:01] INFO root fetch - processPackages [tccli-intl-en]: executing diffoscope
+[2023-07-11 03:31:01] INFO root fetch - processPackages [tccli-intl-en]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tccli-intl-en-3.0.98.1.tar.gz tmp/tccli-intl-en-3.0.99.1.tar.gz --markdown 20230711/t/tccli-intl-en/3.0.98.1-3.0.99.1/diff.md --exclude *.pyd
+[2023-07-11 03:31:01] INFO root fetch - processPackages [oloren]: executing diffoscope
+[2023-07-11 03:31:01] INFO root fetch - processPackages [oloren]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oloren-0.0.8.tar.gz tmp/oloren-0.0.9.tar.gz --markdown 20230711/o/oloren/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-11 03:31:02] INFO root fetch - processPackages [cdk-lambda-subminute]: Remove: archive file [/home/abi/fetcher/tmp/cdk_lambda_subminute-2.0.98.tar.gz]
+[2023-07-11 03:31:02] INFO root fetch - processPackages [cdk-lambda-subminute]: Remove: archive file [/home/abi/fetcher/tmp/cdk_lambda_subminute-2.0.99.tar.gz]
+[2023-07-11 03:31:02] INFO root fetch - main [MainThread]: End processing [cdk-lambda-subminute]: success
+[2023-07-11 03:31:02] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.98.tar.gz]
+[2023-07-11 03:31:02] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.99.tar.gz]
+[2023-07-11 03:31:02] INFO root fetch - main [MainThread]: End processing [TheSilent]: success
+[2023-07-11 03:31:02] INFO root fetch - processPackages [omnata-plugin-devkit]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_devkit-0.1.8.tar.gz]
+[2023-07-11 03:31:02] INFO root fetch - processPackages [omnata-plugin-devkit]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_devkit-0.1.9.tar.gz]
+[2023-07-11 03:31:02] INFO root fetch - main [MainThread]: End processing [omnata-plugin-devkit]: success
+[2023-07-11 03:31:02] INFO root fetch - processPackages [tcompress]: Remove: archive file [/home/abi/fetcher/tmp/tcompress-0.0.9.tar.gz]
+[2023-07-11 03:31:02] INFO root fetch - processPackages [tcompress]: Remove: archive file [/home/abi/fetcher/tmp/tcompress-0.1.0.tar.gz]
+[2023-07-11 03:31:02] INFO root fetch - main [MainThread]: End processing [tcompress]: success
+[2023-07-11 03:31:02] INFO root fetch - processPackages [oms-mqclient]: Remove: archive file [/home/abi/fetcher/tmp/oms-mqclient-2.1.1.tar.gz]
+[2023-07-11 03:31:02] INFO root fetch - processPackages [oms-mqclient]: Remove: archive file [/home/abi/fetcher/tmp/oms-mqclient-2.2.0.tar.gz]
+[2023-07-11 03:31:02] INFO root fetch - main [MainThread]: End processing [oms-mqclient]: success
+[2023-07-11 03:31:02] INFO root fetch - processPackages [redmage]: Remove: archive file [/home/abi/fetcher/tmp/redmage-0.2.1.tar.gz]
+[2023-07-11 03:31:02] INFO root fetch - processPackages [redmage]: Remove: archive file [/home/abi/fetcher/tmp/redmage-0.2.2.tar.gz]
+[2023-07-11 03:31:02] INFO root fetch - main [MainThread]: End processing [redmage]: success
+[2023-07-11 03:31:02] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.98.tar.gz]
+[2023-07-11 03:31:02] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
+[2023-07-11 03:31:02] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2023-07-11 03:31:04] INFO root fetch - processPackages [tccli-intl-en]: Remove: archive file [/home/abi/fetcher/tmp/tccli-intl-en-3.0.98.1.tar.gz]
+[2023-07-11 03:31:04] INFO root fetch - processPackages [tccli-intl-en]: Remove: archive file [/home/abi/fetcher/tmp/tccli-intl-en-3.0.99.1.tar.gz]
+[2023-07-11 03:31:04] INFO root fetch - main [MainThread]: End processing [tccli-intl-en]: success
+[2023-07-11 03:31:05] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.8.tar.gz]
+[2023-07-11 03:31:05] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.9.tar.gz]
+[2023-07-11 03:31:05] INFO root fetch - main [MainThread]: End processing [oloren]: success
+[2023-07-11 03:31:05] INFO root fetch - main [MainThread]: Store serial: [18839484]
