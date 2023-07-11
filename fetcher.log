@@ -8804,3 +8804,81 @@ AssertionError: tmp/doctran-0.0.6.tar.gz does not exist
 [2023-07-11 05:34:14] INFO root fetch - processPackages [airunner]: Remove: archive file [/home/abi/fetcher/tmp/airunner-2.1.2.tar.gz]
 [2023-07-11 05:34:14] INFO root fetch - main [MainThread]: End processing [airunner]: success
 [2023-07-11 05:34:14] INFO root fetch - main [MainThread]: Store serial: [18840516]
+[2023-07-11 05:39:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18840516]
+[2023-07-11 05:39:23] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-11 05:39:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: creme-nn
+[2023-07-11 05:39:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odc-stats
+[2023-07-11 05:39:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tone
+[2023-07-11 05:39:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: usda
+[2023-07-11 05:39:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mysqlx-generator
+[2023-07-11 05:39:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aql-builder
+[2023-07-11 05:39:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bb-dirtree
+[2023-07-11 05:39:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: relative-dose-1d
+[2023-07-11 05:39:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: text-office
+[2023-07-11 05:39:23] INFO root fetch - processPackages [creme-nn]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-11 05:39:23] INFO root fetch - processPackages [bb-dirtree]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-07-11 05:39:23] INFO root fetch - processPackages [usda]: New version: [0.0.24] Old Version: [0.0.23]
+[2023-07-11 05:39:23] INFO root fetch - processPackages [mysqlx-generator]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-11 05:39:23] INFO root fetch - processPackages [tone]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-11 05:39:23] WARNING root fetch - processPackages [aql-builder]: Skipping, unable to determine old version
+[2023-07-11 05:39:23] INFO root fetch - main [MainThread]: End processing [aql-builder] error
+[2023-07-11 05:39:23] INFO root fetch - processPackages [text-office]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-07-11 05:39:23] INFO root fetch - processPackages [odc-stats]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-11 05:39:23] INFO root fetch - processPackages [relative-dose-1d]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-11 05:39:23] INFO root fetch - processPackages [tone]: Downloading https://files.pythonhosted.org/packages/02/f7/910df5923bde61e670643af4dc1ae97b6218eb82086e7cafad847de60be0/tone-0.0.8.tar.gz
+[2023-07-11 05:39:23] INFO root fetch - processPackages [bb-dirtree]: Downloading https://files.pythonhosted.org/packages/9d/0d/12ffda8ec33c448a0f395846002044355d811544ee60bcfe11f97fe29c71/bb_dirtree-0.2.5.tar.gz
+[2023-07-11 05:39:23] INFO root fetch - processPackages [usda]: Downloading https://files.pythonhosted.org/packages/ed/39/91c939591f0204bd2bc5019839c893db3145a7195b6c92a78e1b530def94/usda-0.0.23.tar.gz
+[2023-07-11 05:39:23] INFO root fetch - processPackages [creme-nn]: Downloading https://files.pythonhosted.org/packages/c8/6d/c771b12f5890976747341426dd4547630a926fe8fb796cdfc79aefe3c48e/creme-nn-0.1.1.tar.gz
+[2023-07-11 05:39:23] INFO root fetch - processPackages [mysqlx-generator]: Downloading https://files.pythonhosted.org/packages/9c/f8/2bbc37f503d7fe545bcd37153b96613737611e8b516b68ad23d34e2e2c26/mysqlx-generator-1.0.2.tar.gz
+[2023-07-11 05:39:23] INFO root fetch - processPackages [text-office]: Downloading https://files.pythonhosted.org/packages/f7/27/1cf4f8463a0753f8fd1daafbcbbaec5dc8e0a65a252be4903cb1c9ba421a/text-office-0.2.7.tar.gz
+[2023-07-11 05:39:23] INFO root fetch - processPackages [odc-stats]: Downloading https://files.pythonhosted.org/packages/37/04/c8025d7c66dda3274caaa3aef8c864e2b01411b63ef4320088c36f5df049/odc-stats-1.0.8.tar.gz
+[2023-07-11 05:39:23] INFO root fetch - processPackages [relative-dose-1d]: Downloading https://files.pythonhosted.org/packages/f2/ed/447f2adcc1ff5f621043cfcc226a6413ae5d176a4f7f57f61a5cabe8ad60/relative_dose_1d-0.1.4.tar.gz
+[2023-07-11 05:39:23] INFO root fetch - processPackages [tone]: Downloading https://files.pythonhosted.org/packages/6e/5e/b3888c113af4c0ebe2e69d34f16c1680373ee3103a8f2b52ceaaf58612f0/tone-0.0.9.tar.gz
+[2023-07-11 05:39:24] INFO root fetch - processPackages [usda]: Downloading https://files.pythonhosted.org/packages/b4/aa/253d2c2cae8b3ca38adee2922de3f6e0682f6d82628ebf87f6f013c49c02/usda-0.0.24.tar.gz
+[2023-07-11 05:39:24] INFO root fetch - processPackages [tone]: executing diffoscope
+[2023-07-11 05:39:24] INFO root fetch - processPackages [tone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tone-0.0.8.tar.gz tmp/tone-0.0.9.tar.gz --markdown 20230711/t/tone/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-11 05:39:24] INFO root fetch - processPackages [creme-nn]: Downloading https://files.pythonhosted.org/packages/e4/e6/72c97a91365c504230f70830fdac8c728e2835b34acdf7bd258cad9ad2e3/creme-nn-0.1.2.tar.gz
+[2023-07-11 05:39:24] INFO root fetch - processPackages [mysqlx-generator]: Downloading https://files.pythonhosted.org/packages/2e/ec/a5b59e4654c0dfd0ab6e4e282920c5f73f64dcb4a8bac67856bc2c0a4ee8/mysqlx-generator-1.0.3.tar.gz
+[2023-07-11 05:39:24] INFO root fetch - processPackages [bb-dirtree]: Downloading https://files.pythonhosted.org/packages/71/ab/3c45ffc8cf391b5868d1a18b249ed549b555058c909de0f2360c0f7840b8/bb_dirtree-0.2.6.tar.gz
+[2023-07-11 05:39:24] INFO root fetch - processPackages [text-office]: Downloading https://files.pythonhosted.org/packages/ed/69/08413af1562533de1bf030dceb5cd46263ef2c95b61bf0843072d790b1d0/text-office-0.2.8.tar.gz
+[2023-07-11 05:39:24] INFO root fetch - processPackages [creme-nn]: executing diffoscope
+[2023-07-11 05:39:24] INFO root fetch - processPackages [creme-nn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/creme-nn-0.1.1.tar.gz tmp/creme-nn-0.1.2.tar.gz --markdown 20230711/c/creme-nn/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-11 05:39:24] INFO root fetch - processPackages [odc-stats]: Downloading https://files.pythonhosted.org/packages/5a/c2/9b2a987df3c835a128241249da2805d1e66261097f62d5c7862c67f77338/odc-stats-1.0.9.tar.gz
+[2023-07-11 05:39:24] INFO root fetch - processPackages [bb-dirtree]: executing diffoscope
+[2023-07-11 05:39:24] INFO root fetch - processPackages [bb-dirtree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bb_dirtree-0.2.5.tar.gz tmp/bb_dirtree-0.2.6.tar.gz --markdown 20230711/b/bb-dirtree/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-07-11 05:39:24] INFO root fetch - processPackages [mysqlx-generator]: executing diffoscope
+[2023-07-11 05:39:24] INFO root fetch - processPackages [usda]: executing diffoscope
+[2023-07-11 05:39:24] INFO root fetch - processPackages [mysqlx-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mysqlx-generator-1.0.2.tar.gz tmp/mysqlx-generator-1.0.3.tar.gz --markdown 20230711/m/mysqlx-generator/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-11 05:39:24] INFO root fetch - processPackages [usda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/usda-0.0.23.tar.gz tmp/usda-0.0.24.tar.gz --markdown 20230711/u/usda/0.0.23-0.0.24/diff.md --exclude *.pyd
+[2023-07-11 05:39:24] INFO root fetch - processPackages [text-office]: executing diffoscope
+[2023-07-11 05:39:24] INFO root fetch - processPackages [text-office]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text-office-0.2.7.tar.gz tmp/text-office-0.2.8.tar.gz --markdown 20230711/t/text-office/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-07-11 05:39:24] INFO root fetch - processPackages [relative-dose-1d]: Downloading https://files.pythonhosted.org/packages/f7/13/2b5b2ed96b205377f2e332822cb710dd272f191f0354febb0db2dfb418ca/relative_dose_1d-0.1.5.tar.gz
+[2023-07-11 05:39:24] INFO root fetch - processPackages [odc-stats]: executing diffoscope
+[2023-07-11 05:39:24] INFO root fetch - processPackages [odc-stats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odc-stats-1.0.8.tar.gz tmp/odc-stats-1.0.9.tar.gz --markdown 20230711/o/odc-stats/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-11 05:39:24] INFO root fetch - processPackages [relative-dose-1d]: executing diffoscope
+[2023-07-11 05:39:24] INFO root fetch - processPackages [relative-dose-1d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/relative_dose_1d-0.1.4.tar.gz tmp/relative_dose_1d-0.1.5.tar.gz --markdown 20230711/r/relative-dose-1d/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-11 05:39:25] INFO root fetch - processPackages [tone]: Remove: archive file [/home/abi/fetcher/tmp/tone-0.0.8.tar.gz]
+[2023-07-11 05:39:25] INFO root fetch - processPackages [tone]: Remove: archive file [/home/abi/fetcher/tmp/tone-0.0.9.tar.gz]
+[2023-07-11 05:39:25] INFO root fetch - main [MainThread]: End processing [tone]: success
+[2023-07-11 05:39:25] INFO root fetch - processPackages [creme-nn]: Remove: archive file [/home/abi/fetcher/tmp/creme-nn-0.1.1.tar.gz]
+[2023-07-11 05:39:25] INFO root fetch - processPackages [creme-nn]: Remove: archive file [/home/abi/fetcher/tmp/creme-nn-0.1.2.tar.gz]
+[2023-07-11 05:39:25] INFO root fetch - main [MainThread]: End processing [creme-nn]: success
+[2023-07-11 05:39:25] INFO root fetch - processPackages [text-office]: Remove: archive file [/home/abi/fetcher/tmp/text-office-0.2.7.tar.gz]
+[2023-07-11 05:39:25] INFO root fetch - processPackages [text-office]: Remove: archive file [/home/abi/fetcher/tmp/text-office-0.2.8.tar.gz]
+[2023-07-11 05:39:25] INFO root fetch - main [MainThread]: End processing [text-office]: success
+[2023-07-11 05:39:25] INFO root fetch - processPackages [mysqlx-generator]: Remove: archive file [/home/abi/fetcher/tmp/mysqlx-generator-1.0.2.tar.gz]
+[2023-07-11 05:39:25] INFO root fetch - processPackages [mysqlx-generator]: Remove: archive file [/home/abi/fetcher/tmp/mysqlx-generator-1.0.3.tar.gz]
+[2023-07-11 05:39:25] INFO root fetch - main [MainThread]: End processing [mysqlx-generator]: success
+[2023-07-11 05:39:25] INFO root fetch - processPackages [bb-dirtree]: Remove: archive file [/home/abi/fetcher/tmp/bb_dirtree-0.2.5.tar.gz]
+[2023-07-11 05:39:25] INFO root fetch - processPackages [bb-dirtree]: Remove: archive file [/home/abi/fetcher/tmp/bb_dirtree-0.2.6.tar.gz]
+[2023-07-11 05:39:25] INFO root fetch - main [MainThread]: End processing [bb-dirtree]: success
+[2023-07-11 05:39:26] INFO root fetch - processPackages [odc-stats]: Remove: archive file [/home/abi/fetcher/tmp/odc-stats-1.0.8.tar.gz]
+[2023-07-11 05:39:26] INFO root fetch - processPackages [odc-stats]: Remove: archive file [/home/abi/fetcher/tmp/odc-stats-1.0.9.tar.gz]
+[2023-07-11 05:39:26] INFO root fetch - main [MainThread]: End processing [odc-stats]: success
+[2023-07-11 05:39:26] INFO root fetch - processPackages [relative-dose-1d]: Remove: archive file [/home/abi/fetcher/tmp/relative_dose_1d-0.1.4.tar.gz]
+[2023-07-11 05:39:26] INFO root fetch - processPackages [relative-dose-1d]: Remove: archive file [/home/abi/fetcher/tmp/relative_dose_1d-0.1.5.tar.gz]
+[2023-07-11 05:39:26] INFO root fetch - main [MainThread]: End processing [relative-dose-1d]: success
+[2023-07-11 05:39:26] INFO root fetch - processPackages [usda]: Remove: archive file [/home/abi/fetcher/tmp/usda-0.0.23.tar.gz]
+[2023-07-11 05:39:26] INFO root fetch - processPackages [usda]: Remove: archive file [/home/abi/fetcher/tmp/usda-0.0.24.tar.gz]
+[2023-07-11 05:39:26] INFO root fetch - main [MainThread]: End processing [usda]: success
+[2023-07-11 05:39:26] INFO root fetch - main [MainThread]: Store serial: [18840545]
