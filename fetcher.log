@@ -22008,3 +22008,173 @@ EOFError: EOF read where object expected
 [2023-07-11 15:50:14] ERROR root fetch - processPackages [alcov]: Timeout during execution of pkgdiff
 [2023-07-11 15:50:14] INFO root fetch - main [MainThread]: End processing [alcov] error
 [2023-07-11 15:50:14] INFO root fetch - main [MainThread]: Store serial: [18846149]
+[2023-07-11 15:55:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18846149]
+[2023-07-11 15:55:24] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-07-11 15:55:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyepic
+[2023-07-11 15:55:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cardo-python-utils
+[2023-07-11 15:55:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ascend-deployer
+[2023-07-11 15:55:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: email-cleaning-service
+[2023-07-11 15:55:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: multiplex-imaging-pipeline
+[2023-07-11 15:55:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dotenver
+[2023-07-11 15:55:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: localstack-core
+[2023-07-11 15:55:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: google-cloud-deploy
+[2023-07-11 15:55:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyrippleapi
+[2023-07-11 15:55:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: unitsnet-py
+[2023-07-11 15:55:25] INFO root fetch - processPackages [cardo-python-utils]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-07-11 15:55:25] INFO root fetch - processPackages [pyepic]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-11 15:55:25] INFO root fetch - processPackages [ascend-deployer]: New version: [5.0b13] Old Version: [5.0.0b9]
+[2023-07-11 15:55:25] INFO root fetch - processPackages [email-cleaning-service]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-11 15:55:25] INFO root fetch - processPackages [multiplex-imaging-pipeline]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-11 15:55:25] INFO root fetch - processPackages [google-cloud-deploy]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-07-11 15:55:25] INFO root fetch - processPackages [dotenver]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-07-11 15:55:25] INFO root fetch - processPackages [pyrippleapi]: New version: [2023.7.3] Old Version: [2023.7.2]
+[2023-07-11 15:55:25] INFO root fetch - processPackages [unitsnet-py]: New version: [0.1.43] Old Version: [0.1.42]
+[2023-07-11 15:55:25] INFO root fetch - processPackages [localstack-core]: New version: [2.1.1.dev20230711135103] Old Version: [2.1.1.dev20230711062635]
+[2023-07-11 15:55:25] INFO root fetch - processPackages [pyepic]: Downloading https://files.pythonhosted.org/packages/ff/e0/58b60dcd9b8caacf55096e9c42a37e497e07e7f1fbe767da8f7c515acdf0/pyepic-1.0.8.tar.gz
+[2023-07-11 15:55:25] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/70/ce/f03633fc8f658f81bb79e7a53ff8d1e673664e74973311f8dc31a1a27802/localstack-core-2.1.1.dev20230711062635.tar.gz
+[2023-07-11 15:55:25] INFO root fetch - processPackages [pyrippleapi]: Downloading https://files.pythonhosted.org/packages/44/99/25c921f8bd0b438387f0e12e2fa10ea99f142cef862d18da7b5b8cd81be0/pyrippleapi-2023.7.2.tar.gz
+[2023-07-11 15:55:25] INFO root fetch - processPackages [dotenver]: Downloading https://files.pythonhosted.org/packages/93/f4/365bba5cef505dd82cb5dbd991323a1faae04e0b7b82fc36453ac21dc895/dotenver-1.2.1.tar.gz
+[2023-07-11 15:55:25] INFO root fetch - processPackages [multiplex-imaging-pipeline]: Downloading https://files.pythonhosted.org/packages/c0/b9/dd6c79ff874544e9663788193c872b9966ba89b39b2e62f638c4b8ecd4d3/multiplex-imaging-pipeline-0.0.4.tar.gz
+[2023-07-11 15:55:25] INFO root fetch - processPackages [cardo-python-utils]: Downloading https://files.pythonhosted.org/packages/fa/b7/95fe47eb4546d14e299084370826d65d4acad920604b6638d6358eae8895/cardo-python-utils-0.2.3.tar.gz
+[2023-07-11 15:55:25] INFO root fetch - processPackages [ascend-deployer]: Downloading https://files.pythonhosted.org/packages/82/2b/de9c9891308ac9115a7f856ed337c153c087f6c6534f0a6780aea70a04f0/ascend_deployer-5.0.0b9-py3-none-any.whl
+[2023-07-11 15:55:25] INFO root fetch - processPackages [email-cleaning-service]: Downloading https://files.pythonhosted.org/packages/aa/a2/18962aa725b4ce2eb7bf6edd7489107b6c6ad841e95303b1826abf3aefe9/email_cleaning_service-0.1.0.tar.gz
+[2023-07-11 15:55:25] INFO root fetch - processPackages [google-cloud-deploy]: Downloading https://files.pythonhosted.org/packages/2e/62/ee095a3504cbdd15220d71e7d8d0c415e9bf874ede4386e378d6110c1442/google-cloud-deploy-1.8.0.tar.gz
+[2023-07-11 15:55:25] INFO root fetch - processPackages [unitsnet-py]: Downloading https://files.pythonhosted.org/packages/06/4c/773109d60eb1b4256a4568b5c76293ed8f29bc7449279a6c42a19a809115/unitsnet-py-0.1.42.tar.gz
+[2023-07-11 15:55:25] WARNING root fetch - processPackages [email-cleaning-service]: Skipping package: exceeds size limit 39569794>=10485760
+[2023-07-11 15:55:25] INFO root fetch - processPackages [email-cleaning-service]: Start processing: ayeaye
+[2023-07-11 15:55:25] INFO root fetch - main [MainThread]: End processing [email-cleaning-service] error
+[2023-07-11 15:55:25] INFO root fetch - processPackages [ayeaye]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-11 15:55:25] INFO root fetch - processPackages [pyepic]: Downloading https://files.pythonhosted.org/packages/3c/8a/81509452a068a89d49a65d218f76430f26db18a73c896dd8e29d87728f82/pyepic-1.0.9.tar.gz
+[2023-07-11 15:55:25] INFO root fetch - processPackages [pyrippleapi]: Downloading https://files.pythonhosted.org/packages/d5/fb/1bc651efbf88c4a80e9aadebb57a3c7a665cf91b25d84a2ae0043c2d3e6a/pyrippleapi-2023.7.3.tar.gz
+[2023-07-11 15:55:25] INFO root fetch - processPackages [multiplex-imaging-pipeline]: Downloading https://files.pythonhosted.org/packages/1d/19/68b0345638557e924290ace866c83b002d9f7ae6f7e9b63ff732b7b7a31b/multiplex-imaging-pipeline-0.0.5.tar.gz
+[2023-07-11 15:55:26] INFO root fetch - processPackages [dotenver]: Downloading https://files.pythonhosted.org/packages/a5/b2/415fc71f062c71dcf164a7feba184499d9dd175a4123e019bfce0c71b750/dotenver-1.2.2.tar.gz
+[2023-07-11 15:55:26] INFO root fetch - processPackages [ascend-deployer]: Downloading https://files.pythonhosted.org/packages/40/3f/a12b526b225911d681984ff0a4cf25ab83f912c7af400b0fa90241775b08/ascend_deployer-5.0b13-py3-none-any.whl
+[2023-07-11 15:55:26] INFO root fetch - processPackages [pyrippleapi]: executing diffoscope
+[2023-07-11 15:55:26] INFO root fetch - processPackages [pyrippleapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrippleapi-2023.7.2.tar.gz tmp/pyrippleapi-2023.7.3.tar.gz --markdown 20230711/p/pyrippleapi/2023.7.2-2023.7.3/diff.md --exclude *.pyd
+[2023-07-11 15:55:26] INFO root fetch - processPackages [cardo-python-utils]: Downloading https://files.pythonhosted.org/packages/1f/dd/8ecb7e8a9e1753873619da941117d7a3ae8a578366ef5ea4dbf1bfea1c71/cardo-python-utils-0.2.4.tar.gz
+[2023-07-11 15:55:26] INFO root fetch - processPackages [ayeaye]: Downloading https://files.pythonhosted.org/packages/f2/6b/8b5d41607a25ef4c9c1721c6ec7ad0d8e2e642b7917e5af7f2abab43f22e/ayeaye-0.0.8.tar.gz
+[2023-07-11 15:55:26] INFO root fetch - processPackages [pyepic]: executing diffoscope
+[2023-07-11 15:55:26] INFO root fetch - processPackages [pyepic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyepic-1.0.8.tar.gz tmp/pyepic-1.0.9.tar.gz --markdown 20230711/p/pyepic/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-11 15:55:26] INFO root fetch - processPackages [unitsnet-py]: Downloading https://files.pythonhosted.org/packages/1d/5b/7b9f0c9532fc64dc07a0e06fc59638ed740fe375d406edf1049b9afd599b/unitsnet-py-0.1.43.tar.gz
+[2023-07-11 15:55:26] INFO root fetch - processPackages [google-cloud-deploy]: Downloading https://files.pythonhosted.org/packages/2e/fd/de2f6bff87212d76e840950006f2bff3597aef791397fe799b1c50140a7c/google-cloud-deploy-1.9.0.tar.gz
+[2023-07-11 15:55:26] INFO root fetch - processPackages [multiplex-imaging-pipeline]: executing diffoscope
+[2023-07-11 15:55:26] INFO root fetch - processPackages [multiplex-imaging-pipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multiplex-imaging-pipeline-0.0.4.tar.gz tmp/multiplex-imaging-pipeline-0.0.5.tar.gz --markdown 20230711/m/multiplex-imaging-pipeline/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-11 15:55:26] INFO root fetch - processPackages [unitsnet-py]: executing diffoscope
+[2023-07-11 15:55:26] INFO root fetch - processPackages [unitsnet-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unitsnet-py-0.1.42.tar.gz tmp/unitsnet-py-0.1.43.tar.gz --markdown 20230711/u/unitsnet-py/0.1.42-0.1.43/diff.md --exclude *.pyd
+[2023-07-11 15:55:26] INFO root fetch - processPackages [google-cloud-deploy]: executing diffoscope
+[2023-07-11 15:55:26] INFO root fetch - processPackages [google-cloud-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-cloud-deploy-1.8.0.tar.gz tmp/google-cloud-deploy-1.9.0.tar.gz --markdown 20230711/g/google-cloud-deploy/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-07-11 15:55:26] INFO root fetch - processPackages [dotenver]: executing diffoscope
+[2023-07-11 15:55:26] INFO root fetch - processPackages [dotenver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dotenver-1.2.1.tar.gz tmp/dotenver-1.2.2.tar.gz --markdown 20230711/d/dotenver/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-07-11 15:55:26] INFO root fetch - processPackages [ascend-deployer]: executing diffoscope
+[2023-07-11 15:55:26] INFO root fetch - processPackages [ascend-deployer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ascend_deployer-5.0.0b9-py3-none-any.whl.zip tmp/ascend_deployer-5.0b13-py3-none-any.whl.zip --markdown 20230711/a/ascend-deployer/5.0.0b9-5.0b13/diff.md --exclude *.pyd
+[2023-07-11 15:55:26] INFO root fetch - processPackages [cardo-python-utils]: executing diffoscope
+[2023-07-11 15:55:26] INFO root fetch - processPackages [cardo-python-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cardo-python-utils-0.2.3.tar.gz tmp/cardo-python-utils-0.2.4.tar.gz --markdown 20230711/c/cardo-python-utils/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-07-11 15:55:26] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/3d/a0/f574912e4200a0864fe6985e9b91d5ab4550d50c09ed491c055149ae72cc/localstack-core-2.1.1.dev20230711135103.tar.gz
+[2023-07-11 15:55:26] INFO root fetch - processPackages [ayeaye]: Downloading https://files.pythonhosted.org/packages/d3/40/38f102a96f92b589174e6e48225ca8d3a50cacf0b958d0b7085b5bedbf28/ayeaye-0.0.9.tar.gz
+[2023-07-11 15:55:26] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-07-11 15:55:26] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.1.1.dev20230711062635.tar.gz tmp/localstack-core-2.1.1.dev20230711135103.tar.gz --markdown 20230711/l/localstack-core/2.1.1.dev20230711062635-2.1.1.dev20230711135103/diff.md --exclude *.pyd
+[2023-07-11 15:55:26] INFO root fetch - processPackages [ayeaye]: executing diffoscope
+[2023-07-11 15:55:26] INFO root fetch - processPackages [ayeaye]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ayeaye-0.0.8.tar.gz tmp/ayeaye-0.0.9.tar.gz --markdown 20230711/a/ayeaye/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-11 15:55:27] INFO root fetch - processPackages [pyrippleapi]: Remove: archive file [/home/abi/fetcher/tmp/pyrippleapi-2023.7.2.tar.gz]
+[2023-07-11 15:55:27] INFO root fetch - processPackages [pyrippleapi]: Remove: archive file [/home/abi/fetcher/tmp/pyrippleapi-2023.7.3.tar.gz]
+[2023-07-11 15:55:27] INFO root fetch - processPackages [pyrippleapi]: Start processing: pyrfc
+[2023-07-11 15:55:27] INFO root fetch - main [MainThread]: End processing [pyrippleapi]: success
+[2023-07-11 15:55:27] INFO root fetch - processPackages [pyrfc]: New version: [3.0.dev1] Old Version: [3.0]
+[2023-07-11 15:55:27] INFO root fetch - processPackages [pyepic]: Remove: archive file [/home/abi/fetcher/tmp/pyepic-1.0.8.tar.gz]
+[2023-07-11 15:55:27] INFO root fetch - processPackages [pyepic]: Remove: archive file [/home/abi/fetcher/tmp/pyepic-1.0.9.tar.gz]
+[2023-07-11 15:55:27] INFO root fetch - processPackages [pyepic]: Start processing: qontract-reconcile
+[2023-07-11 15:55:27] INFO root fetch - main [MainThread]: End processing [pyepic]: success
+[2023-07-11 15:55:27] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-07-11 15:55:27] INFO root fetch - processPackages [pyrfc]: Downloading https://files.pythonhosted.org/packages/4b/85/9c9583c76d0f9bfb4245e9ebfc1afe56140475ed46f02c5694cb5b3690cf/pyrfc-3.0.tar.gz
+[2023-07-11 15:55:27] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2023-07-11 15:55:27] INFO root fetch - processPackages [dotenver]: Remove: archive file [/home/abi/fetcher/tmp/dotenver-1.2.1.tar.gz]
+[2023-07-11 15:55:27] INFO root fetch - processPackages [dotenver]: Remove: archive file [/home/abi/fetcher/tmp/dotenver-1.2.2.tar.gz]
+[2023-07-11 15:55:27] INFO root fetch - processPackages [dotenver]: Start processing: xinference
+[2023-07-11 15:55:27] INFO root fetch - main [MainThread]: End processing [dotenver]: success
+[2023-07-11 15:55:27] INFO root fetch - processPackages [xinference]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-11 15:55:27] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2023-07-11 15:55:28] INFO root fetch - processPackages [cardo-python-utils]: Remove: archive file [/home/abi/fetcher/tmp/cardo-python-utils-0.2.3.tar.gz]
+[2023-07-11 15:55:28] INFO root fetch - processPackages [cardo-python-utils]: Remove: archive file [/home/abi/fetcher/tmp/cardo-python-utils-0.2.4.tar.gz]
+[2023-07-11 15:55:28] INFO root fetch - processPackages [cardo-python-utils]: Start processing: deep-training
+[2023-07-11 15:55:28] INFO root fetch - main [MainThread]: End processing [cardo-python-utils]: success
+[2023-07-11 15:55:28] INFO root fetch - processPackages [multiplex-imaging-pipeline]: Remove: archive file [/home/abi/fetcher/tmp/multiplex-imaging-pipeline-0.0.4.tar.gz]
+[2023-07-11 15:55:28] INFO root fetch - processPackages [xinference]: Downloading https://files.pythonhosted.org/packages/f6/99/bac4583e5d0f02918119913d8dc3e69b18aaf05b4a4a5348f7fe2eb432f3/xinference-0.0.2.tar.gz
+[2023-07-11 15:55:28] INFO root fetch - processPackages [deep-training]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-11 15:55:28] INFO root fetch - processPackages [multiplex-imaging-pipeline]: Remove: archive file [/home/abi/fetcher/tmp/multiplex-imaging-pipeline-0.0.5.tar.gz]
+[2023-07-11 15:55:28] INFO root fetch - processPackages [multiplex-imaging-pipeline]: Start processing: typedpy
+[2023-07-11 15:55:28] INFO root fetch - main [MainThread]: End processing [multiplex-imaging-pipeline]: success
+[2023-07-11 15:55:28] INFO root fetch - processPackages [google-cloud-deploy]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-deploy-1.8.0.tar.gz]
+[2023-07-11 15:55:28] INFO root fetch - processPackages [google-cloud-deploy]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-deploy-1.9.0.tar.gz]
+[2023-07-11 15:55:28] INFO root fetch - processPackages [google-cloud-deploy]: Start processing: cg
+[2023-07-11 15:55:28] INFO root fetch - main [MainThread]: End processing [google-cloud-deploy]: success
+[2023-07-11 15:55:28] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-07-11 15:55:28] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230711/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-07-11 15:55:28] INFO root fetch - processPackages [pyrfc]: Downloading https://files.pythonhosted.org/packages/b2/41/2d023d555b192e218394c4535be5da20ba67f4e5b86ebc7e754143a38ac1/pyrfc-3.0.dev1.tar.gz
+[2023-07-11 15:55:28] INFO root fetch - processPackages [typedpy]: New version: [2.9.0] Old Version: [2.8.2]
+[2023-07-11 15:55:28] INFO root fetch - processPackages [cg]: New version: [38.2.1] Old Version: [38.2.0]
+[2023-07-11 15:55:28] INFO root fetch - processPackages [ayeaye]: Remove: archive file [/home/abi/fetcher/tmp/ayeaye-0.0.8.tar.gz]
+[2023-07-11 15:55:28] INFO root fetch - processPackages [ayeaye]: Remove: archive file [/home/abi/fetcher/tmp/ayeaye-0.0.9.tar.gz]
+[2023-07-11 15:55:28] INFO root fetch - processPackages [ayeaye]: Start processing: rfit
+[2023-07-11 15:55:28] INFO root fetch - main [MainThread]: End processing [ayeaye]: success
+[2023-07-11 15:55:28] INFO root fetch - processPackages [pyrfc]: executing diffoscope
+[2023-07-11 15:55:28] INFO root fetch - processPackages [pyrfc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrfc-3.0.tar.gz tmp/pyrfc-3.0.dev1.tar.gz --markdown 20230711/p/pyrfc/3.0-3.0.dev1/diff.md --exclude *.pyd
+[2023-07-11 15:55:28] INFO root fetch - processPackages [deep-training]: Downloading https://files.pythonhosted.org/packages/87/b3/3c8fcf7b1e70c43e235098b71636333ed9cdfaf9b6c6fbc85f67531280e1/deep_training-0.1.8-py3-none-any.whl
+[2023-07-11 15:55:28] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/00/e9/a2e2b5f68b2c2aabac571be4550fc1169d11860d356841644f40ac16d135/cg-38.2.0.tar.gz
+[2023-07-11 15:55:28] INFO root fetch - processPackages [rfit]: New version: [0.3.20230711] Old Version: [0.2.20230120]
+[2023-07-11 15:55:28] INFO root fetch - processPackages [xinference]: Downloading https://files.pythonhosted.org/packages/55/45/b209cbbbb231b1c1c267939d653eb497760d04541d797ef80a4585666a90/xinference-0.0.3.tar.gz
+[2023-07-11 15:55:28] INFO root fetch - processPackages [typedpy]: Downloading https://files.pythonhosted.org/packages/27/f4/f7ae09b3573eaf9438274f873686c75134c5c6d14d9ecbfe0759ef1a6908/typedpy-2.8.2.tar.gz
+[2023-07-11 15:55:28] INFO root fetch - processPackages [unitsnet-py]: Remove: archive file [/home/abi/fetcher/tmp/unitsnet-py-0.1.42.tar.gz]
+[2023-07-11 15:55:28] INFO root fetch - processPackages [unitsnet-py]: Remove: archive file [/home/abi/fetcher/tmp/unitsnet-py-0.1.43.tar.gz]
+[2023-07-11 15:55:28] INFO root fetch - processPackages [unitsnet-py]: Start processing: aigc-zoo
+[2023-07-11 15:55:28] INFO root fetch - main [MainThread]: End processing [unitsnet-py]: success
+[2023-07-11 15:55:28] INFO root fetch - processPackages [rfit]: Downloading https://files.pythonhosted.org/packages/3b/4e/1fc2b0e1dca1c46819fba7722325b098d32599155c1fc7ebe0fd2e1f90bc/rfit-0.2.20230120.tar.gz
+[2023-07-11 15:55:28] INFO root fetch - processPackages [xinference]: executing diffoscope
+[2023-07-11 15:55:28] INFO root fetch - processPackages [xinference]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xinference-0.0.2.tar.gz tmp/xinference-0.0.3.tar.gz --markdown 20230711/x/xinference/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-11 15:55:28] INFO root fetch - processPackages [deep-training]: Downloading https://files.pythonhosted.org/packages/97/8f/30bf3a3b2b45dc48f23a82065cc1cff429cfa9ec38e2c8dfd40bc15ada07/deep_training-0.1.9-py3-none-any.whl
+[2023-07-11 15:55:28] INFO root fetch - processPackages [aigc-zoo]: New version: [0.1.11.post0] Old Version: [0.1.11]
+[2023-07-11 15:55:28] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/4d/c8/117e2922a6bc43c1382d053d6b15b7b770136f905e9f68bab418b347f55b/cg-38.2.1.tar.gz
+[2023-07-11 15:55:29] INFO root fetch - processPackages [deep-training]: executing diffoscope
+[2023-07-11 15:55:29] INFO root fetch - processPackages [deep-training]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deep_training-0.1.8-py3-none-any.whl.zip tmp/deep_training-0.1.9-py3-none-any.whl.zip --markdown 20230711/d/deep-training/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-11 15:55:29] INFO root fetch - processPackages [typedpy]: Downloading https://files.pythonhosted.org/packages/09/0d/3518f7fd28505046b25ea42ab09a2b7ca99222a917f91ffd54ea61a0e007/typedpy-2.9.0.tar.gz
+[2023-07-11 15:55:29] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-07-11 15:55:29] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-38.2.0.tar.gz tmp/cg-38.2.1.tar.gz --markdown 20230711/c/cg/38.2.0-38.2.1/diff.md --exclude *.pyd
+[2023-07-11 15:55:29] INFO root fetch - processPackages [rfit]: Downloading https://files.pythonhosted.org/packages/65/31/240f7effdbbfbed1421eb828bc55956ca33f2463bd0e7975d47d6720527b/rfit-0.3.20230711.tar.gz
+[2023-07-11 15:55:29] INFO root fetch - processPackages [aigc-zoo]: Downloading https://files.pythonhosted.org/packages/b1/8b/75a3d2620e6d996e911be6626745f68c7f785189d75f2b30b9d5f536e67b/aigc_zoo-0.1.11-py3-none-any.whl
+[2023-07-11 15:55:29] INFO root fetch - processPackages [rfit]: executing diffoscope
+[2023-07-11 15:55:29] INFO root fetch - processPackages [rfit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rfit-0.2.20230120.tar.gz tmp/rfit-0.3.20230711.tar.gz --markdown 20230711/r/rfit/0.2.20230120-0.3.20230711/diff.md --exclude *.pyd
+[2023-07-11 15:55:29] INFO root fetch - processPackages [typedpy]: executing diffoscope
+[2023-07-11 15:55:29] INFO root fetch - processPackages [typedpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typedpy-2.8.2.tar.gz tmp/typedpy-2.9.0.tar.gz --markdown 20230711/t/typedpy/2.8.2-2.9.0/diff.md --exclude *.pyd
+[2023-07-11 15:55:29] INFO root fetch - processPackages [aigc-zoo]: Downloading https://files.pythonhosted.org/packages/fb/f1/4e8fb3dc9170f6ee8d70458c2cbb85158beb9cc1044fcc9fd25bcf1e989d/aigc_zoo-0.1.11.post0-py3-none-any.whl
+[2023-07-11 15:55:29] INFO root fetch - processPackages [aigc-zoo]: executing diffoscope
+[2023-07-11 15:55:29] INFO root fetch - processPackages [aigc-zoo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aigc_zoo-0.1.11-py3-none-any.whl.zip tmp/aigc_zoo-0.1.11.post0-py3-none-any.whl.zip --markdown 20230711/a/aigc-zoo/0.1.11-0.1.11.post0/diff.md --exclude *.pyd
+[2023-07-11 15:55:30] INFO root fetch - processPackages [xinference]: Remove: archive file [/home/abi/fetcher/tmp/xinference-0.0.2.tar.gz]
+[2023-07-11 15:55:30] INFO root fetch - processPackages [xinference]: Remove: archive file [/home/abi/fetcher/tmp/xinference-0.0.3.tar.gz]
+[2023-07-11 15:55:30] INFO root fetch - main [MainThread]: End processing [xinference]: success
+[2023-07-11 15:55:30] INFO root fetch - processPackages [pyrfc]: Remove: archive file [/home/abi/fetcher/tmp/pyrfc-3.0.tar.gz]
+[2023-07-11 15:55:30] INFO root fetch - processPackages [pyrfc]: Remove: archive file [/home/abi/fetcher/tmp/pyrfc-3.0.dev1.tar.gz]
+[2023-07-11 15:55:30] INFO root fetch - main [MainThread]: End processing [pyrfc]: success
+[2023-07-11 15:55:30] INFO root fetch - processPackages [rfit]: Remove: archive file [/home/abi/fetcher/tmp/rfit-0.2.20230120.tar.gz]
+[2023-07-11 15:55:30] INFO root fetch - processPackages [rfit]: Remove: archive file [/home/abi/fetcher/tmp/rfit-0.3.20230711.tar.gz]
+[2023-07-11 15:55:30] INFO root fetch - main [MainThread]: End processing [rfit]: success
+[2023-07-11 15:55:30] INFO root fetch - processPackages [typedpy]: Remove: archive file [/home/abi/fetcher/tmp/typedpy-2.8.2.tar.gz]
+[2023-07-11 15:55:30] INFO root fetch - processPackages [typedpy]: Remove: archive file [/home/abi/fetcher/tmp/typedpy-2.9.0.tar.gz]
+[2023-07-11 15:55:30] INFO root fetch - main [MainThread]: End processing [typedpy]: success
+[2023-07-11 15:55:31] INFO root fetch - processPackages [ascend-deployer]: Remove: archive file [/home/abi/fetcher/tmp/ascend_deployer-5.0.0b9-py3-none-any.whl.zip]
+[2023-07-11 15:55:31] INFO root fetch - processPackages [ascend-deployer]: Remove: archive file [/home/abi/fetcher/tmp/ascend_deployer-5.0b13-py3-none-any.whl.zip]
+[2023-07-11 15:55:31] INFO root fetch - main [MainThread]: End processing [ascend-deployer]: success
+[2023-07-11 15:55:31] INFO root fetch - processPackages [aigc-zoo]: Remove: archive file [/home/abi/fetcher/tmp/aigc_zoo-0.1.11-py3-none-any.whl.zip]
+[2023-07-11 15:55:31] INFO root fetch - processPackages [aigc-zoo]: Remove: archive file [/home/abi/fetcher/tmp/aigc_zoo-0.1.11.post0-py3-none-any.whl.zip]
+[2023-07-11 15:55:31] INFO root fetch - main [MainThread]: End processing [aigc-zoo]: success
+[2023-07-11 15:55:31] INFO root fetch - processPackages [deep-training]: Remove: archive file [/home/abi/fetcher/tmp/deep_training-0.1.8-py3-none-any.whl.zip]
+[2023-07-11 15:55:31] INFO root fetch - processPackages [deep-training]: Remove: archive file [/home/abi/fetcher/tmp/deep_training-0.1.9-py3-none-any.whl.zip]
+[2023-07-11 15:55:31] INFO root fetch - main [MainThread]: End processing [deep-training]: success
+[2023-07-11 15:55:32] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2023-07-11 15:55:32] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2023-07-11 15:55:32] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-07-11 15:55:32] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230711062635.tar.gz]
+[2023-07-11 15:55:32] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230711135103.tar.gz]
+[2023-07-11 15:55:32] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-07-11 15:55:35] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-38.2.0.tar.gz]
+[2023-07-11 15:55:35] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-38.2.1.tar.gz]
+[2023-07-11 15:55:35] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-07-11 15:55:35] INFO root fetch - main [MainThread]: Store serial: [18846214]
