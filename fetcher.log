@@ -7334,3 +7334,76 @@ AssertionError: tmp/doctran-0.0.6.tar.gz does not exist
 [2023-07-11 04:31:00] INFO root fetch - processPackages [ucloud-sdk-python3]: Remove: archive file [/home/abi/fetcher/tmp/ucloud-sdk-python3-0.9.4.tar.gz]
 [2023-07-11 04:31:00] INFO root fetch - main [MainThread]: End processing [ucloud-sdk-python3]: success
 [2023-07-11 04:31:00] INFO root fetch - main [MainThread]: Store serial: [18839887]
+[2023-07-11 04:36:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18839887]
+[2023-07-11 04:36:09] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-11 04:36:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mysqlx-generator
+[2023-07-11 04:36:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nlp-id
+[2023-07-11 04:36:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo8-addon-budget
+[2023-07-11 04:36:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tcompress
+[2023-07-11 04:36:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xero-python
+[2023-07-11 04:36:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rpamaker
+[2023-07-11 04:36:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: TheSilent
+[2023-07-11 04:36:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: rpamaker
+[2023-07-11 04:36:09] INFO root fetch - processPackages [xero-python]: New version: [1.9.0b3] Old Version: [1.9.0b2]
+[2023-07-11 04:36:09] INFO root fetch - processPackages [tcompress]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-11 04:36:09] INFO root fetch - processPackages [nlp-id]: New version: [0.1.9.8] Old Version: [0.1.9.7]
+[2023-07-11 04:36:09] INFO root fetch - processPackages [mysqlx-generator]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-11 04:36:09] INFO root fetch - processPackages [rpamaker]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-11 04:36:09] INFO root fetch - processPackages [odoo8-addon-budget]: New version: [8.0.1.1.0.99.dev9] Old Version: [8.0.1.1.0.99.dev8]
+[2023-07-11 04:36:09] INFO root fetch - processPackages [rpamaker]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-11 04:36:09] INFO root fetch - processPackages [TheSilent]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-11 04:36:10] INFO root fetch - processPackages [rpamaker]: Downloading https://files.pythonhosted.org/packages/ae/cc/d5be25893f871b175941e3fca4e40513a034a9f0534238c8a476720f2a4d/rpamaker-0.0.8.tar.gz
+[2023-07-11 04:36:10] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/ad/09/2a1f42483bf3fbc17417489cf4f3d6ec17c5c763e219aa02ad1827f29dc1/TheSilent-0.0.98.tar.gz
+[2023-07-11 04:36:10] INFO root fetch - processPackages [odoo8-addon-budget]: Downloading https://files.pythonhosted.org/packages/1d/8d/4f712460775cd9b2de97b158cf33ade3fa7b0e0e14dfbaad1f6d3df3d6c4/odoo8_addon_budget-8.0.1.1.0.99.dev8-py2-none-any.whl
+[2023-07-11 04:36:10] INFO root fetch - processPackages [rpamaker]: Downloading https://files.pythonhosted.org/packages/ae/cc/d5be25893f871b175941e3fca4e40513a034a9f0534238c8a476720f2a4d/rpamaker-0.0.8.tar.gz
+[2023-07-11 04:36:10] INFO root fetch - processPackages [tcompress]: Downloading https://files.pythonhosted.org/packages/80/e8/6c3e081adc82d9e2de25afd70776a95fb34a8b81b1f7105c12b48b67ed9a/tcompress-0.1.0.tar.gz
+[2023-07-11 04:36:10] INFO root fetch - processPackages [mysqlx-generator]: Downloading https://files.pythonhosted.org/packages/5a/b7/26d9ebebcc4595776be00e0b06f048deb6275960f8a4f6f09eeb438fafdb/mysqlx-generator-1.0.0.tar.gz
+[2023-07-11 04:36:10] INFO root fetch - processPackages [nlp-id]: Downloading https://files.pythonhosted.org/packages/ea/d3/05dd01c03c8eb622ba4d3e74a1e8ba93626a35a1cf3172ba6b418ce7ba52/nlp_id-0.1.9.7.tar.gz
+[2023-07-11 04:36:10] INFO root fetch - processPackages [xero-python]: Downloading https://files.pythonhosted.org/packages/ad/d6/11dbedd6bf7a331ce46577e1172f2aaf5659204cb145af831155653adbd6/xero_python-1.9.0b2.tar.gz
+[2023-07-11 04:36:10] INFO root fetch - processPackages [rpamaker]: Downloading https://files.pythonhosted.org/packages/da/89/f7ca592d5d9fee6b498e325261cddd5082866e4a2a17fcf08604524654e6/rpamaker-0.0.9.tar.gz
+[2023-07-11 04:36:10] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/38/21/9b42cfa55edd85cfd4fefba7fb94aab0891af2b6c90ef59e687a42228a0b/TheSilent-0.0.99.tar.gz
+[2023-07-11 04:36:10] INFO root fetch - processPackages [rpamaker]: Downloading https://files.pythonhosted.org/packages/da/89/f7ca592d5d9fee6b498e325261cddd5082866e4a2a17fcf08604524654e6/rpamaker-0.0.9.tar.gz
+[2023-07-11 04:36:10] INFO root fetch - processPackages [tcompress]: Downloading https://files.pythonhosted.org/packages/15/65/befd98d6b51d7dc9f1d5faa65954c5f630b7b24017bc2a72427a139b2110/tcompress-0.1.1.tar.gz
+[2023-07-11 04:36:10] INFO root fetch - processPackages [TheSilent]: executing diffoscope
+[2023-07-11 04:36:10] INFO root fetch - processPackages [TheSilent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TheSilent-0.0.98.tar.gz tmp/TheSilent-0.0.99.tar.gz --markdown 20230711/T/TheSilent/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-11 04:36:10] INFO root fetch - processPackages [rpamaker]: executing diffoscope
+[2023-07-11 04:36:10] INFO root fetch - processPackages [rpamaker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rpamaker-0.0.8.tar.gz tmp/rpamaker-0.0.9.tar.gz --markdown 20230711/r/rpamaker/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-11 04:36:10] INFO root fetch - processPackages [mysqlx-generator]: Downloading https://files.pythonhosted.org/packages/0b/69/dfbbabef1fe07609a03b4090f28a0861fffa27663b492594ff5e0198f325/mysqlx-generator-1.0.1.tar.gz
+[2023-07-11 04:36:10] INFO root fetch - processPackages [rpamaker]: executing diffoscope
+[2023-07-11 04:36:10] INFO root fetch - processPackages [rpamaker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rpamaker-0.0.8.tar.gz tmp/rpamaker-0.0.9.tar.gz --markdown 20230711/r/rpamaker/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-11 04:36:10] INFO root fetch - processPackages [tcompress]: executing diffoscope
+[2023-07-11 04:36:10] INFO root fetch - processPackages [tcompress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tcompress-0.1.0.tar.gz tmp/tcompress-0.1.1.tar.gz --markdown 20230711/t/tcompress/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-11 04:36:10] INFO root fetch - processPackages [odoo8-addon-budget]: Downloading https://files.pythonhosted.org/packages/87/80/9ecd8297894f0d50afcaff07465736008f008a2af7db8ea850ca1a1aa861/odoo8_addon_budget-8.0.1.1.0.99.dev9-py2-none-any.whl
+[2023-07-11 04:36:10] INFO root fetch - processPackages [mysqlx-generator]: executing diffoscope
+[2023-07-11 04:36:10] INFO root fetch - processPackages [mysqlx-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mysqlx-generator-1.0.0.tar.gz tmp/mysqlx-generator-1.0.1.tar.gz --markdown 20230711/m/mysqlx-generator/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-11 04:36:10] INFO root fetch - processPackages [xero-python]: Downloading https://files.pythonhosted.org/packages/75/02/c3d6750c98bd5dd4588d59346432f28caea9c6a95348bc643f18dd3d35e3/xero_python-1.9.0b3.tar.gz
+[2023-07-11 04:36:10] INFO root fetch - processPackages [odoo8-addon-budget]: executing diffoscope
+[2023-07-11 04:36:10] INFO root fetch - processPackages [odoo8-addon-budget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_budget-8.0.1.1.0.99.dev8-py2-none-any.whl.zip tmp/odoo8_addon_budget-8.0.1.1.0.99.dev9-py2-none-any.whl.zip --markdown 20230711/o/odoo8-addon-budget/8.0.1.1.0.99.dev8-8.0.1.1.0.99.dev9/diff.md --exclude *.pyd
+[2023-07-11 04:36:11] INFO root fetch - processPackages [xero-python]: executing diffoscope
+[2023-07-11 04:36:11] INFO root fetch - processPackages [xero-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xero_python-1.9.0b2.tar.gz tmp/xero_python-1.9.0b3.tar.gz --markdown 20230711/x/xero-python/1.9.0b2-1.9.0b3/diff.md --exclude *.pyd
+[2023-07-11 04:36:11] INFO root fetch - processPackages [nlp-id]: Downloading https://files.pythonhosted.org/packages/08/10/afe2f49703d27600292130b5308139018231ae0b204ca12c33907f8294bb/nlp_id-0.1.9.8.tar.gz
+[2023-07-11 04:36:11] INFO root fetch - processPackages [rpamaker]: Remove: archive file [/home/abi/fetcher/tmp/rpamaker-0.0.8.tar.gz]
+[2023-07-11 04:36:11] INFO root fetch - processPackages [rpamaker]: Remove: archive file [/home/abi/fetcher/tmp/rpamaker-0.0.9.tar.gz]
+[2023-07-11 04:36:11] INFO root fetch - main [MainThread]: End processing [rpamaker]: success
+[2023-07-11 04:36:11] INFO root fetch - processPackages [mysqlx-generator]: Remove: archive file [/home/abi/fetcher/tmp/mysqlx-generator-1.0.0.tar.gz]
+[2023-07-11 04:36:11] INFO root fetch - processPackages [mysqlx-generator]: Remove: archive file [/home/abi/fetcher/tmp/mysqlx-generator-1.0.1.tar.gz]
+[2023-07-11 04:36:11] INFO root fetch - main [MainThread]: End processing [mysqlx-generator]: success
+[2023-07-11 04:36:12] INFO root fetch - processPackages [tcompress]: Remove: archive file [/home/abi/fetcher/tmp/tcompress-0.1.0.tar.gz]
+[2023-07-11 04:36:12] INFO root fetch - processPackages [tcompress]: Remove: archive file [/home/abi/fetcher/tmp/tcompress-0.1.1.tar.gz]
+[2023-07-11 04:36:12] INFO root fetch - main [MainThread]: End processing [tcompress]: success
+[2023-07-11 04:36:12] INFO root fetch - main [MainThread]: End processing [rpamaker]: success
+[2023-07-11 04:36:12] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.98.tar.gz]
+[2023-07-11 04:36:12] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.99.tar.gz]
+[2023-07-11 04:36:12] INFO root fetch - main [MainThread]: End processing [TheSilent]: success
+[2023-07-11 04:36:12] INFO root fetch - processPackages [odoo8-addon-budget]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_budget-8.0.1.1.0.99.dev8-py2-none-any.whl.zip]
+[2023-07-11 04:36:12] INFO root fetch - processPackages [odoo8-addon-budget]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_budget-8.0.1.1.0.99.dev9-py2-none-any.whl.zip]
+[2023-07-11 04:36:12] INFO root fetch - main [MainThread]: End processing [odoo8-addon-budget]: success
+[2023-07-11 04:36:13] INFO root fetch - processPackages [nlp-id]: executing diffoscope
+[2023-07-11 04:36:13] INFO root fetch - processPackages [nlp-id]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nlp_id-0.1.9.7.tar.gz tmp/nlp_id-0.1.9.8.tar.gz --markdown 20230711/n/nlp-id/0.1.9.7-0.1.9.8/diff.md --exclude *.pyd
+[2023-07-11 04:36:14] INFO root fetch - processPackages [xero-python]: Remove: archive file [/home/abi/fetcher/tmp/xero_python-1.9.0b2.tar.gz]
+[2023-07-11 04:36:14] INFO root fetch - processPackages [xero-python]: Remove: archive file [/home/abi/fetcher/tmp/xero_python-1.9.0b3.tar.gz]
+[2023-07-11 04:36:14] INFO root fetch - main [MainThread]: End processing [xero-python]: success
+[2023-07-11 04:36:15] INFO root fetch - processPackages [nlp-id]: Remove: archive file [/home/abi/fetcher/tmp/nlp_id-0.1.9.7.tar.gz]
+[2023-07-11 04:36:15] INFO root fetch - processPackages [nlp-id]: Remove: archive file [/home/abi/fetcher/tmp/nlp_id-0.1.9.8.tar.gz]
+[2023-07-11 04:36:15] INFO root fetch - main [MainThread]: End processing [nlp-id]: success
+[2023-07-11 04:36:15] INFO root fetch - main [MainThread]: Store serial: [18839906]
