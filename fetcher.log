@@ -9501,3 +9501,60 @@ AssertionError: tmp/doctran-0.0.6.tar.gz does not exist
 [2023-07-11 06:22:06] INFO root fetch - processPackages [mage-ai]: Remove: archive file [/home/abi/fetcher/tmp/mage-ai-0.9.0.tar.gz]
 [2023-07-11 06:22:06] INFO root fetch - main [MainThread]: End processing [mage-ai]: success
 [2023-07-11 06:22:06] INFO root fetch - main [MainThread]: Store serial: [18840816]
+[2023-07-11 06:27:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18840816]
+[2023-07-11 06:27:16] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-11 06:27:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mynacode
+[2023-07-11 06:27:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aql-builder
+[2023-07-11 06:27:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zit
+[2023-07-11 06:27:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: quickstart-vdk
+[2023-07-11 06:27:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: redmage
+[2023-07-11 06:27:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: keras-nlp
+[2023-07-11 06:27:16] INFO root fetch - processPackages [zit]: New version: [0.0.3a2] Old Version: [0.0.3a0]
+[2023-07-11 06:27:16] INFO root fetch - processPackages [mynacode]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-07-11 06:27:16] INFO root fetch - processPackages [redmage]: New version: [0.3.0] Old Version: [0.2.3]
+[2023-07-11 06:27:16] INFO root fetch - processPackages [aql-builder]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-11 06:27:16] INFO root fetch - processPackages [keras-nlp]: New version: [0.6.0.dev0] Old Version: [0.6.0]
+[2023-07-11 06:27:16] INFO root fetch - processPackages [quickstart-vdk]: New version: [0.2.927063221.dev12187] Old Version: [0.2.925773930.dev12155]
+[2023-07-11 06:27:16] INFO root fetch - processPackages [redmage]: Downloading https://files.pythonhosted.org/packages/18/c7/2f9541d1f0b6c21ca71e7ef716d94f10a1819784a6e61723cfcf12aec1b7/redmage-0.2.3.tar.gz
+[2023-07-11 06:27:16] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/66/64/3eeb235eb9df35e0e4edcce2fa3118fb62b80dd28ee3465e92149327f366/quickstart-vdk-0.2.925773930.dev12155.tar.gz
+[2023-07-11 06:27:16] INFO root fetch - processPackages [zit]: Downloading https://files.pythonhosted.org/packages/42/7b/66f23d7292ff4c25ecd96e4ad34c2996bf95d5b6693f5249fee6d8cc7c9a/zit-0.0.3a0.tar.gz
+[2023-07-11 06:27:17] INFO root fetch - processPackages [keras-nlp]: Downloading https://files.pythonhosted.org/packages/64/d6/b73d02af6c7bbaa78cec2889aaeb050c5d65ba84dfff44d2701521c765ae/keras-nlp-0.6.0.tar.gz
+[2023-07-11 06:27:17] INFO root fetch - processPackages [aql-builder]: Downloading https://files.pythonhosted.org/packages/12/79/84e0c8f5e3f22f3741aca418d2f740db3778ae7b8f9a1ab2919eea9337c8/aql-builder-0.0.4.tar.gz
+[2023-07-11 06:27:17] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/1d/24/3d4ef0a0a267fb47bcbac68ff9b760a9b892095f2ee727874f0286d600c3/mynacode-1.0.98-py3-none-any.whl
+[2023-07-11 06:27:17] INFO root fetch - processPackages [redmage]: Downloading https://files.pythonhosted.org/packages/98/f2/022b75fd6873b6b1112c0b037332f12df5bee57281cf8500c246cdf445c5/redmage-0.3.0.tar.gz
+[2023-07-11 06:27:17] INFO root fetch - processPackages [keras-nlp]: Downloading https://files.pythonhosted.org/packages/26/2f/bc3111cbe18eedc2134e23bf15508ef95ef6580effead93550dc2669ae8e/keras-nlp-0.6.0.dev0.tar.gz
+[2023-07-11 06:27:17] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/5f/8f/38d805f5442683504c3a8a07ea8be8b94cebfd7dda289825e964ced496c4/quickstart-vdk-0.2.927063221.dev12187.tar.gz
+[2023-07-11 06:27:17] INFO root fetch - processPackages [redmage]: executing diffoscope
+[2023-07-11 06:27:17] INFO root fetch - processPackages [redmage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redmage-0.2.3.tar.gz tmp/redmage-0.3.0.tar.gz --markdown 20230711/r/redmage/0.2.3-0.3.0/diff.md --exclude *.pyd
+[2023-07-11 06:27:17] INFO root fetch - processPackages [zit]: Downloading https://files.pythonhosted.org/packages/5e/10/169ab9370c84d2c65ace704681e722439edd78fccd8f6d756edeac9df016/zit-0.0.3a2.tar.gz
+[2023-07-11 06:27:17] INFO root fetch - processPackages [aql-builder]: Downloading https://files.pythonhosted.org/packages/ea/95/f85549715c70a60518efc3f5f53e7845b8f3dff83d776635c3dd66ddd41c/aql-builder-0.0.5.tar.gz
+[2023-07-11 06:27:17] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/38/32/362f7abef6d28b78afa03843fa2eadc7bb1454ef66bde894a08e281d5bfb/mynacode-1.0.99-py3-none-any.whl
+[2023-07-11 06:27:17] INFO root fetch - processPackages [quickstart-vdk]: executing diffoscope
+[2023-07-11 06:27:17] INFO root fetch - processPackages [quickstart-vdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickstart-vdk-0.2.925773930.dev12155.tar.gz tmp/quickstart-vdk-0.2.927063221.dev12187.tar.gz --markdown 20230711/q/quickstart-vdk/0.2.925773930.dev12155-0.2.927063221.dev12187/diff.md --exclude *.pyd
+[2023-07-11 06:27:17] INFO root fetch - processPackages [keras-nlp]: executing diffoscope
+[2023-07-11 06:27:17] INFO root fetch - processPackages [keras-nlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras-nlp-0.6.0.tar.gz tmp/keras-nlp-0.6.0.dev0.tar.gz --markdown 20230711/k/keras-nlp/0.6.0-0.6.0.dev0/diff.md --exclude *.pyd
+[2023-07-11 06:27:17] INFO root fetch - processPackages [aql-builder]: executing diffoscope
+[2023-07-11 06:27:17] INFO root fetch - processPackages [aql-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aql-builder-0.0.4.tar.gz tmp/aql-builder-0.0.5.tar.gz --markdown 20230711/a/aql-builder/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-11 06:27:17] INFO root fetch - processPackages [zit]: executing diffoscope
+[2023-07-11 06:27:17] INFO root fetch - processPackages [zit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zit-0.0.3a0.tar.gz tmp/zit-0.0.3a2.tar.gz --markdown 20230711/z/zit/0.0.3a0-0.0.3a2/diff.md --exclude *.pyd
+[2023-07-11 06:27:17] INFO root fetch - processPackages [mynacode]: executing diffoscope
+[2023-07-11 06:27:17] INFO root fetch - processPackages [mynacode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mynacode-1.0.98-py3-none-any.whl.zip tmp/mynacode-1.0.99-py3-none-any.whl.zip --markdown 20230711/m/mynacode/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-07-11 06:27:18] INFO root fetch - processPackages [redmage]: Remove: archive file [/home/abi/fetcher/tmp/redmage-0.2.3.tar.gz]
+[2023-07-11 06:27:18] INFO root fetch - processPackages [redmage]: Remove: archive file [/home/abi/fetcher/tmp/redmage-0.3.0.tar.gz]
+[2023-07-11 06:27:18] INFO root fetch - main [MainThread]: End processing [redmage]: success
+[2023-07-11 06:27:18] INFO root fetch - processPackages [aql-builder]: Remove: archive file [/home/abi/fetcher/tmp/aql-builder-0.0.4.tar.gz]
+[2023-07-11 06:27:18] INFO root fetch - processPackages [aql-builder]: Remove: archive file [/home/abi/fetcher/tmp/aql-builder-0.0.5.tar.gz]
+[2023-07-11 06:27:18] INFO root fetch - main [MainThread]: End processing [aql-builder]: success
+[2023-07-11 06:27:18] INFO root fetch - processPackages [mynacode]: Remove: archive file [/home/abi/fetcher/tmp/mynacode-1.0.98-py3-none-any.whl.zip]
+[2023-07-11 06:27:18] INFO root fetch - processPackages [mynacode]: Remove: archive file [/home/abi/fetcher/tmp/mynacode-1.0.99-py3-none-any.whl.zip]
+[2023-07-11 06:27:18] INFO root fetch - main [MainThread]: End processing [mynacode]: success
+[2023-07-11 06:27:18] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.925773930.dev12155.tar.gz]
+[2023-07-11 06:27:18] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.927063221.dev12187.tar.gz]
+[2023-07-11 06:27:18] INFO root fetch - main [MainThread]: End processing [quickstart-vdk]: success
+[2023-07-11 06:27:18] INFO root fetch - processPackages [zit]: Remove: archive file [/home/abi/fetcher/tmp/zit-0.0.3a0.tar.gz]
+[2023-07-11 06:27:18] INFO root fetch - processPackages [zit]: Remove: archive file [/home/abi/fetcher/tmp/zit-0.0.3a2.tar.gz]
+[2023-07-11 06:27:18] INFO root fetch - main [MainThread]: End processing [zit]: success
+[2023-07-11 06:27:19] INFO root fetch - processPackages [keras-nlp]: Remove: archive file [/home/abi/fetcher/tmp/keras-nlp-0.6.0.tar.gz]
+[2023-07-11 06:27:19] INFO root fetch - processPackages [keras-nlp]: Remove: archive file [/home/abi/fetcher/tmp/keras-nlp-0.6.0.dev0.tar.gz]
+[2023-07-11 06:27:19] INFO root fetch - main [MainThread]: End processing [keras-nlp]: success
+[2023-07-11 06:27:19] INFO root fetch - main [MainThread]: Store serial: [18840836]
