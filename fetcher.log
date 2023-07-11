@@ -8319,3 +8319,104 @@ AssertionError: tmp/doctran-0.0.6.tar.gz does not exist
 [2023-07-11 05:08:04] INFO root fetch - main [MainThread]: End processing [oloren]: success
 [2023-07-11 05:08:04] INFO root fetch - main [MainThread]: End processing [oloren]: success
 [2023-07-11 05:08:04] INFO root fetch - main [MainThread]: Store serial: [18840279]
+[2023-07-11 05:13:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18840279]
+[2023-07-11 05:13:13] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-11 05:13:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pynldas2
+[2023-07-11 05:13:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: anyconn-core
+[2023-07-11 05:13:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: oloren
+[2023-07-11 05:13:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aihandler
+[2023-07-11 05:13:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mysqlx-generator
+[2023-07-11 05:13:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: herta-villa-sdk
+[2023-07-11 05:13:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: airunner
+[2023-07-11 05:13:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: edc
+[2023-07-11 05:13:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: zfl-ai
+[2023-07-11 05:13:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gpt-command-line
+[2023-07-11 05:13:13] INFO root fetch - processPackages [airunner]: New version: [2.1.0] Old Version: [2.0.5]
+[2023-07-11 05:13:13] INFO root fetch - processPackages [mysqlx-generator]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-11 05:13:13] INFO root fetch - processPackages [oloren]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-11 05:13:13] INFO root fetch - processPackages [pynldas2]: New version: [0.15.1] Old Version: [0.15.0]
+[2023-07-11 05:13:13] INFO root fetch - processPackages [herta-villa-sdk]: New version: [0.4.0] Old Version: [0.3.2]
+[2023-07-11 05:13:13] INFO root fetch - processPackages [edc]: New version: [0.5.4] Old Version: [0.5.3]
+[2023-07-11 05:13:13] WARNING root fetch - processPackages [anyconn-core]: Skipping, unable to determine old version
+[2023-07-11 05:13:13] INFO root fetch - processPackages [anyconn-core]: Start processing: yeastvision
+[2023-07-11 05:13:13] INFO root fetch - main [MainThread]: End processing [anyconn-core] error
+[2023-07-11 05:13:13] INFO root fetch - processPackages [aihandler]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-07-11 05:13:13] INFO root fetch - processPackages [gpt-command-line]: New version: [0.1.2.dev0] Old Version: [0.1.2]
+[2023-07-11 05:13:13] INFO root fetch - processPackages [zfl-ai]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-11 05:13:13] INFO root fetch - processPackages [mysqlx-generator]: Downloading https://files.pythonhosted.org/packages/5a/b7/26d9ebebcc4595776be00e0b06f048deb6275960f8a4f6f09eeb438fafdb/mysqlx-generator-1.0.0.tar.gz
+[2023-07-11 05:13:13] INFO root fetch - processPackages [airunner]: Downloading https://files.pythonhosted.org/packages/2d/82/1bc9011700ca8a1463653256583a85a65be0089351b36cd2556bd70de9fc/airunner-2.0.5.tar.gz
+[2023-07-11 05:13:13] INFO root fetch - processPackages [oloren]: Downloading https://files.pythonhosted.org/packages/a3/76/06db9dcd349a4094baa829da1112066fd4fe60d5748d1b0c8c0833367603/oloren-0.0.8.tar.gz
+[2023-07-11 05:13:13] INFO root fetch - processPackages [pynldas2]: Downloading https://files.pythonhosted.org/packages/57/10/3eba72a597ff645694fb9895fc97b3509b16302d8a728d7d1d34c49948ad/pynldas2-0.15.0.tar.gz
+[2023-07-11 05:13:13] INFO root fetch - processPackages [edc]: Downloading https://files.pythonhosted.org/packages/a1/ca/559df42b5e0727b1e74684b9c8133568bc5a297bca017a3b8a3791a9b872/edc-0.5.3.tar.gz
+[2023-07-11 05:13:13] INFO root fetch - processPackages [yeastvision]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-11 05:13:14] INFO root fetch - processPackages [zfl-ai]: Downloading https://files.pythonhosted.org/packages/b5/a4/14a900209133a88d3b623f0aabdfdffd8b9c88d7867c4ee97768110c2301/zfl_ai-0.0.1.tar.gz
+[2023-07-11 05:13:14] INFO root fetch - processPackages [gpt-command-line]: Downloading https://files.pythonhosted.org/packages/c7/34/014f606b469c67c55750e636372256277470561dc72edb29a79b4a187ccf/gpt-command-line-0.1.2.tar.gz
+[2023-07-11 05:13:14] INFO root fetch - processPackages [herta-villa-sdk]: Downloading https://files.pythonhosted.org/packages/05/b8/d70ba885cd86315b2a74ee35241e7d9117ba7014afae8f6d87dfc29dddb6/herta_villa_sdk-0.3.2.tar.gz
+[2023-07-11 05:13:14] INFO root fetch - processPackages [aihandler]: Downloading https://files.pythonhosted.org/packages/5f/59/0f3fec3d9c2165b2534eebc579ad40951d28dd76a141ee0517afca3f1a84/aihandler-1.9.8.tar.gz
+[2023-07-11 05:13:14] WARNING root fetch - processPackages [zfl-ai]: Skipping package: exceeds size limit 30239880>=10485760
+[2023-07-11 05:13:14] INFO root fetch - processPackages [zfl-ai]: Start processing: intecomm-edc
+[2023-07-11 05:13:14] INFO root fetch - main [MainThread]: End processing [zfl-ai] error
+[2023-07-11 05:13:14] INFO root fetch - processPackages [mysqlx-generator]: Downloading https://files.pythonhosted.org/packages/0b/69/dfbbabef1fe07609a03b4090f28a0861fffa27663b492594ff5e0198f325/mysqlx-generator-1.0.1.tar.gz
+[2023-07-11 05:13:14] INFO root fetch - processPackages [intecomm-edc]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-11 05:13:14] INFO root fetch - processPackages [yeastvision]: Downloading https://files.pythonhosted.org/packages/56/c5/e3deb66d5c38c90beaa8ea8feae7871a0699d8dd3c5005999a395adad234/yeastvision-0.1.6.tar.gz
+[2023-07-11 05:13:14] INFO root fetch - processPackages [pynldas2]: Downloading https://files.pythonhosted.org/packages/5b/23/7418cccbdfc45af90f2db6ddd81dd2bb3a470175e294b9caeb11a69fbeea/pynldas2-0.15.1.tar.gz
+[2023-07-11 05:13:14] INFO root fetch - processPackages [airunner]: Downloading https://files.pythonhosted.org/packages/23/b7/fb2b14b3aa47af1bbe584c92d022b7bac79cf51209d6e5c02e376e488422/airunner-2.1.0.tar.gz
+[2023-07-11 05:13:14] INFO root fetch - processPackages [mysqlx-generator]: executing diffoscope
+[2023-07-11 05:13:14] INFO root fetch - processPackages [mysqlx-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mysqlx-generator-1.0.0.tar.gz tmp/mysqlx-generator-1.0.1.tar.gz --markdown 20230711/m/mysqlx-generator/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-11 05:13:14] INFO root fetch - processPackages [intecomm-edc]: Downloading https://files.pythonhosted.org/packages/da/f0/9548929a437af2527d196c8f58001aa53a4c972387197713ccc8fc8c3093/intecomm-edc-0.1.8.tar.gz
+[2023-07-11 05:13:14] INFO root fetch - processPackages [oloren]: Downloading https://files.pythonhosted.org/packages/8f/84/66581190d09357a5dd522267963c2d727e20650e6690064dc2efadd1c020/oloren-0.0.9.tar.gz
+[2023-07-11 05:13:14] INFO root fetch - processPackages [edc]: Downloading https://files.pythonhosted.org/packages/3c/19/db44d1e220fc4238f0cbff43012c045969c51bd5fc4eb516695cf05f6320/edc-0.5.4.tar.gz
+[2023-07-11 05:13:14] INFO root fetch - processPackages [pynldas2]: executing diffoscope
+[2023-07-11 05:13:14] INFO root fetch - processPackages [pynldas2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynldas2-0.15.0.tar.gz tmp/pynldas2-0.15.1.tar.gz --markdown 20230711/p/pynldas2/0.15.0-0.15.1/diff.md --exclude *.pyd
+[2023-07-11 05:13:14] INFO root fetch - processPackages [edc]: executing diffoscope
+[2023-07-11 05:13:14] INFO root fetch - processPackages [edc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc-0.5.3.tar.gz tmp/edc-0.5.4.tar.gz --markdown 20230711/e/edc/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2023-07-11 05:13:14] INFO root fetch - processPackages [airunner]: executing diffoscope
+[2023-07-11 05:13:14] INFO root fetch - processPackages [airunner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airunner-2.0.5.tar.gz tmp/airunner-2.1.0.tar.gz --markdown 20230711/a/airunner/2.0.5-2.1.0/diff.md --exclude *.pyd
+[2023-07-11 05:13:14] INFO root fetch - processPackages [herta-villa-sdk]: Downloading https://files.pythonhosted.org/packages/7c/ba/580d5e6dfa32f61703b34f78d21f8f55802b21822356bf77b19ef22aadfa/herta_villa_sdk-0.4.0.tar.gz
+[2023-07-11 05:13:14] INFO root fetch - processPackages [gpt-command-line]: Downloading https://files.pythonhosted.org/packages/83/54/c3b02fa48f9c1419a0bf8c00fe0020a8766f252cbdca039abe9b1d5614c9/gpt-command-line-0.1.2.dev0.tar.gz
+[2023-07-11 05:13:14] INFO root fetch - processPackages [aihandler]: Downloading https://files.pythonhosted.org/packages/b3/c7/544c990d7d396289c416e3676f2fdf02804edee7d23e678081cc4c761c29/aihandler-1.9.9.tar.gz
+[2023-07-11 05:13:14] INFO root fetch - processPackages [oloren]: executing diffoscope
+[2023-07-11 05:13:14] INFO root fetch - processPackages [oloren]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oloren-0.0.8.tar.gz tmp/oloren-0.0.9.tar.gz --markdown 20230711/o/oloren/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-11 05:13:14] INFO root fetch - processPackages [yeastvision]: Downloading https://files.pythonhosted.org/packages/02/54/03ef7feb5a069c9ec29c9cc8bd7d30900248c1f02a425ca240a5698b718e/yeastvision-0.1.7.tar.gz
+[2023-07-11 05:13:14] INFO root fetch - processPackages [intecomm-edc]: Downloading https://files.pythonhosted.org/packages/3c/c4/5d66f454c202fb25cafb15878ef119f2f40e92abb71f90eda7a667e098d0/intecomm-edc-0.1.9.tar.gz
+[2023-07-11 05:13:14] INFO root fetch - processPackages [aihandler]: executing diffoscope
+[2023-07-11 05:13:14] INFO root fetch - processPackages [aihandler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aihandler-1.9.8.tar.gz tmp/aihandler-1.9.9.tar.gz --markdown 20230711/a/aihandler/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-07-11 05:13:14] INFO root fetch - processPackages [herta-villa-sdk]: executing diffoscope
+[2023-07-11 05:13:14] INFO root fetch - processPackages [herta-villa-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/herta_villa_sdk-0.3.2.tar.gz tmp/herta_villa_sdk-0.4.0.tar.gz --markdown 20230711/h/herta-villa-sdk/0.3.2-0.4.0/diff.md --exclude *.pyd
+[2023-07-11 05:13:14] INFO root fetch - processPackages [gpt-command-line]: executing diffoscope
+[2023-07-11 05:13:14] INFO root fetch - processPackages [gpt-command-line]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt-command-line-0.1.2.tar.gz tmp/gpt-command-line-0.1.2.dev0.tar.gz --markdown 20230711/g/gpt-command-line/0.1.2-0.1.2.dev0/diff.md --exclude *.pyd
+[2023-07-11 05:13:15] INFO root fetch - processPackages [intecomm-edc]: executing diffoscope
+[2023-07-11 05:13:15] INFO root fetch - processPackages [intecomm-edc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intecomm-edc-0.1.8.tar.gz tmp/intecomm-edc-0.1.9.tar.gz --markdown 20230711/i/intecomm-edc/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-11 05:13:15] INFO root fetch - processPackages [yeastvision]: executing diffoscope
+[2023-07-11 05:13:15] INFO root fetch - processPackages [yeastvision]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeastvision-0.1.6.tar.gz tmp/yeastvision-0.1.7.tar.gz --markdown 20230711/y/yeastvision/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-11 05:13:15] INFO root fetch - processPackages [mysqlx-generator]: Remove: archive file [/home/abi/fetcher/tmp/mysqlx-generator-1.0.0.tar.gz]
+[2023-07-11 05:13:15] INFO root fetch - processPackages [mysqlx-generator]: Remove: archive file [/home/abi/fetcher/tmp/mysqlx-generator-1.0.1.tar.gz]
+[2023-07-11 05:13:15] INFO root fetch - main [MainThread]: End processing [mysqlx-generator]: success
+[2023-07-11 05:13:16] INFO root fetch - processPackages [pynldas2]: Remove: archive file [/home/abi/fetcher/tmp/pynldas2-0.15.0.tar.gz]
+[2023-07-11 05:13:16] INFO root fetch - processPackages [pynldas2]: Remove: archive file [/home/abi/fetcher/tmp/pynldas2-0.15.1.tar.gz]
+[2023-07-11 05:13:16] INFO root fetch - main [MainThread]: End processing [pynldas2]: success
+[2023-07-11 05:13:16] INFO root fetch - processPackages [aihandler]: Remove: archive file [/home/abi/fetcher/tmp/aihandler-1.9.8.tar.gz]
+[2023-07-11 05:13:16] INFO root fetch - processPackages [aihandler]: Remove: archive file [/home/abi/fetcher/tmp/aihandler-1.9.9.tar.gz]
+[2023-07-11 05:13:16] INFO root fetch - main [MainThread]: End processing [aihandler]: success
+[2023-07-11 05:13:16] INFO root fetch - processPackages [gpt-command-line]: Remove: archive file [/home/abi/fetcher/tmp/gpt-command-line-0.1.2.tar.gz]
+[2023-07-11 05:13:16] INFO root fetch - processPackages [gpt-command-line]: Remove: archive file [/home/abi/fetcher/tmp/gpt-command-line-0.1.2.dev0.tar.gz]
+[2023-07-11 05:13:16] INFO root fetch - main [MainThread]: End processing [gpt-command-line]: success
+[2023-07-11 05:13:16] INFO root fetch - processPackages [edc]: Remove: archive file [/home/abi/fetcher/tmp/edc-0.5.3.tar.gz]
+[2023-07-11 05:13:16] INFO root fetch - processPackages [edc]: Remove: archive file [/home/abi/fetcher/tmp/edc-0.5.4.tar.gz]
+[2023-07-11 05:13:16] INFO root fetch - main [MainThread]: End processing [edc]: success
+[2023-07-11 05:13:16] INFO root fetch - processPackages [herta-villa-sdk]: Remove: archive file [/home/abi/fetcher/tmp/herta_villa_sdk-0.3.2.tar.gz]
+[2023-07-11 05:13:16] INFO root fetch - processPackages [herta-villa-sdk]: Remove: archive file [/home/abi/fetcher/tmp/herta_villa_sdk-0.4.0.tar.gz]
+[2023-07-11 05:13:16] INFO root fetch - main [MainThread]: End processing [herta-villa-sdk]: success
+[2023-07-11 05:13:16] INFO root fetch - processPackages [airunner]: Remove: archive file [/home/abi/fetcher/tmp/airunner-2.0.5.tar.gz]
+[2023-07-11 05:13:16] INFO root fetch - processPackages [airunner]: Remove: archive file [/home/abi/fetcher/tmp/airunner-2.1.0.tar.gz]
+[2023-07-11 05:13:16] INFO root fetch - main [MainThread]: End processing [airunner]: success
+[2023-07-11 05:13:16] INFO root fetch - processPackages [yeastvision]: Remove: archive file [/home/abi/fetcher/tmp/yeastvision-0.1.6.tar.gz]
+[2023-07-11 05:13:16] INFO root fetch - processPackages [yeastvision]: Remove: archive file [/home/abi/fetcher/tmp/yeastvision-0.1.7.tar.gz]
+[2023-07-11 05:13:16] INFO root fetch - main [MainThread]: End processing [yeastvision]: success
+[2023-07-11 05:13:18] INFO root fetch - processPackages [intecomm-edc]: Remove: archive file [/home/abi/fetcher/tmp/intecomm-edc-0.1.8.tar.gz]
+[2023-07-11 05:13:18] INFO root fetch - processPackages [intecomm-edc]: Remove: archive file [/home/abi/fetcher/tmp/intecomm-edc-0.1.9.tar.gz]
+[2023-07-11 05:13:18] INFO root fetch - main [MainThread]: End processing [intecomm-edc]: success
+[2023-07-11 05:13:19] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.8.tar.gz]
+[2023-07-11 05:13:19] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.9.tar.gz]
+[2023-07-11 05:13:19] INFO root fetch - main [MainThread]: End processing [oloren]: success
+[2023-07-11 05:13:19] INFO root fetch - main [MainThread]: Store serial: [18840326]
