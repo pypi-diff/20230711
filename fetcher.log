@@ -13996,3 +13996,155 @@ AssertionError: tmp/doctran-0.0.6.tar.gz does not exist
 [2023-07-11 10:51:27] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz]
 [2023-07-11 10:51:27] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
 [2023-07-11 10:51:27] INFO root fetch - main [MainThread]: Store serial: [18842682]
+[2023-07-11 10:56:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18842682]
+[2023-07-11 10:56:36] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-07-11 10:56:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: image-func
+[2023-07-11 10:56:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: parametricGarch
+[2023-07-11 10:56:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: parametricGarch
+[2023-07-11 10:56:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: parametricGarch
+[2023-07-11 10:56:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: faasmctl
+[2023-07-11 10:56:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lightstreamer-client-lib
+[2023-07-11 10:56:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cassho
+[2023-07-11 10:56:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: rondsspark
+[2023-07-11 10:56:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: rongdavbaaddins
+[2023-07-11 10:56:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: modis-crawler-utils
+[2023-07-11 10:56:36] INFO root fetch - processPackages [faasmctl]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-11 10:56:36] INFO root fetch - processPackages [parametricGarch]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-11 10:56:36] INFO root fetch - processPackages [rongdavbaaddins]: New version: [0.1.0.5] Old Version: [0.1.0.4]
+[2023-07-11 10:56:36] INFO root fetch - processPackages [rondsspark]: New version: [0.0.4.8] Old Version: [0.0.4.7]
+[2023-07-11 10:56:36] INFO root fetch - processPackages [image-func]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-11 10:56:36] INFO root fetch - processPackages [parametricGarch]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-11 10:56:36] INFO root fetch - processPackages [lightstreamer-client-lib]: New version: [2.0.0] Old Version: [1.0.3]
+[2023-07-11 10:56:36] WARNING root fetch - processPackages [cassho]: Skipping, unable to determine old version
+[2023-07-11 10:56:36] INFO root fetch - processPackages [parametricGarch]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-11 10:56:36] INFO root fetch - processPackages [cassho]: Start processing: ccxt
+[2023-07-11 10:56:36] INFO root fetch - main [MainThread]: End processing [cassho] error
+[2023-07-11 10:56:36] WARNING root fetch - processPackages [modis-crawler-utils]: Skipping, unable to determine old version
+[2023-07-11 10:56:36] INFO root fetch - processPackages [modis-crawler-utils]: Start processing: libcnmc
+[2023-07-11 10:56:36] INFO root fetch - main [MainThread]: End processing [modis-crawler-utils] error
+[2023-07-11 10:56:36] INFO root fetch - processPackages [image-func]: Downloading https://files.pythonhosted.org/packages/c2/c8/0e24564de3c782f9c76fcbab2e3c8c029ecaf2cf2dc2bf4f9a679618fc0c/image_func-1.0.8.tar.gz
+[2023-07-11 10:56:36] INFO root fetch - processPackages [rongdavbaaddins]: Downloading https://files.pythonhosted.org/packages/21/3a/269c6bf486f0845d842e86cd1ef312aa6518e0bc31fcde1ade0c129e2139/rongdavbaaddins-0.1.0.4.tar.gz
+[2023-07-11 10:56:36] INFO root fetch - processPackages [rondsspark]: Downloading https://files.pythonhosted.org/packages/7a/14/ef743d02ae1bc90373ab4947de2932ec61902fbc172e54caaa2fe07e6795/rondsspark-0.0.4.7.tar.gz
+[2023-07-11 10:56:36] INFO root fetch - processPackages [ccxt]: New version: [4.0.9] Old Version: [4.0.8]
+[2023-07-11 10:56:36] INFO root fetch - processPackages [parametricGarch]: Downloading https://files.pythonhosted.org/packages/2f/ee/73f71899cb08851cffccc2f6eb87fbb442ac5e2852c34e215a3c1d4f4984/parametricGarch-0.0.4.tar.gz
+[2023-07-11 10:56:36] INFO root fetch - processPackages [parametricGarch]: Downloading https://files.pythonhosted.org/packages/2f/ee/73f71899cb08851cffccc2f6eb87fbb442ac5e2852c34e215a3c1d4f4984/parametricGarch-0.0.4.tar.gz
+[2023-07-11 10:56:36] INFO root fetch - processPackages [parametricGarch]: Downloading https://files.pythonhosted.org/packages/2f/ee/73f71899cb08851cffccc2f6eb87fbb442ac5e2852c34e215a3c1d4f4984/parametricGarch-0.0.4.tar.gz
+[2023-07-11 10:56:36] INFO root fetch - processPackages [libcnmc]: New version: [23.9.1] Old Version: [23.9.0]
+[2023-07-11 10:56:36] INFO root fetch - processPackages [faasmctl]: Downloading https://files.pythonhosted.org/packages/ad/47/0c55ac2f0d081812703b5e929ce34b5b1b47a2df1cf35016c0f528de7486/faasmctl-0.3.0.tar.gz
+[2023-07-11 10:56:37] INFO root fetch - processPackages [lightstreamer-client-lib]: Downloading https://files.pythonhosted.org/packages/bf/1e/da9f259eda2cf3eecfd15813fd2a920144ce282102089ec9beae022350d3/lightstreamer-client-lib-1.0.3.tar.gz
+[2023-07-11 10:56:37] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/ad/7d/8330d03fabbc3e43fd950e4c4fc50051c4c1ed03e1de206a341ccc8c1663/ccxt-4.0.8.tar.gz
+[2023-07-11 10:56:37] INFO root fetch - processPackages [image-func]: Downloading https://files.pythonhosted.org/packages/53/19/83648c27e6abc5b7c6ba68f8e2a9472a2c8c3989947d7808334bf8348af7/image_func-1.0.9.tar.gz
+[2023-07-11 10:56:37] INFO root fetch - processPackages [libcnmc]: Downloading https://files.pythonhosted.org/packages/91/88/c28ff84568ef323398498b71d609a92ca287ddcdf8a851536ab656221bc4/libcnmc-23.9.0.tar.gz
+[2023-07-11 10:56:37] INFO root fetch - processPackages [rongdavbaaddins]: Downloading https://files.pythonhosted.org/packages/5e/a7/24ffb643433b3b4b278a954e271b5a745fabf85c9afc0a95467f98b6d7b1/rongdavbaaddins-0.1.0.5.tar.gz
+[2023-07-11 10:56:37] INFO root fetch - processPackages [rondsspark]: Downloading https://files.pythonhosted.org/packages/70/43/0d45f8925a09c136a190403f027cd4691beab3a6c5b1fc352b79f898ac69/rondsspark-0.0.4.8.tar.gz
+[2023-07-11 10:56:37] INFO root fetch - processPackages [image-func]: executing diffoscope
+[2023-07-11 10:56:37] INFO root fetch - processPackages [image-func]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/image_func-1.0.8.tar.gz tmp/image_func-1.0.9.tar.gz --markdown 20230711/i/image-func/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-11 10:56:37] INFO root fetch - processPackages [parametricGarch]: Downloading https://files.pythonhosted.org/packages/a1/e3/7594b541f02373f2c7054fc97886e74a31ce7d381d8361b7f1358d1ac38a/parametricGarch-0.0.5.tar.gz
+[2023-07-11 10:56:37] INFO root fetch - processPackages [parametricGarch]: Downloading https://files.pythonhosted.org/packages/a1/e3/7594b541f02373f2c7054fc97886e74a31ce7d381d8361b7f1358d1ac38a/parametricGarch-0.0.5.tar.gz
+[2023-07-11 10:56:37] INFO root fetch - processPackages [faasmctl]: Downloading https://files.pythonhosted.org/packages/ae/b6/f9d2d564349a65c80c1982b7d6750177de631f473f8f2be546d7a09b5bdd/faasmctl-0.3.1.tar.gz
+[2023-07-11 10:56:37] INFO root fetch - processPackages [parametricGarch]: Downloading https://files.pythonhosted.org/packages/a1/e3/7594b541f02373f2c7054fc97886e74a31ce7d381d8361b7f1358d1ac38a/parametricGarch-0.0.5.tar.gz
+[2023-07-11 10:56:37] INFO root fetch - processPackages [lightstreamer-client-lib]: Downloading https://files.pythonhosted.org/packages/1d/f6/000ba1ed70bd54df6e3e56c6e34829f88ed9980aa4070f6435bbff4ee2f6/lightstreamer-client-lib-2.0.0.tar.gz
+[2023-07-11 10:56:37] INFO root fetch - processPackages [rondsspark]: executing diffoscope
+[2023-07-11 10:56:37] INFO root fetch - processPackages [rondsspark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rondsspark-0.0.4.7.tar.gz tmp/rondsspark-0.0.4.8.tar.gz --markdown 20230711/r/rondsspark/0.0.4.7-0.0.4.8/diff.md --exclude *.pyd
+[2023-07-11 10:56:37] INFO root fetch - processPackages [parametricGarch]: executing diffoscope
+[2023-07-11 10:56:37] INFO root fetch - processPackages [parametricGarch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parametricGarch-0.0.4.tar.gz tmp/parametricGarch-0.0.5.tar.gz --markdown 20230711/p/parametricGarch/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-11 10:56:37] INFO root fetch - processPackages [parametricGarch]: executing diffoscope
+[2023-07-11 10:56:37] INFO root fetch - processPackages [parametricGarch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parametricGarch-0.0.4.tar.gz tmp/parametricGarch-0.0.5.tar.gz --markdown 20230711/p/parametricGarch/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-11 10:56:37] INFO root fetch - processPackages [faasmctl]: executing diffoscope
+[2023-07-11 10:56:37] INFO root fetch - processPackages [faasmctl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/faasmctl-0.3.0.tar.gz tmp/faasmctl-0.3.1.tar.gz --markdown 20230711/f/faasmctl/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-11 10:56:37] INFO root fetch - processPackages [parametricGarch]: executing diffoscope
+[2023-07-11 10:56:37] INFO root fetch - processPackages [parametricGarch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parametricGarch-0.0.4.tar.gz tmp/parametricGarch-0.0.5.tar.gz --markdown 20230711/p/parametricGarch/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-11 10:56:37] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/32/a5/e913d1abd897de7e300e2702f68a742f7dba4a8d682a377a41f7423bd968/ccxt-4.0.9.tar.gz
+[2023-07-11 10:56:37] INFO root fetch - processPackages [lightstreamer-client-lib]: executing diffoscope
+[2023-07-11 10:56:37] INFO root fetch - processPackages [lightstreamer-client-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightstreamer-client-lib-1.0.3.tar.gz tmp/lightstreamer-client-lib-2.0.0.tar.gz --markdown 20230711/l/lightstreamer-client-lib/1.0.3-2.0.0/diff.md --exclude *.pyd
+[2023-07-11 10:56:37] INFO root fetch - processPackages [rongdavbaaddins]: executing diffoscope
+[2023-07-11 10:56:37] INFO root fetch - processPackages [rongdavbaaddins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rongdavbaaddins-0.1.0.4.tar.gz tmp/rongdavbaaddins-0.1.0.5.tar.gz --markdown 20230711/r/rongdavbaaddins/0.1.0.4-0.1.0.5/diff.md --exclude *.pyd
+[2023-07-11 10:56:37] INFO root fetch - processPackages [libcnmc]: Downloading https://files.pythonhosted.org/packages/fc/9f/639d42b63484a91cf9f1c60f9bb709f1ed853240f45c2e02047054beffa6/libcnmc-23.9.1.tar.gz
+[2023-07-11 10:56:37] INFO root fetch - processPackages [libcnmc]: executing diffoscope
+[2023-07-11 10:56:37] INFO root fetch - processPackages [libcnmc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libcnmc-23.9.0.tar.gz tmp/libcnmc-23.9.1.tar.gz --markdown 20230711/l/libcnmc/23.9.0-23.9.1/diff.md --exclude *.pyd
+[2023-07-11 10:56:38] INFO root fetch - processPackages [ccxt]: executing diffoscope
+[2023-07-11 10:56:38] INFO root fetch - processPackages [ccxt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccxt-4.0.8.tar.gz tmp/ccxt-4.0.9.tar.gz --markdown 20230711/c/ccxt/4.0.8-4.0.9/diff.md --exclude *.pyd
+[2023-07-11 10:56:38] INFO root fetch - processPackages [image-func]: Remove: archive file [/home/abi/fetcher/tmp/image_func-1.0.8.tar.gz]
+[2023-07-11 10:56:38] INFO root fetch - processPackages [image-func]: Remove: archive file [/home/abi/fetcher/tmp/image_func-1.0.9.tar.gz]
+[2023-07-11 10:56:38] INFO root fetch - processPackages [image-func]: Start processing: exem-vault
+[2023-07-11 10:56:38] INFO root fetch - main [MainThread]: End processing [image-func]: success
+[2023-07-11 10:56:38] INFO root fetch - processPackages [exem-vault]: New version: [1.1.1] Old Version: [1.0.0]
+[2023-07-11 10:56:38] INFO root fetch - processPackages [exem-vault]: Downloading https://files.pythonhosted.org/packages/ec/9d/009930e3ef2102f3373441f57ea624528110e362aa4cba80cffddc588715/exem-vault-1.0.0.tar.gz
+[2023-07-11 10:56:39] INFO root fetch - processPackages [exem-vault]: Downloading https://files.pythonhosted.org/packages/53/f4/65182ec2563dd10c56d699fa8ac1e1eb37bb7b7a10a3026a932f32568104/exem-vault-1.1.1.tar.gz
+[2023-07-11 10:56:39] INFO root fetch - processPackages [parametricGarch]: Remove: archive file [/home/abi/fetcher/tmp/parametricGarch-0.0.4.tar.gz]
+[2023-07-11 10:56:39] INFO root fetch - processPackages [parametricGarch]: Remove: archive file [/home/abi/fetcher/tmp/parametricGarch-0.0.5.tar.gz]
+[2023-07-11 10:56:39] INFO root fetch - processPackages [parametricGarch]: Start processing: tokenmonster
+[2023-07-11 10:56:39] INFO root fetch - main [MainThread]: End processing [parametricGarch]: success
+[2023-07-11 10:56:39] INFO root fetch - processPackages [tokenmonster]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-07-11 10:56:39] INFO root fetch - processPackages [exem-vault]: executing diffoscope
+[2023-07-11 10:56:39] INFO root fetch - processPackages [exem-vault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exem-vault-1.0.0.tar.gz tmp/exem-vault-1.1.1.tar.gz --markdown 20230711/e/exem-vault/1.0.0-1.1.1/diff.md --exclude *.pyd
+[2023-07-11 10:56:39] INFO root fetch - processPackages [rondsspark]: Remove: archive file [/home/abi/fetcher/tmp/rondsspark-0.0.4.7.tar.gz]
+[2023-07-11 10:56:39] INFO root fetch - processPackages [rondsspark]: Remove: archive file [/home/abi/fetcher/tmp/rondsspark-0.0.4.8.tar.gz]
+[2023-07-11 10:56:39] INFO root fetch - processPackages [rondsspark]: Start processing: deepsearch-toolkit
+[2023-07-11 10:56:39] INFO root fetch - main [MainThread]: End processing [rondsspark]: success
+[2023-07-11 10:56:39] INFO root fetch - processPackages [tokenmonster]: Downloading https://files.pythonhosted.org/packages/4e/43/3ab6a8aad60d80cb55e8263f101ef604c42b4421b69a55148cb8f0b78212/tokenmonster-1.1.0.tar.gz
+[2023-07-11 10:56:39] INFO root fetch - processPackages [parametricGarch]: Start processing: mkdocs-gitlab
+[2023-07-11 10:56:39] INFO root fetch - main [MainThread]: End processing [parametricGarch]: success
+[2023-07-11 10:56:39] INFO root fetch - processPackages [faasmctl]: Remove: archive file [/home/abi/fetcher/tmp/faasmctl-0.3.0.tar.gz]
+[2023-07-11 10:56:39] INFO root fetch - processPackages [faasmctl]: Remove: archive file [/home/abi/fetcher/tmp/faasmctl-0.3.1.tar.gz]
+[2023-07-11 10:56:39] INFO root fetch - processPackages [faasmctl]: Start processing: adbench
+[2023-07-11 10:56:39] INFO root fetch - main [MainThread]: End processing [faasmctl]: success
+[2023-07-11 10:56:39] INFO root fetch - processPackages [rongdavbaaddins]: Remove: archive file [/home/abi/fetcher/tmp/rongdavbaaddins-0.1.0.4.tar.gz]
+[2023-07-11 10:56:39] INFO root fetch - processPackages [rongdavbaaddins]: Remove: archive file [/home/abi/fetcher/tmp/rongdavbaaddins-0.1.0.5.tar.gz]
+[2023-07-11 10:56:39] INFO root fetch - processPackages [rongdavbaaddins]: Start processing: smol-dev
+[2023-07-11 10:56:39] INFO root fetch - main [MainThread]: End processing [rongdavbaaddins]: success
+[2023-07-11 10:56:39] INFO root fetch - processPackages [deepsearch-toolkit]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-11 10:56:39] WARNING root fetch - processPackages [adbench]: Skipping, unable to determine old version
+[2023-07-11 10:56:39] INFO root fetch - processPackages [adbench]: Start processing: phanos
+[2023-07-11 10:56:39] INFO root fetch - main [MainThread]: End processing [adbench] error
+[2023-07-11 10:56:39] INFO root fetch - processPackages [mkdocs-gitlab]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-07-11 10:56:39] INFO root fetch - main [MainThread]: End processing [parametricGarch]: success
+[2023-07-11 10:56:39] INFO root fetch - processPackages [lightstreamer-client-lib]: Remove: archive file [/home/abi/fetcher/tmp/lightstreamer-client-lib-1.0.3.tar.gz]
+[2023-07-11 10:56:39] INFO root fetch - processPackages [lightstreamer-client-lib]: Remove: archive file [/home/abi/fetcher/tmp/lightstreamer-client-lib-2.0.0.tar.gz]
+[2023-07-11 10:56:39] INFO root fetch - main [MainThread]: End processing [lightstreamer-client-lib]: success
+[2023-07-11 10:56:39] INFO root fetch - processPackages [smol-dev]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-11 10:56:39] INFO root fetch - processPackages [tokenmonster]: Downloading https://files.pythonhosted.org/packages/57/9f/547a766e348664adb81bbeaf32352fed4007236fe3d59049fccfb5899810/tokenmonster-1.1.1.tar.gz
+[2023-07-11 10:56:39] INFO root fetch - processPackages [phanos]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-11 10:56:39] INFO root fetch - processPackages [smol-dev]: Downloading https://files.pythonhosted.org/packages/2f/8e/1c2e930444b7e1d97ab25d39e2592341729e5fccf2e4e61751049bc1f1a2/smol_dev-0.0.2.tar.gz
+[2023-07-11 10:56:39] INFO root fetch - processPackages [deepsearch-toolkit]: Downloading https://files.pythonhosted.org/packages/53/66/33bde55a240a8b297e68f7746e32e0c49c3be34a0bef777b582ce892e75a/deepsearch_toolkit-0.8.0.tar.gz
+[2023-07-11 10:56:39] INFO root fetch - processPackages [tokenmonster]: executing diffoscope
+[2023-07-11 10:56:39] INFO root fetch - processPackages [tokenmonster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tokenmonster-1.1.0.tar.gz tmp/tokenmonster-1.1.1.tar.gz --markdown 20230711/t/tokenmonster/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-07-11 10:56:39] INFO root fetch - processPackages [mkdocs-gitlab]: Downloading https://files.pythonhosted.org/packages/76/1d/0c84d2af9337369d691409bed4987979fe315fec9bc25c83d894d5a1f978/mkdocs_gitlab-1.0.0.tar.gz
+[2023-07-11 10:56:39] INFO root fetch - processPackages [phanos]: Downloading https://files.pythonhosted.org/packages/95/c3/4535f1de6814d3099d7d588f3ee288daf49958d884bf577ca3ae1deefd23/phanos-0.0.3.tar.gz
+[2023-07-11 10:56:40] INFO root fetch - processPackages [smol-dev]: Downloading https://files.pythonhosted.org/packages/f4/5c/66930f64e128bedd83a525dfada0fc0faa7a60c82dbaecea7c223fc7af8d/smol_dev-0.0.3.tar.gz
+[2023-07-11 10:56:40] INFO root fetch - processPackages [mkdocs-gitlab]: Downloading https://files.pythonhosted.org/packages/f1/54/804257f6fe1a7301ad0d46f0a696a98e90005ebb967008af13de0f1a6ef8/mkdocs_gitlab-1.1.0.tar.gz
+[2023-07-11 10:56:40] INFO root fetch - processPackages [smol-dev]: executing diffoscope
+[2023-07-11 10:56:40] INFO root fetch - processPackages [smol-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smol_dev-0.0.2.tar.gz tmp/smol_dev-0.0.3.tar.gz --markdown 20230711/s/smol-dev/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-11 10:56:40] INFO root fetch - processPackages [deepsearch-toolkit]: Downloading https://files.pythonhosted.org/packages/af/4f/81421d1676fe839d31289bc27a262bdbb1dfd7c868324c8a18fca437e37e/deepsearch_toolkit-0.9.0.tar.gz
+[2023-07-11 10:56:40] INFO root fetch - processPackages [libcnmc]: Remove: archive file [/home/abi/fetcher/tmp/libcnmc-23.9.0.tar.gz]
+[2023-07-11 10:56:40] INFO root fetch - processPackages [libcnmc]: Remove: archive file [/home/abi/fetcher/tmp/libcnmc-23.9.1.tar.gz]
+[2023-07-11 10:56:40] INFO root fetch - main [MainThread]: End processing [libcnmc]: success
+[2023-07-11 10:56:40] INFO root fetch - processPackages [phanos]: Downloading https://files.pythonhosted.org/packages/63/f8/2683fb441cb74c4d064f04e3304105e985b2a34bf97da82bd3d06128e5f4/phanos-0.0.4.tar.gz
+[2023-07-11 10:56:40] INFO root fetch - processPackages [mkdocs-gitlab]: executing diffoscope
+[2023-07-11 10:56:40] INFO root fetch - processPackages [mkdocs-gitlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs_gitlab-1.0.0.tar.gz tmp/mkdocs_gitlab-1.1.0.tar.gz --markdown 20230711/m/mkdocs-gitlab/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-07-11 10:56:40] INFO root fetch - processPackages [exem-vault]: Remove: archive file [/home/abi/fetcher/tmp/exem-vault-1.0.0.tar.gz]
+[2023-07-11 10:56:40] INFO root fetch - processPackages [exem-vault]: Remove: archive file [/home/abi/fetcher/tmp/exem-vault-1.1.1.tar.gz]
+[2023-07-11 10:56:40] INFO root fetch - main [MainThread]: End processing [exem-vault]: success
+[2023-07-11 10:56:40] INFO root fetch - processPackages [deepsearch-toolkit]: executing diffoscope
+[2023-07-11 10:56:40] INFO root fetch - processPackages [deepsearch-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepsearch_toolkit-0.8.0.tar.gz tmp/deepsearch_toolkit-0.9.0.tar.gz --markdown 20230711/d/deepsearch-toolkit/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-11 10:56:40] INFO root fetch - processPackages [phanos]: executing diffoscope
+[2023-07-11 10:56:40] INFO root fetch - processPackages [phanos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phanos-0.0.3.tar.gz tmp/phanos-0.0.4.tar.gz --markdown 20230711/p/phanos/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-11 10:56:40] INFO root fetch - processPackages [tokenmonster]: Remove: archive file [/home/abi/fetcher/tmp/tokenmonster-1.1.0.tar.gz]
+[2023-07-11 10:56:40] INFO root fetch - processPackages [tokenmonster]: Remove: archive file [/home/abi/fetcher/tmp/tokenmonster-1.1.1.tar.gz]
+[2023-07-11 10:56:40] INFO root fetch - main [MainThread]: End processing [tokenmonster]: success
+[2023-07-11 10:56:41] INFO root fetch - processPackages [smol-dev]: Remove: archive file [/home/abi/fetcher/tmp/smol_dev-0.0.2.tar.gz]
+[2023-07-11 10:56:41] INFO root fetch - processPackages [smol-dev]: Remove: archive file [/home/abi/fetcher/tmp/smol_dev-0.0.3.tar.gz]
+[2023-07-11 10:56:41] INFO root fetch - main [MainThread]: End processing [smol-dev]: success
+[2023-07-11 10:56:41] INFO root fetch - processPackages [mkdocs-gitlab]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs_gitlab-1.0.0.tar.gz]
+[2023-07-11 10:56:41] INFO root fetch - processPackages [mkdocs-gitlab]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs_gitlab-1.1.0.tar.gz]
+[2023-07-11 10:56:41] INFO root fetch - main [MainThread]: End processing [mkdocs-gitlab]: success
+[2023-07-11 10:56:41] INFO root fetch - processPackages [phanos]: Remove: archive file [/home/abi/fetcher/tmp/phanos-0.0.3.tar.gz]
+[2023-07-11 10:56:41] INFO root fetch - processPackages [phanos]: Remove: archive file [/home/abi/fetcher/tmp/phanos-0.0.4.tar.gz]
+[2023-07-11 10:56:41] INFO root fetch - main [MainThread]: End processing [phanos]: success
+[2023-07-11 10:56:43] INFO root fetch - processPackages [deepsearch-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/deepsearch_toolkit-0.8.0.tar.gz]
+[2023-07-11 10:56:43] INFO root fetch - processPackages [deepsearch-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/deepsearch_toolkit-0.9.0.tar.gz]
+[2023-07-11 10:56:43] INFO root fetch - main [MainThread]: End processing [deepsearch-toolkit]: success
+[2023-07-11 10:56:43] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-4.0.8.tar.gz]
+[2023-07-11 10:56:43] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-4.0.9.tar.gz]
+[2023-07-11 10:56:43] INFO root fetch - main [MainThread]: End processing [ccxt]: success
+[2023-07-11 10:56:43] INFO root fetch - main [MainThread]: Store serial: [18842751]
