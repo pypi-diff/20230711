@@ -19928,3 +19928,111 @@ AssertionError: tmp/doctran-0.0.6.tar.gz does not exist
 [2023-07-11 14:34:54] INFO root fetch - processPackages [pandas-indexing]: Remove: archive file [/home/abi/fetcher/tmp/pandas-indexing-0.2.9.tar.gz]
 [2023-07-11 14:34:54] INFO root fetch - main [MainThread]: End processing [pandas-indexing]: success
 [2023-07-11 14:34:54] INFO root fetch - main [MainThread]: Store serial: [18845314]
+[2023-07-11 14:40:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18845314]
+[2023-07-11 14:40:05] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-11 14:40:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pharindoko.cdk-internal-gateway
+[2023-07-11 14:40:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: proxy-seller-user-api
+[2023-07-11 14:40:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: robokami-py
+[2023-07-11 14:40:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bk-crypto-python-sdk
+[2023-07-11 14:40:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: projen
+[2023-07-11 14:40:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addon-mrp-production-note
+[2023-07-11 14:40:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: assisted-service-client
+[2023-07-11 14:40:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: guessing-machine
+[2023-07-11 14:40:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: shell-whiz
+[2023-07-11 14:40:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: infoblox-discovery
+[2023-07-11 14:40:05] WARNING root fetch - processPackages [odoo14-addon-mrp-production-note]: Skipping, unable to determine old version
+[2023-07-11 14:40:05] INFO root fetch - processPackages [odoo14-addon-mrp-production-note]: Start processing: qworker
+[2023-07-11 14:40:05] INFO root fetch - main [MainThread]: End processing [odoo14-addon-mrp-production-note] error
+[2023-07-11 14:40:05] INFO root fetch - processPackages [bk-crypto-python-sdk]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-11 14:40:05] INFO root fetch - processPackages [proxy-seller-user-api]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-11 14:40:05] WARNING root fetch - processPackages [infoblox-discovery]: Skipping, unable to determine old version
+[2023-07-11 14:40:05] INFO root fetch - processPackages [infoblox-discovery]: Start processing: alphaclops-core
+[2023-07-11 14:40:05] INFO root fetch - main [MainThread]: End processing [infoblox-discovery] error
+[2023-07-11 14:40:05] INFO root fetch - processPackages [shell-whiz]: New version: [0.1.2] Old Version: [0.1.0]
+[2023-07-11 14:40:05] WARNING root fetch - processPackages [alphaclops-core]: Skipping, unable to determine old version
+[2023-07-11 14:40:05] INFO root fetch - processPackages [alphaclops-core]: Start processing: Req-http-vpn
+[2023-07-11 14:40:05] INFO root fetch - main [MainThread]: End processing [alphaclops-core] error
+[2023-07-11 14:40:05] WARNING root fetch - processPackages [guessing-machine]: Skipping, unable to determine old version
+[2023-07-11 14:40:05] INFO root fetch - processPackages [guessing-machine]: Start processing: cognite-power-ops
+[2023-07-11 14:40:05] INFO root fetch - main [MainThread]: End processing [guessing-machine] error
+[2023-07-11 14:40:05] INFO root fetch - processPackages [Req-http-vpn]: New version: [4.0.0] Old Version: [3.5.0]
+[2023-07-11 14:40:05] WARNING root fetch - processPackages [robokami-py]: Skipping, unable to determine old version
+[2023-07-11 14:40:05] INFO root fetch - processPackages [robokami-py]: Start processing: uatg
+[2023-07-11 14:40:05] INFO root fetch - main [MainThread]: End processing [robokami-py] error
+[2023-07-11 14:40:05] INFO root fetch - processPackages [pharindoko.cdk-internal-gateway]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-11 14:40:05] INFO root fetch - processPackages [qworker]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-07-11 14:40:06] INFO root fetch - processPackages [assisted-service-client]: New version: [2.9.0.post9] Old Version: [2.9.0.post8]
+[2023-07-11 14:40:06] INFO root fetch - processPackages [projen]: New version: [0.71.99] Old Version: [0.71.98]
+[2023-07-11 14:40:06] INFO root fetch - processPackages [Req-http-vpn]: Downloading https://files.pythonhosted.org/packages/08/0d/230292da3ab659609a80c410ccc4098e6bd8d53fd56d1328179aa2a09fa5/Req_http_vpn-3.5.0.tar.gz
+[2023-07-11 14:40:06] INFO root fetch - processPackages [uatg]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-07-11 14:40:06] INFO root fetch - processPackages [qworker]: Downloading https://files.pythonhosted.org/packages/05/ab/a6c851c81a2baa3ca6b01d585dfe58731fc256f1bfe2ccba47020d9138ec/qworker-1.9.8-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-11 14:40:06] INFO root fetch - processPackages [bk-crypto-python-sdk]: Downloading https://files.pythonhosted.org/packages/8f/db/d0d744397ecc61beefdcacfe3531bdb93e4c7d1b94d30de51034f8f49be5/bk-crypto-python-sdk-1.0.1.tar.gz
+[2023-07-11 14:40:06] INFO root fetch - processPackages [proxy-seller-user-api]: Downloading https://files.pythonhosted.org/packages/de/89/b6bacfb353656c42a2fecd9462954265f1067424c33b3e8917afe1f0eb02/proxy_seller_user_api-1.0.0.tar.gz
+[2023-07-11 14:40:06] INFO root fetch - processPackages [pharindoko.cdk-internal-gateway]: Downloading https://files.pythonhosted.org/packages/44/af/776f05e5bae33847701876c6f3d922ef73f5b4e86e14be753dd36b2b2688/pharindoko.cdk-internal-gateway-1.1.8.tar.gz
+[2023-07-11 14:40:06] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/e6/32/7b9177419a0f336c70af7f165826714344a50cfd40e5990d888982c6ac99/projen-0.71.98.tar.gz
+[2023-07-11 14:40:06] INFO root fetch - processPackages [cognite-power-ops]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-11 14:40:06] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/a5/ee/a5837c5427b0689f863021f5d65c42ff9d4ae267905a751492653198b2dc/assisted_service_client-2.9.0.post8-py3-none-any.whl
+[2023-07-11 14:40:06] INFO root fetch - processPackages [shell-whiz]: Downloading https://files.pythonhosted.org/packages/17/16/6e001bfef62473cc882af14529748697b9bcf513cb06ea186effcd28805e/shell_whiz-0.1.0.tar.gz
+[2023-07-11 14:40:06] INFO root fetch - processPackages [uatg]: Downloading https://files.pythonhosted.org/packages/58/bd/2f44dbcc589d5f195c0c29fa50b81538b79204cf6332e86d42b4ba677603/uatg-1.8.0.tar.gz
+[2023-07-11 14:40:06] INFO root fetch - processPackages [cognite-power-ops]: Downloading https://files.pythonhosted.org/packages/2b/ea/c056f5562fa0bed4321b21572bba15a2f43f6f9795d20397ee822d00d6af/cognite_power_ops-0.9.1.tar.gz
+[2023-07-11 14:40:06] INFO root fetch - processPackages [Req-http-vpn]: Downloading https://files.pythonhosted.org/packages/e9/3a/9f6c2353da67f54ab26cd2eea128e4a5f61573c8f9ce1ef8602606c941a2/Req_http_vpn-4.0.0.tar.gz
+[2023-07-11 14:40:06] INFO root fetch - processPackages [qworker]: Downloading https://files.pythonhosted.org/packages/49/7d/292c6ab6085be9b02a88ca7bbc43266254e8564c1e18d61acd1239abeee3/qworker-1.9.9-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-11 14:40:06] INFO root fetch - processPackages [proxy-seller-user-api]: Downloading https://files.pythonhosted.org/packages/42/79/2ad1a849f58a21f847f327a2df572f4f1f5aff78a5d72b736b706d0069eb/proxy_seller_user_api-1.0.1.tar.gz
+[2023-07-11 14:40:06] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/21/a6/caf5451fda5ceed9de3dfadecf33e65b6279d0a5dfa4350206da3da20fac/projen-0.71.99.tar.gz
+[2023-07-11 14:40:06] INFO root fetch - processPackages [bk-crypto-python-sdk]: Downloading https://files.pythonhosted.org/packages/dc/9a/13e9bb33502cb17f8284c5d56cfe96484ee97469c581b1d1553b778fe8e7/bk-crypto-python-sdk-1.0.2.tar.gz
+[2023-07-11 14:40:06] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/f6/90/2599b3c134ea21c06d22f83dd1dfac6801d974b9aa0958f008fb332e5b4d/assisted_service_client-2.9.0.post9-py3-none-any.whl
+[2023-07-11 14:40:06] INFO root fetch - processPackages [pharindoko.cdk-internal-gateway]: Downloading https://files.pythonhosted.org/packages/00/8c/415bb9054570c25a0cea31fd3d3aa5661d2c81cc5dd2816784d542246f9b/pharindoko.cdk-internal-gateway-1.1.9.tar.gz
+[2023-07-11 14:40:06] INFO root fetch - processPackages [qworker]: executing diffoscope
+[2023-07-11 14:40:06] INFO root fetch - processPackages [qworker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qworker-1.9.8-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/qworker-1.9.9-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230711/q/qworker/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-07-11 14:40:06] INFO root fetch - processPackages [cognite-power-ops]: Downloading https://files.pythonhosted.org/packages/5a/e7/e66818fdcb4e952516e36c68513139d425136901b019cc2b7ae48bfa3c12/cognite_power_ops-0.9.2.tar.gz
+[2023-07-11 14:40:06] INFO root fetch - processPackages [shell-whiz]: Downloading https://files.pythonhosted.org/packages/1f/9b/b88061657743a4bd541fdb9bf06c5744258903f0cafe52b77bada6f011fa/shell_whiz-0.1.2.tar.gz
+[2023-07-11 14:40:06] INFO root fetch - processPackages [uatg]: Downloading https://files.pythonhosted.org/packages/61/c3/da23e56af6bd0b80b4d248a9c2be841eb754ccca36e93458a17dea2f5b31/uatg-1.9.0.tar.gz
+[2023-07-11 14:40:07] INFO root fetch - processPackages [proxy-seller-user-api]: executing diffoscope
+[2023-07-11 14:40:07] INFO root fetch - processPackages [proxy-seller-user-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proxy_seller_user_api-1.0.0.tar.gz tmp/proxy_seller_user_api-1.0.1.tar.gz --markdown 20230711/p/proxy-seller-user-api/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-11 14:40:07] INFO root fetch - processPackages [bk-crypto-python-sdk]: executing diffoscope
+[2023-07-11 14:40:07] INFO root fetch - processPackages [bk-crypto-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bk-crypto-python-sdk-1.0.1.tar.gz tmp/bk-crypto-python-sdk-1.0.2.tar.gz --markdown 20230711/b/bk-crypto-python-sdk/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-11 14:40:07] INFO root fetch - processPackages [Req-http-vpn]: executing diffoscope
+[2023-07-11 14:40:07] INFO root fetch - processPackages [Req-http-vpn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Req_http_vpn-3.5.0.tar.gz tmp/Req_http_vpn-4.0.0.tar.gz --markdown 20230711/R/Req-http-vpn/3.5.0-4.0.0/diff.md --exclude *.pyd
+[2023-07-11 14:40:07] INFO root fetch - processPackages [cognite-power-ops]: executing diffoscope
+[2023-07-11 14:40:07] INFO root fetch - processPackages [cognite-power-ops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_power_ops-0.9.1.tar.gz tmp/cognite_power_ops-0.9.2.tar.gz --markdown 20230711/c/cognite-power-ops/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-11 14:40:07] INFO root fetch - processPackages [uatg]: executing diffoscope
+[2023-07-11 14:40:07] INFO root fetch - processPackages [uatg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uatg-1.8.0.tar.gz tmp/uatg-1.9.0.tar.gz --markdown 20230711/u/uatg/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-07-11 14:40:07] INFO root fetch - processPackages [projen]: executing diffoscope
+[2023-07-11 14:40:07] INFO root fetch - processPackages [projen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/projen-0.71.98.tar.gz tmp/projen-0.71.99.tar.gz --markdown 20230711/p/projen/0.71.98-0.71.99/diff.md --exclude *.pyd
+[2023-07-11 14:40:07] INFO root fetch - processPackages [shell-whiz]: executing diffoscope
+[2023-07-11 14:40:07] INFO root fetch - processPackages [shell-whiz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shell_whiz-0.1.0.tar.gz tmp/shell_whiz-0.1.2.tar.gz --markdown 20230711/s/shell-whiz/0.1.0-0.1.2/diff.md --exclude *.pyd
+[2023-07-11 14:40:07] INFO root fetch - processPackages [pharindoko.cdk-internal-gateway]: executing diffoscope
+[2023-07-11 14:40:07] INFO root fetch - processPackages [pharindoko.cdk-internal-gateway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pharindoko.cdk-internal-gateway-1.1.8.tar.gz tmp/pharindoko.cdk-internal-gateway-1.1.9.tar.gz --markdown 20230711/p/pharindoko.cdk-internal-gateway/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-11 14:40:07] INFO root fetch - processPackages [assisted-service-client]: executing diffoscope
+[2023-07-11 14:40:07] INFO root fetch - processPackages [assisted-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip --markdown 20230711/a/assisted-service-client/2.9.0.post8-2.9.0.post9/diff.md --exclude *.pyd
+[2023-07-11 14:40:08] INFO root fetch - processPackages [proxy-seller-user-api]: Remove: archive file [/home/abi/fetcher/tmp/proxy_seller_user_api-1.0.0.tar.gz]
+[2023-07-11 14:40:08] INFO root fetch - processPackages [proxy-seller-user-api]: Remove: archive file [/home/abi/fetcher/tmp/proxy_seller_user_api-1.0.1.tar.gz]
+[2023-07-11 14:40:08] INFO root fetch - main [MainThread]: End processing [proxy-seller-user-api]: success
+[2023-07-11 14:40:08] INFO root fetch - processPackages [qworker]: Remove: archive file [/home/abi/fetcher/tmp/qworker-1.9.8-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-11 14:40:08] INFO root fetch - processPackages [qworker]: Remove: archive file [/home/abi/fetcher/tmp/qworker-1.9.9-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-11 14:40:08] INFO root fetch - main [MainThread]: End processing [qworker]: success
+[2023-07-11 14:40:08] INFO root fetch - processPackages [bk-crypto-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/bk-crypto-python-sdk-1.0.1.tar.gz]
+[2023-07-11 14:40:08] INFO root fetch - processPackages [bk-crypto-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/bk-crypto-python-sdk-1.0.2.tar.gz]
+[2023-07-11 14:40:08] INFO root fetch - main [MainThread]: End processing [bk-crypto-python-sdk]: success
+[2023-07-11 14:40:08] INFO root fetch - processPackages [Req-http-vpn]: Remove: archive file [/home/abi/fetcher/tmp/Req_http_vpn-3.5.0.tar.gz]
+[2023-07-11 14:40:08] INFO root fetch - processPackages [Req-http-vpn]: Remove: archive file [/home/abi/fetcher/tmp/Req_http_vpn-4.0.0.tar.gz]
+[2023-07-11 14:40:08] INFO root fetch - main [MainThread]: End processing [Req-http-vpn]: success
+[2023-07-11 14:40:09] INFO root fetch - processPackages [uatg]: Remove: archive file [/home/abi/fetcher/tmp/uatg-1.8.0.tar.gz]
+[2023-07-11 14:40:09] INFO root fetch - processPackages [uatg]: Remove: archive file [/home/abi/fetcher/tmp/uatg-1.9.0.tar.gz]
+[2023-07-11 14:40:09] INFO root fetch - main [MainThread]: End processing [uatg]: success
+[2023-07-11 14:40:09] INFO root fetch - processPackages [pharindoko.cdk-internal-gateway]: Remove: archive file [/home/abi/fetcher/tmp/pharindoko.cdk-internal-gateway-1.1.8.tar.gz]
+[2023-07-11 14:40:09] INFO root fetch - processPackages [pharindoko.cdk-internal-gateway]: Remove: archive file [/home/abi/fetcher/tmp/pharindoko.cdk-internal-gateway-1.1.9.tar.gz]
+[2023-07-11 14:40:09] INFO root fetch - main [MainThread]: End processing [pharindoko.cdk-internal-gateway]: success
+[2023-07-11 14:40:09] INFO root fetch - processPackages [cognite-power-ops]: Remove: archive file [/home/abi/fetcher/tmp/cognite_power_ops-0.9.1.tar.gz]
+[2023-07-11 14:40:09] INFO root fetch - processPackages [cognite-power-ops]: Remove: archive file [/home/abi/fetcher/tmp/cognite_power_ops-0.9.2.tar.gz]
+[2023-07-11 14:40:09] INFO root fetch - main [MainThread]: End processing [cognite-power-ops]: success
+[2023-07-11 14:40:09] INFO root fetch - processPackages [shell-whiz]: Remove: archive file [/home/abi/fetcher/tmp/shell_whiz-0.1.0.tar.gz]
+[2023-07-11 14:40:09] INFO root fetch - processPackages [shell-whiz]: Remove: archive file [/home/abi/fetcher/tmp/shell_whiz-0.1.2.tar.gz]
+[2023-07-11 14:40:09] INFO root fetch - main [MainThread]: End processing [shell-whiz]: success
+[2023-07-11 14:40:09] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.71.98.tar.gz]
+[2023-07-11 14:40:09] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.71.99.tar.gz]
+[2023-07-11 14:40:09] INFO root fetch - main [MainThread]: End processing [projen]: success
+[2023-07-11 14:40:10] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip]
+[2023-07-11 14:40:10] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip]
+[2023-07-11 14:40:10] INFO root fetch - main [MainThread]: End processing [assisted-service-client]: success
+[2023-07-11 14:40:10] INFO root fetch - main [MainThread]: Store serial: [18845371]
