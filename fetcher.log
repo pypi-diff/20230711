@@ -11168,3 +11168,99 @@ AssertionError: tmp/doctran-0.0.6.tar.gz does not exist
 [2023-07-11 08:27:42] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20230710.tar.gz]
 [2023-07-11 08:27:42] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
 [2023-07-11 08:27:42] INFO root fetch - main [MainThread]: Store serial: [18841488]
+[2023-07-11 08:32:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18841488]
+[2023-07-11 08:32:54] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-11 08:32:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: apifoncier
+[2023-07-11 08:32:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xenon-view-sdk
+[2023-07-11 08:32:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: datumaro
+[2023-07-11 08:32:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mathactive
+[2023-07-11 08:32:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: seven-cloudapp-frame
+[2023-07-11 08:32:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: grokcore.traverser
+[2023-07-11 08:32:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk-sops-secrets
+[2023-07-11 08:32:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: yplib
+[2023-07-11 08:32:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fastapi-authtools
+[2023-07-11 08:32:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: opents
+[2023-07-11 08:32:54] INFO root fetch - processPackages [apifoncier]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-11 08:32:54] INFO root fetch - processPackages [opents]: New version: [0.post1] Old Version: [0.1.2]
+[2023-07-11 08:32:54] INFO root fetch - processPackages [grokcore.traverser]: New version: [4.0] Old Version: [3.0.1]
+[2023-07-11 08:32:54] ERROR root fetch - processPackages [fastapi-authtools]: Unable to get metadata: No such project 'fastapi-authtools'
+[2023-07-11 08:32:54] INFO root fetch - processPackages [fastapi-authtools]: Start processing: WqUtils
+[2023-07-11 08:32:54] INFO root fetch - processPackages [datumaro]: New version: [1.4.0rc2] Old Version: [1.4.0rc1]
+[2023-07-11 08:32:54] INFO root fetch - main [MainThread]: End processing [fastapi-authtools] error
+[2023-07-11 08:32:54] INFO root fetch - processPackages [mathactive]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-11 08:32:54] INFO root fetch - processPackages [seven-cloudapp-frame]: New version: [1.0.9.9] Old Version: [1.0.9.8]
+[2023-07-11 08:32:54] INFO root fetch - processPackages [xenon-view-sdk]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-11 08:32:54] INFO root fetch - processPackages [yplib]: New version: [2.4.6] Old Version: [2.4.5]
+[2023-07-11 08:32:54] INFO root fetch - processPackages [cdk-sops-secrets]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-07-11 08:32:54] INFO root fetch - processPackages [WqUtils]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-11 08:32:54] INFO root fetch - processPackages [seven-cloudapp-frame]: Downloading https://files.pythonhosted.org/packages/35/2b/05b1b8a3faf3e0417c648bb54a3032af0de6b3d08180acd83e1eea5e3701/seven_cloudapp_frame-1.0.9.8.tar.gz
+[2023-07-11 08:32:54] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/4b/54/f884c457d5459967d545e97b70d8c3e6c2eb42fa4e9a6c1ab9b863df9db3/yplib-2.4.5.tar.gz
+[2023-07-11 08:32:54] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/e2/8d/e29915f1e26b1a9d52bb33bc0abeaa259422cbc8e7fb8d8031fb9d7855e5/cdk-sops-secrets-1.2.98.tar.gz
+[2023-07-11 08:32:54] INFO root fetch - processPackages [opents]: Downloading https://files.pythonhosted.org/packages/4a/a8/311bd9d697f1d248cf480806933a584c5f4eabddf02ddc9732de80d728ad/opents-0.1.2-py3-none-any.whl
+[2023-07-11 08:32:54] INFO root fetch - processPackages [apifoncier]: Downloading https://files.pythonhosted.org/packages/1c/66/47b5e1f67dfe9fb0211022ec20b33402daa353df3e1fbbc7a023ddfb1d4c/apifoncier-0.0.8.tar.gz
+[2023-07-11 08:32:54] INFO root fetch - processPackages [WqUtils]: Downloading https://files.pythonhosted.org/packages/1c/6c/ff16e733a1bef82c73d614b8bb2b4527869d0586d35625007e77ed51a213/WqUtils-0.1.4-py3-none-any.whl
+[2023-07-11 08:32:54] INFO root fetch - processPackages [grokcore.traverser]: Downloading https://files.pythonhosted.org/packages/db/0f/d23857f8fd6ff75c92711af5485b7c9205c96fc2957a7509486eb9cdccb3/grokcore.traverser-3.0.1.tar.gz
+[2023-07-11 08:32:54] INFO root fetch - processPackages [mathactive]: Downloading https://files.pythonhosted.org/packages/91/21/ff1063ba7f58134993990fed8fd250e8cc1b595d8d87d901e2dc029ce49d/mathactive-0.0.8.tar.gz
+[2023-07-11 08:32:55] INFO root fetch - processPackages [xenon-view-sdk]: Downloading https://files.pythonhosted.org/packages/d3/eb/050e193febe4e73d220941f85ffd0ecef1ccf0321acd752729445870e59a/xenon-view-sdk-0.1.4.tar.gz
+[2023-07-11 08:32:55] INFO root fetch - processPackages [datumaro]: Downloading https://files.pythonhosted.org/packages/41/81/e38b17b3f4ea9c7129bebcc06c61f256d42ee1a415280ed61230f58e9d07/datumaro-1.4.0rc1.tar.gz
+[2023-07-11 08:32:55] INFO root fetch - processPackages [WqUtils]: Downloading https://files.pythonhosted.org/packages/34/35/e1f4e0a938c492e24cc06fc6e9ceb09076938d441acfd9ac821455ce0ab2/WqUtils-0.1.5-py3-none-any.whl
+[2023-07-11 08:32:55] INFO root fetch - processPackages [seven-cloudapp-frame]: Downloading https://files.pythonhosted.org/packages/74/d6/645286f46e81a7cbd30574c917b65af03679c974a979c0421012bd713cbd/seven_cloudapp_frame-1.0.9.9.tar.gz
+[2023-07-11 08:32:55] INFO root fetch - processPackages [opents]: Downloading https://files.pythonhosted.org/packages/3d/7d/e4db079ef5e519814ab0415fa2e4815599a0df45b3ada90f5ff1db1c090b/opents-0.post1-py3-none-any.whl
+[2023-07-11 08:32:55] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/a0/42/1f737b9206a9dba90dc81d85f6e8a92bbf49af2def77fc3de7515f4d8668/yplib-2.4.6.tar.gz
+[2023-07-11 08:32:55] INFO root fetch - processPackages [apifoncier]: Downloading https://files.pythonhosted.org/packages/28/10/cf7ae79f9da26ce747727dc57da1227311afde52a03ddfcc1edf8a34a866/apifoncier-0.0.9.tar.gz
+[2023-07-11 08:32:55] INFO root fetch - processPackages [grokcore.traverser]: Downloading https://files.pythonhosted.org/packages/44/b6/3bda22c1ca02cf7015183aa42e7c508dd6e0b1773205d289a08740a3a348/grokcore.traverser-4.0.tar.gz
+[2023-07-11 08:32:55] INFO root fetch - processPackages [WqUtils]: executing diffoscope
+[2023-07-11 08:32:55] INFO root fetch - processPackages [WqUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WqUtils-0.1.4-py3-none-any.whl.zip tmp/WqUtils-0.1.5-py3-none-any.whl.zip --markdown 20230711/W/WqUtils/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-11 08:32:55] INFO root fetch - processPackages [opents]: executing diffoscope
+[2023-07-11 08:32:55] INFO root fetch - processPackages [opents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opents-0.1.2-py3-none-any.whl.zip tmp/opents-0.post1-py3-none-any.whl.zip --markdown 20230711/o/opents/0.1.2-0.post1/diff.md --exclude *.pyd
+[2023-07-11 08:32:55] INFO root fetch - processPackages [apifoncier]: executing diffoscope
+[2023-07-11 08:32:55] INFO root fetch - processPackages [apifoncier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apifoncier-0.0.8.tar.gz tmp/apifoncier-0.0.9.tar.gz --markdown 20230711/a/apifoncier/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-11 08:32:55] INFO root fetch - processPackages [xenon-view-sdk]: Downloading https://files.pythonhosted.org/packages/c9/1e/bfb0c852d8e1300ef12d896ae100ae81dddc9b4f90f4a55cebd1fe119df4/xenon-view-sdk-0.1.5.tar.gz
+[2023-07-11 08:32:55] INFO root fetch - processPackages [seven-cloudapp-frame]: executing diffoscope
+[2023-07-11 08:32:55] INFO root fetch - processPackages [seven-cloudapp-frame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seven_cloudapp_frame-1.0.9.8.tar.gz tmp/seven_cloudapp_frame-1.0.9.9.tar.gz --markdown 20230711/s/seven-cloudapp-frame/1.0.9.8-1.0.9.9/diff.md --exclude *.pyd
+[2023-07-11 08:32:55] INFO root fetch - processPackages [grokcore.traverser]: executing diffoscope
+[2023-07-11 08:32:55] INFO root fetch - processPackages [grokcore.traverser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grokcore.traverser-3.0.1.tar.gz tmp/grokcore.traverser-4.0.tar.gz --markdown 20230711/g/grokcore.traverser/3.0.1-4.0/diff.md --exclude *.pyd
+[2023-07-11 08:32:55] INFO root fetch - processPackages [mathactive]: Downloading https://files.pythonhosted.org/packages/ef/da/7e9ad31148d0f84e54f848711affdf51d0d5a426b55359fbec8bebc60796/mathactive-0.0.9.tar.gz
+[2023-07-11 08:32:55] INFO root fetch - processPackages [datumaro]: Downloading https://files.pythonhosted.org/packages/6b/29/ab237e978faa1619a5d8a6fe03b34ec11218e555e9b111c38fb64c28cc28/datumaro-1.4.0rc2.tar.gz
+[2023-07-11 08:32:55] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2023-07-11 08:32:55] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-2.4.5.tar.gz tmp/yplib-2.4.6.tar.gz --markdown 20230711/y/yplib/2.4.5-2.4.6/diff.md --exclude *.pyd
+[2023-07-11 08:32:55] INFO root fetch - processPackages [xenon-view-sdk]: executing diffoscope
+[2023-07-11 08:32:55] INFO root fetch - processPackages [xenon-view-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xenon-view-sdk-0.1.4.tar.gz tmp/xenon-view-sdk-0.1.5.tar.gz --markdown 20230711/x/xenon-view-sdk/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-11 08:32:55] INFO root fetch - processPackages [datumaro]: executing diffoscope
+[2023-07-11 08:32:55] INFO root fetch - processPackages [datumaro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datumaro-1.4.0rc1.tar.gz tmp/datumaro-1.4.0rc2.tar.gz --markdown 20230711/d/datumaro/1.4.0rc1-1.4.0rc2/diff.md --exclude *.pyd
+[2023-07-11 08:32:55] INFO root fetch - processPackages [mathactive]: executing diffoscope
+[2023-07-11 08:32:55] INFO root fetch - processPackages [mathactive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mathactive-0.0.8.tar.gz tmp/mathactive-0.0.9.tar.gz --markdown 20230711/m/mathactive/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-11 08:32:57] INFO root fetch - processPackages [WqUtils]: Remove: archive file [/home/abi/fetcher/tmp/WqUtils-0.1.4-py3-none-any.whl.zip]
+[2023-07-11 08:32:57] INFO root fetch - processPackages [WqUtils]: Remove: archive file [/home/abi/fetcher/tmp/WqUtils-0.1.5-py3-none-any.whl.zip]
+[2023-07-11 08:32:57] INFO root fetch - main [MainThread]: End processing [WqUtils]: success
+[2023-07-11 08:32:57] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/10/33/e08c5e7bb6d5b198c75b53cba42224da6ac877f65fd4a4343fecdad9a93e/cdk-sops-secrets-1.2.99.tar.gz
+[2023-07-11 08:32:57] INFO root fetch - processPackages [opents]: Remove: archive file [/home/abi/fetcher/tmp/opents-0.1.2-py3-none-any.whl.zip]
+[2023-07-11 08:32:57] INFO root fetch - processPackages [opents]: Remove: archive file [/home/abi/fetcher/tmp/opents-0.post1-py3-none-any.whl.zip]
+[2023-07-11 08:32:57] INFO root fetch - main [MainThread]: End processing [opents]: success
+[2023-07-11 08:32:57] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-2.4.5.tar.gz]
+[2023-07-11 08:32:57] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-2.4.6.tar.gz]
+[2023-07-11 08:32:57] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2023-07-11 08:32:57] INFO root fetch - processPackages [apifoncier]: Remove: archive file [/home/abi/fetcher/tmp/apifoncier-0.0.8.tar.gz]
+[2023-07-11 08:32:57] INFO root fetch - processPackages [apifoncier]: Remove: archive file [/home/abi/fetcher/tmp/apifoncier-0.0.9.tar.gz]
+[2023-07-11 08:32:57] INFO root fetch - main [MainThread]: End processing [apifoncier]: success
+[2023-07-11 08:32:57] INFO root fetch - processPackages [grokcore.traverser]: Remove: archive file [/home/abi/fetcher/tmp/grokcore.traverser-3.0.1.tar.gz]
+[2023-07-11 08:32:57] INFO root fetch - processPackages [grokcore.traverser]: Remove: archive file [/home/abi/fetcher/tmp/grokcore.traverser-4.0.tar.gz]
+[2023-07-11 08:32:57] INFO root fetch - main [MainThread]: End processing [grokcore.traverser]: success
+[2023-07-11 08:32:57] INFO root fetch - processPackages [xenon-view-sdk]: Remove: archive file [/home/abi/fetcher/tmp/xenon-view-sdk-0.1.4.tar.gz]
+[2023-07-11 08:32:57] INFO root fetch - processPackages [xenon-view-sdk]: Remove: archive file [/home/abi/fetcher/tmp/xenon-view-sdk-0.1.5.tar.gz]
+[2023-07-11 08:32:57] INFO root fetch - main [MainThread]: End processing [xenon-view-sdk]: success
+[2023-07-11 08:32:57] INFO root fetch - processPackages [mathactive]: Remove: archive file [/home/abi/fetcher/tmp/mathactive-0.0.8.tar.gz]
+[2023-07-11 08:32:57] INFO root fetch - processPackages [mathactive]: Remove: archive file [/home/abi/fetcher/tmp/mathactive-0.0.9.tar.gz]
+[2023-07-11 08:32:57] INFO root fetch - main [MainThread]: End processing [mathactive]: success
+[2023-07-11 08:32:57] INFO root fetch - processPackages [seven-cloudapp-frame]: Remove: archive file [/home/abi/fetcher/tmp/seven_cloudapp_frame-1.0.9.8.tar.gz]
+[2023-07-11 08:32:57] INFO root fetch - processPackages [seven-cloudapp-frame]: Remove: archive file [/home/abi/fetcher/tmp/seven_cloudapp_frame-1.0.9.9.tar.gz]
+[2023-07-11 08:32:57] INFO root fetch - main [MainThread]: End processing [seven-cloudapp-frame]: success
+[2023-07-11 08:32:58] INFO root fetch - processPackages [cdk-sops-secrets]: executing diffoscope
+[2023-07-11 08:32:58] INFO root fetch - processPackages [cdk-sops-secrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sops-secrets-1.2.98.tar.gz tmp/cdk-sops-secrets-1.2.99.tar.gz --markdown 20230711/c/cdk-sops-secrets/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-07-11 08:32:59] INFO root fetch - processPackages [datumaro]: Remove: archive file [/home/abi/fetcher/tmp/datumaro-1.4.0rc1.tar.gz]
+[2023-07-11 08:32:59] INFO root fetch - processPackages [datumaro]: Remove: archive file [/home/abi/fetcher/tmp/datumaro-1.4.0rc2.tar.gz]
+[2023-07-11 08:32:59] INFO root fetch - main [MainThread]: End processing [datumaro]: success
+[2023-07-11 08:32:59] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.98.tar.gz]
+[2023-07-11 08:32:59] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.99.tar.gz]
+[2023-07-11 08:32:59] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
+[2023-07-11 08:32:59] INFO root fetch - main [MainThread]: Store serial: [18841552]
