@@ -10763,3 +10763,36 @@ AssertionError: tmp/doctran-0.0.6.tar.gz does not exist
 [2023-07-11 08:01:31] INFO root fetch - processPackages [pyPrediktorMapClient]: Remove: archive file [/home/abi/fetcher/tmp/pyPrediktorMapClient-0.8.0.tar.gz]
 [2023-07-11 08:01:31] INFO root fetch - main [MainThread]: End processing [pyPrediktorMapClient]: success
 [2023-07-11 08:01:31] INFO root fetch - main [MainThread]: Store serial: [18841312]
+[2023-07-11 08:06:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18841312]
+[2023-07-11 08:06:40] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-11 08:06:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ez-a-sync
+[2023-07-11 08:06:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ndp-app-migration
+[2023-07-11 08:06:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: langsmith
+[2023-07-11 08:06:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dela
+[2023-07-11 08:06:41] INFO root fetch - processPackages [langsmith]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-11 08:06:41] WARNING root fetch - processPackages [ndp-app-migration]: Skipping, unable to determine old version
+[2023-07-11 08:06:41] INFO root fetch - main [MainThread]: End processing [ndp-app-migration] error
+[2023-07-11 08:06:41] INFO root fetch - processPackages [ez-a-sync]: New version: [0.6.1.dev9] Old Version: [0.6.1.dev7]
+[2023-07-11 08:06:41] INFO root fetch - processPackages [dela]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-11 08:06:41] INFO root fetch - processPackages [dela]: Downloading https://files.pythonhosted.org/packages/8c/c4/75419a10333e2202eed1eeed310999452d1546b1ed87d70832d5db0703c1/dela-0.1.3.tar.gz
+[2023-07-11 08:06:41] INFO root fetch - processPackages [langsmith]: Downloading https://files.pythonhosted.org/packages/69/b2/acb55d75a0b36fb5f5ecb8de8acf284ab28f1a093dbde01bf90a2983199e/langsmith-0.0.2.tar.gz
+[2023-07-11 08:06:41] INFO root fetch - processPackages [ez-a-sync]: Downloading https://files.pythonhosted.org/packages/ee/b7/5c07b4c4fa54d28b016c1b61072e160e24d4f241b2a87b602655d7dcd198/ez-a-sync-0.6.1.dev7.tar.gz
+[2023-07-11 08:06:41] INFO root fetch - processPackages [dela]: Downloading https://files.pythonhosted.org/packages/8c/14/2dadfd67621713fcc4dd88ea49137c08e2e65299a40961d9b01ff0ab5e09/dela-0.1.4.tar.gz
+[2023-07-11 08:06:41] INFO root fetch - processPackages [langsmith]: Downloading https://files.pythonhosted.org/packages/0b/55/91c382244521bbd2ee24558314e07f4d5ae2efa2e5b720704ef6a9a9c94b/langsmith-0.0.3.tar.gz
+[2023-07-11 08:06:41] INFO root fetch - processPackages [ez-a-sync]: Downloading https://files.pythonhosted.org/packages/cc/4f/8c521a64a24a1bdf3eb9a9d1a36662b66f690a0513797ea66ea988b2c2fd/ez-a-sync-0.6.1.dev9.tar.gz
+[2023-07-11 08:06:41] INFO root fetch - processPackages [dela]: executing diffoscope
+[2023-07-11 08:06:41] INFO root fetch - processPackages [dela]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dela-0.1.3.tar.gz tmp/dela-0.1.4.tar.gz --markdown 20230711/d/dela/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-11 08:06:41] INFO root fetch - processPackages [langsmith]: executing diffoscope
+[2023-07-11 08:06:41] INFO root fetch - processPackages [langsmith]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langsmith-0.0.2.tar.gz tmp/langsmith-0.0.3.tar.gz --markdown 20230711/l/langsmith/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-11 08:06:41] INFO root fetch - processPackages [ez-a-sync]: executing diffoscope
+[2023-07-11 08:06:41] INFO root fetch - processPackages [ez-a-sync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ez-a-sync-0.6.1.dev7.tar.gz tmp/ez-a-sync-0.6.1.dev9.tar.gz --markdown 20230711/e/ez-a-sync/0.6.1.dev7-0.6.1.dev9/diff.md --exclude *.pyd
+[2023-07-11 08:06:42] INFO root fetch - processPackages [dela]: Remove: archive file [/home/abi/fetcher/tmp/dela-0.1.3.tar.gz]
+[2023-07-11 08:06:42] INFO root fetch - processPackages [dela]: Remove: archive file [/home/abi/fetcher/tmp/dela-0.1.4.tar.gz]
+[2023-07-11 08:06:42] INFO root fetch - main [MainThread]: End processing [dela]: success
+[2023-07-11 08:06:42] INFO root fetch - processPackages [langsmith]: Remove: archive file [/home/abi/fetcher/tmp/langsmith-0.0.2.tar.gz]
+[2023-07-11 08:06:42] INFO root fetch - processPackages [langsmith]: Remove: archive file [/home/abi/fetcher/tmp/langsmith-0.0.3.tar.gz]
+[2023-07-11 08:06:42] INFO root fetch - main [MainThread]: End processing [langsmith]: success
+[2023-07-11 08:06:42] INFO root fetch - processPackages [ez-a-sync]: Remove: archive file [/home/abi/fetcher/tmp/ez-a-sync-0.6.1.dev7.tar.gz]
+[2023-07-11 08:06:42] INFO root fetch - processPackages [ez-a-sync]: Remove: archive file [/home/abi/fetcher/tmp/ez-a-sync-0.6.1.dev9.tar.gz]
+[2023-07-11 08:06:42] INFO root fetch - main [MainThread]: End processing [ez-a-sync]: success
+[2023-07-11 08:06:42] INFO root fetch - main [MainThread]: Store serial: [18841325]
