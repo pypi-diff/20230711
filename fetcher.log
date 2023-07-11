@@ -6645,3 +6645,105 @@ AssertionError: tmp/doctran-0.0.6.tar.gz does not exist
 [2023-07-11 03:36:18] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-intl-en-3.0.99.tar.gz]
 [2023-07-11 03:36:18] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-intl-en]: success
 [2023-07-11 03:36:18] INFO root fetch - main [MainThread]: Store serial: [18839588]
+[2023-07-11 03:41:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18839588]
+[2023-07-11 03:41:27] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-11 03:41:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cmdcomp
+[2023-07-11 03:41:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nbdev-numpy
+[2023-07-11 03:41:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lightdash-client-python
+[2023-07-11 03:41:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sqlmesh
+[2023-07-11 03:41:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: email-analytics
+[2023-07-11 03:41:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hrequests
+[2023-07-11 03:41:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: notros2
+[2023-07-11 03:41:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: notros2
+[2023-07-11 03:41:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pgbelt
+[2023-07-11 03:41:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nbdev-pandas
+[2023-07-11 03:41:27] INFO root fetch - processPackages [notros2]: New version: [23.7.11.13756] Old Version: [23.7.11.13747]
+[2023-07-11 03:41:27] INFO root fetch - processPackages [nbdev-numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-11 03:41:27] INFO root fetch - processPackages [hrequests]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-07-11 03:41:27] INFO root fetch - processPackages [notros2]: New version: [23.7.11.13756] Old Version: [23.7.11.13747]
+[2023-07-11 03:41:27] INFO root fetch - processPackages [pgbelt]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-07-11 03:41:27] INFO root fetch - processPackages [cmdcomp]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-07-11 03:41:27] INFO root fetch - processPackages [lightdash-client-python]: New version: [0.651.2] Old Version: [0.640.1]
+[2023-07-11 03:41:27] INFO root fetch - processPackages [sqlmesh]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-07-11 03:41:27] INFO root fetch - processPackages [nbdev-pandas]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-11 03:41:27] WARNING root fetch - processPackages [email-analytics]: Skipping, unable to determine old version
+[2023-07-11 03:41:27] INFO root fetch - processPackages [email-analytics]: Start processing: nbdev-pytorch
+[2023-07-11 03:41:27] INFO root fetch - main [MainThread]: End processing [email-analytics] error
+[2023-07-11 03:41:27] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/73/28/26429c7dd7dcf4c45025b55facc2688943de2ab2ec4851cc073f81f31e65/nbdev-numpy-0.0.98.tar.gz
+[2023-07-11 03:41:27] INFO root fetch - processPackages [nbdev-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-11 03:41:27] INFO root fetch - processPackages [notros2]: Downloading https://files.pythonhosted.org/packages/2f/b8/4b65e2e87c2e540803f9a7dffd6b53f5a712508d9a76095b76f7e33b2f8e/notros2-23.7.11.13747.tar.gz
+[2023-07-11 03:41:27] INFO root fetch - processPackages [notros2]: Downloading https://files.pythonhosted.org/packages/2f/b8/4b65e2e87c2e540803f9a7dffd6b53f5a712508d9a76095b76f7e33b2f8e/notros2-23.7.11.13747.tar.gz
+[2023-07-11 03:41:27] INFO root fetch - processPackages [sqlmesh]: Downloading https://files.pythonhosted.org/packages/af/f6/0f9a52e680a6637f51cabdef2e898ff2ccf3866817901d8c170ba43142ed/sqlmesh-0.8.1.tar.gz
+[2023-07-11 03:41:27] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/e4/e4/cd3df65f7d13a8e8dfa1592e08d78574793d38384b1c92993ce920dcd0df/nbdev-pandas-0.0.98.tar.gz
+[2023-07-11 03:41:27] INFO root fetch - processPackages [cmdcomp]: Downloading https://files.pythonhosted.org/packages/01/c5/4f2e866c8821f556b7a4558860279e2a59240915137a71ec276afcd011d1/cmdcomp-1.1.1.tar.gz
+[2023-07-11 03:41:27] INFO root fetch - processPackages [pgbelt]: Downloading https://files.pythonhosted.org/packages/50/f8/d1cdea4581c5f8afe5dadedba4a098d65196672eebd9ed9e580d0188f6de/pgbelt-0.3.0.tar.gz
+[2023-07-11 03:41:27] INFO root fetch - processPackages [hrequests]: Downloading https://files.pythonhosted.org/packages/dc/01/07142d03d297a962040f390549c41116d3cac848bdb2dea24b0638e5b438/hrequests-0.3.0.tar.gz
+[2023-07-11 03:41:27] INFO root fetch - processPackages [lightdash-client-python]: Downloading https://files.pythonhosted.org/packages/1d/a0/4a7e52214f17b27852226f1868fae76d59f322578e4ca505b27cee8726ed/lightdash_client_python-0.640.1.tar.gz
+[2023-07-11 03:41:27] INFO root fetch - processPackages [nbdev-pytorch]: Downloading https://files.pythonhosted.org/packages/f8/45/4613a0137d296a1960d76ded45b0af15a8fd578bf48df103c50675b49136/nbdev-pytorch-0.0.98.tar.gz
+[2023-07-11 03:41:28] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/ea/78/0c0ef1d69ad517e7123dd810dda3cf8c0863af031c2cbb78ac3dae878b48/nbdev-numpy-0.0.99.tar.gz
+[2023-07-11 03:41:28] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/cf/b5/493c8e89c5cb4fcc7db248f99868f931ca6389f6e411e63c97bb22c6f1b0/nbdev-pandas-0.0.99.tar.gz
+[2023-07-11 03:41:28] INFO root fetch - processPackages [cmdcomp]: Downloading https://files.pythonhosted.org/packages/55/ac/04430aeee9f4be4823d9f9d8945aa1c4abe2bae15ed40f865e7701ee3cf0/cmdcomp-1.1.2.tar.gz
+[2023-07-11 03:41:28] INFO root fetch - processPackages [nbdev-numpy]: executing diffoscope
+[2023-07-11 03:41:28] INFO root fetch - processPackages [nbdev-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-numpy-0.0.98.tar.gz tmp/nbdev-numpy-0.0.99.tar.gz --markdown 20230711/n/nbdev-numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-11 03:41:28] INFO root fetch - processPackages [notros2]: Downloading https://files.pythonhosted.org/packages/d9/81/d2dfb62d60629ef1b012a2414312effe2b05eeabd85166317d42cd61043d/notros2-23.7.11.13756-py3-none-any.whl
+[2023-07-11 03:41:28] INFO root fetch - processPackages [nbdev-pytorch]: Downloading https://files.pythonhosted.org/packages/b0/37/5921f26bef4d07ebb5599f7ccb4d57ab1a847950edaa615ebcf9ef228690/nbdev-pytorch-0.0.99.tar.gz
+[2023-07-11 03:41:28] INFO root fetch - processPackages [notros2]: Downloading https://files.pythonhosted.org/packages/d9/81/d2dfb62d60629ef1b012a2414312effe2b05eeabd85166317d42cd61043d/notros2-23.7.11.13756-py3-none-any.whl
+[2023-07-11 03:41:28] INFO root fetch - processPackages [pgbelt]: Downloading https://files.pythonhosted.org/packages/3f/74/42e72fff9d8cd08707ef222edfef814db04ac5fe6fb184c03c28af386b80/pgbelt-0.4.0.tar.gz
+[2023-07-11 03:41:28] INFO root fetch - processPackages [hrequests]: Downloading https://files.pythonhosted.org/packages/26/08/3ab6a0b47cb4e45c48f4689cac8876dbda9ba17eb2090e0cb74e4dc14447/hrequests-0.4.0.tar.gz
+[2023-07-11 03:41:28] INFO root fetch - processPackages [nbdev-pandas]: executing diffoscope
+[2023-07-11 03:41:28] INFO root fetch - processPackages [nbdev-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pandas-0.0.98.tar.gz tmp/nbdev-pandas-0.0.99.tar.gz --markdown 20230711/n/nbdev-pandas/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-11 03:41:28] INFO root fetch - processPackages [lightdash-client-python]: Downloading https://files.pythonhosted.org/packages/68/90/997883e72100ac2af80ae989bd9c9dbcae71a3dfd94879cd62c26d489e5f/lightdash_client_python-0.651.2.tar.gz
+[2023-07-11 03:41:28] INFO root fetch - processPackages [cmdcomp]: executing diffoscope
+[2023-07-11 03:41:28] INFO root fetch - processPackages [cmdcomp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmdcomp-1.1.1.tar.gz tmp/cmdcomp-1.1.2.tar.gz --markdown 20230711/c/cmdcomp/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-07-11 03:41:28] INFO root fetch - processPackages [sqlmesh]: Downloading https://files.pythonhosted.org/packages/3e/98/dd2b2de67b5258308e2ea0fc159ad112f97bdb21f9881120de68463c1781/sqlmesh-0.9.0.tar.gz
+[2023-07-11 03:41:28] INFO root fetch - processPackages [notros2]: executing diffoscope
+[2023-07-11 03:41:28] INFO root fetch - processPackages [notros2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notros2-23.7.11.13747.tar.gz tmp/notros2-23.7.11.13756-py3-none-any.whl.zip --markdown 20230711/n/notros2/23.7.11.13747-23.7.11.13756/diff.md --exclude *.pyd
+[2023-07-11 03:41:28] INFO root fetch - processPackages [nbdev-pytorch]: executing diffoscope
+[2023-07-11 03:41:28] INFO root fetch - processPackages [nbdev-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pytorch-0.0.98.tar.gz tmp/nbdev-pytorch-0.0.99.tar.gz --markdown 20230711/n/nbdev-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-11 03:41:28] INFO root fetch - processPackages [notros2]: executing diffoscope
+[2023-07-11 03:41:28] INFO root fetch - processPackages [notros2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notros2-23.7.11.13747.tar.gz tmp/notros2-23.7.11.13756-py3-none-any.whl.zip --markdown 20230711/n/notros2/23.7.11.13747-23.7.11.13756/diff.md --exclude *.pyd
+[2023-07-11 03:41:28] INFO root fetch - processPackages [lightdash-client-python]: executing diffoscope
+[2023-07-11 03:41:28] INFO root fetch - processPackages [lightdash-client-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightdash_client_python-0.640.1.tar.gz tmp/lightdash_client_python-0.651.2.tar.gz --markdown 20230711/l/lightdash-client-python/0.640.1-0.651.2/diff.md --exclude *.pyd
+[2023-07-11 03:41:28] INFO root fetch - processPackages [pgbelt]: executing diffoscope
+[2023-07-11 03:41:28] INFO root fetch - processPackages [pgbelt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pgbelt-0.3.0.tar.gz tmp/pgbelt-0.4.0.tar.gz --markdown 20230711/p/pgbelt/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-07-11 03:41:28] INFO root fetch - processPackages [hrequests]: executing diffoscope
+[2023-07-11 03:41:28] INFO root fetch - processPackages [hrequests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hrequests-0.3.0.tar.gz tmp/hrequests-0.4.0.tar.gz --markdown 20230711/h/hrequests/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-07-11 03:41:28] INFO root fetch - processPackages [sqlmesh]: executing diffoscope
+[2023-07-11 03:41:28] INFO root fetch - processPackages [sqlmesh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlmesh-0.8.1.tar.gz tmp/sqlmesh-0.9.0.tar.gz --markdown 20230711/s/sqlmesh/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-07-11 03:41:29] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.98.tar.gz]
+[2023-07-11 03:41:29] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.99.tar.gz]
+[2023-07-11 03:41:29] INFO root fetch - processPackages [nbdev-numpy]: Start processing: proactive
+[2023-07-11 03:41:29] INFO root fetch - main [MainThread]: End processing [nbdev-numpy]: success
+[2023-07-11 03:41:29] INFO root fetch - processPackages [proactive]: New version: [8.4.11] Old Version: [8.4.10]
+[2023-07-11 03:41:29] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.98.tar.gz]
+[2023-07-11 03:41:29] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.99.tar.gz]
+[2023-07-11 03:41:29] INFO root fetch - processPackages [nbdev-pandas]: Start processing: tictactools
+[2023-07-11 03:41:29] INFO root fetch - main [MainThread]: End processing [nbdev-pandas]: success
+[2023-07-11 03:41:29] INFO root fetch - processPackages [notros2]: Remove: archive file [/home/abi/fetcher/tmp/notros2-23.7.11.13747.tar.gz]
+[2023-07-11 03:41:29] INFO root fetch - processPackages [proactive]: Downloading https://files.pythonhosted.org/packages/36/67/8f2441cbc911f3a57a2168b0e419b0751450a04c18791e6ba642af1085d8/proactive-8.4.10.zip
+[2023-07-11 03:41:29] INFO root fetch - processPackages [notros2]: Remove: archive file [/home/abi/fetcher/tmp/notros2-23.7.11.13756-py3-none-any.whl.zip]
+[2023-07-11 03:41:29] INFO root fetch - main [MainThread]: End processing [notros2]: success
+[2023-07-11 03:41:29] WARNING root fetch - processPackages [tictactools]: Skipping, unable to determine old version
+[2023-07-11 03:41:29] INFO root fetch - main [MainThread]: End processing [tictactools] error
+[2023-07-11 03:41:29] WARNING root fetch - processPackages [proactive]: Skipping package: exceeds size limit 18979361>=10485760
+[2023-07-11 03:41:29] INFO root fetch - main [MainThread]: End processing [proactive] error
+[2023-07-11 03:41:30] INFO root fetch - processPackages [nbdev-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pytorch-0.0.98.tar.gz]
+[2023-07-11 03:41:30] INFO root fetch - processPackages [nbdev-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pytorch-0.0.99.tar.gz]
+[2023-07-11 03:41:30] INFO root fetch - main [MainThread]: End processing [nbdev-pytorch]: success
+[2023-07-11 03:41:30] INFO root fetch - processPackages [cmdcomp]: Remove: archive file [/home/abi/fetcher/tmp/cmdcomp-1.1.1.tar.gz]
+[2023-07-11 03:41:30] INFO root fetch - processPackages [cmdcomp]: Remove: archive file [/home/abi/fetcher/tmp/cmdcomp-1.1.2.tar.gz]
+[2023-07-11 03:41:30] INFO root fetch - main [MainThread]: End processing [cmdcomp]: success
+[2023-07-11 03:41:30] INFO root fetch - main [MainThread]: End processing [notros2]: success
+[2023-07-11 03:41:30] INFO root fetch - processPackages [pgbelt]: Remove: archive file [/home/abi/fetcher/tmp/pgbelt-0.3.0.tar.gz]
+[2023-07-11 03:41:30] INFO root fetch - processPackages [pgbelt]: Remove: archive file [/home/abi/fetcher/tmp/pgbelt-0.4.0.tar.gz]
+[2023-07-11 03:41:30] INFO root fetch - main [MainThread]: End processing [pgbelt]: success
+[2023-07-11 03:41:30] INFO root fetch - processPackages [hrequests]: Remove: archive file [/home/abi/fetcher/tmp/hrequests-0.3.0.tar.gz]
+[2023-07-11 03:41:30] INFO root fetch - processPackages [hrequests]: Remove: archive file [/home/abi/fetcher/tmp/hrequests-0.4.0.tar.gz]
+[2023-07-11 03:41:30] INFO root fetch - main [MainThread]: End processing [hrequests]: success
+[2023-07-11 03:41:34] INFO root fetch - processPackages [lightdash-client-python]: Remove: archive file [/home/abi/fetcher/tmp/lightdash_client_python-0.640.1.tar.gz]
+[2023-07-11 03:41:34] INFO root fetch - processPackages [lightdash-client-python]: Remove: archive file [/home/abi/fetcher/tmp/lightdash_client_python-0.651.2.tar.gz]
+[2023-07-11 03:41:34] INFO root fetch - main [MainThread]: End processing [lightdash-client-python]: success
+[2023-07-11 03:41:59] INFO root fetch - processPackages [sqlmesh]: Remove: archive file [/home/abi/fetcher/tmp/sqlmesh-0.8.1.tar.gz]
+[2023-07-11 03:41:59] INFO root fetch - processPackages [sqlmesh]: Remove: archive file [/home/abi/fetcher/tmp/sqlmesh-0.9.0.tar.gz]
+[2023-07-11 03:41:59] INFO root fetch - main [MainThread]: End processing [sqlmesh]: success
+[2023-07-11 03:41:59] INFO root fetch - main [MainThread]: Store serial: [18839648]
