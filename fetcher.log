@@ -2211,3 +2211,33 @@ AssertionError: tmp/doctran-0.0.6.tar.gz does not exist
 [2023-07-11 01:55:05] INFO root fetch - processPackages [clvm-rs]: Remove: archive file [/home/abi/fetcher/tmp/clvm_rs-0.2.7-cp37-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip]
 [2023-07-11 01:55:05] INFO root fetch - main [MainThread]: End processing [clvm-rs]: success
 [2023-07-11 01:55:05] INFO root fetch - main [MainThread]: Store serial: [18837748]
+[2023-07-11 02:00:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18837748]
+[2023-07-11 02:00:13] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-07-11 02:00:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: task2a
+[2023-07-11 02:00:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hcli-core
+[2023-07-11 02:00:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: neon-skill-weather
+[2023-07-11 02:00:14] INFO root fetch - processPackages [task2a]: New version: [1.0.20] Old Version: [1.0.19]
+[2023-07-11 02:00:14] INFO root fetch - processPackages [hcli-core]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-11 02:00:14] INFO root fetch - processPackages [task2a]: Downloading https://files.pythonhosted.org/packages/0b/3d/cfc5ecc7bacec67bbba1b717f7941b5666c702e00ca6ca80e5869b6e24e5/task2a-1.0.19.tar.gz
+[2023-07-11 02:00:14] INFO root fetch - processPackages [neon-skill-weather]: New version: [1.0.1a1] Old Version: [1.0.0]
+[2023-07-11 02:00:14] INFO root fetch - processPackages [hcli-core]: Downloading https://files.pythonhosted.org/packages/6b/c1/5e085a3c4ac830a12c44fcbc907efc2f7e0fa4ba2b9860331bce714220a6/hcli_core-0.8.0.tar.gz
+[2023-07-11 02:00:14] INFO root fetch - processPackages [neon-skill-weather]: Downloading https://files.pythonhosted.org/packages/9b/00/b66ac46e4d4313442c2d8815d9e01593693012e231c15c259dd84ac0ddfb/neon-skill-weather-1.0.0.tar.gz
+[2023-07-11 02:00:14] INFO root fetch - processPackages [task2a]: Downloading https://files.pythonhosted.org/packages/1b/05/9f517910053bfff796a1822697dc82cf5e1de1e626820dbd546d4967f7eb/task2a-1.0.20.tar.gz
+[2023-07-11 02:00:14] INFO root fetch - processPackages [hcli-core]: Downloading https://files.pythonhosted.org/packages/6f/b4/19d468c66cf3eb10188374e2181a4f8d497514ff41a3655bc844c82c229e/hcli_core-0.9.0.tar.gz
+[2023-07-11 02:00:14] INFO root fetch - processPackages [task2a]: executing diffoscope
+[2023-07-11 02:00:14] INFO root fetch - processPackages [task2a]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/task2a-1.0.19.tar.gz tmp/task2a-1.0.20.tar.gz --markdown 20230711/t/task2a/1.0.19-1.0.20/diff.md --exclude *.pyd
+[2023-07-11 02:00:14] INFO root fetch - processPackages [neon-skill-weather]: Downloading https://files.pythonhosted.org/packages/c7/61/b983e65c79c8c5009a2f229b57b932dc72b3dbc12a4cc5ec4f1045a273f6/neon-skill-weather-1.0.1a1.tar.gz
+[2023-07-11 02:00:14] INFO root fetch - processPackages [hcli-core]: executing diffoscope
+[2023-07-11 02:00:14] INFO root fetch - processPackages [hcli-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcli_core-0.8.0.tar.gz tmp/hcli_core-0.9.0.tar.gz --markdown 20230711/h/hcli-core/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-11 02:00:14] INFO root fetch - processPackages [neon-skill-weather]: executing diffoscope
+[2023-07-11 02:00:14] INFO root fetch - processPackages [neon-skill-weather]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon-skill-weather-1.0.0.tar.gz tmp/neon-skill-weather-1.0.1a1.tar.gz --markdown 20230711/n/neon-skill-weather/1.0.0-1.0.1a1/diff.md --exclude *.pyd
+[2023-07-11 02:00:15] INFO root fetch - processPackages [task2a]: Remove: archive file [/home/abi/fetcher/tmp/task2a-1.0.19.tar.gz]
+[2023-07-11 02:00:15] INFO root fetch - processPackages [task2a]: Remove: archive file [/home/abi/fetcher/tmp/task2a-1.0.20.tar.gz]
+[2023-07-11 02:00:15] INFO root fetch - main [MainThread]: End processing [task2a]: success
+[2023-07-11 02:00:15] INFO root fetch - processPackages [hcli-core]: Remove: archive file [/home/abi/fetcher/tmp/hcli_core-0.8.0.tar.gz]
+[2023-07-11 02:00:15] INFO root fetch - processPackages [hcli-core]: Remove: archive file [/home/abi/fetcher/tmp/hcli_core-0.9.0.tar.gz]
+[2023-07-11 02:00:15] INFO root fetch - main [MainThread]: End processing [hcli-core]: success
+[2023-07-11 02:00:19] INFO root fetch - processPackages [neon-skill-weather]: Remove: archive file [/home/abi/fetcher/tmp/neon-skill-weather-1.0.0.tar.gz]
+[2023-07-11 02:00:19] INFO root fetch - processPackages [neon-skill-weather]: Remove: archive file [/home/abi/fetcher/tmp/neon-skill-weather-1.0.1a1.tar.gz]
+[2023-07-11 02:00:19] INFO root fetch - main [MainThread]: End processing [neon-skill-weather]: success
+[2023-07-11 02:00:19] INFO root fetch - main [MainThread]: Store serial: [18837857]
