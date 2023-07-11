@@ -10068,3 +10068,54 @@ AssertionError: tmp/doctran-0.0.6.tar.gz does not exist
 [2023-07-11 07:09:20] INFO root fetch - processPackages [otx]: Remove: archive file [/home/abi/fetcher/tmp/otx-1.4.0rc1.tar.gz]
 [2023-07-11 07:09:20] INFO root fetch - main [MainThread]: End processing [otx]: success
 [2023-07-11 07:09:20] INFO root fetch - main [MainThread]: Store serial: [18841024]
+[2023-07-11 07:14:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18841024]
+[2023-07-11 07:14:29] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-11 07:14:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo10-addon-module-prototyper
+[2023-07-11 07:14:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lightdash-ops
+[2023-07-11 07:14:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyanalyticsgit
+[2023-07-11 07:14:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-module-prototyper
+[2023-07-11 07:14:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gpt-code-search
+[2023-07-11 07:14:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: perfect-number
+[2023-07-11 07:14:30] INFO root fetch - processPackages [pyanalyticsgit]: New version: [0.4] Old Version: [0.2]
+[2023-07-11 07:14:30] INFO root fetch - processPackages [gpt-code-search]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-11 07:14:30] INFO root fetch - processPackages [odoo10-addon-module-prototyper]: New version: [10.0.1.0.0.99.dev9] Old Version: [10.0.1.0.0.99.dev8]
+[2023-07-11 07:14:30] INFO root fetch - processPackages [odoo14-addon-module-prototyper]: New version: [14.0.1.0.1.dev9] Old Version: [14.0.1.0.1.dev8]
+[2023-07-11 07:14:30] INFO root fetch - processPackages [lightdash-ops]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-11 07:14:30] ERROR root fetch - processPackages [perfect-number]: Unable to get metadata: No such project 'perfect-number'
+[2023-07-11 07:14:30] INFO root fetch - main [MainThread]: End processing [perfect-number] error
+[2023-07-11 07:14:30] INFO root fetch - processPackages [pyanalyticsgit]: Downloading https://files.pythonhosted.org/packages/63/31/c7d482be4b1ab580bead5e299c20b24f14aafcbd067ec3b6375c863df67d/pyanalyticsgit-0.2.tar.gz
+[2023-07-11 07:14:30] INFO root fetch - processPackages [gpt-code-search]: Downloading https://files.pythonhosted.org/packages/56/f2/cea0c53ddd6041bdaea2455e0a8cd2255239e7e061ff5ce1c1ef80d9875d/gpt_code_search-0.0.8.tar.gz
+[2023-07-11 07:14:30] INFO root fetch - processPackages [lightdash-ops]: Downloading https://files.pythonhosted.org/packages/89/e5/887673db4e0a43943dcd03eca0d80698edf91c0017fb4a2efcb88cb4c40e/lightdash_ops-0.2.1.tar.gz
+[2023-07-11 07:14:30] INFO root fetch - processPackages [odoo10-addon-module-prototyper]: Downloading https://files.pythonhosted.org/packages/ec/2e/abd6c6b3c5c3f7096ad0a3b7772173d59329f5982a391666a2eba5f36a66/odoo10_addon_module_prototyper-10.0.1.0.0.99.dev8-py2-none-any.whl
+[2023-07-11 07:14:30] INFO root fetch - processPackages [odoo14-addon-module-prototyper]: Downloading https://files.pythonhosted.org/packages/b3/28/0a4fb193a48dc10b04ab81b6fb3de6e45c689f61d32aa2a8699902ff305b/odoo14_addon_module_prototyper-14.0.1.0.1.dev8-py3-none-any.whl
+[2023-07-11 07:14:30] INFO root fetch - processPackages [pyanalyticsgit]: Downloading https://files.pythonhosted.org/packages/4c/3d/0c5f5533a9813a6403bc758355ca7aaee8164eef922884c1fddf1c9030cf/pyanalyticsgit-0.4.tar.gz
+[2023-07-11 07:14:30] INFO root fetch - processPackages [gpt-code-search]: Downloading https://files.pythonhosted.org/packages/cc/c7/8200b9385434ce5586e346dc4b52b5b606c8b6ef2f797ac4894a158b4d43/gpt_code_search-0.0.9.tar.gz
+[2023-07-11 07:14:30] INFO root fetch - processPackages [lightdash-ops]: Downloading https://files.pythonhosted.org/packages/92/f5/4ecb94c3b1a5a338966f10fdd01f11b74150935487086fb2060b326bd9bd/lightdash_ops-0.2.2.tar.gz
+[2023-07-11 07:14:31] INFO root fetch - processPackages [pyanalyticsgit]: executing diffoscope
+[2023-07-11 07:14:31] INFO root fetch - processPackages [pyanalyticsgit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyanalyticsgit-0.2.tar.gz tmp/pyanalyticsgit-0.4.tar.gz --markdown 20230711/p/pyanalyticsgit/0.2-0.4/diff.md --exclude *.pyd
+[2023-07-11 07:14:31] INFO root fetch - processPackages [odoo14-addon-module-prototyper]: Downloading https://files.pythonhosted.org/packages/e2/fa/a413556da56c863d74591bf1b408457f7f1a4ef0a1688f0dabda21e57aed/odoo14_addon_module_prototyper-14.0.1.0.1.dev9-py3-none-any.whl
+[2023-07-11 07:14:31] INFO root fetch - processPackages [gpt-code-search]: executing diffoscope
+[2023-07-11 07:14:31] INFO root fetch - processPackages [gpt-code-search]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_code_search-0.0.8.tar.gz tmp/gpt_code_search-0.0.9.tar.gz --markdown 20230711/g/gpt-code-search/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-11 07:14:31] INFO root fetch - processPackages [odoo10-addon-module-prototyper]: Downloading https://files.pythonhosted.org/packages/3c/bb/d24bd21a3e08e7f05e6b5e0413499fa63e54fa808bbce3acbd11244b94f4/odoo10_addon_module_prototyper-10.0.1.0.0.99.dev9-py2-none-any.whl
+[2023-07-11 07:14:31] INFO root fetch - processPackages [lightdash-ops]: executing diffoscope
+[2023-07-11 07:14:31] INFO root fetch - processPackages [lightdash-ops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightdash_ops-0.2.1.tar.gz tmp/lightdash_ops-0.2.2.tar.gz --markdown 20230711/l/lightdash-ops/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-11 07:14:31] INFO root fetch - processPackages [odoo14-addon-module-prototyper]: executing diffoscope
+[2023-07-11 07:14:31] INFO root fetch - processPackages [odoo14-addon-module-prototyper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_module_prototyper-14.0.1.0.1.dev8-py3-none-any.whl.zip tmp/odoo14_addon_module_prototyper-14.0.1.0.1.dev9-py3-none-any.whl.zip --markdown 20230711/o/odoo14-addon-module-prototyper/14.0.1.0.1.dev8-14.0.1.0.1.dev9/diff.md --exclude *.pyd
+[2023-07-11 07:14:31] INFO root fetch - processPackages [odoo10-addon-module-prototyper]: executing diffoscope
+[2023-07-11 07:14:31] INFO root fetch - processPackages [odoo10-addon-module-prototyper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo10_addon_module_prototyper-10.0.1.0.0.99.dev8-py2-none-any.whl.zip tmp/odoo10_addon_module_prototyper-10.0.1.0.0.99.dev9-py2-none-any.whl.zip --markdown 20230711/o/odoo10-addon-module-prototyper/10.0.1.0.0.99.dev8-10.0.1.0.0.99.dev9/diff.md --exclude *.pyd
+[2023-07-11 07:14:32] INFO root fetch - processPackages [pyanalyticsgit]: Remove: archive file [/home/abi/fetcher/tmp/pyanalyticsgit-0.2.tar.gz]
+[2023-07-11 07:14:32] INFO root fetch - processPackages [pyanalyticsgit]: Remove: archive file [/home/abi/fetcher/tmp/pyanalyticsgit-0.4.tar.gz]
+[2023-07-11 07:14:32] INFO root fetch - main [MainThread]: End processing [pyanalyticsgit]: success
+[2023-07-11 07:14:32] INFO root fetch - processPackages [gpt-code-search]: Remove: archive file [/home/abi/fetcher/tmp/gpt_code_search-0.0.8.tar.gz]
+[2023-07-11 07:14:32] INFO root fetch - processPackages [gpt-code-search]: Remove: archive file [/home/abi/fetcher/tmp/gpt_code_search-0.0.9.tar.gz]
+[2023-07-11 07:14:32] INFO root fetch - main [MainThread]: End processing [gpt-code-search]: success
+[2023-07-11 07:14:32] INFO root fetch - processPackages [lightdash-ops]: Remove: archive file [/home/abi/fetcher/tmp/lightdash_ops-0.2.1.tar.gz]
+[2023-07-11 07:14:32] INFO root fetch - processPackages [lightdash-ops]: Remove: archive file [/home/abi/fetcher/tmp/lightdash_ops-0.2.2.tar.gz]
+[2023-07-11 07:14:32] INFO root fetch - main [MainThread]: End processing [lightdash-ops]: success
+[2023-07-11 07:14:32] INFO root fetch - processPackages [odoo14-addon-module-prototyper]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_module_prototyper-14.0.1.0.1.dev8-py3-none-any.whl.zip]
+[2023-07-11 07:14:32] INFO root fetch - processPackages [odoo14-addon-module-prototyper]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_module_prototyper-14.0.1.0.1.dev9-py3-none-any.whl.zip]
+[2023-07-11 07:14:32] INFO root fetch - main [MainThread]: End processing [odoo14-addon-module-prototyper]: success
+[2023-07-11 07:14:32] INFO root fetch - processPackages [odoo10-addon-module-prototyper]: Remove: archive file [/home/abi/fetcher/tmp/odoo10_addon_module_prototyper-10.0.1.0.0.99.dev8-py2-none-any.whl.zip]
+[2023-07-11 07:14:32] INFO root fetch - processPackages [odoo10-addon-module-prototyper]: Remove: archive file [/home/abi/fetcher/tmp/odoo10_addon_module_prototyper-10.0.1.0.0.99.dev9-py2-none-any.whl.zip]
+[2023-07-11 07:14:32] INFO root fetch - main [MainThread]: End processing [odoo10-addon-module-prototyper]: success
+[2023-07-11 07:14:32] INFO root fetch - main [MainThread]: Store serial: [18841047]
