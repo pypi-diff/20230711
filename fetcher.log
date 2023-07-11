@@ -18199,3 +18199,113 @@ AssertionError: tmp/doctran-0.0.6.tar.gz does not exist
 [2023-07-11 13:27:20] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev9.tar.gz]
 [2023-07-11 13:27:20] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2023-07-11 13:27:20] INFO root fetch - main [MainThread]: Store serial: [18844416]
+[2023-07-11 13:32:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18844416]
+[2023-07-11 13:32:30] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-11 13:32:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: acro
+[2023-07-11 13:32:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dlt-expectation-util
+[2023-07-11 13:32:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pepperize.cdk-ssm-parameters-cross-region
+[2023-07-11 13:32:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: torchserve-nightly
+[2023-07-11 13:32:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chatgpt-klient
+[2023-07-11 13:32:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: torch-model-archiver-nightly
+[2023-07-11 13:32:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: torch-workflow-archiver-nightly
+[2023-07-11 13:32:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: typed-blocks
+[2023-07-11 13:32:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sumo-wrapper-python
+[2023-07-11 13:32:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: jupyter-kernel-provisioner-proxy
+[2023-07-11 13:32:30] INFO root fetch - processPackages [typed-blocks]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-11 13:32:30] INFO root fetch - processPackages [jupyter-kernel-provisioner-proxy]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-11 13:32:30] INFO root fetch - processPackages [chatgpt-klient]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-11 13:32:30] INFO root fetch - processPackages [sumo-wrapper-python]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-07-11 13:32:30] WARNING root fetch - processPackages [dlt-expectation-util]: Skipping, unable to determine old version
+[2023-07-11 13:32:30] INFO root fetch - processPackages [dlt-expectation-util]: Start processing: scaneo
+[2023-07-11 13:32:30] INFO root fetch - main [MainThread]: End processing [dlt-expectation-util] error
+[2023-07-11 13:32:30] INFO root fetch - processPackages [acro]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-07-11 13:32:30] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-11 13:32:30] INFO root fetch - processPackages [torch-model-archiver-nightly]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-11 13:32:30] INFO root fetch - processPackages [torchserve-nightly]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-11 13:32:30] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-11 13:32:30] INFO root fetch - processPackages [scaneo]: New version: [2023.7.11.post3] Old Version: [2023.7.11.post2]
+[2023-07-11 13:32:30] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/44/8a/225f6757d5df77a706853e7f70981e785e26693e9c5529b1725322da94ee/torch_workflow_archiver_nightly-2023.7.8-py3-none-any.whl
+[2023-07-11 13:32:30] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/fc/e9/cb5f596703c31d7f2e9bf2501c71de3a97dd6f54385926ea9d621de36d48/torch_model_archiver_nightly-2023.7.8-py3-none-any.whl
+[2023-07-11 13:32:30] INFO root fetch - processPackages [torchserve-nightly]: Downloading https://files.pythonhosted.org/packages/d6/b2/b77948f318b41f4c30bce37021e5eaab04bf7c8abae416af053b02be3370/torchserve_nightly-2023.7.8-py3-none-any.whl
+[2023-07-11 13:32:30] INFO root fetch - processPackages [scaneo]: Downloading https://files.pythonhosted.org/packages/ef/f2/c4005da6b789f6b6f5dc8a0bf3427697fd1f74af3d2c9774c2b5e0d106c1/scaneo-2023.7.11.post2.tar.gz
+[2023-07-11 13:32:30] INFO root fetch - processPackages [typed-blocks]: Downloading https://files.pythonhosted.org/packages/ae/54/f0f92843fa14270ed94a77e503fedd257e248ec484464c5f96702eb2e2d9/typed-blocks-0.9.8.tar.gz
+[2023-07-11 13:32:30] INFO root fetch - processPackages [jupyter-kernel-provisioner-proxy]: Downloading https://files.pythonhosted.org/packages/1b/dc/00d72d593d838d3df08c46940fe8d4ed0f594c448f2404978b8f02b30a07/jupyter_kernel_provisioner_proxy-0.1.0.tar.gz
+[2023-07-11 13:32:30] INFO root fetch - processPackages [acro]: Downloading https://files.pythonhosted.org/packages/3c/d4/a405e5eacaa8e059d8666a5cd4c25c8f65d056a9634b29f1be1c459f95e3/acro-0.3.0.tar.gz
+[2023-07-11 13:32:30] INFO root fetch - processPackages [sumo-wrapper-python]: Downloading https://files.pythonhosted.org/packages/3b/25/6be1aad12103461ee7d4502cb7da00800731be7ad1d3905fdb08958b40cb/sumo-wrapper-python-0.3.4.tar.gz
+[2023-07-11 13:32:30] INFO root fetch - processPackages [chatgpt-klient]: Downloading https://files.pythonhosted.org/packages/bd/45/26f5c2b778494957c37bf2822d80cd1a67eeae2f7403568e78c526a4074c/chatgpt-klient-0.0.4.tar.gz
+[2023-07-11 13:32:30] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: Downloading https://files.pythonhosted.org/packages/fb/79/6889f2bcfe14ad3c2ad911188cae87c47eed38640d4ded20760568fafd48/pepperize.cdk-ssm-parameters-cross-region-0.0.98.tar.gz
+[2023-07-11 13:32:30] WARNING root fetch - processPackages [torchserve-nightly]: Skipping package: exceeds size limit 23750079>=10485760
+[2023-07-11 13:32:30] INFO root fetch - processPackages [torchserve-nightly]: Start processing: middleware-apm
+[2023-07-11 13:32:30] INFO root fetch - main [MainThread]: End processing [torchserve-nightly] error
+[2023-07-11 13:32:30] INFO root fetch - processPackages [middleware-apm]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-11 13:32:31] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/fe/e1/e410f517fa560296c172a15440f705636cb42246e81398b27edb5a7c072f/torch_workflow_archiver_nightly-2023.7.9-py3-none-any.whl
+[2023-07-11 13:32:31] INFO root fetch - processPackages [middleware-apm]: Downloading https://files.pythonhosted.org/packages/c9/db/fa7ab1c9673926a8c26bdabf7311df866a835268e7663803b060886a9354/middleware-apm-0.1.8.tar.gz
+[2023-07-11 13:32:31] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/fa/aa/2acd3c1df69eef6cb2f42f54b0fd7b1c220c14c65ccebdf7f555bda0304d/torch_model_archiver_nightly-2023.7.9-py3-none-any.whl
+[2023-07-11 13:32:31] INFO root fetch - processPackages [scaneo]: Downloading https://files.pythonhosted.org/packages/da/db/984e0cf7ed7f46f6422f751dbd186d8d8b844f80fade47c28959098a1809/scaneo-2023.7.11.post3.tar.gz
+[2023-07-11 13:32:31] INFO root fetch - processPackages [jupyter-kernel-provisioner-proxy]: Downloading https://files.pythonhosted.org/packages/83/6c/f1b3ccc4bf6d8b0fba0f9dff35a876bfb63d2e205f68c45667e1fc023770/jupyter_kernel_provisioner_proxy-0.1.1.tar.gz
+[2023-07-11 13:32:31] INFO root fetch - processPackages [acro]: Downloading https://files.pythonhosted.org/packages/4d/62/f30bb12b70a8fc58151a5124d47ad375c0d1aae4127be80f442056c803ac/acro-0.4.0.tar.gz
+[2023-07-11 13:32:31] INFO root fetch - processPackages [chatgpt-klient]: Downloading https://files.pythonhosted.org/packages/21/66/230afb9a25ce87427ed21c62aca1162ddf8bb0647187a6d0dde4fc297679/chatgpt-klient-0.0.5.tar.gz
+[2023-07-11 13:32:31] INFO root fetch - processPackages [jupyter-kernel-provisioner-proxy]: executing diffoscope
+[2023-07-11 13:32:31] INFO root fetch - processPackages [jupyter-kernel-provisioner-proxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter_kernel_provisioner_proxy-0.1.0.tar.gz tmp/jupyter_kernel_provisioner_proxy-0.1.1.tar.gz --markdown 20230711/j/jupyter-kernel-provisioner-proxy/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-11 13:32:31] INFO root fetch - processPackages [scaneo]: executing diffoscope
+[2023-07-11 13:32:31] INFO root fetch - processPackages [scaneo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scaneo-2023.7.11.post2.tar.gz tmp/scaneo-2023.7.11.post3.tar.gz --markdown 20230711/s/scaneo/2023.7.11.post2-2023.7.11.post3/diff.md --exclude *.pyd
+[2023-07-11 13:32:31] INFO root fetch - processPackages [typed-blocks]: Downloading https://files.pythonhosted.org/packages/22/ee/31b515dced27bee07e91d33e78a5d0eacc7cc71f545ea156740473ea5f57/typed-blocks-0.9.9.tar.gz
+[2023-07-11 13:32:31] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: executing diffoscope
+[2023-07-11 13:32:31] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_workflow_archiver_nightly-2023.7.8-py3-none-any.whl.zip tmp/torch_workflow_archiver_nightly-2023.7.9-py3-none-any.whl.zip --markdown 20230711/t/torch-workflow-archiver-nightly/2023.7.8-2023.7.9/diff.md --exclude *.pyd
+[2023-07-11 13:32:31] INFO root fetch - processPackages [torch-model-archiver-nightly]: executing diffoscope
+[2023-07-11 13:32:31] INFO root fetch - processPackages [torch-model-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_archiver_nightly-2023.7.8-py3-none-any.whl.zip tmp/torch_model_archiver_nightly-2023.7.9-py3-none-any.whl.zip --markdown 20230711/t/torch-model-archiver-nightly/2023.7.8-2023.7.9/diff.md --exclude *.pyd
+[2023-07-11 13:32:31] INFO root fetch - processPackages [sumo-wrapper-python]: Downloading https://files.pythonhosted.org/packages/9a/2a/b34f1cd5927c52ec0f3337cc2dbd13ac8d2ac2bc88a0e3c9a5ba6fb9ae0f/sumo-wrapper-python-0.3.5.tar.gz
+[2023-07-11 13:32:31] INFO root fetch - processPackages [acro]: executing diffoscope
+[2023-07-11 13:32:31] INFO root fetch - processPackages [acro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acro-0.3.0.tar.gz tmp/acro-0.4.0.tar.gz --markdown 20230711/a/acro/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-07-11 13:32:31] INFO root fetch - processPackages [chatgpt-klient]: executing diffoscope
+[2023-07-11 13:32:31] INFO root fetch - processPackages [chatgpt-klient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatgpt-klient-0.0.4.tar.gz tmp/chatgpt-klient-0.0.5.tar.gz --markdown 20230711/c/chatgpt-klient/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-11 13:32:31] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: Downloading https://files.pythonhosted.org/packages/9b/28/15454316ba7c03762eb5f4132acad608b8e4002ca06c5309244457a24d67/pepperize.cdk-ssm-parameters-cross-region-0.0.99.tar.gz
+[2023-07-11 13:32:31] INFO root fetch - processPackages [middleware-apm]: Downloading https://files.pythonhosted.org/packages/85/4e/51d46e303433412c897f03bf1f831155e665f691f00202ec4c762fb8eed6/middleware-apm-0.1.9.tar.gz
+[2023-07-11 13:32:31] INFO root fetch - processPackages [typed-blocks]: executing diffoscope
+[2023-07-11 13:32:31] INFO root fetch - processPackages [typed-blocks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typed-blocks-0.9.8.tar.gz tmp/typed-blocks-0.9.9.tar.gz --markdown 20230711/t/typed-blocks/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-11 13:32:31] INFO root fetch - processPackages [sumo-wrapper-python]: executing diffoscope
+[2023-07-11 13:32:31] INFO root fetch - processPackages [sumo-wrapper-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sumo-wrapper-python-0.3.4.tar.gz tmp/sumo-wrapper-python-0.3.5.tar.gz --markdown 20230711/s/sumo-wrapper-python/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-07-11 13:32:31] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: executing diffoscope
+[2023-07-11 13:32:31] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.98.tar.gz tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.99.tar.gz --markdown 20230711/p/pepperize.cdk-ssm-parameters-cross-region/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-11 13:32:31] INFO root fetch - processPackages [middleware-apm]: executing diffoscope
+[2023-07-11 13:32:31] INFO root fetch - processPackages [middleware-apm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/middleware-apm-0.1.8.tar.gz tmp/middleware-apm-0.1.9.tar.gz --markdown 20230711/m/middleware-apm/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-11 13:32:32] INFO root fetch - processPackages [jupyter-kernel-provisioner-proxy]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_kernel_provisioner_proxy-0.1.0.tar.gz]
+[2023-07-11 13:32:32] INFO root fetch - processPackages [jupyter-kernel-provisioner-proxy]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_kernel_provisioner_proxy-0.1.1.tar.gz]
+[2023-07-11 13:32:32] INFO root fetch - processPackages [jupyter-kernel-provisioner-proxy]: Start processing: bigdl-nano
+[2023-07-11 13:32:32] INFO root fetch - main [MainThread]: End processing [jupyter-kernel-provisioner-proxy]: success
+[2023-07-11 13:32:32] INFO root fetch - processPackages [bigdl-nano]: New version: [2.4.0b20230710] Old Version: [2.4.0b20230709]
+[2023-07-11 13:32:32] INFO root fetch - processPackages [chatgpt-klient]: Remove: archive file [/home/abi/fetcher/tmp/chatgpt-klient-0.0.4.tar.gz]
+[2023-07-11 13:32:32] INFO root fetch - processPackages [chatgpt-klient]: Remove: archive file [/home/abi/fetcher/tmp/chatgpt-klient-0.0.5.tar.gz]
+[2023-07-11 13:32:33] INFO root fetch - main [MainThread]: End processing [chatgpt-klient]: success
+[2023-07-11 13:32:33] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2023.7.8-py3-none-any.whl.zip]
+[2023-07-11 13:32:33] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2023.7.9-py3-none-any.whl.zip]
+[2023-07-11 13:32:33] INFO root fetch - main [MainThread]: End processing [torch-workflow-archiver-nightly]: success
+[2023-07-11 13:32:33] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2023.7.8-py3-none-any.whl.zip]
+[2023-07-11 13:32:33] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2023.7.9-py3-none-any.whl.zip]
+[2023-07-11 13:32:33] INFO root fetch - main [MainThread]: End processing [torch-model-archiver-nightly]: success
+[2023-07-11 13:32:33] INFO root fetch - processPackages [acro]: Remove: archive file [/home/abi/fetcher/tmp/acro-0.3.0.tar.gz]
+[2023-07-11 13:32:33] INFO root fetch - processPackages [acro]: Remove: archive file [/home/abi/fetcher/tmp/acro-0.4.0.tar.gz]
+[2023-07-11 13:32:33] INFO root fetch - main [MainThread]: End processing [acro]: success
+[2023-07-11 13:32:33] INFO root fetch - processPackages [bigdl-nano]: Downloading https://files.pythonhosted.org/packages/71/b2/8f155e78da99fa618b00de702e61b07ad2766689623ee49e18e9e0f484b0/bigdl_nano-2.4.0b20230709-py3-none-win_amd64.whl
+[2023-07-11 13:32:33] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.98.tar.gz]
+[2023-07-11 13:32:33] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.99.tar.gz]
+[2023-07-11 13:32:33] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ssm-parameters-cross-region]: success
+[2023-07-11 13:32:33] INFO root fetch - processPackages [middleware-apm]: Remove: archive file [/home/abi/fetcher/tmp/middleware-apm-0.1.8.tar.gz]
+[2023-07-11 13:32:33] INFO root fetch - processPackages [middleware-apm]: Remove: archive file [/home/abi/fetcher/tmp/middleware-apm-0.1.9.tar.gz]
+[2023-07-11 13:32:33] INFO root fetch - main [MainThread]: End processing [middleware-apm]: success
+[2023-07-11 13:32:33] INFO root fetch - processPackages [typed-blocks]: Remove: archive file [/home/abi/fetcher/tmp/typed-blocks-0.9.8.tar.gz]
+[2023-07-11 13:32:33] INFO root fetch - processPackages [typed-blocks]: Remove: archive file [/home/abi/fetcher/tmp/typed-blocks-0.9.9.tar.gz]
+[2023-07-11 13:32:33] INFO root fetch - main [MainThread]: End processing [typed-blocks]: success
+[2023-07-11 13:32:33] INFO root fetch - processPackages [sumo-wrapper-python]: Remove: archive file [/home/abi/fetcher/tmp/sumo-wrapper-python-0.3.4.tar.gz]
+[2023-07-11 13:32:33] INFO root fetch - processPackages [sumo-wrapper-python]: Remove: archive file [/home/abi/fetcher/tmp/sumo-wrapper-python-0.3.5.tar.gz]
+[2023-07-11 13:32:33] INFO root fetch - main [MainThread]: End processing [sumo-wrapper-python]: success
+[2023-07-11 13:32:33] INFO root fetch - processPackages [bigdl-nano]: Downloading https://files.pythonhosted.org/packages/64/7f/4dad8d8da3f121ee839108ad10ae5886787b0f283addf80e30f0b8ff8645/bigdl_nano-2.4.0b20230710-py3-none-win_amd64.whl
+[2023-07-11 13:32:33] INFO root fetch - processPackages [bigdl-nano]: executing diffoscope
+[2023-07-11 13:32:33] INFO root fetch - processPackages [bigdl-nano]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_nano-2.4.0b20230709-py3-none-win_amd64.whl.zip tmp/bigdl_nano-2.4.0b20230710-py3-none-win_amd64.whl.zip --markdown 20230711/b/bigdl-nano/2.4.0b20230709-2.4.0b20230710/diff.md --exclude *.pyd
+[2023-07-11 13:32:35] INFO root fetch - processPackages [bigdl-nano]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_nano-2.4.0b20230709-py3-none-win_amd64.whl.zip]
+[2023-07-11 13:32:35] INFO root fetch - processPackages [bigdl-nano]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_nano-2.4.0b20230710-py3-none-win_amd64.whl.zip]
+[2023-07-11 13:32:35] INFO root fetch - main [MainThread]: End processing [bigdl-nano]: success
+[2023-07-11 13:32:35] INFO root fetch - processPackages [scaneo]: Remove: archive file [/home/abi/fetcher/tmp/scaneo-2023.7.11.post2.tar.gz]
+[2023-07-11 13:32:35] INFO root fetch - processPackages [scaneo]: Remove: archive file [/home/abi/fetcher/tmp/scaneo-2023.7.11.post3.tar.gz]
+[2023-07-11 13:32:35] INFO root fetch - main [MainThread]: End processing [scaneo]: success
+[2023-07-11 13:32:35] INFO root fetch - main [MainThread]: Store serial: [18844475]
