@@ -13057,3 +13057,113 @@ AssertionError: tmp/doctran-0.0.6.tar.gz does not exist
 [2023-07-11 10:13:11] INFO root fetch - processPackages [dipex]: Remove: archive file [/home/abi/fetcher/tmp/dipex-4.9.2.tar.gz]
 [2023-07-11 10:13:11] INFO root fetch - main [MainThread]: End processing [dipex]: success
 [2023-07-11 10:13:11] INFO root fetch - main [MainThread]: Store serial: [18842275]
+[2023-07-11 10:18:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18842275]
+[2023-07-11 10:18:20] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-11 10:18:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aiohomekit
+[2023-07-11 10:18:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-l10n-pt-account-invoicexpress
+[2023-07-11 10:18:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tone
+[2023-07-11 10:18:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dql-alpha
+[2023-07-11 10:18:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: supGecko
+[2023-07-11 10:18:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: AutoThaliX
+[2023-07-11 10:18:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sweep
+[2023-07-11 10:18:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: samna
+[2023-07-11 10:18:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pinject-design
+[2023-07-11 10:18:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hcs-cli
+[2023-07-11 10:18:20] INFO root fetch - processPackages [tone]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-11 10:18:20] INFO root fetch - processPackages [sweep]: New version: [2.0.1.2] Old Version: [2.0.1.1]
+[2023-07-11 10:18:20] WARNING root fetch - processPackages [supGecko]: Skipping, unable to determine old version
+[2023-07-11 10:18:20] INFO root fetch - processPackages [supGecko]: Start processing: openxlab-dev
+[2023-07-11 10:18:20] INFO root fetch - main [MainThread]: End processing [supGecko] error
+[2023-07-11 10:18:20] INFO root fetch - processPackages [odoo-addon-l10n-pt-account-invoicexpress]: New version: [16.0.1.2.0] Old Version: [16.0.1.1.0]
+[2023-07-11 10:18:20] INFO root fetch - processPackages [pinject-design]: New version: [0.1.9] Old Version: [0.1.80]
+[2023-07-11 10:18:20] INFO root fetch - processPackages [aiohomekit]: New version: [2.6.7] Old Version: [2.6.6]
+[2023-07-11 10:18:21] INFO root fetch - processPackages [AutoThaliX]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-11 10:18:21] INFO root fetch - processPackages [tone]: Downloading https://files.pythonhosted.org/packages/02/f7/910df5923bde61e670643af4dc1ae97b6218eb82086e7cafad847de60be0/tone-0.0.8.tar.gz
+[2023-07-11 10:18:21] INFO root fetch - processPackages [hcs-cli]: New version: [0.1.43] Old Version: [0.1.41]
+[2023-07-11 10:18:21] INFO root fetch - processPackages [sweep]: Downloading https://files.pythonhosted.org/packages/a2/bb/316a96f8bc95a0516bdc6364dc1c9e15c94faba23faa70f11c2613a051f6/sweep-2.0.1.1-py3.10.egg
+[2023-07-11 10:18:21] INFO root fetch - processPackages [dql-alpha]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-11 10:18:21] INFO root fetch - processPackages [samna]: New version: [0.9.39.0] Old Version: [0.9.38.0]
+[2023-07-11 10:18:21] INFO root fetch - processPackages [openxlab-dev]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-11 10:18:21] INFO root fetch - processPackages [pinject-design]: Downloading https://files.pythonhosted.org/packages/06/44/0c3c47ebe9788c351760069e291b73766a383812ec430c1a97cd666c93ad/pinject_design-0.1.80.tar.gz
+[2023-07-11 10:18:21] INFO root fetch - processPackages [aiohomekit]: Downloading https://files.pythonhosted.org/packages/04/9d/331459ecab3198ebe372538cba99640b984e74f075fe61d7bf23378d68f7/aiohomekit-2.6.6.tar.gz
+[2023-07-11 10:18:21] INFO root fetch - processPackages [odoo-addon-l10n-pt-account-invoicexpress]: Downloading https://files.pythonhosted.org/packages/82/69/c4e4ad5d2fac5e373bada659b785ec576cd6ab4cbd4ebbaab17fe3a270ea/odoo_addon_l10n_pt_account_invoicexpress-16.0.1.1.0-py3-none-any.whl
+[2023-07-11 10:18:21] INFO root fetch - processPackages [AutoThaliX]: Downloading https://files.pythonhosted.org/packages/73/dd/ce28907194e35f0c59b6a190f77fd241c99e44fd5317afea565ded9906a3/AutoThaliX-0.1.0.tar.gz
+[2023-07-11 10:18:21] INFO root fetch - processPackages [hcs-cli]: Downloading https://files.pythonhosted.org/packages/81/ae/fbc33257bf97eeeba9737afeb27ed3b1beeb7c3bf678bd9799fb1cc9783c/hcs-cli-0.1.41.tar.gz
+[2023-07-11 10:18:21] INFO root fetch - processPackages [dql-alpha]: Downloading https://files.pythonhosted.org/packages/60/8e/27c481daa147be803b678cc7bfdff371dfff6e0cc9ec15e0bfe25ef6773c/dql-alpha-0.8.0.tar.gz
+[2023-07-11 10:18:21] INFO root fetch - processPackages [sweep]: Downloading https://files.pythonhosted.org/packages/b8/a7/efed8f00c71f77ec6db14ad845e7d95b24a299f60121b874d03725f02c39/sweep-2.0.1.2-py3.10.egg
+[2023-07-11 10:18:21] INFO root fetch - processPackages [tone]: Downloading https://files.pythonhosted.org/packages/6e/5e/b3888c113af4c0ebe2e69d34f16c1680373ee3103a8f2b52ceaaf58612f0/tone-0.0.9.tar.gz
+[2023-07-11 10:18:21] INFO root fetch - processPackages [samna]: Downloading https://files.pythonhosted.org/packages/ac/49/8e22575b9ef0f797dd5332cff83b9f2288c02887aeff0cb8048a960a2edb/samna-0.9.38.0-py3-none-any.whl
+[2023-07-11 10:18:21] INFO root fetch - processPackages [openxlab-dev]: Downloading https://files.pythonhosted.org/packages/85/9f/ed8207dc7f50518a450530fa9ad5d9f6241ee8a05c17b36e9d91c644bdda/openxlab_dev-0.0.2.tar.gz
+[2023-07-11 10:18:21] INFO root fetch - processPackages [pinject-design]: Downloading https://files.pythonhosted.org/packages/52/12/a13d2115034630043d98ad1bf73e273115201ee763cd0fd21c61df995b87/pinject-design-0.1.9.tar.gz
+[2023-07-11 10:18:21] WARNING root fetch - processPackages [openxlab-dev]: Skipping package: exceeds size limit 22361675>=10485760
+[2023-07-11 10:18:21] INFO root fetch - processPackages [openxlab-dev]: Start processing: exem-logs
+[2023-07-11 10:18:21] INFO root fetch - main [MainThread]: End processing [openxlab-dev] error
+[2023-07-11 10:18:21] INFO root fetch - processPackages [sweep]: executing diffoscope
+[2023-07-11 10:18:21] INFO root fetch - processPackages [sweep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sweep-2.0.1.1-py3.10.egg tmp/sweep-2.0.1.2-py3.10.egg --markdown 20230711/s/sweep/2.0.1.1-2.0.1.2/diff.md --exclude *.pyd
+[2023-07-11 10:18:21] INFO root fetch - processPackages [tone]: executing diffoscope
+[2023-07-11 10:18:21] INFO root fetch - processPackages [tone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tone-0.0.8.tar.gz tmp/tone-0.0.9.tar.gz --markdown 20230711/t/tone/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-11 10:18:21] INFO root fetch - processPackages [aiohomekit]: Downloading https://files.pythonhosted.org/packages/70/50/17b9749bc4a1ab191a612057ec0a3c2abbcb31f4e48cc63a355db606b619/aiohomekit-2.6.7.tar.gz
+[2023-07-11 10:18:21] INFO root fetch - processPackages [exem-logs]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-07-11 10:18:21] INFO root fetch - processPackages [odoo-addon-l10n-pt-account-invoicexpress]: Downloading https://files.pythonhosted.org/packages/c8/ef/ec67d7e7225bb248337535a24c6c4edb113e46abb25d45b1b2fe14fcdf4f/odoo_addon_l10n_pt_account_invoicexpress-16.0.1.2.0-py3-none-any.whl
+[2023-07-11 10:18:21] INFO root fetch - processPackages [pinject-design]: executing diffoscope
+[2023-07-11 10:18:21] INFO root fetch - processPackages [pinject-design]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pinject_design-0.1.80.tar.gz tmp/pinject-design-0.1.9.tar.gz --markdown 20230711/p/pinject-design/0.1.80-0.1.9/diff.md --exclude *.pyd
+[2023-07-11 10:18:21] INFO root fetch - processPackages [AutoThaliX]: Downloading https://files.pythonhosted.org/packages/48/08/1cc081642ec0e4bf64e873636ae580466aa79256141e9991f813997bd990/AutoThaliX-0.2.0.tar.gz
+[2023-07-11 10:18:21] INFO root fetch - processPackages [exem-logs]: Downloading https://files.pythonhosted.org/packages/02/a6/13e2875693e200ffb3fd974ab93e4ba9e8e7372194e79ef80e64132024f0/exem-logs-1.1.3.tar.gz
+[2023-07-11 10:18:21] INFO root fetch - processPackages [hcs-cli]: Downloading https://files.pythonhosted.org/packages/c8/e0/576bcfd95b162ba66ff7d9c07c49d20017be2e672e3ef371901f64dab316/hcs-cli-0.1.43.tar.gz
+[2023-07-11 10:18:21] INFO root fetch - processPackages [AutoThaliX]: executing diffoscope
+[2023-07-11 10:18:21] INFO root fetch - processPackages [AutoThaliX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AutoThaliX-0.1.0.tar.gz tmp/AutoThaliX-0.2.0.tar.gz --markdown 20230711/A/AutoThaliX/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-11 10:18:21] INFO root fetch - processPackages [odoo-addon-l10n-pt-account-invoicexpress]: executing diffoscope
+[2023-07-11 10:18:21] INFO root fetch - processPackages [odoo-addon-l10n-pt-account-invoicexpress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_pt_account_invoicexpress-16.0.1.1.0-py3-none-any.whl.zip tmp/odoo_addon_l10n_pt_account_invoicexpress-16.0.1.2.0-py3-none-any.whl.zip --markdown 20230711/o/odoo-addon-l10n-pt-account-invoicexpress/16.0.1.1.0-16.0.1.2.0/diff.md --exclude *.pyd
+[2023-07-11 10:18:21] INFO root fetch - processPackages [dql-alpha]: Downloading https://files.pythonhosted.org/packages/5f/4b/932e15e7e71f8b51b4966e96056e13cbd2203696a798fbe0c15a8ad136d8/dql-alpha-0.9.0.tar.gz
+[2023-07-11 10:18:22] INFO root fetch - processPackages [aiohomekit]: executing diffoscope
+[2023-07-11 10:18:22] INFO root fetch - processPackages [aiohomekit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiohomekit-2.6.6.tar.gz tmp/aiohomekit-2.6.7.tar.gz --markdown 20230711/a/aiohomekit/2.6.6-2.6.7/diff.md --exclude *.pyd
+[2023-07-11 10:18:22] INFO root fetch - processPackages [samna]: Downloading https://files.pythonhosted.org/packages/00/d4/3de54a6c91f47d5c29700e274166c999cadaf0ba26c263d4a4b8a40342e2/samna-0.9.39.0-py3-none-any.whl
+[2023-07-11 10:18:22] INFO root fetch - processPackages [hcs-cli]: executing diffoscope
+[2023-07-11 10:18:22] INFO root fetch - processPackages [hcs-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcs-cli-0.1.41.tar.gz tmp/hcs-cli-0.1.43.tar.gz --markdown 20230711/h/hcs-cli/0.1.41-0.1.43/diff.md --exclude *.pyd
+[2023-07-11 10:18:22] INFO root fetch - processPackages [exem-logs]: Downloading https://files.pythonhosted.org/packages/7d/9f/2330cd53177d2cb8b96b79dc5c403a23193fd8d5e5ea310f2aade3d74931/exem-logs-1.1.4.tar.gz
+[2023-07-11 10:18:22] INFO root fetch - processPackages [samna]: executing diffoscope
+[2023-07-11 10:18:22] INFO root fetch - processPackages [samna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/samna-0.9.38.0-py3-none-any.whl.zip tmp/samna-0.9.39.0-py3-none-any.whl.zip --markdown 20230711/s/samna/0.9.38.0-0.9.39.0/diff.md --exclude *.pyd
+[2023-07-11 10:18:22] INFO root fetch - processPackages [dql-alpha]: executing diffoscope
+[2023-07-11 10:18:22] INFO root fetch - processPackages [dql-alpha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dql-alpha-0.8.0.tar.gz tmp/dql-alpha-0.9.0.tar.gz --markdown 20230711/d/dql-alpha/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-11 10:18:22] INFO root fetch - processPackages [exem-logs]: executing diffoscope
+[2023-07-11 10:18:22] INFO root fetch - processPackages [exem-logs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exem-logs-1.1.3.tar.gz tmp/exem-logs-1.1.4.tar.gz --markdown 20230711/e/exem-logs/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-07-11 10:18:23] INFO root fetch - processPackages [tone]: Remove: archive file [/home/abi/fetcher/tmp/tone-0.0.8.tar.gz]
+[2023-07-11 10:18:23] INFO root fetch - processPackages [tone]: Remove: archive file [/home/abi/fetcher/tmp/tone-0.0.9.tar.gz]
+[2023-07-11 10:18:23] INFO root fetch - processPackages [tone]: Start processing: jolli
+[2023-07-11 10:18:23] INFO root fetch - main [MainThread]: End processing [tone]: success
+[2023-07-11 10:18:23] INFO root fetch - processPackages [jolli]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-11 10:18:23] INFO root fetch - processPackages [pinject-design]: Remove: archive file [/home/abi/fetcher/tmp/pinject_design-0.1.80.tar.gz]
+[2023-07-11 10:18:23] INFO root fetch - processPackages [pinject-design]: Remove: archive file [/home/abi/fetcher/tmp/pinject-design-0.1.9.tar.gz]
+[2023-07-11 10:18:23] INFO root fetch - main [MainThread]: End processing [pinject-design]: success
+[2023-07-11 10:18:23] INFO root fetch - processPackages [sweep]: Remove: archive file [/home/abi/fetcher/tmp/sweep-2.0.1.1-py3.10.egg]
+[2023-07-11 10:18:23] INFO root fetch - processPackages [sweep]: Remove: archive file [/home/abi/fetcher/tmp/sweep-2.0.1.2-py3.10.egg]
+[2023-07-11 10:18:23] INFO root fetch - main [MainThread]: End processing [sweep]: success
+[2023-07-11 10:18:23] INFO root fetch - processPackages [jolli]: Downloading https://files.pythonhosted.org/packages/57/88/41942a0999d51479a0a1a08cb5873d1e52a2dd04021c84191a0cf00dfa95/jolli-0.0.7.tar.gz
+[2023-07-11 10:18:23] INFO root fetch - processPackages [AutoThaliX]: Remove: archive file [/home/abi/fetcher/tmp/AutoThaliX-0.1.0.tar.gz]
+[2023-07-11 10:18:23] INFO root fetch - processPackages [AutoThaliX]: Remove: archive file [/home/abi/fetcher/tmp/AutoThaliX-0.2.0.tar.gz]
+[2023-07-11 10:18:23] INFO root fetch - main [MainThread]: End processing [AutoThaliX]: success
+[2023-07-11 10:18:23] INFO root fetch - processPackages [samna]: Remove: archive file [/home/abi/fetcher/tmp/samna-0.9.38.0-py3-none-any.whl.zip]
+[2023-07-11 10:18:23] INFO root fetch - processPackages [samna]: Remove: archive file [/home/abi/fetcher/tmp/samna-0.9.39.0-py3-none-any.whl.zip]
+[2023-07-11 10:18:23] INFO root fetch - main [MainThread]: End processing [samna]: success
+[2023-07-11 10:18:23] INFO root fetch - processPackages [jolli]: Downloading https://files.pythonhosted.org/packages/00/5d/68748fa2cd1d61f77e82f8addf75f031e02b16f259bf728b2ce190cbe65a/jolli-0.0.8.tar.gz
+[2023-07-11 10:18:24] INFO root fetch - processPackages [odoo-addon-l10n-pt-account-invoicexpress]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_pt_account_invoicexpress-16.0.1.1.0-py3-none-any.whl.zip]
+[2023-07-11 10:18:24] INFO root fetch - processPackages [odoo-addon-l10n-pt-account-invoicexpress]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_pt_account_invoicexpress-16.0.1.2.0-py3-none-any.whl.zip]
+[2023-07-11 10:18:24] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-pt-account-invoicexpress]: success
+[2023-07-11 10:18:24] INFO root fetch - processPackages [jolli]: executing diffoscope
+[2023-07-11 10:18:24] INFO root fetch - processPackages [jolli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jolli-0.0.7.tar.gz tmp/jolli-0.0.8.tar.gz --markdown 20230711/j/jolli/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-11 10:18:24] INFO root fetch - processPackages [exem-logs]: Remove: archive file [/home/abi/fetcher/tmp/exem-logs-1.1.3.tar.gz]
+[2023-07-11 10:18:24] INFO root fetch - processPackages [exem-logs]: Remove: archive file [/home/abi/fetcher/tmp/exem-logs-1.1.4.tar.gz]
+[2023-07-11 10:18:24] INFO root fetch - main [MainThread]: End processing [exem-logs]: success
+[2023-07-11 10:18:24] INFO root fetch - processPackages [aiohomekit]: Remove: archive file [/home/abi/fetcher/tmp/aiohomekit-2.6.6.tar.gz]
+[2023-07-11 10:18:24] INFO root fetch - processPackages [aiohomekit]: Remove: archive file [/home/abi/fetcher/tmp/aiohomekit-2.6.7.tar.gz]
+[2023-07-11 10:18:24] INFO root fetch - main [MainThread]: End processing [aiohomekit]: success
+[2023-07-11 10:18:24] INFO root fetch - processPackages [dql-alpha]: Remove: archive file [/home/abi/fetcher/tmp/dql-alpha-0.8.0.tar.gz]
+[2023-07-11 10:18:24] INFO root fetch - processPackages [dql-alpha]: Remove: archive file [/home/abi/fetcher/tmp/dql-alpha-0.9.0.tar.gz]
+[2023-07-11 10:18:24] INFO root fetch - main [MainThread]: End processing [dql-alpha]: success
+[2023-07-11 10:18:24] INFO root fetch - processPackages [hcs-cli]: Remove: archive file [/home/abi/fetcher/tmp/hcs-cli-0.1.41.tar.gz]
+[2023-07-11 10:18:24] INFO root fetch - processPackages [hcs-cli]: Remove: archive file [/home/abi/fetcher/tmp/hcs-cli-0.1.43.tar.gz]
+[2023-07-11 10:18:24] INFO root fetch - main [MainThread]: End processing [hcs-cli]: success
+[2023-07-11 10:18:24] INFO root fetch - processPackages [jolli]: Remove: archive file [/home/abi/fetcher/tmp/jolli-0.0.7.tar.gz]
+[2023-07-11 10:18:24] INFO root fetch - processPackages [jolli]: Remove: archive file [/home/abi/fetcher/tmp/jolli-0.0.8.tar.gz]
+[2023-07-11 10:18:24] INFO root fetch - main [MainThread]: End processing [jolli]: success
+[2023-07-11 10:18:24] INFO root fetch - main [MainThread]: Store serial: [18842313]
