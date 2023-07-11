@@ -2241,3 +2241,96 @@ AssertionError: tmp/doctran-0.0.6.tar.gz does not exist
 [2023-07-11 02:00:19] INFO root fetch - processPackages [neon-skill-weather]: Remove: archive file [/home/abi/fetcher/tmp/neon-skill-weather-1.0.1a1.tar.gz]
 [2023-07-11 02:00:19] INFO root fetch - main [MainThread]: End processing [neon-skill-weather]: success
 [2023-07-11 02:00:19] INFO root fetch - main [MainThread]: Store serial: [18837857]
+[2023-07-11 02:05:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18837857]
+[2023-07-11 02:05:27] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-11 02:05:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: agentmemory
+[2023-07-11 02:05:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jyablonski-common-modules
+[2023-07-11 02:05:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: onedrive-integration
+[2023-07-11 02:05:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: djangorestframework_emailuser
+[2023-07-11 02:05:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: torchdatasets-nightly
+[2023-07-11 02:05:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: doodleverse-utils
+[2023-07-11 02:05:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: task2a
+[2023-07-11 02:05:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mct-nightly
+[2023-07-11 02:05:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: jaxkern-nightly
+[2023-07-11 02:05:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pepperize.cdk-github
+[2023-07-11 02:05:28] INFO root fetch - processPackages [agentmemory]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-11 02:05:28] INFO root fetch - processPackages [djangorestframework_emailuser]: New version: [0.3.0.dev0] Old Version: [0.2.1.dev0]
+[2023-07-11 02:05:28] INFO root fetch - processPackages [jyablonski-common-modules]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-11 02:05:28] INFO root fetch - processPackages [doodleverse-utils]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-11 02:05:28] INFO root fetch - processPackages [task2a]: New version: [1.0.21] Old Version: [1.0.20]
+[2023-07-11 02:05:28] INFO root fetch - processPackages [onedrive-integration]: New version: [0.3] Old Version: [0.2]
+[2023-07-11 02:05:28] INFO root fetch - processPackages [torchdatasets-nightly]: New version: [1688947418] Old Version: [1688861022]
+[2023-07-11 02:05:28] INFO root fetch - processPackages [mct-nightly]: New version: [1.9.0.20230710.post454] Old Version: [1.9.0.20230709.post509]
+[2023-07-11 02:05:28] INFO root fetch - processPackages [jaxkern-nightly]: New version: [0.dev20221222] Old Version: [0.dev20221221]
+[2023-07-11 02:05:28] INFO root fetch - processPackages [pepperize.cdk-github]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-11 02:05:28] INFO root fetch - processPackages [agentmemory]: Downloading https://files.pythonhosted.org/packages/d5/e0/73a62722e6a7186f411f0a8a07b12f2b5e607a0da091644a19bfe1dd8821/agentmemory-0.1.8.tar.gz
+[2023-07-11 02:05:28] INFO root fetch - processPackages [onedrive-integration]: Downloading https://files.pythonhosted.org/packages/a2/94/8a802025c638f70f58be62d7ac31fe29f001055f35ac7dd51637d50817b1/onedrive_integration-0.2.tar.gz
+[2023-07-11 02:05:28] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/b0/22/b60abac6706e0cc849edc9a90b6a57456197c7ad551236b6aec3ad1c09aa/mct-nightly-1.9.0.20230709.post509.tar.gz
+[2023-07-11 02:05:28] INFO root fetch - processPackages [torchdatasets-nightly]: Downloading https://files.pythonhosted.org/packages/28/a6/0de1d76ff878613cf85b3ed5f25d20d3737b52502a6814955ae02cac71c2/torchdatasets-nightly-1688861022.tar.gz
+[2023-07-11 02:05:28] INFO root fetch - processPackages [task2a]: Downloading https://files.pythonhosted.org/packages/1b/05/9f517910053bfff796a1822697dc82cf5e1de1e626820dbd546d4967f7eb/task2a-1.0.20.tar.gz
+[2023-07-11 02:05:28] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/76/55/ef13835e3e8e1570e91b3bc7235725e556f183e3222d5e7e66ac8de58ba0/jaxkern-nightly-0.dev20221221.tar.gz
+[2023-07-11 02:05:28] INFO root fetch - processPackages [djangorestframework_emailuser]: Downloading https://files.pythonhosted.org/packages/18/1e/6e6369c8d1d116560bf44f6a870fc4cdcd77fa767037d69058918c836a4f/djangorestframework_emailuser-0.2.1.dev0.tar.gz
+[2023-07-11 02:05:28] INFO root fetch - processPackages [jyablonski-common-modules]: Downloading https://files.pythonhosted.org/packages/57/9c/9cc16e304ddb2c1c143723862cd68011a13995f3fd466f668f2e7ffef648/jyablonski_common_modules-0.0.2.tar.gz
+[2023-07-11 02:05:28] INFO root fetch - processPackages [doodleverse-utils]: Downloading https://files.pythonhosted.org/packages/3d/a2/fb512b646c69853e26e8b32c8493ed87fa0d3cb0c4156e2ef2f881108896/doodleverse-utils-0.0.8.tar.gz
+[2023-07-11 02:05:28] INFO root fetch - processPackages [pepperize.cdk-github]: Downloading https://files.pythonhosted.org/packages/24/6d/598d06b1a4e959b347586ba22a01a1bc105e61fe7d1318c6fb190d545b38/pepperize.cdk-github-0.0.98.tar.gz
+[2023-07-11 02:05:28] INFO root fetch - processPackages [agentmemory]: Downloading https://files.pythonhosted.org/packages/6e/ac/33ae73e442d8025c848fe583687d588ca05bd695b69b0ff158ef2310696c/agentmemory-0.1.9.tar.gz
+[2023-07-11 02:05:28] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/ea/b1/fbac44f07e48f8800aada2de8e9114775baf3f3d605ee80382db18a1c728/jaxkern-nightly-0.dev20221222.tar.gz
+[2023-07-11 02:05:29] INFO root fetch - processPackages [onedrive-integration]: Downloading https://files.pythonhosted.org/packages/40/a1/ee47d916e545c8279ca7d925312a4d9ea8477dcee23bc9fa14c8f9b2c92c/onedrive_integration-0.3.tar.gz
+[2023-07-11 02:05:29] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/38/eb/cc123e056a6f85b9ed05584a39cbf03d7727238e8931ee5c27025d7d3042/mct-nightly-1.9.0.20230710.post454.tar.gz
+[2023-07-11 02:05:29] INFO root fetch - processPackages [task2a]: Downloading https://files.pythonhosted.org/packages/a8/f2/4fc9ad13878d62095b5ffd962f074a1306af831d7de24f507d63ed1e04ab/task2a-1.0.21.tar.gz
+[2023-07-11 02:05:29] INFO root fetch - processPackages [torchdatasets-nightly]: Downloading https://files.pythonhosted.org/packages/6a/0a/8776760514fd43c3c55855a42f9b129d29f9efce125ff05085188aa32acd/torchdatasets-nightly-1688947418.tar.gz
+[2023-07-11 02:05:29] INFO root fetch - processPackages [djangorestframework_emailuser]: Downloading https://files.pythonhosted.org/packages/cc/c6/21f884740776a803826d59286249e6c00125b64b131491e06dc83c1ebbae/djangorestframework_emailuser-0.3.0.dev0.tar.gz
+[2023-07-11 02:05:29] INFO root fetch - processPackages [agentmemory]: executing diffoscope
+[2023-07-11 02:05:29] INFO root fetch - processPackages [agentmemory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agentmemory-0.1.8.tar.gz tmp/agentmemory-0.1.9.tar.gz --markdown 20230711/a/agentmemory/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-11 02:05:29] INFO root fetch - processPackages [jaxkern-nightly]: executing diffoscope
+[2023-07-11 02:05:29] INFO root fetch - processPackages [jaxkern-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxkern-nightly-0.dev20221221.tar.gz tmp/jaxkern-nightly-0.dev20221222.tar.gz --markdown 20230711/j/jaxkern-nightly/0.dev20221221-0.dev20221222/diff.md --exclude *.pyd
+[2023-07-11 02:05:29] INFO root fetch - processPackages [jyablonski-common-modules]: Downloading https://files.pythonhosted.org/packages/ec/c1/861f16db0d093a60ccdaf9aeaf4d9a9d2c8fe8734455eb4cf5d515637920/jyablonski_common_modules-0.0.3.tar.gz
+[2023-07-11 02:05:29] INFO root fetch - processPackages [doodleverse-utils]: Downloading https://files.pythonhosted.org/packages/4e/f5/6ed72cbccecf6cb77775fa0a8352ddf2477d69b4f96f8bc00c415f7e350e/doodleverse-utils-0.0.9.tar.gz
+[2023-07-11 02:05:29] INFO root fetch - processPackages [onedrive-integration]: executing diffoscope
+[2023-07-11 02:05:29] INFO root fetch - processPackages [onedrive-integration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onedrive_integration-0.2.tar.gz tmp/onedrive_integration-0.3.tar.gz --markdown 20230711/o/onedrive-integration/0.2-0.3/diff.md --exclude *.pyd
+[2023-07-11 02:05:29] INFO root fetch - processPackages [mct-nightly]: executing diffoscope
+[2023-07-11 02:05:29] INFO root fetch - processPackages [mct-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-nightly-1.9.0.20230709.post509.tar.gz tmp/mct-nightly-1.9.0.20230710.post454.tar.gz --markdown 20230711/m/mct-nightly/1.9.0.20230709.post509-1.9.0.20230710.post454/diff.md --exclude *.pyd
+[2023-07-11 02:05:29] INFO root fetch - processPackages [torchdatasets-nightly]: executing diffoscope
+[2023-07-11 02:05:29] INFO root fetch - processPackages [torchdatasets-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchdatasets-nightly-1688861022.tar.gz tmp/torchdatasets-nightly-1688947418.tar.gz --markdown 20230711/t/torchdatasets-nightly/1688861022-1688947418/diff.md --exclude *.pyd
+[2023-07-11 02:05:29] INFO root fetch - processPackages [pepperize.cdk-github]: Downloading https://files.pythonhosted.org/packages/c3/a7/0446f664eacf32838f54f1c66d5396c5ab08f1bcd671ef0f29c503c0f763/pepperize.cdk-github-0.0.99.tar.gz
+[2023-07-11 02:05:29] INFO root fetch - processPackages [doodleverse-utils]: executing diffoscope
+[2023-07-11 02:05:29] INFO root fetch - processPackages [doodleverse-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/doodleverse-utils-0.0.8.tar.gz tmp/doodleverse-utils-0.0.9.tar.gz --markdown 20230711/d/doodleverse-utils/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-11 02:05:29] INFO root fetch - processPackages [task2a]: executing diffoscope
+[2023-07-11 02:05:29] INFO root fetch - processPackages [task2a]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/task2a-1.0.20.tar.gz tmp/task2a-1.0.21.tar.gz --markdown 20230711/t/task2a/1.0.20-1.0.21/diff.md --exclude *.pyd
+[2023-07-11 02:05:29] INFO root fetch - processPackages [jyablonski-common-modules]: executing diffoscope
+[2023-07-11 02:05:29] INFO root fetch - processPackages [jyablonski-common-modules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jyablonski_common_modules-0.0.2.tar.gz tmp/jyablonski_common_modules-0.0.3.tar.gz --markdown 20230711/j/jyablonski-common-modules/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-11 02:05:29] INFO root fetch - processPackages [djangorestframework_emailuser]: executing diffoscope
+[2023-07-11 02:05:29] INFO root fetch - processPackages [djangorestframework_emailuser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangorestframework_emailuser-0.2.1.dev0.tar.gz tmp/djangorestframework_emailuser-0.3.0.dev0.tar.gz --markdown 20230711/d/djangorestframework_emailuser/0.2.1.dev0-0.3.0.dev0/diff.md --exclude *.pyd
+[2023-07-11 02:05:29] INFO root fetch - processPackages [pepperize.cdk-github]: executing diffoscope
+[2023-07-11 02:05:29] INFO root fetch - processPackages [pepperize.cdk-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-github-0.0.98.tar.gz tmp/pepperize.cdk-github-0.0.99.tar.gz --markdown 20230711/p/pepperize.cdk-github/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-11 02:05:30] INFO root fetch - processPackages [agentmemory]: Remove: archive file [/home/abi/fetcher/tmp/agentmemory-0.1.8.tar.gz]
+[2023-07-11 02:05:30] INFO root fetch - processPackages [agentmemory]: Remove: archive file [/home/abi/fetcher/tmp/agentmemory-0.1.9.tar.gz]
+[2023-07-11 02:05:30] INFO root fetch - main [MainThread]: End processing [agentmemory]: success
+[2023-07-11 02:05:30] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221221.tar.gz]
+[2023-07-11 02:05:30] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221222.tar.gz]
+[2023-07-11 02:05:30] INFO root fetch - main [MainThread]: End processing [jaxkern-nightly]: success
+[2023-07-11 02:05:30] INFO root fetch - processPackages [onedrive-integration]: Remove: archive file [/home/abi/fetcher/tmp/onedrive_integration-0.2.tar.gz]
+[2023-07-11 02:05:30] INFO root fetch - processPackages [onedrive-integration]: Remove: archive file [/home/abi/fetcher/tmp/onedrive_integration-0.3.tar.gz]
+[2023-07-11 02:05:30] INFO root fetch - main [MainThread]: End processing [onedrive-integration]: success
+[2023-07-11 02:05:31] INFO root fetch - processPackages [torchdatasets-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchdatasets-nightly-1688861022.tar.gz]
+[2023-07-11 02:05:31] INFO root fetch - processPackages [torchdatasets-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchdatasets-nightly-1688947418.tar.gz]
+[2023-07-11 02:05:31] INFO root fetch - main [MainThread]: End processing [torchdatasets-nightly]: success
+[2023-07-11 02:05:31] INFO root fetch - processPackages [task2a]: Remove: archive file [/home/abi/fetcher/tmp/task2a-1.0.20.tar.gz]
+[2023-07-11 02:05:31] INFO root fetch - processPackages [task2a]: Remove: archive file [/home/abi/fetcher/tmp/task2a-1.0.21.tar.gz]
+[2023-07-11 02:05:31] INFO root fetch - main [MainThread]: End processing [task2a]: success
+[2023-07-11 02:05:31] INFO root fetch - processPackages [jyablonski-common-modules]: Remove: archive file [/home/abi/fetcher/tmp/jyablonski_common_modules-0.0.2.tar.gz]
+[2023-07-11 02:05:31] INFO root fetch - processPackages [jyablonski-common-modules]: Remove: archive file [/home/abi/fetcher/tmp/jyablonski_common_modules-0.0.3.tar.gz]
+[2023-07-11 02:05:31] INFO root fetch - main [MainThread]: End processing [jyablonski-common-modules]: success
+[2023-07-11 02:05:31] INFO root fetch - processPackages [djangorestframework_emailuser]: Remove: archive file [/home/abi/fetcher/tmp/djangorestframework_emailuser-0.2.1.dev0.tar.gz]
+[2023-07-11 02:05:31] INFO root fetch - processPackages [djangorestframework_emailuser]: Remove: archive file [/home/abi/fetcher/tmp/djangorestframework_emailuser-0.3.0.dev0.tar.gz]
+[2023-07-11 02:05:31] INFO root fetch - main [MainThread]: End processing [djangorestframework_emailuser]: success
+[2023-07-11 02:05:31] INFO root fetch - processPackages [doodleverse-utils]: Remove: archive file [/home/abi/fetcher/tmp/doodleverse-utils-0.0.8.tar.gz]
+[2023-07-11 02:05:31] INFO root fetch - processPackages [doodleverse-utils]: Remove: archive file [/home/abi/fetcher/tmp/doodleverse-utils-0.0.9.tar.gz]
+[2023-07-11 02:05:31] INFO root fetch - main [MainThread]: End processing [doodleverse-utils]: success
+[2023-07-11 02:05:31] INFO root fetch - processPackages [pepperize.cdk-github]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-github-0.0.98.tar.gz]
+[2023-07-11 02:05:31] INFO root fetch - processPackages [pepperize.cdk-github]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-github-0.0.99.tar.gz]
+[2023-07-11 02:05:31] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-github]: success
+[2023-07-11 02:05:32] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-1.9.0.20230709.post509.tar.gz]
+[2023-07-11 02:05:32] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-1.9.0.20230710.post454.tar.gz]
+[2023-07-11 02:05:32] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
+[2023-07-11 02:05:32] INFO root fetch - main [MainThread]: Store serial: [18837896]
