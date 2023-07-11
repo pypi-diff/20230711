@@ -9025,3 +9025,60 @@ AssertionError: tmp/doctran-0.0.6.tar.gz does not exist
 [2023-07-11 05:55:00] INFO root fetch - processPackages [odoo14-addon-fiscal-epos-print]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_fiscal_epos_print-14.0.1.0.2.dev4-py3-none-any.whl.zip]
 [2023-07-11 05:55:00] INFO root fetch - main [MainThread]: End processing [odoo14-addon-fiscal-epos-print]: success
 [2023-07-11 05:55:00] INFO root fetch - main [MainThread]: Store serial: [18840607]
+[2023-07-11 06:00:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18840607]
+[2023-07-11 06:00:08] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-11 06:00:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fnum
+[2023-07-11 06:00:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: levelflatten
+[2023-07-11 06:00:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: esphome-dashboard
+[2023-07-11 06:00:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: usda
+[2023-07-11 06:00:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dolma
+[2023-07-11 06:00:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mcemtools
+[2023-07-11 06:00:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aql-builder
+[2023-07-11 06:00:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pypicorom
+[2023-07-11 06:00:09] INFO root fetch - processPackages [usda]: New version: [0.0.25] Old Version: [0.0.24]
+[2023-07-11 06:00:09] INFO root fetch - processPackages [fnum]: New version: [1.5.0] Old Version: [1.4.0]
+[2023-07-11 06:00:09] WARNING root fetch - processPackages [levelflatten]: Skipping, unable to determine old version
+[2023-07-11 06:00:09] INFO root fetch - main [MainThread]: End processing [levelflatten] error
+[2023-07-11 06:00:09] WARNING root fetch - processPackages [aql-builder]: Skipping, unable to determine old version
+[2023-07-11 06:00:09] INFO root fetch - main [MainThread]: End processing [aql-builder] error
+[2023-07-11 06:00:09] INFO root fetch - processPackages [dolma]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-07-11 06:00:09] INFO root fetch - processPackages [mcemtools]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-11 06:00:09] INFO root fetch - processPackages [esphome-dashboard]: New version: [20230711.0] Old Version: [20230621.0]
+[2023-07-11 06:00:09] WARNING root fetch - processPackages [pypicorom]: Skipping, unable to determine old version
+[2023-07-11 06:00:09] INFO root fetch - main [MainThread]: End processing [pypicorom] error
+[2023-07-11 06:00:09] INFO root fetch - processPackages [dolma]: Downloading https://files.pythonhosted.org/packages/2c/54/4df369b42841b145074c4d62c81f89dd1202106cbd73370c568ab57a9227/dolma-0.6.2.tar.gz
+[2023-07-11 06:00:09] INFO root fetch - processPackages [usda]: Downloading https://files.pythonhosted.org/packages/b4/aa/253d2c2cae8b3ca38adee2922de3f6e0682f6d82628ebf87f6f013c49c02/usda-0.0.24.tar.gz
+[2023-07-11 06:00:09] INFO root fetch - processPackages [fnum]: Downloading https://files.pythonhosted.org/packages/19/16/fd5c830e4f049da7bdadedbfdc50248037f78404a5f8dd1556ee58c57f2b/fnum-1.4.0-py3-none-any.whl
+[2023-07-11 06:00:09] INFO root fetch - processPackages [mcemtools]: Downloading https://files.pythonhosted.org/packages/ea/92/7ccf674215616bdf50d65eb62b40886c84fd1ef33db5bf85e293d7d9824b/mcemtools-0.1.0.tar.gz
+[2023-07-11 06:00:09] INFO root fetch - processPackages [esphome-dashboard]: Downloading https://files.pythonhosted.org/packages/3c/14/570b72f7d572dc8c9fd0d830c0606b0a71e574f76fc15add27a0ba112b62/esphome-dashboard-20230621.0.tar.gz
+[2023-07-11 06:00:09] INFO root fetch - processPackages [usda]: Downloading https://files.pythonhosted.org/packages/9b/1c/5f8dd5fb0427c8de7657021a96b4bf773d760708db15a795d29cfcd051af/usda-0.0.25.tar.gz
+[2023-07-11 06:00:09] INFO root fetch - processPackages [fnum]: Downloading https://files.pythonhosted.org/packages/49/3b/56b9f5fd2339f774407ba30143731890be5ab792151b85cff7c6b2b77b60/fnum-1.5.0-py3-none-any.whl
+[2023-07-11 06:00:09] INFO root fetch - processPackages [dolma]: Downloading https://files.pythonhosted.org/packages/92/71/f15487e74234ae9aacce7aed54ebd4d28540561e552d63e98d3576bd39b7/dolma-0.6.3.tar.gz
+[2023-07-11 06:00:09] INFO root fetch - processPackages [mcemtools]: Downloading https://files.pythonhosted.org/packages/60/e4/2ecd0bcf60e7bf1ceda31d918ca6a47a08ab50450d09a37c498373ec4914/mcemtools-0.2.0.tar.gz
+[2023-07-11 06:00:10] INFO root fetch - processPackages [fnum]: executing diffoscope
+[2023-07-11 06:00:10] INFO root fetch - processPackages [fnum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fnum-1.4.0-py3-none-any.whl.zip tmp/fnum-1.5.0-py3-none-any.whl.zip --markdown 20230711/f/fnum/1.4.0-1.5.0/diff.md --exclude *.pyd
+[2023-07-11 06:00:10] INFO root fetch - processPackages [usda]: executing diffoscope
+[2023-07-11 06:00:10] INFO root fetch - processPackages [usda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/usda-0.0.24.tar.gz tmp/usda-0.0.25.tar.gz --markdown 20230711/u/usda/0.0.24-0.0.25/diff.md --exclude *.pyd
+[2023-07-11 06:00:10] INFO root fetch - processPackages [esphome-dashboard]: Downloading https://files.pythonhosted.org/packages/62/b7/3eea1906209f826420b47b093afe7ff361c91506362b9f49c588fd379feb/esphome-dashboard-20230711.0.tar.gz
+[2023-07-11 06:00:10] INFO root fetch - processPackages [mcemtools]: executing diffoscope
+[2023-07-11 06:00:10] INFO root fetch - processPackages [mcemtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mcemtools-0.1.0.tar.gz tmp/mcemtools-0.2.0.tar.gz --markdown 20230711/m/mcemtools/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-11 06:00:10] INFO root fetch - processPackages [dolma]: executing diffoscope
+[2023-07-11 06:00:10] INFO root fetch - processPackages [dolma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dolma-0.6.2.tar.gz tmp/dolma-0.6.3.tar.gz --markdown 20230711/d/dolma/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-07-11 06:00:10] INFO root fetch - processPackages [fnum]: Remove: archive file [/home/abi/fetcher/tmp/fnum-1.4.0-py3-none-any.whl.zip]
+[2023-07-11 06:00:10] INFO root fetch - processPackages [fnum]: Remove: archive file [/home/abi/fetcher/tmp/fnum-1.5.0-py3-none-any.whl.zip]
+[2023-07-11 06:00:10] INFO root fetch - main [MainThread]: End processing [fnum]: success
+[2023-07-11 06:00:10] INFO root fetch - processPackages [esphome-dashboard]: executing diffoscope
+[2023-07-11 06:00:10] INFO root fetch - processPackages [esphome-dashboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esphome-dashboard-20230621.0.tar.gz tmp/esphome-dashboard-20230711.0.tar.gz --markdown 20230711/e/esphome-dashboard/20230621.0-20230711.0/diff.md --exclude *.pyd
+[2023-07-11 06:00:10] INFO root fetch - processPackages [mcemtools]: Remove: archive file [/home/abi/fetcher/tmp/mcemtools-0.1.0.tar.gz]
+[2023-07-11 06:00:10] INFO root fetch - processPackages [mcemtools]: Remove: archive file [/home/abi/fetcher/tmp/mcemtools-0.2.0.tar.gz]
+[2023-07-11 06:00:10] INFO root fetch - main [MainThread]: End processing [mcemtools]: success
+[2023-07-11 06:00:11] INFO root fetch - processPackages [dolma]: Remove: archive file [/home/abi/fetcher/tmp/dolma-0.6.2.tar.gz]
+[2023-07-11 06:00:11] INFO root fetch - processPackages [dolma]: Remove: archive file [/home/abi/fetcher/tmp/dolma-0.6.3.tar.gz]
+[2023-07-11 06:00:11] INFO root fetch - main [MainThread]: End processing [dolma]: success
+[2023-07-11 06:00:11] INFO root fetch - processPackages [usda]: Remove: archive file [/home/abi/fetcher/tmp/usda-0.0.24.tar.gz]
+[2023-07-11 06:00:11] INFO root fetch - processPackages [usda]: Remove: archive file [/home/abi/fetcher/tmp/usda-0.0.25.tar.gz]
+[2023-07-11 06:00:11] INFO root fetch - main [MainThread]: End processing [usda]: success
+[2023-07-11 06:00:38] INFO root fetch - processPackages [esphome-dashboard]: Remove: archive file [/home/abi/fetcher/tmp/esphome-dashboard-20230621.0.tar.gz]
+[2023-07-11 06:00:38] INFO root fetch - processPackages [esphome-dashboard]: Remove: archive file [/home/abi/fetcher/tmp/esphome-dashboard-20230711.0.tar.gz]
+[2023-07-11 06:00:38] INFO root fetch - main [MainThread]: End processing [esphome-dashboard]: success
+[2023-07-11 06:00:38] INFO root fetch - main [MainThread]: Store serial: [18840679]
