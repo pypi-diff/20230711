@@ -17266,3 +17266,119 @@ AssertionError: tmp/doctran-0.0.6.tar.gz does not exist
 [2023-07-11 12:50:15] INFO root fetch - processPackages [VisionFive.gpio]: Remove: archive file [/home/abi/fetcher/tmp/VisionFive.gpio-1.2.13-cp310-abi3-any.whl.zip]
 [2023-07-11 12:50:15] INFO root fetch - main [MainThread]: End processing [VisionFive.gpio]: success
 [2023-07-11 12:50:15] INFO root fetch - main [MainThread]: Store serial: [18843999]
+[2023-07-11 12:55:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18843999]
+[2023-07-11 12:55:24] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-11 12:55:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: oxasl-ve
+[2023-07-11 12:55:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rivalcfg
+[2023-07-11 12:55:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: asset-tracking-pepsico
+[2023-07-11 12:55:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: json-any
+[2023-07-11 12:55:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lusid-drive-sdk
+[2023-07-11 12:55:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lusid-drive-sdk-preview
+[2023-07-11 12:55:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: taichu-storage
+[2023-07-11 12:55:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: chatllm
+[2023-07-11 12:55:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cognite-power-ops
+[2023-07-11 12:55:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: papertronics-sdk
+[2023-07-11 12:55:25] INFO root fetch - processPackages [oxasl-ve]: New version: [0.2.0.post4] Old Version: [0.2.0.post3]
+[2023-07-11 12:55:25] INFO root fetch - processPackages [cognite-power-ops]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-11 12:55:25] INFO root fetch - processPackages [json-any]: New version: [2023.1] Old Version: [2022.9]
+[2023-07-11 12:55:25] INFO root fetch - processPackages [chatllm]: New version: [2023.7.4.13.43.50] Old Version: [2023.7.4.12.13.14]
+[2023-07-11 12:55:25] INFO root fetch - processPackages [asset-tracking-pepsico]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-11 12:55:25] INFO root fetch - processPackages [rivalcfg]: New version: [4.9.1] Old Version: [4.9.0]
+[2023-07-11 12:55:25] INFO root fetch - processPackages [taichu-storage]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-11 12:55:25] INFO root fetch - processPackages [papertronics-sdk]: New version: [0.0.29] Old Version: [0.0.28]
+[2023-07-11 12:55:25] INFO root fetch - processPackages [lusid-drive-sdk-preview]: New version: [0.1.96] Old Version: [0.1.95]
+[2023-07-11 12:55:25] INFO root fetch - processPackages [lusid-drive-sdk]: New version: [0.1.96] Old Version: [0.1.95]
+[2023-07-11 12:55:25] INFO root fetch - processPackages [cognite-power-ops]: Downloading https://files.pythonhosted.org/packages/2b/ea/c056f5562fa0bed4321b21572bba15a2f43f6f9795d20397ee822d00d6af/cognite_power_ops-0.9.1.tar.gz
+[2023-07-11 12:55:25] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/ac/15/d8015b5ea1834f5c18e47edecc9b74875a43e81a49b4b2b2372660959ee1/chatllm-2023.7.4.12.13.14.tar.gz
+[2023-07-11 12:55:25] INFO root fetch - processPackages [papertronics-sdk]: Downloading https://files.pythonhosted.org/packages/ac/01/ac725d619b35540a240cbccd93fd718a4a03377ab33bb01e82d5e680acf1/papertronics-sdk-0.0.28.tar.gz
+[2023-07-11 12:55:25] INFO root fetch - processPackages [taichu-storage]: Downloading https://files.pythonhosted.org/packages/52/b5/b7bf54b111275b0ddeeb6f8d570b5e885b06fd58a8f3d2363022f2b22942/taichu-storage-0.0.6.tar.gz
+[2023-07-11 12:55:25] INFO root fetch - processPackages [oxasl-ve]: Downloading https://files.pythonhosted.org/packages/99/8f/0c2900b1a7753e1b8084a2231f5490f2f7fd3999301f26ba32aad4b800dd/oxasl-ve-0.2.0.post3.tar.gz
+[2023-07-11 12:55:25] INFO root fetch - processPackages [json-any]: Downloading https://files.pythonhosted.org/packages/66/75/4f9be736f3ef961520dc62b30c25aa731e5abf4caa9c21c3d0be2ab16c50/json-any-2022.9.tar.gz
+[2023-07-11 12:55:25] INFO root fetch - processPackages [rivalcfg]: Downloading https://files.pythonhosted.org/packages/e8/91/a69bb7dabcc9be7fcf5cb21c12e8d971b3cb4e63ca4ee22e6b3937be816d/rivalcfg-4.9.0.tar.gz
+[2023-07-11 12:55:25] INFO root fetch - processPackages [lusid-drive-sdk-preview]: Downloading https://files.pythonhosted.org/packages/3c/36/7ba764c059e4db444f6cf2e73cd8a04b8f90fa2ed8bc8e663f775912d783/lusid-drive-sdk-preview-0.1.95.tar.gz
+[2023-07-11 12:55:25] WARNING root fetch - processPackages [chatllm]: Skipping package: exceeds size limit 11352041>=10485760
+[2023-07-11 12:55:25] INFO root fetch - processPackages [chatllm]: Start processing: xhorizon
+[2023-07-11 12:55:25] INFO root fetch - main [MainThread]: End processing [chatllm] error
+[2023-07-11 12:55:25] INFO root fetch - processPackages [asset-tracking-pepsico]: Downloading https://files.pythonhosted.org/packages/bf/b4/cccf0a9eeb0ad47882cdb9183c811c01063213b15a674e56f36d85628170/asset_tracking_pepsico-1.0.1.tar.gz
+[2023-07-11 12:55:25] INFO root fetch - processPackages [lusid-drive-sdk]: Downloading https://files.pythonhosted.org/packages/de/c4/d650d6220b8a796e210b789647cfcab1357ab3bd9085ea87d503604999f7/lusid-drive-sdk-0.1.95.tar.gz
+[2023-07-11 12:55:25] INFO root fetch - processPackages [xhorizon]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-07-11 12:55:25] INFO root fetch - processPackages [cognite-power-ops]: Downloading https://files.pythonhosted.org/packages/5a/e7/e66818fdcb4e952516e36c68513139d425136901b019cc2b7ae48bfa3c12/cognite_power_ops-0.9.2.tar.gz
+[2023-07-11 12:55:25] INFO root fetch - processPackages [taichu-storage]: Downloading https://files.pythonhosted.org/packages/a0/f7/b01c89332caae3f3993ffa203f3cdcb7947ac105927df6005fe88cb730b5/taichu-storage-0.0.7.tar.gz
+[2023-07-11 12:55:25] INFO root fetch - processPackages [cognite-power-ops]: executing diffoscope
+[2023-07-11 12:55:25] INFO root fetch - processPackages [cognite-power-ops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_power_ops-0.9.1.tar.gz tmp/cognite_power_ops-0.9.2.tar.gz --markdown 20230711/c/cognite-power-ops/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-11 12:55:25] INFO root fetch - processPackages [papertronics-sdk]: Downloading https://files.pythonhosted.org/packages/de/21/cad01ec76a6cc2be4965a38f91524a926fd5e7611abef5d0c4047cc1a60e/papertronics-sdk-0.0.29.tar.gz
+[2023-07-11 12:55:25] INFO root fetch - processPackages [lusid-drive-sdk-preview]: Downloading https://files.pythonhosted.org/packages/61/f8/d24acce70923cfb6b98f767d1ae2f0c298d30f53032363ce65751be8b091/lusid-drive-sdk-preview-0.1.96.tar.gz
+[2023-07-11 12:55:25] INFO root fetch - processPackages [xhorizon]: Downloading https://files.pythonhosted.org/packages/9a/9c/da1e0aff3853c2ca07ac44ce4928f3b0b0c379461e7a3ab50033a4498a7f/xhorizon-1.1.2.tar.gz
+[2023-07-11 12:55:25] INFO root fetch - processPackages [taichu-storage]: executing diffoscope
+[2023-07-11 12:55:25] INFO root fetch - processPackages [taichu-storage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taichu-storage-0.0.6.tar.gz tmp/taichu-storage-0.0.7.tar.gz --markdown 20230711/t/taichu-storage/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-11 12:55:25] INFO root fetch - processPackages [asset-tracking-pepsico]: Downloading https://files.pythonhosted.org/packages/ef/9a/5794cbc066ebba2cfc28d21917c25c0d6dee12655c795bfa1d8c1d6af2a4/asset_tracking_pepsico-1.0.2.tar.gz
+[2023-07-11 12:55:25] INFO root fetch - processPackages [papertronics-sdk]: executing diffoscope
+[2023-07-11 12:55:25] INFO root fetch - processPackages [papertronics-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/papertronics-sdk-0.0.28.tar.gz tmp/papertronics-sdk-0.0.29.tar.gz --markdown 20230711/p/papertronics-sdk/0.0.28-0.0.29/diff.md --exclude *.pyd
+[2023-07-11 12:55:25] INFO root fetch - processPackages [json-any]: Downloading https://files.pythonhosted.org/packages/e5/59/429b20a9b1d13c08c2e6e18336347a2c7d3052e00a6122f77c3a3e5e2be7/json-any-2023.1.tar.gz
+[2023-07-11 12:55:26] INFO root fetch - processPackages [rivalcfg]: Downloading https://files.pythonhosted.org/packages/83/71/679c46d1352e55ee665e6c2c0b421a2fc5d70523001736d74f181c082224/rivalcfg-4.9.1.tar.gz
+[2023-07-11 12:55:26] INFO root fetch - processPackages [oxasl-ve]: Downloading https://files.pythonhosted.org/packages/e7/3b/5d1471a5fb9a796fa845282d10443f7d24fd015a507152c75a17f4060c16/oxasl-ve-0.2.0.post4.tar.gz
+[2023-07-11 12:55:26] INFO root fetch - processPackages [lusid-drive-sdk-preview]: executing diffoscope
+[2023-07-11 12:55:26] INFO root fetch - processPackages [lusid-drive-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-drive-sdk-preview-0.1.95.tar.gz tmp/lusid-drive-sdk-preview-0.1.96.tar.gz --markdown 20230711/l/lusid-drive-sdk-preview/0.1.95-0.1.96/diff.md --exclude *.pyd
+[2023-07-11 12:55:26] INFO root fetch - processPackages [asset-tracking-pepsico]: executing diffoscope
+[2023-07-11 12:55:26] INFO root fetch - processPackages [asset-tracking-pepsico]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asset_tracking_pepsico-1.0.1.tar.gz tmp/asset_tracking_pepsico-1.0.2.tar.gz --markdown 20230711/a/asset-tracking-pepsico/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-11 12:55:26] INFO root fetch - processPackages [lusid-drive-sdk]: Downloading https://files.pythonhosted.org/packages/df/40/34d8137d43f70f7a96037ba54cbbab838b9ae0bc84531d2be22cb7d3a967/lusid-drive-sdk-0.1.96.tar.gz
+[2023-07-11 12:55:26] INFO root fetch - processPackages [json-any]: executing diffoscope
+[2023-07-11 12:55:26] INFO root fetch - processPackages [json-any]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/json-any-2022.9.tar.gz tmp/json-any-2023.1.tar.gz --markdown 20230711/j/json-any/2022.9-2023.1/diff.md --exclude *.pyd
+[2023-07-11 12:55:26] INFO root fetch - processPackages [rivalcfg]: executing diffoscope
+[2023-07-11 12:55:26] INFO root fetch - processPackages [rivalcfg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rivalcfg-4.9.0.tar.gz tmp/rivalcfg-4.9.1.tar.gz --markdown 20230711/r/rivalcfg/4.9.0-4.9.1/diff.md --exclude *.pyd
+[2023-07-11 12:55:26] INFO root fetch - processPackages [lusid-drive-sdk]: executing diffoscope
+[2023-07-11 12:55:26] INFO root fetch - processPackages [lusid-drive-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-drive-sdk-0.1.95.tar.gz tmp/lusid-drive-sdk-0.1.96.tar.gz --markdown 20230711/l/lusid-drive-sdk/0.1.95-0.1.96/diff.md --exclude *.pyd
+[2023-07-11 12:55:26] INFO root fetch - processPackages [oxasl-ve]: executing diffoscope
+[2023-07-11 12:55:26] INFO root fetch - processPackages [oxasl-ve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oxasl-ve-0.2.0.post3.tar.gz tmp/oxasl-ve-0.2.0.post4.tar.gz --markdown 20230711/o/oxasl-ve/0.2.0.post3-0.2.0.post4/diff.md --exclude *.pyd
+[2023-07-11 12:55:26] INFO root fetch - processPackages [xhorizon]: Downloading https://files.pythonhosted.org/packages/f5/b1/afa6cb766eee4199fc4d7211b49a9c95e6903bc909ec1ffb3ccd1b6a307a/xhorizon-1.1.3.tar.gz
+[2023-07-11 12:55:26] INFO root fetch - processPackages [xhorizon]: executing diffoscope
+[2023-07-11 12:55:26] INFO root fetch - processPackages [xhorizon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xhorizon-1.1.2.tar.gz tmp/xhorizon-1.1.3.tar.gz --markdown 20230711/x/xhorizon/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-07-11 12:55:27] INFO root fetch - processPackages [taichu-storage]: Remove: archive file [/home/abi/fetcher/tmp/taichu-storage-0.0.6.tar.gz]
+[2023-07-11 12:55:27] INFO root fetch - processPackages [taichu-storage]: Remove: archive file [/home/abi/fetcher/tmp/taichu-storage-0.0.7.tar.gz]
+[2023-07-11 12:55:27] INFO root fetch - processPackages [taichu-storage]: Start processing: WeTextProcessing
+[2023-07-11 12:55:27] INFO root fetch - main [MainThread]: End processing [taichu-storage]: success
+[2023-07-11 12:55:27] INFO root fetch - processPackages [papertronics-sdk]: Remove: archive file [/home/abi/fetcher/tmp/papertronics-sdk-0.0.28.tar.gz]
+[2023-07-11 12:55:27] INFO root fetch - processPackages [papertronics-sdk]: Remove: archive file [/home/abi/fetcher/tmp/papertronics-sdk-0.0.29.tar.gz]
+[2023-07-11 12:55:27] INFO root fetch - processPackages [papertronics-sdk]: Start processing: moonwiki
+[2023-07-11 12:55:27] INFO root fetch - main [MainThread]: End processing [papertronics-sdk]: success
+[2023-07-11 12:55:27] INFO root fetch - processPackages [cognite-power-ops]: Remove: archive file [/home/abi/fetcher/tmp/cognite_power_ops-0.9.1.tar.gz]
+[2023-07-11 12:55:27] INFO root fetch - processPackages [cognite-power-ops]: Remove: archive file [/home/abi/fetcher/tmp/cognite_power_ops-0.9.2.tar.gz]
+[2023-07-11 12:55:27] INFO root fetch - main [MainThread]: End processing [cognite-power-ops]: success
+[2023-07-11 12:55:27] INFO root fetch - processPackages [WeTextProcessing]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-11 12:55:27] INFO root fetch - processPackages [asset-tracking-pepsico]: Remove: archive file [/home/abi/fetcher/tmp/asset_tracking_pepsico-1.0.1.tar.gz]
+[2023-07-11 12:55:27] INFO root fetch - processPackages [asset-tracking-pepsico]: Remove: archive file [/home/abi/fetcher/tmp/asset_tracking_pepsico-1.0.2.tar.gz]
+[2023-07-11 12:55:27] INFO root fetch - main [MainThread]: End processing [asset-tracking-pepsico]: success
+[2023-07-11 12:55:27] INFO root fetch - processPackages [moonwiki]: New version: [2023.7.6.3] Old Version: [2023.7.6.2]
+[2023-07-11 12:55:27] INFO root fetch - processPackages [json-any]: Remove: archive file [/home/abi/fetcher/tmp/json-any-2022.9.tar.gz]
+[2023-07-11 12:55:27] INFO root fetch - processPackages [json-any]: Remove: archive file [/home/abi/fetcher/tmp/json-any-2023.1.tar.gz]
+[2023-07-11 12:55:27] INFO root fetch - main [MainThread]: End processing [json-any]: success
+[2023-07-11 12:55:27] INFO root fetch - processPackages [WeTextProcessing]: Downloading https://files.pythonhosted.org/packages/25/8e/39235182d8a7bcdc2989af63b2fa8c03e463a76a613f3174166233ad29f4/WeTextProcessing-0.1.1.tar.gz
+[2023-07-11 12:55:27] INFO root fetch - processPackages [moonwiki]: Downloading https://files.pythonhosted.org/packages/09/c8/7a6b6c4b3568b573c89e072fd6984dbd3b7d411796327e793e0cbdb11fd1/moonwiki-2023.7.6.2.tar.gz
+[2023-07-11 12:55:27] INFO root fetch - processPackages [lusid-drive-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid-drive-sdk-0.1.95.tar.gz]
+[2023-07-11 12:55:27] INFO root fetch - processPackages [lusid-drive-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid-drive-sdk-0.1.96.tar.gz]
+[2023-07-11 12:55:27] INFO root fetch - main [MainThread]: End processing [lusid-drive-sdk]: success
+[2023-07-11 12:55:27] INFO root fetch - processPackages [oxasl-ve]: Remove: archive file [/home/abi/fetcher/tmp/oxasl-ve-0.2.0.post3.tar.gz]
+[2023-07-11 12:55:27] INFO root fetch - processPackages [oxasl-ve]: Remove: archive file [/home/abi/fetcher/tmp/oxasl-ve-0.2.0.post4.tar.gz]
+[2023-07-11 12:55:27] INFO root fetch - main [MainThread]: End processing [oxasl-ve]: success
+[2023-07-11 12:55:27] INFO root fetch - processPackages [rivalcfg]: Remove: archive file [/home/abi/fetcher/tmp/rivalcfg-4.9.0.tar.gz]
+[2023-07-11 12:55:27] INFO root fetch - processPackages [rivalcfg]: Remove: archive file [/home/abi/fetcher/tmp/rivalcfg-4.9.1.tar.gz]
+[2023-07-11 12:55:27] INFO root fetch - main [MainThread]: End processing [rivalcfg]: success
+[2023-07-11 12:55:28] INFO root fetch - processPackages [xhorizon]: Remove: archive file [/home/abi/fetcher/tmp/xhorizon-1.1.2.tar.gz]
+[2023-07-11 12:55:28] INFO root fetch - processPackages [xhorizon]: Remove: archive file [/home/abi/fetcher/tmp/xhorizon-1.1.3.tar.gz]
+[2023-07-11 12:55:28] INFO root fetch - main [MainThread]: End processing [xhorizon]: success
+[2023-07-11 12:55:28] INFO root fetch - processPackages [lusid-drive-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-drive-sdk-preview-0.1.95.tar.gz]
+[2023-07-11 12:55:28] INFO root fetch - processPackages [lusid-drive-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-drive-sdk-preview-0.1.96.tar.gz]
+[2023-07-11 12:55:28] INFO root fetch - main [MainThread]: End processing [lusid-drive-sdk-preview]: success
+[2023-07-11 12:55:28] INFO root fetch - processPackages [moonwiki]: Downloading https://files.pythonhosted.org/packages/28/2a/d179fbcdf8c90a0b1e0f8a90815b5261b7c79d954a416f80fa535c3aea21/moonwiki-2023.7.6.3.tar.gz
+[2023-07-11 12:55:28] INFO root fetch - processPackages [WeTextProcessing]: Downloading https://files.pythonhosted.org/packages/61/4a/de3742a53a27235f7f901de71e5a0835d5a107a46e8816d0b49b3ce8a98c/WeTextProcessing-0.1.2.tar.gz
+[2023-07-11 12:55:28] INFO root fetch - processPackages [moonwiki]: executing diffoscope
+[2023-07-11 12:55:28] INFO root fetch - processPackages [moonwiki]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moonwiki-2023.7.6.2.tar.gz tmp/moonwiki-2023.7.6.3.tar.gz --markdown 20230711/m/moonwiki/2023.7.6.2-2023.7.6.3/diff.md --exclude *.pyd
+[2023-07-11 12:55:28] INFO root fetch - processPackages [WeTextProcessing]: executing diffoscope
+[2023-07-11 12:55:28] INFO root fetch - processPackages [WeTextProcessing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WeTextProcessing-0.1.1.tar.gz tmp/WeTextProcessing-0.1.2.tar.gz --markdown 20230711/W/WeTextProcessing/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-11 12:55:28] INFO root fetch - processPackages [moonwiki]: Remove: archive file [/home/abi/fetcher/tmp/moonwiki-2023.7.6.2.tar.gz]
+[2023-07-11 12:55:28] INFO root fetch - processPackages [moonwiki]: Remove: archive file [/home/abi/fetcher/tmp/moonwiki-2023.7.6.3.tar.gz]
+[2023-07-11 12:55:28] INFO root fetch - main [MainThread]: End processing [moonwiki]: success
+[2023-07-11 12:55:29] INFO root fetch - processPackages [WeTextProcessing]: Remove: archive file [/home/abi/fetcher/tmp/WeTextProcessing-0.1.1.tar.gz]
+[2023-07-11 12:55:29] INFO root fetch - processPackages [WeTextProcessing]: Remove: archive file [/home/abi/fetcher/tmp/WeTextProcessing-0.1.2.tar.gz]
+[2023-07-11 12:55:29] INFO root fetch - main [MainThread]: End processing [WeTextProcessing]: success
+[2023-07-11 12:55:29] INFO root fetch - main [MainThread]: Store serial: [18844039]
