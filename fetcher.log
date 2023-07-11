@@ -21875,3 +21875,136 @@ EOFError: EOF read where object expected
 [2023-07-11 15:42:00] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307111339-py3-none-any.whl.zip]
 [2023-07-11 15:42:00] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-07-11 15:42:00] INFO root fetch - main [MainThread]: Store serial: [18846093]
+[2023-07-11 15:47:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18846093]
+[2023-07-11 15:47:10] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-11 15:47:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kfish
+[2023-07-11 15:47:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kappadata
+[2023-07-11 15:47:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gispandas
+[2023-07-11 15:47:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: chirho
+[2023-07-11 15:47:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: amazon-textract-idp-cdk-constructs
+[2023-07-11 15:47:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rasa
+[2023-07-11 15:47:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fbgemm-gpu-nightly
+[2023-07-11 15:47:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: qtm-rt
+[2023-07-11 15:47:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cybrid-api-id-python
+[2023-07-11 15:47:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: momositemaps
+[2023-07-11 15:47:10] INFO root fetch - processPackages [amazon-textract-idp-cdk-constructs]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-11 15:47:10] INFO root fetch - processPackages [gispandas]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-11 15:47:10] INFO root fetch - processPackages [fbgemm-gpu-nightly]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-11 15:47:10] INFO root fetch - processPackages [kfish]: New version: [99.0.202307111342] Old Version: [99.0.202307111157]
+[2023-07-11 15:47:10] WARNING root fetch - processPackages [momositemaps]: Skipping, unable to determine old version
+[2023-07-11 15:47:10] INFO root fetch - processPackages [momositemaps]: Start processing: cybrid-api-organization-python
+[2023-07-11 15:47:10] INFO root fetch - main [MainThread]: End processing [momositemaps] error
+[2023-07-11 15:47:10] INFO root fetch - processPackages [qtm-rt]: New version: [3.0.1] Old Version: [3.0.0]
+[2023-07-11 15:47:10] WARNING root fetch - processPackages [chirho]: Skipping, unable to determine old version
+[2023-07-11 15:47:10] INFO root fetch - processPackages [chirho]: Start processing: anthropic
+[2023-07-11 15:47:10] INFO root fetch - main [MainThread]: End processing [chirho] error
+[2023-07-11 15:47:10] INFO root fetch - processPackages [kappadata]: New version: [1.3.5] Old Version: [1.3.4]
+[2023-07-11 15:47:10] INFO root fetch - processPackages [cybrid-api-id-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-11 15:47:10] INFO root fetch - processPackages [rasa]: New version: [3.7.0b1] Old Version: [3.6.2]
+[2023-07-11 15:47:10] INFO root fetch - processPackages [anthropic]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-07-11 15:47:10] INFO root fetch - processPackages [cybrid-api-organization-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-11 15:47:10] INFO root fetch - processPackages [fbgemm-gpu-nightly]: Downloading https://files.pythonhosted.org/packages/85/6f/86b176a883e5fa5efd2edb2801a311e2d4169621b2a4e85841bbefb09286/fbgemm_gpu_nightly-2023.7.8-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-11 15:47:10] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/3d/0e/1056dadde7d4825fa8f828ec18eda7428011d31b790d3c63ef5a4881d3ed/kfish-99.0.202307111157-py3-none-any.whl
+[2023-07-11 15:47:10] INFO root fetch - processPackages [kappadata]: Downloading https://files.pythonhosted.org/packages/49/38/74ed2ba69310b380f0af4032858550e047fc066010f5e653d55cb2bda78b/kappadata-1.3.4.tar.gz
+[2023-07-11 15:47:10] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/50/b7/b977148f4fc829a75a0b07e5a1a330568bf4060c71cf5e0e0a6449ffed87/cybrid-api-id-python-0.9.8.tar.gz
+[2023-07-11 15:47:10] INFO root fetch - processPackages [amazon-textract-idp-cdk-constructs]: Downloading https://files.pythonhosted.org/packages/39/f3/d4f702ac711deb309800f2f040e57ade042b374750e8d8439c4bcf8324f0/amazon-textract-idp-cdk-constructs-0.0.8.tar.gz
+[2023-07-11 15:47:10] WARNING root fetch - processPackages [fbgemm-gpu-nightly]: Skipping package: exceeds size limit 264523724>=10485760
+[2023-07-11 15:47:10] INFO root fetch - processPackages [fbgemm-gpu-nightly]: Start processing: cybrid-api-bank-python
+[2023-07-11 15:47:10] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly] error
+[2023-07-11 15:47:10] INFO root fetch - processPackages [gispandas]: Downloading https://files.pythonhosted.org/packages/60/d2/ad24618a572293d3bec85679864898dba5dfd11e08c85a66f21f3480c88d/gispandas-0.1.6.tar.gz
+[2023-07-11 15:47:10] INFO root fetch - processPackages [anthropic]: Downloading https://files.pythonhosted.org/packages/f8/f5/a04beac84817adbbb175e913b9ec20b84efda260714a12d2f17e9bd8fb54/anthropic-0.3.3.tar.gz
+[2023-07-11 15:47:10] INFO root fetch - processPackages [qtm-rt]: Downloading https://files.pythonhosted.org/packages/2e/3c/84df42e1a4f0ab1b65cdb04517a14f84d8839f5f6140c4faccae2b658577/qtm_rt-3.0.0-py3-none-any.whl
+[2023-07-11 15:47:10] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/8c/f9/11b3397de980d7217c6b56728b693a302080844e78e135a12319c23d1e09/cybrid-api-organization-python-0.9.8.tar.gz
+[2023-07-11 15:47:11] INFO root fetch - processPackages [cybrid-api-bank-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-11 15:47:11] INFO root fetch - processPackages [rasa]: Downloading https://files.pythonhosted.org/packages/54/57/dafeacd73bf1fe5b6fda1245d762ec427eb3c41490879ace4bd5f8c5e325/rasa-3.6.2.tar.gz
+[2023-07-11 15:47:11] INFO root fetch - processPackages [cybrid-api-bank-python]: Downloading https://files.pythonhosted.org/packages/20/58/83595c25956605935aa08227f1f01b1c02743825aca19e267bc95d1b4928/cybrid-api-bank-python-0.9.8.tar.gz
+[2023-07-11 15:47:11] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/df/0b/f41ef37cacb50f16ff72d759b9fe9a5fd7fe8bde214833a5c722ba07e136/cybrid-api-id-python-0.9.9.tar.gz
+[2023-07-11 15:47:11] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/2f/78/5363fb19239fe303868a63c97c28d6e9f3b924b53491013f68b717d7d448/kfish-99.0.202307111342-py3-none-any.whl
+[2023-07-11 15:47:11] INFO root fetch - processPackages [kappadata]: Downloading https://files.pythonhosted.org/packages/41/c6/dbc55ca549b97f727c82302f616d2bfd54e6eabb7961c5670cb1b12aa17c/kappadata-1.3.5.tar.gz
+[2023-07-11 15:47:11] INFO root fetch - processPackages [gispandas]: Downloading https://files.pythonhosted.org/packages/56/58/da4dd13415106000fffcf7827f1348fbd7489228c3840c5b8facf028294c/gispandas-0.1.7.tar.gz
+[2023-07-11 15:47:11] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/6e/9a/cba8516138af9b31af978d1cb5ac08501052b56ac24c59f876cc7432e4cd/cybrid-api-organization-python-0.9.9.tar.gz
+[2023-07-11 15:47:11] INFO root fetch - processPackages [cybrid-api-id-python]: executing diffoscope
+[2023-07-11 15:47:11] INFO root fetch - processPackages [cybrid-api-id-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-id-python-0.9.8.tar.gz tmp/cybrid-api-id-python-0.9.9.tar.gz --markdown 20230711/c/cybrid-api-id-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-11 15:47:11] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-07-11 15:47:11] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202307111157-py3-none-any.whl.zip tmp/kfish-99.0.202307111342-py3-none-any.whl.zip --markdown 20230711/k/kfish/99.0.202307111157-99.0.202307111342/diff.md --exclude *.pyd
+[2023-07-11 15:47:11] INFO root fetch - processPackages [anthropic]: Downloading https://files.pythonhosted.org/packages/d2/a9/09a94bb413b008f6fd7f334c95a0dc8b03422289855f23955dfb689bfd30/anthropic-0.3.4.tar.gz
+[2023-07-11 15:47:11] INFO root fetch - processPackages [cybrid-api-bank-python]: Downloading https://files.pythonhosted.org/packages/89/0b/5831e52f1895b5ffe4c5b8862788216f9cf6c8554dfffa92e8805799baaf/cybrid-api-bank-python-0.9.9.tar.gz
+[2023-07-11 15:47:11] INFO root fetch - processPackages [cybrid-api-organization-python]: executing diffoscope
+[2023-07-11 15:47:11] INFO root fetch - processPackages [cybrid-api-organization-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-organization-python-0.9.8.tar.gz tmp/cybrid-api-organization-python-0.9.9.tar.gz --markdown 20230711/c/cybrid-api-organization-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-11 15:47:11] INFO root fetch - processPackages [gispandas]: executing diffoscope
+[2023-07-11 15:47:11] INFO root fetch - processPackages [gispandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gispandas-0.1.6.tar.gz tmp/gispandas-0.1.7.tar.gz --markdown 20230711/g/gispandas/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-11 15:47:11] INFO root fetch - processPackages [kappadata]: executing diffoscope
+[2023-07-11 15:47:11] INFO root fetch - processPackages [kappadata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kappadata-1.3.4.tar.gz tmp/kappadata-1.3.5.tar.gz --markdown 20230711/k/kappadata/1.3.4-1.3.5/diff.md --exclude *.pyd
+[2023-07-11 15:47:11] INFO root fetch - processPackages [cybrid-api-bank-python]: executing diffoscope
+[2023-07-11 15:47:11] INFO root fetch - processPackages [cybrid-api-bank-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-bank-python-0.9.8.tar.gz tmp/cybrid-api-bank-python-0.9.9.tar.gz --markdown 20230711/c/cybrid-api-bank-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-11 15:47:11] INFO root fetch - processPackages [rasa]: Downloading https://files.pythonhosted.org/packages/9d/ee/6e6b3c4ee90ca7f8e4a90c4aecaa4db1d1af21d64f3fe48a0a503bfd72f1/rasa-3.7.0b1.tar.gz
+[2023-07-11 15:47:11] INFO root fetch - processPackages [amazon-textract-idp-cdk-constructs]: Downloading https://files.pythonhosted.org/packages/1f/b7/52ee38e3959d7f8eaa3f678d4682625ee16d35d87f0ef506883c7655a6f3/amazon-textract-idp-cdk-constructs-0.0.9.tar.gz
+[2023-07-11 15:47:11] INFO root fetch - processPackages [anthropic]: executing diffoscope
+[2023-07-11 15:47:11] INFO root fetch - processPackages [anthropic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anthropic-0.3.3.tar.gz tmp/anthropic-0.3.4.tar.gz --markdown 20230711/a/anthropic/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-07-11 15:47:11] INFO root fetch - processPackages [qtm-rt]: Downloading https://files.pythonhosted.org/packages/89/2a/b5cee2ce52fc9590316e29d78467f02b0600a11526863686f9992ccf3f4c/qtm_rt-3.0.1-py3-none-any.whl
+[2023-07-11 15:47:12] INFO root fetch - processPackages [rasa]: executing diffoscope
+[2023-07-11 15:47:12] INFO root fetch - processPackages [rasa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rasa-3.6.2.tar.gz tmp/rasa-3.7.0b1.tar.gz --markdown 20230711/r/rasa/3.6.2-3.7.0b1/diff.md --exclude *.pyd
+[2023-07-11 15:47:12] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202307111157-py3-none-any.whl.zip]
+[2023-07-11 15:47:12] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202307111342-py3-none-any.whl.zip]
+[2023-07-11 15:47:12] INFO root fetch - processPackages [kfish]: Start processing: pyzome
+[2023-07-11 15:47:12] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-07-11 15:47:12] WARNING root fetch - processPackages [pyzome]: Skipping, unable to determine old version
+[2023-07-11 15:47:12] INFO root fetch - processPackages [pyzome]: Start processing: fixms
+[2023-07-11 15:47:12] INFO root fetch - main [MainThread]: End processing [pyzome] error
+[2023-07-11 15:47:12] INFO root fetch - processPackages [fixms]: New version: [0.1.0] Old Version: [0.0.3]
+[2023-07-11 15:47:12] INFO root fetch - processPackages [qtm-rt]: executing diffoscope
+[2023-07-11 15:47:12] INFO root fetch - processPackages [qtm-rt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qtm_rt-3.0.0-py3-none-any.whl.zip tmp/qtm_rt-3.0.1-py3-none-any.whl.zip --markdown 20230711/q/qtm-rt/3.0.0-3.0.1/diff.md --exclude *.pyd
+[2023-07-11 15:47:12] INFO root fetch - processPackages [fixms]: Downloading https://files.pythonhosted.org/packages/af/c7/5f8926fa7604a10f015f0fc6359f9a05b59b2b55f6f3a724d240a78fcdd5/fixms-0.0.3.tar.gz
+[2023-07-11 15:47:13] INFO root fetch - processPackages [fixms]: Downloading https://files.pythonhosted.org/packages/44/15/b1c57d0fa28edb97b59656c294ea8836b4d1136d84e1ea0f84ea3b619fae/fixms-0.1.0.tar.gz
+[2023-07-11 15:47:13] INFO root fetch - processPackages [cybrid-api-organization-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-organization-python-0.9.8.tar.gz]
+[2023-07-11 15:47:13] INFO root fetch - processPackages [cybrid-api-organization-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-organization-python-0.9.9.tar.gz]
+[2023-07-11 15:47:13] INFO root fetch - processPackages [cybrid-api-organization-python]: Start processing: alcov
+[2023-07-11 15:47:13] INFO root fetch - main [MainThread]: End processing [cybrid-api-organization-python]: success
+[2023-07-11 15:47:13] INFO root fetch - processPackages [gispandas]: Remove: archive file [/home/abi/fetcher/tmp/gispandas-0.1.6.tar.gz]
+[2023-07-11 15:47:13] INFO root fetch - processPackages [gispandas]: Remove: archive file [/home/abi/fetcher/tmp/gispandas-0.1.7.tar.gz]
+[2023-07-11 15:47:13] INFO root fetch - processPackages [gispandas]: Start processing: pyepic
+[2023-07-11 15:47:13] INFO root fetch - main [MainThread]: End processing [gispandas]: success
+[2023-07-11 15:47:13] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.9.8.tar.gz]
+[2023-07-11 15:47:13] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.9.9.tar.gz]
+[2023-07-11 15:47:13] INFO root fetch - main [MainThread]: End processing [cybrid-api-id-python]: success
+[2023-07-11 15:47:13] INFO root fetch - processPackages [fixms]: executing diffoscope
+[2023-07-11 15:47:13] INFO root fetch - processPackages [fixms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fixms-0.0.3.tar.gz tmp/fixms-0.1.0.tar.gz --markdown 20230711/f/fixms/0.0.3-0.1.0/diff.md --exclude *.pyd
+[2023-07-11 15:47:13] INFO root fetch - processPackages [alcov]: New version: [1.1.6] Old Version: [1.1.5]
+[2023-07-11 15:47:13] INFO root fetch - processPackages [amazon-textract-idp-cdk-constructs]: executing diffoscope
+[2023-07-11 15:47:13] INFO root fetch - processPackages [amazon-textract-idp-cdk-constructs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amazon-textract-idp-cdk-constructs-0.0.8.tar.gz tmp/amazon-textract-idp-cdk-constructs-0.0.9.tar.gz --markdown 20230711/a/amazon-textract-idp-cdk-constructs/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-11 15:47:13] INFO root fetch - processPackages [pyepic]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-11 15:47:13] INFO root fetch - processPackages [alcov]: Downloading https://files.pythonhosted.org/packages/a2/29/90461037bbe5d794481d63ebf58613f9b7c22996b4507f344d1bee1c670f/alcov-1.1.5.tar.gz
+[2023-07-11 15:47:13] INFO root fetch - processPackages [pyepic]: Downloading https://files.pythonhosted.org/packages/ff/e0/58b60dcd9b8caacf55096e9c42a37e497e07e7f1fbe767da8f7c515acdf0/pyepic-1.0.8.tar.gz
+[2023-07-11 15:47:13] INFO root fetch - processPackages [anthropic]: Remove: archive file [/home/abi/fetcher/tmp/anthropic-0.3.3.tar.gz]
+[2023-07-11 15:47:13] INFO root fetch - processPackages [anthropic]: Remove: archive file [/home/abi/fetcher/tmp/anthropic-0.3.4.tar.gz]
+[2023-07-11 15:47:13] INFO root fetch - main [MainThread]: End processing [anthropic]: success
+[2023-07-11 15:47:13] INFO root fetch - processPackages [kappadata]: Remove: archive file [/home/abi/fetcher/tmp/kappadata-1.3.4.tar.gz]
+[2023-07-11 15:47:13] INFO root fetch - processPackages [kappadata]: Remove: archive file [/home/abi/fetcher/tmp/kappadata-1.3.5.tar.gz]
+[2023-07-11 15:47:13] INFO root fetch - main [MainThread]: End processing [kappadata]: success
+[2023-07-11 15:47:13] INFO root fetch - processPackages [alcov]: Downloading https://files.pythonhosted.org/packages/6f/50/c516d286278d280de9bc943410ab2a4e6f4ebf6da25790a198192169cb59/alcov-1.1.6.tar.gz
+[2023-07-11 15:47:14] INFO root fetch - processPackages [qtm-rt]: Remove: archive file [/home/abi/fetcher/tmp/qtm_rt-3.0.0-py3-none-any.whl.zip]
+[2023-07-11 15:47:14] INFO root fetch - processPackages [qtm-rt]: Remove: archive file [/home/abi/fetcher/tmp/qtm_rt-3.0.1-py3-none-any.whl.zip]
+[2023-07-11 15:47:14] INFO root fetch - main [MainThread]: End processing [qtm-rt]: success
+[2023-07-11 15:47:14] INFO root fetch - processPackages [pyepic]: Downloading https://files.pythonhosted.org/packages/3c/8a/81509452a068a89d49a65d218f76430f26db18a73c896dd8e29d87728f82/pyepic-1.0.9.tar.gz
+[2023-07-11 15:47:14] INFO root fetch - processPackages [alcov]: executing diffoscope
+[2023-07-11 15:47:14] INFO root fetch - processPackages [alcov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alcov-1.1.5.tar.gz tmp/alcov-1.1.6.tar.gz --markdown 20230711/a/alcov/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2023-07-11 15:47:14] INFO root fetch - processPackages [pyepic]: executing diffoscope
+[2023-07-11 15:47:14] INFO root fetch - processPackages [pyepic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyepic-1.0.8.tar.gz tmp/pyepic-1.0.9.tar.gz --markdown 20230711/p/pyepic/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-11 15:47:14] INFO root fetch - processPackages [fixms]: Remove: archive file [/home/abi/fetcher/tmp/fixms-0.0.3.tar.gz]
+[2023-07-11 15:47:14] INFO root fetch - processPackages [fixms]: Remove: archive file [/home/abi/fetcher/tmp/fixms-0.1.0.tar.gz]
+[2023-07-11 15:47:14] INFO root fetch - main [MainThread]: End processing [fixms]: success
+[2023-07-11 15:47:14] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.9.8.tar.gz]
+[2023-07-11 15:47:14] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.9.9.tar.gz]
+[2023-07-11 15:47:14] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
+[2023-07-11 15:47:15] INFO root fetch - processPackages [rasa]: Remove: archive file [/home/abi/fetcher/tmp/rasa-3.6.2.tar.gz]
+[2023-07-11 15:47:15] INFO root fetch - processPackages [rasa]: Remove: archive file [/home/abi/fetcher/tmp/rasa-3.7.0b1.tar.gz]
+[2023-07-11 15:47:15] INFO root fetch - main [MainThread]: End processing [rasa]: success
+[2023-07-11 15:47:15] INFO root fetch - processPackages [pyepic]: Remove: archive file [/home/abi/fetcher/tmp/pyepic-1.0.8.tar.gz]
+[2023-07-11 15:47:15] INFO root fetch - processPackages [pyepic]: Remove: archive file [/home/abi/fetcher/tmp/pyepic-1.0.9.tar.gz]
+[2023-07-11 15:47:15] INFO root fetch - main [MainThread]: End processing [pyepic]: success
+[2023-07-11 15:47:17] INFO root fetch - processPackages [amazon-textract-idp-cdk-constructs]: Remove: archive file [/home/abi/fetcher/tmp/amazon-textract-idp-cdk-constructs-0.0.8.tar.gz]
+[2023-07-11 15:47:17] INFO root fetch - processPackages [amazon-textract-idp-cdk-constructs]: Remove: archive file [/home/abi/fetcher/tmp/amazon-textract-idp-cdk-constructs-0.0.9.tar.gz]
+[2023-07-11 15:47:17] INFO root fetch - main [MainThread]: End processing [amazon-textract-idp-cdk-constructs]: success
+[2023-07-11 15:50:14] ERROR root fetch - processPackages [alcov]: Timeout during execution of pkgdiff
+[2023-07-11 15:50:14] INFO root fetch - main [MainThread]: End processing [alcov] error
+[2023-07-11 15:50:14] INFO root fetch - main [MainThread]: Store serial: [18846149]
