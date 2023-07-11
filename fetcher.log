@@ -9664,3 +9664,63 @@ AssertionError: tmp/doctran-0.0.6.tar.gz does not exist
 [2023-07-11 06:37:53] INFO root fetch - processPackages [peelml]: Remove: archive file [/home/abi/fetcher/tmp/peelml-0.0.2.tar.gz]
 [2023-07-11 06:37:53] INFO root fetch - main [MainThread]: End processing [peelml]: success
 [2023-07-11 06:37:53] INFO root fetch - main [MainThread]: Store serial: [18840875]
+[2023-07-11 06:42:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18840875]
+[2023-07-11 06:43:02] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-11 06:43:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sk-declaration
+[2023-07-11 06:43:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aql-builder
+[2023-07-11 06:43:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zit
+[2023-07-11 06:43:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: langchain-serve
+[2023-07-11 06:43:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dartpy
+[2023-07-11 06:43:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: langchain-serve
+[2023-07-11 06:43:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sk-reporter
+[2023-07-11 06:43:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jk-version
+[2023-07-11 06:43:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sk-variable-handler
+[2023-07-11 06:43:02] INFO root fetch - processPackages [langchain-serve]: New version: [0.0.9.dev9] Old Version: [0.0.9.dev22]
+[2023-07-11 06:43:02] WARNING root fetch - processPackages [sk-declaration]: Skipping, unable to determine old version
+[2023-07-11 06:43:02] WARNING root fetch - processPackages [sk-reporter]: Skipping, unable to determine old version
+[2023-07-11 06:43:02] INFO root fetch - main [MainThread]: End processing [sk-declaration] error
+[2023-07-11 06:43:02] INFO root fetch - main [MainThread]: End processing [sk-reporter] error
+[2023-07-11 06:43:02] INFO root fetch - processPackages [langchain-serve]: New version: [0.0.9.dev9] Old Version: [0.0.9.dev22]
+[2023-07-11 06:43:02] INFO root fetch - processPackages [zit]: New version: [0.0.3a3] Old Version: [0.0.3a2]
+[2023-07-11 06:43:02] INFO root fetch - processPackages [aql-builder]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-11 06:43:02] INFO root fetch - processPackages [dartpy]: New version: [0.1.0.post99] Old Version: [0.1.0.post98]
+[2023-07-11 06:43:02] WARNING root fetch - processPackages [sk-variable-handler]: Skipping, unable to determine old version
+[2023-07-11 06:43:02] INFO root fetch - main [MainThread]: End processing [sk-variable-handler] error
+[2023-07-11 06:43:02] INFO root fetch - processPackages [jk-version]: New version: [0.2023.7.11] Old Version: [0.2022.8.7]
+[2023-07-11 06:43:02] INFO root fetch - processPackages [aql-builder]: Downloading https://files.pythonhosted.org/packages/ea/95/f85549715c70a60518efc3f5f53e7845b8f3dff83d776635c3dd66ddd41c/aql-builder-0.0.5.tar.gz
+[2023-07-11 06:43:02] INFO root fetch - processPackages [zit]: Downloading https://files.pythonhosted.org/packages/5e/10/169ab9370c84d2c65ace704681e722439edd78fccd8f6d756edeac9df016/zit-0.0.3a2.tar.gz
+[2023-07-11 06:43:02] INFO root fetch - processPackages [langchain-serve]: Downloading https://files.pythonhosted.org/packages/b7/44/08a32d4d65d7aed7bf8a2e8d59c7c72ac5c5538be8c3e735a588d5ccf69b/langchain-serve-0.0.9.dev22.tar.gz
+[2023-07-11 06:43:02] INFO root fetch - processPackages [langchain-serve]: Downloading https://files.pythonhosted.org/packages/b7/44/08a32d4d65d7aed7bf8a2e8d59c7c72ac5c5538be8c3e735a588d5ccf69b/langchain-serve-0.0.9.dev22.tar.gz
+[2023-07-11 06:43:02] INFO root fetch - processPackages [dartpy]: Downloading https://files.pythonhosted.org/packages/c4/e2/e012a94f3e718a1fdf451f95db91ede9137f23c98201defefbeb39d4bd80/dartpy-0.1.0.post98-cp39-cp39-win_amd64.whl
+[2023-07-11 06:43:02] INFO root fetch - processPackages [jk-version]: Downloading https://files.pythonhosted.org/packages/2b/b9/44fcf5e5ba7d5d120d8e969377ad96e53459b55366d774247823c4701ee1/jk_version-0.2022.8.7.tar.gz
+[2023-07-11 06:43:02] WARNING root fetch - processPackages [dartpy]: Skipping package: exceeds size limit 20036126>=10485760
+[2023-07-11 06:43:02] INFO root fetch - main [MainThread]: End processing [dartpy] error
+[2023-07-11 06:43:02] INFO root fetch - processPackages [zit]: Downloading https://files.pythonhosted.org/packages/94/81/3b0fcf74fb6604a1bf269bdb2ac1f9e49fa792bfe41b875d65594912380f/zit-0.0.3a3.tar.gz
+[2023-07-11 06:43:02] INFO root fetch - processPackages [aql-builder]: Downloading https://files.pythonhosted.org/packages/17/c0/8c729384760a2467dd304e30eb015a2233d20125d70d6e18dc7fe3b27499/aql-builder-0.0.6.tar.gz
+[2023-07-11 06:43:03] INFO root fetch - processPackages [langchain-serve]: Downloading https://files.pythonhosted.org/packages/51/a3/7492d3c89e7181c3fb783593129a3de459021071c2e7075f0050494b2de4/langchain-serve-0.0.9.dev9.tar.gz
+[2023-07-11 06:43:03] INFO root fetch - processPackages [langchain-serve]: Downloading https://files.pythonhosted.org/packages/51/a3/7492d3c89e7181c3fb783593129a3de459021071c2e7075f0050494b2de4/langchain-serve-0.0.9.dev9.tar.gz
+[2023-07-11 06:43:03] INFO root fetch - processPackages [aql-builder]: executing diffoscope
+[2023-07-11 06:43:03] INFO root fetch - processPackages [aql-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aql-builder-0.0.5.tar.gz tmp/aql-builder-0.0.6.tar.gz --markdown 20230711/a/aql-builder/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-11 06:43:03] INFO root fetch - processPackages [jk-version]: Downloading https://files.pythonhosted.org/packages/09/82/24209d17af9095cd7de282a21591dfaffad8d618c1070ed8301d630323de/jk_version-0.2023.7.11.tar.gz
+[2023-07-11 06:43:03] INFO root fetch - processPackages [zit]: executing diffoscope
+[2023-07-11 06:43:03] INFO root fetch - processPackages [zit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zit-0.0.3a2.tar.gz tmp/zit-0.0.3a3.tar.gz --markdown 20230711/z/zit/0.0.3a2-0.0.3a3/diff.md --exclude *.pyd
+[2023-07-11 06:43:03] INFO root fetch - processPackages [langchain-serve]: executing diffoscope
+[2023-07-11 06:43:03] INFO root fetch - processPackages [langchain-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-serve-0.0.9.dev22.tar.gz tmp/langchain-serve-0.0.9.dev9.tar.gz --markdown 20230711/l/langchain-serve/0.0.9.dev22-0.0.9.dev9/diff.md --exclude *.pyd
+[2023-07-11 06:43:03] INFO root fetch - processPackages [langchain-serve]: executing diffoscope
+[2023-07-11 06:43:03] INFO root fetch - processPackages [langchain-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-serve-0.0.9.dev22.tar.gz tmp/langchain-serve-0.0.9.dev9.tar.gz --markdown 20230711/l/langchain-serve/0.0.9.dev22-0.0.9.dev9/diff.md --exclude *.pyd
+[2023-07-11 06:43:03] INFO root fetch - processPackages [jk-version]: executing diffoscope
+[2023-07-11 06:43:03] INFO root fetch - processPackages [jk-version]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jk_version-0.2022.8.7.tar.gz tmp/jk_version-0.2023.7.11.tar.gz --markdown 20230711/j/jk-version/0.2022.8.7-0.2023.7.11/diff.md --exclude *.pyd
+[2023-07-11 06:43:04] INFO root fetch - processPackages [aql-builder]: Remove: archive file [/home/abi/fetcher/tmp/aql-builder-0.0.5.tar.gz]
+[2023-07-11 06:43:04] INFO root fetch - processPackages [aql-builder]: Remove: archive file [/home/abi/fetcher/tmp/aql-builder-0.0.6.tar.gz]
+[2023-07-11 06:43:04] INFO root fetch - main [MainThread]: End processing [aql-builder]: success
+[2023-07-11 06:43:04] INFO root fetch - processPackages [zit]: Remove: archive file [/home/abi/fetcher/tmp/zit-0.0.3a2.tar.gz]
+[2023-07-11 06:43:04] INFO root fetch - processPackages [zit]: Remove: archive file [/home/abi/fetcher/tmp/zit-0.0.3a3.tar.gz]
+[2023-07-11 06:43:04] INFO root fetch - main [MainThread]: End processing [zit]: success
+[2023-07-11 06:43:04] INFO root fetch - processPackages [langchain-serve]: Remove: archive file [/home/abi/fetcher/tmp/langchain-serve-0.0.9.dev22.tar.gz]
+[2023-07-11 06:43:04] INFO root fetch - processPackages [langchain-serve]: Remove: archive file [/home/abi/fetcher/tmp/langchain-serve-0.0.9.dev9.tar.gz]
+[2023-07-11 06:43:04] INFO root fetch - main [MainThread]: End processing [langchain-serve]: success
+[2023-07-11 06:43:04] INFO root fetch - main [MainThread]: End processing [langchain-serve]: success
+[2023-07-11 06:43:04] INFO root fetch - processPackages [jk-version]: Remove: archive file [/home/abi/fetcher/tmp/jk_version-0.2022.8.7.tar.gz]
+[2023-07-11 06:43:04] INFO root fetch - processPackages [jk-version]: Remove: archive file [/home/abi/fetcher/tmp/jk_version-0.2023.7.11.tar.gz]
+[2023-07-11 06:43:04] INFO root fetch - main [MainThread]: End processing [jk-version]: success
+[2023-07-11 06:43:04] INFO root fetch - main [MainThread]: Store serial: [18840917]
