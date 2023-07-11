@@ -22844,3 +22844,188 @@ EOFError: EOF read where object expected
 [2023-07-11 16:17:13] INFO root fetch - processPackages [lusid-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-preview-1.0.98.tar.gz]
 [2023-07-11 16:17:13] INFO root fetch - main [MainThread]: End processing [lusid-sdk-preview]: success
 [2023-07-11 16:17:13] INFO root fetch - main [MainThread]: Store serial: [18846506]
+[2023-07-11 16:22:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18846506]
+[2023-07-11 16:22:24] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-07-11 16:22:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mutapath
+[2023-07-11 16:22:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: test-the-best
+[2023-07-11 16:22:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pycltools
+[2023-07-11 16:22:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fink-filters
+[2023-07-11 16:22:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: secimport
+[2023-07-11 16:22:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vgs-api-client
+[2023-07-11 16:22:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: swanapi
+[2023-07-11 16:22:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hestia-earth-schema
+[2023-07-11 16:22:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: domolibrary
+[2023-07-11 16:22:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: XenAPI
+[2023-07-11 16:22:25] INFO root fetch - processPackages [secimport]: New version: [0.9.1] Old Version: [0.8.2]
+[2023-07-11 16:22:25] INFO root fetch - processPackages [swanapi]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-07-11 16:22:25] INFO root fetch - processPackages [mutapath]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-07-11 16:22:25] INFO root fetch - processPackages [XenAPI]: New version: [23.8.0] Old Version: [23.16.0]
+[2023-07-11 16:22:25] WARNING root fetch - processPackages [test-the-best]: Skipping, unable to determine old version
+[2023-07-11 16:22:25] INFO root fetch - processPackages [test-the-best]: Start processing: gbmessserver12345
+[2023-07-11 16:22:25] INFO root fetch - main [MainThread]: End processing [test-the-best] error
+[2023-07-11 16:22:25] INFO root fetch - processPackages [hestia-earth-schema]: New version: [9.7.1] Old Version: [9.7.0]
+[2023-07-11 16:22:25] INFO root fetch - processPackages [pycltools]: New version: [1.1.4] Old Version: [1.1.3.9]
+[2023-07-11 16:22:25] INFO root fetch - processPackages [domolibrary]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-11 16:22:25] INFO root fetch - processPackages [fink-filters]: New version: [3.9] Old Version: [3.8]
+[2023-07-11 16:22:25] INFO root fetch - processPackages [vgs-api-client]: New version: [0.0.45] Old Version: [0.0.44]
+[2023-07-11 16:22:25] INFO root fetch - processPackages [gbmessserver12345]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-11 16:22:25] INFO root fetch - processPackages [swanapi]: Downloading https://files.pythonhosted.org/packages/f7/47/c484344739b5ccd5a33471c8be15878d356fd4452788ae7441a0f13e764c/swanapi-0.2.3-py3-none-any.whl
+[2023-07-11 16:22:25] INFO root fetch - processPackages [domolibrary]: Downloading https://files.pythonhosted.org/packages/84/f8/ca22b28a893290f3f077d48d12f9bbfa0b351b8a23052c67d9d2df56c886/domolibrary-0.1.98.tar.gz
+[2023-07-11 16:22:25] INFO root fetch - processPackages [vgs-api-client]: Downloading https://files.pythonhosted.org/packages/04/7e/dbe7b48fb43cd257360210eb902664720b9a0bd0a7c2e48ccf5ca12b974e/vgs_api_client-0.0.44-py3-none-any.whl
+[2023-07-11 16:22:25] INFO root fetch - processPackages [XenAPI]: Downloading https://files.pythonhosted.org/packages/4a/48/084de5e0646fb240a39bc3005e5dc286bdb0ce99eafd8a1b4aae71792d13/XenAPI-23.16.0.tar.gz
+[2023-07-11 16:22:25] INFO root fetch - processPackages [secimport]: Downloading https://files.pythonhosted.org/packages/94/73/70083a7b830f900087596cb9131f6a8dd439b7524d1d9111984f7f2bd4c3/secimport-0.8.2.tar.gz
+[2023-07-11 16:22:25] INFO root fetch - processPackages [pycltools]: Downloading https://files.pythonhosted.org/packages/36/38/f21b67bc45cd40054e1a8a2492563acc8c11073a6b1700c25d55042795a9/pycltools-1.1.3.9.tar.gz
+[2023-07-11 16:22:25] INFO root fetch - processPackages [fink-filters]: Downloading https://files.pythonhosted.org/packages/ad/03/a1e30cd9ef3fd94bad1a3a4191fe94f321e88803bceeeb3342e49219b4af/fink-filters-3.8.tar.gz
+[2023-07-11 16:22:25] INFO root fetch - processPackages [gbmessserver12345]: Downloading https://files.pythonhosted.org/packages/3e/87/c824fe96e409b597b9bfd5a9229e019e26e2a8b9740de051e735df8ceaa8/gbmessserver12345-0.1.0.tar.gz
+[2023-07-11 16:22:25] INFO root fetch - processPackages [mutapath]: Downloading https://files.pythonhosted.org/packages/7b/1c/d68e7b8666b5b555e72089c01c8c411b44162c8f48469d4092d29d2af6ef/mutapath-0.8.2.tar.gz
+[2023-07-11 16:22:25] INFO root fetch - processPackages [hestia-earth-schema]: Downloading https://files.pythonhosted.org/packages/e6/3e/a15caed46aaac01f5d913cac837c10c0e9416414e3ab7a9a8cb34dacb62e/hestia-earth-schema-9.7.0.tar.gz
+[2023-07-11 16:22:25] WARNING root fetch - processPackages [fink-filters]: Skipping package: exceeds size limit 10772648>=10485760
+[2023-07-11 16:22:25] INFO root fetch - processPackages [fink-filters]: Start processing: edc-data-manager
+[2023-07-11 16:22:25] INFO root fetch - main [MainThread]: End processing [fink-filters] error
+[2023-07-11 16:22:26] INFO root fetch - processPackages [domolibrary]: Downloading https://files.pythonhosted.org/packages/ef/ec/fc9564bd79a2ddb4e26b61efd0fc792975bd04a769102587a579e3693e90/domolibrary-0.1.99.tar.gz
+[2023-07-11 16:22:26] INFO root fetch - processPackages [vgs-api-client]: Downloading https://files.pythonhosted.org/packages/f3/ed/7a97156ce2d911c52393a8c6c2a834d8ee54030cb2fed24ff0bed8589019/vgs_api_client-0.0.45-py3-none-any.whl
+[2023-07-11 16:22:26] INFO root fetch - processPackages [swanapi]: Downloading https://files.pythonhosted.org/packages/ad/3d/ea27a21769f76b6e850392f07e908d31e2591c53ea997c64e7aab6caa570/swanapi-0.2.4-py3-none-any.whl
+[2023-07-11 16:22:26] INFO root fetch - processPackages [edc-data-manager]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-11 16:22:26] INFO root fetch - processPackages [XenAPI]: Downloading https://files.pythonhosted.org/packages/4c/4d/34f52619eda4ac966e9481a6a312f5235f5c58584f270e41503cc1237352/XenAPI-23.8.0.tar.gz
+[2023-07-11 16:22:26] INFO root fetch - processPackages [secimport]: Downloading https://files.pythonhosted.org/packages/00/3f/95931b849d0725f13caef597f68f39f28110d9f8b28842af45876a79c51c/secimport-0.9.1.tar.gz
+[2023-07-11 16:22:26] INFO root fetch - processPackages [gbmessserver12345]: Downloading https://files.pythonhosted.org/packages/b0/e6/ff5abc4d605ec79275c009161c6c7ced50d8b37a7f8c1a590aae26200083/gbmessserver12345-0.1.1.tar.gz
+[2023-07-11 16:22:26] INFO root fetch - processPackages [mutapath]: Downloading https://files.pythonhosted.org/packages/71/e9/6a326ce03bcb9bea6416d4a5c1bdb6ff00330aeb8de1ace884f4ace9d085/mutapath-0.9.0.tar.gz
+[2023-07-11 16:22:26] INFO root fetch - processPackages [domolibrary]: executing diffoscope
+[2023-07-11 16:22:26] INFO root fetch - processPackages [domolibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domolibrary-0.1.98.tar.gz tmp/domolibrary-0.1.99.tar.gz --markdown 20230711/d/domolibrary/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-11 16:22:26] INFO root fetch - processPackages [swanapi]: executing diffoscope
+[2023-07-11 16:22:26] INFO root fetch - processPackages [swanapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swanapi-0.2.3-py3-none-any.whl.zip tmp/swanapi-0.2.4-py3-none-any.whl.zip --markdown 20230711/s/swanapi/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-07-11 16:22:26] INFO root fetch - processPackages [vgs-api-client]: executing diffoscope
+[2023-07-11 16:22:26] INFO root fetch - processPackages [vgs-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vgs_api_client-0.0.44-py3-none-any.whl.zip tmp/vgs_api_client-0.0.45-py3-none-any.whl.zip --markdown 20230711/v/vgs-api-client/0.0.44-0.0.45/diff.md --exclude *.pyd
+[2023-07-11 16:22:26] INFO root fetch - processPackages [pycltools]: Downloading https://files.pythonhosted.org/packages/38/14/0e115fd1ac56b2ab835f859cdc8989f44cb701dda6613d83b3a5583c1d12/pycltools-1.1.4.tar.gz
+[2023-07-11 16:22:26] INFO root fetch - processPackages [edc-data-manager]: Downloading https://files.pythonhosted.org/packages/cf/eb/b881c291d0ea6e7f72a467ff4a719417e8d865215e706e0bee3228c76051/edc_data_manager-0.3.8-py3-none-any.whl
+[2023-07-11 16:22:26] INFO root fetch - processPackages [XenAPI]: executing diffoscope
+[2023-07-11 16:22:26] INFO root fetch - processPackages [XenAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/XenAPI-23.16.0.tar.gz tmp/XenAPI-23.8.0.tar.gz --markdown 20230711/X/XenAPI/23.16.0-23.8.0/diff.md --exclude *.pyd
+[2023-07-11 16:22:26] INFO root fetch - processPackages [hestia-earth-schema]: Downloading https://files.pythonhosted.org/packages/0f/81/6f94ae24b6a664f1fcc563994b2094290de1bc13e07037870953260144e1/hestia-earth-schema-9.7.1.tar.gz
+[2023-07-11 16:22:26] INFO root fetch - processPackages [secimport]: executing diffoscope
+[2023-07-11 16:22:26] INFO root fetch - processPackages [secimport]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secimport-0.8.2.tar.gz tmp/secimport-0.9.1.tar.gz --markdown 20230711/s/secimport/0.8.2-0.9.1/diff.md --exclude *.pyd
+[2023-07-11 16:22:26] INFO root fetch - processPackages [mutapath]: executing diffoscope
+[2023-07-11 16:22:26] INFO root fetch - processPackages [mutapath]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mutapath-0.8.2.tar.gz tmp/mutapath-0.9.0.tar.gz --markdown 20230711/m/mutapath/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-07-11 16:22:26] INFO root fetch - processPackages [gbmessserver12345]: executing diffoscope
+[2023-07-11 16:22:26] INFO root fetch - processPackages [gbmessserver12345]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gbmessserver12345-0.1.0.tar.gz tmp/gbmessserver12345-0.1.1.tar.gz --markdown 20230711/g/gbmessserver12345/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-11 16:22:26] INFO root fetch - processPackages [pycltools]: executing diffoscope
+[2023-07-11 16:22:26] INFO root fetch - processPackages [pycltools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycltools-1.1.3.9.tar.gz tmp/pycltools-1.1.4.tar.gz --markdown 20230711/p/pycltools/1.1.3.9-1.1.4/diff.md --exclude *.pyd
+[2023-07-11 16:22:26] INFO root fetch - processPackages [hestia-earth-schema]: executing diffoscope
+[2023-07-11 16:22:26] INFO root fetch - processPackages [hestia-earth-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hestia-earth-schema-9.7.0.tar.gz tmp/hestia-earth-schema-9.7.1.tar.gz --markdown 20230711/h/hestia-earth-schema/9.7.0-9.7.1/diff.md --exclude *.pyd
+[2023-07-11 16:22:26] INFO root fetch - processPackages [edc-data-manager]: Downloading https://files.pythonhosted.org/packages/94/af/5355122bb9b005686e292173b83d79689d43989f75374ab3ccda7985bd89/edc_data_manager-0.3.9-py3-none-any.whl
+[2023-07-11 16:22:27] INFO root fetch - processPackages [edc-data-manager]: executing diffoscope
+[2023-07-11 16:22:27] INFO root fetch - processPackages [edc-data-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc_data_manager-0.3.8-py3-none-any.whl.zip tmp/edc_data_manager-0.3.9-py3-none-any.whl.zip --markdown 20230711/e/edc-data-manager/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-11 16:22:27] INFO root fetch - processPackages [swanapi]: Remove: archive file [/home/abi/fetcher/tmp/swanapi-0.2.3-py3-none-any.whl.zip]
+[2023-07-11 16:22:27] INFO root fetch - processPackages [swanapi]: Remove: archive file [/home/abi/fetcher/tmp/swanapi-0.2.4-py3-none-any.whl.zip]
+[2023-07-11 16:22:27] INFO root fetch - processPackages [swanapi]: Start processing: vgs-api-client
+[2023-07-11 16:22:27] INFO root fetch - main [MainThread]: End processing [swanapi]: success
+[2023-07-11 16:22:27] INFO root fetch - processPackages [vgs-api-client]: New version: [0.0.45] Old Version: [0.0.44]
+[2023-07-11 16:22:28] INFO root fetch - processPackages [vgs-api-client]: executing diffoscope
+[2023-07-11 16:22:28] INFO root fetch - processPackages [vgs-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vgs_api_client-0.0.44-py3-none-any.whl.zip tmp/vgs_api_client-0.0.45-py3-none-any.whl.zip --markdown 20230711/v/vgs-api-client/0.0.44-0.0.45/diff.md --exclude *.pyd
+[2023-07-11 16:22:28] INFO root fetch - processPackages [mutapath]: Remove: archive file [/home/abi/fetcher/tmp/mutapath-0.8.2.tar.gz]
+[2023-07-11 16:22:28] INFO root fetch - processPackages [mutapath]: Remove: archive file [/home/abi/fetcher/tmp/mutapath-0.9.0.tar.gz]
+[2023-07-11 16:22:28] INFO root fetch - processPackages [mutapath]: Start processing: group-based-policy
+[2023-07-11 16:22:28] INFO root fetch - main [MainThread]: End processing [mutapath]: success
+[2023-07-11 16:22:28] INFO root fetch - processPackages [group-based-policy]: New version: [juno] Old Version: [9.0.0]
+[2023-07-11 16:22:28] INFO root fetch - processPackages [vgs-api-client]: Remove: archive file [/home/abi/fetcher/tmp/vgs_api_client-0.0.44-py3-none-any.whl.zip]
+[2023-07-11 16:22:28] INFO root fetch - processPackages [vgs-api-client]: Remove: archive file [/home/abi/fetcher/tmp/vgs_api_client-0.0.45-py3-none-any.whl.zip]
+[2023-07-11 16:22:28] INFO root fetch - processPackages [vgs-api-client]: Start processing: dice-lib
+[2023-07-11 16:22:28] INFO root fetch - main [MainThread]: End processing [vgs-api-client]: success
+[2023-07-11 16:22:28] INFO root fetch - processPackages [XenAPI]: Remove: archive file [/home/abi/fetcher/tmp/XenAPI-23.16.0.tar.gz]
+[2023-07-11 16:22:28] INFO root fetch - processPackages [XenAPI]: Remove: archive file [/home/abi/fetcher/tmp/XenAPI-23.8.0.tar.gz]
+[2023-07-11 16:22:28] INFO root fetch - processPackages [XenAPI]: Start processing: finbourne-access-sdk
+[2023-07-11 16:22:28] INFO root fetch - main [MainThread]: End processing [XenAPI]: success
+[2023-07-11 16:22:28] INFO root fetch - processPackages [dice-lib]: New version: [2023.7.11] Old Version: [0.5.0]
+[2023-07-11 16:22:28] INFO root fetch - processPackages [finbourne-access-sdk]: New version: [0.0.815] Old Version: [0.0.616]
+[2023-07-11 16:22:28] INFO root fetch - processPackages [group-based-policy]: Downloading https://files.pythonhosted.org/packages/0c/e2/f10b4b0cf2e6a0ff8d1c6eabd6ceec1a9896c5ce7d46a53df4b56add24da/group-based-policy-9.0.0.tar.gz
+[2023-07-11 16:22:28] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/22/58/ee379caa00eba72b01ce5884996e3957e85f9db086b5f74209b445963467/finbourne-access-sdk-0.0.616.tar.gz
+[2023-07-11 16:22:28] INFO root fetch - processPackages [hestia-earth-schema]: Remove: archive file [/home/abi/fetcher/tmp/hestia-earth-schema-9.7.0.tar.gz]
+[2023-07-11 16:22:28] INFO root fetch - processPackages [hestia-earth-schema]: Remove: archive file [/home/abi/fetcher/tmp/hestia-earth-schema-9.7.1.tar.gz]
+[2023-07-11 16:22:28] INFO root fetch - processPackages [hestia-earth-schema]: Start processing: kcli
+[2023-07-11 16:22:28] INFO root fetch - main [MainThread]: End processing [hestia-earth-schema]: success
+[2023-07-11 16:22:28] INFO root fetch - processPackages [pycltools]: Remove: archive file [/home/abi/fetcher/tmp/pycltools-1.1.3.9.tar.gz]
+[2023-07-11 16:22:28] INFO root fetch - processPackages [pycltools]: Remove: archive file [/home/abi/fetcher/tmp/pycltools-1.1.4.tar.gz]
+[2023-07-11 16:22:28] INFO root fetch - processPackages [pycltools]: Start processing: statprocon
+[2023-07-11 16:22:28] INFO root fetch - main [MainThread]: End processing [pycltools]: success
+[2023-07-11 16:22:28] INFO root fetch - processPackages [secimport]: Remove: archive file [/home/abi/fetcher/tmp/secimport-0.8.2.tar.gz]
+[2023-07-11 16:22:28] INFO root fetch - processPackages [secimport]: Remove: archive file [/home/abi/fetcher/tmp/secimport-0.9.1.tar.gz]
+[2023-07-11 16:22:28] INFO root fetch - processPackages [secimport]: Start processing: fdicdatatest1
+[2023-07-11 16:22:28] INFO root fetch - main [MainThread]: End processing [secimport]: success
+[2023-07-11 16:22:28] INFO root fetch - processPackages [domolibrary]: Remove: archive file [/home/abi/fetcher/tmp/domolibrary-0.1.98.tar.gz]
+[2023-07-11 16:22:28] INFO root fetch - processPackages [gbmessserver12345]: Remove: archive file [/home/abi/fetcher/tmp/gbmessserver12345-0.1.0.tar.gz]
+[2023-07-11 16:22:28] INFO root fetch - processPackages [domolibrary]: Remove: archive file [/home/abi/fetcher/tmp/domolibrary-0.1.99.tar.gz]
+[2023-07-11 16:22:28] INFO root fetch - processPackages [gbmessserver12345]: Remove: archive file [/home/abi/fetcher/tmp/gbmessserver12345-0.1.1.tar.gz]
+[2023-07-11 16:22:28] INFO root fetch - processPackages [domolibrary]: Start processing: embedchain
+[2023-07-11 16:22:28] INFO root fetch - main [MainThread]: End processing [domolibrary]: success
+[2023-07-11 16:22:28] INFO root fetch - processPackages [gbmessserver12345]: Start processing: baumanecbank-common
+[2023-07-11 16:22:28] INFO root fetch - main [MainThread]: End processing [gbmessserver12345]: success
+[2023-07-11 16:22:28] INFO root fetch - processPackages [dice-lib]: Downloading https://files.pythonhosted.org/packages/eb/28/cca01f50458d31027c3c38ac88498bd7fc3c6b553bce5b086e684c2dc6d6/dice_lib-0.5.0.tar.gz
+[2023-07-11 16:22:28] WARNING root fetch - processPackages [fdicdatatest1]: Skipping, unable to determine old version
+[2023-07-11 16:22:28] INFO root fetch - processPackages [fdicdatatest1]: Start processing: django-spectator
+[2023-07-11 16:22:28] INFO root fetch - main [MainThread]: End processing [fdicdatatest1] error
+[2023-07-11 16:22:28] INFO root fetch - processPackages [statprocon]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-11 16:22:28] INFO root fetch - processPackages [kcli]: New version: [99.0.202307111421] Old Version: [99.0.202307111339]
+[2023-07-11 16:22:28] INFO root fetch - processPackages [baumanecbank-common]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-07-11 16:22:28] ERROR root fetch - processPackages [vgs-api-client]: Diffoscope failed: time="2023-07-11T16:22:28+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/vgs_api_client-0.0.44-py3-none-any.whl.zip: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/vgs_api_client-0.0.45-py3-none-any.whl.zip: No such file or directory
+
+[2023-07-11 16:22:28] INFO root fetch - main [MainThread]: End processing [vgs-api-client] error
+[2023-07-11 16:22:28] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/69/7f/980d433b5c9e8a80945f02c33fed4796b7627f1147c018bf46ff48415b87/kcli-99.0.202307111339-py3-none-any.whl
+[2023-07-11 16:22:28] INFO root fetch - processPackages [django-spectator]: New version: [9.1.0] Old Version: [9.0.1]
+[2023-07-11 16:22:28] INFO root fetch - processPackages [baumanecbank-common]: Downloading https://files.pythonhosted.org/packages/b6/94/62520ff5837445ef7cc6ab00103561507a2bb916c9289337314d5b0cd12d/baumanecbank_common-1.1.2.tar.gz
+[2023-07-11 16:22:28] INFO root fetch - processPackages [edc-data-manager]: Remove: archive file [/home/abi/fetcher/tmp/edc_data_manager-0.3.8-py3-none-any.whl.zip]
+[2023-07-11 16:22:28] INFO root fetch - processPackages [edc-data-manager]: Remove: archive file [/home/abi/fetcher/tmp/edc_data_manager-0.3.9-py3-none-any.whl.zip]
+[2023-07-11 16:22:28] INFO root fetch - main [MainThread]: End processing [edc-data-manager]: success
+[2023-07-11 16:22:28] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/f5/48/d40801e505892153d9eb9fea2de2f415455702ca8818dd23f14a3f88d813/finbourne-access-sdk-0.0.815.tar.gz
+[2023-07-11 16:22:28] INFO root fetch - processPackages [embedchain]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-11 16:22:28] INFO root fetch - processPackages [statprocon]: Downloading https://files.pythonhosted.org/packages/e2/f6/e74de5b97cad585ef12e486a205a534f69291c2601c2515bede24af48247/statprocon-0.0.5.tar.gz
+[2023-07-11 16:22:29] INFO root fetch - processPackages [dice-lib]: Downloading https://files.pythonhosted.org/packages/5d/b7/158504619fd148aa804a19389a719b1cb58be337ffc4539ea964801bedff/dice_lib-2023.7.11.tar.gz
+[2023-07-11 16:22:29] INFO root fetch - processPackages [finbourne-access-sdk]: executing diffoscope
+[2023-07-11 16:22:29] INFO root fetch - processPackages [finbourne-access-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne-access-sdk-0.0.616.tar.gz tmp/finbourne-access-sdk-0.0.815.tar.gz --markdown 20230711/f/finbourne-access-sdk/0.0.616-0.0.815/diff.md --exclude *.pyd
+[2023-07-11 16:22:29] INFO root fetch - processPackages [django-spectator]: Downloading https://files.pythonhosted.org/packages/25/2a/8ca927e4f4589de0c3f30cc3091caa2291a919a3bd6864746617c48aa3b9/django-spectator-9.0.1.tar.gz
+[2023-07-11 16:22:29] WARNING root fetch - processPackages [group-based-policy]: fallback to get urls: [juno]
+[2023-07-11 16:22:29] INFO root fetch - processPackages [embedchain]: Downloading https://files.pythonhosted.org/packages/fa/9b/8bddb3074933011cc682eee04982b4e3d03a699688eddf581404927a62ff/embedchain-0.0.8.tar.gz
+[2023-07-11 16:22:29] WARNING root fetch - processPackages [group-based-policy]: None
+[2023-07-11 16:22:29] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/4e/a9/5777f165271ee7d4a16d42cebbb2a0aff7dde2249f21a62d9c49df96c293/kcli-99.0.202307111421-py3-none-any.whl
+[2023-07-11 16:22:29] WARNING root fetch - processPackages [group-based-policy]: None
+[2023-07-11 16:22:29] INFO root fetch - processPackages [statprocon]: Downloading https://files.pythonhosted.org/packages/aa/f9/4589174df7557417a2041e4a1289a5c3fa3f75894213c426c8ec93594e8d/statprocon-0.0.6.tar.gz
+[2023-07-11 16:22:29] INFO root fetch - processPackages [dice-lib]: executing diffoscope
+[2023-07-11 16:22:29] INFO root fetch - processPackages [dice-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dice_lib-0.5.0.tar.gz tmp/dice_lib-2023.7.11.tar.gz --markdown 20230711/d/dice-lib/0.5.0-2023.7.11/diff.md --exclude *.pyd
+[2023-07-11 16:22:29] INFO root fetch - processPackages [baumanecbank-common]: Downloading https://files.pythonhosted.org/packages/77/53/a773bc41ff4c702f692301d0eb59da4f660017f28453ff5c481d37f7ce7a/baumanecbank_common-1.1.3.tar.gz
+[2023-07-11 16:22:29] WARNING root fetch - processPackages [group-based-policy]: unable to get url for both version [juno]
+[2023-07-11 16:22:29] WARNING root fetch - processPackages [group-based-policy]: None
+[2023-07-11 16:22:29] INFO root fetch - main [MainThread]: End processing [group-based-policy] error
+[2023-07-11 16:22:29] INFO root fetch - processPackages [baumanecbank-common]: executing diffoscope
+[2023-07-11 16:22:29] INFO root fetch - processPackages [baumanecbank-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/baumanecbank_common-1.1.2.tar.gz tmp/baumanecbank_common-1.1.3.tar.gz --markdown 20230711/b/baumanecbank-common/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-07-11 16:22:29] INFO root fetch - processPackages [statprocon]: executing diffoscope
+[2023-07-11 16:22:29] INFO root fetch - processPackages [statprocon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/statprocon-0.0.5.tar.gz tmp/statprocon-0.0.6.tar.gz --markdown 20230711/s/statprocon/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-11 16:22:29] INFO root fetch - processPackages [django-spectator]: Downloading https://files.pythonhosted.org/packages/c9/61/e153dd2c84255f9082fcc4e70f7723485132ce7573fdb33a62615bb37852/django-spectator-9.1.0.tar.gz
+[2023-07-11 16:22:29] INFO root fetch - processPackages [embedchain]: Downloading https://files.pythonhosted.org/packages/98/a5/0216839ba1829bc10c9f2f04d82d04da661bb99f228ec27d73c564f77135/embedchain-0.0.9.tar.gz
+[2023-07-11 16:22:29] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-07-11 16:22:29] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202307111339-py3-none-any.whl.zip tmp/kcli-99.0.202307111421-py3-none-any.whl.zip --markdown 20230711/k/kcli/99.0.202307111339-99.0.202307111421/diff.md --exclude *.pyd
+[2023-07-11 16:22:29] INFO root fetch - processPackages [embedchain]: executing diffoscope
+[2023-07-11 16:22:29] INFO root fetch - processPackages [embedchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/embedchain-0.0.8.tar.gz tmp/embedchain-0.0.9.tar.gz --markdown 20230711/e/embedchain/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-11 16:22:29] INFO root fetch - processPackages [django-spectator]: executing diffoscope
+[2023-07-11 16:22:29] INFO root fetch - processPackages [django-spectator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-spectator-9.0.1.tar.gz tmp/django-spectator-9.1.0.tar.gz --markdown 20230711/d/django-spectator/9.0.1-9.1.0/diff.md --exclude *.pyd
+[2023-07-11 16:22:30] INFO root fetch - processPackages [dice-lib]: Remove: archive file [/home/abi/fetcher/tmp/dice_lib-0.5.0.tar.gz]
+[2023-07-11 16:22:30] INFO root fetch - processPackages [dice-lib]: Remove: archive file [/home/abi/fetcher/tmp/dice_lib-2023.7.11.tar.gz]
+[2023-07-11 16:22:30] INFO root fetch - main [MainThread]: End processing [dice-lib]: success
+[2023-07-11 16:22:30] INFO root fetch - processPackages [baumanecbank-common]: Remove: archive file [/home/abi/fetcher/tmp/baumanecbank_common-1.1.2.tar.gz]
+[2023-07-11 16:22:30] INFO root fetch - processPackages [baumanecbank-common]: Remove: archive file [/home/abi/fetcher/tmp/baumanecbank_common-1.1.3.tar.gz]
+[2023-07-11 16:22:30] INFO root fetch - main [MainThread]: End processing [baumanecbank-common]: success
+[2023-07-11 16:22:30] INFO root fetch - processPackages [statprocon]: Remove: archive file [/home/abi/fetcher/tmp/statprocon-0.0.5.tar.gz]
+[2023-07-11 16:22:30] INFO root fetch - processPackages [statprocon]: Remove: archive file [/home/abi/fetcher/tmp/statprocon-0.0.6.tar.gz]
+[2023-07-11 16:22:30] INFO root fetch - main [MainThread]: End processing [statprocon]: success
+[2023-07-11 16:22:30] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne-access-sdk-0.0.616.tar.gz]
+[2023-07-11 16:22:30] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne-access-sdk-0.0.815.tar.gz]
+[2023-07-11 16:22:30] INFO root fetch - main [MainThread]: End processing [finbourne-access-sdk]: success
+[2023-07-11 16:22:30] INFO root fetch - processPackages [embedchain]: Remove: archive file [/home/abi/fetcher/tmp/embedchain-0.0.8.tar.gz]
+[2023-07-11 16:22:30] INFO root fetch - processPackages [embedchain]: Remove: archive file [/home/abi/fetcher/tmp/embedchain-0.0.9.tar.gz]
+[2023-07-11 16:22:30] INFO root fetch - main [MainThread]: End processing [embedchain]: success
+[2023-07-11 16:22:31] INFO root fetch - processPackages [django-spectator]: Remove: archive file [/home/abi/fetcher/tmp/django-spectator-9.0.1.tar.gz]
+[2023-07-11 16:22:31] INFO root fetch - processPackages [django-spectator]: Remove: archive file [/home/abi/fetcher/tmp/django-spectator-9.1.0.tar.gz]
+[2023-07-11 16:22:31] INFO root fetch - main [MainThread]: End processing [django-spectator]: success
+[2023-07-11 16:22:33] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307111339-py3-none-any.whl.zip]
+[2023-07-11 16:22:33] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307111421-py3-none-any.whl.zip]
+[2023-07-11 16:22:33] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-07-11 16:22:33] INFO root fetch - main [MainThread]: Store serial: [18846573]
