@@ -22316,3 +22316,144 @@ EOFError: EOF read where object expected
 [2023-07-11 16:00:55] INFO root fetch - processPackages [bqplot]: Remove: archive file [/home/abi/fetcher/tmp/bqplot-0.9.1.tar.gz]
 [2023-07-11 16:00:55] INFO root fetch - main [MainThread]: End processing [bqplot]: success
 [2023-07-11 16:00:55] INFO root fetch - main [MainThread]: Store serial: [18846276]
+[2023-07-11 16:06:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18846276]
+[2023-07-11 16:06:05] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-11 16:06:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dice-cli
+[2023-07-11 16:06:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: slidescore-sdk
+[2023-07-11 16:06:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: DQR-Data
+[2023-07-11 16:06:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: supervisely
+[2023-07-11 16:06:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bhfutils
+[2023-07-11 16:06:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dotenver
+[2023-07-11 16:06:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: elody
+[2023-07-11 16:06:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mujoco-dev
+[2023-07-11 16:06:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: domolibrary
+[2023-07-11 16:06:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: perceval
+[2023-07-11 16:06:05] INFO root fetch - processPackages [elody]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-11 16:06:05] INFO root fetch - processPackages [bhfutils]: New version: [0.0.98] Old Version: [0.0.97]
+[2023-07-11 16:06:05] INFO root fetch - processPackages [dotenver]: New version: [1.3.0] Old Version: [1.2.2]
+[2023-07-11 16:06:05] INFO root fetch - processPackages [dice-cli]: New version: [2023.7.11] Old Version: [0.3.0]
+[2023-07-11 16:06:05] WARNING root fetch - processPackages [DQR-Data]: Skipping, unable to determine old version
+[2023-07-11 16:06:05] INFO root fetch - processPackages [DQR-Data]: Start processing: leap-model-parser
+[2023-07-11 16:06:05] INFO root fetch - main [MainThread]: End processing [DQR-Data] error
+[2023-07-11 16:06:05] INFO root fetch - processPackages [slidescore-sdk]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-07-11 16:06:05] INFO root fetch - processPackages [perceval]: New version: [0.9.9] Old Version: [0.9.6]
+[2023-07-11 16:06:05] INFO root fetch - processPackages [supervisely]: New version: [6.9.2] Old Version: [6.9.1]
+[2023-07-11 16:06:05] INFO root fetch - processPackages [mujoco-dev]: New version: [2.3.6.dev547175700] Old Version: [2.3.6.dev546943151]
+[2023-07-11 16:06:05] INFO root fetch - processPackages [domolibrary]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-11 16:06:05] INFO root fetch - processPackages [leap-model-parser]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-11 16:06:05] INFO root fetch - processPackages [dotenver]: Downloading https://files.pythonhosted.org/packages/a5/b2/415fc71f062c71dcf164a7feba184499d9dd175a4123e019bfce0c71b750/dotenver-1.2.2.tar.gz
+[2023-07-11 16:06:05] INFO root fetch - processPackages [domolibrary]: Downloading https://files.pythonhosted.org/packages/84/f8/ca22b28a893290f3f077d48d12f9bbfa0b351b8a23052c67d9d2df56c886/domolibrary-0.1.98.tar.gz
+[2023-07-11 16:06:05] INFO root fetch - processPackages [supervisely]: Downloading https://files.pythonhosted.org/packages/bf/5a/d1c5e1830d747d899ac781f368bbd65eb9c02eaf0faf98d318a7dd8cce53/supervisely-6.9.1.tar.gz
+[2023-07-11 16:06:05] INFO root fetch - processPackages [elody]: Downloading https://files.pythonhosted.org/packages/04/0a/f0c0459d10e100e9de174c39fc997a65ab7b28054512f5c426ff11be1e36/elody-0.0.3.tar.gz
+[2023-07-11 16:06:05] INFO root fetch - processPackages [leap-model-parser]: Downloading https://files.pythonhosted.org/packages/9e/21/dca060e54af9d262ff3c7db5881970d454aabed10a4a09138f0f135d7271/leap_model_parser-0.1.98.tar.gz
+[2023-07-11 16:06:05] INFO root fetch - processPackages [bhfutils]: Downloading https://files.pythonhosted.org/packages/e8/4f/51431fb2026de781a0da6cc31553906f67446a8649a0ce05a7d00410cfa2/bhfutils-0.0.97.tar.gz
+[2023-07-11 16:06:05] INFO root fetch - processPackages [dice-cli]: Downloading https://files.pythonhosted.org/packages/a5/40/d4f5e11a2fc4b49b0be8f4829766eb5113efa20a5bf4186d6af0a9fccef7/dice_cli-0.3.0.tar.gz
+[2023-07-11 16:06:05] INFO root fetch - processPackages [perceval]: Downloading https://files.pythonhosted.org/packages/d7/90/1bc49292ae0ff57deb9e110f70d4e23657da2094a72223ea201da14c223b/perceval-0.9.6.tar.gz
+[2023-07-11 16:06:06] INFO root fetch - processPackages [slidescore-sdk]: Downloading https://files.pythonhosted.org/packages/c3/8c/7bcc16062a06e91a0ad17cbd6dea9bf5fe38cc0b68978cface45b050953d/slidescore-sdk-1.2.8.tar.gz
+[2023-07-11 16:06:06] INFO root fetch - processPackages [mujoco-dev]: Downloading https://files.pythonhosted.org/packages/9b/77/42951dffe8b984f401b91f5667bf8a89d4acecc0020704142796df18b0ba/mujoco_dev-2.3.6.dev546943151-cp39-cp39-win_amd64.whl
+[2023-07-11 16:06:06] INFO root fetch - processPackages [domolibrary]: Downloading https://files.pythonhosted.org/packages/ef/ec/fc9564bd79a2ddb4e26b61efd0fc792975bd04a769102587a579e3693e90/domolibrary-0.1.99.tar.gz
+[2023-07-11 16:06:06] INFO root fetch - processPackages [supervisely]: Downloading https://files.pythonhosted.org/packages/bf/56/78987e56220fcb935013105de97143fb9371ba9732a7dcdcb9451350a28f/supervisely-6.9.2.tar.gz
+[2023-07-11 16:06:06] INFO root fetch - processPackages [dotenver]: Downloading https://files.pythonhosted.org/packages/2e/92/472a6d304d40cb98527f39ac7f1cf37e6f0c9d32f1188a9c18140e9fc0f6/dotenver-1.3.0.tar.gz
+[2023-07-11 16:06:06] INFO root fetch - processPackages [leap-model-parser]: Downloading https://files.pythonhosted.org/packages/de/85/627b6119883db46691990e41cb4a673afe0913625d499dc365b69c6fe6f6/leap_model_parser-0.1.99.tar.gz
+[2023-07-11 16:06:06] INFO root fetch - processPackages [elody]: Downloading https://files.pythonhosted.org/packages/a0/64/7d9c7f121d6aff77909f165eaf492765f42d6f0f03a251957e8501e68cd1/elody-0.0.4.tar.gz
+[2023-07-11 16:06:06] INFO root fetch - processPackages [supervisely]: executing diffoscope
+[2023-07-11 16:06:06] INFO root fetch - processPackages [supervisely]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/supervisely-6.9.1.tar.gz tmp/supervisely-6.9.2.tar.gz --markdown 20230711/s/supervisely/6.9.1-6.9.2/diff.md --exclude *.pyd
+[2023-07-11 16:06:06] INFO root fetch - processPackages [dotenver]: executing diffoscope
+[2023-07-11 16:06:06] INFO root fetch - processPackages [dotenver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dotenver-1.2.2.tar.gz tmp/dotenver-1.3.0.tar.gz --markdown 20230711/d/dotenver/1.2.2-1.3.0/diff.md --exclude *.pyd
+[2023-07-11 16:06:06] INFO root fetch - processPackages [leap-model-parser]: executing diffoscope
+[2023-07-11 16:06:06] INFO root fetch - processPackages [leap-model-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leap_model_parser-0.1.98.tar.gz tmp/leap_model_parser-0.1.99.tar.gz --markdown 20230711/l/leap-model-parser/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-11 16:06:06] INFO root fetch - processPackages [domolibrary]: executing diffoscope
+[2023-07-11 16:06:06] INFO root fetch - processPackages [domolibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domolibrary-0.1.98.tar.gz tmp/domolibrary-0.1.99.tar.gz --markdown 20230711/d/domolibrary/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-11 16:06:06] INFO root fetch - processPackages [dice-cli]: Downloading https://files.pythonhosted.org/packages/a8/49/19c9f4b51e768910013b23c1b35983f86bfd5ad7200478a190868b97da41/dice_cli-2023.7.11.tar.gz
+[2023-07-11 16:06:06] INFO root fetch - processPackages [slidescore-sdk]: Downloading https://files.pythonhosted.org/packages/ee/ee/86759a3eb2858cde1304f6063043d70e459d6a1390b5911983f68575a62f/slidescore-sdk-1.2.9.tar.gz
+[2023-07-11 16:06:06] INFO root fetch - processPackages [bhfutils]: Downloading https://files.pythonhosted.org/packages/75/5d/bd467d062eb618aaba3a3570942c7f6605e03e8f12341882475813c6a981/bhfutils-0.0.98.tar.gz
+[2023-07-11 16:06:06] INFO root fetch - processPackages [elody]: executing diffoscope
+[2023-07-11 16:06:06] INFO root fetch - processPackages [elody]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elody-0.0.3.tar.gz tmp/elody-0.0.4.tar.gz --markdown 20230711/e/elody/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-11 16:06:06] INFO root fetch - processPackages [perceval]: Downloading https://files.pythonhosted.org/packages/dc/90/58dacc04ea0df998da783850425882982c9710d459b2cba75540de045a50/perceval-0.9.9.tar.gz
+[2023-07-11 16:06:06] INFO root fetch - processPackages [dice-cli]: executing diffoscope
+[2023-07-11 16:06:06] INFO root fetch - processPackages [dice-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dice_cli-0.3.0.tar.gz tmp/dice_cli-2023.7.11.tar.gz --markdown 20230711/d/dice-cli/0.3.0-2023.7.11/diff.md --exclude *.pyd
+[2023-07-11 16:06:06] INFO root fetch - processPackages [slidescore-sdk]: executing diffoscope
+[2023-07-11 16:06:06] INFO root fetch - processPackages [slidescore-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slidescore-sdk-1.2.8.tar.gz tmp/slidescore-sdk-1.2.9.tar.gz --markdown 20230711/s/slidescore-sdk/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-07-11 16:06:06] INFO root fetch - processPackages [bhfutils]: executing diffoscope
+[2023-07-11 16:06:06] INFO root fetch - processPackages [bhfutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bhfutils-0.0.97.tar.gz tmp/bhfutils-0.0.98.tar.gz --markdown 20230711/b/bhfutils/0.0.97-0.0.98/diff.md --exclude *.pyd
+[2023-07-11 16:06:06] INFO root fetch - processPackages [perceval]: executing diffoscope
+[2023-07-11 16:06:06] INFO root fetch - processPackages [perceval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perceval-0.9.6.tar.gz tmp/perceval-0.9.9.tar.gz --markdown 20230711/p/perceval/0.9.6-0.9.9/diff.md --exclude *.pyd
+[2023-07-11 16:06:07] INFO root fetch - processPackages [mujoco-dev]: Downloading https://files.pythonhosted.org/packages/44/ce/3e4d18809d42de9f41b2da46e0f6fc339b395470d9768e36af98df56cbcb/mujoco_dev-2.3.6.dev547175700-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-11 16:06:07] INFO root fetch - processPackages [dotenver]: Remove: archive file [/home/abi/fetcher/tmp/dotenver-1.2.2.tar.gz]
+[2023-07-11 16:06:07] INFO root fetch - processPackages [dotenver]: Remove: archive file [/home/abi/fetcher/tmp/dotenver-1.3.0.tar.gz]
+[2023-07-11 16:06:07] INFO root fetch - processPackages [dotenver]: Start processing: cereslib
+[2023-07-11 16:06:07] INFO root fetch - main [MainThread]: End processing [dotenver]: success
+[2023-07-11 16:06:07] INFO root fetch - processPackages [mujoco-dev]: executing diffoscope
+[2023-07-11 16:06:07] INFO root fetch - processPackages [mujoco-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mujoco_dev-2.3.6.dev546943151-cp39-cp39-win_amd64.whl.zip tmp/mujoco_dev-2.3.6.dev547175700-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230711/m/mujoco-dev/2.3.6.dev546943151-2.3.6.dev547175700/diff.md --exclude *.pyd
+[2023-07-11 16:06:08] INFO root fetch - processPackages [cereslib]: New version: [0.4.2rc1] Old Version: [0.4.1rc1]
+[2023-07-11 16:06:08] INFO root fetch - processPackages [elody]: Remove: archive file [/home/abi/fetcher/tmp/elody-0.0.3.tar.gz]
+[2023-07-11 16:06:08] INFO root fetch - processPackages [elody]: Remove: archive file [/home/abi/fetcher/tmp/elody-0.0.4.tar.gz]
+[2023-07-11 16:06:08] INFO root fetch - processPackages [elody]: Start processing: gxabm
+[2023-07-11 16:06:08] INFO root fetch - main [MainThread]: End processing [elody]: success
+[2023-07-11 16:06:08] INFO root fetch - processPackages [slidescore-sdk]: Remove: archive file [/home/abi/fetcher/tmp/slidescore-sdk-1.2.8.tar.gz]
+[2023-07-11 16:06:08] INFO root fetch - processPackages [slidescore-sdk]: Remove: archive file [/home/abi/fetcher/tmp/slidescore-sdk-1.2.9.tar.gz]
+[2023-07-11 16:06:08] INFO root fetch - processPackages [slidescore-sdk]: Start processing: kubetools
+[2023-07-11 16:06:08] INFO root fetch - main [MainThread]: End processing [slidescore-sdk]: success
+[2023-07-11 16:06:08] INFO root fetch - processPackages [dice-cli]: Remove: archive file [/home/abi/fetcher/tmp/dice_cli-0.3.0.tar.gz]
+[2023-07-11 16:06:08] INFO root fetch - processPackages [gxabm]: New version: [2.7.4] Old Version: [2.7.3]
+[2023-07-11 16:06:08] INFO root fetch - processPackages [dice-cli]: Remove: archive file [/home/abi/fetcher/tmp/dice_cli-2023.7.11.tar.gz]
+[2023-07-11 16:06:08] INFO root fetch - processPackages [dice-cli]: Start processing: pepperize.cdk-dynamodb-backup
+[2023-07-11 16:06:08] INFO root fetch - main [MainThread]: End processing [dice-cli]: success
+[2023-07-11 16:06:08] INFO root fetch - processPackages [kubetools]: New version: [9.1.1] Old Version: [9.1]
+[2023-07-11 16:06:08] INFO root fetch - processPackages [cereslib]: Downloading https://files.pythonhosted.org/packages/d6/99/ff8fe77282e85d6ccc3845fbb9fd74c4c8a7db2291c160a94007b6f1fa9a/cereslib-0.4.1rc1.tar.gz
+[2023-07-11 16:06:08] INFO root fetch - processPackages [gxabm]: Downloading https://files.pythonhosted.org/packages/a7/db/91ad2f78dd6dd3503ddbb2a6f75afe6d33f264bb45991bbfe663ee00e5b9/gxabm-2.7.3.tar.gz
+[2023-07-11 16:06:08] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-11 16:06:08] INFO root fetch - processPackages [kubetools]: Downloading https://files.pythonhosted.org/packages/2d/9a/6eaa6a55ad9c39099d754265f72c8a007dc0e9acb944701d3a7e2d0f785d/kubetools-9.1.tar.gz
+[2023-07-11 16:06:08] INFO root fetch - processPackages [cereslib]: Downloading https://files.pythonhosted.org/packages/aa/a7/55310ced26888f77e9da5305da1e339ce220b9cda841df3476f507757a21/cereslib-0.4.2rc1.tar.gz
+[2023-07-11 16:06:08] INFO root fetch - processPackages [perceval]: Remove: archive file [/home/abi/fetcher/tmp/perceval-0.9.6.tar.gz]
+[2023-07-11 16:06:08] INFO root fetch - processPackages [perceval]: Remove: archive file [/home/abi/fetcher/tmp/perceval-0.9.9.tar.gz]
+[2023-07-11 16:06:08] INFO root fetch - processPackages [perceval]: Start processing: abd-clam
+[2023-07-11 16:06:08] INFO root fetch - main [MainThread]: End processing [perceval]: success
+[2023-07-11 16:06:08] INFO root fetch - processPackages [bhfutils]: Remove: archive file [/home/abi/fetcher/tmp/bhfutils-0.0.97.tar.gz]
+[2023-07-11 16:06:08] INFO root fetch - processPackages [bhfutils]: Remove: archive file [/home/abi/fetcher/tmp/bhfutils-0.0.98.tar.gz]
+[2023-07-11 16:06:08] INFO root fetch - main [MainThread]: End processing [bhfutils]: success
+[2023-07-11 16:06:08] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: Downloading https://files.pythonhosted.org/packages/32/bc/ac3dab87c351984ae6522bf91695811f7df3607fcbcf2e87e12ccdcae4e5/pepperize.cdk-dynamodb-backup-0.0.98.tar.gz
+[2023-07-11 16:06:08] INFO root fetch - processPackages [gxabm]: Downloading https://files.pythonhosted.org/packages/ef/f5/f6b33c3d088e2ed48c501f8a1e3997e62b2a9f035f7cb4fcbc789a4b4f1e/gxabm-2.7.4.tar.gz
+[2023-07-11 16:06:08] INFO root fetch - processPackages [abd-clam]: New version: [0.9.0.dev5] Old Version: [0.9.0.dev1]
+[2023-07-11 16:06:08] INFO root fetch - processPackages [domolibrary]: Remove: archive file [/home/abi/fetcher/tmp/domolibrary-0.1.98.tar.gz]
+[2023-07-11 16:06:08] INFO root fetch - processPackages [domolibrary]: Remove: archive file [/home/abi/fetcher/tmp/domolibrary-0.1.99.tar.gz]
+[2023-07-11 16:06:08] INFO root fetch - main [MainThread]: End processing [domolibrary]: success
+[2023-07-11 16:06:08] INFO root fetch - processPackages [kubetools]: Downloading https://files.pythonhosted.org/packages/48/1a/e1ef307ab6854b4b7681443e2d4074ae1d968d88cc907b66a8818932f060/kubetools-9.1.1.tar.gz
+[2023-07-11 16:06:08] INFO root fetch - processPackages [abd-clam]: Downloading https://files.pythonhosted.org/packages/bd/20/964ab768efce75ba26c4319c140e23a1b920b649444733ed661e13323622/abd_clam-0.9.0.dev1.tar.gz
+[2023-07-11 16:06:08] INFO root fetch - processPackages [cereslib]: executing diffoscope
+[2023-07-11 16:06:08] INFO root fetch - processPackages [cereslib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cereslib-0.4.1rc1.tar.gz tmp/cereslib-0.4.2rc1.tar.gz --markdown 20230711/c/cereslib/0.4.1rc1-0.4.2rc1/diff.md --exclude *.pyd
+[2023-07-11 16:06:08] INFO root fetch - processPackages [gxabm]: executing diffoscope
+[2023-07-11 16:06:08] INFO root fetch - processPackages [gxabm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gxabm-2.7.3.tar.gz tmp/gxabm-2.7.4.tar.gz --markdown 20230711/g/gxabm/2.7.3-2.7.4/diff.md --exclude *.pyd
+[2023-07-11 16:06:09] INFO root fetch - processPackages [kubetools]: executing diffoscope
+[2023-07-11 16:06:09] INFO root fetch - processPackages [kubetools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kubetools-9.1.tar.gz tmp/kubetools-9.1.1.tar.gz --markdown 20230711/k/kubetools/9.1-9.1.1/diff.md --exclude *.pyd
+[2023-07-11 16:06:09] INFO root fetch - processPackages [supervisely]: Remove: archive file [/home/abi/fetcher/tmp/supervisely-6.9.1.tar.gz]
+[2023-07-11 16:06:09] INFO root fetch - processPackages [supervisely]: Remove: archive file [/home/abi/fetcher/tmp/supervisely-6.9.2.tar.gz]
+[2023-07-11 16:06:09] INFO root fetch - main [MainThread]: End processing [supervisely]: success
+[2023-07-11 16:06:09] INFO root fetch - processPackages [abd-clam]: Downloading https://files.pythonhosted.org/packages/9c/87/023a50a2fea36c90811c51197f0f44e18904c603fc07439a0212d0be2b6a/abd_clam-0.9.0.dev5.tar.gz
+[2023-07-11 16:06:09] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: Downloading https://files.pythonhosted.org/packages/87/60/cd337f65781a604c1d436fcd62f8ffdaff0bc80e00546a9c715fa9561007/pepperize.cdk-dynamodb-backup-0.0.99.tar.gz
+[2023-07-11 16:06:09] INFO root fetch - processPackages [abd-clam]: executing diffoscope
+[2023-07-11 16:06:09] INFO root fetch - processPackages [abd-clam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abd_clam-0.9.0.dev1.tar.gz tmp/abd_clam-0.9.0.dev5.tar.gz --markdown 20230711/a/abd-clam/0.9.0.dev1-0.9.0.dev5/diff.md --exclude *.pyd
+[2023-07-11 16:06:09] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: executing diffoscope
+[2023-07-11 16:06:09] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-dynamodb-backup-0.0.98.tar.gz tmp/pepperize.cdk-dynamodb-backup-0.0.99.tar.gz --markdown 20230711/p/pepperize.cdk-dynamodb-backup/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-11 16:06:10] INFO root fetch - processPackages [cereslib]: Remove: archive file [/home/abi/fetcher/tmp/cereslib-0.4.1rc1.tar.gz]
+[2023-07-11 16:06:10] INFO root fetch - processPackages [cereslib]: Remove: archive file [/home/abi/fetcher/tmp/cereslib-0.4.2rc1.tar.gz]
+[2023-07-11 16:06:10] INFO root fetch - main [MainThread]: End processing [cereslib]: success
+[2023-07-11 16:06:10] INFO root fetch - processPackages [kubetools]: Remove: archive file [/home/abi/fetcher/tmp/kubetools-9.1.tar.gz]
+[2023-07-11 16:06:10] INFO root fetch - processPackages [kubetools]: Remove: archive file [/home/abi/fetcher/tmp/kubetools-9.1.1.tar.gz]
+[2023-07-11 16:06:10] INFO root fetch - main [MainThread]: End processing [kubetools]: success
+[2023-07-11 16:06:10] INFO root fetch - processPackages [gxabm]: Remove: archive file [/home/abi/fetcher/tmp/gxabm-2.7.3.tar.gz]
+[2023-07-11 16:06:10] INFO root fetch - processPackages [gxabm]: Remove: archive file [/home/abi/fetcher/tmp/gxabm-2.7.4.tar.gz]
+[2023-07-11 16:06:10] INFO root fetch - main [MainThread]: End processing [gxabm]: success
+[2023-07-11 16:06:10] INFO root fetch - processPackages [abd-clam]: Remove: archive file [/home/abi/fetcher/tmp/abd_clam-0.9.0.dev1.tar.gz]
+[2023-07-11 16:06:10] INFO root fetch - processPackages [abd-clam]: Remove: archive file [/home/abi/fetcher/tmp/abd_clam-0.9.0.dev5.tar.gz]
+[2023-07-11 16:06:10] INFO root fetch - main [MainThread]: End processing [abd-clam]: success
+[2023-07-11 16:06:10] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-dynamodb-backup-0.0.98.tar.gz]
+[2023-07-11 16:06:10] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-dynamodb-backup-0.0.99.tar.gz]
+[2023-07-11 16:06:10] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-dynamodb-backup]: success
+[2023-07-11 16:06:10] INFO root fetch - processPackages [mujoco-dev]: Remove: archive file [/home/abi/fetcher/tmp/mujoco_dev-2.3.6.dev546943151-cp39-cp39-win_amd64.whl.zip]
+[2023-07-11 16:06:10] INFO root fetch - processPackages [mujoco-dev]: Remove: archive file [/home/abi/fetcher/tmp/mujoco_dev-2.3.6.dev547175700-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-11 16:06:10] INFO root fetch - main [MainThread]: End processing [mujoco-dev]: success
+[2023-07-11 16:06:25] INFO root fetch - processPackages [leap-model-parser]: Remove: archive file [/home/abi/fetcher/tmp/leap_model_parser-0.1.98.tar.gz]
+[2023-07-11 16:06:25] INFO root fetch - processPackages [leap-model-parser]: Remove: archive file [/home/abi/fetcher/tmp/leap_model_parser-0.1.99.tar.gz]
+[2023-07-11 16:06:25] INFO root fetch - main [MainThread]: End processing [leap-model-parser]: success
+[2023-07-11 16:06:25] INFO root fetch - main [MainThread]: Store serial: [18846335]
