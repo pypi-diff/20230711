@@ -16918,3 +16918,145 @@ AssertionError: tmp/doctran-0.0.6.tar.gz does not exist
 [2023-07-11 12:34:25] INFO root fetch - processPackages [ert]: Remove: archive file [/home/abi/fetcher/tmp/ert-5.1.0b3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-07-11 12:34:25] INFO root fetch - main [MainThread]: End processing [ert]: success
 [2023-07-11 12:34:25] INFO root fetch - main [MainThread]: Store serial: [18843871]
+[2023-07-11 12:39:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18843871]
+[2023-07-11 12:39:36] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-11 12:39:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: logutils-serpucga
+[2023-07-11 12:39:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: taichu-storage
+[2023-07-11 12:39:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: TheSilent
+[2023-07-11 12:39:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: papertronics-sdk
+[2023-07-11 12:39:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: starbug2
+[2023-07-11 12:39:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rydeen-lesson-notebook-bad-code
+[2023-07-11 12:39:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: moonwiki
+[2023-07-11 12:39:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-fleet-vehicle-service-calendar
+[2023-07-11 12:39:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hotsos
+[2023-07-11 12:39:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tvb-widgets
+[2023-07-11 12:39:37] INFO root fetch - processPackages [moonwiki]: New version: [2023.7.6.3] Old Version: [2023.7.6.2]
+[2023-07-11 12:39:37] INFO root fetch - processPackages [papertronics-sdk]: New version: [0.0.26] Old Version: [0.0.25]
+[2023-07-11 12:39:37] INFO root fetch - processPackages [logutils-serpucga]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-11 12:39:37] INFO root fetch - processPackages [rydeen-lesson-notebook-bad-code]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-11 12:39:37] INFO root fetch - processPackages [taichu-storage]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-11 12:39:37] WARNING root fetch - processPackages [odoo-addon-fleet-vehicle-service-calendar]: Skipping, unable to determine old version
+[2023-07-11 12:39:37] INFO root fetch - processPackages [odoo-addon-fleet-vehicle-service-calendar]: Start processing: papertronics-sdk
+[2023-07-11 12:39:37] INFO root fetch - main [MainThread]: End processing [odoo-addon-fleet-vehicle-service-calendar] error
+[2023-07-11 12:39:37] INFO root fetch - processPackages [tvb-widgets]: New version: [1.5.0] Old Version: [1.4.2a1]
+[2023-07-11 12:39:37] INFO root fetch - processPackages [starbug2]: New version: [0.4.6] Old Version: [0.4.4]
+[2023-07-11 12:39:37] INFO root fetch - processPackages [hotsos]: New version: [1.15.post9] Old Version: [1.15.post8]
+[2023-07-11 12:39:37] INFO root fetch - processPackages [TheSilent]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-11 12:39:37] INFO root fetch - processPackages [papertronics-sdk]: New version: [0.0.26] Old Version: [0.0.25]
+[2023-07-11 12:39:37] INFO root fetch - processPackages [moonwiki]: Downloading https://files.pythonhosted.org/packages/09/c8/7a6b6c4b3568b573c89e072fd6984dbd3b7d411796327e793e0cbdb11fd1/moonwiki-2023.7.6.2.tar.gz
+[2023-07-11 12:39:37] INFO root fetch - processPackages [papertronics-sdk]: Downloading https://files.pythonhosted.org/packages/4f/af/08d5a76c22cf08f0e9017b1defc4394e32784a1ee55a838661f235433221/papertronics-sdk-0.0.25.tar.gz
+[2023-07-11 12:39:37] INFO root fetch - processPackages [taichu-storage]: Downloading https://files.pythonhosted.org/packages/e4/89/6360d848c2a1178cf57c5762877f358d0469c4e31c0704d1b83bf283dd87/taichu-storage-0.0.5.tar.gz
+[2023-07-11 12:39:37] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/ad/09/2a1f42483bf3fbc17417489cf4f3d6ec17c5c763e219aa02ad1827f29dc1/TheSilent-0.0.98.tar.gz
+[2023-07-11 12:39:37] INFO root fetch - processPackages [papertronics-sdk]: Downloading https://files.pythonhosted.org/packages/4f/af/08d5a76c22cf08f0e9017b1defc4394e32784a1ee55a838661f235433221/papertronics-sdk-0.0.25.tar.gz
+[2023-07-11 12:39:37] INFO root fetch - processPackages [rydeen-lesson-notebook-bad-code]: Downloading https://files.pythonhosted.org/packages/21/02/ec20adb660e2dfa946504e20ccb87f834a509951680479864b34d9f51a9c/rydeen-lesson-notebook-bad-code-0.1.2.tar.gz
+[2023-07-11 12:39:37] INFO root fetch - processPackages [tvb-widgets]: Downloading https://files.pythonhosted.org/packages/bb/6d/47e996be14dd7cc24f105e9cefad7884c234a8ea0dcb81c7882542a0ae1d/tvb-widgets-1.4.2a1.tar.gz
+[2023-07-11 12:39:37] INFO root fetch - processPackages [hotsos]: Downloading https://files.pythonhosted.org/packages/6c/94/3ba9896275fcb90a0882e18dded1aa5187fdaa3205439cfa182e93bfe705/hotsos-1.15.post8.tar.gz
+[2023-07-11 12:39:37] INFO root fetch - processPackages [logutils-serpucga]: Downloading https://files.pythonhosted.org/packages/e8/78/7c97611c19b9ad90578b98519e325d941179e0e32d9825ee31b36d866b0a/logutils_serpucga-0.1.8.tar.gz
+[2023-07-11 12:39:37] INFO root fetch - processPackages [starbug2]: Downloading https://files.pythonhosted.org/packages/cd/e1/9f80a0551a6d7c817fbfcb10808ece283a1d445d813c28ad22deb53356c5/starbug2-0.4.4.tar.gz
+[2023-07-11 12:39:37] INFO root fetch - processPackages [moonwiki]: Downloading https://files.pythonhosted.org/packages/28/2a/d179fbcdf8c90a0b1e0f8a90815b5261b7c79d954a416f80fa535c3aea21/moonwiki-2023.7.6.3.tar.gz
+[2023-07-11 12:39:37] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/38/21/9b42cfa55edd85cfd4fefba7fb94aab0891af2b6c90ef59e687a42228a0b/TheSilent-0.0.99.tar.gz
+[2023-07-11 12:39:38] INFO root fetch - processPackages [papertronics-sdk]: Downloading https://files.pythonhosted.org/packages/3b/7d/bfc7b3c7e64602d5e45985ae098847e0fc31ba44926a1e9dbb11e01e4728/papertronics-sdk-0.0.26.tar.gz
+[2023-07-11 12:39:38] INFO root fetch - processPackages [papertronics-sdk]: Downloading https://files.pythonhosted.org/packages/3b/7d/bfc7b3c7e64602d5e45985ae098847e0fc31ba44926a1e9dbb11e01e4728/papertronics-sdk-0.0.26.tar.gz
+[2023-07-11 12:39:38] INFO root fetch - processPackages [taichu-storage]: Downloading https://files.pythonhosted.org/packages/52/b5/b7bf54b111275b0ddeeb6f8d570b5e885b06fd58a8f3d2363022f2b22942/taichu-storage-0.0.6.tar.gz
+[2023-07-11 12:39:38] INFO root fetch - processPackages [moonwiki]: executing diffoscope
+[2023-07-11 12:39:38] INFO root fetch - processPackages [moonwiki]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moonwiki-2023.7.6.2.tar.gz tmp/moonwiki-2023.7.6.3.tar.gz --markdown 20230711/m/moonwiki/2023.7.6.2-2023.7.6.3/diff.md --exclude *.pyd
+[2023-07-11 12:39:38] INFO root fetch - processPackages [hotsos]: Downloading https://files.pythonhosted.org/packages/9e/aa/b69b0f93a27db3078303013f872f6e6f370375ec9e51c9b73ecf676110fb/hotsos-1.15.post9.tar.gz
+[2023-07-11 12:39:38] INFO root fetch - processPackages [TheSilent]: executing diffoscope
+[2023-07-11 12:39:38] INFO root fetch - processPackages [TheSilent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TheSilent-0.0.98.tar.gz tmp/TheSilent-0.0.99.tar.gz --markdown 20230711/T/TheSilent/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-11 12:39:38] INFO root fetch - processPackages [rydeen-lesson-notebook-bad-code]: Downloading https://files.pythonhosted.org/packages/2f/cb/a6793d22f598250f6602e67f8d94f898c830b196c9a981b5cf3ad8c6a429/rydeen-lesson-notebook-bad-code-0.1.3.tar.gz
+[2023-07-11 12:39:38] INFO root fetch - processPackages [taichu-storage]: executing diffoscope
+[2023-07-11 12:39:38] INFO root fetch - processPackages [taichu-storage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taichu-storage-0.0.5.tar.gz tmp/taichu-storage-0.0.6.tar.gz --markdown 20230711/t/taichu-storage/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-11 12:39:38] INFO root fetch - processPackages [tvb-widgets]: Downloading https://files.pythonhosted.org/packages/2d/eb/f7b565c83dbbd13d2a6e2c13e91e37fbfd0420400813a232f4c86c9bf78c/tvb-widgets-1.5.0.tar.gz
+[2023-07-11 12:39:38] INFO root fetch - processPackages [papertronics-sdk]: executing diffoscope
+[2023-07-11 12:39:38] INFO root fetch - processPackages [papertronics-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/papertronics-sdk-0.0.25.tar.gz tmp/papertronics-sdk-0.0.26.tar.gz --markdown 20230711/p/papertronics-sdk/0.0.25-0.0.26/diff.md --exclude *.pyd
+[2023-07-11 12:39:38] INFO root fetch - processPackages [rydeen-lesson-notebook-bad-code]: executing diffoscope
+[2023-07-11 12:39:38] INFO root fetch - processPackages [rydeen-lesson-notebook-bad-code]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rydeen-lesson-notebook-bad-code-0.1.2.tar.gz tmp/rydeen-lesson-notebook-bad-code-0.1.3.tar.gz --markdown 20230711/r/rydeen-lesson-notebook-bad-code/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-11 12:39:38] INFO root fetch - processPackages [papertronics-sdk]: executing diffoscope
+[2023-07-11 12:39:38] INFO root fetch - processPackages [papertronics-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/papertronics-sdk-0.0.25.tar.gz tmp/papertronics-sdk-0.0.26.tar.gz --markdown 20230711/p/papertronics-sdk/0.0.25-0.0.26/diff.md --exclude *.pyd
+[2023-07-11 12:39:38] INFO root fetch - processPackages [starbug2]: Downloading https://files.pythonhosted.org/packages/04/e9/540189361522853afb874657837e471df567d6f743d874ce032881900d28/starbug2-0.4.6.tar.gz
+[2023-07-11 12:39:38] INFO root fetch - processPackages [logutils-serpucga]: Downloading https://files.pythonhosted.org/packages/43/6f/52735f8ddde57e771ecd379d2fd8cb7c4bce201fff97401ae2524094d332/logutils_serpucga-0.1.9.tar.gz
+[2023-07-11 12:39:38] INFO root fetch - processPackages [hotsos]: executing diffoscope
+[2023-07-11 12:39:38] INFO root fetch - processPackages [hotsos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hotsos-1.15.post8.tar.gz tmp/hotsos-1.15.post9.tar.gz --markdown 20230711/h/hotsos/1.15.post8-1.15.post9/diff.md --exclude *.pyd
+[2023-07-11 12:39:38] INFO root fetch - processPackages [logutils-serpucga]: executing diffoscope
+[2023-07-11 12:39:38] INFO root fetch - processPackages [logutils-serpucga]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logutils_serpucga-0.1.8.tar.gz tmp/logutils_serpucga-0.1.9.tar.gz --markdown 20230711/l/logutils-serpucga/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-11 12:39:38] INFO root fetch - processPackages [starbug2]: executing diffoscope
+[2023-07-11 12:39:38] INFO root fetch - processPackages [starbug2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/starbug2-0.4.4.tar.gz tmp/starbug2-0.4.6.tar.gz --markdown 20230711/s/starbug2/0.4.4-0.4.6/diff.md --exclude *.pyd
+[2023-07-11 12:39:38] INFO root fetch - processPackages [tvb-widgets]: executing diffoscope
+[2023-07-11 12:39:38] INFO root fetch - processPackages [tvb-widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tvb-widgets-1.4.2a1.tar.gz tmp/tvb-widgets-1.5.0.tar.gz --markdown 20230711/t/tvb-widgets/1.4.2a1-1.5.0/diff.md --exclude *.pyd
+[2023-07-11 12:39:39] INFO root fetch - processPackages [moonwiki]: Remove: archive file [/home/abi/fetcher/tmp/moonwiki-2023.7.6.2.tar.gz]
+[2023-07-11 12:39:39] INFO root fetch - processPackages [moonwiki]: Remove: archive file [/home/abi/fetcher/tmp/moonwiki-2023.7.6.3.tar.gz]
+[2023-07-11 12:39:39] INFO root fetch - processPackages [moonwiki]: Start processing: nemo2riva
+[2023-07-11 12:39:39] INFO root fetch - main [MainThread]: End processing [moonwiki]: success
+[2023-07-11 12:39:39] INFO root fetch - processPackages [nemo2riva]: New version: [2.9.0] Old Version: [2.12.0]
+[2023-07-11 12:39:39] INFO root fetch - processPackages [taichu-storage]: Remove: archive file [/home/abi/fetcher/tmp/taichu-storage-0.0.5.tar.gz]
+[2023-07-11 12:39:39] INFO root fetch - processPackages [taichu-storage]: Remove: archive file [/home/abi/fetcher/tmp/taichu-storage-0.0.6.tar.gz]
+[2023-07-11 12:39:39] INFO root fetch - processPackages [taichu-storage]: Start processing: planqk-quantum
+[2023-07-11 12:39:39] INFO root fetch - main [MainThread]: End processing [taichu-storage]: success
+[2023-07-11 12:39:39] INFO root fetch - processPackages [rydeen-lesson-notebook-bad-code]: Remove: archive file [/home/abi/fetcher/tmp/rydeen-lesson-notebook-bad-code-0.1.2.tar.gz]
+[2023-07-11 12:39:39] INFO root fetch - processPackages [rydeen-lesson-notebook-bad-code]: Remove: archive file [/home/abi/fetcher/tmp/rydeen-lesson-notebook-bad-code-0.1.3.tar.gz]
+[2023-07-11 12:39:39] INFO root fetch - processPackages [rydeen-lesson-notebook-bad-code]: Start processing: tablite
+[2023-07-11 12:39:39] INFO root fetch - main [MainThread]: End processing [rydeen-lesson-notebook-bad-code]: success
+[2023-07-11 12:39:39] INFO root fetch - processPackages [planqk-quantum]: New version: [1.9.0] Old Version: [1.8.6]
+[2023-07-11 12:39:39] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.98.tar.gz]
+[2023-07-11 12:39:39] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.99.tar.gz]
+[2023-07-11 12:39:39] INFO root fetch - processPackages [TheSilent]: Start processing: Finance-JindowinData
+[2023-07-11 12:39:39] INFO root fetch - main [MainThread]: End processing [TheSilent]: success
+[2023-07-11 12:39:39] INFO root fetch - processPackages [nemo2riva]: Downloading https://files.pythonhosted.org/packages/89/33/4d032c23d3b675f017fc5f77620dfa49c7f7a1edb647cc5c33c674ffff23/nemo2riva-2.12.0-py3-none-any.whl
+[2023-07-11 12:39:39] INFO root fetch - processPackages [tablite]: New version: [2023.6.dev9] Old Version: [2023.6.dev8]
+[2023-07-11 12:39:39] INFO root fetch - processPackages [planqk-quantum]: Downloading https://files.pythonhosted.org/packages/3b/a2/2283b7561efc1f28847bda5663a94ecf7f878f29f7b3a1590a79b839125d/planqk-quantum-1.8.6.tar.gz
+[2023-07-11 12:39:39] WARNING root fetch - processPackages [Finance-JindowinData]: Skipping, unable to determine old version
+[2023-07-11 12:39:39] INFO root fetch - processPackages [Finance-JindowinData]: Start processing: entest
+[2023-07-11 12:39:39] INFO root fetch - main [MainThread]: End processing [Finance-JindowinData] error
+[2023-07-11 12:39:39] INFO root fetch - processPackages [papertronics-sdk]: Remove: archive file [/home/abi/fetcher/tmp/papertronics-sdk-0.0.25.tar.gz]
+[2023-07-11 12:39:39] INFO root fetch - processPackages [papertronics-sdk]: Remove: archive file [/home/abi/fetcher/tmp/papertronics-sdk-0.0.26.tar.gz]
+[2023-07-11 12:39:39] INFO root fetch - processPackages [papertronics-sdk]: Start processing: kcli
+[2023-07-11 12:39:39] INFO root fetch - main [MainThread]: End processing [papertronics-sdk]: success
+[2023-07-11 12:39:40] INFO root fetch - main [MainThread]: End processing [papertronics-sdk]: success
+[2023-07-11 12:39:40] INFO root fetch - processPackages [logutils-serpucga]: Remove: archive file [/home/abi/fetcher/tmp/logutils_serpucga-0.1.8.tar.gz]
+[2023-07-11 12:39:40] INFO root fetch - processPackages [logutils-serpucga]: Remove: archive file [/home/abi/fetcher/tmp/logutils_serpucga-0.1.9.tar.gz]
+[2023-07-11 12:39:40] INFO root fetch - main [MainThread]: End processing [logutils-serpucga]: success
+[2023-07-11 12:39:40] INFO root fetch - processPackages [kcli]: New version: [99.0.202307102057] Old Version: [99.0.202307101238]
+[2023-07-11 12:39:40] INFO root fetch - processPackages [starbug2]: Remove: archive file [/home/abi/fetcher/tmp/starbug2-0.4.4.tar.gz]
+[2023-07-11 12:39:40] INFO root fetch - processPackages [starbug2]: Remove: archive file [/home/abi/fetcher/tmp/starbug2-0.4.6.tar.gz]
+[2023-07-11 12:39:40] INFO root fetch - main [MainThread]: End processing [starbug2]: success
+[2023-07-11 12:39:40] INFO root fetch - processPackages [entest]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-11 12:39:40] INFO root fetch - processPackages [planqk-quantum]: Downloading https://files.pythonhosted.org/packages/a3/13/7cd24d3b8a0478841e1fa07648a7156ac8b299a7e39addc247212e1e8a60/planqk-quantum-1.9.0.tar.gz
+[2023-07-11 12:39:40] INFO root fetch - processPackages [tablite]: Downloading https://files.pythonhosted.org/packages/af/fd/4f95223380042b2e479d698c96ecc34cbd35c3a161b8e322ad88b4bcfed6/tablite-2023.6.dev8-py3-none-any.whl
+[2023-07-11 12:39:40] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/ab/5d/3f24e55bc3bff3e078360d830acbe82a1fb9b8bc4318fa5edcd73b72ae33/kcli-99.0.202307101238-py3-none-any.whl
+[2023-07-11 12:39:40] INFO root fetch - processPackages [tvb-widgets]: Remove: archive file [/home/abi/fetcher/tmp/tvb-widgets-1.4.2a1.tar.gz]
+[2023-07-11 12:39:40] INFO root fetch - processPackages [tvb-widgets]: Remove: archive file [/home/abi/fetcher/tmp/tvb-widgets-1.5.0.tar.gz]
+[2023-07-11 12:39:40] INFO root fetch - main [MainThread]: End processing [tvb-widgets]: success
+[2023-07-11 12:39:40] INFO root fetch - processPackages [planqk-quantum]: executing diffoscope
+[2023-07-11 12:39:40] INFO root fetch - processPackages [planqk-quantum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/planqk-quantum-1.8.6.tar.gz tmp/planqk-quantum-1.9.0.tar.gz --markdown 20230711/p/planqk-quantum/1.8.6-1.9.0/diff.md --exclude *.pyd
+[2023-07-11 12:39:40] INFO root fetch - processPackages [nemo2riva]: Downloading https://files.pythonhosted.org/packages/f2/05/6a4b6f8bafcc5db65f9c6cd51579af847eac44470fa2dcec80ec2e38e1bb/nemo2riva-2.9.0-py3-none-any.whl
+[2023-07-11 12:39:40] INFO root fetch - processPackages [entest]: Downloading https://files.pythonhosted.org/packages/fe/b6/f48c3fbed4c5cee98d66ca4a0feb99e1e41b77be4ae050e692995fcce1bb/entest-0.1.8.tar.gz
+[2023-07-11 12:39:40] INFO root fetch - processPackages [nemo2riva]: executing diffoscope
+[2023-07-11 12:39:40] INFO root fetch - processPackages [nemo2riva]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nemo2riva-2.12.0-py3-none-any.whl.zip tmp/nemo2riva-2.9.0-py3-none-any.whl.zip --markdown 20230711/n/nemo2riva/2.12.0-2.9.0/diff.md --exclude *.pyd
+[2023-07-11 12:39:40] INFO root fetch - processPackages [tablite]: Downloading https://files.pythonhosted.org/packages/14/ec/59a99d9898f7f1dca847cacaa4e22888f72005d3fc9bef2f15e21bde0b8a/tablite-2023.6.dev9-py3-none-any.whl
+[2023-07-11 12:39:40] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/54/ce/d25eaa584e13843a4b1e31c1bb044f967e25c99f204c60bd4bb9bd393747/kcli-99.0.202307102057-py3-none-any.whl
+[2023-07-11 12:39:40] INFO root fetch - processPackages [tablite]: executing diffoscope
+[2023-07-11 12:39:40] INFO root fetch - processPackages [tablite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tablite-2023.6.dev8-py3-none-any.whl.zip tmp/tablite-2023.6.dev9-py3-none-any.whl.zip --markdown 20230711/t/tablite/2023.6.dev8-2023.6.dev9/diff.md --exclude *.pyd
+[2023-07-11 12:39:40] INFO root fetch - processPackages [entest]: Downloading https://files.pythonhosted.org/packages/99/83/4176e4885d48a5e193a47d16d96f47524e4fd4a4e84ccc126087fe021241/entest-0.1.9.tar.gz
+[2023-07-11 12:39:40] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-07-11 12:39:40] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202307101238-py3-none-any.whl.zip tmp/kcli-99.0.202307102057-py3-none-any.whl.zip --markdown 20230711/k/kcli/99.0.202307101238-99.0.202307102057/diff.md --exclude *.pyd
+[2023-07-11 12:39:41] INFO root fetch - processPackages [entest]: executing diffoscope
+[2023-07-11 12:39:41] INFO root fetch - processPackages [entest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/entest-0.1.8.tar.gz tmp/entest-0.1.9.tar.gz --markdown 20230711/e/entest/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-11 12:39:41] INFO root fetch - processPackages [planqk-quantum]: Remove: archive file [/home/abi/fetcher/tmp/planqk-quantum-1.8.6.tar.gz]
+[2023-07-11 12:39:41] INFO root fetch - processPackages [planqk-quantum]: Remove: archive file [/home/abi/fetcher/tmp/planqk-quantum-1.9.0.tar.gz]
+[2023-07-11 12:39:41] INFO root fetch - main [MainThread]: End processing [planqk-quantum]: success
+[2023-07-11 12:39:41] INFO root fetch - processPackages [hotsos]: Remove: archive file [/home/abi/fetcher/tmp/hotsos-1.15.post8.tar.gz]
+[2023-07-11 12:39:41] INFO root fetch - processPackages [hotsos]: Remove: archive file [/home/abi/fetcher/tmp/hotsos-1.15.post9.tar.gz]
+[2023-07-11 12:39:41] INFO root fetch - main [MainThread]: End processing [hotsos]: success
+[2023-07-11 12:39:41] INFO root fetch - processPackages [nemo2riva]: Remove: archive file [/home/abi/fetcher/tmp/nemo2riva-2.12.0-py3-none-any.whl.zip]
+[2023-07-11 12:39:41] INFO root fetch - processPackages [nemo2riva]: Remove: archive file [/home/abi/fetcher/tmp/nemo2riva-2.9.0-py3-none-any.whl.zip]
+[2023-07-11 12:39:41] INFO root fetch - main [MainThread]: End processing [nemo2riva]: success
+[2023-07-11 12:39:41] INFO root fetch - processPackages [tablite]: Remove: archive file [/home/abi/fetcher/tmp/tablite-2023.6.dev8-py3-none-any.whl.zip]
+[2023-07-11 12:39:41] INFO root fetch - processPackages [tablite]: Remove: archive file [/home/abi/fetcher/tmp/tablite-2023.6.dev9-py3-none-any.whl.zip]
+[2023-07-11 12:39:41] INFO root fetch - main [MainThread]: End processing [tablite]: success
+[2023-07-11 12:39:41] INFO root fetch - processPackages [entest]: Remove: archive file [/home/abi/fetcher/tmp/entest-0.1.8.tar.gz]
+[2023-07-11 12:39:41] INFO root fetch - processPackages [entest]: Remove: archive file [/home/abi/fetcher/tmp/entest-0.1.9.tar.gz]
+[2023-07-11 12:39:41] INFO root fetch - main [MainThread]: End processing [entest]: success
+[2023-07-11 12:39:44] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307101238-py3-none-any.whl.zip]
+[2023-07-11 12:39:44] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307102057-py3-none-any.whl.zip]
+[2023-07-11 12:39:44] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-07-11 12:39:44] INFO root fetch - main [MainThread]: Store serial: [18843921]
