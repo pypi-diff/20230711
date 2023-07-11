@@ -12014,3 +12014,108 @@ AssertionError: tmp/doctran-0.0.6.tar.gz does not exist
 [2023-07-11 09:25:16] INFO root fetch - processPackages [bycon]: Remove: archive file [/home/abi/fetcher/tmp/bycon-1.0.9.tar.gz]
 [2023-07-11 09:25:16] INFO root fetch - main [MainThread]: End processing [bycon]: success
 [2023-07-11 09:25:16] INFO root fetch - main [MainThread]: Store serial: [18841847]
+[2023-07-11 09:30:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18841847]
+[2023-07-11 09:30:25] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-11 09:30:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: molgenis-emx2-pyclient
+[2023-07-11 09:30:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vsc-install
+[2023-07-11 09:30:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gdal2numpy
+[2023-07-11 09:30:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openvino2onnx
+[2023-07-11 09:30:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: swanapi
+[2023-07-11 09:30:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: e2e-cli
+[2023-07-11 09:30:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rdf-doctor
+[2023-07-11 09:30:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ref-man-py
+[2023-07-11 09:30:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tzspace
+[2023-07-11 09:30:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: langchain-visualizer
+[2023-07-11 09:30:25] INFO root fetch - processPackages [gdal2numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-11 09:30:25] INFO root fetch - processPackages [rdf-doctor]: New version: [1.0.0rc1] Old Version: [0.9.0]
+[2023-07-11 09:30:25] INFO root fetch - processPackages [openvino2onnx]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-11 09:30:25] INFO root fetch - processPackages [tzspace]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-11 09:30:25] INFO root fetch - processPackages [e2e-cli]: New version: [0.9.9.9] Old Version: [0.9.9.8]
+[2023-07-11 09:30:25] INFO root fetch - processPackages [swanapi]: New version: [0.2.3] Old Version: [0.2.1]
+[2023-07-11 09:30:25] INFO root fetch - processPackages [ref-man-py]: New version: [0.7.0] Old Version: [0.6.4]
+[2023-07-11 09:30:25] INFO root fetch - processPackages [vsc-install]: New version: [0.9.6] Old Version: [0.9.3]
+[2023-07-11 09:30:25] INFO root fetch - processPackages [molgenis-emx2-pyclient]: New version: [8.202.1] Old Version: [8.202.0]
+[2023-07-11 09:30:25] INFO root fetch - processPackages [langchain-visualizer]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-11 09:30:25] INFO root fetch - processPackages [gdal2numpy]: Downloading https://files.pythonhosted.org/packages/8b/c7/c38f143f5db75454a9df08f7ff287cb3de46fb5f10139def0fcb92a15404/gdal2numpy-0.0.98.tar.gz
+[2023-07-11 09:30:25] INFO root fetch - processPackages [tzspace]: Downloading https://files.pythonhosted.org/packages/fd/cd/62e57f75b5ca7d06715cf65a6ce7337c63f29a9c03bfa57774207c6904bb/tzspace-0.0.4.tar.gz
+[2023-07-11 09:30:25] INFO root fetch - processPackages [swanapi]: Downloading https://files.pythonhosted.org/packages/c2/ac/2517a67ba16e0df44a198de8411982a2059cfd0d97613de2e6f53621eab9/swanapi-0.2.1-py3-none-any.whl
+[2023-07-11 09:30:25] INFO root fetch - processPackages [rdf-doctor]: Downloading https://files.pythonhosted.org/packages/39/89/55e3eb78352e352141d7e5ab6de6951b3976a8f4a7c48e30b97b7a73b2fe/rdf_doctor-0.9.0-py3-none-any.whl
+[2023-07-11 09:30:25] INFO root fetch - processPackages [openvino2onnx]: Downloading https://files.pythonhosted.org/packages/34/f0/dd8726a0c89620bff26338c788cf5dee9c1d28185d49407aad1d332f984a/openvino2onnx-0.1.0.tar.gz
+[2023-07-11 09:30:25] INFO root fetch - processPackages [e2e-cli]: Downloading https://files.pythonhosted.org/packages/ec/1b/ad4f51ec93196297c0b54e02688fb85b060154257686a6d769a190c1695d/e2e_cli-0.9.9.8.tar.gz
+[2023-07-11 09:30:25] INFO root fetch - processPackages [vsc-install]: Downloading https://files.pythonhosted.org/packages/bf/fd/c157ef76d4cef527610493b2784ebed9697ece3546f513e732eead1c394d/vsc-install-0.9.3.tar.gz
+[2023-07-11 09:30:25] INFO root fetch - processPackages [ref-man-py]: Downloading https://files.pythonhosted.org/packages/1c/05/f5730a2f60ffff1116f060a9664d71925acf1424b86f8776f9322b5c415e/ref-man-py-0.6.4.tar.gz
+[2023-07-11 09:30:25] INFO root fetch - processPackages [langchain-visualizer]: Downloading https://files.pythonhosted.org/packages/46/10/50d74f58550ffe5eca61ea43df7e98b776b69381027b0311ee3754767bf4/langchain_visualizer-0.0.8.tar.gz
+[2023-07-11 09:30:25] INFO root fetch - processPackages [molgenis-emx2-pyclient]: Downloading https://files.pythonhosted.org/packages/7d/13/17c311a78d1e6f5a33f529265c74be992d54963c41d724c2ffdbabc72d93/molgenis_emx2_pyclient-8.202.0.tar.gz
+[2023-07-11 09:30:25] INFO root fetch - processPackages [gdal2numpy]: Downloading https://files.pythonhosted.org/packages/67/ee/9c755bd5249fc9dc6a1dd773cb241c19b8df83a94fc0674017b57bd19e20/gdal2numpy-0.0.99.tar.gz
+[2023-07-11 09:30:25] INFO root fetch - processPackages [tzspace]: Downloading https://files.pythonhosted.org/packages/30/99/f48b2b8e93e8298cb2a84fb57c19e5c10e0b5a67e34e826d2235acdb846e/tzspace-0.0.5.tar.gz
+[2023-07-11 09:30:26] INFO root fetch - processPackages [gdal2numpy]: executing diffoscope
+[2023-07-11 09:30:26] INFO root fetch - processPackages [gdal2numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdal2numpy-0.0.98.tar.gz tmp/gdal2numpy-0.0.99.tar.gz --markdown 20230711/g/gdal2numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-11 09:30:26] INFO root fetch - processPackages [tzspace]: executing diffoscope
+[2023-07-11 09:30:26] INFO root fetch - processPackages [tzspace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tzspace-0.0.4.tar.gz tmp/tzspace-0.0.5.tar.gz --markdown 20230711/t/tzspace/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-11 09:30:26] INFO root fetch - processPackages [swanapi]: Downloading https://files.pythonhosted.org/packages/f7/47/c484344739b5ccd5a33471c8be15878d356fd4452788ae7441a0f13e764c/swanapi-0.2.3-py3-none-any.whl
+[2023-07-11 09:30:26] INFO root fetch - processPackages [rdf-doctor]: Downloading https://files.pythonhosted.org/packages/35/aa/df6dfc77515c99856305d9b2af349afe2c92b370ef272b2686d00f2c563b/rdf_doctor-1.0.0rc1-py3-none-any.whl
+[2023-07-11 09:30:26] INFO root fetch - processPackages [openvino2onnx]: Downloading https://files.pythonhosted.org/packages/bc/a3/f0b36dabb4b71416e0b34cad175a2b1adeec11a5fb02bf2c73357e9be755/openvino2onnx-0.1.1.tar.gz
+[2023-07-11 09:30:26] INFO root fetch - processPackages [swanapi]: executing diffoscope
+[2023-07-11 09:30:26] INFO root fetch - processPackages [swanapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swanapi-0.2.1-py3-none-any.whl.zip tmp/swanapi-0.2.3-py3-none-any.whl.zip --markdown 20230711/s/swanapi/0.2.1-0.2.3/diff.md --exclude *.pyd
+[2023-07-11 09:30:26] INFO root fetch - processPackages [molgenis-emx2-pyclient]: Downloading https://files.pythonhosted.org/packages/db/73/375203c597087430a9f4d3301624a9114f2101bc7e15bdb42fcf33b30cbb/molgenis_emx2_pyclient-8.202.1.tar.gz
+[2023-07-11 09:30:26] INFO root fetch - processPackages [e2e-cli]: Downloading https://files.pythonhosted.org/packages/cc/fe/f6dc0978925707ba4bed62a3b1e1ac6d18857331343c1ca7f8a18e071351/e2e_cli-0.9.9.9.tar.gz
+[2023-07-11 09:30:26] INFO root fetch - processPackages [langchain-visualizer]: Downloading https://files.pythonhosted.org/packages/cb/63/161612739a89467e0de9234ac5cae8c9eabeae5a5d9e53e7fc8469dde38e/langchain_visualizer-0.0.9.tar.gz
+[2023-07-11 09:30:26] INFO root fetch - processPackages [ref-man-py]: Downloading https://files.pythonhosted.org/packages/77/8b/a66201a5287da71eb1cd7bde87d16bc3bc0b9f57c63634c087538bf8ef30/ref-man-py-0.7.0.tar.gz
+[2023-07-11 09:30:26] INFO root fetch - processPackages [openvino2onnx]: executing diffoscope
+[2023-07-11 09:30:26] INFO root fetch - processPackages [openvino2onnx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openvino2onnx-0.1.0.tar.gz tmp/openvino2onnx-0.1.1.tar.gz --markdown 20230711/o/openvino2onnx/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-11 09:30:26] INFO root fetch - processPackages [vsc-install]: Downloading https://files.pythonhosted.org/packages/54/37/024b515060dedee2f26f5dc2b85a52a89ae445658cb527b1a5c3cd9bac87/vsc-install-0.9.6.tar.gz
+[2023-07-11 09:30:26] INFO root fetch - processPackages [molgenis-emx2-pyclient]: executing diffoscope
+[2023-07-11 09:30:26] INFO root fetch - processPackages [rdf-doctor]: executing diffoscope
+[2023-07-11 09:30:26] INFO root fetch - processPackages [molgenis-emx2-pyclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/molgenis_emx2_pyclient-8.202.0.tar.gz tmp/molgenis_emx2_pyclient-8.202.1.tar.gz --markdown 20230711/m/molgenis-emx2-pyclient/8.202.0-8.202.1/diff.md --exclude *.pyd
+[2023-07-11 09:30:26] INFO root fetch - processPackages [rdf-doctor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rdf_doctor-0.9.0-py3-none-any.whl.zip tmp/rdf_doctor-1.0.0rc1-py3-none-any.whl.zip --markdown 20230711/r/rdf-doctor/0.9.0-1.0.0rc1/diff.md --exclude *.pyd
+[2023-07-11 09:30:26] INFO root fetch - processPackages [langchain-visualizer]: executing diffoscope
+[2023-07-11 09:30:26] INFO root fetch - processPackages [langchain-visualizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_visualizer-0.0.8.tar.gz tmp/langchain_visualizer-0.0.9.tar.gz --markdown 20230711/l/langchain-visualizer/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-11 09:30:26] INFO root fetch - processPackages [ref-man-py]: executing diffoscope
+[2023-07-11 09:30:26] INFO root fetch - processPackages [ref-man-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ref-man-py-0.6.4.tar.gz tmp/ref-man-py-0.7.0.tar.gz --markdown 20230711/r/ref-man-py/0.6.4-0.7.0/diff.md --exclude *.pyd
+[2023-07-11 09:30:26] INFO root fetch - processPackages [e2e-cli]: executing diffoscope
+[2023-07-11 09:30:26] INFO root fetch - processPackages [e2e-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/e2e_cli-0.9.9.8.tar.gz tmp/e2e_cli-0.9.9.9.tar.gz --markdown 20230711/e/e2e-cli/0.9.9.8-0.9.9.9/diff.md --exclude *.pyd
+[2023-07-11 09:30:26] INFO root fetch - processPackages [vsc-install]: executing diffoscope
+[2023-07-11 09:30:26] INFO root fetch - processPackages [vsc-install]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vsc-install-0.9.3.tar.gz tmp/vsc-install-0.9.6.tar.gz --markdown 20230711/v/vsc-install/0.9.3-0.9.6/diff.md --exclude *.pyd
+[2023-07-11 09:30:28] INFO root fetch - processPackages [gdal2numpy]: Remove: archive file [/home/abi/fetcher/tmp/gdal2numpy-0.0.98.tar.gz]
+[2023-07-11 09:30:28] INFO root fetch - processPackages [gdal2numpy]: Remove: archive file [/home/abi/fetcher/tmp/gdal2numpy-0.0.99.tar.gz]
+[2023-07-11 09:30:28] INFO root fetch - processPackages [gdal2numpy]: Start processing: telegramweb
+[2023-07-11 09:30:28] INFO root fetch - main [MainThread]: End processing [gdal2numpy]: success
+[2023-07-11 09:30:28] INFO root fetch - processPackages [swanapi]: Remove: archive file [/home/abi/fetcher/tmp/swanapi-0.2.1-py3-none-any.whl.zip]
+[2023-07-11 09:30:28] INFO root fetch - processPackages [swanapi]: Remove: archive file [/home/abi/fetcher/tmp/swanapi-0.2.3-py3-none-any.whl.zip]
+[2023-07-11 09:30:28] INFO root fetch - processPackages [swanapi]: Start processing: db-gpt
+[2023-07-11 09:30:28] INFO root fetch - main [MainThread]: End processing [swanapi]: success
+[2023-07-11 09:30:28] INFO root fetch - processPackages [tzspace]: Remove: archive file [/home/abi/fetcher/tmp/tzspace-0.0.4.tar.gz]
+[2023-07-11 09:30:28] INFO root fetch - processPackages [tzspace]: Remove: archive file [/home/abi/fetcher/tmp/tzspace-0.0.5.tar.gz]
+[2023-07-11 09:30:28] INFO root fetch - main [MainThread]: End processing [tzspace]: success
+[2023-07-11 09:30:28] INFO root fetch - processPackages [telegramweb]: New version: [6.9] Old Version: [6.8]
+[2023-07-11 09:30:28] WARNING root fetch - processPackages [db-gpt]: Skipping, unable to determine old version
+[2023-07-11 09:30:28] INFO root fetch - main [MainThread]: End processing [db-gpt] error
+[2023-07-11 09:30:28] INFO root fetch - processPackages [telegramweb]: Downloading https://files.pythonhosted.org/packages/eb/59/e6d654fe5c45804ba090258a3c1cecd86014c027b2fd2931f26912c600dd/telegramweb-6.8.tar.gz
+[2023-07-11 09:30:28] INFO root fetch - processPackages [rdf-doctor]: Remove: archive file [/home/abi/fetcher/tmp/rdf_doctor-0.9.0-py3-none-any.whl.zip]
+[2023-07-11 09:30:28] INFO root fetch - processPackages [rdf-doctor]: Remove: archive file [/home/abi/fetcher/tmp/rdf_doctor-1.0.0rc1-py3-none-any.whl.zip]
+[2023-07-11 09:30:28] INFO root fetch - main [MainThread]: End processing [rdf-doctor]: success
+[2023-07-11 09:30:28] INFO root fetch - processPackages [openvino2onnx]: Remove: archive file [/home/abi/fetcher/tmp/openvino2onnx-0.1.0.tar.gz]
+[2023-07-11 09:30:28] INFO root fetch - processPackages [openvino2onnx]: Remove: archive file [/home/abi/fetcher/tmp/openvino2onnx-0.1.1.tar.gz]
+[2023-07-11 09:30:28] INFO root fetch - main [MainThread]: End processing [openvino2onnx]: success
+[2023-07-11 09:30:28] INFO root fetch - processPackages [telegramweb]: Downloading https://files.pythonhosted.org/packages/de/70/7a63184defb318e3a2755bcf6f39c445bf330bd2854fb0436a527bbaa8bc/telegramweb-6.9.tar.gz
+[2023-07-11 09:30:28] INFO root fetch - processPackages [vsc-install]: Remove: archive file [/home/abi/fetcher/tmp/vsc-install-0.9.3.tar.gz]
+[2023-07-11 09:30:28] INFO root fetch - processPackages [vsc-install]: Remove: archive file [/home/abi/fetcher/tmp/vsc-install-0.9.6.tar.gz]
+[2023-07-11 09:30:28] INFO root fetch - main [MainThread]: End processing [vsc-install]: success
+[2023-07-11 09:30:28] INFO root fetch - processPackages [langchain-visualizer]: Remove: archive file [/home/abi/fetcher/tmp/langchain_visualizer-0.0.8.tar.gz]
+[2023-07-11 09:30:28] INFO root fetch - processPackages [langchain-visualizer]: Remove: archive file [/home/abi/fetcher/tmp/langchain_visualizer-0.0.9.tar.gz]
+[2023-07-11 09:30:28] INFO root fetch - main [MainThread]: End processing [langchain-visualizer]: success
+[2023-07-11 09:30:28] INFO root fetch - processPackages [molgenis-emx2-pyclient]: Remove: archive file [/home/abi/fetcher/tmp/molgenis_emx2_pyclient-8.202.0.tar.gz]
+[2023-07-11 09:30:28] INFO root fetch - processPackages [molgenis-emx2-pyclient]: Remove: archive file [/home/abi/fetcher/tmp/molgenis_emx2_pyclient-8.202.1.tar.gz]
+[2023-07-11 09:30:28] INFO root fetch - main [MainThread]: End processing [molgenis-emx2-pyclient]: success
+[2023-07-11 09:30:28] INFO root fetch - processPackages [ref-man-py]: Remove: archive file [/home/abi/fetcher/tmp/ref-man-py-0.6.4.tar.gz]
+[2023-07-11 09:30:28] INFO root fetch - processPackages [ref-man-py]: Remove: archive file [/home/abi/fetcher/tmp/ref-man-py-0.7.0.tar.gz]
+[2023-07-11 09:30:28] INFO root fetch - main [MainThread]: End processing [ref-man-py]: success
+[2023-07-11 09:30:28] INFO root fetch - processPackages [telegramweb]: executing diffoscope
+[2023-07-11 09:30:28] INFO root fetch - processPackages [telegramweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telegramweb-6.8.tar.gz tmp/telegramweb-6.9.tar.gz --markdown 20230711/t/telegramweb/6.8-6.9/diff.md --exclude *.pyd
+[2023-07-11 09:30:28] INFO root fetch - processPackages [e2e-cli]: Remove: archive file [/home/abi/fetcher/tmp/e2e_cli-0.9.9.8.tar.gz]
+[2023-07-11 09:30:28] INFO root fetch - processPackages [e2e-cli]: Remove: archive file [/home/abi/fetcher/tmp/e2e_cli-0.9.9.9.tar.gz]
+[2023-07-11 09:30:28] INFO root fetch - main [MainThread]: End processing [e2e-cli]: success
+[2023-07-11 09:30:29] INFO root fetch - processPackages [telegramweb]: Remove: archive file [/home/abi/fetcher/tmp/telegramweb-6.8.tar.gz]
+[2023-07-11 09:30:29] INFO root fetch - processPackages [telegramweb]: Remove: archive file [/home/abi/fetcher/tmp/telegramweb-6.9.tar.gz]
+[2023-07-11 09:30:29] INFO root fetch - main [MainThread]: End processing [telegramweb]: success
+[2023-07-11 09:30:29] INFO root fetch - main [MainThread]: Store serial: [18841876]
