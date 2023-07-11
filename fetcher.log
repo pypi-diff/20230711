@@ -10306,3 +10306,59 @@ AssertionError: tmp/doctran-0.0.6.tar.gz does not exist
 [2023-07-11 07:30:10] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
 [2023-07-11 07:30:10] INFO root fetch - main [MainThread]: End processing [akshare]: success
 [2023-07-11 07:30:10] INFO root fetch - main [MainThread]: Store serial: [18841112]
+[2023-07-11 07:35:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18841112]
+[2023-07-11 07:35:19] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-07-11 07:35:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: orko
+[2023-07-11 07:35:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rubberduckie
+[2023-07-11 07:35:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: crazy-thursday
+[2023-07-11 07:35:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dronebuddylib
+[2023-07-11 07:35:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-hr-timesheet-report
+[2023-07-11 07:35:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: latch
+[2023-07-11 07:35:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-hr-timesheet-task-stage
+[2023-07-11 07:35:19] WARNING root fetch - processPackages [orko]: Skipping, unable to determine old version
+[2023-07-11 07:35:19] INFO root fetch - main [MainThread]: End processing [orko] error
+[2023-07-11 07:35:19] INFO root fetch - processPackages [rubberduckie]: New version: [2023.7.1] Old Version: [2023.5.1]
+[2023-07-11 07:35:19] INFO root fetch - processPackages [dronebuddylib]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-07-11 07:35:19] INFO root fetch - processPackages [crazy-thursday]: New version: [2023.7.9.1] Old Version: [2023.7.9.0]
+[2023-07-11 07:35:20] INFO root fetch - processPackages [odoo-addon-hr-timesheet-task-stage]: New version: [16.0.1.0.1.6] Old Version: [16.0.1.0.1.5]
+[2023-07-11 07:35:20] INFO root fetch - processPackages [odoo14-addon-hr-timesheet-report]: New version: [14.0.1.0.1.dev9] Old Version: [14.0.1.0.1.dev8]
+[2023-07-11 07:35:20] INFO root fetch - processPackages [latch]: New version: [2.9.6] Old Version: [2.9.5]
+[2023-07-11 07:35:20] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/6a/c9/15f9add630932cf1d361c73bada17a4fe2e962fe6ae5ac9e61297aedec22/crazy-thursday-2023.7.9.0.tar.gz
+[2023-07-11 07:35:20] INFO root fetch - processPackages [rubberduckie]: Downloading https://files.pythonhosted.org/packages/5a/39/f03520d2979e984f4f326c7d9ab3bd648e89db1aac52683720c0899f1393/rubberduckie-2023.5.1-py3-none-any.whl
+[2023-07-11 07:35:20] INFO root fetch - processPackages [odoo-addon-hr-timesheet-task-stage]: Downloading https://files.pythonhosted.org/packages/25/93/770a60852ac08a426844a5d3490c857d3acb05f36aa10f2e9b4214136627/odoo_addon_hr_timesheet_task_stage-16.0.1.0.1.5-py3-none-any.whl
+[2023-07-11 07:35:20] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/8d/ea/65adb6d9f2ff058a84add9a25d8423ef870914ed904a071fcd26e8e9ba74/crazy-thursday-2023.7.9.1.tar.gz
+[2023-07-11 07:35:20] INFO root fetch - processPackages [latch]: Downloading https://files.pythonhosted.org/packages/79/f7/1912dae713dbd539910745289141bab27e2ec23827c1f7112accaf98bdda/latch-2.9.5.tar.gz
+[2023-07-11 07:35:20] INFO root fetch - processPackages [odoo14-addon-hr-timesheet-report]: Downloading https://files.pythonhosted.org/packages/fe/fd/c48d0500511c18622fa213b5ff0d21ac741903be30c982250f7e9422a65d/odoo14_addon_hr_timesheet_report-14.0.1.0.1.dev8-py3-none-any.whl
+[2023-07-11 07:35:20] INFO root fetch - processPackages [dronebuddylib]: Downloading https://files.pythonhosted.org/packages/50/77/a260fc75971d0b7df6701c22748dd588a7923ccf940845f4e4f82e8f82ca/dronebuddylib-1.0.6.tar.gz
+[2023-07-11 07:35:20] INFO root fetch - processPackages [crazy-thursday]: executing diffoscope
+[2023-07-11 07:35:20] INFO root fetch - processPackages [crazy-thursday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crazy-thursday-2023.7.9.0.tar.gz tmp/crazy-thursday-2023.7.9.1.tar.gz --markdown 20230711/c/crazy-thursday/2023.7.9.0-2023.7.9.1/diff.md --exclude *.pyd
+[2023-07-11 07:35:20] INFO root fetch - processPackages [rubberduckie]: Downloading https://files.pythonhosted.org/packages/7e/68/e2a87245e3f037362f6d774e75ff8fccd0822a8a63e2c7772e6378453317/rubberduckie-2023.7.1-py3-none-any.whl
+[2023-07-11 07:35:20] INFO root fetch - processPackages [odoo-addon-hr-timesheet-task-stage]: Downloading https://files.pythonhosted.org/packages/e3/16/954d360ad25c3cf4aa98df2247342c48c7d20847e40147de7878798c68a6/odoo_addon_hr_timesheet_task_stage-16.0.1.0.1.6-py3-none-any.whl
+[2023-07-11 07:35:20] INFO root fetch - processPackages [rubberduckie]: executing diffoscope
+[2023-07-11 07:35:20] INFO root fetch - processPackages [rubberduckie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rubberduckie-2023.5.1-py3-none-any.whl.zip tmp/rubberduckie-2023.7.1-py3-none-any.whl.zip --markdown 20230711/r/rubberduckie/2023.5.1-2023.7.1/diff.md --exclude *.pyd
+[2023-07-11 07:35:20] INFO root fetch - processPackages [odoo-addon-hr-timesheet-task-stage]: executing diffoscope
+[2023-07-11 07:35:20] INFO root fetch - processPackages [odoo-addon-hr-timesheet-task-stage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_hr_timesheet_task_stage-16.0.1.0.1.5-py3-none-any.whl.zip tmp/odoo_addon_hr_timesheet_task_stage-16.0.1.0.1.6-py3-none-any.whl.zip --markdown 20230711/o/odoo-addon-hr-timesheet-task-stage/16.0.1.0.1.5-16.0.1.0.1.6/diff.md --exclude *.pyd
+[2023-07-11 07:35:20] WARNING root fetch - processPackages [dronebuddylib]: Skipping package: exceeds size limit 41149552>=10485760
+[2023-07-11 07:35:20] INFO root fetch - main [MainThread]: End processing [dronebuddylib] error
+[2023-07-11 07:35:20] INFO root fetch - processPackages [odoo14-addon-hr-timesheet-report]: Downloading https://files.pythonhosted.org/packages/88/55/fe6086e72c64361b031a5853e4d0461c68f0ce5d326b07bbac5c484fed81/odoo14_addon_hr_timesheet_report-14.0.1.0.1.dev9-py3-none-any.whl
+[2023-07-11 07:35:20] INFO root fetch - processPackages [latch]: Downloading https://files.pythonhosted.org/packages/5e/5a/e91171b6eca0ba929f7259719a3d389fd86242408d94dbf266925a9f4d21/latch-2.9.6.tar.gz
+[2023-07-11 07:35:21] INFO root fetch - processPackages [latch]: executing diffoscope
+[2023-07-11 07:35:21] INFO root fetch - processPackages [latch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/latch-2.9.5.tar.gz tmp/latch-2.9.6.tar.gz --markdown 20230711/l/latch/2.9.5-2.9.6/diff.md --exclude *.pyd
+[2023-07-11 07:35:21] INFO root fetch - processPackages [odoo14-addon-hr-timesheet-report]: executing diffoscope
+[2023-07-11 07:35:21] INFO root fetch - processPackages [odoo14-addon-hr-timesheet-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_hr_timesheet_report-14.0.1.0.1.dev8-py3-none-any.whl.zip tmp/odoo14_addon_hr_timesheet_report-14.0.1.0.1.dev9-py3-none-any.whl.zip --markdown 20230711/o/odoo14-addon-hr-timesheet-report/14.0.1.0.1.dev8-14.0.1.0.1.dev9/diff.md --exclude *.pyd
+[2023-07-11 07:35:21] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy-thursday-2023.7.9.0.tar.gz]
+[2023-07-11 07:35:21] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy-thursday-2023.7.9.1.tar.gz]
+[2023-07-11 07:35:21] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
+[2023-07-11 07:35:21] INFO root fetch - processPackages [rubberduckie]: Remove: archive file [/home/abi/fetcher/tmp/rubberduckie-2023.5.1-py3-none-any.whl.zip]
+[2023-07-11 07:35:21] INFO root fetch - processPackages [rubberduckie]: Remove: archive file [/home/abi/fetcher/tmp/rubberduckie-2023.7.1-py3-none-any.whl.zip]
+[2023-07-11 07:35:21] INFO root fetch - main [MainThread]: End processing [rubberduckie]: success
+[2023-07-11 07:35:21] INFO root fetch - processPackages [odoo-addon-hr-timesheet-task-stage]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_hr_timesheet_task_stage-16.0.1.0.1.5-py3-none-any.whl.zip]
+[2023-07-11 07:35:21] INFO root fetch - processPackages [odoo-addon-hr-timesheet-task-stage]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_hr_timesheet_task_stage-16.0.1.0.1.6-py3-none-any.whl.zip]
+[2023-07-11 07:35:21] INFO root fetch - main [MainThread]: End processing [odoo-addon-hr-timesheet-task-stage]: success
+[2023-07-11 07:35:22] INFO root fetch - processPackages [odoo14-addon-hr-timesheet-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_hr_timesheet_report-14.0.1.0.1.dev8-py3-none-any.whl.zip]
+[2023-07-11 07:35:22] INFO root fetch - processPackages [odoo14-addon-hr-timesheet-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_hr_timesheet_report-14.0.1.0.1.dev9-py3-none-any.whl.zip]
+[2023-07-11 07:35:22] INFO root fetch - main [MainThread]: End processing [odoo14-addon-hr-timesheet-report]: success
+[2023-07-11 07:35:22] INFO root fetch - processPackages [latch]: Remove: archive file [/home/abi/fetcher/tmp/latch-2.9.5.tar.gz]
+[2023-07-11 07:35:22] INFO root fetch - processPackages [latch]: Remove: archive file [/home/abi/fetcher/tmp/latch-2.9.6.tar.gz]
+[2023-07-11 07:35:22] INFO root fetch - main [MainThread]: End processing [latch]: success
+[2023-07-11 07:35:22] INFO root fetch - main [MainThread]: Store serial: [18841132]
