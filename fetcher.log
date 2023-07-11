@@ -15330,3 +15330,129 @@ AssertionError: tmp/doctran-0.0.6.tar.gz does not exist
 [2023-07-11 11:34:41] INFO root fetch - processPackages [unicat]: Remove: archive file [/home/abi/fetcher/tmp/unicat-0.4.0.tar.gz]
 [2023-07-11 11:34:41] INFO root fetch - main [MainThread]: End processing [unicat]: success
 [2023-07-11 11:34:41] INFO root fetch - main [MainThread]: Store serial: [18843213]
+[2023-07-11 11:39:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18843213]
+[2023-07-11 11:39:50] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-11 11:39:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mwxlib
+[2023-07-11 11:39:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hatch-conda
+[2023-07-11 11:39:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pqinput
+[2023-07-11 11:39:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: opensesame-extension-osweb
+[2023-07-11 11:39:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: moonwiki
+[2023-07-11 11:39:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: KofiPyQtHelper
+[2023-07-11 11:39:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ptal-api
+[2023-07-11 11:39:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: anylearn
+[2023-07-11 11:39:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: zit
+[2023-07-11 11:39:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: souJpg-comm
+[2023-07-11 11:39:50] INFO root fetch - processPackages [moonwiki]: New version: [2023.7.6.3] Old Version: [2023.7.6.2]
+[2023-07-11 11:39:50] INFO root fetch - processPackages [pqinput]: New version: [0.0.5] Old Version: [0.0.408]
+[2023-07-11 11:39:50] INFO root fetch - processPackages [zit]: New version: [0.0.3a4] Old Version: [0.0.3a3]
+[2023-07-11 11:39:50] WARNING root fetch - processPackages [KofiPyQtHelper]: Skipping, unable to determine old version
+[2023-07-11 11:39:50] INFO root fetch - processPackages [KofiPyQtHelper]: Start processing: fastchecks
+[2023-07-11 11:39:50] INFO root fetch - main [MainThread]: End processing [KofiPyQtHelper] error
+[2023-07-11 11:39:50] INFO root fetch - processPackages [opensesame-extension-osweb]: New version: [2.0.0.0a8] Old Version: [2.0.0.0a7]
+[2023-07-11 11:39:50] INFO root fetch - processPackages [ptal-api]: New version: [0.12.3] Old Version: [0.12.2]
+[2023-07-11 11:39:50] INFO root fetch - processPackages [hatch-conda]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-07-11 11:39:50] INFO root fetch - processPackages [mwxlib]: New version: [0.86.2] Old Version: [0.86.0]
+[2023-07-11 11:39:50] INFO root fetch - processPackages [anylearn]: New version: [0.18.1rc1] Old Version: [0.18.0rc1]
+[2023-07-11 11:39:50] WARNING root fetch - processPackages [souJpg-comm]: Skipping, unable to determine old version
+[2023-07-11 11:39:50] INFO root fetch - processPackages [souJpg-comm]: Start processing: xrootd
+[2023-07-11 11:39:50] INFO root fetch - main [MainThread]: End processing [souJpg-comm] error
+[2023-07-11 11:39:50] INFO root fetch - processPackages [fastchecks]: New version: [0.1.0rc4] Old Version: [0.1.0rc3]
+[2023-07-11 11:39:50] INFO root fetch - processPackages [zit]: Downloading https://files.pythonhosted.org/packages/94/81/3b0fcf74fb6604a1bf269bdb2ac1f9e49fa792bfe41b875d65594912380f/zit-0.0.3a3.tar.gz
+[2023-07-11 11:39:51] INFO root fetch - processPackages [xrootd]: New version: [5.6.1] Old Version: [5.6.0]
+[2023-07-11 11:39:51] INFO root fetch - processPackages [pqinput]: Downloading https://files.pythonhosted.org/packages/b0/1a/7c29afa72897801cbc304c9187b2bd088df724685d19ac4a904602b97213/pqinput-0.0.408.tar.gz
+[2023-07-11 11:39:51] INFO root fetch - processPackages [fastchecks]: Downloading https://files.pythonhosted.org/packages/9f/4d/9f99ce0a5d9118eba51dde1f12dda42f98f57201b82b12133aedc2ddbedc/fastchecks-0.1.0rc3.tar.gz
+[2023-07-11 11:39:51] INFO root fetch - processPackages [moonwiki]: Downloading https://files.pythonhosted.org/packages/09/c8/7a6b6c4b3568b573c89e072fd6984dbd3b7d411796327e793e0cbdb11fd1/moonwiki-2023.7.6.2.tar.gz
+[2023-07-11 11:39:51] INFO root fetch - processPackages [anylearn]: Downloading https://files.pythonhosted.org/packages/ae/09/646f25eaa3e818400f0b3a70f78ae2bc3d5272086e3a8199e22725c4c33c/anylearn-0.18.0rc1.tar.gz
+[2023-07-11 11:39:51] INFO root fetch - processPackages [mwxlib]: Downloading https://files.pythonhosted.org/packages/68/0b/41fe36ba11b4ba8028a325f44cf9304cc82314a3326fec087f4c19209ebc/mwxlib-0.86.0-py3-none-any.whl
+[2023-07-11 11:39:51] INFO root fetch - processPackages [hatch-conda]: Downloading https://files.pythonhosted.org/packages/a0/69/c11c1e07b69e8bf3168ee3ab52c25340fab20b25c095e7e42545f3c6620e/hatch_conda-0.4.0.tar.gz
+[2023-07-11 11:39:51] INFO root fetch - processPackages [ptal-api]: Downloading https://files.pythonhosted.org/packages/24/e3/c37239a926d454e9053a9f1677cdf7920f97b33b082035dbc7ec204ec34f/ptal_api-0.12.2.tar.gz
+[2023-07-11 11:39:51] INFO root fetch - processPackages [opensesame-extension-osweb]: Downloading https://files.pythonhosted.org/packages/2c/ab/aa15ddb5c5f2d8de63578570bbe2554adc1df58ce6d85dcb194f32bc4e45/opensesame_extension_osweb-2.0.0.0a7.tar.gz
+[2023-07-11 11:39:51] INFO root fetch - processPackages [xrootd]: Downloading https://files.pythonhosted.org/packages/a7/a6/a91e535849342a28962ecef526b51f100e0250b6afe76a1febacf997cf59/xrootd-5.6.0.tar.gz
+[2023-07-11 11:39:51] INFO root fetch - processPackages [zit]: Downloading https://files.pythonhosted.org/packages/8d/bd/b1e6a7a5c360d1378d364a3881be4e00050e3ebcfd2e0cc0d11b0baab99c/zit-0.0.3a4.tar.gz
+[2023-07-11 11:39:51] INFO root fetch - processPackages [pqinput]: Downloading https://files.pythonhosted.org/packages/74/28/0a47eb8953e25de93f5e72aa16c016701c4cd62127e0e20171232afa4371/pqinput-0.0.5.tar.gz
+[2023-07-11 11:39:51] INFO root fetch - processPackages [zit]: executing diffoscope
+[2023-07-11 11:39:51] INFO root fetch - processPackages [zit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zit-0.0.3a3.tar.gz tmp/zit-0.0.3a4.tar.gz --markdown 20230711/z/zit/0.0.3a3-0.0.3a4/diff.md --exclude *.pyd
+[2023-07-11 11:39:51] INFO root fetch - processPackages [moonwiki]: Downloading https://files.pythonhosted.org/packages/28/2a/d179fbcdf8c90a0b1e0f8a90815b5261b7c79d954a416f80fa535c3aea21/moonwiki-2023.7.6.3.tar.gz
+[2023-07-11 11:39:51] INFO root fetch - processPackages [anylearn]: Downloading https://files.pythonhosted.org/packages/3c/81/6f29584dabc54e4be74b335b41d69748e8daaa46b7a600fa15d45fba05cb/anylearn-0.18.1rc1.tar.gz
+[2023-07-11 11:39:51] INFO root fetch - processPackages [fastchecks]: Downloading https://files.pythonhosted.org/packages/db/d3/36491dc86840ab0b1948f360ecc1a4090d01437a1fdaff0487fe26f34255/fastchecks-0.1.0rc4.tar.gz
+[2023-07-11 11:39:51] INFO root fetch - processPackages [hatch-conda]: Downloading https://files.pythonhosted.org/packages/eb/e2/0d1648c3d5adc3a5a11572fabbca8600cd8820a99a07e160edb030fb078b/hatch_conda-0.4.1.tar.gz
+[2023-07-11 11:39:51] INFO root fetch - processPackages [pqinput]: executing diffoscope
+[2023-07-11 11:39:51] INFO root fetch - processPackages [pqinput]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pqinput-0.0.408.tar.gz tmp/pqinput-0.0.5.tar.gz --markdown 20230711/p/pqinput/0.0.408-0.0.5/diff.md --exclude *.pyd
+[2023-07-11 11:39:51] INFO root fetch - processPackages [mwxlib]: Downloading https://files.pythonhosted.org/packages/10/87/adea4fa9bde0761c83c0fd8b87c848b27baa2f23f27cf4155808a722e256/mwxlib-0.86.2-py3-none-any.whl
+[2023-07-11 11:39:51] INFO root fetch - processPackages [ptal-api]: Downloading https://files.pythonhosted.org/packages/a9/ef/e5951d62fa96f7922a81b126e17332c81983f41427ae60154c73d37fa6f0/ptal_api-0.12.3.tar.gz
+[2023-07-11 11:39:51] INFO root fetch - processPackages [moonwiki]: executing diffoscope
+[2023-07-11 11:39:51] INFO root fetch - processPackages [moonwiki]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moonwiki-2023.7.6.2.tar.gz tmp/moonwiki-2023.7.6.3.tar.gz --markdown 20230711/m/moonwiki/2023.7.6.2-2023.7.6.3/diff.md --exclude *.pyd
+[2023-07-11 11:39:51] INFO root fetch - processPackages [anylearn]: executing diffoscope
+[2023-07-11 11:39:51] INFO root fetch - processPackages [anylearn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anylearn-0.18.0rc1.tar.gz tmp/anylearn-0.18.1rc1.tar.gz --markdown 20230711/a/anylearn/0.18.0rc1-0.18.1rc1/diff.md --exclude *.pyd
+[2023-07-11 11:39:51] INFO root fetch - processPackages [fastchecks]: executing diffoscope
+[2023-07-11 11:39:51] INFO root fetch - processPackages [fastchecks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastchecks-0.1.0rc3.tar.gz tmp/fastchecks-0.1.0rc4.tar.gz --markdown 20230711/f/fastchecks/0.1.0rc3-0.1.0rc4/diff.md --exclude *.pyd
+[2023-07-11 11:39:51] INFO root fetch - processPackages [hatch-conda]: executing diffoscope
+[2023-07-11 11:39:51] INFO root fetch - processPackages [opensesame-extension-osweb]: Downloading https://files.pythonhosted.org/packages/e2/46/ee470f21782300a5123157400f6bdbca9c0563d6d55aa391586b704a810e/opensesame_extension_osweb-2.0.0.0a8.tar.gz
+[2023-07-11 11:39:51] INFO root fetch - processPackages [hatch-conda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hatch_conda-0.4.0.tar.gz tmp/hatch_conda-0.4.1.tar.gz --markdown 20230711/h/hatch-conda/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-07-11 11:39:52] INFO root fetch - processPackages [ptal-api]: executing diffoscope
+[2023-07-11 11:39:52] INFO root fetch - processPackages [ptal-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ptal_api-0.12.2.tar.gz tmp/ptal_api-0.12.3.tar.gz --markdown 20230711/p/ptal-api/0.12.2-0.12.3/diff.md --exclude *.pyd
+[2023-07-11 11:39:52] INFO root fetch - processPackages [mwxlib]: executing diffoscope
+[2023-07-11 11:39:52] INFO root fetch - processPackages [mwxlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mwxlib-0.86.0-py3-none-any.whl.zip tmp/mwxlib-0.86.2-py3-none-any.whl.zip --markdown 20230711/m/mwxlib/0.86.0-0.86.2/diff.md --exclude *.pyd
+[2023-07-11 11:39:52] INFO root fetch - processPackages [xrootd]: Downloading https://files.pythonhosted.org/packages/96/e9/32107ac154c33c6bafd53a5f8444290938c3557210276e5deabb82f74b8f/xrootd-5.6.1.tar.gz
+[2023-07-11 11:39:52] INFO root fetch - processPackages [xrootd]: executing diffoscope
+[2023-07-11 11:39:52] INFO root fetch - processPackages [xrootd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xrootd-5.6.0.tar.gz tmp/xrootd-5.6.1.tar.gz --markdown 20230711/x/xrootd/5.6.0-5.6.1/diff.md --exclude *.pyd
+[2023-07-11 11:39:52] INFO root fetch - processPackages [opensesame-extension-osweb]: executing diffoscope
+[2023-07-11 11:39:52] INFO root fetch - processPackages [opensesame-extension-osweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opensesame_extension_osweb-2.0.0.0a7.tar.gz tmp/opensesame_extension_osweb-2.0.0.0a8.tar.gz --markdown 20230711/o/opensesame-extension-osweb/2.0.0.0a7-2.0.0.0a8/diff.md --exclude *.pyd
+[2023-07-11 11:39:53] INFO root fetch - processPackages [zit]: Remove: archive file [/home/abi/fetcher/tmp/zit-0.0.3a3.tar.gz]
+[2023-07-11 11:39:53] INFO root fetch - processPackages [zit]: Remove: archive file [/home/abi/fetcher/tmp/zit-0.0.3a4.tar.gz]
+[2023-07-11 11:39:53] INFO root fetch - processPackages [zit]: Start processing: domolibrary
+[2023-07-11 11:39:53] INFO root fetch - main [MainThread]: End processing [zit]: success
+[2023-07-11 11:39:53] INFO root fetch - processPackages [domolibrary]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-11 11:39:53] INFO root fetch - processPackages [pqinput]: Remove: archive file [/home/abi/fetcher/tmp/pqinput-0.0.408.tar.gz]
+[2023-07-11 11:39:53] INFO root fetch - processPackages [pqinput]: Remove: archive file [/home/abi/fetcher/tmp/pqinput-0.0.5.tar.gz]
+[2023-07-11 11:39:53] INFO root fetch - processPackages [pqinput]: Start processing: ogc-na
+[2023-07-11 11:39:53] INFO root fetch - main [MainThread]: End processing [pqinput]: success
+[2023-07-11 11:39:53] INFO root fetch - processPackages [domolibrary]: Downloading https://files.pythonhosted.org/packages/84/f8/ca22b28a893290f3f077d48d12f9bbfa0b351b8a23052c67d9d2df56c886/domolibrary-0.1.98.tar.gz
+[2023-07-11 11:39:53] INFO root fetch - processPackages [ogc-na]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-11 11:39:53] INFO root fetch - processPackages [moonwiki]: Remove: archive file [/home/abi/fetcher/tmp/moonwiki-2023.7.6.2.tar.gz]
+[2023-07-11 11:39:53] INFO root fetch - processPackages [moonwiki]: Remove: archive file [/home/abi/fetcher/tmp/moonwiki-2023.7.6.3.tar.gz]
+[2023-07-11 11:39:53] INFO root fetch - processPackages [moonwiki]: Start processing: gdal2numpy
+[2023-07-11 11:39:53] INFO root fetch - main [MainThread]: End processing [moonwiki]: success
+[2023-07-11 11:39:53] INFO root fetch - processPackages [gdal2numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-11 11:39:53] INFO root fetch - processPackages [gdal2numpy]: Downloading https://files.pythonhosted.org/packages/8b/c7/c38f143f5db75454a9df08f7ff287cb3de46fb5f10139def0fcb92a15404/gdal2numpy-0.0.98.tar.gz
+[2023-07-11 11:39:54] INFO root fetch - processPackages [ogc-na]: Downloading https://files.pythonhosted.org/packages/6f/1b/a35ac17c9749cc1cf599391bfd4eab6ac44746f5fbff779a67e85b5af2bb/ogc_na-0.2.8.tar.gz
+[2023-07-11 11:39:54] INFO root fetch - processPackages [domolibrary]: Downloading https://files.pythonhosted.org/packages/ef/ec/fc9564bd79a2ddb4e26b61efd0fc792975bd04a769102587a579e3693e90/domolibrary-0.1.99.tar.gz
+[2023-07-11 11:39:54] INFO root fetch - processPackages [hatch-conda]: Remove: archive file [/home/abi/fetcher/tmp/hatch_conda-0.4.0.tar.gz]
+[2023-07-11 11:39:54] INFO root fetch - processPackages [hatch-conda]: Remove: archive file [/home/abi/fetcher/tmp/hatch_conda-0.4.1.tar.gz]
+[2023-07-11 11:39:54] INFO root fetch - main [MainThread]: End processing [hatch-conda]: success
+[2023-07-11 11:39:54] INFO root fetch - processPackages [fastchecks]: Remove: archive file [/home/abi/fetcher/tmp/fastchecks-0.1.0rc3.tar.gz]
+[2023-07-11 11:39:54] INFO root fetch - processPackages [fastchecks]: Remove: archive file [/home/abi/fetcher/tmp/fastchecks-0.1.0rc4.tar.gz]
+[2023-07-11 11:39:54] INFO root fetch - main [MainThread]: End processing [fastchecks]: success
+[2023-07-11 11:39:54] INFO root fetch - processPackages [domolibrary]: executing diffoscope
+[2023-07-11 11:39:54] INFO root fetch - processPackages [domolibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domolibrary-0.1.98.tar.gz tmp/domolibrary-0.1.99.tar.gz --markdown 20230711/d/domolibrary/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-11 11:39:54] INFO root fetch - processPackages [gdal2numpy]: Downloading https://files.pythonhosted.org/packages/67/ee/9c755bd5249fc9dc6a1dd773cb241c19b8df83a94fc0674017b57bd19e20/gdal2numpy-0.0.99.tar.gz
+[2023-07-11 11:39:54] INFO root fetch - processPackages [ptal-api]: Remove: archive file [/home/abi/fetcher/tmp/ptal_api-0.12.2.tar.gz]
+[2023-07-11 11:39:54] INFO root fetch - processPackages [ptal-api]: Remove: archive file [/home/abi/fetcher/tmp/ptal_api-0.12.3.tar.gz]
+[2023-07-11 11:39:54] INFO root fetch - main [MainThread]: End processing [ptal-api]: success
+[2023-07-11 11:39:54] INFO root fetch - processPackages [ogc-na]: Downloading https://files.pythonhosted.org/packages/08/7b/d1a326265898c9d52f3a526697d9f0f458664b7dd04889cf4b95fcae2b5a/ogc_na-0.2.9.tar.gz
+[2023-07-11 11:39:54] INFO root fetch - processPackages [gdal2numpy]: executing diffoscope
+[2023-07-11 11:39:54] INFO root fetch - processPackages [gdal2numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdal2numpy-0.0.98.tar.gz tmp/gdal2numpy-0.0.99.tar.gz --markdown 20230711/g/gdal2numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-11 11:39:54] INFO root fetch - processPackages [mwxlib]: Remove: archive file [/home/abi/fetcher/tmp/mwxlib-0.86.0-py3-none-any.whl.zip]
+[2023-07-11 11:39:54] INFO root fetch - processPackages [mwxlib]: Remove: archive file [/home/abi/fetcher/tmp/mwxlib-0.86.2-py3-none-any.whl.zip]
+[2023-07-11 11:39:54] INFO root fetch - main [MainThread]: End processing [mwxlib]: success
+[2023-07-11 11:39:54] INFO root fetch - processPackages [ogc-na]: executing diffoscope
+[2023-07-11 11:39:54] INFO root fetch - processPackages [ogc-na]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ogc_na-0.2.8.tar.gz tmp/ogc_na-0.2.9.tar.gz --markdown 20230711/o/ogc-na/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-11 11:39:54] INFO root fetch - processPackages [anylearn]: Remove: archive file [/home/abi/fetcher/tmp/anylearn-0.18.0rc1.tar.gz]
+[2023-07-11 11:39:54] INFO root fetch - processPackages [anylearn]: Remove: archive file [/home/abi/fetcher/tmp/anylearn-0.18.1rc1.tar.gz]
+[2023-07-11 11:39:54] INFO root fetch - main [MainThread]: End processing [anylearn]: success
+[2023-07-11 11:39:55] INFO root fetch - processPackages [opensesame-extension-osweb]: Remove: archive file [/home/abi/fetcher/tmp/opensesame_extension_osweb-2.0.0.0a7.tar.gz]
+[2023-07-11 11:39:55] INFO root fetch - processPackages [opensesame-extension-osweb]: Remove: archive file [/home/abi/fetcher/tmp/opensesame_extension_osweb-2.0.0.0a8.tar.gz]
+[2023-07-11 11:39:55] INFO root fetch - main [MainThread]: End processing [opensesame-extension-osweb]: success
+[2023-07-11 11:39:55] INFO root fetch - processPackages [gdal2numpy]: Remove: archive file [/home/abi/fetcher/tmp/gdal2numpy-0.0.98.tar.gz]
+[2023-07-11 11:39:55] INFO root fetch - processPackages [gdal2numpy]: Remove: archive file [/home/abi/fetcher/tmp/gdal2numpy-0.0.99.tar.gz]
+[2023-07-11 11:39:55] INFO root fetch - main [MainThread]: End processing [gdal2numpy]: success
+[2023-07-11 11:39:55] INFO root fetch - processPackages [ogc-na]: Remove: archive file [/home/abi/fetcher/tmp/ogc_na-0.2.8.tar.gz]
+[2023-07-11 11:39:55] INFO root fetch - processPackages [ogc-na]: Remove: archive file [/home/abi/fetcher/tmp/ogc_na-0.2.9.tar.gz]
+[2023-07-11 11:39:55] INFO root fetch - main [MainThread]: End processing [ogc-na]: success
+[2023-07-11 11:39:56] INFO root fetch - processPackages [domolibrary]: Remove: archive file [/home/abi/fetcher/tmp/domolibrary-0.1.98.tar.gz]
+[2023-07-11 11:39:56] INFO root fetch - processPackages [domolibrary]: Remove: archive file [/home/abi/fetcher/tmp/domolibrary-0.1.99.tar.gz]
+[2023-07-11 11:39:56] INFO root fetch - main [MainThread]: End processing [domolibrary]: success
+[2023-07-11 11:40:06] INFO root fetch - processPackages [xrootd]: Remove: archive file [/home/abi/fetcher/tmp/xrootd-5.6.0.tar.gz]
+[2023-07-11 11:40:06] INFO root fetch - processPackages [xrootd]: Remove: archive file [/home/abi/fetcher/tmp/xrootd-5.6.1.tar.gz]
+[2023-07-11 11:40:06] INFO root fetch - main [MainThread]: End processing [xrootd]: success
+[2023-07-11 11:40:06] INFO root fetch - main [MainThread]: Store serial: [18843273]
