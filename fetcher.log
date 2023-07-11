@@ -7063,3 +7063,83 @@ AssertionError: tmp/doctran-0.0.6.tar.gz does not exist
 [2023-07-11 04:04:55] INFO root fetch - processPackages [taichu-storage]: Remove: archive file [/home/abi/fetcher/tmp/taichu-storage-0.0.2.tar.gz]
 [2023-07-11 04:04:55] INFO root fetch - main [MainThread]: End processing [taichu-storage]: success
 [2023-07-11 04:04:55] INFO root fetch - main [MainThread]: Store serial: [18839791]
+[2023-07-11 04:09:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18839791]
+[2023-07-11 04:10:04] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-11 04:10:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aiohomekit
+[2023-07-11 04:10:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nnabla-converter
+[2023-07-11 04:10:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: citybrain-official
+[2023-07-11 04:10:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spark-quality-rules-tools
+[2023-07-11 04:10:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: headless
+[2023-07-11 04:10:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: agency
+[2023-07-11 04:10:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hepai
+[2023-07-11 04:10:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: specklia
+[2023-07-11 04:10:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nnabla-ext-cuda110
+[2023-07-11 04:10:04] INFO root fetch - processPackages [agency]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-07-11 04:10:04] INFO root fetch - processPackages [hepai]: New version: [1.0.9] Old Version: [1.0.8.1]
+[2023-07-11 04:10:04] INFO root fetch - processPackages [spark-quality-rules-tools]: New version: [0.6.5] Old Version: [0.6.0]
+[2023-07-11 04:10:04] INFO root fetch - processPackages [specklia]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-07-11 04:10:04] INFO root fetch - processPackages [nnabla-converter]: New version: [1.36.0] Old Version: [1.35.1]
+[2023-07-11 04:10:04] INFO root fetch - processPackages [citybrain-official]: New version: [0.9] Old Version: [0.8]
+[2023-07-11 04:10:04] INFO root fetch - processPackages [aiohomekit]: New version: [2.6.6] Old Version: [2.6.5]
+[2023-07-11 04:10:04] INFO root fetch - processPackages [headless]: New version: [2.0.0a9] Old Version: [2.0.0a8]
+[2023-07-11 04:10:04] INFO root fetch - processPackages [nnabla-ext-cuda110]: New version: [1.36.0] Old Version: [1.35.1]
+[2023-07-11 04:10:04] INFO root fetch - processPackages [citybrain-official]: Downloading https://files.pythonhosted.org/packages/69/1f/5387feaf63a242691a4816181ddd52ee6be2dcdc055b51c630c4cd76e2fc/citybrain-official-0.8.tar.gz
+[2023-07-11 04:10:04] INFO root fetch - processPackages [specklia]: Downloading https://files.pythonhosted.org/packages/2a/bd/1379d90b6bd45442f7550556688400cbbbfc9ca64d3a7d78533565069eda/specklia-1.2.8.tar.gz
+[2023-07-11 04:10:04] INFO root fetch - processPackages [hepai]: Downloading https://files.pythonhosted.org/packages/d5/59/1a2d684052d8cfb8c732ee281019dd1d18d8712598941b10038ccbd31386/hepai-1.0.8.1.tar.gz
+[2023-07-11 04:10:04] INFO root fetch - processPackages [agency]: Downloading https://files.pythonhosted.org/packages/ed/46/bfdd1ad9cc30f27786e5cb6591acc8aef3dda02074b9d9b7da2e228f90cf/agency-1.1.0.tar.gz
+[2023-07-11 04:10:04] INFO root fetch - processPackages [aiohomekit]: Downloading https://files.pythonhosted.org/packages/e3/66/eca72cca2512f5f6989515a62d6ea695a9b6d4688da5ecfa7bae150b6fd3/aiohomekit-2.6.5.tar.gz
+[2023-07-11 04:10:04] INFO root fetch - processPackages [spark-quality-rules-tools]: Downloading https://files.pythonhosted.org/packages/52/0d/bd2dcd6d331aba33e35d9038c64ea594ede6a4f21cd090207acfc93a2f10/spark_quality_rules_tools-0.6.0.tar.gz
+[2023-07-11 04:10:04] INFO root fetch - processPackages [nnabla-converter]: Downloading https://files.pythonhosted.org/packages/9d/17/3a1446d28c036e320fe7943dac7c532d274a1e2ce58392fe0b727d7f7ee7/nnabla_converter-1.35.1-py3-none-any.whl
+[2023-07-11 04:10:04] INFO root fetch - processPackages [headless]: Downloading https://files.pythonhosted.org/packages/01/29/f491c1a0644d9df25cc0746859c9830d9b3f44d290ebd1e5de7b756b2490/headless-2.0.0a8.tar.gz
+[2023-07-11 04:10:05] INFO root fetch - processPackages [nnabla-ext-cuda110]: Downloading https://files.pythonhosted.org/packages/a5/68/253017e225d0441aa85258bbd5d530164dcbbce769c64f3c8917abb6b9c4/nnabla_ext_cuda110-1.35.1-cp39-cp39-win_amd64.whl
+[2023-07-11 04:10:05] INFO root fetch - processPackages [specklia]: Downloading https://files.pythonhosted.org/packages/82/ab/63cdd26880b2cbe03073ca9cb599a0ed43a52df679f722fa5d3eaab6c4c5/specklia-1.2.9.tar.gz
+[2023-07-11 04:10:05] INFO root fetch - processPackages [citybrain-official]: Downloading https://files.pythonhosted.org/packages/19/f8/800b4738ecefcb3ac5966ca27a362dcc749270400316f58e86b5736f9b83/citybrain-official-0.9.tar.gz
+[2023-07-11 04:10:05] WARNING root fetch - processPackages [nnabla-ext-cuda110]: Skipping package: exceeds size limit 65973425>=10485760
+[2023-07-11 04:10:05] INFO root fetch - main [MainThread]: End processing [nnabla-ext-cuda110] error
+[2023-07-11 04:10:05] INFO root fetch - processPackages [specklia]: executing diffoscope
+[2023-07-11 04:10:05] INFO root fetch - processPackages [specklia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/specklia-1.2.8.tar.gz tmp/specklia-1.2.9.tar.gz --markdown 20230711/s/specklia/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-07-11 04:10:05] INFO root fetch - processPackages [hepai]: Downloading https://files.pythonhosted.org/packages/cf/bd/8488ec87ec4b70a54ec1e07c585b3022e45956051b92296e2fb7aee39bc9/hepai-1.0.9.tar.gz
+[2023-07-11 04:10:05] INFO root fetch - processPackages [spark-quality-rules-tools]: Downloading https://files.pythonhosted.org/packages/2c/6e/fe86be028b0ac0b8ce8a540f0bd5678933cc4147d0550054732b8324c63e/spark_quality_rules_tools-0.6.5.tar.gz
+[2023-07-11 04:10:05] INFO root fetch - processPackages [agency]: Downloading https://files.pythonhosted.org/packages/10/68/dc27d0d04162be1b570f9862735377dd44aecfad7c408ebc3486d1a3724c/agency-1.1.1.tar.gz
+[2023-07-11 04:10:05] INFO root fetch - processPackages [aiohomekit]: Downloading https://files.pythonhosted.org/packages/04/9d/331459ecab3198ebe372538cba99640b984e74f075fe61d7bf23378d68f7/aiohomekit-2.6.6.tar.gz
+[2023-07-11 04:10:05] INFO root fetch - processPackages [citybrain-official]: executing diffoscope
+[2023-07-11 04:10:05] INFO root fetch - processPackages [citybrain-official]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/citybrain-official-0.8.tar.gz tmp/citybrain-official-0.9.tar.gz --markdown 20230711/c/citybrain-official/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-11 04:10:05] INFO root fetch - processPackages [aiohomekit]: executing diffoscope
+[2023-07-11 04:10:05] INFO root fetch - processPackages [aiohomekit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiohomekit-2.6.5.tar.gz tmp/aiohomekit-2.6.6.tar.gz --markdown 20230711/a/aiohomekit/2.6.5-2.6.6/diff.md --exclude *.pyd
+[2023-07-11 04:10:05] INFO root fetch - processPackages [spark-quality-rules-tools]: executing diffoscope
+[2023-07-11 04:10:05] INFO root fetch - processPackages [spark-quality-rules-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spark_quality_rules_tools-0.6.0.tar.gz tmp/spark_quality_rules_tools-0.6.5.tar.gz --markdown 20230711/s/spark-quality-rules-tools/0.6.0-0.6.5/diff.md --exclude *.pyd
+[2023-07-11 04:10:05] INFO root fetch - processPackages [headless]: Downloading https://files.pythonhosted.org/packages/db/4e/49b62296a404c0b751546e8c9091d5f19f25932fffbf24e6927b8888f3d2/headless-2.0.0a9.tar.gz
+[2023-07-11 04:10:05] INFO root fetch - processPackages [hepai]: executing diffoscope
+[2023-07-11 04:10:05] INFO root fetch - processPackages [hepai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hepai-1.0.8.1.tar.gz tmp/hepai-1.0.9.tar.gz --markdown 20230711/h/hepai/1.0.8.1-1.0.9/diff.md --exclude *.pyd
+[2023-07-11 04:10:05] INFO root fetch - processPackages [agency]: executing diffoscope
+[2023-07-11 04:10:05] INFO root fetch - processPackages [agency]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agency-1.1.0.tar.gz tmp/agency-1.1.1.tar.gz --markdown 20230711/a/agency/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-07-11 04:10:05] INFO root fetch - processPackages [headless]: executing diffoscope
+[2023-07-11 04:10:05] INFO root fetch - processPackages [headless]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/headless-2.0.0a8.tar.gz tmp/headless-2.0.0a9.tar.gz --markdown 20230711/h/headless/2.0.0a8-2.0.0a9/diff.md --exclude *.pyd
+[2023-07-11 04:10:06] INFO root fetch - processPackages [nnabla-converter]: Downloading https://files.pythonhosted.org/packages/02/c2/add16b4f63bb305460d07239432a8303217661efe59bf0e5ebced6c54595/nnabla_converter-1.36.0-py3-none-any.whl
+[2023-07-11 04:10:06] INFO root fetch - processPackages [specklia]: Remove: archive file [/home/abi/fetcher/tmp/specklia-1.2.8.tar.gz]
+[2023-07-11 04:10:06] INFO root fetch - processPackages [specklia]: Remove: archive file [/home/abi/fetcher/tmp/specklia-1.2.9.tar.gz]
+[2023-07-11 04:10:06] INFO root fetch - main [MainThread]: End processing [specklia]: success
+[2023-07-11 04:10:06] INFO root fetch - processPackages [nnabla-converter]: executing diffoscope
+[2023-07-11 04:10:06] INFO root fetch - processPackages [nnabla-converter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nnabla_converter-1.35.1-py3-none-any.whl.zip tmp/nnabla_converter-1.36.0-py3-none-any.whl.zip --markdown 20230711/n/nnabla-converter/1.35.1-1.36.0/diff.md --exclude *.pyd
+[2023-07-11 04:10:06] INFO root fetch - processPackages [citybrain-official]: Remove: archive file [/home/abi/fetcher/tmp/citybrain-official-0.8.tar.gz]
+[2023-07-11 04:10:06] INFO root fetch - processPackages [citybrain-official]: Remove: archive file [/home/abi/fetcher/tmp/citybrain-official-0.9.tar.gz]
+[2023-07-11 04:10:06] INFO root fetch - main [MainThread]: End processing [citybrain-official]: success
+[2023-07-11 04:10:06] INFO root fetch - processPackages [agency]: Remove: archive file [/home/abi/fetcher/tmp/agency-1.1.0.tar.gz]
+[2023-07-11 04:10:06] INFO root fetch - processPackages [agency]: Remove: archive file [/home/abi/fetcher/tmp/agency-1.1.1.tar.gz]
+[2023-07-11 04:10:06] INFO root fetch - main [MainThread]: End processing [agency]: success
+[2023-07-11 04:10:06] INFO root fetch - processPackages [spark-quality-rules-tools]: Remove: archive file [/home/abi/fetcher/tmp/spark_quality_rules_tools-0.6.0.tar.gz]
+[2023-07-11 04:10:06] INFO root fetch - processPackages [spark-quality-rules-tools]: Remove: archive file [/home/abi/fetcher/tmp/spark_quality_rules_tools-0.6.5.tar.gz]
+[2023-07-11 04:10:06] INFO root fetch - main [MainThread]: End processing [spark-quality-rules-tools]: success
+[2023-07-11 04:10:07] INFO root fetch - processPackages [hepai]: Remove: archive file [/home/abi/fetcher/tmp/hepai-1.0.8.1.tar.gz]
+[2023-07-11 04:10:07] INFO root fetch - processPackages [hepai]: Remove: archive file [/home/abi/fetcher/tmp/hepai-1.0.9.tar.gz]
+[2023-07-11 04:10:07] INFO root fetch - main [MainThread]: End processing [hepai]: success
+[2023-07-11 04:10:07] INFO root fetch - processPackages [aiohomekit]: Remove: archive file [/home/abi/fetcher/tmp/aiohomekit-2.6.5.tar.gz]
+[2023-07-11 04:10:07] INFO root fetch - processPackages [aiohomekit]: Remove: archive file [/home/abi/fetcher/tmp/aiohomekit-2.6.6.tar.gz]
+[2023-07-11 04:10:07] INFO root fetch - main [MainThread]: End processing [aiohomekit]: success
+[2023-07-11 04:10:07] INFO root fetch - processPackages [headless]: Remove: archive file [/home/abi/fetcher/tmp/headless-2.0.0a8.tar.gz]
+[2023-07-11 04:10:07] INFO root fetch - processPackages [headless]: Remove: archive file [/home/abi/fetcher/tmp/headless-2.0.0a9.tar.gz]
+[2023-07-11 04:10:07] INFO root fetch - main [MainThread]: End processing [headless]: success
+[2023-07-11 04:10:07] INFO root fetch - processPackages [nnabla-converter]: Remove: archive file [/home/abi/fetcher/tmp/nnabla_converter-1.35.1-py3-none-any.whl.zip]
+[2023-07-11 04:10:07] INFO root fetch - processPackages [nnabla-converter]: Remove: archive file [/home/abi/fetcher/tmp/nnabla_converter-1.36.0-py3-none-any.whl.zip]
+[2023-07-11 04:10:07] INFO root fetch - main [MainThread]: End processing [nnabla-converter]: success
+[2023-07-11 04:10:07] INFO root fetch - main [MainThread]: Store serial: [18839819]
