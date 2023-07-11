@@ -22654,3 +22654,193 @@ EOFError: EOF read where object expected
 [2023-07-11 16:11:46] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
 [2023-07-11 16:11:46] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2023-07-11 16:11:46] INFO root fetch - main [MainThread]: Store serial: [18846407]
+[2023-07-11 16:16:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18846407]
+[2023-07-11 16:16:55] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-07-11 16:16:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pepperize.cdk-dynamodb-backup
+[2023-07-11 16:16:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: reportlab-pdf-table-builder
+[2023-07-11 16:16:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pythonperlin
+[2023-07-11 16:16:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mainnet
+[2023-07-11 16:16:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: goxlr
+[2023-07-11 16:16:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: easy-tpp
+[2023-07-11 16:16:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: selenium-remote
+[2023-07-11 16:16:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ducc0
+[2023-07-11 16:16:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: BenchExec
+[2023-07-11 16:16:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: SC2Spa
+[2023-07-11 16:16:55] INFO root fetch - processPackages [pythonperlin]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-11 16:16:55] INFO root fetch - processPackages [easy-tpp]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-11 16:16:55] INFO root fetch - processPackages [selenium-remote]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-11 16:16:55] INFO root fetch - processPackages [goxlr]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-07-11 16:16:55] INFO root fetch - processPackages [reportlab-pdf-table-builder]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-07-11 16:16:55] INFO root fetch - processPackages [BenchExec]: New version: [3.9] Old Version: [3.8]
+[2023-07-11 16:16:55] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-11 16:16:55] INFO root fetch - processPackages [ducc0]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-11 16:16:55] INFO root fetch - processPackages [mainnet]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-11 16:16:55] INFO root fetch - processPackages [SC2Spa]: New version: [1.2.0] Old Version: [1.1.9]
+[2023-07-11 16:16:55] INFO root fetch - processPackages [pythonperlin]: Downloading https://files.pythonhosted.org/packages/14/64/5f049499b4cc27b3d2b3472adf0d7ec9d8281ab1d593591ba1489422e821/pythonperlin-0.0.5.tar.gz
+[2023-07-11 16:16:56] INFO root fetch - processPackages [selenium-remote]: Downloading https://files.pythonhosted.org/packages/3c/44/e1d25c4071a7bd7142bcd6524c9ce137389af0ee7a3e59a01d99d7cd7aed/selenium_remote-0.1.1.tar.gz
+[2023-07-11 16:16:56] INFO root fetch - processPackages [goxlr]: Downloading https://files.pythonhosted.org/packages/2d/f2/b16de5c79257d005e74f5adb17056a2272a96781bfd20d2d1d84985d77d9/goxlr-1.4.1.tar.gz
+[2023-07-11 16:16:56] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: Downloading https://files.pythonhosted.org/packages/32/bc/ac3dab87c351984ae6522bf91695811f7df3607fcbcf2e87e12ccdcae4e5/pepperize.cdk-dynamodb-backup-0.0.98.tar.gz
+[2023-07-11 16:16:56] INFO root fetch - processPackages [easy-tpp]: Downloading https://files.pythonhosted.org/packages/af/c2/619e52fd5a81d946213f9160af46ec66b8348ae780ba0454624caf61ba78/easy_tpp-0.0.4.tar.gz
+[2023-07-11 16:16:56] INFO root fetch - processPackages [reportlab-pdf-table-builder]: Downloading https://files.pythonhosted.org/packages/90/06/776d2b5e135006166017fbd19a0fd7aa02ca8c7ea589c5041e8d0793de8d/reportlab-pdf-table-builder-1.2.3.tar.gz
+[2023-07-11 16:16:56] INFO root fetch - processPackages [BenchExec]: Downloading https://files.pythonhosted.org/packages/66/8f/dfb0e30ce28ce8f49aad3370998f9123cf8287f08f6913fa565ed8c3148a/BenchExec-3.8.tar.gz
+[2023-07-11 16:16:56] INFO root fetch - processPackages [mainnet]: Downloading https://files.pythonhosted.org/packages/6e/fa/89e5bbdfd3f6b3960ccd12b9cac6dc0e6ddce1a77335337e7db346953b7b/mainnet-1.1.8.tar.gz
+[2023-07-11 16:16:56] INFO root fetch - processPackages [ducc0]: Downloading https://files.pythonhosted.org/packages/62/27/b8acc8d604ef360d46999487bc751a76a2592ad2c94e739a2e6b86f2ad75/ducc0-0.8.0.tar.gz
+[2023-07-11 16:16:56] INFO root fetch - processPackages [SC2Spa]: Downloading https://files.pythonhosted.org/packages/89/c4/0d39bae848d836cad43b7c294d181cc0302cb2430b1681f20bd248b3dd01/SC2Spa-1.1.9.tar.gz
+[2023-07-11 16:16:56] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: Downloading https://files.pythonhosted.org/packages/87/60/cd337f65781a604c1d436fcd62f8ffdaff0bc80e00546a9c715fa9561007/pepperize.cdk-dynamodb-backup-0.0.99.tar.gz
+[2023-07-11 16:16:56] INFO root fetch - processPackages [pythonperlin]: Downloading https://files.pythonhosted.org/packages/7c/0b/22606ef7a7ae8e2179e713330061316df0de40fe0ec61a6876ab48c8c289/pythonperlin-0.0.6.tar.gz
+[2023-07-11 16:16:56] INFO root fetch - processPackages [selenium-remote]: Downloading https://files.pythonhosted.org/packages/19/1b/4d58c8b77d5dc2b38a9e7a302b499f888f3bbc008aec4b5987a6a7d130e3/selenium_remote-0.1.2.tar.gz
+[2023-07-11 16:16:56] INFO root fetch - processPackages [reportlab-pdf-table-builder]: Downloading https://files.pythonhosted.org/packages/45/a7/d001701c543199c50f4cd99d0b7ef751204443df85665575f919da64d33b/reportlab-pdf-table-builder-1.2.4.tar.gz
+[2023-07-11 16:16:56] INFO root fetch - processPackages [goxlr]: Downloading https://files.pythonhosted.org/packages/83/f3/8e58be785cfcd3be723c03dcf129825bba545eac5d541bc6546d8be5e66f/goxlr-1.4.2.tar.gz
+[2023-07-11 16:16:56] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: executing diffoscope
+[2023-07-11 16:16:56] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-dynamodb-backup-0.0.98.tar.gz tmp/pepperize.cdk-dynamodb-backup-0.0.99.tar.gz --markdown 20230711/p/pepperize.cdk-dynamodb-backup/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-11 16:16:56] INFO root fetch - processPackages [easy-tpp]: Downloading https://files.pythonhosted.org/packages/2e/cd/89d38f505b8bef337e38b734908228c4e075a9556f17f8be892a64fece4f/easy_tpp-0.0.5.tar.gz
+[2023-07-11 16:16:56] INFO root fetch - processPackages [pythonperlin]: executing diffoscope
+[2023-07-11 16:16:56] INFO root fetch - processPackages [pythonperlin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythonperlin-0.0.5.tar.gz tmp/pythonperlin-0.0.6.tar.gz --markdown 20230711/p/pythonperlin/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-11 16:16:56] INFO root fetch - processPackages [SC2Spa]: Downloading https://files.pythonhosted.org/packages/72/a2/e45fb48a9a0cb6739aa6e30e31babae01bb8752aff6be649cf2e3f463106/SC2Spa-1.2.0.tar.gz
+[2023-07-11 16:16:56] INFO root fetch - processPackages [mainnet]: Downloading https://files.pythonhosted.org/packages/6a/9f/2aecb608d2108426a0f241c5fb1e1f28fdb6d31e3210c05d53b96cf25507/mainnet-1.1.9.tar.gz
+[2023-07-11 16:16:56] INFO root fetch - processPackages [selenium-remote]: executing diffoscope
+[2023-07-11 16:16:56] INFO root fetch - processPackages [selenium-remote]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selenium_remote-0.1.1.tar.gz tmp/selenium_remote-0.1.2.tar.gz --markdown 20230711/s/selenium-remote/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-11 16:16:56] INFO root fetch - processPackages [goxlr]: executing diffoscope
+[2023-07-11 16:16:56] INFO root fetch - processPackages [goxlr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/goxlr-1.4.1.tar.gz tmp/goxlr-1.4.2.tar.gz --markdown 20230711/g/goxlr/1.4.1-1.4.2/diff.md --exclude *.pyd
+[2023-07-11 16:16:56] INFO root fetch - processPackages [ducc0]: Downloading https://files.pythonhosted.org/packages/41/a6/de4f236b4fcf91fca99f8d49baaca07723fec29b22c1307271b0b72ab5c4/ducc0-0.9.0.tar.gz
+[2023-07-11 16:16:56] INFO root fetch - processPackages [BenchExec]: Downloading https://files.pythonhosted.org/packages/b5/44/9960225f93fe5c51a372deacca8e6a3d793ef542127e7e34da3a183bd792/BenchExec-3.9.tar.gz
+[2023-07-11 16:16:56] INFO root fetch - processPackages [easy-tpp]: executing diffoscope
+[2023-07-11 16:16:56] INFO root fetch - processPackages [easy-tpp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy_tpp-0.0.4.tar.gz tmp/easy_tpp-0.0.5.tar.gz --markdown 20230711/e/easy-tpp/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-11 16:16:57] INFO root fetch - processPackages [SC2Spa]: executing diffoscope
+[2023-07-11 16:16:57] INFO root fetch - processPackages [SC2Spa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SC2Spa-1.1.9.tar.gz tmp/SC2Spa-1.2.0.tar.gz --markdown 20230711/S/SC2Spa/1.1.9-1.2.0/diff.md --exclude *.pyd
+[2023-07-11 16:16:57] INFO root fetch - processPackages [ducc0]: executing diffoscope
+[2023-07-11 16:16:57] INFO root fetch - processPackages [ducc0]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ducc0-0.8.0.tar.gz tmp/ducc0-0.9.0.tar.gz --markdown 20230711/d/ducc0/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-11 16:16:57] INFO root fetch - processPackages [reportlab-pdf-table-builder]: executing diffoscope
+[2023-07-11 16:16:57] INFO root fetch - processPackages [reportlab-pdf-table-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reportlab-pdf-table-builder-1.2.3.tar.gz tmp/reportlab-pdf-table-builder-1.2.4.tar.gz --markdown 20230711/r/reportlab-pdf-table-builder/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-07-11 16:16:57] INFO root fetch - processPackages [mainnet]: executing diffoscope
+[2023-07-11 16:16:57] INFO root fetch - processPackages [mainnet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mainnet-1.1.8.tar.gz tmp/mainnet-1.1.9.tar.gz --markdown 20230711/m/mainnet/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-11 16:16:57] INFO root fetch - processPackages [BenchExec]: executing diffoscope
+[2023-07-11 16:16:57] INFO root fetch - processPackages [BenchExec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BenchExec-3.8.tar.gz tmp/BenchExec-3.9.tar.gz --markdown 20230711/B/BenchExec/3.8-3.9/diff.md --exclude *.pyd
+[2023-07-11 16:16:58] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-dynamodb-backup-0.0.98.tar.gz]
+[2023-07-11 16:16:58] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-dynamodb-backup-0.0.99.tar.gz]
+[2023-07-11 16:16:58] INFO root fetch - processPackages [pepperize.cdk-dynamodb-backup]: Start processing: lusid-sdk
+[2023-07-11 16:16:58] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-dynamodb-backup]: success
+[2023-07-11 16:16:58] INFO root fetch - processPackages [pythonperlin]: Remove: archive file [/home/abi/fetcher/tmp/pythonperlin-0.0.5.tar.gz]
+[2023-07-11 16:16:58] INFO root fetch - processPackages [pythonperlin]: Remove: archive file [/home/abi/fetcher/tmp/pythonperlin-0.0.6.tar.gz]
+[2023-07-11 16:16:58] INFO root fetch - processPackages [pythonperlin]: Start processing: lusid-sdk-preview
+[2023-07-11 16:16:58] INFO root fetch - main [MainThread]: End processing [pythonperlin]: success
+[2023-07-11 16:16:58] INFO root fetch - processPackages [selenium-remote]: Remove: archive file [/home/abi/fetcher/tmp/selenium_remote-0.1.1.tar.gz]
+[2023-07-11 16:16:58] INFO root fetch - processPackages [selenium-remote]: Remove: archive file [/home/abi/fetcher/tmp/selenium_remote-0.1.2.tar.gz]
+[2023-07-11 16:16:58] INFO root fetch - processPackages [selenium-remote]: Start processing: equiformer-pytorch
+[2023-07-11 16:16:58] INFO root fetch - main [MainThread]: End processing [selenium-remote]: success
+[2023-07-11 16:16:58] INFO root fetch - processPackages [lusid-sdk]: New version: [1.0.98] Old Version: [1.0.91]
+[2023-07-11 16:16:58] INFO root fetch - processPackages [lusid-sdk-preview]: New version: [1.0.98] Old Version: [1.0.91]
+[2023-07-11 16:16:58] INFO root fetch - processPackages [goxlr]: Remove: archive file [/home/abi/fetcher/tmp/goxlr-1.4.1.tar.gz]
+[2023-07-11 16:16:58] INFO root fetch - processPackages [goxlr]: Remove: archive file [/home/abi/fetcher/tmp/goxlr-1.4.2.tar.gz]
+[2023-07-11 16:16:58] INFO root fetch - processPackages [goxlr]: Start processing: rapunzel
+[2023-07-11 16:16:58] INFO root fetch - main [MainThread]: End processing [goxlr]: success
+[2023-07-11 16:16:58] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/be/34/7662f651750d07513450337ca9275481d00381ada330eaaa7e365fdde135/lusid-sdk-1.0.91.tar.gz
+[2023-07-11 16:16:58] INFO root fetch - processPackages [equiformer-pytorch]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-07-11 16:16:58] INFO root fetch - processPackages [lusid-sdk-preview]: Downloading https://files.pythonhosted.org/packages/49/7a/a2c137408aeb27bd4c7f6dd83e907217e3962f825b96448437c4cfa4e0ea/lusid-sdk-preview-1.0.91.tar.gz
+[2023-07-11 16:16:58] INFO root fetch - processPackages [rapunzel]: New version: [1.0.0a9] Old Version: [1.0.0a8]
+[2023-07-11 16:16:58] INFO root fetch - processPackages [SC2Spa]: Remove: archive file [/home/abi/fetcher/tmp/SC2Spa-1.1.9.tar.gz]
+[2023-07-11 16:16:58] INFO root fetch - processPackages [SC2Spa]: Remove: archive file [/home/abi/fetcher/tmp/SC2Spa-1.2.0.tar.gz]
+[2023-07-11 16:16:58] INFO root fetch - processPackages [SC2Spa]: Start processing: multiplex-imaging-pipeline
+[2023-07-11 16:16:58] INFO root fetch - main [MainThread]: End processing [SC2Spa]: success
+[2023-07-11 16:16:58] INFO root fetch - processPackages [multiplex-imaging-pipeline]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-11 16:16:58] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/14/c8/523a5d4f9c0dcabd6883ffe308d0ecf41ed93c1f7e1cdc4baced16ec67c6/lusid-sdk-1.0.98.tar.gz
+[2023-07-11 16:16:58] INFO root fetch - processPackages [reportlab-pdf-table-builder]: Remove: archive file [/home/abi/fetcher/tmp/reportlab-pdf-table-builder-1.2.3.tar.gz]
+[2023-07-11 16:16:58] INFO root fetch - processPackages [reportlab-pdf-table-builder]: Remove: archive file [/home/abi/fetcher/tmp/reportlab-pdf-table-builder-1.2.4.tar.gz]
+[2023-07-11 16:16:58] INFO root fetch - processPackages [reportlab-pdf-table-builder]: Start processing: bluepyopt
+[2023-07-11 16:16:58] INFO root fetch - main [MainThread]: End processing [reportlab-pdf-table-builder]: success
+[2023-07-11 16:16:58] INFO root fetch - processPackages [equiformer-pytorch]: Downloading https://files.pythonhosted.org/packages/36/a3/04ff5b127886b9dafd698bd8300e10462481b5c20f2a296a85a5d2e72309/equiformer-pytorch-0.2.4.tar.gz
+[2023-07-11 16:16:58] INFO root fetch - processPackages [lusid-sdk-preview]: Downloading https://files.pythonhosted.org/packages/98/81/36672596a28f997865bee76ba030a446e52a68b56b9e297ed56f9a8fb301/lusid-sdk-preview-1.0.98.tar.gz
+[2023-07-11 16:16:58] INFO root fetch - processPackages [multiplex-imaging-pipeline]: Downloading https://files.pythonhosted.org/packages/c0/b9/dd6c79ff874544e9663788193c872b9966ba89b39b2e62f638c4b8ecd4d3/multiplex-imaging-pipeline-0.0.4.tar.gz
+[2023-07-11 16:16:58] INFO root fetch - processPackages [rapunzel]: Downloading https://files.pythonhosted.org/packages/de/c2/86e1513fa726ebf6f6ed180a18e6d976d061b08590d2cfc35e9b3a258b92/rapunzel-1.0.0a8.tar.gz
+[2023-07-11 16:16:58] INFO root fetch - processPackages [lusid-sdk]: executing diffoscope
+[2023-07-11 16:16:58] INFO root fetch - processPackages [lusid-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-sdk-1.0.91.tar.gz tmp/lusid-sdk-1.0.98.tar.gz --markdown 20230711/l/lusid-sdk/1.0.91-1.0.98/diff.md --exclude *.pyd
+[2023-07-11 16:16:58] INFO root fetch - processPackages [lusid-sdk-preview]: executing diffoscope
+[2023-07-11 16:16:58] INFO root fetch - processPackages [lusid-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-sdk-preview-1.0.91.tar.gz tmp/lusid-sdk-preview-1.0.98.tar.gz --markdown 20230711/l/lusid-sdk-preview/1.0.91-1.0.98/diff.md --exclude *.pyd
+[2023-07-11 16:16:58] INFO root fetch - processPackages [bluepyopt]: New version: [1.9.98] Old Version: [1.9.96]
+[2023-07-11 16:16:58] WARNING root fetch - processPackages [equiformer-pytorch]: Skipping package: exceeds size limit 18387662>=10485760
+[2023-07-11 16:16:58] INFO root fetch - processPackages [equiformer-pytorch]: Start processing: opensesame-core
+[2023-07-11 16:16:58] INFO root fetch - main [MainThread]: End processing [equiformer-pytorch] error
+[2023-07-11 16:16:59] INFO root fetch - processPackages [multiplex-imaging-pipeline]: Downloading https://files.pythonhosted.org/packages/1d/19/68b0345638557e924290ace866c83b002d9f7ae6f7e9b63ff732b7b7a31b/multiplex-imaging-pipeline-0.0.5.tar.gz
+[2023-07-11 16:16:59] INFO root fetch - processPackages [opensesame-core]: New version: [4.0.0a54] Old Version: [4.0.0a52]
+[2023-07-11 16:16:59] INFO root fetch - processPackages [easy-tpp]: Remove: archive file [/home/abi/fetcher/tmp/easy_tpp-0.0.4.tar.gz]
+[2023-07-11 16:16:59] INFO root fetch - processPackages [easy-tpp]: Remove: archive file [/home/abi/fetcher/tmp/easy_tpp-0.0.5.tar.gz]
+[2023-07-11 16:16:59] INFO root fetch - processPackages [easy-tpp]: Start processing: opensesame-extension-osweb
+[2023-07-11 16:16:59] INFO root fetch - main [MainThread]: End processing [easy-tpp]: success
+[2023-07-11 16:16:59] INFO root fetch - processPackages [bluepyopt]: Downloading https://files.pythonhosted.org/packages/02/51/e461071d827d1fafd2af5fbddbf633fa8ec6fe1cb1a547cb8afe2b45c2ef/bluepyopt-1.9.96.tar.gz
+[2023-07-11 16:16:59] INFO root fetch - processPackages [opensesame-core]: Downloading https://files.pythonhosted.org/packages/cf/26/c7d02bbff5ea9cdaadd021279610f4a041b848698403c25e09c426c37dd1/opensesame_core-4.0.0a52.tar.gz
+[2023-07-11 16:16:59] INFO root fetch - processPackages [multiplex-imaging-pipeline]: executing diffoscope
+[2023-07-11 16:16:59] INFO root fetch - processPackages [multiplex-imaging-pipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multiplex-imaging-pipeline-0.0.4.tar.gz tmp/multiplex-imaging-pipeline-0.0.5.tar.gz --markdown 20230711/m/multiplex-imaging-pipeline/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-11 16:16:59] WARNING root fetch - processPackages [opensesame-core]: Skipping package: exceeds size limit 18927309>=10485760
+[2023-07-11 16:16:59] INFO root fetch - processPackages [opensesame-core]: Start processing: exonviz
+[2023-07-11 16:16:59] INFO root fetch - main [MainThread]: End processing [opensesame-core] error
+[2023-07-11 16:16:59] INFO root fetch - processPackages [opensesame-extension-osweb]: New version: [2.0.0.0a8] Old Version: [2.0.0.0a7]
+[2023-07-11 16:16:59] INFO root fetch - processPackages [ducc0]: Remove: archive file [/home/abi/fetcher/tmp/ducc0-0.8.0.tar.gz]
+[2023-07-11 16:16:59] INFO root fetch - processPackages [ducc0]: Remove: archive file [/home/abi/fetcher/tmp/ducc0-0.9.0.tar.gz]
+[2023-07-11 16:16:59] INFO root fetch - processPackages [ducc0]: Start processing: selis
+[2023-07-11 16:16:59] INFO root fetch - main [MainThread]: End processing [ducc0]: success
+[2023-07-11 16:16:59] INFO root fetch - processPackages [rapunzel]: Downloading https://files.pythonhosted.org/packages/77/22/06d8a6c065dcaed023ec0fe794a9f3c723f2396fc1d1da140b985e0e47ff/rapunzel-1.0.0a9.tar.gz
+[2023-07-11 16:16:59] INFO root fetch - processPackages [opensesame-extension-osweb]: Downloading https://files.pythonhosted.org/packages/2c/ab/aa15ddb5c5f2d8de63578570bbe2554adc1df58ce6d85dcb194f32bc4e45/opensesame_extension_osweb-2.0.0.0a7.tar.gz
+[2023-07-11 16:16:59] WARNING root fetch - processPackages [exonviz]: Skipping, unable to determine old version
+[2023-07-11 16:16:59] INFO root fetch - processPackages [exonviz]: Start processing: zyte-common-items
+[2023-07-11 16:16:59] INFO root fetch - main [MainThread]: End processing [exonviz] error
+[2023-07-11 16:16:59] ERROR root fetch - processPackages [selis]: Unable to get metadata: No such project 'selis'
+[2023-07-11 16:16:59] INFO root fetch - processPackages [selis]: Start processing: cogeo-mosaic
+[2023-07-11 16:16:59] INFO root fetch - main [MainThread]: End processing [selis] error
+[2023-07-11 16:16:59] INFO root fetch - processPackages [zyte-common-items]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-07-11 16:16:59] INFO root fetch - processPackages [rapunzel]: executing diffoscope
+[2023-07-11 16:16:59] INFO root fetch - processPackages [rapunzel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapunzel-1.0.0a8.tar.gz tmp/rapunzel-1.0.0a9.tar.gz --markdown 20230711/r/rapunzel/1.0.0a8-1.0.0a9/diff.md --exclude *.pyd
+[2023-07-11 16:16:59] INFO root fetch - processPackages [cogeo-mosaic]: New version: [6.0.1] Old Version: [6.0.0]
+[2023-07-11 16:16:59] INFO root fetch - processPackages [bluepyopt]: Downloading https://files.pythonhosted.org/packages/65/0f/18a17694624fbea4932495e5caf19dd6d774a835d6a79289130c89a06a5e/bluepyopt-1.9.98.tar.gz
+[2023-07-11 16:16:59] INFO root fetch - processPackages [zyte-common-items]: Downloading https://files.pythonhosted.org/packages/d5/56/7a0b4a9e0e15e82c13f860cd54fe04983184bfe8dd30a8f57454ffdb5b83/zyte-common-items-0.6.0.tar.gz
+[2023-07-11 16:16:59] INFO root fetch - processPackages [cogeo-mosaic]: Downloading https://files.pythonhosted.org/packages/fb/32/fd2c864af7c58ec31b8377ba62de39b845ae667781409e8ee3ee03e19c74/cogeo_mosaic-6.0.0.tar.gz
+[2023-07-11 16:16:59] INFO root fetch - processPackages [bluepyopt]: executing diffoscope
+[2023-07-11 16:16:59] INFO root fetch - processPackages [bluepyopt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bluepyopt-1.9.96.tar.gz tmp/bluepyopt-1.9.98.tar.gz --markdown 20230711/b/bluepyopt/1.9.96-1.9.98/diff.md --exclude *.pyd
+[2023-07-11 16:17:00] INFO root fetch - processPackages [opensesame-extension-osweb]: Downloading https://files.pythonhosted.org/packages/e2/46/ee470f21782300a5123157400f6bdbca9c0563d6d55aa391586b704a810e/opensesame_extension_osweb-2.0.0.0a8.tar.gz
+[2023-07-11 16:17:00] INFO root fetch - processPackages [zyte-common-items]: Downloading https://files.pythonhosted.org/packages/91/42/6985e297d8c2dd47db384057d212ae703976871feedd564043f05e65dd29/zyte-common-items-0.7.0.tar.gz
+[2023-07-11 16:17:00] INFO root fetch - processPackages [opensesame-extension-osweb]: executing diffoscope
+[2023-07-11 16:17:00] INFO root fetch - processPackages [opensesame-extension-osweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opensesame_extension_osweb-2.0.0.0a7.tar.gz tmp/opensesame_extension_osweb-2.0.0.0a8.tar.gz --markdown 20230711/o/opensesame-extension-osweb/2.0.0.0a7-2.0.0.0a8/diff.md --exclude *.pyd
+[2023-07-11 16:17:00] INFO root fetch - processPackages [multiplex-imaging-pipeline]: Remove: archive file [/home/abi/fetcher/tmp/multiplex-imaging-pipeline-0.0.4.tar.gz]
+[2023-07-11 16:17:00] INFO root fetch - processPackages [multiplex-imaging-pipeline]: Remove: archive file [/home/abi/fetcher/tmp/multiplex-imaging-pipeline-0.0.5.tar.gz]
+[2023-07-11 16:17:00] INFO root fetch - processPackages [multiplex-imaging-pipeline]: Start processing: intecomm-form-validators
+[2023-07-11 16:17:00] INFO root fetch - main [MainThread]: End processing [multiplex-imaging-pipeline]: success
+[2023-07-11 16:17:00] INFO root fetch - processPackages [intecomm-form-validators]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-11 16:17:00] INFO root fetch - processPackages [cogeo-mosaic]: Downloading https://files.pythonhosted.org/packages/e5/8f/8c5c13f94a52ea069ac067eaa8dcc51b093ebc4983f49f443c80916071c1/cogeo_mosaic-6.0.1.tar.gz
+[2023-07-11 16:17:00] INFO root fetch - processPackages [zyte-common-items]: executing diffoscope
+[2023-07-11 16:17:00] INFO root fetch - processPackages [zyte-common-items]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zyte-common-items-0.6.0.tar.gz tmp/zyte-common-items-0.7.0.tar.gz --markdown 20230711/z/zyte-common-items/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-07-11 16:17:00] INFO root fetch - processPackages [intecomm-form-validators]: Downloading https://files.pythonhosted.org/packages/19/e9/26d572e63c08a9513b13571870a97c28d2bf542993480376e37c828c564b/intecomm-form-validators-0.1.8.tar.gz
+[2023-07-11 16:17:00] INFO root fetch - processPackages [cogeo-mosaic]: executing diffoscope
+[2023-07-11 16:17:00] INFO root fetch - processPackages [cogeo-mosaic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cogeo_mosaic-6.0.0.tar.gz tmp/cogeo_mosaic-6.0.1.tar.gz --markdown 20230711/c/cogeo-mosaic/6.0.0-6.0.1/diff.md --exclude *.pyd
+[2023-07-11 16:17:00] INFO root fetch - processPackages [intecomm-form-validators]: Downloading https://files.pythonhosted.org/packages/8d/9a/ba39b1b74dd7d50770da9d0b45563e555a5e19ba671fa21a047da9450cf3/intecomm-form-validators-0.1.9.tar.gz
+[2023-07-11 16:17:01] INFO root fetch - processPackages [intecomm-form-validators]: executing diffoscope
+[2023-07-11 16:17:01] INFO root fetch - processPackages [intecomm-form-validators]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intecomm-form-validators-0.1.8.tar.gz tmp/intecomm-form-validators-0.1.9.tar.gz --markdown 20230711/i/intecomm-form-validators/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-11 16:17:01] INFO root fetch - processPackages [rapunzel]: Remove: archive file [/home/abi/fetcher/tmp/rapunzel-1.0.0a8.tar.gz]
+[2023-07-11 16:17:01] INFO root fetch - processPackages [rapunzel]: Remove: archive file [/home/abi/fetcher/tmp/rapunzel-1.0.0a9.tar.gz]
+[2023-07-11 16:17:01] INFO root fetch - main [MainThread]: End processing [rapunzel]: success
+[2023-07-11 16:17:01] INFO root fetch - processPackages [zyte-common-items]: Remove: archive file [/home/abi/fetcher/tmp/zyte-common-items-0.6.0.tar.gz]
+[2023-07-11 16:17:01] INFO root fetch - processPackages [zyte-common-items]: Remove: archive file [/home/abi/fetcher/tmp/zyte-common-items-0.7.0.tar.gz]
+[2023-07-11 16:17:01] INFO root fetch - main [MainThread]: End processing [zyte-common-items]: success
+[2023-07-11 16:17:02] INFO root fetch - processPackages [bluepyopt]: Remove: archive file [/home/abi/fetcher/tmp/bluepyopt-1.9.96.tar.gz]
+[2023-07-11 16:17:02] INFO root fetch - processPackages [bluepyopt]: Remove: archive file [/home/abi/fetcher/tmp/bluepyopt-1.9.98.tar.gz]
+[2023-07-11 16:17:02] INFO root fetch - main [MainThread]: End processing [bluepyopt]: success
+[2023-07-11 16:17:02] INFO root fetch - processPackages [cogeo-mosaic]: Remove: archive file [/home/abi/fetcher/tmp/cogeo_mosaic-6.0.0.tar.gz]
+[2023-07-11 16:17:02] INFO root fetch - processPackages [cogeo-mosaic]: Remove: archive file [/home/abi/fetcher/tmp/cogeo_mosaic-6.0.1.tar.gz]
+[2023-07-11 16:17:02] INFO root fetch - main [MainThread]: End processing [cogeo-mosaic]: success
+[2023-07-11 16:17:02] INFO root fetch - processPackages [intecomm-form-validators]: Remove: archive file [/home/abi/fetcher/tmp/intecomm-form-validators-0.1.8.tar.gz]
+[2023-07-11 16:17:02] INFO root fetch - processPackages [intecomm-form-validators]: Remove: archive file [/home/abi/fetcher/tmp/intecomm-form-validators-0.1.9.tar.gz]
+[2023-07-11 16:17:02] INFO root fetch - main [MainThread]: End processing [intecomm-form-validators]: success
+[2023-07-11 16:17:02] INFO root fetch - processPackages [opensesame-extension-osweb]: Remove: archive file [/home/abi/fetcher/tmp/opensesame_extension_osweb-2.0.0.0a7.tar.gz]
+[2023-07-11 16:17:02] INFO root fetch - processPackages [opensesame-extension-osweb]: Remove: archive file [/home/abi/fetcher/tmp/opensesame_extension_osweb-2.0.0.0a8.tar.gz]
+[2023-07-11 16:17:02] INFO root fetch - main [MainThread]: End processing [opensesame-extension-osweb]: success
+[2023-07-11 16:17:03] INFO root fetch - processPackages [mainnet]: Remove: archive file [/home/abi/fetcher/tmp/mainnet-1.1.8.tar.gz]
+[2023-07-11 16:17:03] INFO root fetch - processPackages [mainnet]: Remove: archive file [/home/abi/fetcher/tmp/mainnet-1.1.9.tar.gz]
+[2023-07-11 16:17:03] INFO root fetch - main [MainThread]: End processing [mainnet]: success
+[2023-07-11 16:17:09] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-1.0.91.tar.gz]
+[2023-07-11 16:17:09] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-1.0.98.tar.gz]
+[2023-07-11 16:17:09] INFO root fetch - main [MainThread]: End processing [lusid-sdk]: success
+[2023-07-11 16:17:11] INFO root fetch - processPackages [BenchExec]: Remove: archive file [/home/abi/fetcher/tmp/BenchExec-3.8.tar.gz]
+[2023-07-11 16:17:11] INFO root fetch - processPackages [BenchExec]: Remove: archive file [/home/abi/fetcher/tmp/BenchExec-3.9.tar.gz]
+[2023-07-11 16:17:11] INFO root fetch - main [MainThread]: End processing [BenchExec]: success
+[2023-07-11 16:17:13] INFO root fetch - processPackages [lusid-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-preview-1.0.91.tar.gz]
+[2023-07-11 16:17:13] INFO root fetch - processPackages [lusid-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-preview-1.0.98.tar.gz]
+[2023-07-11 16:17:13] INFO root fetch - main [MainThread]: End processing [lusid-sdk-preview]: success
+[2023-07-11 16:17:13] INFO root fetch - main [MainThread]: Store serial: [18846506]
