@@ -11772,3 +11772,94 @@ AssertionError: tmp/doctran-0.0.6.tar.gz does not exist
 [2023-07-11 09:04:24] INFO root fetch - processPackages [lvhao-lib]: Remove: archive file [/home/abi/fetcher/tmp/lvhao_lib-0.7.1.tar.gz]
 [2023-07-11 09:04:24] INFO root fetch - main [MainThread]: End processing [lvhao-lib]: success
 [2023-07-11 09:04:24] INFO root fetch - main [MainThread]: Store serial: [18841753]
+[2023-07-11 09:09:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18841753]
+[2023-07-11 09:09:34] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-11 09:09:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: report2junit
+[2023-07-11 09:09:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: layerx-sdk-beta
+[2023-07-11 09:09:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: curriculumagent
+[2023-07-11 09:09:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: container-helpers
+[2023-07-11 09:09:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zensvi
+[2023-07-11 09:09:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vika
+[2023-07-11 09:09:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: zensvi
+[2023-07-11 09:09:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-07-11 09:09:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: telegramweb
+[2023-07-11 09:09:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: maggma
+[2023-07-11 09:09:34] INFO root fetch - processPackages [maggma]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-11 09:09:34] INFO root fetch - processPackages [report2junit]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-11 09:09:34] INFO root fetch - processPackages [curriculumagent]: New version: [1.0.1] Old Version: [0.0.4]
+[2023-07-11 09:09:34] INFO root fetch - processPackages [container-helpers]: New version: [0.0.7] Old Version: [0.0.5]
+[2023-07-11 09:09:34] INFO root fetch - processPackages [layerx-sdk-beta]: New version: [1.0.9b2] Old Version: [1.0.9b1]
+[2023-07-11 09:09:34] INFO root fetch - processPackages [zensvi]: New version: [0.6.6] Old Version: [0.6.5]
+[2023-07-11 09:09:34] INFO root fetch - processPackages [vika]: New version: [1.3.0] Old Version: [1.1.6]
+[2023-07-11 09:09:34] INFO root fetch - processPackages [zensvi]: New version: [0.6.6] Old Version: [0.6.5]
+[2023-07-11 09:09:34] INFO root fetch - processPackages [telegramweb]: New version: [6.9] Old Version: [6.8]
+[2023-07-11 09:09:34] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-07-11 09:09:34] INFO root fetch - processPackages [report2junit]: Downloading https://files.pythonhosted.org/packages/90/2c/3ec18769736523cb628af0dd428c9278de959198b43453b4b02a559ad719/report2junit-0.3.1.tar.gz
+[2023-07-11 09:09:34] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/b5/4b/0742a4ab14bdc0e7e1a1efa5e089f45c05c18e939582e562ff5095837d67/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz
+[2023-07-11 09:09:34] INFO root fetch - processPackages [maggma]: Downloading https://files.pythonhosted.org/packages/0b/d5/4bfefd3094fe323ae3b4f6043dd7f75d763cd562d238063c16d1d2f30697/maggma-0.8.0.tar.gz
+[2023-07-11 09:09:34] INFO root fetch - processPackages [telegramweb]: Downloading https://files.pythonhosted.org/packages/eb/59/e6d654fe5c45804ba090258a3c1cecd86014c027b2fd2931f26912c600dd/telegramweb-6.8.tar.gz
+[2023-07-11 09:09:35] INFO root fetch - processPackages [curriculumagent]: Downloading https://files.pythonhosted.org/packages/0f/2a/69f1ae425711d3d1e9956a582c7f60b5d3e337cb637f77afa93c6ace7ab0/curriculumagent-0.0.4.tar.gz
+[2023-07-11 09:09:35] INFO root fetch - processPackages [zensvi]: Downloading https://files.pythonhosted.org/packages/68/36/726224b4b66baeeb3a9131cba08b263c7898767cfbe0823bb99e444c16f4/zensvi-0.6.5.tar.gz
+[2023-07-11 09:09:35] INFO root fetch - processPackages [zensvi]: Downloading https://files.pythonhosted.org/packages/68/36/726224b4b66baeeb3a9131cba08b263c7898767cfbe0823bb99e444c16f4/zensvi-0.6.5.tar.gz
+[2023-07-11 09:09:35] INFO root fetch - processPackages [container-helpers]: Downloading https://files.pythonhosted.org/packages/f4/12/4018afe872c832c337019ebaf7d8e00423e6ddc524104f45345704b3aefe/container_helpers-0.0.5.tar.gz
+[2023-07-11 09:09:35] INFO root fetch - processPackages [layerx-sdk-beta]: Downloading https://files.pythonhosted.org/packages/82/30/49db849a17663ef31174e31654b943efd6d652d8fead1d082f103f9ab59e/layerx-sdk-beta-1.0.9b1.tar.gz
+[2023-07-11 09:09:35] INFO root fetch - processPackages [vika]: Downloading https://files.pythonhosted.org/packages/a4/2e/12b12a8197ad9a3233c9b2e0bde7a9555ea49f55692cf639de3734c9ba9e/vika-1.1.6.tar.gz
+[2023-07-11 09:09:35] INFO root fetch - processPackages [report2junit]: Downloading https://files.pythonhosted.org/packages/3e/4d/0f532a34600c4018f4b6f27d5b3dcd896062afc446c8c4eb8eaaeeeb10ad/report2junit-0.3.2.tar.gz
+[2023-07-11 09:09:35] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/c7/46/0f42bc025c61bcf7528be4662164372850647ddcc00ec2a211a0b9e071cc/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz
+[2023-07-11 09:09:35] INFO root fetch - processPackages [telegramweb]: Downloading https://files.pythonhosted.org/packages/de/70/7a63184defb318e3a2755bcf6f39c445bf330bd2854fb0436a527bbaa8bc/telegramweb-6.9.tar.gz
+[2023-07-11 09:09:35] INFO root fetch - processPackages [maggma]: Downloading https://files.pythonhosted.org/packages/e3/6f/7133584ec97cb54d2930706c7623e641ac8328cb0b9166e7bc2f9f04616f/maggma-0.9.0.tar.gz
+[2023-07-11 09:09:35] INFO root fetch - processPackages [container-helpers]: Downloading https://files.pythonhosted.org/packages/ed/a6/794275577b466d4280903613cc8490bb9ab84cb8d6c3652b016ac4b55030/container_helpers-0.0.7.tar.gz
+[2023-07-11 09:09:35] INFO root fetch - processPackages [report2junit]: executing diffoscope
+[2023-07-11 09:09:35] INFO root fetch - processPackages [report2junit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/report2junit-0.3.1.tar.gz tmp/report2junit-0.3.2.tar.gz --markdown 20230711/r/report2junit/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-11 09:09:35] INFO root fetch - processPackages [zensvi]: Downloading https://files.pythonhosted.org/packages/a5/14/f283c6f1fc15107d9c5631e9470f4a3b20579e524d83794c5248df588107/zensvi-0.6.6.tar.gz
+[2023-07-11 09:09:35] INFO root fetch - processPackages [zensvi]: Downloading https://files.pythonhosted.org/packages/a5/14/f283c6f1fc15107d9c5631e9470f4a3b20579e524d83794c5248df588107/zensvi-0.6.6.tar.gz
+[2023-07-11 09:09:35] INFO root fetch - processPackages [layerx-sdk-beta]: Downloading https://files.pythonhosted.org/packages/80/17/9c39f674089d0687a6ebb4bb5cb263194817e74bbf02632c5b1f95ed63ed/layerx-sdk-beta-1.0.9b2.tar.gz
+[2023-07-11 09:09:35] INFO root fetch - processPackages [curriculumagent]: Downloading https://files.pythonhosted.org/packages/8d/c3/e75119775cbc078d5239c209245fc3b1f0f2f3759010030df30f6bc2ad34/curriculumagent-1.0.1.tar.gz
+[2023-07-11 09:09:35] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-07-11 09:09:35] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230711/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-07-11 09:09:35] INFO root fetch - processPackages [maggma]: executing diffoscope
+[2023-07-11 09:09:35] INFO root fetch - processPackages [maggma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maggma-0.8.0.tar.gz tmp/maggma-0.9.0.tar.gz --markdown 20230711/m/maggma/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-11 09:09:35] INFO root fetch - processPackages [telegramweb]: executing diffoscope
+[2023-07-11 09:09:35] INFO root fetch - processPackages [telegramweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telegramweb-6.8.tar.gz tmp/telegramweb-6.9.tar.gz --markdown 20230711/t/telegramweb/6.8-6.9/diff.md --exclude *.pyd
+[2023-07-11 09:09:35] INFO root fetch - processPackages [container-helpers]: executing diffoscope
+[2023-07-11 09:09:35] INFO root fetch - processPackages [container-helpers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/container_helpers-0.0.5.tar.gz tmp/container_helpers-0.0.7.tar.gz --markdown 20230711/c/container-helpers/0.0.5-0.0.7/diff.md --exclude *.pyd
+[2023-07-11 09:09:35] INFO root fetch - processPackages [vika]: Downloading https://files.pythonhosted.org/packages/ff/fa/69813806596d5096244874d35fe9bd9ef2edd72891779a81003293249b2f/vika-1.3.0.tar.gz
+[2023-07-11 09:09:35] INFO root fetch - processPackages [zensvi]: executing diffoscope
+[2023-07-11 09:09:35] INFO root fetch - processPackages [zensvi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zensvi-0.6.5.tar.gz tmp/zensvi-0.6.6.tar.gz --markdown 20230711/z/zensvi/0.6.5-0.6.6/diff.md --exclude *.pyd
+[2023-07-11 09:09:35] INFO root fetch - processPackages [zensvi]: executing diffoscope
+[2023-07-11 09:09:35] INFO root fetch - processPackages [zensvi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zensvi-0.6.5.tar.gz tmp/zensvi-0.6.6.tar.gz --markdown 20230711/z/zensvi/0.6.5-0.6.6/diff.md --exclude *.pyd
+[2023-07-11 09:09:35] INFO root fetch - processPackages [layerx-sdk-beta]: executing diffoscope
+[2023-07-11 09:09:35] INFO root fetch - processPackages [layerx-sdk-beta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/layerx-sdk-beta-1.0.9b1.tar.gz tmp/layerx-sdk-beta-1.0.9b2.tar.gz --markdown 20230711/l/layerx-sdk-beta/1.0.9b1-1.0.9b2/diff.md --exclude *.pyd
+[2023-07-11 09:09:35] INFO root fetch - processPackages [curriculumagent]: executing diffoscope
+[2023-07-11 09:09:35] INFO root fetch - processPackages [curriculumagent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/curriculumagent-0.0.4.tar.gz tmp/curriculumagent-1.0.1.tar.gz --markdown 20230711/c/curriculumagent/0.0.4-1.0.1/diff.md --exclude *.pyd
+[2023-07-11 09:09:35] INFO root fetch - processPackages [vika]: executing diffoscope
+[2023-07-11 09:09:35] INFO root fetch - processPackages [vika]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vika-1.1.6.tar.gz tmp/vika-1.3.0.tar.gz --markdown 20230711/v/vika/1.1.6-1.3.0/diff.md --exclude *.pyd
+[2023-07-11 09:09:37] INFO root fetch - processPackages [report2junit]: Remove: archive file [/home/abi/fetcher/tmp/report2junit-0.3.1.tar.gz]
+[2023-07-11 09:09:37] INFO root fetch - processPackages [report2junit]: Remove: archive file [/home/abi/fetcher/tmp/report2junit-0.3.2.tar.gz]
+[2023-07-11 09:09:37] INFO root fetch - main [MainThread]: End processing [report2junit]: success
+[2023-07-11 09:09:37] INFO root fetch - processPackages [container-helpers]: Remove: archive file [/home/abi/fetcher/tmp/container_helpers-0.0.5.tar.gz]
+[2023-07-11 09:09:37] INFO root fetch - processPackages [container-helpers]: Remove: archive file [/home/abi/fetcher/tmp/container_helpers-0.0.7.tar.gz]
+[2023-07-11 09:09:37] INFO root fetch - main [MainThread]: End processing [container-helpers]: success
+[2023-07-11 09:09:37] INFO root fetch - processPackages [telegramweb]: Remove: archive file [/home/abi/fetcher/tmp/telegramweb-6.8.tar.gz]
+[2023-07-11 09:09:37] INFO root fetch - processPackages [telegramweb]: Remove: archive file [/home/abi/fetcher/tmp/telegramweb-6.9.tar.gz]
+[2023-07-11 09:09:37] INFO root fetch - main [MainThread]: End processing [telegramweb]: success
+[2023-07-11 09:09:37] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz]
+[2023-07-11 09:09:37] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz]
+[2023-07-11 09:09:37] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-07-11 09:09:37] INFO root fetch - processPackages [zensvi]: Remove: archive file [/home/abi/fetcher/tmp/zensvi-0.6.5.tar.gz]
+[2023-07-11 09:09:37] INFO root fetch - processPackages [zensvi]: Remove: archive file [/home/abi/fetcher/tmp/zensvi-0.6.6.tar.gz]
+[2023-07-11 09:09:37] INFO root fetch - main [MainThread]: End processing [zensvi]: success
+[2023-07-11 09:09:37] INFO root fetch - processPackages [layerx-sdk-beta]: Remove: archive file [/home/abi/fetcher/tmp/layerx-sdk-beta-1.0.9b1.tar.gz]
+[2023-07-11 09:09:37] INFO root fetch - processPackages [layerx-sdk-beta]: Remove: archive file [/home/abi/fetcher/tmp/layerx-sdk-beta-1.0.9b2.tar.gz]
+[2023-07-11 09:09:37] INFO root fetch - main [MainThread]: End processing [layerx-sdk-beta]: success
+[2023-07-11 09:09:37] INFO root fetch - processPackages [vika]: Remove: archive file [/home/abi/fetcher/tmp/vika-1.1.6.tar.gz]
+[2023-07-11 09:09:37] INFO root fetch - processPackages [vika]: Remove: archive file [/home/abi/fetcher/tmp/vika-1.3.0.tar.gz]
+[2023-07-11 09:09:37] INFO root fetch - processPackages [curriculumagent]: Remove: archive file [/home/abi/fetcher/tmp/curriculumagent-0.0.4.tar.gz]
+[2023-07-11 09:09:37] INFO root fetch - main [MainThread]: End processing [vika]: success
+[2023-07-11 09:09:37] INFO root fetch - processPackages [curriculumagent]: Remove: archive file [/home/abi/fetcher/tmp/curriculumagent-1.0.1.tar.gz]
+[2023-07-11 09:09:37] INFO root fetch - main [MainThread]: End processing [curriculumagent]: success
+[2023-07-11 09:09:37] INFO root fetch - processPackages [maggma]: Remove: archive file [/home/abi/fetcher/tmp/maggma-0.8.0.tar.gz]
+[2023-07-11 09:09:37] INFO root fetch - processPackages [maggma]: Remove: archive file [/home/abi/fetcher/tmp/maggma-0.9.0.tar.gz]
+[2023-07-11 09:09:37] INFO root fetch - main [MainThread]: End processing [maggma]: success
+[2023-07-11 09:09:37] INFO root fetch - main [MainThread]: End processing [zensvi]: success
+[2023-07-11 09:09:37] INFO root fetch - main [MainThread]: Store serial: [18841786]
