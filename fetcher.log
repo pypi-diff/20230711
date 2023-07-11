@@ -11950,3 +11950,67 @@ AssertionError: tmp/doctran-0.0.6.tar.gz does not exist
 [2023-07-11 09:20:00] INFO root fetch - processPackages [orquestra-sdk]: Remove: archive file [/home/abi/fetcher/tmp/orquestra_sdk-0.52.0-py3-none-any.whl.zip]
 [2023-07-11 09:20:00] INFO root fetch - main [MainThread]: End processing [orquestra-sdk]: success
 [2023-07-11 09:20:00] INFO root fetch - main [MainThread]: Store serial: [18841823]
+[2023-07-11 09:25:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18841823]
+[2023-07-11 09:25:09] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-11 09:25:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: opents
+[2023-07-11 09:25:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tfq-nightly
+[2023-07-11 09:25:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ansys-tools-path
+[2023-07-11 09:25:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: db-gpt
+[2023-07-11 09:25:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bycon
+[2023-07-11 09:25:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tzspace
+[2023-07-11 09:25:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pqapi
+[2023-07-11 09:25:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: in-dbt-spark
+[2023-07-11 09:25:09] INFO root fetch - processPackages [tzspace]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-11 09:25:09] INFO root fetch - processPackages [bycon]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-11 09:25:09] INFO root fetch - processPackages [pqapi]: New version: [0.1.0] Old Version: [0.0.2]
+[2023-07-11 09:25:09] INFO root fetch - processPackages [opents]: New version: [0.1.2.1] Old Version: [0.1.2]
+[2023-07-11 09:25:09] INFO root fetch - processPackages [in-dbt-spark]: New version: [1.5.2] Old Version: [1.5.0]
+[2023-07-11 09:25:09] INFO root fetch - processPackages [ansys-tools-path]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-11 09:25:09] WARNING root fetch - processPackages [db-gpt]: Skipping, unable to determine old version
+[2023-07-11 09:25:09] INFO root fetch - main [MainThread]: End processing [db-gpt] error
+[2023-07-11 09:25:09] INFO root fetch - processPackages [tfq-nightly]: New version: [0.7.3.dev20230710] Old Version: [0.7.3.dev20230709]
+[2023-07-11 09:25:09] INFO root fetch - processPackages [ansys-tools-path]: Downloading https://files.pythonhosted.org/packages/ca/d4/45fa5ffe0502c354fd910bd9422a7f41420be6bf3ad53735d01c14b0eee7/ansys_tools_path-0.3.0.tar.gz
+[2023-07-11 09:25:10] INFO root fetch - processPackages [opents]: Downloading https://files.pythonhosted.org/packages/4a/a8/311bd9d697f1d248cf480806933a584c5f4eabddf02ddc9732de80d728ad/opents-0.1.2-py3-none-any.whl
+[2023-07-11 09:25:10] INFO root fetch - processPackages [bycon]: Downloading https://files.pythonhosted.org/packages/d8/52/9205bbdcf60c69e8870bca5c3a21b54dc9acc3dc4e845822e9f9630cbb34/bycon-1.0.8.tar.gz
+[2023-07-11 09:25:10] INFO root fetch - processPackages [pqapi]: Downloading https://files.pythonhosted.org/packages/32/da/3a49b8bad6e4719d1ee1ccf0de382913518abae7912b7139e4373357a280/pqapi-0.0.2.tar.gz
+[2023-07-11 09:25:10] INFO root fetch - processPackages [in-dbt-spark]: Downloading https://files.pythonhosted.org/packages/19/ca/2d1d1011990d8d9bdebe62aa9179d131c40f4de318a2ceb8cb5dca50e313/in-dbt-spark-1.5.0.tar.gz
+[2023-07-11 09:25:10] INFO root fetch - processPackages [tzspace]: Downloading https://files.pythonhosted.org/packages/30/99/f48b2b8e93e8298cb2a84fb57c19e5c10e0b5a67e34e826d2235acdb846e/tzspace-0.0.5.tar.gz
+[2023-07-11 09:25:10] INFO root fetch - processPackages [tfq-nightly]: Downloading https://files.pythonhosted.org/packages/e7/5b/80d892bbec927590563256fafdec10ea24a7667dc31731ab5929295e5a07/tfq_nightly-0.7.3.dev20230709-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-11 09:25:10] WARNING root fetch - processPackages [tfq-nightly]: Skipping package: exceeds size limit 10807265>=10485760
+[2023-07-11 09:25:10] INFO root fetch - main [MainThread]: End processing [tfq-nightly] error
+[2023-07-11 09:25:10] INFO root fetch - processPackages [ansys-tools-path]: Downloading https://files.pythonhosted.org/packages/23/5b/14809e258207d2f10747a47bc7d98af5f1cf459adc4fe9f26ead7316ccb9/ansys_tools_path-0.3.1.tar.gz
+[2023-07-11 09:25:10] INFO root fetch - processPackages [tzspace]: executing diffoscope
+[2023-07-11 09:25:10] INFO root fetch - processPackages [tzspace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tzspace-0.0.4.tar.gz tmp/tzspace-0.0.5.tar.gz --markdown 20230711/t/tzspace/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-11 09:25:10] INFO root fetch - processPackages [opents]: Downloading https://files.pythonhosted.org/packages/9e/40/0dee62e94dcec830808868fcf370dc35b2c44ec016107286d620fe2c9ec7/opents-0.1.2.1-py3-none-any.whl
+[2023-07-11 09:25:10] INFO root fetch - processPackages [ansys-tools-path]: executing diffoscope
+[2023-07-11 09:25:10] INFO root fetch - processPackages [ansys-tools-path]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansys_tools_path-0.3.0.tar.gz tmp/ansys_tools_path-0.3.1.tar.gz --markdown 20230711/a/ansys-tools-path/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-11 09:25:10] INFO root fetch - processPackages [in-dbt-spark]: Downloading https://files.pythonhosted.org/packages/8f/9d/5b91c1dcdfdb3a0732e7508e9b44b8c0eb99ad5a769f21a4aca47b8c6403/in-dbt-spark-1.5.2.tar.gz
+[2023-07-11 09:25:10] INFO root fetch - processPackages [opents]: executing diffoscope
+[2023-07-11 09:25:10] INFO root fetch - processPackages [opents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opents-0.1.2-py3-none-any.whl.zip tmp/opents-0.1.2.1-py3-none-any.whl.zip --markdown 20230711/o/opents/0.1.2-0.1.2.1/diff.md --exclude *.pyd
+[2023-07-11 09:25:10] INFO root fetch - processPackages [bycon]: Downloading https://files.pythonhosted.org/packages/0c/b2/ef8a7b90b711214a2f00741f476f95ddd0b540bf9732ac39a993a39e0d03/bycon-1.0.9.tar.gz
+[2023-07-11 09:25:10] INFO root fetch - processPackages [in-dbt-spark]: executing diffoscope
+[2023-07-11 09:25:10] INFO root fetch - processPackages [in-dbt-spark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/in-dbt-spark-1.5.0.tar.gz tmp/in-dbt-spark-1.5.2.tar.gz --markdown 20230711/i/in-dbt-spark/1.5.0-1.5.2/diff.md --exclude *.pyd
+[2023-07-11 09:25:10] INFO root fetch - processPackages [pqapi]: Downloading https://files.pythonhosted.org/packages/c3/94/7b1df204466b9339382bd1c6d52538822b2e23429789db054ef251340512/pqapi-0.1.0.tar.gz
+[2023-07-11 09:25:10] INFO root fetch - processPackages [bycon]: executing diffoscope
+[2023-07-11 09:25:10] INFO root fetch - processPackages [bycon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bycon-1.0.8.tar.gz tmp/bycon-1.0.9.tar.gz --markdown 20230711/b/bycon/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-11 09:25:11] INFO root fetch - processPackages [pqapi]: executing diffoscope
+[2023-07-11 09:25:11] INFO root fetch - processPackages [pqapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pqapi-0.0.2.tar.gz tmp/pqapi-0.1.0.tar.gz --markdown 20230711/p/pqapi/0.0.2-0.1.0/diff.md --exclude *.pyd
+[2023-07-11 09:25:12] INFO root fetch - processPackages [opents]: Remove: archive file [/home/abi/fetcher/tmp/opents-0.1.2-py3-none-any.whl.zip]
+[2023-07-11 09:25:12] INFO root fetch - processPackages [opents]: Remove: archive file [/home/abi/fetcher/tmp/opents-0.1.2.1-py3-none-any.whl.zip]
+[2023-07-11 09:25:12] INFO root fetch - main [MainThread]: End processing [opents]: success
+[2023-07-11 09:25:12] INFO root fetch - processPackages [ansys-tools-path]: Remove: archive file [/home/abi/fetcher/tmp/ansys_tools_path-0.3.0.tar.gz]
+[2023-07-11 09:25:12] INFO root fetch - processPackages [ansys-tools-path]: Remove: archive file [/home/abi/fetcher/tmp/ansys_tools_path-0.3.1.tar.gz]
+[2023-07-11 09:25:12] INFO root fetch - main [MainThread]: End processing [ansys-tools-path]: success
+[2023-07-11 09:25:12] INFO root fetch - processPackages [tzspace]: Remove: archive file [/home/abi/fetcher/tmp/tzspace-0.0.4.tar.gz]
+[2023-07-11 09:25:12] INFO root fetch - processPackages [tzspace]: Remove: archive file [/home/abi/fetcher/tmp/tzspace-0.0.5.tar.gz]
+[2023-07-11 09:25:12] INFO root fetch - main [MainThread]: End processing [tzspace]: success
+[2023-07-11 09:25:13] INFO root fetch - processPackages [pqapi]: Remove: archive file [/home/abi/fetcher/tmp/pqapi-0.0.2.tar.gz]
+[2023-07-11 09:25:13] INFO root fetch - processPackages [pqapi]: Remove: archive file [/home/abi/fetcher/tmp/pqapi-0.1.0.tar.gz]
+[2023-07-11 09:25:13] INFO root fetch - main [MainThread]: End processing [pqapi]: success
+[2023-07-11 09:25:13] INFO root fetch - processPackages [in-dbt-spark]: Remove: archive file [/home/abi/fetcher/tmp/in-dbt-spark-1.5.0.tar.gz]
+[2023-07-11 09:25:13] INFO root fetch - processPackages [in-dbt-spark]: Remove: archive file [/home/abi/fetcher/tmp/in-dbt-spark-1.5.2.tar.gz]
+[2023-07-11 09:25:13] INFO root fetch - main [MainThread]: End processing [in-dbt-spark]: success
+[2023-07-11 09:25:16] INFO root fetch - processPackages [bycon]: Remove: archive file [/home/abi/fetcher/tmp/bycon-1.0.8.tar.gz]
+[2023-07-11 09:25:16] INFO root fetch - processPackages [bycon]: Remove: archive file [/home/abi/fetcher/tmp/bycon-1.0.9.tar.gz]
+[2023-07-11 09:25:16] INFO root fetch - main [MainThread]: End processing [bycon]: success
+[2023-07-11 09:25:16] INFO root fetch - main [MainThread]: Store serial: [18841847]
