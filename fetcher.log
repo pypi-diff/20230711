@@ -15538,3 +15538,134 @@ AssertionError: tmp/doctran-0.0.6.tar.gz does not exist
 [2023-07-11 11:45:19] INFO root fetch - processPackages [aligo]: Remove: archive file [/home/abi/fetcher/tmp/aligo-6.0.5.tar.gz]
 [2023-07-11 11:45:19] INFO root fetch - main [MainThread]: End processing [aligo]: success
 [2023-07-11 11:45:19] INFO root fetch - main [MainThread]: Store serial: [18843302]
+[2023-07-11 11:50:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18843302]
+[2023-07-11 11:50:27] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-11 11:50:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: taichu-storage
+[2023-07-11 11:50:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fast-checkers
+[2023-07-11 11:50:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: KofiPyQtHelper
+[2023-07-11 11:50:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: OpenGeode-core
+[2023-07-11 11:50:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: domolibrary
+[2023-07-11 11:50:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pywa
+[2023-07-11 11:50:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-magic-notifier
+[2023-07-11 11:50:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hak
+[2023-07-11 11:50:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bitmovin-api-sdk
+[2023-07-11 11:50:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pydcc
+[2023-07-11 11:50:28] INFO root fetch - processPackages [pywa]: New version: [0.0.1rc22] Old Version: [0.0.1rc21]
+[2023-07-11 11:50:28] INFO root fetch - processPackages [KofiPyQtHelper]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-11 11:50:28] INFO root fetch - processPackages [fast-checkers]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-11 11:50:28] INFO root fetch - processPackages [django-magic-notifier]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-11 11:50:28] INFO root fetch - processPackages [hak]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-11 11:50:28] INFO root fetch - processPackages [taichu-storage]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-11 11:50:28] INFO root fetch - processPackages [domolibrary]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-11 11:50:28] INFO root fetch - processPackages [bitmovin-api-sdk]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-07-11 11:50:28] INFO root fetch - processPackages [OpenGeode-core]: New version: [9.10.4] Old Version: [14.4.2rc2]
+[2023-07-11 11:50:28] INFO root fetch - processPackages [KofiPyQtHelper]: Downloading https://files.pythonhosted.org/packages/08/09/83893a507f421488eb48eee1d81259b3026e37e44a1406de4f2328b227c3/KofiPyQtHelper-0.0.3.tar.gz
+[2023-07-11 11:50:28] WARNING root fetch - processPackages [pydcc]: Skipping, unable to determine old version
+[2023-07-11 11:50:28] INFO root fetch - processPackages [pydcc]: Start processing: CardStacks
+[2023-07-11 11:50:28] INFO root fetch - main [MainThread]: End processing [pydcc] error
+[2023-07-11 11:50:28] INFO root fetch - processPackages [hak]: Downloading https://files.pythonhosted.org/packages/05/17/ad5ef91170b7c0e991a9c8bffa9f9a2dcf3961d5e90c31185bdf3ce8f425/hak-0.0.8.tar.gz
+[2023-07-11 11:50:28] INFO root fetch - processPackages [fast-checkers]: Downloading https://files.pythonhosted.org/packages/18/1a/4eb0690fe83ec4b59ff8554e8a77cc5c91ffa07a78014250cbcf6c36ff53/fast-checkers-0.3.0.tar.gz
+[2023-07-11 11:50:28] INFO root fetch - processPackages [domolibrary]: Downloading https://files.pythonhosted.org/packages/84/f8/ca22b28a893290f3f077d48d12f9bbfa0b351b8a23052c67d9d2df56c886/domolibrary-0.1.98.tar.gz
+[2023-07-11 11:50:28] WARNING root fetch - processPackages [CardStacks]: Skipping, unable to determine old version
+[2023-07-11 11:50:28] INFO root fetch - processPackages [CardStacks]: Start processing: sam-ml-py
+[2023-07-11 11:50:28] INFO root fetch - main [MainThread]: End processing [CardStacks] error
+[2023-07-11 11:50:28] INFO root fetch - processPackages [pywa]: Downloading https://files.pythonhosted.org/packages/d5/86/6dcf2d6ef82073c0fe3cc3f43ca7ac7c5ff8a9f8ffb6c4f716c6d37770db/pywa-0.0.1rc21-py3-none-any.whl
+[2023-07-11 11:50:28] INFO root fetch - processPackages [taichu-storage]: Downloading https://files.pythonhosted.org/packages/a8/f1/38f56f07a957269d46ff456b36a131a2f0be0903602cd61ce2061e589d5e/taichu-storage-0.0.4.tar.gz
+[2023-07-11 11:50:28] INFO root fetch - processPackages [django-magic-notifier]: Downloading https://files.pythonhosted.org/packages/cc/07/ebd5500d9fc8027dbe123bfa5bc10b00d51799a19caafc8f70cde5314f39/django-magic-notifier-0.2.2.tar.gz
+[2023-07-11 11:50:28] INFO root fetch - processPackages [OpenGeode-core]: Downloading https://files.pythonhosted.org/packages/07/36/0127d486fdd606fc9596d9676a6b53d214382c0a1feb92030b1a0eaeb7a3/OpenGeode_core-14.4.2rc2-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-11 11:50:28] INFO root fetch - processPackages [sam-ml-py]: New version: [0.9.0rc1] Old Version: [0.9.0]
+[2023-07-11 11:50:28] INFO root fetch - processPackages [bitmovin-api-sdk]: Downloading https://files.pythonhosted.org/packages/99/5f/f312c7ae4e19c02c92be74787a5b90e06fd5c451af1d3ae05598ba30e3b1/bitmovin-api-sdk-1.98.0.tar.gz
+[2023-07-11 11:50:28] INFO root fetch - processPackages [hak]: Downloading https://files.pythonhosted.org/packages/fd/2b/bf7b3451d5e3a84e9a674b47e9f046c4db1f582764a85a4dfc00e14ecf00/hak-0.0.9.tar.gz
+[2023-07-11 11:50:28] INFO root fetch - processPackages [KofiPyQtHelper]: Downloading https://files.pythonhosted.org/packages/78/a9/536ecc772c419795b4eddd6dbff9be9243d43141b8ef7a1ba89b276c67e1/KofiPyQtHelper-0.0.4.tar.gz
+[2023-07-11 11:50:28] INFO root fetch - processPackages [domolibrary]: Downloading https://files.pythonhosted.org/packages/ef/ec/fc9564bd79a2ddb4e26b61efd0fc792975bd04a769102587a579e3693e90/domolibrary-0.1.99.tar.gz
+[2023-07-11 11:50:28] INFO root fetch - processPackages [fast-checkers]: Downloading https://files.pythonhosted.org/packages/42/70/5c65acc7a739aef2d2423758d25702db053cd6a0951bb04e58272bea202f/fast-checkers-0.3.1.tar.gz
+[2023-07-11 11:50:28] WARNING root fetch - processPackages [OpenGeode-core]: Skipping package: exceeds size limit 14128991>=10485760
+[2023-07-11 11:50:28] INFO root fetch - processPackages [OpenGeode-core]: Start processing: notros2
+[2023-07-11 11:50:28] INFO root fetch - main [MainThread]: End processing [OpenGeode-core] error
+[2023-07-11 11:50:28] INFO root fetch - processPackages [sam-ml-py]: Downloading https://files.pythonhosted.org/packages/fc/7c/6908c6a3ae727e076167d08073461c9a30f2e4c01b6d1f3db78759dfc9ed/sam_ml-py-0.9.0.tar.gz
+[2023-07-11 11:50:28] INFO root fetch - processPackages [pywa]: Downloading https://files.pythonhosted.org/packages/59/2b/b21c6e85102f0b9bc108a00e76764ab90535ea53963abbe6a19933a7c512/pywa-0.0.1rc22-py3-none-any.whl
+[2023-07-11 11:50:29] INFO root fetch - processPackages [hak]: executing diffoscope
+[2023-07-11 11:50:29] INFO root fetch - processPackages [hak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hak-0.0.8.tar.gz tmp/hak-0.0.9.tar.gz --markdown 20230711/h/hak/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-11 11:50:29] INFO root fetch - processPackages [taichu-storage]: Downloading https://files.pythonhosted.org/packages/e4/89/6360d848c2a1178cf57c5762877f358d0469c4e31c0704d1b83bf283dd87/taichu-storage-0.0.5.tar.gz
+[2023-07-11 11:50:29] INFO root fetch - processPackages [notros2]: New version: [23.7.11.13756] Old Version: [23.7.11.13747]
+[2023-07-11 11:50:29] INFO root fetch - processPackages [django-magic-notifier]: Downloading https://files.pythonhosted.org/packages/85/98/8bd3f55ce87c9d9241d89a2b398599f4946e0239ea2f8506857c68d9fe62/django-magic-notifier-0.2.3.tar.gz
+[2023-07-11 11:50:29] INFO root fetch - processPackages [domolibrary]: executing diffoscope
+[2023-07-11 11:50:29] INFO root fetch - processPackages [domolibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domolibrary-0.1.98.tar.gz tmp/domolibrary-0.1.99.tar.gz --markdown 20230711/d/domolibrary/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-11 11:50:29] INFO root fetch - processPackages [KofiPyQtHelper]: executing diffoscope
+[2023-07-11 11:50:29] INFO root fetch - processPackages [KofiPyQtHelper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KofiPyQtHelper-0.0.3.tar.gz tmp/KofiPyQtHelper-0.0.4.tar.gz --markdown 20230711/K/KofiPyQtHelper/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-11 11:50:29] INFO root fetch - processPackages [notros2]: Downloading https://files.pythonhosted.org/packages/2f/b8/4b65e2e87c2e540803f9a7dffd6b53f5a712508d9a76095b76f7e33b2f8e/notros2-23.7.11.13747.tar.gz
+[2023-07-11 11:50:29] INFO root fetch - processPackages [fast-checkers]: executing diffoscope
+[2023-07-11 11:50:29] INFO root fetch - processPackages [fast-checkers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fast-checkers-0.3.0.tar.gz tmp/fast-checkers-0.3.1.tar.gz --markdown 20230711/f/fast-checkers/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-11 11:50:29] INFO root fetch - processPackages [pywa]: executing diffoscope
+[2023-07-11 11:50:29] INFO root fetch - processPackages [pywa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywa-0.0.1rc21-py3-none-any.whl.zip tmp/pywa-0.0.1rc22-py3-none-any.whl.zip --markdown 20230711/p/pywa/0.0.1rc21-0.0.1rc22/diff.md --exclude *.pyd
+[2023-07-11 11:50:29] INFO root fetch - processPackages [django-magic-notifier]: executing diffoscope
+[2023-07-11 11:50:29] INFO root fetch - processPackages [django-magic-notifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-magic-notifier-0.2.2.tar.gz tmp/django-magic-notifier-0.2.3.tar.gz --markdown 20230711/d/django-magic-notifier/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-11 11:50:29] INFO root fetch - processPackages [taichu-storage]: executing diffoscope
+[2023-07-11 11:50:29] INFO root fetch - processPackages [taichu-storage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taichu-storage-0.0.4.tar.gz tmp/taichu-storage-0.0.5.tar.gz --markdown 20230711/t/taichu-storage/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-11 11:50:29] INFO root fetch - processPackages [bitmovin-api-sdk]: Downloading https://files.pythonhosted.org/packages/34/91/b3a6a32567ee1b2b10fdb861f77466abd3a7b2db538088f87351199da0bc/bitmovin-api-sdk-1.99.0.tar.gz
+[2023-07-11 11:50:29] INFO root fetch - processPackages [sam-ml-py]: Downloading https://files.pythonhosted.org/packages/f4/f8/0aac2de659e4c5c99aad68feefdcc828e72f5c03ad8479b05f47c0ca01ad/sam_ml-py-0.9.0rc1.tar.gz
+[2023-07-11 11:50:29] INFO root fetch - processPackages [notros2]: Downloading https://files.pythonhosted.org/packages/d9/81/d2dfb62d60629ef1b012a2414312effe2b05eeabd85166317d42cd61043d/notros2-23.7.11.13756-py3-none-any.whl
+[2023-07-11 11:50:29] INFO root fetch - processPackages [bitmovin-api-sdk]: executing diffoscope
+[2023-07-11 11:50:29] INFO root fetch - processPackages [bitmovin-api-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bitmovin-api-sdk-1.98.0.tar.gz tmp/bitmovin-api-sdk-1.99.0.tar.gz --markdown 20230711/b/bitmovin-api-sdk/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-07-11 11:50:29] INFO root fetch - processPackages [sam-ml-py]: executing diffoscope
+[2023-07-11 11:50:29] INFO root fetch - processPackages [sam-ml-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sam_ml-py-0.9.0.tar.gz tmp/sam_ml-py-0.9.0rc1.tar.gz --markdown 20230711/s/sam-ml-py/0.9.0-0.9.0rc1/diff.md --exclude *.pyd
+[2023-07-11 11:50:29] INFO root fetch - processPackages [notros2]: executing diffoscope
+[2023-07-11 11:50:29] INFO root fetch - processPackages [notros2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notros2-23.7.11.13747.tar.gz tmp/notros2-23.7.11.13756-py3-none-any.whl.zip --markdown 20230711/n/notros2/23.7.11.13747-23.7.11.13756/diff.md --exclude *.pyd
+[2023-07-11 11:50:30] INFO root fetch - processPackages [KofiPyQtHelper]: Remove: archive file [/home/abi/fetcher/tmp/KofiPyQtHelper-0.0.3.tar.gz]
+[2023-07-11 11:50:30] INFO root fetch - processPackages [KofiPyQtHelper]: Remove: archive file [/home/abi/fetcher/tmp/KofiPyQtHelper-0.0.4.tar.gz]
+[2023-07-11 11:50:30] INFO root fetch - processPackages [KofiPyQtHelper]: Start processing: notros2
+[2023-07-11 11:50:30] INFO root fetch - main [MainThread]: End processing [KofiPyQtHelper]: success
+[2023-07-11 11:50:30] INFO root fetch - processPackages [notros2]: New version: [23.7.11.94927] Old Version: [23.7.11.94920]
+[2023-07-11 11:50:31] INFO root fetch - processPackages [notros2]: Downloading https://files.pythonhosted.org/packages/5d/f6/65ee14268e514ab32879a0f9e7518d602eaf30d5d179aa6a34be564957e0/notros2-23.7.11.94920.tar.gz
+[2023-07-11 11:50:31] INFO root fetch - processPackages [taichu-storage]: Remove: archive file [/home/abi/fetcher/tmp/taichu-storage-0.0.4.tar.gz]
+[2023-07-11 11:50:31] INFO root fetch - processPackages [taichu-storage]: Remove: archive file [/home/abi/fetcher/tmp/taichu-storage-0.0.5.tar.gz]
+[2023-07-11 11:50:31] INFO root fetch - processPackages [taichu-storage]: Start processing: madcat
+[2023-07-11 11:50:31] INFO root fetch - main [MainThread]: End processing [taichu-storage]: success
+[2023-07-11 11:50:31] INFO root fetch - processPackages [fast-checkers]: Remove: archive file [/home/abi/fetcher/tmp/fast-checkers-0.3.0.tar.gz]
+[2023-07-11 11:50:31] INFO root fetch - processPackages [fast-checkers]: Remove: archive file [/home/abi/fetcher/tmp/fast-checkers-0.3.1.tar.gz]
+[2023-07-11 11:50:31] INFO root fetch - processPackages [fast-checkers]: Start processing: circadian-desktops
+[2023-07-11 11:50:31] INFO root fetch - main [MainThread]: End processing [fast-checkers]: success
+[2023-07-11 11:50:31] INFO root fetch - processPackages [circadian-desktops]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-11 11:50:31] INFO root fetch - processPackages [madcat]: New version: [0.9] Old Version: [0.85]
+[2023-07-11 11:50:31] INFO root fetch - processPackages [pywa]: Remove: archive file [/home/abi/fetcher/tmp/pywa-0.0.1rc21-py3-none-any.whl.zip]
+[2023-07-11 11:50:31] INFO root fetch - processPackages [pywa]: Remove: archive file [/home/abi/fetcher/tmp/pywa-0.0.1rc22-py3-none-any.whl.zip]
+[2023-07-11 11:50:31] INFO root fetch - main [MainThread]: End processing [pywa]: success
+[2023-07-11 11:50:31] INFO root fetch - processPackages [notros2]: Remove: archive file [/home/abi/fetcher/tmp/notros2-23.7.11.13747.tar.gz]
+[2023-07-11 11:50:31] INFO root fetch - processPackages [notros2]: Downloading https://files.pythonhosted.org/packages/4e/75/fe63083f9b5e0bcfaa7be67603a0ffec90d91dda8eef81bc187307cca7ea/notros2-23.7.11.94927-py3-none-any.whl
+[2023-07-11 11:50:31] INFO root fetch - processPackages [notros2]: Remove: archive file [/home/abi/fetcher/tmp/notros2-23.7.11.13756-py3-none-any.whl.zip]
+[2023-07-11 11:50:31] INFO root fetch - main [MainThread]: End processing [notros2]: success
+[2023-07-11 11:50:31] INFO root fetch - processPackages [circadian-desktops]: Downloading https://files.pythonhosted.org/packages/62/71/393d01856769b1832a44125ce3da084f89a081e924599b10352cef801e51/circadian_desktops-0.0.3.tar.gz
+[2023-07-11 11:50:31] INFO root fetch - processPackages [django-magic-notifier]: Remove: archive file [/home/abi/fetcher/tmp/django-magic-notifier-0.2.2.tar.gz]
+[2023-07-11 11:50:31] INFO root fetch - processPackages [django-magic-notifier]: Remove: archive file [/home/abi/fetcher/tmp/django-magic-notifier-0.2.3.tar.gz]
+[2023-07-11 11:50:31] INFO root fetch - main [MainThread]: End processing [django-magic-notifier]: success
+[2023-07-11 11:50:31] INFO root fetch - processPackages [sam-ml-py]: Remove: archive file [/home/abi/fetcher/tmp/sam_ml-py-0.9.0.tar.gz]
+[2023-07-11 11:50:31] INFO root fetch - processPackages [sam-ml-py]: Remove: archive file [/home/abi/fetcher/tmp/sam_ml-py-0.9.0rc1.tar.gz]
+[2023-07-11 11:50:31] INFO root fetch - main [MainThread]: End processing [sam-ml-py]: success
+[2023-07-11 11:50:31] INFO root fetch - processPackages [madcat]: Downloading https://files.pythonhosted.org/packages/f5/a1/306b8d1b937078cb096124190c0187ce79cc41345b5fa966dff31db5580e/madcat-0.85.tar.gz
+[2023-07-11 11:50:31] INFO root fetch - processPackages [notros2]: executing diffoscope
+[2023-07-11 11:50:31] INFO root fetch - processPackages [notros2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notros2-23.7.11.94920.tar.gz tmp/notros2-23.7.11.94927-py3-none-any.whl.zip --markdown 20230711/n/notros2/23.7.11.94920-23.7.11.94927/diff.md --exclude *.pyd
+[2023-07-11 11:50:31] INFO root fetch - processPackages [circadian-desktops]: Downloading https://files.pythonhosted.org/packages/72/56/6f23a70362c6a173fc3a002cbeee31d5f86216999a4fb91d48c67f338175/circadian_desktops-0.0.4.tar.gz
+[2023-07-11 11:50:31] INFO root fetch - processPackages [hak]: Remove: archive file [/home/abi/fetcher/tmp/hak-0.0.8.tar.gz]
+[2023-07-11 11:50:31] INFO root fetch - processPackages [hak]: Remove: archive file [/home/abi/fetcher/tmp/hak-0.0.9.tar.gz]
+[2023-07-11 11:50:31] INFO root fetch - main [MainThread]: End processing [hak]: success
+[2023-07-11 11:50:32] INFO root fetch - processPackages [circadian-desktops]: executing diffoscope
+[2023-07-11 11:50:32] INFO root fetch - processPackages [circadian-desktops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/circadian_desktops-0.0.3.tar.gz tmp/circadian_desktops-0.0.4.tar.gz --markdown 20230711/c/circadian-desktops/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-11 11:50:32] INFO root fetch - processPackages [domolibrary]: Remove: archive file [/home/abi/fetcher/tmp/domolibrary-0.1.98.tar.gz]
+[2023-07-11 11:50:32] INFO root fetch - processPackages [domolibrary]: Remove: archive file [/home/abi/fetcher/tmp/domolibrary-0.1.99.tar.gz]
+[2023-07-11 11:50:32] INFO root fetch - main [MainThread]: End processing [domolibrary]: success
+[2023-07-11 11:50:32] INFO root fetch - processPackages [madcat]: Downloading https://files.pythonhosted.org/packages/d5/6f/323aa2ecefae08f2b6d10c0768d42818567924c97372907bff40aaa59e39/madcat-0.9.tar.gz
+[2023-07-11 11:50:32] INFO root fetch - processPackages [madcat]: executing diffoscope
+[2023-07-11 11:50:32] INFO root fetch - processPackages [madcat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/madcat-0.85.tar.gz tmp/madcat-0.9.tar.gz --markdown 20230711/m/madcat/0.85-0.9/diff.md --exclude *.pyd
+[2023-07-11 11:50:32] INFO root fetch - processPackages [notros2]: Remove: archive file [/home/abi/fetcher/tmp/notros2-23.7.11.94920.tar.gz]
+[2023-07-11 11:50:32] INFO root fetch - processPackages [notros2]: Remove: archive file [/home/abi/fetcher/tmp/notros2-23.7.11.94927-py3-none-any.whl.zip]
+[2023-07-11 11:50:32] INFO root fetch - main [MainThread]: End processing [notros2]: success
+[2023-07-11 11:50:33] INFO root fetch - processPackages [circadian-desktops]: Remove: archive file [/home/abi/fetcher/tmp/circadian_desktops-0.0.3.tar.gz]
+[2023-07-11 11:50:33] INFO root fetch - processPackages [circadian-desktops]: Remove: archive file [/home/abi/fetcher/tmp/circadian_desktops-0.0.4.tar.gz]
+[2023-07-11 11:50:33] INFO root fetch - main [MainThread]: End processing [circadian-desktops]: success
+[2023-07-11 11:50:33] INFO root fetch - processPackages [madcat]: Remove: archive file [/home/abi/fetcher/tmp/madcat-0.85.tar.gz]
+[2023-07-11 11:50:33] INFO root fetch - processPackages [madcat]: Remove: archive file [/home/abi/fetcher/tmp/madcat-0.9.tar.gz]
+[2023-07-11 11:50:33] INFO root fetch - main [MainThread]: End processing [madcat]: success
+[2023-07-11 11:50:43] INFO root fetch - processPackages [bitmovin-api-sdk]: Remove: archive file [/home/abi/fetcher/tmp/bitmovin-api-sdk-1.98.0.tar.gz]
+[2023-07-11 11:50:43] INFO root fetch - processPackages [bitmovin-api-sdk]: Remove: archive file [/home/abi/fetcher/tmp/bitmovin-api-sdk-1.99.0.tar.gz]
+[2023-07-11 11:50:43] INFO root fetch - main [MainThread]: End processing [bitmovin-api-sdk]: success
+[2023-07-11 11:50:43] INFO root fetch - main [MainThread]: Store serial: [18843352]
