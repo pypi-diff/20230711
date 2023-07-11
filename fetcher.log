@@ -7235,3 +7235,24 @@ AssertionError: tmp/doctran-0.0.6.tar.gz does not exist
 [2023-07-11 04:20:37] INFO root fetch - processPackages [domain-admin]: Remove: archive file [/home/abi/fetcher/tmp/domain-admin-1.4.9.tar.gz]
 [2023-07-11 04:20:37] INFO root fetch - main [MainThread]: End processing [domain-admin]: success
 [2023-07-11 04:20:37] INFO root fetch - main [MainThread]: Store serial: [18839854]
+[2023-07-11 04:25:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18839854]
+[2023-07-11 04:25:46] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-07-11 04:25:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rpamaker
+[2023-07-11 04:25:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: labelspark
+[2023-07-11 04:25:46] INFO root fetch - processPackages [labelspark]: New version: [0.7.30] Old Version: [0.7.29]
+[2023-07-11 04:25:46] INFO root fetch - processPackages [rpamaker]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-11 04:25:46] INFO root fetch - processPackages [labelspark]: Downloading https://files.pythonhosted.org/packages/cb/39/5727cdfea54bc24bca65a641ada76406920d4565a10a12ba418788d89816/labelspark-0.7.29.tar.gz
+[2023-07-11 04:25:47] INFO root fetch - processPackages [rpamaker]: Downloading https://files.pythonhosted.org/packages/ae/cc/d5be25893f871b175941e3fca4e40513a034a9f0534238c8a476720f2a4d/rpamaker-0.0.8.tar.gz
+[2023-07-11 04:25:47] INFO root fetch - processPackages [labelspark]: Downloading https://files.pythonhosted.org/packages/d9/8d/b7f02be9a2bbf0ea681b91eb38bad3aed84ef03b30469942146a80d92bef/labelspark-0.7.30.tar.gz
+[2023-07-11 04:25:47] INFO root fetch - processPackages [labelspark]: executing diffoscope
+[2023-07-11 04:25:47] INFO root fetch - processPackages [labelspark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/labelspark-0.7.29.tar.gz tmp/labelspark-0.7.30.tar.gz --markdown 20230711/l/labelspark/0.7.29-0.7.30/diff.md --exclude *.pyd
+[2023-07-11 04:25:47] INFO root fetch - processPackages [rpamaker]: Downloading https://files.pythonhosted.org/packages/da/89/f7ca592d5d9fee6b498e325261cddd5082866e4a2a17fcf08604524654e6/rpamaker-0.0.9.tar.gz
+[2023-07-11 04:25:47] INFO root fetch - processPackages [rpamaker]: executing diffoscope
+[2023-07-11 04:25:47] INFO root fetch - processPackages [rpamaker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rpamaker-0.0.8.tar.gz tmp/rpamaker-0.0.9.tar.gz --markdown 20230711/r/rpamaker/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-11 04:25:48] INFO root fetch - processPackages [labelspark]: Remove: archive file [/home/abi/fetcher/tmp/labelspark-0.7.29.tar.gz]
+[2023-07-11 04:25:48] INFO root fetch - processPackages [labelspark]: Remove: archive file [/home/abi/fetcher/tmp/labelspark-0.7.30.tar.gz]
+[2023-07-11 04:25:48] INFO root fetch - main [MainThread]: End processing [labelspark]: success
+[2023-07-11 04:25:48] INFO root fetch - processPackages [rpamaker]: Remove: archive file [/home/abi/fetcher/tmp/rpamaker-0.0.8.tar.gz]
+[2023-07-11 04:25:48] INFO root fetch - processPackages [rpamaker]: Remove: archive file [/home/abi/fetcher/tmp/rpamaker-0.0.9.tar.gz]
+[2023-07-11 04:25:48] INFO root fetch - main [MainThread]: End processing [rpamaker]: success
+[2023-07-11 04:25:48] INFO root fetch - main [MainThread]: Store serial: [18839861]
