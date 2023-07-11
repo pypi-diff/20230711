@@ -7191,3 +7191,47 @@ AssertionError: tmp/doctran-0.0.6.tar.gz does not exist
 [2023-07-11 04:15:18] INFO root fetch - processPackages [apitable]: Remove: archive file [/home/abi/fetcher/tmp/apitable-1.2.1.tar.gz]
 [2023-07-11 04:15:18] INFO root fetch - main [MainThread]: End processing [apitable]: success
 [2023-07-11 04:15:18] INFO root fetch - main [MainThread]: Store serial: [18839838]
+[2023-07-11 04:20:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18839838]
+[2023-07-11 04:20:27] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-11 04:20:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mercury-sync
+[2023-07-11 04:20:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: networksdb
+[2023-07-11 04:20:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bitsandbytes
+[2023-07-11 04:20:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: domain-admin
+[2023-07-11 04:20:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: FigureGenerator
+[2023-07-11 04:20:27] INFO root fetch - processPackages [bitsandbytes]: New version: [0.40.0.post2] Old Version: [0.40.0.post1]
+[2023-07-11 04:20:27] INFO root fetch - processPackages [mercury-sync]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-11 04:20:27] INFO root fetch - processPackages [networksdb]: New version: [2.0.0] Old Version: [1.0.3]
+[2023-07-11 04:20:28] INFO root fetch - processPackages [domain-admin]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-07-11 04:20:28] INFO root fetch - processPackages [FigureGenerator]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-11 04:20:28] INFO root fetch - processPackages [mercury-sync]: Downloading https://files.pythonhosted.org/packages/46/e4/83ccbd4b046d0b6d3bb32fbb922e1c5589a7053e79b57e8af1b29cf92014/mercury-sync-0.3.8.tar.gz
+[2023-07-11 04:20:28] INFO root fetch - processPackages [domain-admin]: Downloading https://files.pythonhosted.org/packages/3a/f2/23400df41503073b93b342c8dcf715e54b76978a0ee3202a010a8c6a2fe7/domain-admin-1.4.8.tar.gz
+[2023-07-11 04:20:28] INFO root fetch - processPackages [bitsandbytes]: Downloading https://files.pythonhosted.org/packages/ff/d4/5b4cbb7aed46a2f2339be13dbcfd538b4804970517de13b14d566cd538f2/bitsandbytes-0.40.0.post1.tar.gz
+[2023-07-11 04:20:28] INFO root fetch - processPackages [networksdb]: Downloading https://files.pythonhosted.org/packages/c0/17/1c90993adafa7cf1f5715c54ff65eea326cdd48b595091e02d2423df8e6c/networksdb-1.0.3-py3-none-any.whl
+[2023-07-11 04:20:28] WARNING root fetch - processPackages [bitsandbytes]: Skipping package: exceeds size limit 90904259>=10485760
+[2023-07-11 04:20:28] INFO root fetch - main [MainThread]: End processing [bitsandbytes] error
+[2023-07-11 04:20:28] INFO root fetch - processPackages [FigureGenerator]: Downloading https://files.pythonhosted.org/packages/4f/c9/fb95013e54dd0dce195395818a75289205fbbe0f126393f4588d0b4cec02/FigureGenerator-0.0.2.tar.gz
+[2023-07-11 04:20:28] INFO root fetch - processPackages [mercury-sync]: Downloading https://files.pythonhosted.org/packages/52/5b/22b9f5a98c3db5cd9c110f77b7d9a30fd31021331f22b9c2b6c755ca5017/mercury-sync-0.3.9.tar.gz
+[2023-07-11 04:20:28] INFO root fetch - processPackages [mercury-sync]: executing diffoscope
+[2023-07-11 04:20:28] INFO root fetch - processPackages [mercury-sync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mercury-sync-0.3.8.tar.gz tmp/mercury-sync-0.3.9.tar.gz --markdown 20230711/m/mercury-sync/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-11 04:20:28] INFO root fetch - processPackages [domain-admin]: Downloading https://files.pythonhosted.org/packages/c8/72/cfb118e14c007a151e3448decdf03d9f857f769cf0e5fce80f46281b8de5/domain-admin-1.4.9.tar.gz
+[2023-07-11 04:20:28] INFO root fetch - processPackages [FigureGenerator]: Downloading https://files.pythonhosted.org/packages/28/b1/c3ed928652cfad7824fae2f2da024ef19493daf616d68555a17b1aa272d4/FigureGenerator-0.0.3.tar.gz
+[2023-07-11 04:20:28] INFO root fetch - processPackages [networksdb]: Downloading https://files.pythonhosted.org/packages/2e/3f/9ba7bc905c3f2ccdd458c62ec05fb42a2b0f352629fc8e757bafebc5dd80/networksdb-2.0.0.tar.gz
+[2023-07-11 04:20:28] INFO root fetch - processPackages [domain-admin]: executing diffoscope
+[2023-07-11 04:20:28] INFO root fetch - processPackages [domain-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domain-admin-1.4.8.tar.gz tmp/domain-admin-1.4.9.tar.gz --markdown 20230711/d/domain-admin/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-07-11 04:20:28] INFO root fetch - processPackages [networksdb]: executing diffoscope
+[2023-07-11 04:20:28] INFO root fetch - processPackages [networksdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/networksdb-1.0.3-py3-none-any.whl.zip tmp/networksdb-2.0.0.tar.gz --markdown 20230711/n/networksdb/1.0.3-2.0.0/diff.md --exclude *.pyd
+[2023-07-11 04:20:28] INFO root fetch - processPackages [FigureGenerator]: executing diffoscope
+[2023-07-11 04:20:28] INFO root fetch - processPackages [FigureGenerator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FigureGenerator-0.0.2.tar.gz tmp/FigureGenerator-0.0.3.tar.gz --markdown 20230711/F/FigureGenerator/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-11 04:20:29] INFO root fetch - processPackages [mercury-sync]: Remove: archive file [/home/abi/fetcher/tmp/mercury-sync-0.3.8.tar.gz]
+[2023-07-11 04:20:29] INFO root fetch - processPackages [mercury-sync]: Remove: archive file [/home/abi/fetcher/tmp/mercury-sync-0.3.9.tar.gz]
+[2023-07-11 04:20:29] INFO root fetch - main [MainThread]: End processing [mercury-sync]: success
+[2023-07-11 04:20:29] INFO root fetch - processPackages [networksdb]: Remove: archive file [/home/abi/fetcher/tmp/networksdb-1.0.3-py3-none-any.whl.zip]
+[2023-07-11 04:20:29] INFO root fetch - processPackages [networksdb]: Remove: archive file [/home/abi/fetcher/tmp/networksdb-2.0.0.tar.gz]
+[2023-07-11 04:20:29] INFO root fetch - main [MainThread]: End processing [networksdb]: success
+[2023-07-11 04:20:29] INFO root fetch - processPackages [FigureGenerator]: Remove: archive file [/home/abi/fetcher/tmp/FigureGenerator-0.0.2.tar.gz]
+[2023-07-11 04:20:29] INFO root fetch - processPackages [FigureGenerator]: Remove: archive file [/home/abi/fetcher/tmp/FigureGenerator-0.0.3.tar.gz]
+[2023-07-11 04:20:29] INFO root fetch - main [MainThread]: End processing [FigureGenerator]: success
+[2023-07-11 04:20:37] INFO root fetch - processPackages [domain-admin]: Remove: archive file [/home/abi/fetcher/tmp/domain-admin-1.4.8.tar.gz]
+[2023-07-11 04:20:37] INFO root fetch - processPackages [domain-admin]: Remove: archive file [/home/abi/fetcher/tmp/domain-admin-1.4.9.tar.gz]
+[2023-07-11 04:20:37] INFO root fetch - main [MainThread]: End processing [domain-admin]: success
+[2023-07-11 04:20:37] INFO root fetch - main [MainThread]: Store serial: [18839854]
