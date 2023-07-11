@@ -12988,3 +12988,72 @@ AssertionError: tmp/doctran-0.0.6.tar.gz does not exist
 [2023-07-11 10:07:59] INFO root fetch - processPackages [mlbi-at-dku-lib]: Remove: archive file [/home/abi/fetcher/tmp/mlbi_at_dku_lib-0.2.3.tar.gz]
 [2023-07-11 10:07:59] INFO root fetch - main [MainThread]: End processing [mlbi-at-dku-lib]: success
 [2023-07-11 10:07:59] INFO root fetch - main [MainThread]: Store serial: [18842250]
+[2023-07-11 10:13:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18842250]
+[2023-07-11 10:13:08] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-11 10:13:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sintef-pyshop
+[2023-07-11 10:13:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: DigiCore
+[2023-07-11 10:13:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: igrafx-mining-sdk
+[2023-07-11 10:13:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pywa
+[2023-07-11 10:13:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chainbench
+[2023-07-11 10:13:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: armonik
+[2023-07-11 10:13:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dipex
+[2023-07-11 10:13:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: TheSilent
+[2023-07-11 10:13:08] INFO root fetch - processPackages [sintef-pyshop]: New version: [1.4.3] Old Version: [1.4.2]
+[2023-07-11 10:13:08] INFO root fetch - processPackages [DigiCore]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-07-11 10:13:08] INFO root fetch - processPackages [pywa]: New version: [0.0.1rc20] Old Version: [0.0.1rc19]
+[2023-07-11 10:13:08] INFO root fetch - processPackages [armonik]: New version: [3.9.3.dev630] Old Version: [3.9.3.dev627]
+[2023-07-11 10:13:08] INFO root fetch - processPackages [TheSilent]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-11 10:13:08] INFO root fetch - processPackages [dipex]: New version: [4.9.2] Old Version: [4.9.1]
+[2023-07-11 10:13:08] INFO root fetch - processPackages [chainbench]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-11 10:13:09] WARNING root fetch - processPackages [igrafx-mining-sdk]: Skipping, unable to determine old version
+[2023-07-11 10:13:09] INFO root fetch - main [MainThread]: End processing [igrafx-mining-sdk] error
+[2023-07-11 10:13:09] INFO root fetch - processPackages [armonik]: Downloading https://files.pythonhosted.org/packages/a3/db/468340c3e51513d2270b938c830901748ba3f03d05938557f70273672795/armonik-3.9.3.dev627.tar.gz
+[2023-07-11 10:13:09] INFO root fetch - processPackages [pywa]: Downloading https://files.pythonhosted.org/packages/59/86/f5dc5dbcdea03e3929f1229e5e77a4939966fe068dd753e2bf8c80303580/pywa-0.0.1rc19-py3-none-any.whl
+[2023-07-11 10:13:09] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/ad/09/2a1f42483bf3fbc17417489cf4f3d6ec17c5c763e219aa02ad1827f29dc1/TheSilent-0.0.98.tar.gz
+[2023-07-11 10:13:09] INFO root fetch - processPackages [dipex]: Downloading https://files.pythonhosted.org/packages/ca/fb/bcdbc34d4ffff4b37acd3e2fb76f42bcea1844762d4b998c319652fc6b38/dipex-4.9.1.tar.gz
+[2023-07-11 10:13:09] INFO root fetch - processPackages [DigiCore]: Downloading https://files.pythonhosted.org/packages/0a/de/f10e975ff262736d0f2189e4790aa9d8b67be6a68c457442b58e8151e741/DigiCore-1.0.7.tar.gz
+[2023-07-11 10:13:09] INFO root fetch - processPackages [sintef-pyshop]: Downloading https://files.pythonhosted.org/packages/40/ae/830ca5388d813207a2c80dcbdc33c45c2cac40f79bcc1642861425a66586/sintef-pyshop-1.4.2.tar.gz
+[2023-07-11 10:13:09] INFO root fetch - processPackages [chainbench]: Downloading https://files.pythonhosted.org/packages/ac/c6/8776dc39da6791312d86404062b34d1e874ab5e4ae015a114e01ea787c54/chainbench-0.3.1.tar.gz
+[2023-07-11 10:13:09] INFO root fetch - processPackages [armonik]: Downloading https://files.pythonhosted.org/packages/11/ad/4f1bc0423cfda7af28cb5dc84e1865bf90ef91df50054caabbc8de87872b/armonik-3.9.3.dev630.tar.gz
+[2023-07-11 10:13:09] INFO root fetch - processPackages [pywa]: Downloading https://files.pythonhosted.org/packages/91/c7/6d0f42d24849908e65a904bd274d584f65880265b7c5199a9ab603333868/pywa-0.0.1rc20-py3-none-any.whl
+[2023-07-11 10:13:09] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/38/21/9b42cfa55edd85cfd4fefba7fb94aab0891af2b6c90ef59e687a42228a0b/TheSilent-0.0.99.tar.gz
+[2023-07-11 10:13:09] INFO root fetch - processPackages [dipex]: Downloading https://files.pythonhosted.org/packages/d3/fa/fbf692999f299bb256217f34df9cc1e4ee2f9e1ae9e87e051b2b8b92aaa1/dipex-4.9.2.tar.gz
+[2023-07-11 10:13:09] INFO root fetch - processPackages [armonik]: executing diffoscope
+[2023-07-11 10:13:09] INFO root fetch - processPackages [armonik]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/armonik-3.9.3.dev627.tar.gz tmp/armonik-3.9.3.dev630.tar.gz --markdown 20230711/a/armonik/3.9.3.dev627-3.9.3.dev630/diff.md --exclude *.pyd
+[2023-07-11 10:13:09] INFO root fetch - processPackages [DigiCore]: Downloading https://files.pythonhosted.org/packages/1b/1b/e79f7ef34e8b9e88b6253b3ea9f6c1892ca88ef0f58023d3b373bf75c679/DigiCore-1.0.8.tar.gz
+[2023-07-11 10:13:09] INFO root fetch - processPackages [TheSilent]: executing diffoscope
+[2023-07-11 10:13:09] INFO root fetch - processPackages [TheSilent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TheSilent-0.0.98.tar.gz tmp/TheSilent-0.0.99.tar.gz --markdown 20230711/T/TheSilent/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-11 10:13:09] INFO root fetch - processPackages [pywa]: executing diffoscope
+[2023-07-11 10:13:09] INFO root fetch - processPackages [pywa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywa-0.0.1rc19-py3-none-any.whl.zip tmp/pywa-0.0.1rc20-py3-none-any.whl.zip --markdown 20230711/p/pywa/0.0.1rc19-0.0.1rc20/diff.md --exclude *.pyd
+[2023-07-11 10:13:09] INFO root fetch - processPackages [sintef-pyshop]: Downloading https://files.pythonhosted.org/packages/9f/70/7ba6e74b1be655bd3521fca02f845f0ca2eba2c1d6e05fd2115248abf00e/sintef-pyshop-1.4.3.tar.gz
+[2023-07-11 10:13:09] INFO root fetch - processPackages [chainbench]: Downloading https://files.pythonhosted.org/packages/3f/56/229478954a45e8ee232a87aeadafca36af0592574490d95cc77212f7fe4f/chainbench-0.3.2.tar.gz
+[2023-07-11 10:13:09] INFO root fetch - processPackages [dipex]: executing diffoscope
+[2023-07-11 10:13:09] INFO root fetch - processPackages [dipex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dipex-4.9.1.tar.gz tmp/dipex-4.9.2.tar.gz --markdown 20230711/d/dipex/4.9.1-4.9.2/diff.md --exclude *.pyd
+[2023-07-11 10:13:09] INFO root fetch - processPackages [sintef-pyshop]: executing diffoscope
+[2023-07-11 10:13:09] INFO root fetch - processPackages [sintef-pyshop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sintef-pyshop-1.4.2.tar.gz tmp/sintef-pyshop-1.4.3.tar.gz --markdown 20230711/s/sintef-pyshop/1.4.2-1.4.3/diff.md --exclude *.pyd
+[2023-07-11 10:13:09] INFO root fetch - processPackages [DigiCore]: executing diffoscope
+[2023-07-11 10:13:09] INFO root fetch - processPackages [DigiCore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DigiCore-1.0.7.tar.gz tmp/DigiCore-1.0.8.tar.gz --markdown 20230711/D/DigiCore/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-07-11 10:13:09] INFO root fetch - processPackages [chainbench]: executing diffoscope
+[2023-07-11 10:13:09] INFO root fetch - processPackages [chainbench]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chainbench-0.3.1.tar.gz tmp/chainbench-0.3.2.tar.gz --markdown 20230711/c/chainbench/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-11 10:13:10] INFO root fetch - processPackages [pywa]: Remove: archive file [/home/abi/fetcher/tmp/pywa-0.0.1rc19-py3-none-any.whl.zip]
+[2023-07-11 10:13:10] INFO root fetch - processPackages [pywa]: Remove: archive file [/home/abi/fetcher/tmp/pywa-0.0.1rc20-py3-none-any.whl.zip]
+[2023-07-11 10:13:10] INFO root fetch - main [MainThread]: End processing [pywa]: success
+[2023-07-11 10:13:11] INFO root fetch - processPackages [sintef-pyshop]: Remove: archive file [/home/abi/fetcher/tmp/sintef-pyshop-1.4.2.tar.gz]
+[2023-07-11 10:13:11] INFO root fetch - processPackages [sintef-pyshop]: Remove: archive file [/home/abi/fetcher/tmp/sintef-pyshop-1.4.3.tar.gz]
+[2023-07-11 10:13:11] INFO root fetch - main [MainThread]: End processing [sintef-pyshop]: success
+[2023-07-11 10:13:11] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.98.tar.gz]
+[2023-07-11 10:13:11] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.99.tar.gz]
+[2023-07-11 10:13:11] INFO root fetch - main [MainThread]: End processing [TheSilent]: success
+[2023-07-11 10:13:11] INFO root fetch - processPackages [chainbench]: Remove: archive file [/home/abi/fetcher/tmp/chainbench-0.3.1.tar.gz]
+[2023-07-11 10:13:11] INFO root fetch - processPackages [chainbench]: Remove: archive file [/home/abi/fetcher/tmp/chainbench-0.3.2.tar.gz]
+[2023-07-11 10:13:11] INFO root fetch - main [MainThread]: End processing [chainbench]: success
+[2023-07-11 10:13:11] INFO root fetch - processPackages [DigiCore]: Remove: archive file [/home/abi/fetcher/tmp/DigiCore-1.0.7.tar.gz]
+[2023-07-11 10:13:11] INFO root fetch - processPackages [DigiCore]: Remove: archive file [/home/abi/fetcher/tmp/DigiCore-1.0.8.tar.gz]
+[2023-07-11 10:13:11] INFO root fetch - main [MainThread]: End processing [DigiCore]: success
+[2023-07-11 10:13:11] INFO root fetch - processPackages [armonik]: Remove: archive file [/home/abi/fetcher/tmp/armonik-3.9.3.dev627.tar.gz]
+[2023-07-11 10:13:11] INFO root fetch - processPackages [armonik]: Remove: archive file [/home/abi/fetcher/tmp/armonik-3.9.3.dev630.tar.gz]
+[2023-07-11 10:13:11] INFO root fetch - main [MainThread]: End processing [armonik]: success
+[2023-07-11 10:13:11] INFO root fetch - processPackages [dipex]: Remove: archive file [/home/abi/fetcher/tmp/dipex-4.9.1.tar.gz]
+[2023-07-11 10:13:11] INFO root fetch - processPackages [dipex]: Remove: archive file [/home/abi/fetcher/tmp/dipex-4.9.2.tar.gz]
+[2023-07-11 10:13:11] INFO root fetch - main [MainThread]: End processing [dipex]: success
+[2023-07-11 10:13:11] INFO root fetch - main [MainThread]: Store serial: [18842275]
