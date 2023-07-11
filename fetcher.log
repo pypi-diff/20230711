@@ -14977,3 +14977,169 @@ AssertionError: tmp/doctran-0.0.6.tar.gz does not exist
 [2023-07-11 11:23:45] INFO root fetch - processPackages [hpp-fcl]: Remove: archive file [/home/abi/fetcher/tmp/hpp_fcl-2.3.5-0-cp311-cp311-manylinux_2_28_aarch64.whl.zip]
 [2023-07-11 11:23:45] INFO root fetch - main [MainThread]: End processing [hpp-fcl]: success
 [2023-07-11 11:23:45] INFO root fetch - main [MainThread]: Store serial: [18843058]
+[2023-07-11 11:28:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18843058]
+[2023-07-11 11:29:02] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-07-11 11:29:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spanishconjugator
+[2023-07-11 11:29:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pycognaize
+[2023-07-11 11:29:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: j2lint
+[2023-07-11 11:29:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pinject-design
+[2023-07-11 11:29:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mdrpaLibrary
+[2023-07-11 11:29:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rin-string-manip
+[2023-07-11 11:29:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: KofiPyQtHelper
+[2023-07-11 11:29:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: haruka-bot
+[2023-07-11 11:29:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: XME
+[2023-07-11 11:29:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pinject-design
+[2023-07-11 11:29:03] INFO root fetch - processPackages [mdrpaLibrary]: New version: [2.2] Old Version: [2.1]
+[2023-07-11 11:29:03] INFO root fetch - processPackages [pycognaize]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-07-11 11:29:03] INFO root fetch - processPackages [XME]: New version: [3.1] Old Version: [3.0]
+[2023-07-11 11:29:03] INFO root fetch - processPackages [j2lint]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-07-11 11:29:03] INFO root fetch - processPackages [rin-string-manip]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-11 11:29:03] WARNING root fetch - processPackages [KofiPyQtHelper]: Skipping, unable to determine old version
+[2023-07-11 11:29:03] INFO root fetch - processPackages [KofiPyQtHelper]: Start processing: few-shot-priming
+[2023-07-11 11:29:03] INFO root fetch - main [MainThread]: End processing [KofiPyQtHelper] error
+[2023-07-11 11:29:03] INFO root fetch - processPackages [pinject-design]: New version: [0.1.91] Old Version: [0.1.90]
+[2023-07-11 11:29:03] INFO root fetch - processPackages [pinject-design]: New version: [0.1.91] Old Version: [0.1.90]
+[2023-07-11 11:29:03] INFO root fetch - processPackages [haruka-bot]: New version: [1.6.0.post5] Old Version: [1.6.0.post4]
+[2023-07-11 11:29:03] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-07-11 11:29:03] INFO root fetch - processPackages [rin-string-manip]: Downloading https://files.pythonhosted.org/packages/78/32/bc0a5d88b9aec0e5bd291a8966f96e88bdc450ba5ec078d32d3b19d582bb/rin_string_manip-0.1.1.tar.gz
+[2023-07-11 11:29:03] INFO root fetch - processPackages [few-shot-priming]: New version: [0.0.99] Old Version: [0.0.96]
+[2023-07-11 11:29:03] INFO root fetch - processPackages [mdrpaLibrary]: Downloading https://files.pythonhosted.org/packages/af/49/872110013c72247f8de0808497c49726e95c136c2bba1bd9ee111e39b312/mdrpaLibrary-2.1.tar.gz
+[2023-07-11 11:29:03] INFO root fetch - processPackages [XME]: Downloading https://files.pythonhosted.org/packages/02/e1/fe77b378577f9633f2b97d068f787b4e033c97e7eb9e5c0403aa3217adf0/XME-3.0.tar.gz
+[2023-07-11 11:29:03] INFO root fetch - processPackages [pinject-design]: Downloading https://files.pythonhosted.org/packages/d9/c1/10e15403285e5e931ae1d59410b8807e6ccb108b6d53a68e4010c50ce25c/pinject_design-0.1.90.tar.gz
+[2023-07-11 11:29:03] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/d5/95/d70c95da3e78b71d35838af276daf5b2f53394c4c9a44fa5dd8f2aa64498/few_shot_priming-0.0.96-py3-none-any.whl
+[2023-07-11 11:29:03] INFO root fetch - processPackages [pinject-design]: Downloading https://files.pythonhosted.org/packages/d9/c1/10e15403285e5e931ae1d59410b8807e6ccb108b6d53a68e4010c50ce25c/pinject_design-0.1.90.tar.gz
+[2023-07-11 11:29:03] INFO root fetch - processPackages [pycognaize]: Downloading https://files.pythonhosted.org/packages/5c/36/fb3952a90a0f2e57f9c0c1b9893d6d7dd466a2eae7d75130342669893d31/pycognaize-1.4.8.tar.gz
+[2023-07-11 11:29:03] INFO root fetch - processPackages [j2lint]: Downloading https://files.pythonhosted.org/packages/5f/63/1236cf60e34b83dcd17bdb6555bc6e800ea0aec401d93233df49a762f015/j2lint-1.0.0.tar.gz
+[2023-07-11 11:29:03] INFO root fetch - processPackages [haruka-bot]: Downloading https://files.pythonhosted.org/packages/1d/87/362828aef11c283bfbaceca22ca9bae23288f529d6a48b655484578fec89/haruka-bot-1.6.0.post4.tar.gz
+[2023-07-11 11:29:03] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-07-11 11:29:03] INFO root fetch - processPackages [rin-string-manip]: Downloading https://files.pythonhosted.org/packages/11/33/2a71f06f997f420995b4d7b93eda0a404f85f07defdbde2800524e3ef982/rin_string_manip-0.1.2.tar.gz
+[2023-07-11 11:29:03] INFO root fetch - processPackages [mdrpaLibrary]: Downloading https://files.pythonhosted.org/packages/2f/de/ef02241e5bc39bbcddd678f0eeae766bb2a4dd9db82f86c6be4e911fb8a8/mdrpaLibrary-2.2.tar.gz
+[2023-07-11 11:29:04] INFO root fetch - processPackages [pinject-design]: Downloading https://files.pythonhosted.org/packages/d3/a3/862d5737d18e7b22d01ee412d358a95fa45bff7ef48aaa34601573a84608/pinject_design-0.1.91.tar.gz
+[2023-07-11 11:29:04] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/1e/e8/6368ab93b7135424a35ce07aac4de4056a38a1ae6f862ed63a5a79a4dce6/few_shot_priming-0.0.99-py3-none-any.whl
+[2023-07-11 11:29:04] INFO root fetch - processPackages [XME]: Downloading https://files.pythonhosted.org/packages/b2/77/12130bc661d6a9bcf66169519e87cc37350001b5441ba3a572284e264f8a/XME-3.1.tar.gz
+[2023-07-11 11:29:04] INFO root fetch - processPackages [rin-string-manip]: executing diffoscope
+[2023-07-11 11:29:04] INFO root fetch - processPackages [rin-string-manip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rin_string_manip-0.1.1.tar.gz tmp/rin_string_manip-0.1.2.tar.gz --markdown 20230711/r/rin-string-manip/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-11 11:29:04] INFO root fetch - processPackages [mdrpaLibrary]: executing diffoscope
+[2023-07-11 11:29:04] INFO root fetch - processPackages [mdrpaLibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mdrpaLibrary-2.1.tar.gz tmp/mdrpaLibrary-2.2.tar.gz --markdown 20230711/m/mdrpaLibrary/2.1-2.2/diff.md --exclude *.pyd
+[2023-07-11 11:29:04] INFO root fetch - processPackages [haruka-bot]: Downloading https://files.pythonhosted.org/packages/36/90/89d98a4589875dbdbb8bd3a8800d958bd0c777206fb7a5859889fce5aca0/haruka-bot-1.6.0.post5.tar.gz
+[2023-07-11 11:29:04] INFO root fetch - processPackages [pycognaize]: Downloading https://files.pythonhosted.org/packages/fe/bb/26451b0bbddbd03704f60601f1f0392b063e5ada2fb7acef94a2464582c9/pycognaize-1.4.9.tar.gz
+[2023-07-11 11:29:04] INFO root fetch - processPackages [pinject-design]: Downloading https://files.pythonhosted.org/packages/d3/a3/862d5737d18e7b22d01ee412d358a95fa45bff7ef48aaa34601573a84608/pinject_design-0.1.91.tar.gz
+[2023-07-11 11:29:04] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-07-11 11:29:04] INFO root fetch - processPackages [j2lint]: Downloading https://files.pythonhosted.org/packages/f1/bb/e91a64a47ee2203839c3113b9b64500a55e33a80f170077e8945218b955e/j2lint-1.1.0.tar.gz
+[2023-07-11 11:29:04] INFO root fetch - processPackages [pinject-design]: executing diffoscope
+[2023-07-11 11:29:04] INFO root fetch - processPackages [pinject-design]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pinject_design-0.1.90.tar.gz tmp/pinject_design-0.1.91.tar.gz --markdown 20230711/p/pinject-design/0.1.90-0.1.91/diff.md --exclude *.pyd
+[2023-07-11 11:29:04] INFO root fetch - processPackages [XME]: executing diffoscope
+[2023-07-11 11:29:04] INFO root fetch - processPackages [XME]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/XME-3.0.tar.gz tmp/XME-3.1.tar.gz --markdown 20230711/X/XME/3.0-3.1/diff.md --exclude *.pyd
+[2023-07-11 11:29:04] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2023-07-11 11:29:04] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip --markdown 20230711/f/few-shot-priming/0.0.96-0.0.99/diff.md --exclude *.pyd
+[2023-07-11 11:29:04] INFO root fetch - processPackages [pycognaize]: executing diffoscope
+[2023-07-11 11:29:04] INFO root fetch - processPackages [pycognaize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycognaize-1.4.8.tar.gz tmp/pycognaize-1.4.9.tar.gz --markdown 20230711/p/pycognaize/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-07-11 11:29:04] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-07-11 11:29:04] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230711/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-07-11 11:29:04] INFO root fetch - processPackages [j2lint]: executing diffoscope
+[2023-07-11 11:29:04] INFO root fetch - processPackages [j2lint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/j2lint-1.0.0.tar.gz tmp/j2lint-1.1.0.tar.gz --markdown 20230711/j/j2lint/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-07-11 11:29:04] INFO root fetch - processPackages [pinject-design]: executing diffoscope
+[2023-07-11 11:29:04] INFO root fetch - processPackages [pinject-design]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pinject_design-0.1.90.tar.gz tmp/pinject_design-0.1.91.tar.gz --markdown 20230711/p/pinject-design/0.1.90-0.1.91/diff.md --exclude *.pyd
+[2023-07-11 11:29:04] INFO root fetch - processPackages [haruka-bot]: executing diffoscope
+[2023-07-11 11:29:04] INFO root fetch - processPackages [haruka-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/haruka-bot-1.6.0.post4.tar.gz tmp/haruka-bot-1.6.0.post5.tar.gz --markdown 20230711/h/haruka-bot/1.6.0.post4-1.6.0.post5/diff.md --exclude *.pyd
+[2023-07-11 11:29:05] INFO root fetch - processPackages [rin-string-manip]: Remove: archive file [/home/abi/fetcher/tmp/rin_string_manip-0.1.1.tar.gz]
+[2023-07-11 11:29:05] INFO root fetch - processPackages [rin-string-manip]: Remove: archive file [/home/abi/fetcher/tmp/rin_string_manip-0.1.2.tar.gz]
+[2023-07-11 11:29:05] INFO root fetch - processPackages [rin-string-manip]: Start processing: deadpool-executor
+[2023-07-11 11:29:05] INFO root fetch - main [MainThread]: End processing [rin-string-manip]: success
+[2023-07-11 11:29:05] INFO root fetch - processPackages [mdrpaLibrary]: Remove: archive file [/home/abi/fetcher/tmp/mdrpaLibrary-2.1.tar.gz]
+[2023-07-11 11:29:05] INFO root fetch - processPackages [mdrpaLibrary]: Remove: archive file [/home/abi/fetcher/tmp/mdrpaLibrary-2.2.tar.gz]
+[2023-07-11 11:29:05] INFO root fetch - processPackages [mdrpaLibrary]: Start processing: mlbi-at-dku-lib
+[2023-07-11 11:29:05] INFO root fetch - main [MainThread]: End processing [mdrpaLibrary]: success
+[2023-07-11 11:29:05] INFO root fetch - processPackages [deadpool-executor]: New version: [2023.7.4] Old Version: [2023.7.3]
+[2023-07-11 11:29:05] INFO root fetch - processPackages [mlbi-at-dku-lib]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-07-11 11:29:05] INFO root fetch - processPackages [XME]: Remove: archive file [/home/abi/fetcher/tmp/XME-3.0.tar.gz]
+[2023-07-11 11:29:05] INFO root fetch - processPackages [XME]: Remove: archive file [/home/abi/fetcher/tmp/XME-3.1.tar.gz]
+[2023-07-11 11:29:05] INFO root fetch - processPackages [XME]: Start processing: image-func
+[2023-07-11 11:29:05] INFO root fetch - main [MainThread]: End processing [XME]: success
+[2023-07-11 11:29:05] INFO root fetch - processPackages [deadpool-executor]: Downloading https://files.pythonhosted.org/packages/22/b7/edfdeb420353a780895055b8e791567639902c1e2b7176fd2078c9883a98/deadpool_executor-2023.7.3.tar.gz
+[2023-07-11 11:29:05] INFO root fetch - processPackages [image-func]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-11 11:29:05] INFO root fetch - processPackages [mlbi-at-dku-lib]: Downloading https://files.pythonhosted.org/packages/e5/1f/e256f39733e53d14cfc5cc1389856a71a705544204b0e87191479d301775/mlbi_at_dku_lib-0.2.3.tar.gz
+[2023-07-11 11:29:06] INFO root fetch - processPackages [pinject-design]: Remove: archive file [/home/abi/fetcher/tmp/pinject_design-0.1.90.tar.gz]
+[2023-07-11 11:29:06] INFO root fetch - processPackages [pinject-design]: Remove: archive file [/home/abi/fetcher/tmp/pinject_design-0.1.91.tar.gz]
+[2023-07-11 11:29:06] INFO root fetch - processPackages [pinject-design]: Start processing: icatcher
+[2023-07-11 11:29:06] INFO root fetch - main [MainThread]: End processing [pinject-design]: success
+[2023-07-11 11:29:06] INFO root fetch - processPackages [image-func]: Downloading https://files.pythonhosted.org/packages/c2/c8/0e24564de3c782f9c76fcbab2e3c8c029ecaf2cf2dc2bf4f9a679618fc0c/image_func-1.0.8.tar.gz
+[2023-07-11 11:29:06] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip]
+[2023-07-11 11:29:06] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip]
+[2023-07-11 11:29:06] INFO root fetch - processPackages [few-shot-priming]: Start processing: creosote
+[2023-07-11 11:29:06] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2023-07-11 11:29:06] INFO root fetch - processPackages [icatcher]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-11 11:29:06] INFO root fetch - processPackages [creosote]: New version: [2.6.3] Old Version: [2.6.2]
+[2023-07-11 11:29:06] INFO root fetch - processPackages [j2lint]: Remove: archive file [/home/abi/fetcher/tmp/j2lint-1.0.0.tar.gz]
+[2023-07-11 11:29:06] INFO root fetch - processPackages [j2lint]: Remove: archive file [/home/abi/fetcher/tmp/j2lint-1.1.0.tar.gz]
+[2023-07-11 11:29:06] INFO root fetch - processPackages [j2lint]: Start processing: ffstreamer
+[2023-07-11 11:29:06] INFO root fetch - main [MainThread]: End processing [j2lint]: success
+[2023-07-11 11:29:06] INFO root fetch - processPackages [pycognaize]: Remove: archive file [/home/abi/fetcher/tmp/pycognaize-1.4.8.tar.gz]
+[2023-07-11 11:29:06] INFO root fetch - processPackages [pycognaize]: Remove: archive file [/home/abi/fetcher/tmp/pycognaize-1.4.9.tar.gz]
+[2023-07-11 11:29:06] INFO root fetch - processPackages [pycognaize]: Start processing: intezer-sdk
+[2023-07-11 11:29:06] INFO root fetch - main [MainThread]: End processing [pycognaize]: success
+[2023-07-11 11:29:06] INFO root fetch - processPackages [ffstreamer]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-11 11:29:06] INFO root fetch - processPackages [deadpool-executor]: Downloading https://files.pythonhosted.org/packages/98/b8/60095dfa02048a977ef3a813dc4e78eebc6033790ad178b2960001c6c481/deadpool_executor-2023.7.4.tar.gz
+[2023-07-11 11:29:06] INFO root fetch - processPackages [image-func]: Downloading https://files.pythonhosted.org/packages/53/19/83648c27e6abc5b7c6ba68f8e2a9472a2c8c3989947d7808334bf8348af7/image_func-1.0.9.tar.gz
+[2023-07-11 11:29:06] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-07-11 11:29:06] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-07-11 11:29:06] INFO root fetch - processPackages [spanishconjugator]: Start processing: lumigo-opentelemetry
+[2023-07-11 11:29:06] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-07-11 11:29:06] INFO root fetch - processPackages [icatcher]: Downloading https://files.pythonhosted.org/packages/7e/1b/663f008e7e444c60fffb9e9fe34ef386330d42e5ffcdccfb9b7c0679b04b/icatcher-0.1.0.tar.gz
+[2023-07-11 11:29:06] INFO root fetch - main [MainThread]: End processing [pinject-design]: success
+[2023-07-11 11:29:06] INFO root fetch - processPackages [creosote]: Downloading https://files.pythonhosted.org/packages/1a/59/a08c58e67e1cc9bd042b48b6cdc79c9338058e1f050b920caca73a28f2e8/creosote-2.6.2-py3-none-any.whl
+[2023-07-11 11:29:06] INFO root fetch - processPackages [intezer-sdk]: New version: [1.9.4] Old Version: [1.9.3]
+[2023-07-11 11:29:06] INFO root fetch - processPackages [image-func]: executing diffoscope
+[2023-07-11 11:29:06] INFO root fetch - processPackages [image-func]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/image_func-1.0.8.tar.gz tmp/image_func-1.0.9.tar.gz --markdown 20230711/i/image-func/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-11 11:29:06] INFO root fetch - processPackages [deadpool-executor]: executing diffoscope
+[2023-07-11 11:29:06] INFO root fetch - processPackages [deadpool-executor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deadpool_executor-2023.7.3.tar.gz tmp/deadpool_executor-2023.7.4.tar.gz --markdown 20230711/d/deadpool-executor/2023.7.3-2023.7.4/diff.md --exclude *.pyd
+[2023-07-11 11:29:06] INFO root fetch - processPackages [ffstreamer]: Downloading https://files.pythonhosted.org/packages/f6/a4/8207a5a814ec5dfc30e27dd5d7e751a423e85e25e892d2066d982de8e9df/ffstreamer-0.0.1-py3-none-any.whl
+[2023-07-11 11:29:06] INFO root fetch - processPackages [lumigo-opentelemetry]: New version: [1.0.9] Old Version: [1.0.85]
+[2023-07-11 11:29:06] INFO root fetch - processPackages [haruka-bot]: Remove: archive file [/home/abi/fetcher/tmp/haruka-bot-1.6.0.post4.tar.gz]
+[2023-07-11 11:29:06] INFO root fetch - processPackages [haruka-bot]: Remove: archive file [/home/abi/fetcher/tmp/haruka-bot-1.6.0.post5.tar.gz]
+[2023-07-11 11:29:06] INFO root fetch - main [MainThread]: End processing [haruka-bot]: success
+[2023-07-11 11:29:06] INFO root fetch - processPackages [intezer-sdk]: Downloading https://files.pythonhosted.org/packages/54/07/b1b49e1d9407879a59c376b8799d8e3abe495ec3380638b2f1fbc61dd234/intezer_sdk-1.9.3-py3-none-any.whl
+[2023-07-11 11:29:06] INFO root fetch - processPackages [creosote]: Downloading https://files.pythonhosted.org/packages/cf/97/4688e13d80f9e229a4be69eae785291bd481acfdabf967a51f4dc4b92c92/creosote-2.6.3-py3-none-any.whl
+[2023-07-11 11:29:06] INFO root fetch - processPackages [lumigo-opentelemetry]: Downloading https://files.pythonhosted.org/packages/f0/78/8dcb51701cf8c168bf611c7468136cf672b40f2320c136fc5a878df318f8/lumigo_opentelemetry-1.0.85-py3-none-any.whl
+[2023-07-11 11:29:06] INFO root fetch - processPackages [ffstreamer]: Downloading https://files.pythonhosted.org/packages/58/1d/bbbc0a0286969640e3045e95caeed8b8d7ab22047989bee4d1b6f4c274c1/ffstreamer-0.0.2-py3-none-any.whl
+[2023-07-11 11:29:07] INFO root fetch - processPackages [creosote]: executing diffoscope
+[2023-07-11 11:29:07] INFO root fetch - processPackages [creosote]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/creosote-2.6.2-py3-none-any.whl.zip tmp/creosote-2.6.3-py3-none-any.whl.zip --markdown 20230711/c/creosote/2.6.2-2.6.3/diff.md --exclude *.pyd
+[2023-07-11 11:29:07] INFO root fetch - processPackages [icatcher]: Downloading https://files.pythonhosted.org/packages/20/a7/67e2007ae9ce84b76ca4ea4f311801b98c244ba8094b4956fed78d4e6103/icatcher-0.1.1.tar.gz
+[2023-07-11 11:29:07] INFO root fetch - processPackages [ffstreamer]: executing diffoscope
+[2023-07-11 11:29:07] INFO root fetch - processPackages [ffstreamer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ffstreamer-0.0.1-py3-none-any.whl.zip tmp/ffstreamer-0.0.2-py3-none-any.whl.zip --markdown 20230711/f/ffstreamer/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-11 11:29:07] INFO root fetch - processPackages [icatcher]: executing diffoscope
+[2023-07-11 11:29:07] INFO root fetch - processPackages [icatcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/icatcher-0.1.0.tar.gz tmp/icatcher-0.1.1.tar.gz --markdown 20230711/i/icatcher/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-11 11:29:07] INFO root fetch - processPackages [intezer-sdk]: Downloading https://files.pythonhosted.org/packages/1c/aa/b1c8d382cd3e6aeabd68aef67900e65831956e5715f6a86367c94bf60cd4/intezer_sdk-1.9.4-py3-none-any.whl
+[2023-07-11 11:29:07] INFO root fetch - processPackages [intezer-sdk]: executing diffoscope
+[2023-07-11 11:29:07] INFO root fetch - processPackages [intezer-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intezer_sdk-1.9.3-py3-none-any.whl.zip tmp/intezer_sdk-1.9.4-py3-none-any.whl.zip --markdown 20230711/i/intezer-sdk/1.9.3-1.9.4/diff.md --exclude *.pyd
+[2023-07-11 11:29:07] INFO root fetch - processPackages [image-func]: Remove: archive file [/home/abi/fetcher/tmp/image_func-1.0.8.tar.gz]
+[2023-07-11 11:29:07] INFO root fetch - processPackages [image-func]: Remove: archive file [/home/abi/fetcher/tmp/image_func-1.0.9.tar.gz]
+[2023-07-11 11:29:07] INFO root fetch - main [MainThread]: End processing [image-func]: success
+[2023-07-11 11:29:07] INFO root fetch - processPackages [deadpool-executor]: Remove: archive file [/home/abi/fetcher/tmp/deadpool_executor-2023.7.3.tar.gz]
+[2023-07-11 11:29:07] INFO root fetch - processPackages [deadpool-executor]: Remove: archive file [/home/abi/fetcher/tmp/deadpool_executor-2023.7.4.tar.gz]
+[2023-07-11 11:29:07] INFO root fetch - main [MainThread]: End processing [deadpool-executor]: success
+[2023-07-11 11:29:07] INFO root fetch - processPackages [lumigo-opentelemetry]: Downloading https://files.pythonhosted.org/packages/f7/5b/deb6be16415fe585d5fa6fd34df7999995f7157a010bcaddba8ef665f9ae/lumigo_opentelemetry-1.0.9-py3-none-any.whl
+[2023-07-11 11:29:07] INFO root fetch - processPackages [lumigo-opentelemetry]: executing diffoscope
+[2023-07-11 11:29:07] INFO root fetch - processPackages [lumigo-opentelemetry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lumigo_opentelemetry-1.0.85-py3-none-any.whl.zip tmp/lumigo_opentelemetry-1.0.9-py3-none-any.whl.zip --markdown 20230711/l/lumigo-opentelemetry/1.0.85-1.0.9/diff.md --exclude *.pyd
+[2023-07-11 11:29:07] INFO root fetch - processPackages [mlbi-at-dku-lib]: Downloading https://files.pythonhosted.org/packages/66/67/a694812ab665a466963ca747a296a4c3fd4351f13686a894ca2af79b9efd/mlbi_at_dku_lib-0.2.4.tar.gz
+[2023-07-11 11:29:08] INFO root fetch - processPackages [creosote]: Remove: archive file [/home/abi/fetcher/tmp/creosote-2.6.2-py3-none-any.whl.zip]
+[2023-07-11 11:29:08] INFO root fetch - processPackages [creosote]: Remove: archive file [/home/abi/fetcher/tmp/creosote-2.6.3-py3-none-any.whl.zip]
+[2023-07-11 11:29:08] INFO root fetch - main [MainThread]: End processing [creosote]: success
+[2023-07-11 11:29:08] INFO root fetch - processPackages [ffstreamer]: Remove: archive file [/home/abi/fetcher/tmp/ffstreamer-0.0.1-py3-none-any.whl.zip]
+[2023-07-11 11:29:08] INFO root fetch - processPackages [ffstreamer]: Remove: archive file [/home/abi/fetcher/tmp/ffstreamer-0.0.2-py3-none-any.whl.zip]
+[2023-07-11 11:29:08] INFO root fetch - main [MainThread]: End processing [ffstreamer]: success
+[2023-07-11 11:29:08] INFO root fetch - processPackages [mlbi-at-dku-lib]: executing diffoscope
+[2023-07-11 11:29:08] INFO root fetch - processPackages [mlbi-at-dku-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlbi_at_dku_lib-0.2.3.tar.gz tmp/mlbi_at_dku_lib-0.2.4.tar.gz --markdown 20230711/m/mlbi-at-dku-lib/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-07-11 11:29:08] INFO root fetch - processPackages [icatcher]: Remove: archive file [/home/abi/fetcher/tmp/icatcher-0.1.0.tar.gz]
+[2023-07-11 11:29:08] INFO root fetch - processPackages [icatcher]: Remove: archive file [/home/abi/fetcher/tmp/icatcher-0.1.1.tar.gz]
+[2023-07-11 11:29:08] INFO root fetch - main [MainThread]: End processing [icatcher]: success
+[2023-07-11 11:29:08] INFO root fetch - processPackages [intezer-sdk]: Remove: archive file [/home/abi/fetcher/tmp/intezer_sdk-1.9.3-py3-none-any.whl.zip]
+[2023-07-11 11:29:08] INFO root fetch - processPackages [intezer-sdk]: Remove: archive file [/home/abi/fetcher/tmp/intezer_sdk-1.9.4-py3-none-any.whl.zip]
+[2023-07-11 11:29:08] INFO root fetch - main [MainThread]: End processing [intezer-sdk]: success
+[2023-07-11 11:29:08] INFO root fetch - processPackages [lumigo-opentelemetry]: Remove: archive file [/home/abi/fetcher/tmp/lumigo_opentelemetry-1.0.85-py3-none-any.whl.zip]
+[2023-07-11 11:29:08] INFO root fetch - processPackages [lumigo-opentelemetry]: Remove: archive file [/home/abi/fetcher/tmp/lumigo_opentelemetry-1.0.9-py3-none-any.whl.zip]
+[2023-07-11 11:29:08] INFO root fetch - main [MainThread]: End processing [lumigo-opentelemetry]: success
+[2023-07-11 11:29:12] INFO root fetch - processPackages [mlbi-at-dku-lib]: Remove: archive file [/home/abi/fetcher/tmp/mlbi_at_dku_lib-0.2.3.tar.gz]
+[2023-07-11 11:29:12] INFO root fetch - processPackages [mlbi-at-dku-lib]: Remove: archive file [/home/abi/fetcher/tmp/mlbi_at_dku_lib-0.2.4.tar.gz]
+[2023-07-11 11:29:12] INFO root fetch - main [MainThread]: End processing [mlbi-at-dku-lib]: success
+[2023-07-11 11:29:12] INFO root fetch - main [MainThread]: Store serial: [18843129]
