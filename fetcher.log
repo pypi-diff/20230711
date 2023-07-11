@@ -9428,3 +9428,76 @@ AssertionError: tmp/doctran-0.0.6.tar.gz does not exist
 [2023-07-11 06:16:28] INFO root fetch - processPackages [py4web]: Remove: archive file [/home/abi/fetcher/tmp/py4web-1.20230710.3.tar.gz]
 [2023-07-11 06:16:28] INFO root fetch - main [MainThread]: End processing [py4web]: success
 [2023-07-11 06:16:28] INFO root fetch - main [MainThread]: Store serial: [18840792]
+[2023-07-11 06:21:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18840792]
+[2023-07-11 06:21:37] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-11 06:21:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mage-ai
+[2023-07-11 06:21:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-mis-builder-budget
+[2023-07-11 06:21:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-mis-builder-budget
+[2023-07-11 06:21:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pgsu
+[2023-07-11 06:21:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-mis-builder
+[2023-07-11 06:21:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: badsecrets
+[2023-07-11 06:21:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: khoj-assistant
+[2023-07-11 06:21:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: quantplay
+[2023-07-11 06:21:37] INFO root fetch - processPackages [odoo-addon-mis-builder-budget]: New version: [16.0.5.0.1.4] Old Version: [16.0.5.0.1.3]
+[2023-07-11 06:21:37] INFO root fetch - processPackages [badsecrets]: New version: [0.3.374] Old Version: [0.3.351]
+[2023-07-11 06:21:37] INFO root fetch - processPackages [odoo-addon-mis-builder-budget]: New version: [16.0.5.0.1.4] Old Version: [16.0.5.0.1.3]
+[2023-07-11 06:21:37] INFO root fetch - processPackages [pgsu]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-07-11 06:21:37] INFO root fetch - processPackages [odoo-addon-mis-builder]: New version: [16.0.5.1.2] Old Version: [16.0.5.1.1.5]
+[2023-07-11 06:21:37] INFO root fetch - processPackages [khoj-assistant]: New version: [0.8.3.dev1] Old Version: [0.8.2]
+[2023-07-11 06:21:37] INFO root fetch - processPackages [mage-ai]: New version: [0.9.0] Old Version: [0.8.99]
+[2023-07-11 06:21:37] INFO root fetch - processPackages [quantplay]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-07-11 06:21:37] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/a5/e5/8bc127d8e6feaba69145fdb4a4caff09b7ba989e46ec563f73d873525d2f/khoj_assistant-0.8.2.tar.gz
+[2023-07-11 06:21:37] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/45/df/9dafdbe1d951b59dcb7dc8f02188b232f56f79298a06892f0e603becc389/quantplay-1.3.8.tar.gz
+[2023-07-11 06:21:37] INFO root fetch - processPackages [odoo-addon-mis-builder-budget]: Downloading https://files.pythonhosted.org/packages/be/72/e775141c78ae4efb8594aca1e4788732208ae97a1cafb2d66a305c4d5be9/odoo_addon_mis_builder_budget-16.0.5.0.1.3-py3-none-any.whl
+[2023-07-11 06:21:37] INFO root fetch - processPackages [odoo-addon-mis-builder-budget]: Downloading https://files.pythonhosted.org/packages/be/72/e775141c78ae4efb8594aca1e4788732208ae97a1cafb2d66a305c4d5be9/odoo_addon_mis_builder_budget-16.0.5.0.1.3-py3-none-any.whl
+[2023-07-11 06:21:38] INFO root fetch - processPackages [pgsu]: Downloading https://files.pythonhosted.org/packages/9e/eb/b30be42641e9525a1f82a93fd2ef7ca20e54c11fe5b9c47fa2924370b698/pgsu-0.2.3.tar.gz
+[2023-07-11 06:21:38] INFO root fetch - processPackages [badsecrets]: Downloading https://files.pythonhosted.org/packages/cf/a8/72d8a905b43e8a6330765f2382315a242d44022e6ed8c45406d2487a348e/badsecrets-0.3.351.tar.gz
+[2023-07-11 06:21:38] INFO root fetch - processPackages [odoo-addon-mis-builder]: Downloading https://files.pythonhosted.org/packages/e1/74/20451a5712c05e6e9df2c85ef53fabd6e0aaa58630afcb60527c7dacbd03/odoo_addon_mis_builder-16.0.5.1.1.5-py3-none-any.whl
+[2023-07-11 06:21:38] INFO root fetch - processPackages [mage-ai]: Downloading https://files.pythonhosted.org/packages/48/3d/275cee98ee6cf65f2e9990c372923001afa95a61cb121a2bf54f23c5b0be/mage-ai-0.8.99.tar.gz
+[2023-07-11 06:21:38] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/ee/a5/18caaa36bc077cbd964b78406eed5d1840456172da7cdd1b6c18be824d06/quantplay-1.3.9.tar.gz
+[2023-07-11 06:21:38] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/14/95/51ebc4985bbbad0b6214c99d4e5bfa06557d04c58040d72233bd87afcc29/khoj_assistant-0.8.3.dev1.tar.gz
+[2023-07-11 06:21:38] INFO root fetch - processPackages [pgsu]: Downloading https://files.pythonhosted.org/packages/62/1c/52863dbf75f9b50ecb4ae71042eca119b11c6262f9eb288d57e9900f0077/pgsu-0.2.4.tar.gz
+[2023-07-11 06:21:38] INFO root fetch - processPackages [quantplay]: executing diffoscope
+[2023-07-11 06:21:38] INFO root fetch - processPackages [quantplay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantplay-1.3.8.tar.gz tmp/quantplay-1.3.9.tar.gz --markdown 20230711/q/quantplay/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-07-11 06:21:38] INFO root fetch - processPackages [odoo-addon-mis-builder-budget]: Downloading https://files.pythonhosted.org/packages/9b/08/c25b48de0dc9853c8bf95ba2824fe2bf5f43ef2a9b72473b2a8efe29cff4/odoo_addon_mis_builder_budget-16.0.5.0.1.4-py3-none-any.whl
+[2023-07-11 06:21:38] INFO root fetch - processPackages [odoo-addon-mis-builder-budget]: Downloading https://files.pythonhosted.org/packages/9b/08/c25b48de0dc9853c8bf95ba2824fe2bf5f43ef2a9b72473b2a8efe29cff4/odoo_addon_mis_builder_budget-16.0.5.0.1.4-py3-none-any.whl
+[2023-07-11 06:21:38] INFO root fetch - processPackages [pgsu]: executing diffoscope
+[2023-07-11 06:21:38] INFO root fetch - processPackages [pgsu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pgsu-0.2.3.tar.gz tmp/pgsu-0.2.4.tar.gz --markdown 20230711/p/pgsu/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-07-11 06:21:38] INFO root fetch - processPackages [badsecrets]: Downloading https://files.pythonhosted.org/packages/a8/4a/438fec331cc6330b1c60593496586379a12b7e499e579a720a52963d4267/badsecrets-0.3.374.tar.gz
+[2023-07-11 06:21:38] INFO root fetch - processPackages [odoo-addon-mis-builder]: Downloading https://files.pythonhosted.org/packages/f9/0b/3adeb89e92f18bfc7016376dee86c20883f81a32e228b4ec0b57401229aa/odoo_addon_mis_builder-16.0.5.1.2-py3-none-any.whl
+[2023-07-11 06:21:38] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2023-07-11 06:21:38] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-0.8.2.tar.gz tmp/khoj_assistant-0.8.3.dev1.tar.gz --markdown 20230711/k/khoj-assistant/0.8.2-0.8.3.dev1/diff.md --exclude *.pyd
+[2023-07-11 06:21:38] INFO root fetch - processPackages [mage-ai]: Downloading https://files.pythonhosted.org/packages/32/54/228f70ffdf34a1d485e5ad9c91d43dd72a8359e268b2a539da49715b749e/mage-ai-0.9.0.tar.gz
+[2023-07-11 06:21:39] INFO root fetch - processPackages [odoo-addon-mis-builder]: executing diffoscope
+[2023-07-11 06:21:39] INFO root fetch - processPackages [odoo-addon-mis-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mis_builder-16.0.5.1.1.5-py3-none-any.whl.zip tmp/odoo_addon_mis_builder-16.0.5.1.2-py3-none-any.whl.zip --markdown 20230711/o/odoo-addon-mis-builder/16.0.5.1.1.5-16.0.5.1.2/diff.md --exclude *.pyd
+[2023-07-11 06:21:39] INFO root fetch - processPackages [odoo-addon-mis-builder-budget]: executing diffoscope
+[2023-07-11 06:21:39] INFO root fetch - processPackages [odoo-addon-mis-builder-budget]: executing diffoscope
+[2023-07-11 06:21:39] INFO root fetch - processPackages [odoo-addon-mis-builder-budget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mis_builder_budget-16.0.5.0.1.3-py3-none-any.whl.zip tmp/odoo_addon_mis_builder_budget-16.0.5.0.1.4-py3-none-any.whl.zip --markdown 20230711/o/odoo-addon-mis-builder-budget/16.0.5.0.1.3-16.0.5.0.1.4/diff.md --exclude *.pyd
+[2023-07-11 06:21:39] INFO root fetch - processPackages [odoo-addon-mis-builder-budget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mis_builder_budget-16.0.5.0.1.3-py3-none-any.whl.zip tmp/odoo_addon_mis_builder_budget-16.0.5.0.1.4-py3-none-any.whl.zip --markdown 20230711/o/odoo-addon-mis-builder-budget/16.0.5.0.1.3-16.0.5.0.1.4/diff.md --exclude *.pyd
+[2023-07-11 06:21:39] INFO root fetch - processPackages [badsecrets]: executing diffoscope
+[2023-07-11 06:21:39] INFO root fetch - processPackages [badsecrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/badsecrets-0.3.351.tar.gz tmp/badsecrets-0.3.374.tar.gz --markdown 20230711/b/badsecrets/0.3.351-0.3.374/diff.md --exclude *.pyd
+[2023-07-11 06:21:39] INFO root fetch - processPackages [mage-ai]: executing diffoscope
+[2023-07-11 06:21:39] INFO root fetch - processPackages [mage-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mage-ai-0.8.99.tar.gz tmp/mage-ai-0.9.0.tar.gz --markdown 20230711/m/mage-ai/0.8.99-0.9.0/diff.md --exclude *.pyd
+[2023-07-11 06:21:39] INFO root fetch - processPackages [pgsu]: Remove: archive file [/home/abi/fetcher/tmp/pgsu-0.2.3.tar.gz]
+[2023-07-11 06:21:39] INFO root fetch - processPackages [pgsu]: Remove: archive file [/home/abi/fetcher/tmp/pgsu-0.2.4.tar.gz]
+[2023-07-11 06:21:39] INFO root fetch - main [MainThread]: End processing [pgsu]: success
+[2023-07-11 06:21:39] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.3.8.tar.gz]
+[2023-07-11 06:21:39] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.3.9.tar.gz]
+[2023-07-11 06:21:39] INFO root fetch - main [MainThread]: End processing [quantplay]: success
+[2023-07-11 06:21:40] INFO root fetch - processPackages [odoo-addon-mis-builder-budget]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mis_builder_budget-16.0.5.0.1.3-py3-none-any.whl.zip]
+[2023-07-11 06:21:40] INFO root fetch - processPackages [odoo-addon-mis-builder-budget]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mis_builder_budget-16.0.5.0.1.4-py3-none-any.whl.zip]
+[2023-07-11 06:21:40] INFO root fetch - main [MainThread]: End processing [odoo-addon-mis-builder-budget]: success
+[2023-07-11 06:21:40] INFO root fetch - main [MainThread]: End processing [odoo-addon-mis-builder-budget]: success
+[2023-07-11 06:21:40] INFO root fetch - processPackages [odoo-addon-mis-builder]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mis_builder-16.0.5.1.1.5-py3-none-any.whl.zip]
+[2023-07-11 06:21:40] INFO root fetch - processPackages [odoo-addon-mis-builder]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mis_builder-16.0.5.1.2-py3-none-any.whl.zip]
+[2023-07-11 06:21:40] INFO root fetch - main [MainThread]: End processing [odoo-addon-mis-builder]: success
+[2023-07-11 06:21:40] INFO root fetch - processPackages [badsecrets]: Remove: archive file [/home/abi/fetcher/tmp/badsecrets-0.3.351.tar.gz]
+[2023-07-11 06:21:40] INFO root fetch - processPackages [badsecrets]: Remove: archive file [/home/abi/fetcher/tmp/badsecrets-0.3.374.tar.gz]
+[2023-07-11 06:21:40] INFO root fetch - main [MainThread]: End processing [badsecrets]: success
+[2023-07-11 06:21:40] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.8.2.tar.gz]
+[2023-07-11 06:21:40] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.8.3.dev1.tar.gz]
+[2023-07-11 06:21:40] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2023-07-11 06:22:06] INFO root fetch - processPackages [mage-ai]: Remove: archive file [/home/abi/fetcher/tmp/mage-ai-0.8.99.tar.gz]
+[2023-07-11 06:22:06] INFO root fetch - processPackages [mage-ai]: Remove: archive file [/home/abi/fetcher/tmp/mage-ai-0.9.0.tar.gz]
+[2023-07-11 06:22:06] INFO root fetch - main [MainThread]: End processing [mage-ai]: success
+[2023-07-11 06:22:06] INFO root fetch - main [MainThread]: Store serial: [18840816]
