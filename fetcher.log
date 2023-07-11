@@ -6572,3 +6572,76 @@ AssertionError: tmp/doctran-0.0.6.tar.gz does not exist
 [2023-07-11 03:31:05] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.9.tar.gz]
 [2023-07-11 03:31:05] INFO root fetch - main [MainThread]: End processing [oloren]: success
 [2023-07-11 03:31:05] INFO root fetch - main [MainThread]: Store serial: [18839484]
+[2023-07-11 03:36:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18839484]
+[2023-07-11 03:36:14] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-11 03:36:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tencentcloud-sdk-python-intl-en
+[2023-07-11 03:36:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: notros2
+[2023-07-11 03:36:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: notros2
+[2023-07-11 03:36:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: scotthsieh-projen-statemachine
+[2023-07-11 03:36:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pydantic-core
+[2023-07-11 03:36:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: azureml-featurestore
+[2023-07-11 03:36:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nbdev-stdlib
+[2023-07-11 03:36:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: omnata-plugin-devkit
+[2023-07-11 03:36:15] INFO root fetch - processPackages [notros2]: New version: [23.7.11.13114] Old Version: [23.7.11.13106]
+[2023-07-11 03:36:15] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: New version: [3.0.99] Old Version: [3.0.98]
+[2023-07-11 03:36:15] INFO root fetch - processPackages [azureml-featurestore]: New version: [0.1.0b3] Old Version: [0.1.0b2]
+[2023-07-11 03:36:15] INFO root fetch - processPackages [notros2]: New version: [23.7.11.13114] Old Version: [23.7.11.13106]
+[2023-07-11 03:36:15] INFO root fetch - processPackages [omnata-plugin-devkit]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-11 03:36:15] INFO root fetch - processPackages [nbdev-stdlib]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-11 03:36:15] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-11 03:36:15] INFO root fetch - processPackages [pydantic-core]: New version: [2.1.3] Old Version: [2.1.2]
+[2023-07-11 03:36:15] INFO root fetch - processPackages [omnata-plugin-devkit]: Downloading https://files.pythonhosted.org/packages/a6/03/037aa46c1c15ce197872a42c2494fcfb0dd6fd4c14cebaeaf6f9495b5cbf/omnata_plugin_devkit-0.1.8.tar.gz
+[2023-07-11 03:36:15] INFO root fetch - processPackages [notros2]: Downloading https://files.pythonhosted.org/packages/a5/ee/814371df7217b86fa793d726493141062ecf3652e967da86fc1d7efda5f7/notros2-23.7.11.13106.tar.gz
+[2023-07-11 03:36:15] INFO root fetch - processPackages [notros2]: Downloading https://files.pythonhosted.org/packages/a5/ee/814371df7217b86fa793d726493141062ecf3652e967da86fc1d7efda5f7/notros2-23.7.11.13106.tar.gz
+[2023-07-11 03:36:15] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: Downloading https://files.pythonhosted.org/packages/75/2e/d50f8b081603ac850ec9b5d5d5206498a7d302b7a6ea31adbd59cb01a4ae/scotthsieh_projen_statemachine-2.0.98.tar.gz
+[2023-07-11 03:36:15] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Downloading https://files.pythonhosted.org/packages/47/ec/491739e9cb7da970b8f280ea2383dc94da0c3d39e938ac559e0f2e52aea8/tencentcloud-sdk-python-intl-en-3.0.98.tar.gz
+[2023-07-11 03:36:15] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/e8/48/ed43dbfa0bd5ca86a6a3f6ae0500b0cffb413b2c3f118e82da24ef3488f1/nbdev-stdlib-0.0.98.tar.gz
+[2023-07-11 03:36:15] INFO root fetch - processPackages [azureml-featurestore]: Downloading https://files.pythonhosted.org/packages/90/5a/12b9d0e550be11c29d959218da2ec68f7388ef03bdece8866a47af493eb1/azureml_featurestore-0.1.0b2-py3-none-any.whl
+[2023-07-11 03:36:15] INFO root fetch - processPackages [pydantic-core]: Downloading https://files.pythonhosted.org/packages/66/68/9703e44f0bcc29eeaacb1c063675687524646a1bbe3c4527d45475cf120e/pydantic_core-2.1.2.tar.gz
+[2023-07-11 03:36:15] INFO root fetch - processPackages [omnata-plugin-devkit]: Downloading https://files.pythonhosted.org/packages/94/e1/5b8aa743f4bbe600dde3989489613981c39b2dfcd44174b9931cf0c42452/omnata_plugin_devkit-0.1.9.tar.gz
+[2023-07-11 03:36:15] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/9b/0f/42944508859f820e43bf894814c5e9dbc7920a0caceef1828a31a9e5b599/nbdev-stdlib-0.0.99.tar.gz
+[2023-07-11 03:36:15] INFO root fetch - processPackages [omnata-plugin-devkit]: executing diffoscope
+[2023-07-11 03:36:15] INFO root fetch - processPackages [omnata-plugin-devkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnata_plugin_devkit-0.1.8.tar.gz tmp/omnata_plugin_devkit-0.1.9.tar.gz --markdown 20230711/o/omnata-plugin-devkit/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-11 03:36:15] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: Downloading https://files.pythonhosted.org/packages/8d/5b/2a5beec8e0ad27c9cbe9feb5d73fadf98cf28ce1a01ad03f7abb00f14071/scotthsieh_projen_statemachine-2.0.99.tar.gz
+[2023-07-11 03:36:15] INFO root fetch - processPackages [notros2]: Downloading https://files.pythonhosted.org/packages/ed/e4/387629da41b89a86945bffcde025626f92ea3fd3374d140311146699634e/notros2-23.7.11.13114-py3-none-any.whl
+[2023-07-11 03:36:15] INFO root fetch - processPackages [notros2]: Downloading https://files.pythonhosted.org/packages/ed/e4/387629da41b89a86945bffcde025626f92ea3fd3374d140311146699634e/notros2-23.7.11.13114-py3-none-any.whl
+[2023-07-11 03:36:16] INFO root fetch - processPackages [azureml-featurestore]: Downloading https://files.pythonhosted.org/packages/16/0a/bcc04013bd0267a5582f6c8a5be9caaa109d3307fe103741d0ddd03e49d3/azureml_featurestore-0.1.0b3-py3-none-any.whl
+[2023-07-11 03:36:16] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Downloading https://files.pythonhosted.org/packages/ee/9c/2dcfed598218dfd2d81fa3078c736962b265e5ae724bec2686e853a74d71/tencentcloud-sdk-python-intl-en-3.0.99.tar.gz
+[2023-07-11 03:36:16] INFO root fetch - processPackages [pydantic-core]: Downloading https://files.pythonhosted.org/packages/68/80/ec57c131c152f4257fe48d9a46b1d4c1fabc0ee3f407e81bfcfcae1c2615/pydantic_core-2.1.3-pp37-pypy37_pp73-win_amd64.whl
+[2023-07-11 03:36:16] INFO root fetch - processPackages [nbdev-stdlib]: executing diffoscope
+[2023-07-11 03:36:16] INFO root fetch - processPackages [nbdev-stdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-stdlib-0.0.98.tar.gz tmp/nbdev-stdlib-0.0.99.tar.gz --markdown 20230711/n/nbdev-stdlib/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-11 03:36:16] INFO root fetch - processPackages [notros2]: executing diffoscope
+[2023-07-11 03:36:16] INFO root fetch - processPackages [notros2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notros2-23.7.11.13106.tar.gz tmp/notros2-23.7.11.13114-py3-none-any.whl.zip --markdown 20230711/n/notros2/23.7.11.13106-23.7.11.13114/diff.md --exclude *.pyd
+[2023-07-11 03:36:16] INFO root fetch - processPackages [notros2]: executing diffoscope
+[2023-07-11 03:36:16] INFO root fetch - processPackages [notros2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notros2-23.7.11.13106.tar.gz tmp/notros2-23.7.11.13114-py3-none-any.whl.zip --markdown 20230711/n/notros2/23.7.11.13106-23.7.11.13114/diff.md --exclude *.pyd
+[2023-07-11 03:36:16] INFO root fetch - processPackages [azureml-featurestore]: executing diffoscope
+[2023-07-11 03:36:16] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: executing diffoscope
+[2023-07-11 03:36:16] INFO root fetch - processPackages [azureml-featurestore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_featurestore-0.1.0b2-py3-none-any.whl.zip tmp/azureml_featurestore-0.1.0b3-py3-none-any.whl.zip --markdown 20230711/a/azureml-featurestore/0.1.0b2-0.1.0b3/diff.md --exclude *.pyd
+[2023-07-11 03:36:16] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-intl-en-3.0.98.tar.gz tmp/tencentcloud-sdk-python-intl-en-3.0.99.tar.gz --markdown 20230711/t/tencentcloud-sdk-python-intl-en/3.0.98-3.0.99/diff.md --exclude *.pyd
+[2023-07-11 03:36:16] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: executing diffoscope
+[2023-07-11 03:36:16] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scotthsieh_projen_statemachine-2.0.98.tar.gz tmp/scotthsieh_projen_statemachine-2.0.99.tar.gz --markdown 20230711/s/scotthsieh-projen-statemachine/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-11 03:36:17] INFO root fetch - processPackages [omnata-plugin-devkit]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_devkit-0.1.8.tar.gz]
+[2023-07-11 03:36:17] INFO root fetch - processPackages [omnata-plugin-devkit]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_devkit-0.1.9.tar.gz]
+[2023-07-11 03:36:17] INFO root fetch - main [MainThread]: End processing [omnata-plugin-devkit]: success
+[2023-07-11 03:36:17] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.98.tar.gz]
+[2023-07-11 03:36:17] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.99.tar.gz]
+[2023-07-11 03:36:17] INFO root fetch - main [MainThread]: End processing [nbdev-stdlib]: success
+[2023-07-11 03:36:17] INFO root fetch - processPackages [notros2]: Remove: archive file [/home/abi/fetcher/tmp/notros2-23.7.11.13106.tar.gz]
+[2023-07-11 03:36:17] INFO root fetch - processPackages [notros2]: Remove: archive file [/home/abi/fetcher/tmp/notros2-23.7.11.13114-py3-none-any.whl.zip]
+[2023-07-11 03:36:17] INFO root fetch - main [MainThread]: End processing [notros2]: success
+[2023-07-11 03:36:17] INFO root fetch - main [MainThread]: End processing [notros2]: success
+[2023-07-11 03:36:17] INFO root fetch - processPackages [pydantic-core]: executing diffoscope
+[2023-07-11 03:36:17] INFO root fetch - processPackages [pydantic-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic_core-2.1.2.tar.gz tmp/pydantic_core-2.1.3-pp37-pypy37_pp73-win_amd64.whl.zip --markdown 20230711/p/pydantic-core/2.1.2-2.1.3/diff.md --exclude *.pyd
+[2023-07-11 03:36:17] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: Remove: archive file [/home/abi/fetcher/tmp/scotthsieh_projen_statemachine-2.0.98.tar.gz]
+[2023-07-11 03:36:17] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: Remove: archive file [/home/abi/fetcher/tmp/scotthsieh_projen_statemachine-2.0.99.tar.gz]
+[2023-07-11 03:36:17] INFO root fetch - main [MainThread]: End processing [scotthsieh-projen-statemachine]: success
+[2023-07-11 03:36:17] INFO root fetch - processPackages [azureml-featurestore]: Remove: archive file [/home/abi/fetcher/tmp/azureml_featurestore-0.1.0b2-py3-none-any.whl.zip]
+[2023-07-11 03:36:17] INFO root fetch - processPackages [azureml-featurestore]: Remove: archive file [/home/abi/fetcher/tmp/azureml_featurestore-0.1.0b3-py3-none-any.whl.zip]
+[2023-07-11 03:36:17] INFO root fetch - main [MainThread]: End processing [azureml-featurestore]: success
+[2023-07-11 03:36:18] INFO root fetch - processPackages [pydantic-core]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_core-2.1.2.tar.gz]
+[2023-07-11 03:36:18] INFO root fetch - processPackages [pydantic-core]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_core-2.1.3-pp37-pypy37_pp73-win_amd64.whl.zip]
+[2023-07-11 03:36:18] INFO root fetch - main [MainThread]: End processing [pydantic-core]: success
+[2023-07-11 03:36:18] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-intl-en-3.0.98.tar.gz]
+[2023-07-11 03:36:18] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-intl-en-3.0.99.tar.gz]
+[2023-07-11 03:36:18] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-intl-en]: success
+[2023-07-11 03:36:18] INFO root fetch - main [MainThread]: Store serial: [18839588]
