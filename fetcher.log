@@ -20387,3 +20387,186 @@ AssertionError: tmp/doctran-0.0.6.tar.gz does not exist
 [2023-07-11 14:50:48] INFO root fetch - processPackages [allianceauth]: Remove: archive file [/home/abi/fetcher/tmp/allianceauth-3.5.0.tar.gz]
 [2023-07-11 14:50:48] INFO root fetch - main [MainThread]: End processing [allianceauth]: success
 [2023-07-11 14:50:48] INFO root fetch - main [MainThread]: Store serial: [18845497]
+[2023-07-11 14:55:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18845497]
+[2023-07-11 14:55:58] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-07-11 14:55:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: manticore
+[2023-07-11 14:55:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nornir-easy-netmiko
+[2023-07-11 14:55:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: strinpy
+[2023-07-11 14:55:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: comex
+[2023-07-11 14:55:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: simpleworkspace
+[2023-07-11 14:55:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: recon-lw
+[2023-07-11 14:55:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: SPACEL
+[2023-07-11 14:55:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jarvis-assistant-bot
+[2023-07-11 14:55:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hyprshade
+[2023-07-11 14:55:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pkgfileutils
+[2023-07-11 14:55:58] WARNING root fetch - processPackages [jarvis-assistant-bot]: Skipping, unable to determine old version
+[2023-07-11 14:55:58] INFO root fetch - processPackages [jarvis-assistant-bot]: Start processing: pymatgen
+[2023-07-11 14:55:58] INFO root fetch - main [MainThread]: End processing [jarvis-assistant-bot] error
+[2023-07-11 14:55:58] INFO root fetch - processPackages [comex]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-11 14:55:58] INFO root fetch - processPackages [nornir-easy-netmiko]: New version: [1.1.0] Old Version: [1.0.5]
+[2023-07-11 14:55:58] INFO root fetch - processPackages [hyprshade]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-11 14:55:58] INFO root fetch - processPackages [manticore]: New version: [0.3.8.dev230711] Old Version: [0.3.8.dev230710]
+[2023-07-11 14:55:58] INFO root fetch - processPackages [simpleworkspace]: New version: [1.1.99] Old Version: [1.1.98]
+[2023-07-11 14:55:58] INFO root fetch - processPackages [recon-lw]: New version: [2.0.0.dev5520151929] Old Version: [2.0.0.dev5506899890]
+[2023-07-11 14:55:58] WARNING root fetch - processPackages [pkgfileutils]: Skipping, unable to determine old version
+[2023-07-11 14:55:58] INFO root fetch - processPackages [pkgfileutils]: Start processing: nornir-easy-netmiko
+[2023-07-11 14:55:58] INFO root fetch - main [MainThread]: End processing [pkgfileutils] error
+[2023-07-11 14:55:58] INFO root fetch - processPackages [strinpy]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-11 14:55:58] INFO root fetch - processPackages [SPACEL]: New version: [1.1.1] Old Version: [1.0.1]
+[2023-07-11 14:55:58] INFO root fetch - processPackages [pymatgen]: New version: [4.7.7] Old Version: [4.7.6]
+[2023-07-11 14:55:58] INFO root fetch - processPackages [nornir-easy-netmiko]: New version: [1.1.0] Old Version: [1.0.5]
+[2023-07-11 14:55:58] INFO root fetch - processPackages [nornir-easy-netmiko]: Downloading https://files.pythonhosted.org/packages/a7/6f/8a3f0aaa696bbf2a051d714fd8fe69625c82f627857a85e80a9d543525a7/nornir_easy_netmiko-1.0.5.tar.gz
+[2023-07-11 14:55:58] INFO root fetch - processPackages [hyprshade]: Downloading https://files.pythonhosted.org/packages/73/5d/532b6fa947a0a473b73fcf9a77600e9f93f75903400af58d73f2d6f8eace/hyprshade-0.1.1.tar.gz
+[2023-07-11 14:55:58] INFO root fetch - processPackages [simpleworkspace]: Downloading https://files.pythonhosted.org/packages/f6/4f/2281366c87c719dc22a92e26786e51e014b831234f2b10a111e39410dcd7/SimpleWorkspace-1.1.98-py3-none-any.whl
+[2023-07-11 14:55:58] INFO root fetch - processPackages [nornir-easy-netmiko]: Downloading https://files.pythonhosted.org/packages/a7/6f/8a3f0aaa696bbf2a051d714fd8fe69625c82f627857a85e80a9d543525a7/nornir_easy_netmiko-1.0.5.tar.gz
+[2023-07-11 14:55:58] INFO root fetch - processPackages [comex]: Downloading https://files.pythonhosted.org/packages/c0/01/b4914690ccab34da0d4b57a12f4ac8da84b18f4be55cf0e0e4cbfe067b2b/comex-0.1.3.tar.gz
+[2023-07-11 14:55:59] INFO root fetch - processPackages [manticore]: Downloading https://files.pythonhosted.org/packages/1f/d6/9043a274e4da1881145fb4d2b3722a4fd00c3d395edd5ff4aa0f7fd5cfa6/manticore-0.3.8.dev230710.tar.gz
+[2023-07-11 14:55:59] INFO root fetch - processPackages [recon-lw]: Downloading https://files.pythonhosted.org/packages/b0/f9/c8b0fe6f4210b184c735f38fae39a7d1254aaa5910682282a6a6b137fc80/recon_lw-2.0.0.dev5506899890.tar.gz
+[2023-07-11 14:55:59] INFO root fetch - processPackages [strinpy]: Downloading https://files.pythonhosted.org/packages/44/0b/fe2e84b13ccbe0ed255cd9bbe6dbdc6606be038946e0f4952002be5a3f8a/strinpy-0.0.2.tar.gz
+[2023-07-11 14:55:59] INFO root fetch - processPackages [SPACEL]: Downloading https://files.pythonhosted.org/packages/4f/5b/2faf4a1d3a3dc5b0fa4646b23a754132c2747d167a00e6faa7bd36e8ac35/SPACEL-1.0.1.tar.gz
+[2023-07-11 14:55:59] INFO root fetch - processPackages [pymatgen]: Downloading https://files.pythonhosted.org/packages/f8/11/932dcc4ebb444717ca49389e060aeb54f98ed9df48131df12df030e2ad3d/pymatgen-4.7.6.tar.gz
+[2023-07-11 14:55:59] INFO root fetch - processPackages [simpleworkspace]: Downloading https://files.pythonhosted.org/packages/73/68/b37fd075b3b8cd9981a642f7ec1d4ddc9da08d49a99a6ea20c75731aca9e/SimpleWorkspace-1.1.99-py3-none-any.whl
+[2023-07-11 14:55:59] INFO root fetch - processPackages [hyprshade]: Downloading https://files.pythonhosted.org/packages/e6/22/6ee5bac063e09ef8f9f559be78d6c96ef3bb616eb811dc528f24763093a3/hyprshade-0.1.2.tar.gz
+[2023-07-11 14:55:59] INFO root fetch - processPackages [nornir-easy-netmiko]: Downloading https://files.pythonhosted.org/packages/6b/06/b9cc85682961e9e6cf7df7fd2eef5730162c716bb1b1a79b32278f5f96d2/nornir_easy_netmiko-1.1.0.tar.gz
+[2023-07-11 14:55:59] INFO root fetch - processPackages [nornir-easy-netmiko]: Downloading https://files.pythonhosted.org/packages/6b/06/b9cc85682961e9e6cf7df7fd2eef5730162c716bb1b1a79b32278f5f96d2/nornir_easy_netmiko-1.1.0.tar.gz
+[2023-07-11 14:55:59] INFO root fetch - processPackages [SPACEL]: Downloading https://files.pythonhosted.org/packages/d2/c1/62dd0dd667576ed767bba97d956196dde0bb3eb5624db564ae0b84ed1225/SPACEL-1.1.1.tar.gz
+[2023-07-11 14:55:59] INFO root fetch - processPackages [comex]: Downloading https://files.pythonhosted.org/packages/69/c4/fe4c25c55131b8a1e27429ef7a8cec61ce6798eec89c10ddaf6a52dc0d6a/comex-0.1.4.tar.gz
+[2023-07-11 14:55:59] INFO root fetch - processPackages [simpleworkspace]: executing diffoscope
+[2023-07-11 14:55:59] INFO root fetch - processPackages [simpleworkspace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SimpleWorkspace-1.1.98-py3-none-any.whl.zip tmp/SimpleWorkspace-1.1.99-py3-none-any.whl.zip --markdown 20230711/s/simpleworkspace/1.1.98-1.1.99/diff.md --exclude *.pyd
+[2023-07-11 14:55:59] INFO root fetch - processPackages [strinpy]: Downloading https://files.pythonhosted.org/packages/7e/ec/c9aef591da0462d97f45b425fa90fddac0cea16eff3eb918d0d5cb5e6304/strinpy-0.0.3.tar.gz
+[2023-07-11 14:55:59] INFO root fetch - processPackages [hyprshade]: executing diffoscope
+[2023-07-11 14:55:59] INFO root fetch - processPackages [hyprshade]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyprshade-0.1.1.tar.gz tmp/hyprshade-0.1.2.tar.gz --markdown 20230711/h/hyprshade/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-11 14:55:59] INFO root fetch - processPackages [manticore]: Downloading https://files.pythonhosted.org/packages/e5/a2/521249dff58741f0ccedf1a4b87a77289a9b64df2c26b3d6d2b7f215d290/manticore-0.3.8.dev230711.tar.gz
+[2023-07-11 14:55:59] INFO root fetch - processPackages [recon-lw]: Downloading https://files.pythonhosted.org/packages/d5/d9/9031a8b71329c33c84cfd41ea11c530b14a32f84a79e19924847eb20ebbe/recon_lw-2.0.0.dev5520151929.tar.gz
+[2023-07-11 14:55:59] INFO root fetch - processPackages [nornir-easy-netmiko]: executing diffoscope
+[2023-07-11 14:55:59] INFO root fetch - processPackages [nornir-easy-netmiko]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nornir_easy_netmiko-1.0.5.tar.gz tmp/nornir_easy_netmiko-1.1.0.tar.gz --markdown 20230711/n/nornir-easy-netmiko/1.0.5-1.1.0/diff.md --exclude *.pyd
+[2023-07-11 14:55:59] INFO root fetch - processPackages [nornir-easy-netmiko]: executing diffoscope
+[2023-07-11 14:55:59] INFO root fetch - processPackages [nornir-easy-netmiko]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nornir_easy_netmiko-1.0.5.tar.gz tmp/nornir_easy_netmiko-1.1.0.tar.gz --markdown 20230711/n/nornir-easy-netmiko/1.0.5-1.1.0/diff.md --exclude *.pyd
+[2023-07-11 14:55:59] INFO root fetch - processPackages [SPACEL]: executing diffoscope
+[2023-07-11 14:55:59] INFO root fetch - processPackages [SPACEL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SPACEL-1.0.1.tar.gz tmp/SPACEL-1.1.1.tar.gz --markdown 20230711/S/SPACEL/1.0.1-1.1.1/diff.md --exclude *.pyd
+[2023-07-11 14:55:59] INFO root fetch - processPackages [comex]: executing diffoscope
+[2023-07-11 14:55:59] INFO root fetch - processPackages [comex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/comex-0.1.3.tar.gz tmp/comex-0.1.4.tar.gz --markdown 20230711/c/comex/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-11 14:55:59] INFO root fetch - processPackages [strinpy]: executing diffoscope
+[2023-07-11 14:55:59] INFO root fetch - processPackages [strinpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strinpy-0.0.2.tar.gz tmp/strinpy-0.0.3.tar.gz --markdown 20230711/s/strinpy/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-11 14:55:59] INFO root fetch - processPackages [pymatgen]: Downloading https://files.pythonhosted.org/packages/5d/70/264aa342dff7f1c5fa6c1870cf2fb08b1e89462261dfd880f3107cfb8788/pymatgen-4.7.7.tar.gz
+[2023-07-11 14:56:00] INFO root fetch - processPackages [recon-lw]: executing diffoscope
+[2023-07-11 14:56:00] INFO root fetch - processPackages [recon-lw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recon_lw-2.0.0.dev5506899890.tar.gz tmp/recon_lw-2.0.0.dev5520151929.tar.gz --markdown 20230711/r/recon-lw/2.0.0.dev5506899890-2.0.0.dev5520151929/diff.md --exclude *.pyd
+[2023-07-11 14:56:00] INFO root fetch - processPackages [manticore]: executing diffoscope
+[2023-07-11 14:56:00] INFO root fetch - processPackages [manticore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manticore-0.3.8.dev230710.tar.gz tmp/manticore-0.3.8.dev230711.tar.gz --markdown 20230711/m/manticore/0.3.8.dev230710-0.3.8.dev230711/diff.md --exclude *.pyd
+[2023-07-11 14:56:00] INFO root fetch - processPackages [pymatgen]: executing diffoscope
+[2023-07-11 14:56:00] INFO root fetch - processPackages [pymatgen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymatgen-4.7.6.tar.gz tmp/pymatgen-4.7.7.tar.gz --markdown 20230711/p/pymatgen/4.7.6-4.7.7/diff.md --exclude *.pyd
+[2023-07-11 14:56:02] INFO root fetch - processPackages [hyprshade]: Remove: archive file [/home/abi/fetcher/tmp/hyprshade-0.1.1.tar.gz]
+[2023-07-11 14:56:02] INFO root fetch - processPackages [hyprshade]: Remove: archive file [/home/abi/fetcher/tmp/hyprshade-0.1.2.tar.gz]
+[2023-07-11 14:56:02] INFO root fetch - processPackages [hyprshade]: Start processing: kappadata
+[2023-07-11 14:56:02] INFO root fetch - main [MainThread]: End processing [hyprshade]: success
+[2023-07-11 14:56:02] INFO root fetch - processPackages [kappadata]: New version: [1.3.3] Old Version: [1.3.2]
+[2023-07-11 14:56:02] INFO root fetch - processPackages [kappadata]: Downloading https://files.pythonhosted.org/packages/e6/15/264fb0e69a70b0c7a656d312427486ab6b75b7e651b1491ef88fbf4e58cd/kappadata-1.3.2.tar.gz
+[2023-07-11 14:56:02] INFO root fetch - processPackages [simpleworkspace]: Remove: archive file [/home/abi/fetcher/tmp/SimpleWorkspace-1.1.98-py3-none-any.whl.zip]
+[2023-07-11 14:56:02] INFO root fetch - processPackages [simpleworkspace]: Remove: archive file [/home/abi/fetcher/tmp/SimpleWorkspace-1.1.99-py3-none-any.whl.zip]
+[2023-07-11 14:56:02] INFO root fetch - processPackages [simpleworkspace]: Start processing: fxn
+[2023-07-11 14:56:02] INFO root fetch - main [MainThread]: End processing [simpleworkspace]: success
+[2023-07-11 14:56:02] INFO root fetch - processPackages [fxn]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-11 14:56:02] INFO root fetch - processPackages [nornir-easy-netmiko]: Remove: archive file [/home/abi/fetcher/tmp/nornir_easy_netmiko-1.0.5.tar.gz]
+[2023-07-11 14:56:02] INFO root fetch - processPackages [nornir-easy-netmiko]: Remove: archive file [/home/abi/fetcher/tmp/nornir_easy_netmiko-1.1.0.tar.gz]
+[2023-07-11 14:56:02] INFO root fetch - processPackages [nornir-easy-netmiko]: Start processing: kolibri-google-analytics-plugin
+[2023-07-11 14:56:02] INFO root fetch - main [MainThread]: End processing [nornir-easy-netmiko]: success
+[2023-07-11 14:56:02] INFO root fetch - processPackages [kappadata]: Downloading https://files.pythonhosted.org/packages/79/e5/1d3e58959375769d1cdc7b550740d8ea1840d10d7139a4a80948a5daa429/kappadata-1.3.3.tar.gz
+[2023-07-11 14:56:02] INFO root fetch - processPackages [fxn]: Downloading https://files.pythonhosted.org/packages/f6/d0/830118db59d210c9a93b7883d7c6298116681c31c394a877e93bc951cd8b/fxn-0.0.8.tar.gz
+[2023-07-11 14:56:02] INFO root fetch - processPackages [nornir-easy-netmiko]: Start processing: Akatosh
+[2023-07-11 14:56:02] INFO root fetch - main [MainThread]: End processing [nornir-easy-netmiko]: success
+[2023-07-11 14:56:02] INFO root fetch - processPackages [Akatosh]: New version: [2.1.1] Old Version: [2.1.0]
+[2023-07-11 14:56:03] INFO root fetch - processPackages [strinpy]: Remove: archive file [/home/abi/fetcher/tmp/strinpy-0.0.2.tar.gz]
+[2023-07-11 14:56:03] INFO root fetch - processPackages [strinpy]: Remove: archive file [/home/abi/fetcher/tmp/strinpy-0.0.3.tar.gz]
+[2023-07-11 14:56:03] INFO root fetch - processPackages [strinpy]: Start processing: histomicsui
+[2023-07-11 14:56:03] INFO root fetch - main [MainThread]: End processing [strinpy]: success
+[2023-07-11 14:56:03] INFO root fetch - processPackages [kolibri-google-analytics-plugin]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-11 14:56:03] INFO root fetch - processPackages [recon-lw]: Remove: archive file [/home/abi/fetcher/tmp/recon_lw-2.0.0.dev5506899890.tar.gz]
+[2023-07-11 14:56:03] INFO root fetch - processPackages [recon-lw]: Remove: archive file [/home/abi/fetcher/tmp/recon_lw-2.0.0.dev5520151929.tar.gz]
+[2023-07-11 14:56:03] INFO root fetch - processPackages [recon-lw]: Start processing: jplaw
+[2023-07-11 14:56:03] INFO root fetch - main [MainThread]: End processing [recon-lw]: success
+[2023-07-11 14:56:03] INFO root fetch - processPackages [histomicsui]: New version: [1.4.6.dev8] Old Version: [1.4.6.dev6]
+[2023-07-11 14:56:03] INFO root fetch - processPackages [SPACEL]: Remove: archive file [/home/abi/fetcher/tmp/SPACEL-1.0.1.tar.gz]
+[2023-07-11 14:56:03] INFO root fetch - processPackages [SPACEL]: Remove: archive file [/home/abi/fetcher/tmp/SPACEL-1.1.1.tar.gz]
+[2023-07-11 14:56:03] INFO root fetch - processPackages [SPACEL]: Start processing: paradigm-client
+[2023-07-11 14:56:03] INFO root fetch - main [MainThread]: End processing [SPACEL]: success
+[2023-07-11 14:56:03] INFO root fetch - processPackages [kappadata]: executing diffoscope
+[2023-07-11 14:56:03] INFO root fetch - processPackages [kappadata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kappadata-1.3.2.tar.gz tmp/kappadata-1.3.3.tar.gz --markdown 20230711/k/kappadata/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2023-07-11 14:56:03] INFO root fetch - processPackages [Akatosh]: Downloading https://files.pythonhosted.org/packages/76/22/9b74dd7a6196df6aa4156922ddcbfa9b77b8755759d494fa9410b751fd48/Akatosh-2.1.0.tar.gz
+[2023-07-11 14:56:03] INFO root fetch - processPackages [jplaw]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-11 14:56:03] INFO root fetch - processPackages [comex]: Remove: archive file [/home/abi/fetcher/tmp/comex-0.1.3.tar.gz]
+[2023-07-11 14:56:03] INFO root fetch - processPackages [comex]: Remove: archive file [/home/abi/fetcher/tmp/comex-0.1.4.tar.gz]
+[2023-07-11 14:56:03] INFO root fetch - processPackages [comex]: Start processing: opensesame-core
+[2023-07-11 14:56:03] INFO root fetch - main [MainThread]: End processing [comex]: success
+[2023-07-11 14:56:03] INFO root fetch - processPackages [fxn]: Downloading https://files.pythonhosted.org/packages/83/0a/476760db9cac6b1baac6f1d0b7736e79d64d8a18e9dea83ec6b9eb32d820/fxn-0.0.9.tar.gz
+[2023-07-11 14:56:03] INFO root fetch - processPackages [histomicsui]: Downloading https://files.pythonhosted.org/packages/c4/31/4a0f732bbebf0c59935b8136de7876c9f99e27250fa4c5efbf8eb8d33a90/histomicsui-1.4.6.dev6.tar.gz
+[2023-07-11 14:56:03] INFO root fetch - processPackages [paradigm-client]: New version: [0.4] Old Version: [0.3]
+[2023-07-11 14:56:03] INFO root fetch - processPackages [opensesame-core]: New version: [4.0.0a54] Old Version: [4.0.0a52]
+[2023-07-11 14:56:03] INFO root fetch - processPackages [kolibri-google-analytics-plugin]: Downloading https://files.pythonhosted.org/packages/fe/8d/b4b540b96ceb16b10fb4627f666dd506b1eb76945222992c224869dbd648/kolibri_google_analytics_plugin-0.1.1.tar.gz
+[2023-07-11 14:56:03] INFO root fetch - processPackages [fxn]: executing diffoscope
+[2023-07-11 14:56:03] INFO root fetch - processPackages [fxn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fxn-0.0.8.tar.gz tmp/fxn-0.0.9.tar.gz --markdown 20230711/f/fxn/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-11 14:56:03] INFO root fetch - processPackages [manticore]: Remove: archive file [/home/abi/fetcher/tmp/manticore-0.3.8.dev230710.tar.gz]
+[2023-07-11 14:56:03] INFO root fetch - processPackages [manticore]: Remove: archive file [/home/abi/fetcher/tmp/manticore-0.3.8.dev230711.tar.gz]
+[2023-07-11 14:56:03] INFO root fetch - processPackages [manticore]: Start processing: idbadapter
+[2023-07-11 14:56:03] INFO root fetch - main [MainThread]: End processing [manticore]: success
+[2023-07-11 14:56:03] INFO root fetch - processPackages [jplaw]: Downloading https://files.pythonhosted.org/packages/68/8b/473c44df16408a2daed23be98db913921a4d8bf09755e97572f4e01ed1a1/jplaw-0.1.7.tar.gz
+[2023-07-11 14:56:03] INFO root fetch - processPackages [idbadapter]: New version: [1.6] Old Version: [1.5]
+[2023-07-11 14:56:03] INFO root fetch - processPackages [Akatosh]: Downloading https://files.pythonhosted.org/packages/7f/ba/53b74f0a39fbae76048e5571b1d126398fd193556d1e2436406b7d7543f4/Akatosh-2.1.1.tar.gz
+[2023-07-11 14:56:03] INFO root fetch - processPackages [paradigm-client]: Downloading https://files.pythonhosted.org/packages/36/3b/eae63447cce3c71ce8b08f2d98f9a1bf2154e21b6eaa3722dffe3d1af5a9/paradigm_client-0.3.tar.gz
+[2023-07-11 14:56:03] INFO root fetch - processPackages [opensesame-core]: Downloading https://files.pythonhosted.org/packages/cf/26/c7d02bbff5ea9cdaadd021279610f4a041b848698403c25e09c426c37dd1/opensesame_core-4.0.0a52.tar.gz
+[2023-07-11 14:56:03] WARNING root fetch - processPackages [opensesame-core]: Skipping package: exceeds size limit 18927309>=10485760
+[2023-07-11 14:56:03] INFO root fetch - processPackages [opensesame-core]: Start processing: nornir-easy-netmiko
+[2023-07-11 14:56:03] INFO root fetch - main [MainThread]: End processing [opensesame-core] error
+[2023-07-11 14:56:03] INFO root fetch - processPackages [Akatosh]: executing diffoscope
+[2023-07-11 14:56:03] INFO root fetch - processPackages [Akatosh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Akatosh-2.1.0.tar.gz tmp/Akatosh-2.1.1.tar.gz --markdown 20230711/A/Akatosh/2.1.0-2.1.1/diff.md --exclude *.pyd
+[2023-07-11 14:56:03] INFO root fetch - processPackages [kolibri-google-analytics-plugin]: Downloading https://files.pythonhosted.org/packages/c3/72/183612330b01c4271f0a463cce14fd6d22c3419a989204e9898530d87a28/kolibri_google_analytics_plugin-0.1.2.tar.gz
+[2023-07-11 14:56:03] INFO root fetch - processPackages [nornir-easy-netmiko]: New version: [1.1.0] Old Version: [1.0.5]
+[2023-07-11 14:56:03] INFO root fetch - processPackages [idbadapter]: Downloading https://files.pythonhosted.org/packages/c8/7d/c08a7664d532f7e467394740800d4973469a824ad4ea6e7663343de44f5d/idbadapter-1.5.tar.gz
+[2023-07-11 14:56:03] INFO root fetch - processPackages [jplaw]: Downloading https://files.pythonhosted.org/packages/68/d4/6e0d4d79eb23ae525ac235280286acb548f663a5601fb1b2ff95ca1af004/jplaw-0.1.8.tar.gz
+[2023-07-11 14:56:04] INFO root fetch - processPackages [paradigm-client]: Downloading https://files.pythonhosted.org/packages/a0/fc/b790096ed17b717f2892761dff9152a1e4728d819e5c985b296e08952dc8/paradigm_client-0.4.tar.gz
+[2023-07-11 14:56:04] INFO root fetch - processPackages [histomicsui]: Downloading https://files.pythonhosted.org/packages/5d/a9/2ae7b88c94319cd67c58ef045a0f986fe966173c849fa028850347deb6f0/histomicsui-1.4.6.dev8.tar.gz
+[2023-07-11 14:56:04] INFO root fetch - processPackages [nornir-easy-netmiko]: Downloading https://files.pythonhosted.org/packages/a7/6f/8a3f0aaa696bbf2a051d714fd8fe69625c82f627857a85e80a9d543525a7/nornir_easy_netmiko-1.0.5.tar.gz
+[2023-07-11 14:56:04] INFO root fetch - processPackages [jplaw]: executing diffoscope
+[2023-07-11 14:56:04] INFO root fetch - processPackages [jplaw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jplaw-0.1.7.tar.gz tmp/jplaw-0.1.8.tar.gz --markdown 20230711/j/jplaw/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-11 14:56:04] INFO root fetch - processPackages [kolibri-google-analytics-plugin]: executing diffoscope
+[2023-07-11 14:56:04] INFO root fetch - processPackages [kolibri-google-analytics-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kolibri_google_analytics_plugin-0.1.1.tar.gz tmp/kolibri_google_analytics_plugin-0.1.2.tar.gz --markdown 20230711/k/kolibri-google-analytics-plugin/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-11 14:56:04] INFO root fetch - processPackages [paradigm-client]: executing diffoscope
+[2023-07-11 14:56:04] INFO root fetch - processPackages [paradigm-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paradigm_client-0.3.tar.gz tmp/paradigm_client-0.4.tar.gz --markdown 20230711/p/paradigm-client/0.3-0.4/diff.md --exclude *.pyd
+[2023-07-11 14:56:04] INFO root fetch - processPackages [idbadapter]: Downloading https://files.pythonhosted.org/packages/28/13/f677f108978456312a3e389a66a78eb28ab78372128e9d02e1d52666258c/idbadapter-1.6.tar.gz
+[2023-07-11 14:56:04] INFO root fetch - processPackages [histomicsui]: executing diffoscope
+[2023-07-11 14:56:04] INFO root fetch - processPackages [histomicsui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/histomicsui-1.4.6.dev6.tar.gz tmp/histomicsui-1.4.6.dev8.tar.gz --markdown 20230711/h/histomicsui/1.4.6.dev6-1.4.6.dev8/diff.md --exclude *.pyd
+[2023-07-11 14:56:04] INFO root fetch - processPackages [nornir-easy-netmiko]: Downloading https://files.pythonhosted.org/packages/6b/06/b9cc85682961e9e6cf7df7fd2eef5730162c716bb1b1a79b32278f5f96d2/nornir_easy_netmiko-1.1.0.tar.gz
+[2023-07-11 14:56:04] INFO root fetch - processPackages [idbadapter]: executing diffoscope
+[2023-07-11 14:56:04] INFO root fetch - processPackages [idbadapter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idbadapter-1.5.tar.gz tmp/idbadapter-1.6.tar.gz --markdown 20230711/i/idbadapter/1.5-1.6/diff.md --exclude *.pyd
+[2023-07-11 14:56:04] INFO root fetch - processPackages [nornir-easy-netmiko]: executing diffoscope
+[2023-07-11 14:56:04] INFO root fetch - processPackages [nornir-easy-netmiko]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nornir_easy_netmiko-1.0.5.tar.gz tmp/nornir_easy_netmiko-1.1.0.tar.gz --markdown 20230711/n/nornir-easy-netmiko/1.0.5-1.1.0/diff.md --exclude *.pyd
+[2023-07-11 14:56:05] INFO root fetch - processPackages [fxn]: Remove: archive file [/home/abi/fetcher/tmp/fxn-0.0.8.tar.gz]
+[2023-07-11 14:56:05] INFO root fetch - processPackages [fxn]: Remove: archive file [/home/abi/fetcher/tmp/fxn-0.0.9.tar.gz]
+[2023-07-11 14:56:05] INFO root fetch - main [MainThread]: End processing [fxn]: success
+[2023-07-11 14:56:06] INFO root fetch - processPackages [Akatosh]: Remove: archive file [/home/abi/fetcher/tmp/Akatosh-2.1.0.tar.gz]
+[2023-07-11 14:56:06] INFO root fetch - processPackages [Akatosh]: Remove: archive file [/home/abi/fetcher/tmp/Akatosh-2.1.1.tar.gz]
+[2023-07-11 14:56:06] INFO root fetch - main [MainThread]: End processing [Akatosh]: success
+[2023-07-11 14:56:06] INFO root fetch - processPackages [kappadata]: Remove: archive file [/home/abi/fetcher/tmp/kappadata-1.3.2.tar.gz]
+[2023-07-11 14:56:06] INFO root fetch - processPackages [kappadata]: Remove: archive file [/home/abi/fetcher/tmp/kappadata-1.3.3.tar.gz]
+[2023-07-11 14:56:06] INFO root fetch - main [MainThread]: End processing [kappadata]: success
+[2023-07-11 14:56:06] INFO root fetch - processPackages [kolibri-google-analytics-plugin]: Remove: archive file [/home/abi/fetcher/tmp/kolibri_google_analytics_plugin-0.1.1.tar.gz]
+[2023-07-11 14:56:06] INFO root fetch - processPackages [kolibri-google-analytics-plugin]: Remove: archive file [/home/abi/fetcher/tmp/kolibri_google_analytics_plugin-0.1.2.tar.gz]
+[2023-07-11 14:56:06] INFO root fetch - main [MainThread]: End processing [kolibri-google-analytics-plugin]: success
+[2023-07-11 14:56:06] INFO root fetch - processPackages [jplaw]: Remove: archive file [/home/abi/fetcher/tmp/jplaw-0.1.7.tar.gz]
+[2023-07-11 14:56:06] INFO root fetch - processPackages [jplaw]: Remove: archive file [/home/abi/fetcher/tmp/jplaw-0.1.8.tar.gz]
+[2023-07-11 14:56:06] INFO root fetch - main [MainThread]: End processing [jplaw]: success
+[2023-07-11 14:56:06] INFO root fetch - processPackages [paradigm-client]: Remove: archive file [/home/abi/fetcher/tmp/paradigm_client-0.3.tar.gz]
+[2023-07-11 14:56:06] INFO root fetch - processPackages [paradigm-client]: Remove: archive file [/home/abi/fetcher/tmp/paradigm_client-0.4.tar.gz]
+[2023-07-11 14:56:06] INFO root fetch - main [MainThread]: End processing [paradigm-client]: success
+[2023-07-11 14:56:06] INFO root fetch - processPackages [idbadapter]: Remove: archive file [/home/abi/fetcher/tmp/idbadapter-1.5.tar.gz]
+[2023-07-11 14:56:06] INFO root fetch - processPackages [idbadapter]: Remove: archive file [/home/abi/fetcher/tmp/idbadapter-1.6.tar.gz]
+[2023-07-11 14:56:06] INFO root fetch - main [MainThread]: End processing [idbadapter]: success
+[2023-07-11 14:56:06] INFO root fetch - processPackages [nornir-easy-netmiko]: Remove: archive file [/home/abi/fetcher/tmp/nornir_easy_netmiko-1.0.5.tar.gz]
+[2023-07-11 14:56:06] INFO root fetch - processPackages [nornir-easy-netmiko]: Remove: archive file [/home/abi/fetcher/tmp/nornir_easy_netmiko-1.1.0.tar.gz]
+[2023-07-11 14:56:06] INFO root fetch - main [MainThread]: End processing [nornir-easy-netmiko]: success
+[2023-07-11 14:56:07] INFO root fetch - processPackages [pymatgen]: Remove: archive file [/home/abi/fetcher/tmp/pymatgen-4.7.6.tar.gz]
+[2023-07-11 14:56:07] INFO root fetch - processPackages [pymatgen]: Remove: archive file [/home/abi/fetcher/tmp/pymatgen-4.7.7.tar.gz]
+[2023-07-11 14:56:07] INFO root fetch - main [MainThread]: End processing [pymatgen]: success
+[2023-07-11 14:56:08] INFO root fetch - processPackages [histomicsui]: Remove: archive file [/home/abi/fetcher/tmp/histomicsui-1.4.6.dev6.tar.gz]
+[2023-07-11 14:56:08] INFO root fetch - processPackages [histomicsui]: Remove: archive file [/home/abi/fetcher/tmp/histomicsui-1.4.6.dev8.tar.gz]
+[2023-07-11 14:56:08] INFO root fetch - main [MainThread]: End processing [histomicsui]: success
+[2023-07-11 14:56:08] INFO root fetch - main [MainThread]: Store serial: [18845567]
