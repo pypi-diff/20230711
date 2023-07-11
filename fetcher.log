@@ -19468,3 +19468,134 @@ AssertionError: tmp/doctran-0.0.6.tar.gz does not exist
 [2023-07-11 14:18:35] INFO root fetch - processPackages [udata-front]: Remove: archive file [/home/abi/fetcher/tmp/udata_front-3.2.5.dev11593-py2.py3-none-any.whl.zip]
 [2023-07-11 14:18:35] INFO root fetch - main [MainThread]: End processing [udata-front]: success
 [2023-07-11 14:18:35] INFO root fetch - main [MainThread]: Store serial: [18845104]
+[2023-07-11 14:23:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18845104]
+[2023-07-11 14:23:46] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-11 14:23:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bbox-visualizer2
+[2023-07-11 14:23:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ramodels
+[2023-07-11 14:23:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Finance-Hermes
+[2023-07-11 14:23:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: std-daq-service
+[2023-07-11 14:23:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dummy-url-wrapper
+[2023-07-11 14:23:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: warn-transformer
+[2023-07-11 14:23:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sqlalchemy2-stubs
+[2023-07-11 14:23:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyrippleapi
+[2023-07-11 14:23:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: GustavSelfBot
+[2023-07-11 14:23:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: temboard-agent
+[2023-07-11 14:23:46] WARNING root fetch - processPackages [bbox-visualizer2]: Skipping, unable to determine old version
+[2023-07-11 14:23:46] INFO root fetch - processPackages [bbox-visualizer2]: Start processing: temboard
+[2023-07-11 14:23:46] INFO root fetch - main [MainThread]: End processing [bbox-visualizer2] error
+[2023-07-11 14:23:46] INFO root fetch - processPackages [dummy-url-wrapper]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-11 14:23:46] INFO root fetch - processPackages [temboard]: New version: [8.1b1] Old Version: [8.0b6]
+[2023-07-11 14:23:46] INFO root fetch - processPackages [sqlalchemy2-stubs]: New version: [0.0.2a9] Old Version: [0.0.2a8]
+[2023-07-11 14:23:46] INFO root fetch - processPackages [pyrippleapi]: New version: [2023.7.1] Old Version: [2023.7]
+[2023-07-11 14:23:46] INFO root fetch - processPackages [GustavSelfBot]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-11 14:23:46] INFO root fetch - processPackages [std-daq-service]: New version: [1.1.1] Old Version: [1.0.2]
+[2023-07-11 14:23:46] INFO root fetch - processPackages [warn-transformer]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-07-11 14:23:46] INFO root fetch - processPackages [temboard-agent]: New version: [8.1b1] Old Version: [8.0b6]
+[2023-07-11 14:23:46] INFO root fetch - processPackages [Finance-Hermes]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-07-11 14:23:46] INFO root fetch - processPackages [ramodels]: New version: [9.7.3] Old Version: [9.7.2]
+[2023-07-11 14:23:46] INFO root fetch - processPackages [dummy-url-wrapper]: Downloading https://files.pythonhosted.org/packages/72/b8/b6432390c1140155bc7be00f19fa2f4f45388e11b1344eae288fb48a1043/dummy_url_wrapper-0.0.2.tar.gz
+[2023-07-11 14:23:46] INFO root fetch - processPackages [pyrippleapi]: Downloading https://files.pythonhosted.org/packages/b9/ab/514eeb3e30bf8fe645c713a6e897aa207129eeb0707ffd4cc2a3742a2db3/pyrippleapi-2023.7.tar.gz
+[2023-07-11 14:23:46] INFO root fetch - processPackages [warn-transformer]: Downloading https://files.pythonhosted.org/packages/27/ea/a7f48507ea48fcdbce1aeece06724a91fabd45f25890432912afb917e10a/warn-transformer-1.3.8.tar.gz
+[2023-07-11 14:23:46] INFO root fetch - processPackages [temboard]: Downloading https://files.pythonhosted.org/packages/e5/0a/893987006e9af18d6a0c386bfb8bbe82f7c0d87251870b7d7935acc4dc75/temboard-8.0b6.tar.gz
+[2023-07-11 14:23:46] INFO root fetch - processPackages [Finance-Hermes]: Downloading https://files.pythonhosted.org/packages/92/f7/191f4e9afb45386e56e51ca13ca765b50d3a34f4e55d85aa1df3ea1f3a3a/Finance_Hermes-0.2.5-py3.7-linux-x86_64.egg
+[2023-07-11 14:23:46] WARNING root fetch - processPackages [warn-transformer]: Skipping package: exceeds size limit 17532658>=10485760
+[2023-07-11 14:23:46] INFO root fetch - processPackages [warn-transformer]: Start processing: jolli
+[2023-07-11 14:23:46] INFO root fetch - main [MainThread]: End processing [warn-transformer] error
+[2023-07-11 14:23:46] INFO root fetch - processPackages [GustavSelfBot]: Downloading https://files.pythonhosted.org/packages/bd/ef/24e86050e82913b527f3e9cfab1b40babe293bc0fc1fc73bf67b8453393b/gustavselfbot-0.0.5.tar.gz
+[2023-07-11 14:23:46] INFO root fetch - processPackages [sqlalchemy2-stubs]: Downloading https://files.pythonhosted.org/packages/9e/3f/f2631de5c846f292a8aa2e51b0e1be28bbd56e77de6c7b55e411c8fa9778/sqlalchemy2-stubs-0.0.2a8.tar.gz
+[2023-07-11 14:23:46] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/29/94/25c6513c9642d16d4d771d154cb5d58a1f40fbf5e9234badf73bf79c1b4d/ramodels-9.7.2.tar.gz
+[2023-07-11 14:23:46] INFO root fetch - processPackages [temboard-agent]: Downloading https://files.pythonhosted.org/packages/d4/14/47de9e0f69e648b3ab2ac28ff50103b19509bfeb36f1e7e15507a769855a/temboard-agent-8.0b6.tar.gz
+[2023-07-11 14:23:46] INFO root fetch - processPackages [std-daq-service]: Downloading https://files.pythonhosted.org/packages/9e/d3/7634a74666f59dccd538ebed08027ec6ee813b00d48045d088b3fd045ad6/std_daq_service-1.0.2.tar.gz
+[2023-07-11 14:23:46] INFO root fetch - processPackages [jolli]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-11 14:23:47] INFO root fetch - processPackages [pyrippleapi]: Downloading https://files.pythonhosted.org/packages/11/41/cce2a949c9544a15d44e6b7e86520a17f2ebff29dd72dbb3583281134d0c/pyrippleapi-2023.7.1.tar.gz
+[2023-07-11 14:23:47] INFO root fetch - processPackages [dummy-url-wrapper]: Downloading https://files.pythonhosted.org/packages/c7/8b/e6e88c8ce792626019f34146d30adc7edd8902d51699914ec19df04c8ab9/dummy_url_wrapper-0.0.3.tar.gz
+[2023-07-11 14:23:47] INFO root fetch - processPackages [jolli]: Downloading https://files.pythonhosted.org/packages/00/5d/68748fa2cd1d61f77e82f8addf75f031e02b16f259bf728b2ce190cbe65a/jolli-0.0.8.tar.gz
+[2023-07-11 14:23:47] INFO root fetch - processPackages [GustavSelfBot]: Downloading https://files.pythonhosted.org/packages/88/4d/42622bc828b3778c90cf356c178e4358db46de250d9882f132f758a8d41b/gustavselfbot-0.0.6.tar.gz
+[2023-07-11 14:23:47] INFO root fetch - processPackages [sqlalchemy2-stubs]: Downloading https://files.pythonhosted.org/packages/89/20/796983c0844a5fd6be2392f2892e3c781e0a3525105301b22b6708d6cdb9/sqlalchemy2-stubs-0.0.2a9.tar.gz
+[2023-07-11 14:23:47] INFO root fetch - processPackages [std-daq-service]: Downloading https://files.pythonhosted.org/packages/d2/f3/27194a678394ca1461ca41a5e2a64f382ce781254f652623d44f84e6ff1a/std_daq_service-1.1.1.tar.gz
+[2023-07-11 14:23:47] INFO root fetch - processPackages [pyrippleapi]: executing diffoscope
+[2023-07-11 14:23:47] INFO root fetch - processPackages [pyrippleapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrippleapi-2023.7.tar.gz tmp/pyrippleapi-2023.7.1.tar.gz --markdown 20230711/p/pyrippleapi/2023.7-2023.7.1/diff.md --exclude *.pyd
+[2023-07-11 14:23:47] INFO root fetch - processPackages [temboard-agent]: Downloading https://files.pythonhosted.org/packages/76/eb/2fc48b3012c0cecf4d194ae183f4a252d807d214ee854060fa10ef43339d/temboard-agent-8.1b1.tar.gz
+[2023-07-11 14:23:47] INFO root fetch - processPackages [ramodels]: Downloading https://files.pythonhosted.org/packages/b1/d1/a8e61257ea98cd3ecc586e4ab73fdc4c6dc2c4b71071bd21a7915b67aeb9/ramodels-9.7.3.tar.gz
+[2023-07-11 14:23:47] INFO root fetch - processPackages [dummy-url-wrapper]: executing diffoscope
+[2023-07-11 14:23:47] INFO root fetch - processPackages [dummy-url-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dummy_url_wrapper-0.0.2.tar.gz tmp/dummy_url_wrapper-0.0.3.tar.gz --markdown 20230711/d/dummy-url-wrapper/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-11 14:23:47] INFO root fetch - processPackages [Finance-Hermes]: Downloading https://files.pythonhosted.org/packages/fd/03/1b4fec22dca4030862d53c2a4f247b1a50fdbf649e097ae758e480734848/Finance-Hermes-0.2.6.tar.gz
+[2023-07-11 14:23:47] INFO root fetch - processPackages [temboard]: Downloading https://files.pythonhosted.org/packages/9f/50/4cbf0267c02cdf2102f6fd611fdfbf1d74def86e430a6d73f0480d72760b/temboard-8.1b1.tar.gz
+[2023-07-11 14:23:47] INFO root fetch - processPackages [GustavSelfBot]: executing diffoscope
+[2023-07-11 14:23:47] INFO root fetch - processPackages [GustavSelfBot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gustavselfbot-0.0.5.tar.gz tmp/gustavselfbot-0.0.6.tar.gz --markdown 20230711/G/GustavSelfBot/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-11 14:23:47] INFO root fetch - processPackages [ramodels]: executing diffoscope
+[2023-07-11 14:23:47] INFO root fetch - processPackages [ramodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramodels-9.7.2.tar.gz tmp/ramodels-9.7.3.tar.gz --markdown 20230711/r/ramodels/9.7.2-9.7.3/diff.md --exclude *.pyd
+[2023-07-11 14:23:47] INFO root fetch - processPackages [std-daq-service]: executing diffoscope
+[2023-07-11 14:23:47] INFO root fetch - processPackages [std-daq-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/std_daq_service-1.0.2.tar.gz tmp/std_daq_service-1.1.1.tar.gz --markdown 20230711/s/std-daq-service/1.0.2-1.1.1/diff.md --exclude *.pyd
+[2023-07-11 14:23:47] INFO root fetch - processPackages [Finance-Hermes]: executing diffoscope
+[2023-07-11 14:23:47] INFO root fetch - processPackages [Finance-Hermes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Finance_Hermes-0.2.5-py3.7-linux-x86_64.egg tmp/Finance-Hermes-0.2.6.tar.gz --markdown 20230711/F/Finance-Hermes/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-07-11 14:23:47] INFO root fetch - processPackages [sqlalchemy2-stubs]: executing diffoscope
+[2023-07-11 14:23:47] INFO root fetch - processPackages [sqlalchemy2-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlalchemy2-stubs-0.0.2a8.tar.gz tmp/sqlalchemy2-stubs-0.0.2a9.tar.gz --markdown 20230711/s/sqlalchemy2-stubs/0.0.2a8-0.0.2a9/diff.md --exclude *.pyd
+[2023-07-11 14:23:47] INFO root fetch - processPackages [jolli]: Downloading https://files.pythonhosted.org/packages/2c/a6/f2e72029edf30aad141804f56587f3121896abe4715cb2bfca240ce36e33/jolli-0.0.9.tar.gz
+[2023-07-11 14:23:47] INFO root fetch - processPackages [temboard-agent]: executing diffoscope
+[2023-07-11 14:23:47] INFO root fetch - processPackages [temboard-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/temboard-agent-8.0b6.tar.gz tmp/temboard-agent-8.1b1.tar.gz --markdown 20230711/t/temboard-agent/8.0b6-8.1b1/diff.md --exclude *.pyd
+[2023-07-11 14:23:47] INFO root fetch - processPackages [temboard]: executing diffoscope
+[2023-07-11 14:23:47] INFO root fetch - processPackages [temboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/temboard-8.0b6.tar.gz tmp/temboard-8.1b1.tar.gz --markdown 20230711/t/temboard/8.0b6-8.1b1/diff.md --exclude *.pyd
+[2023-07-11 14:23:47] INFO root fetch - processPackages [jolli]: executing diffoscope
+[2023-07-11 14:23:47] INFO root fetch - processPackages [jolli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jolli-0.0.8.tar.gz tmp/jolli-0.0.9.tar.gz --markdown 20230711/j/jolli/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-11 14:23:48] INFO root fetch - processPackages [pyrippleapi]: Remove: archive file [/home/abi/fetcher/tmp/pyrippleapi-2023.7.tar.gz]
+[2023-07-11 14:23:48] INFO root fetch - processPackages [pyrippleapi]: Remove: archive file [/home/abi/fetcher/tmp/pyrippleapi-2023.7.1.tar.gz]
+[2023-07-11 14:23:48] INFO root fetch - processPackages [pyrippleapi]: Start processing: dummy-url-wrapper
+[2023-07-11 14:23:48] INFO root fetch - main [MainThread]: End processing [pyrippleapi]: success
+[2023-07-11 14:23:48] INFO root fetch - processPackages [dummy-url-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/dummy_url_wrapper-0.0.2.tar.gz]
+[2023-07-11 14:23:48] INFO root fetch - processPackages [dummy-url-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/dummy_url_wrapper-0.0.3.tar.gz]
+[2023-07-11 14:23:48] INFO root fetch - processPackages [dummy-url-wrapper]: Start processing: osemosys2iamc
+[2023-07-11 14:23:48] INFO root fetch - main [MainThread]: End processing [dummy-url-wrapper]: success
+[2023-07-11 14:23:48] INFO root fetch - processPackages [GustavSelfBot]: Remove: archive file [/home/abi/fetcher/tmp/gustavselfbot-0.0.5.tar.gz]
+[2023-07-11 14:23:48] INFO root fetch - processPackages [GustavSelfBot]: Remove: archive file [/home/abi/fetcher/tmp/gustavselfbot-0.0.6.tar.gz]
+[2023-07-11 14:23:48] INFO root fetch - processPackages [GustavSelfBot]: Start processing: XenonUI
+[2023-07-11 14:23:48] INFO root fetch - main [MainThread]: End processing [GustavSelfBot]: success
+[2023-07-11 14:23:48] INFO root fetch - processPackages [dummy-url-wrapper]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-11 14:23:49] WARNING root fetch - processPackages [XenonUI]: Skipping, unable to determine old version
+[2023-07-11 14:23:49] INFO root fetch - processPackages [XenonUI]: Start processing: telegram-pay
+[2023-07-11 14:23:49] INFO root fetch - main [MainThread]: End processing [XenonUI] error
+[2023-07-11 14:23:49] INFO root fetch - processPackages [osemosys2iamc]: New version: [0.2a2] Old Version: [0.2]
+[2023-07-11 14:23:49] INFO root fetch - processPackages [dummy-url-wrapper]: Downloading https://files.pythonhosted.org/packages/c7/8b/e6e88c8ce792626019f34146d30adc7edd8902d51699914ec19df04c8ab9/dummy_url_wrapper-0.0.3.tar.gz
+[2023-07-11 14:23:49] INFO root fetch - processPackages [telegram-pay]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-11 14:23:49] INFO root fetch - processPackages [telegram-pay]: Downloading https://files.pythonhosted.org/packages/16/94/112b8e4c5e7640e079e6e9938132317bb84a0cb522b792549dbead798b0a/telegram_pay-0.1.3.tar.gz
+[2023-07-11 14:23:49] INFO root fetch - processPackages [osemosys2iamc]: Downloading https://files.pythonhosted.org/packages/aa/81/f7704ea5c074ff35cfc2dc39cde0e2f4d9aa8c09b5d6799aba498a9df245/osemosys2iamc-0.2.tar.gz
+[2023-07-11 14:23:49] INFO root fetch - processPackages [jolli]: Remove: archive file [/home/abi/fetcher/tmp/jolli-0.0.8.tar.gz]
+[2023-07-11 14:23:49] INFO root fetch - processPackages [jolli]: Remove: archive file [/home/abi/fetcher/tmp/jolli-0.0.9.tar.gz]
+[2023-07-11 14:23:49] INFO root fetch - main [MainThread]: End processing [jolli]: success
+[2023-07-11 14:23:49] INFO root fetch - processPackages [dummy-url-wrapper]: Downloading https://files.pythonhosted.org/packages/17/9a/2ac537552e23ff847d0bea27e8d967a86000b04eea7359beb4cccc234270/dummy_url_wrapper-0.0.4.tar.gz
+[2023-07-11 14:23:49] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.2.tar.gz]
+[2023-07-11 14:23:49] INFO root fetch - processPackages [ramodels]: Remove: archive file [/home/abi/fetcher/tmp/ramodels-9.7.3.tar.gz]
+[2023-07-11 14:23:49] INFO root fetch - main [MainThread]: End processing [ramodels]: success
+[2023-07-11 14:23:49] INFO root fetch - processPackages [telegram-pay]: Downloading https://files.pythonhosted.org/packages/50/9b/9a8e51581a5b50d443db661eb513410fc4e6090026b2a745f92b47423804/telegram_pay-0.1.4.tar.gz
+[2023-07-11 14:23:49] INFO root fetch - processPackages [Finance-Hermes]: Remove: archive file [/home/abi/fetcher/tmp/Finance_Hermes-0.2.5-py3.7-linux-x86_64.egg]
+[2023-07-11 14:23:49] INFO root fetch - processPackages [Finance-Hermes]: Remove: archive file [/home/abi/fetcher/tmp/Finance-Hermes-0.2.6.tar.gz]
+[2023-07-11 14:23:49] INFO root fetch - main [MainThread]: End processing [Finance-Hermes]: success
+[2023-07-11 14:23:49] INFO root fetch - processPackages [std-daq-service]: Remove: archive file [/home/abi/fetcher/tmp/std_daq_service-1.0.2.tar.gz]
+[2023-07-11 14:23:49] INFO root fetch - processPackages [std-daq-service]: Remove: archive file [/home/abi/fetcher/tmp/std_daq_service-1.1.1.tar.gz]
+[2023-07-11 14:23:49] INFO root fetch - main [MainThread]: End processing [std-daq-service]: success
+[2023-07-11 14:23:49] INFO root fetch - processPackages [telegram-pay]: executing diffoscope
+[2023-07-11 14:23:49] INFO root fetch - processPackages [telegram-pay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telegram_pay-0.1.3.tar.gz tmp/telegram_pay-0.1.4.tar.gz --markdown 20230711/t/telegram-pay/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-11 14:23:49] INFO root fetch - processPackages [dummy-url-wrapper]: executing diffoscope
+[2023-07-11 14:23:49] INFO root fetch - processPackages [dummy-url-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dummy_url_wrapper-0.0.3.tar.gz tmp/dummy_url_wrapper-0.0.4.tar.gz --markdown 20230711/d/dummy-url-wrapper/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-11 14:23:49] INFO root fetch - processPackages [osemosys2iamc]: Downloading https://files.pythonhosted.org/packages/b6/d2/cf9bbcda973e9c0d83996a4edadf436322c14808358e2171887440e10d15/osemosys2iamc-0.2a2.tar.gz
+[2023-07-11 14:23:49] INFO root fetch - processPackages [temboard-agent]: Remove: archive file [/home/abi/fetcher/tmp/temboard-agent-8.0b6.tar.gz]
+[2023-07-11 14:23:49] INFO root fetch - processPackages [temboard-agent]: Remove: archive file [/home/abi/fetcher/tmp/temboard-agent-8.1b1.tar.gz]
+[2023-07-11 14:23:49] INFO root fetch - main [MainThread]: End processing [temboard-agent]: success
+[2023-07-11 14:23:49] INFO root fetch - processPackages [osemosys2iamc]: executing diffoscope
+[2023-07-11 14:23:49] INFO root fetch - processPackages [osemosys2iamc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osemosys2iamc-0.2.tar.gz tmp/osemosys2iamc-0.2a2.tar.gz --markdown 20230711/o/osemosys2iamc/0.2-0.2a2/diff.md --exclude *.pyd
+[2023-07-11 14:23:50] INFO root fetch - processPackages [sqlalchemy2-stubs]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy2-stubs-0.0.2a8.tar.gz]
+[2023-07-11 14:23:50] INFO root fetch - processPackages [sqlalchemy2-stubs]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy2-stubs-0.0.2a9.tar.gz]
+[2023-07-11 14:23:50] INFO root fetch - main [MainThread]: End processing [sqlalchemy2-stubs]: success
+[2023-07-11 14:23:50] INFO root fetch - processPackages [telegram-pay]: Remove: archive file [/home/abi/fetcher/tmp/telegram_pay-0.1.3.tar.gz]
+[2023-07-11 14:23:50] INFO root fetch - processPackages [telegram-pay]: Remove: archive file [/home/abi/fetcher/tmp/telegram_pay-0.1.4.tar.gz]
+[2023-07-11 14:23:50] INFO root fetch - main [MainThread]: End processing [telegram-pay]: success
+[2023-07-11 14:23:50] INFO root fetch - processPackages [dummy-url-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/dummy_url_wrapper-0.0.3.tar.gz]
+[2023-07-11 14:23:50] INFO root fetch - processPackages [dummy-url-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/dummy_url_wrapper-0.0.4.tar.gz]
+[2023-07-11 14:23:50] INFO root fetch - main [MainThread]: End processing [dummy-url-wrapper]: success
+[2023-07-11 14:23:50] INFO root fetch - processPackages [osemosys2iamc]: Remove: archive file [/home/abi/fetcher/tmp/osemosys2iamc-0.2.tar.gz]
+[2023-07-11 14:23:50] INFO root fetch - processPackages [osemosys2iamc]: Remove: archive file [/home/abi/fetcher/tmp/osemosys2iamc-0.2a2.tar.gz]
+[2023-07-11 14:23:50] INFO root fetch - main [MainThread]: End processing [osemosys2iamc]: success
+[2023-07-11 14:23:53] INFO root fetch - processPackages [temboard]: Remove: archive file [/home/abi/fetcher/tmp/temboard-8.0b6.tar.gz]
+[2023-07-11 14:23:53] INFO root fetch - processPackages [temboard]: Remove: archive file [/home/abi/fetcher/tmp/temboard-8.1b1.tar.gz]
+[2023-07-11 14:23:53] INFO root fetch - main [MainThread]: End processing [temboard]: success
+[2023-07-11 14:23:53] INFO root fetch - main [MainThread]: Store serial: [18845159]
