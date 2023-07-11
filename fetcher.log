@@ -21461,3 +21461,207 @@ AssertionError: tmp/doctran-0.0.6.tar.gz does not exist
 [2023-07-11 15:25:57] INFO root fetch - processPackages [Nuitka]: Remove: archive file [/home/abi/fetcher/tmp/Nuitka-1.7.4.tar.gz]
 [2023-07-11 15:25:57] INFO root fetch - main [MainThread]: End processing [Nuitka]: success
 [2023-07-11 15:25:57] INFO root fetch - main [MainThread]: Store serial: [18845931]
+[2023-07-11 15:31:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18845931]
+[2023-07-11 15:31:06] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-07-11 15:31:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nbdev-django
+[2023-07-11 15:31:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: graphene-protector
+[2023-07-11 15:31:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pteropy
+[2023-07-11 15:31:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: inet-nm
+[2023-07-11 15:31:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pepperize.cdk-route53-health-check
+[2023-07-11 15:31:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: oarepo-cli
+[2023-07-11 15:31:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyDuotecno
+[2023-07-11 15:31:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nbdev-apl
+[2023-07-11 15:31:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: appmap
+[2023-07-11 15:31:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: netbox-topology-views
+[2023-07-11 15:31:07] INFO root fetch - processPackages [inet-nm]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-11 15:31:07] INFO root fetch - processPackages [pteropy]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-11 15:31:07] INFO root fetch - processPackages [appmap]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-07-11 15:31:07] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-11 15:31:07] INFO root fetch - processPackages [pyDuotecno]: New version: [2023.7.1] Old Version: [2023.5.2]
+[2023-07-11 15:31:07] INFO root fetch - processPackages [graphene-protector]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-11 15:31:07] INFO root fetch - processPackages [oarepo-cli]: New version: [11.1.9] Old Version: [11.1.8]
+[2023-07-11 15:31:07] INFO root fetch - processPackages [nbdev-django]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-11 15:31:07] INFO root fetch - processPackages [netbox-topology-views]: New version: [3.6.1] Old Version: [3.6.0b2]
+[2023-07-11 15:31:07] INFO root fetch - processPackages [nbdev-apl]: New version: [0.0.888] Old Version: [0.0.887]
+[2023-07-11 15:31:07] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: Downloading https://files.pythonhosted.org/packages/a8/f1/c96971e2cc56adcde998c2d7a12c5cfd4591bb08ceefc50e3f6627a7fbab/pepperize.cdk-route53-health-check-0.0.98.tar.gz
+[2023-07-11 15:31:07] INFO root fetch - processPackages [pyDuotecno]: Downloading https://files.pythonhosted.org/packages/0e/b9/15b219eaf5bc1d1100dc9363550ff6871d8642f39b241daffac6bd4cf294/pyDuotecno-2023.5.2.tar.gz
+[2023-07-11 15:31:07] INFO root fetch - processPackages [pteropy]: Downloading https://files.pythonhosted.org/packages/ad/53/096bcb107d99f418c7ac753e3f64a1dd8876f9fb49f8ec64be0d9c98aa52/pteropy-0.1.8.tar.gz
+[2023-07-11 15:31:07] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/90/f1/7706141880f689924482a391a9796f1f450f5c9c1e87692f7340ff96cd8f/nbdev-apl-0.0.887.tar.gz
+[2023-07-11 15:31:07] INFO root fetch - processPackages [appmap]: Downloading https://files.pythonhosted.org/packages/f2/7e/f32f11d1f20873b6544f9429e83a6cb2a22abe5f245abba0bcd91dfe715c/appmap-1.9.0.tar.gz
+[2023-07-11 15:31:07] INFO root fetch - processPackages [inet-nm]: Downloading https://files.pythonhosted.org/packages/26/34/84301d0477d6b2e5ab5b53f74cb7baa61d2d368df6e4a1c56b7bb1d45783/inet-nm-0.0.6.tar.gz
+[2023-07-11 15:31:07] INFO root fetch - processPackages [netbox-topology-views]: Downloading https://files.pythonhosted.org/packages/22/35/e2261ee92210da1b893811bc20b8cc2e29baf56554d18b550e71159955d9/netbox-topology-views-3.6.0b2.tar.gz
+[2023-07-11 15:31:07] INFO root fetch - processPackages [nbdev-django]: Downloading https://files.pythonhosted.org/packages/2b/95/9e261b8f3e5f931da5a2f9ddc475954265376d1d468b6f3877f38ad482c3/nbdev-django-0.0.98.tar.gz
+[2023-07-11 15:31:07] INFO root fetch - processPackages [graphene-protector]: Downloading https://files.pythonhosted.org/packages/91/d5/ab1e639439be66f251de22a4796835571501625db94787f041758bcf3559/graphene_protector-0.9.0.tar.gz
+[2023-07-11 15:31:07] INFO root fetch - processPackages [oarepo-cli]: Downloading https://files.pythonhosted.org/packages/af/a7/2733a476ea08d89fb2f474b4da4c3e1bcd0256c07baebfab128540be8be1/oarepo-cli-11.1.8.tar.gz
+[2023-07-11 15:31:07] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: Downloading https://files.pythonhosted.org/packages/9f/92/909a62b351141186c782d8bdc77ece2c0787b84204291ce16a1ddb09b89e/pepperize.cdk-route53-health-check-0.0.99.tar.gz
+[2023-07-11 15:31:07] INFO root fetch - processPackages [pteropy]: Downloading https://files.pythonhosted.org/packages/a7/0c/14a3ebf3711728e59ef70f1b00578e58867489d710ec840c3d9df866bf63/pteropy-0.1.9.tar.gz
+[2023-07-11 15:31:07] INFO root fetch - processPackages [pyDuotecno]: Downloading https://files.pythonhosted.org/packages/44/70/a76c0eb02cedb74ccbb21cec3baf33968e592cfc09851a343ae776c81432/pyDuotecno-2023.7.1.tar.gz
+[2023-07-11 15:31:07] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/ca/bc/b5fb50ebfae33d66b3685a6749b8562e71efdf642fc2c0f6b0d904e678a9/nbdev-apl-0.0.888.tar.gz
+[2023-07-11 15:31:07] INFO root fetch - processPackages [inet-nm]: Downloading https://files.pythonhosted.org/packages/d3/f9/37830b4bff6ea13c38179ec0a46cb457e7a8a8fff0277253ac710d519994/inet-nm-0.0.7.tar.gz
+[2023-07-11 15:31:07] INFO root fetch - processPackages [pteropy]: executing diffoscope
+[2023-07-11 15:31:07] INFO root fetch - processPackages [pteropy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pteropy-0.1.8.tar.gz tmp/pteropy-0.1.9.tar.gz --markdown 20230711/p/pteropy/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-11 15:31:07] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: executing diffoscope
+[2023-07-11 15:31:07] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-route53-health-check-0.0.98.tar.gz tmp/pepperize.cdk-route53-health-check-0.0.99.tar.gz --markdown 20230711/p/pepperize.cdk-route53-health-check/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-11 15:31:07] INFO root fetch - processPackages [nbdev-apl]: executing diffoscope
+[2023-07-11 15:31:07] INFO root fetch - processPackages [nbdev-apl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-apl-0.0.887.tar.gz tmp/nbdev-apl-0.0.888.tar.gz --markdown 20230711/n/nbdev-apl/0.0.887-0.0.888/diff.md --exclude *.pyd
+[2023-07-11 15:31:07] INFO root fetch - processPackages [netbox-topology-views]: Downloading https://files.pythonhosted.org/packages/06/64/f3739117d8c75455e85d30daabaf06892b79826445c506a97f9a64023ca0/netbox-topology-views-3.6.1.tar.gz
+[2023-07-11 15:31:08] INFO root fetch - processPackages [nbdev-django]: Downloading https://files.pythonhosted.org/packages/f2/7a/5214014e1426324d1fea2f984c9b5480e467e5eddefe61721e8f4d1c025e/nbdev-django-0.0.99.tar.gz
+[2023-07-11 15:31:08] INFO root fetch - processPackages [appmap]: Downloading https://files.pythonhosted.org/packages/d8/c7/6ce38549b3048524dba85c7c34487c648fd10bdd5378a2654bf672a6baba/appmap-1.9.1.tar.gz
+[2023-07-11 15:31:08] INFO root fetch - processPackages [pyDuotecno]: executing diffoscope
+[2023-07-11 15:31:08] INFO root fetch - processPackages [pyDuotecno]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyDuotecno-2023.5.2.tar.gz tmp/pyDuotecno-2023.7.1.tar.gz --markdown 20230711/p/pyDuotecno/2023.5.2-2023.7.1/diff.md --exclude *.pyd
+[2023-07-11 15:31:08] INFO root fetch - processPackages [inet-nm]: executing diffoscope
+[2023-07-11 15:31:08] INFO root fetch - processPackages [inet-nm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inet-nm-0.0.6.tar.gz tmp/inet-nm-0.0.7.tar.gz --markdown 20230711/i/inet-nm/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-11 15:31:08] INFO root fetch - processPackages [graphene-protector]: Downloading https://files.pythonhosted.org/packages/b4/35/1f8905c25768c0f4c0d0e64a1c197438593d05b9fbe77336bef315f9a38d/graphene_protector-0.9.1.tar.gz
+[2023-07-11 15:31:08] INFO root fetch - processPackages [appmap]: executing diffoscope
+[2023-07-11 15:31:08] INFO root fetch - processPackages [appmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/appmap-1.9.0.tar.gz tmp/appmap-1.9.1.tar.gz --markdown 20230711/a/appmap/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-07-11 15:31:08] INFO root fetch - processPackages [nbdev-django]: executing diffoscope
+[2023-07-11 15:31:08] INFO root fetch - processPackages [nbdev-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-django-0.0.98.tar.gz tmp/nbdev-django-0.0.99.tar.gz --markdown 20230711/n/nbdev-django/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-11 15:31:08] INFO root fetch - processPackages [graphene-protector]: executing diffoscope
+[2023-07-11 15:31:08] INFO root fetch - processPackages [graphene-protector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphene_protector-0.9.0.tar.gz tmp/graphene_protector-0.9.1.tar.gz --markdown 20230711/g/graphene-protector/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-11 15:31:08] INFO root fetch - processPackages [netbox-topology-views]: executing diffoscope
+[2023-07-11 15:31:08] INFO root fetch - processPackages [netbox-topology-views]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-topology-views-3.6.0b2.tar.gz tmp/netbox-topology-views-3.6.1.tar.gz --markdown 20230711/n/netbox-topology-views/3.6.0b2-3.6.1/diff.md --exclude *.pyd
+[2023-07-11 15:31:08] INFO root fetch - processPackages [oarepo-cli]: Downloading https://files.pythonhosted.org/packages/c1/07/390f9767ed13e63ef97918ed09945b5501685e21d178f8f10dfc1cd2a54c/oarepo-cli-11.1.9.tar.gz
+[2023-07-11 15:31:08] INFO root fetch - processPackages [oarepo-cli]: executing diffoscope
+[2023-07-11 15:31:08] INFO root fetch - processPackages [oarepo-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-cli-11.1.8.tar.gz tmp/oarepo-cli-11.1.9.tar.gz --markdown 20230711/o/oarepo-cli/11.1.8-11.1.9/diff.md --exclude *.pyd
+[2023-07-11 15:31:09] INFO root fetch - processPackages [pteropy]: Remove: archive file [/home/abi/fetcher/tmp/pteropy-0.1.8.tar.gz]
+[2023-07-11 15:31:09] INFO root fetch - processPackages [pteropy]: Remove: archive file [/home/abi/fetcher/tmp/pteropy-0.1.9.tar.gz]
+[2023-07-11 15:31:09] INFO root fetch - processPackages [pteropy]: Start processing: jupyter-scatter
+[2023-07-11 15:31:09] INFO root fetch - main [MainThread]: End processing [pteropy]: success
+[2023-07-11 15:31:09] INFO root fetch - processPackages [jupyter-scatter]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-11 15:31:09] INFO root fetch - processPackages [nbdev-apl]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-apl-0.0.887.tar.gz]
+[2023-07-11 15:31:09] INFO root fetch - processPackages [nbdev-apl]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-apl-0.0.888.tar.gz]
+[2023-07-11 15:31:09] INFO root fetch - processPackages [nbdev-apl]: Start processing: phayes
+[2023-07-11 15:31:09] INFO root fetch - main [MainThread]: End processing [nbdev-apl]: success
+[2023-07-11 15:31:09] INFO root fetch - processPackages [phayes]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-11 15:31:09] INFO root fetch - processPackages [pyDuotecno]: Remove: archive file [/home/abi/fetcher/tmp/pyDuotecno-2023.5.2.tar.gz]
+[2023-07-11 15:31:09] INFO root fetch - processPackages [pyDuotecno]: Remove: archive file [/home/abi/fetcher/tmp/pyDuotecno-2023.7.1.tar.gz]
+[2023-07-11 15:31:09] INFO root fetch - processPackages [pyDuotecno]: Start processing: bbox-visualizer2
+[2023-07-11 15:31:09] INFO root fetch - main [MainThread]: End processing [pyDuotecno]: success
+[2023-07-11 15:31:09] INFO root fetch - processPackages [bbox-visualizer2]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-11 15:31:09] INFO root fetch - processPackages [jupyter-scatter]: Downloading https://files.pythonhosted.org/packages/52/d5/fdc26b2c812cb9385e85072bac02324d0ca1640b477dc79843e799450fac/jupyter-scatter-0.8.0.tar.gz
+[2023-07-11 15:31:09] INFO root fetch - processPackages [phayes]: Downloading https://files.pythonhosted.org/packages/76/65/6889050af6d001b444fa41dc2cbfb43821a568c52c689f82dd85a169f34d/phayes-0.1.0.tar.gz
+[2023-07-11 15:31:09] INFO root fetch - processPackages [nbdev-django]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-django-0.0.98.tar.gz]
+[2023-07-11 15:31:09] INFO root fetch - processPackages [nbdev-django]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-django-0.0.99.tar.gz]
+[2023-07-11 15:31:09] INFO root fetch - processPackages [nbdev-django]: Start processing: drb-driver-swift
+[2023-07-11 15:31:09] INFO root fetch - main [MainThread]: End processing [nbdev-django]: success
+[2023-07-11 15:31:09] INFO root fetch - processPackages [drb-driver-swift]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-07-11 15:31:09] INFO root fetch - processPackages [graphene-protector]: Remove: archive file [/home/abi/fetcher/tmp/graphene_protector-0.9.0.tar.gz]
+[2023-07-11 15:31:09] INFO root fetch - processPackages [graphene-protector]: Remove: archive file [/home/abi/fetcher/tmp/graphene_protector-0.9.1.tar.gz]
+[2023-07-11 15:31:09] INFO root fetch - processPackages [graphene-protector]: Start processing: gtki-module-exex
+[2023-07-11 15:31:09] INFO root fetch - main [MainThread]: End processing [graphene-protector]: success
+[2023-07-11 15:31:10] INFO root fetch - processPackages [bbox-visualizer2]: Downloading https://files.pythonhosted.org/packages/48/91/a04334a5bfedd143d88894edb41706cfcc416f0aaf88cc8d8fec8f0c9416/bbox_visualizer2-0.0.1.tar.gz
+[2023-07-11 15:31:10] INFO root fetch - processPackages [inet-nm]: Remove: archive file [/home/abi/fetcher/tmp/inet-nm-0.0.6.tar.gz]
+[2023-07-11 15:31:10] INFO root fetch - processPackages [inet-nm]: Remove: archive file [/home/abi/fetcher/tmp/inet-nm-0.0.7.tar.gz]
+[2023-07-11 15:31:10] INFO root fetch - processPackages [inet-nm]: Start processing: hpcom
+[2023-07-11 15:31:10] INFO root fetch - main [MainThread]: End processing [inet-nm]: success
+[2023-07-11 15:31:10] INFO root fetch - processPackages [gtki-module-exex]: New version: [0.0.62] Old Version: [0.0.61]
+[2023-07-11 15:31:10] INFO root fetch - processPackages [drb-driver-swift]: Downloading https://files.pythonhosted.org/packages/88/0c/fdf5c2d28650c522d41cc7e3b43a1b6ebe826e673e0b29f240a677ffcb11/drb-driver-swift-1.1.0.tar.gz
+[2023-07-11 15:31:10] INFO root fetch - processPackages [hpcom]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-11 15:31:10] INFO root fetch - processPackages [phayes]: Downloading https://files.pythonhosted.org/packages/cf/c4/91c7a9c231db70cafa6f4944db482d4e2728135128b4511d0c6b1b50c112/phayes-0.1.1.tar.gz
+[2023-07-11 15:31:10] INFO root fetch - processPackages [hpcom]: Downloading https://files.pythonhosted.org/packages/ff/67/24c456c270ecc88b890953ca4ac906e6bb4b9b987ba93e413c2995090167/hpcom-0.1.5.tar.gz
+[2023-07-11 15:31:10] INFO root fetch - processPackages [netbox-topology-views]: Remove: archive file [/home/abi/fetcher/tmp/netbox-topology-views-3.6.0b2.tar.gz]
+[2023-07-11 15:31:10] INFO root fetch - processPackages [netbox-topology-views]: Remove: archive file [/home/abi/fetcher/tmp/netbox-topology-views-3.6.1.tar.gz]
+[2023-07-11 15:31:10] INFO root fetch - processPackages [netbox-topology-views]: Start processing: aleph-nuls2
+[2023-07-11 15:31:10] INFO root fetch - main [MainThread]: End processing [netbox-topology-views]: success
+[2023-07-11 15:31:10] INFO root fetch - processPackages [gtki-module-exex]: Downloading https://files.pythonhosted.org/packages/21/d0/f8ed7eb6ee98f2e69894d229e4bbc0d1d606fd35356d3ed01b53da49b737/gtki_module_exex-0.0.61-py3-none-any.whl
+[2023-07-11 15:31:10] ERROR root fetch - processPackages [appmap]: Diffoscope failed: time="2023-07-11T15:31:08+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 51, in compare_details
+    describe_pyc(self.path),
+    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 65, in describe_pyc
+    return "\n".join(parse_pyc(f))
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 81, in parse_pyc
+    code = marshal.load(f)
+           ^^^^^^^^^^^^^^^
+EOFError: EOF read where object expected
+
+[2023-07-11 15:31:10] INFO root fetch - processPackages [appmap]: Start processing: drf-blog
+[2023-07-11 15:31:10] INFO root fetch - main [MainThread]: End processing [appmap] error
+[2023-07-11 15:31:10] INFO root fetch - processPackages [phayes]: executing diffoscope
+[2023-07-11 15:31:10] INFO root fetch - processPackages [phayes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phayes-0.1.0.tar.gz tmp/phayes-0.1.1.tar.gz --markdown 20230711/p/phayes/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-11 15:31:10] INFO root fetch - processPackages [bbox-visualizer2]: Downloading https://files.pythonhosted.org/packages/67/84/eb4ca6b11a311025d776c0af8b8f12eb8eb587b9114f92e80f2fc6799d90/bbox_visualizer2-0.0.2.tar.gz
+[2023-07-11 15:31:10] WARNING root fetch - processPackages [aleph-nuls2]: Skipping, unable to determine old version
+[2023-07-11 15:31:10] INFO root fetch - processPackages [aleph-nuls2]: Start processing: pytest-dryrun
+[2023-07-11 15:31:10] INFO root fetch - main [MainThread]: End processing [aleph-nuls2] error
+[2023-07-11 15:31:10] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-route53-health-check-0.0.98.tar.gz]
+[2023-07-11 15:31:10] INFO root fetch - processPackages [pepperize.cdk-route53-health-check]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-route53-health-check-0.0.99.tar.gz]
+[2023-07-11 15:31:10] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-route53-health-check]: success
+[2023-07-11 15:31:10] WARNING root fetch - processPackages [drf-blog]: Skipping, unable to determine old version
+[2023-07-11 15:31:10] INFO root fetch - main [MainThread]: End processing [drf-blog] error
+[2023-07-11 15:31:10] INFO root fetch - processPackages [drb-driver-swift]: Downloading https://files.pythonhosted.org/packages/44/01/9b2d275a3127b6355047cbfe022c9707014a1290a86e56622091274e397a/drb-driver-swift-1.2.0.tar.gz
+[2023-07-11 15:31:10] INFO root fetch - processPackages [hpcom]: Downloading https://files.pythonhosted.org/packages/4c/ca/25a7d7620ba4f97287fe5f31c919d11242bd051993f6402bb95decc1b14b/hpcom-0.1.6.tar.gz
+[2023-07-11 15:31:10] WARNING root fetch - processPackages [bbox-visualizer2]: Skipping package: exceeds size limit 11221224>=10485760
+[2023-07-11 15:31:10] INFO root fetch - main [MainThread]: End processing [bbox-visualizer2] error
+[2023-07-11 15:31:10] WARNING root fetch - processPackages [pytest-dryrun]: Skipping, unable to determine old version
+[2023-07-11 15:31:10] INFO root fetch - main [MainThread]: End processing [pytest-dryrun] error
+[2023-07-11 15:31:10] INFO root fetch - processPackages [hpcom]: executing diffoscope
+[2023-07-11 15:31:10] INFO root fetch - processPackages [hpcom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hpcom-0.1.5.tar.gz tmp/hpcom-0.1.6.tar.gz --markdown 20230711/h/hpcom/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-11 15:31:10] INFO root fetch - processPackages [gtki-module-exex]: Downloading https://files.pythonhosted.org/packages/fd/d2/59a5b8cfc5a3db26620ee341d528e63d4a9d8aadae82458a8bd02c6f3af2/gtki_module_exex-0.0.62-py3-none-any.whl
+[2023-07-11 15:31:10] INFO root fetch - processPackages [drb-driver-swift]: executing diffoscope
+[2023-07-11 15:31:10] INFO root fetch - processPackages [drb-driver-swift]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drb-driver-swift-1.1.0.tar.gz tmp/drb-driver-swift-1.2.0.tar.gz --markdown 20230711/d/drb-driver-swift/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-07-11 15:31:10] INFO root fetch - processPackages [gtki-module-exex]: executing diffoscope
+[2023-07-11 15:31:10] INFO root fetch - processPackages [gtki-module-exex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gtki_module_exex-0.0.61-py3-none-any.whl.zip tmp/gtki_module_exex-0.0.62-py3-none-any.whl.zip --markdown 20230711/g/gtki-module-exex/0.0.61-0.0.62/diff.md --exclude *.pyd
+[2023-07-11 15:31:11] INFO root fetch - processPackages [jupyter-scatter]: Downloading https://files.pythonhosted.org/packages/cd/a3/bab2feeb3c3ea460132cda34d75a2f6aac2e8c38ab82342eeae49bea3540/jupyter-scatter-0.9.0.tar.gz
+[2023-07-11 15:31:11] INFO root fetch - processPackages [phayes]: Remove: archive file [/home/abi/fetcher/tmp/phayes-0.1.0.tar.gz]
+[2023-07-11 15:31:11] INFO root fetch - processPackages [phayes]: Remove: archive file [/home/abi/fetcher/tmp/phayes-0.1.1.tar.gz]
+[2023-07-11 15:31:11] INFO root fetch - main [MainThread]: End processing [phayes]: success
+[2023-07-11 15:31:11] INFO root fetch - processPackages [jupyter-scatter]: executing diffoscope
+[2023-07-11 15:31:11] INFO root fetch - processPackages [jupyter-scatter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter-scatter-0.8.0.tar.gz tmp/jupyter-scatter-0.9.0.tar.gz --markdown 20230711/j/jupyter-scatter/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-11 15:31:11] INFO root fetch - processPackages [gtki-module-exex]: Remove: archive file [/home/abi/fetcher/tmp/gtki_module_exex-0.0.61-py3-none-any.whl.zip]
+[2023-07-11 15:31:11] INFO root fetch - processPackages [gtki-module-exex]: Remove: archive file [/home/abi/fetcher/tmp/gtki_module_exex-0.0.62-py3-none-any.whl.zip]
+[2023-07-11 15:31:11] INFO root fetch - main [MainThread]: End processing [gtki-module-exex]: success
+[2023-07-11 15:31:11] INFO root fetch - processPackages [hpcom]: Remove: archive file [/home/abi/fetcher/tmp/hpcom-0.1.5.tar.gz]
+[2023-07-11 15:31:11] INFO root fetch - processPackages [hpcom]: Remove: archive file [/home/abi/fetcher/tmp/hpcom-0.1.6.tar.gz]
+[2023-07-11 15:31:11] INFO root fetch - main [MainThread]: End processing [hpcom]: success
+[2023-07-11 15:31:11] INFO root fetch - processPackages [drb-driver-swift]: Remove: archive file [/home/abi/fetcher/tmp/drb-driver-swift-1.1.0.tar.gz]
+[2023-07-11 15:31:11] INFO root fetch - processPackages [drb-driver-swift]: Remove: archive file [/home/abi/fetcher/tmp/drb-driver-swift-1.2.0.tar.gz]
+[2023-07-11 15:31:11] INFO root fetch - main [MainThread]: End processing [drb-driver-swift]: success
+[2023-07-11 15:31:12] INFO root fetch - processPackages [oarepo-cli]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-cli-11.1.8.tar.gz]
+[2023-07-11 15:31:12] INFO root fetch - processPackages [oarepo-cli]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-cli-11.1.9.tar.gz]
+[2023-07-11 15:31:12] INFO root fetch - main [MainThread]: End processing [oarepo-cli]: success
+[2023-07-11 15:31:21] INFO root fetch - processPackages [jupyter-scatter]: Remove: archive file [/home/abi/fetcher/tmp/jupyter-scatter-0.8.0.tar.gz]
+[2023-07-11 15:31:21] INFO root fetch - processPackages [jupyter-scatter]: Remove: archive file [/home/abi/fetcher/tmp/jupyter-scatter-0.9.0.tar.gz]
+[2023-07-11 15:31:21] INFO root fetch - main [MainThread]: End processing [jupyter-scatter]: success
+[2023-07-11 15:31:21] INFO root fetch - main [MainThread]: Store serial: [18845991]
