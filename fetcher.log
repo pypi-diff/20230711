@@ -18453,3 +18453,95 @@ AssertionError: tmp/doctran-0.0.6.tar.gz does not exist
 [2023-07-11 13:37:56] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.4.0b20230711-py3-none-win_amd64.whl.zip]
 [2023-07-11 13:37:56] INFO root fetch - main [MainThread]: End processing [bigdl-llm]: success
 [2023-07-11 13:37:56] INFO root fetch - main [MainThread]: Store serial: [18844542]
+[2023-07-11 13:43:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18844542]
+[2023-07-11 13:43:10] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-11 13:43:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dbt-copilot-python
+[2023-07-11 13:43:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: returnn
+[2023-07-11 13:43:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fastdeploy
+[2023-07-11 13:43:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: linestar
+[2023-07-11 13:43:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: looqbox
+[2023-07-11 13:43:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: warn-transformer
+[2023-07-11 13:43:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ais-dom
+[2023-07-11 13:43:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: vessl
+[2023-07-11 13:43:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: async-firebase
+[2023-07-11 13:43:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gs2-cdk
+[2023-07-11 13:43:11] INFO root fetch - processPackages [linestar]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-11 13:43:11] INFO root fetch - processPackages [fastdeploy]: New version: [2.2.8] Old Version: [2.2.7rc4]
+[2023-07-11 13:43:11] INFO root fetch - processPackages [gs2-cdk]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-11 13:43:11] INFO root fetch - processPackages [ais-dom]: New version: [2023.7.2] Old Version: [2023.7.1]
+[2023-07-11 13:43:11] INFO root fetch - processPackages [looqbox]: New version: [4.2.0] Old Version: [4.1.5]
+[2023-07-11 13:43:11] INFO root fetch - processPackages [warn-transformer]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-07-11 13:43:11] INFO root fetch - processPackages [dbt-copilot-python]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-11 13:43:11] INFO root fetch - processPackages [returnn]: New version: [1.20230711.131732] Old Version: [1.20230710.141414]
+[2023-07-11 13:43:11] INFO root fetch - processPackages [vessl]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-11 13:43:11] INFO root fetch - processPackages [async-firebase]: New version: [3.2.0] Old Version: [3.1.1]
+[2023-07-11 13:43:11] INFO root fetch - processPackages [gs2-cdk]: Downloading https://files.pythonhosted.org/packages/e3/aa/0f163edc9bc64614a93358063b9233d886f8c00044a4ce8276f11777827e/gs2-cdk-1.0.8.tar.gz
+[2023-07-11 13:43:11] INFO root fetch - processPackages [linestar]: Downloading https://files.pythonhosted.org/packages/b2/ce/e6d2fdb259793e05ad462c37f37839ef0318af44b48410726b25516cabd4/linestar-0.0.1.tar.gz
+[2023-07-11 13:43:11] INFO root fetch - processPackages [ais-dom]: Downloading https://files.pythonhosted.org/packages/71/bd/4240e88789d82648767038be3cd68d5a2c0c186a70125f94984086e8809a/ais-dom-2023.7.1.tar.gz
+[2023-07-11 13:43:11] INFO root fetch - processPackages [warn-transformer]: Downloading https://files.pythonhosted.org/packages/27/ea/a7f48507ea48fcdbce1aeece06724a91fabd45f25890432912afb917e10a/warn-transformer-1.3.8.tar.gz
+[2023-07-11 13:43:11] INFO root fetch - processPackages [returnn]: Downloading https://files.pythonhosted.org/packages/df/b8/df6c6239e95df28ca63b783503a42227c391af96a38f336affb68867cee3/returnn-1.20230710.141414.tar.gz
+[2023-07-11 13:43:11] INFO root fetch - processPackages [fastdeploy]: Downloading https://files.pythonhosted.org/packages/4f/6e/3ff313f214f599665c81938a412a3fdbb467ba6113d36e73f9c0ce3a6221/fastdeploy-2.2.7rc4.tar.gz
+[2023-07-11 13:43:11] INFO root fetch - processPackages [looqbox]: Downloading https://files.pythonhosted.org/packages/0e/fa/bde8dc82cc4015bbbf1ef97d61d80dbf1a325a71302ea2553f81320d08a4/looqbox-4.1.5-py3-none-any.whl
+[2023-07-11 13:43:11] INFO root fetch - processPackages [dbt-copilot-python]: Downloading https://files.pythonhosted.org/packages/61/01/278b627cfb3366bca6ecc665e5d0154bce67f764ffed0033b3ffa43cc06e/dbt_copilot_python-0.1.0.tar.gz
+[2023-07-11 13:43:11] WARNING root fetch - processPackages [warn-transformer]: Skipping package: exceeds size limit 17532658>=10485760
+[2023-07-11 13:43:11] INFO root fetch - processPackages [warn-transformer]: Start processing: PlistParser
+[2023-07-11 13:43:11] INFO root fetch - main [MainThread]: End processing [warn-transformer] error
+[2023-07-11 13:43:11] INFO root fetch - processPackages [vessl]: Downloading https://files.pythonhosted.org/packages/38/7d/1b2b94a1083188f3376a0af9cb2701abb4c084a8e0608a25f97e191ab3e7/vessl-0.1.98.tar.gz
+[2023-07-11 13:43:11] INFO root fetch - processPackages [async-firebase]: Downloading https://files.pythonhosted.org/packages/7a/d3/891060038efdb482716afab0dda1d1d8af483e99ea18f2661181ea654d80/async_firebase-3.1.1.tar.gz
+[2023-07-11 13:43:11] INFO root fetch - processPackages [gs2-cdk]: Downloading https://files.pythonhosted.org/packages/29/69/56532d9a44c725ba36a6010c493491c32d238a25ff3b70b61de2bd6479ef/gs2-cdk-1.0.9.tar.gz
+[2023-07-11 13:43:11] WARNING root fetch - processPackages [PlistParser]: Skipping, unable to determine old version
+[2023-07-11 13:43:11] INFO root fetch - main [MainThread]: End processing [PlistParser] error
+[2023-07-11 13:43:11] INFO root fetch - processPackages [linestar]: Downloading https://files.pythonhosted.org/packages/9e/66/74f349bfa152281ec66974cc163133a915870b7f19f0efa1c85c3ec7541b/linestar-0.0.2.tar.gz
+[2023-07-11 13:43:11] INFO root fetch - processPackages [gs2-cdk]: executing diffoscope
+[2023-07-11 13:43:11] INFO root fetch - processPackages [gs2-cdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gs2-cdk-1.0.8.tar.gz tmp/gs2-cdk-1.0.9.tar.gz --markdown 20230711/g/gs2-cdk/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-11 13:43:11] INFO root fetch - processPackages [linestar]: executing diffoscope
+[2023-07-11 13:43:11] INFO root fetch - processPackages [linestar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linestar-0.0.1.tar.gz tmp/linestar-0.0.2.tar.gz --markdown 20230711/l/linestar/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-11 13:43:11] INFO root fetch - processPackages [dbt-copilot-python]: Downloading https://files.pythonhosted.org/packages/b0/8c/9c0c1fcd04fb03c2295834049ce8aa9c38cb3e407253a87f17e680bc6454/dbt_copilot_python-0.1.1.tar.gz
+[2023-07-11 13:43:12] INFO root fetch - processPackages [fastdeploy]: Downloading https://files.pythonhosted.org/packages/94/63/24eb7c1b17f12cf84be0a1bcba4aac99cdf3ccd62bf906a0d2d2f5166ac9/fastdeploy-2.2.8.tar.gz
+[2023-07-11 13:43:12] INFO root fetch - processPackages [returnn]: Downloading https://files.pythonhosted.org/packages/b5/ca/ad68cce8d542fcd46e769d08e98010b327e31f7dd90076850d124273d481/returnn-1.20230711.131732.tar.gz
+[2023-07-11 13:43:12] INFO root fetch - processPackages [async-firebase]: Downloading https://files.pythonhosted.org/packages/c6/29/1545371c886f7b9fdeba86dfe9977db75df427825d09fb57f3fee495f73f/async_firebase-3.2.0.tar.gz
+[2023-07-11 13:43:12] INFO root fetch - processPackages [vessl]: Downloading https://files.pythonhosted.org/packages/21/b8/cbd9a61ba9f582b647d4ef42d4b54900e40293bc599bde0a7f1fe73974bc/vessl-0.1.99.tar.gz
+[2023-07-11 13:43:12] INFO root fetch - processPackages [dbt-copilot-python]: executing diffoscope
+[2023-07-11 13:43:12] INFO root fetch - processPackages [dbt-copilot-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt_copilot_python-0.1.0.tar.gz tmp/dbt_copilot_python-0.1.1.tar.gz --markdown 20230711/d/dbt-copilot-python/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-11 13:43:12] INFO root fetch - processPackages [ais-dom]: Downloading https://files.pythonhosted.org/packages/d7/0b/82c3c3cde4e5c2adb171cd8247171cd7ff826c86e95fa82bf0045e409004/ais-dom-2023.7.2.tar.gz
+[2023-07-11 13:43:12] INFO root fetch - processPackages [fastdeploy]: executing diffoscope
+[2023-07-11 13:43:12] INFO root fetch - processPackages [fastdeploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastdeploy-2.2.7rc4.tar.gz tmp/fastdeploy-2.2.8.tar.gz --markdown 20230711/f/fastdeploy/2.2.7rc4-2.2.8/diff.md --exclude *.pyd
+[2023-07-11 13:43:12] INFO root fetch - processPackages [async-firebase]: executing diffoscope
+[2023-07-11 13:43:12] INFO root fetch - processPackages [async-firebase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/async_firebase-3.1.1.tar.gz tmp/async_firebase-3.2.0.tar.gz --markdown 20230711/a/async-firebase/3.1.1-3.2.0/diff.md --exclude *.pyd
+[2023-07-11 13:43:12] INFO root fetch - processPackages [vessl]: executing diffoscope
+[2023-07-11 13:43:12] INFO root fetch - processPackages [vessl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vessl-0.1.98.tar.gz tmp/vessl-0.1.99.tar.gz --markdown 20230711/v/vessl/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-11 13:43:12] INFO root fetch - processPackages [returnn]: executing diffoscope
+[2023-07-11 13:43:12] INFO root fetch - processPackages [returnn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/returnn-1.20230710.141414.tar.gz tmp/returnn-1.20230711.131732.tar.gz --markdown 20230711/r/returnn/1.20230710.141414-1.20230711.131732/diff.md --exclude *.pyd
+[2023-07-11 13:43:12] INFO root fetch - processPackages [linestar]: Remove: archive file [/home/abi/fetcher/tmp/linestar-0.0.1.tar.gz]
+[2023-07-11 13:43:12] INFO root fetch - processPackages [linestar]: Remove: archive file [/home/abi/fetcher/tmp/linestar-0.0.2.tar.gz]
+[2023-07-11 13:43:12] INFO root fetch - main [MainThread]: End processing [linestar]: success
+[2023-07-11 13:43:13] INFO root fetch - processPackages [looqbox]: Downloading https://files.pythonhosted.org/packages/1a/47/1642b63abd529c9d9e07c1ccb5081c2bdc7c832640a87d86118ddd67bca7/looqbox-4.2.0-py3-none-any.whl
+[2023-07-11 13:43:13] INFO root fetch - processPackages [dbt-copilot-python]: Remove: archive file [/home/abi/fetcher/tmp/dbt_copilot_python-0.1.0.tar.gz]
+[2023-07-11 13:43:13] INFO root fetch - processPackages [dbt-copilot-python]: Remove: archive file [/home/abi/fetcher/tmp/dbt_copilot_python-0.1.1.tar.gz]
+[2023-07-11 13:43:13] INFO root fetch - main [MainThread]: End processing [dbt-copilot-python]: success
+[2023-07-11 13:43:13] INFO root fetch - processPackages [fastdeploy]: Remove: archive file [/home/abi/fetcher/tmp/fastdeploy-2.2.7rc4.tar.gz]
+[2023-07-11 13:43:13] INFO root fetch - processPackages [fastdeploy]: Remove: archive file [/home/abi/fetcher/tmp/fastdeploy-2.2.8.tar.gz]
+[2023-07-11 13:43:13] INFO root fetch - main [MainThread]: End processing [fastdeploy]: success
+[2023-07-11 13:43:13] INFO root fetch - processPackages [async-firebase]: Remove: archive file [/home/abi/fetcher/tmp/async_firebase-3.1.1.tar.gz]
+[2023-07-11 13:43:13] INFO root fetch - processPackages [async-firebase]: Remove: archive file [/home/abi/fetcher/tmp/async_firebase-3.2.0.tar.gz]
+[2023-07-11 13:43:13] INFO root fetch - main [MainThread]: End processing [async-firebase]: success
+[2023-07-11 13:43:13] INFO root fetch - processPackages [looqbox]: executing diffoscope
+[2023-07-11 13:43:13] INFO root fetch - processPackages [looqbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/looqbox-4.1.5-py3-none-any.whl.zip tmp/looqbox-4.2.0-py3-none-any.whl.zip --markdown 20230711/l/looqbox/4.1.5-4.2.0/diff.md --exclude *.pyd
+[2023-07-11 13:43:14] INFO root fetch - processPackages [ais-dom]: executing diffoscope
+[2023-07-11 13:43:14] INFO root fetch - processPackages [ais-dom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ais-dom-2023.7.1.tar.gz tmp/ais-dom-2023.7.2.tar.gz --markdown 20230711/a/ais-dom/2023.7.1-2023.7.2/diff.md --exclude *.pyd
+[2023-07-11 13:43:15] INFO root fetch - processPackages [gs2-cdk]: Remove: archive file [/home/abi/fetcher/tmp/gs2-cdk-1.0.8.tar.gz]
+[2023-07-11 13:43:15] INFO root fetch - processPackages [gs2-cdk]: Remove: archive file [/home/abi/fetcher/tmp/gs2-cdk-1.0.9.tar.gz]
+[2023-07-11 13:43:15] INFO root fetch - main [MainThread]: End processing [gs2-cdk]: success
+[2023-07-11 13:43:15] INFO root fetch - processPackages [looqbox]: Remove: archive file [/home/abi/fetcher/tmp/looqbox-4.1.5-py3-none-any.whl.zip]
+[2023-07-11 13:43:15] INFO root fetch - processPackages [looqbox]: Remove: archive file [/home/abi/fetcher/tmp/looqbox-4.2.0-py3-none-any.whl.zip]
+[2023-07-11 13:43:15] INFO root fetch - main [MainThread]: End processing [looqbox]: success
+[2023-07-11 13:43:15] INFO root fetch - processPackages [returnn]: Remove: archive file [/home/abi/fetcher/tmp/returnn-1.20230710.141414.tar.gz]
+[2023-07-11 13:43:15] INFO root fetch - processPackages [returnn]: Remove: archive file [/home/abi/fetcher/tmp/returnn-1.20230711.131732.tar.gz]
+[2023-07-11 13:43:15] INFO root fetch - main [MainThread]: End processing [returnn]: success
+[2023-07-11 13:43:18] INFO root fetch - processPackages [vessl]: Remove: archive file [/home/abi/fetcher/tmp/vessl-0.1.98.tar.gz]
+[2023-07-11 13:43:18] INFO root fetch - processPackages [vessl]: Remove: archive file [/home/abi/fetcher/tmp/vessl-0.1.99.tar.gz]
+[2023-07-11 13:43:18] INFO root fetch - main [MainThread]: End processing [vessl]: success
+[2023-07-11 13:46:05] INFO root fetch - processPackages [ais-dom]: Remove: archive file [/home/abi/fetcher/tmp/ais-dom-2023.7.1.tar.gz]
+[2023-07-11 13:46:05] INFO root fetch - processPackages [ais-dom]: Remove: archive file [/home/abi/fetcher/tmp/ais-dom-2023.7.2.tar.gz]
+[2023-07-11 13:46:05] INFO root fetch - main [MainThread]: End processing [ais-dom]: success
+[2023-07-11 13:46:05] INFO root fetch - main [MainThread]: Store serial: [18844578]
