@@ -8420,3 +8420,48 @@ AssertionError: tmp/doctran-0.0.6.tar.gz does not exist
 [2023-07-11 05:13:19] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.9.tar.gz]
 [2023-07-11 05:13:19] INFO root fetch - main [MainThread]: End processing [oloren]: success
 [2023-07-11 05:13:19] INFO root fetch - main [MainThread]: Store serial: [18840326]
+[2023-07-11 05:18:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18840326]
+[2023-07-11 05:18:28] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-07-11 05:18:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyARSS
+[2023-07-11 05:18:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: GANDLF
+[2023-07-11 05:18:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: etcd-sdk-python
+[2023-07-11 05:18:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: airunner
+[2023-07-11 05:18:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: allianceauth
+[2023-07-11 05:18:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: azure-cli-diff-tool
+[2023-07-11 05:18:28] WARNING root fetch - processPackages [pyARSS]: Skipping, unable to determine old version
+[2023-07-11 05:18:28] INFO root fetch - main [MainThread]: End processing [pyARSS] error
+[2023-07-11 05:18:28] INFO root fetch - processPackages [GANDLF]: New version: [0.0.17.dev20230710] Old Version: [0.0.17.dev20230709]
+[2023-07-11 05:18:28] INFO root fetch - processPackages [airunner]: New version: [2.1.1] Old Version: [2.1.0]
+[2023-07-11 05:18:28] INFO root fetch - processPackages [etcd-sdk-python]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-11 05:18:28] INFO root fetch - processPackages [airunner]: Downloading https://files.pythonhosted.org/packages/23/b7/fb2b14b3aa47af1bbe584c92d022b7bac79cf51209d6e5c02e376e488422/airunner-2.1.0.tar.gz
+[2023-07-11 05:18:28] INFO root fetch - processPackages [allianceauth]: New version: [3.5.0] Old Version: [3.4.0]
+[2023-07-11 05:18:28] WARNING root fetch - processPackages [azure-cli-diff-tool]: Skipping, unable to determine old version
+[2023-07-11 05:18:28] INFO root fetch - main [MainThread]: End processing [azure-cli-diff-tool] error
+[2023-07-11 05:18:28] INFO root fetch - processPackages [GANDLF]: Downloading https://files.pythonhosted.org/packages/ee/a8/a43a15165817beb5c2f5bc6e020d0593f3fb495640e1e509f09ae92fa356/GANDLF-0.0.17.dev20230709.tar.gz
+[2023-07-11 05:18:28] INFO root fetch - processPackages [etcd-sdk-python]: Downloading https://files.pythonhosted.org/packages/90/d0/d7fa871308faa719f3df0a1e54ba17c561ef2d429c3aeca5f5af6302ed71/etcd-sdk-python-0.0.2.tar.gz
+[2023-07-11 05:18:28] INFO root fetch - processPackages [allianceauth]: Downloading https://files.pythonhosted.org/packages/b9/1c/f71eeee3d5bedbc070b9888fe7eb8721e8cbd33149c7a2328521b96f5a29/allianceauth-3.4.0.tar.gz
+[2023-07-11 05:18:28] INFO root fetch - processPackages [GANDLF]: Downloading https://files.pythonhosted.org/packages/8d/22/9fc28562eb50fa00293e8389f9645d8bcf9bd989dfb3ca3b74cfff8666c7/GANDLF-0.0.17.dev20230710.tar.gz
+[2023-07-11 05:18:29] INFO root fetch - processPackages [airunner]: Downloading https://files.pythonhosted.org/packages/40/c2/5ac770760b11c636b11f138d6c3ddfcc34bfcbe175933ad17596390ce46b/airunner-2.1.1.tar.gz
+[2023-07-11 05:18:29] INFO root fetch - processPackages [GANDLF]: executing diffoscope
+[2023-07-11 05:18:29] INFO root fetch - processPackages [GANDLF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GANDLF-0.0.17.dev20230709.tar.gz tmp/GANDLF-0.0.17.dev20230710.tar.gz --markdown 20230711/G/GANDLF/0.0.17.dev20230709-0.0.17.dev20230710/diff.md --exclude *.pyd
+[2023-07-11 05:18:29] INFO root fetch - processPackages [airunner]: executing diffoscope
+[2023-07-11 05:18:29] INFO root fetch - processPackages [airunner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airunner-2.1.0.tar.gz tmp/airunner-2.1.1.tar.gz --markdown 20230711/a/airunner/2.1.0-2.1.1/diff.md --exclude *.pyd
+[2023-07-11 05:18:29] INFO root fetch - processPackages [etcd-sdk-python]: Downloading https://files.pythonhosted.org/packages/e4/b8/caa60b050e5fc31fb6085e46c8fdbe1db4c15a32a43dc866dbeb39317688/etcd-sdk-python-0.0.3.tar.gz
+[2023-07-11 05:18:29] INFO root fetch - processPackages [allianceauth]: Downloading https://files.pythonhosted.org/packages/37/a6/b5c31fbce32c91526c968fc4139190904a3bb118725b647f4df84a00c718/allianceauth-3.5.0.tar.gz
+[2023-07-11 05:18:29] INFO root fetch - processPackages [etcd-sdk-python]: executing diffoscope
+[2023-07-11 05:18:29] INFO root fetch - processPackages [etcd-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/etcd-sdk-python-0.0.2.tar.gz tmp/etcd-sdk-python-0.0.3.tar.gz --markdown 20230711/e/etcd-sdk-python/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-11 05:18:29] INFO root fetch - processPackages [allianceauth]: executing diffoscope
+[2023-07-11 05:18:29] INFO root fetch - processPackages [allianceauth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/allianceauth-3.4.0.tar.gz tmp/allianceauth-3.5.0.tar.gz --markdown 20230711/a/allianceauth/3.4.0-3.5.0/diff.md --exclude *.pyd
+[2023-07-11 05:18:30] INFO root fetch - processPackages [airunner]: Remove: archive file [/home/abi/fetcher/tmp/airunner-2.1.0.tar.gz]
+[2023-07-11 05:18:30] INFO root fetch - processPackages [airunner]: Remove: archive file [/home/abi/fetcher/tmp/airunner-2.1.1.tar.gz]
+[2023-07-11 05:18:30] INFO root fetch - main [MainThread]: End processing [airunner]: success
+[2023-07-11 05:18:30] INFO root fetch - processPackages [etcd-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/etcd-sdk-python-0.0.2.tar.gz]
+[2023-07-11 05:18:30] INFO root fetch - processPackages [etcd-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/etcd-sdk-python-0.0.3.tar.gz]
+[2023-07-11 05:18:30] INFO root fetch - main [MainThread]: End processing [etcd-sdk-python]: success
+[2023-07-11 05:18:30] INFO root fetch - processPackages [GANDLF]: Remove: archive file [/home/abi/fetcher/tmp/GANDLF-0.0.17.dev20230709.tar.gz]
+[2023-07-11 05:18:30] INFO root fetch - processPackages [GANDLF]: Remove: archive file [/home/abi/fetcher/tmp/GANDLF-0.0.17.dev20230710.tar.gz]
+[2023-07-11 05:18:30] INFO root fetch - main [MainThread]: End processing [GANDLF]: success
+[2023-07-11 05:18:33] INFO root fetch - processPackages [allianceauth]: Remove: archive file [/home/abi/fetcher/tmp/allianceauth-3.4.0.tar.gz]
+[2023-07-11 05:18:33] INFO root fetch - processPackages [allianceauth]: Remove: archive file [/home/abi/fetcher/tmp/allianceauth-3.5.0.tar.gz]
+[2023-07-11 05:18:33] INFO root fetch - main [MainThread]: End processing [allianceauth]: success
+[2023-07-11 05:18:33] INFO root fetch - main [MainThread]: Store serial: [18840355]
