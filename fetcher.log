@@ -7407,3 +7407,119 @@ AssertionError: tmp/doctran-0.0.6.tar.gz does not exist
 [2023-07-11 04:36:15] INFO root fetch - processPackages [nlp-id]: Remove: archive file [/home/abi/fetcher/tmp/nlp_id-0.1.9.8.tar.gz]
 [2023-07-11 04:36:15] INFO root fetch - main [MainThread]: End processing [nlp-id]: success
 [2023-07-11 04:36:15] INFO root fetch - main [MainThread]: Store serial: [18839906]
+[2023-07-11 04:41:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18839906]
+[2023-07-11 04:41:24] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-11 04:41:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rpamaker
+[2023-07-11 04:41:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo11-addon-account-loan
+[2023-07-11 04:41:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: metget
+[2023-07-11 04:41:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cx-Freeze
+[2023-07-11 04:41:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: citybrain-official
+[2023-07-11 04:41:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pedihlibs
+[2023-07-11 04:41:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk8s-plus-24
+[2023-07-11 04:41:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tictactools
+[2023-07-11 04:41:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: databend
+[2023-07-11 04:41:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: compare-dfs
+[2023-07-11 04:41:24] INFO root fetch - processPackages [databend]: New version: [1.2.8] Old Version: [1.2.7]
+[2023-07-11 04:41:24] INFO root fetch - processPackages [citybrain-official]: New version: [0.9] Old Version: [0.8]
+[2023-07-11 04:41:24] INFO root fetch - processPackages [tictactools]: New version: [1.2] Old Version: [1.1]
+[2023-07-11 04:41:24] INFO root fetch - processPackages [rpamaker]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-11 04:41:24] INFO root fetch - processPackages [metget]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-11 04:41:24] WARNING root fetch - processPackages [pedihlibs]: Skipping, unable to determine old version
+[2023-07-11 04:41:24] INFO root fetch - processPackages [pedihlibs]: Start processing: mydaoyipackage
+[2023-07-11 04:41:24] INFO root fetch - processPackages [odoo11-addon-account-loan]: New version: [11.0.1.2.0.99.dev6] Old Version: [11.0.1.2.0.99.dev5]
+[2023-07-11 04:41:24] INFO root fetch - main [MainThread]: End processing [pedihlibs] error
+[2023-07-11 04:41:24] INFO root fetch - processPackages [compare-dfs]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-11 04:41:24] INFO root fetch - processPackages [cdk8s-plus-24]: New version: [2.8.9] Old Version: [2.8.83]
+[2023-07-11 04:41:24] INFO root fetch - processPackages [cx-Freeze]: New version: [6.9] Old Version: [6.8b5]
+[2023-07-11 04:41:24] INFO root fetch - processPackages [databend]: Downloading https://files.pythonhosted.org/packages/12/f6/b900d9db17f14e3b5b29a70678a77c9b13ec65fb952712fcc1c6868905ac/databend-1.2.7-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-11 04:41:24] INFO root fetch - processPackages [tictactools]: Downloading https://files.pythonhosted.org/packages/92/8b/06b90983bd04fd73e47f5ec9d29f75dae78e4540f58974cc31fcbe1b15e0/tictactools-1.1.tar.gz
+[2023-07-11 04:41:24] INFO root fetch - processPackages [citybrain-official]: Downloading https://files.pythonhosted.org/packages/69/1f/5387feaf63a242691a4816181ddd52ee6be2dcdc055b51c630c4cd76e2fc/citybrain-official-0.8.tar.gz
+[2023-07-11 04:41:24] WARNING root fetch - processPackages [mydaoyipackage]: Skipping, unable to determine old version
+[2023-07-11 04:41:24] INFO root fetch - processPackages [mydaoyipackage]: Start processing: lawsuitssubsystem
+[2023-07-11 04:41:24] INFO root fetch - main [MainThread]: End processing [mydaoyipackage] error
+[2023-07-11 04:41:24] INFO root fetch - processPackages [rpamaker]: Downloading https://files.pythonhosted.org/packages/ae/cc/d5be25893f871b175941e3fca4e40513a034a9f0534238c8a476720f2a4d/rpamaker-0.0.8.tar.gz
+[2023-07-11 04:41:24] WARNING root fetch - processPackages [databend]: Skipping package: exceeds size limit 31220931>=10485760
+[2023-07-11 04:41:24] INFO root fetch - processPackages [databend]: Start processing: peelml
+[2023-07-11 04:41:24] INFO root fetch - main [MainThread]: End processing [databend] error
+[2023-07-11 04:41:24] WARNING root fetch - processPackages [lawsuitssubsystem]: Skipping, unable to determine old version
+[2023-07-11 04:41:24] INFO root fetch - processPackages [lawsuitssubsystem]: Start processing: cdk8s-plus-26
+[2023-07-11 04:41:24] INFO root fetch - main [MainThread]: End processing [lawsuitssubsystem] error
+[2023-07-11 04:41:24] INFO root fetch - processPackages [cdk8s-plus-24]: Downloading https://files.pythonhosted.org/packages/fa/65/972e07bf2c86a853c249692303030038d784dd0123cf2ce2bd986f491949/cdk8s-plus-24-2.8.83.tar.gz
+[2023-07-11 04:41:25] INFO root fetch - processPackages [metget]: Downloading https://files.pythonhosted.org/packages/97/54/bbd9b5b7fae3274cecc3b8f80c63346a594bddaa7a596d3934f93ef1078d/metget-0.2.0.tar.gz
+[2023-07-11 04:41:25] INFO root fetch - processPackages [compare-dfs]: Downloading https://files.pythonhosted.org/packages/a4/d5/b508738bbc7b94caa188af6c611dd840dfad1abd6a4537602fcf4d1b12f2/compare_dfs-0.0.3.tar.gz
+[2023-07-11 04:41:25] INFO root fetch - processPackages [peelml]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-07-11 04:41:25] INFO root fetch - processPackages [odoo11-addon-account-loan]: Downloading https://files.pythonhosted.org/packages/0f/92/1b75a7ff7b7c59aa8d64de155ce99f56548043ca1c4f50e7f3e3b6df3518/odoo11_addon_account_loan-11.0.1.2.0.99.dev5-py2.py3-none-any.whl
+[2023-07-11 04:41:25] INFO root fetch - processPackages [cx-Freeze]: Downloading https://files.pythonhosted.org/packages/db/dc/dcdaf38277ee027bbcb2d60d32357415409ac7e3778d26731b189e919c3c/cx_Freeze-6.8b5.tar.gz
+[2023-07-11 04:41:25] INFO root fetch - processPackages [cdk8s-plus-26]: New version: [2.4.9] Old Version: [2.4.81]
+[2023-07-11 04:41:25] INFO root fetch - processPackages [citybrain-official]: Downloading https://files.pythonhosted.org/packages/19/f8/800b4738ecefcb3ac5966ca27a362dcc749270400316f58e86b5736f9b83/citybrain-official-0.9.tar.gz
+[2023-07-11 04:41:25] INFO root fetch - processPackages [cdk8s-plus-26]: Downloading https://files.pythonhosted.org/packages/53/6a/6be3c566562839229d4f8c852202d66ed18b0bd70cd19baf4cb57a4fa9be/cdk8s-plus-26-2.4.81.tar.gz
+[2023-07-11 04:41:25] INFO root fetch - processPackages [tictactools]: Downloading https://files.pythonhosted.org/packages/72/53/607fe769657e71a6b5f2c4796cfadd9a8b4510a572f1016272fd655f4c65/tictactools-1.2.tar.gz
+[2023-07-11 04:41:25] INFO root fetch - processPackages [peelml]: Downloading https://files.pythonhosted.org/packages/85/38/cc4f375bbc197c0fd97566f1aa0e37d7ff3ec0f61c550758cdc2d8f5e596/peelml-0.0.0.tar.gz
+[2023-07-11 04:41:25] INFO root fetch - processPackages [citybrain-official]: executing diffoscope
+[2023-07-11 04:41:25] INFO root fetch - processPackages [citybrain-official]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/citybrain-official-0.8.tar.gz tmp/citybrain-official-0.9.tar.gz --markdown 20230711/c/citybrain-official/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-11 04:41:25] INFO root fetch - processPackages [rpamaker]: Downloading https://files.pythonhosted.org/packages/da/89/f7ca592d5d9fee6b498e325261cddd5082866e4a2a17fcf08604524654e6/rpamaker-0.0.9.tar.gz
+[2023-07-11 04:41:25] INFO root fetch - processPackages [compare-dfs]: Downloading https://files.pythonhosted.org/packages/24/73/29398f91a4a49dd3e97c5c5f6b74ad1f84cfa73187a9b509489d828b6a27/compare_dfs-0.0.4.tar.gz
+[2023-07-11 04:41:25] INFO root fetch - processPackages [metget]: Downloading https://files.pythonhosted.org/packages/38/37/ecb4c63504fa907e49840126e6cc966e11f21b906ea0a62f116b15c10969/metget-0.2.1.tar.gz
+[2023-07-11 04:41:25] INFO root fetch - processPackages [cdk8s-plus-24]: Downloading https://files.pythonhosted.org/packages/a4/eb/7fc3f17d6eb6750041a6b336906ad566e6b538954d0cd6fe7880f54bf206/cdk8s-plus-24-2.8.9.tar.gz
+[2023-07-11 04:41:25] INFO root fetch - processPackages [tictactools]: executing diffoscope
+[2023-07-11 04:41:25] INFO root fetch - processPackages [tictactools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tictactools-1.1.tar.gz tmp/tictactools-1.2.tar.gz --markdown 20230711/t/tictactools/1.1-1.2/diff.md --exclude *.pyd
+[2023-07-11 04:41:25] INFO root fetch - processPackages [odoo11-addon-account-loan]: Downloading https://files.pythonhosted.org/packages/8b/29/341f3d0121e34969bcad6598692c551071c3754f10a248f136579c6afa34/odoo11_addon_account_loan-11.0.1.2.0.99.dev6-py2.py3-none-any.whl
+[2023-07-11 04:41:25] INFO root fetch - processPackages [rpamaker]: executing diffoscope
+[2023-07-11 04:41:25] INFO root fetch - processPackages [rpamaker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rpamaker-0.0.8.tar.gz tmp/rpamaker-0.0.9.tar.gz --markdown 20230711/r/rpamaker/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-11 04:41:25] INFO root fetch - processPackages [compare-dfs]: executing diffoscope
+[2023-07-11 04:41:25] INFO root fetch - processPackages [compare-dfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/compare_dfs-0.0.3.tar.gz tmp/compare_dfs-0.0.4.tar.gz --markdown 20230711/c/compare-dfs/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-11 04:41:25] INFO root fetch - processPackages [metget]: executing diffoscope
+[2023-07-11 04:41:25] INFO root fetch - processPackages [metget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metget-0.2.0.tar.gz tmp/metget-0.2.1.tar.gz --markdown 20230711/m/metget/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-11 04:41:25] INFO root fetch - processPackages [cx-Freeze]: Downloading https://files.pythonhosted.org/packages/6d/18/697934627f9980f2ef688ea574841968e455349a808663e2cc67bbf56d71/cx_Freeze-6.9.tar.gz
+[2023-07-11 04:41:25] INFO root fetch - processPackages [cdk8s-plus-24]: executing diffoscope
+[2023-07-11 04:41:25] INFO root fetch - processPackages [cdk8s-plus-24]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-24-2.8.83.tar.gz tmp/cdk8s-plus-24-2.8.9.tar.gz --markdown 20230711/c/cdk8s-plus-24/2.8.83-2.8.9/diff.md --exclude *.pyd
+[2023-07-11 04:41:25] INFO root fetch - processPackages [cdk8s-plus-26]: Downloading https://files.pythonhosted.org/packages/20/3d/a3b8eeb4f101c4c0e5eec995ea1c102412a861b81c18eee0d10bad4570fb/cdk8s-plus-26-2.4.9.tar.gz
+[2023-07-11 04:41:25] INFO root fetch - processPackages [cx-Freeze]: executing diffoscope
+[2023-07-11 04:41:25] INFO root fetch - processPackages [cx-Freeze]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cx_Freeze-6.8b5.tar.gz tmp/cx_Freeze-6.9.tar.gz --markdown 20230711/c/cx-Freeze/6.8b5-6.9/diff.md --exclude *.pyd
+[2023-07-11 04:41:25] INFO root fetch - processPackages [odoo11-addon-account-loan]: executing diffoscope
+[2023-07-11 04:41:25] INFO root fetch - processPackages [odoo11-addon-account-loan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo11_addon_account_loan-11.0.1.2.0.99.dev5-py2.py3-none-any.whl.zip tmp/odoo11_addon_account_loan-11.0.1.2.0.99.dev6-py2.py3-none-any.whl.zip --markdown 20230711/o/odoo11-addon-account-loan/11.0.1.2.0.99.dev5-11.0.1.2.0.99.dev6/diff.md --exclude *.pyd
+[2023-07-11 04:41:25] INFO root fetch - processPackages [peelml]: Downloading https://files.pythonhosted.org/packages/3a/e5/4cfaf249b107bab47fc271d1f7e36626aa0943bc5fa47a327ea2518a63f9/peelml-0.0.1.tar.gz
+[2023-07-11 04:41:26] INFO root fetch - processPackages [cdk8s-plus-26]: executing diffoscope
+[2023-07-11 04:41:26] INFO root fetch - processPackages [cdk8s-plus-26]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-26-2.4.81.tar.gz tmp/cdk8s-plus-26-2.4.9.tar.gz --markdown 20230711/c/cdk8s-plus-26/2.4.81-2.4.9/diff.md --exclude *.pyd
+[2023-07-11 04:41:26] INFO root fetch - processPackages [peelml]: executing diffoscope
+[2023-07-11 04:41:26] INFO root fetch - processPackages [peelml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peelml-0.0.0.tar.gz tmp/peelml-0.0.1.tar.gz --markdown 20230711/p/peelml/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-07-11 04:41:26] INFO root fetch - processPackages [citybrain-official]: Remove: archive file [/home/abi/fetcher/tmp/citybrain-official-0.8.tar.gz]
+[2023-07-11 04:41:26] INFO root fetch - processPackages [citybrain-official]: Remove: archive file [/home/abi/fetcher/tmp/citybrain-official-0.9.tar.gz]
+[2023-07-11 04:41:26] INFO root fetch - processPackages [citybrain-official]: Start processing: corporate-reputation
+[2023-07-11 04:41:26] INFO root fetch - main [MainThread]: End processing [citybrain-official]: success
+[2023-07-11 04:41:26] INFO root fetch - processPackages [corporate-reputation]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-11 04:41:27] INFO root fetch - processPackages [tictactools]: Remove: archive file [/home/abi/fetcher/tmp/tictactools-1.1.tar.gz]
+[2023-07-11 04:41:27] INFO root fetch - processPackages [tictactools]: Remove: archive file [/home/abi/fetcher/tmp/tictactools-1.2.tar.gz]
+[2023-07-11 04:41:27] INFO root fetch - main [MainThread]: End processing [tictactools]: success
+[2023-07-11 04:41:27] INFO root fetch - processPackages [corporate-reputation]: Downloading https://files.pythonhosted.org/packages/3b/8c/29c0bc6d8a26b6f7131599ece4cf6288eefe1ccd6f93142225700254202b/corporate_reputation-0.1.1.tar.gz
+[2023-07-11 04:41:27] INFO root fetch - processPackages [compare-dfs]: Remove: archive file [/home/abi/fetcher/tmp/compare_dfs-0.0.3.tar.gz]
+[2023-07-11 04:41:27] INFO root fetch - processPackages [compare-dfs]: Remove: archive file [/home/abi/fetcher/tmp/compare_dfs-0.0.4.tar.gz]
+[2023-07-11 04:41:27] INFO root fetch - main [MainThread]: End processing [compare-dfs]: success
+[2023-07-11 04:41:27] INFO root fetch - processPackages [metget]: Remove: archive file [/home/abi/fetcher/tmp/metget-0.2.0.tar.gz]
+[2023-07-11 04:41:27] INFO root fetch - processPackages [metget]: Remove: archive file [/home/abi/fetcher/tmp/metget-0.2.1.tar.gz]
+[2023-07-11 04:41:27] INFO root fetch - main [MainThread]: End processing [metget]: success
+[2023-07-11 04:41:27] INFO root fetch - processPackages [rpamaker]: Remove: archive file [/home/abi/fetcher/tmp/rpamaker-0.0.8.tar.gz]
+[2023-07-11 04:41:27] INFO root fetch - processPackages [rpamaker]: Remove: archive file [/home/abi/fetcher/tmp/rpamaker-0.0.9.tar.gz]
+[2023-07-11 04:41:27] INFO root fetch - main [MainThread]: End processing [rpamaker]: success
+[2023-07-11 04:41:27] INFO root fetch - processPackages [corporate-reputation]: Downloading https://files.pythonhosted.org/packages/3e/65/1681c4dbcd96ffc6f5c648c8e42936fe4b167bd1d43582d7b11ad99da5fc/corporate_reputation-0.1.2.tar.gz
+[2023-07-11 04:41:27] INFO root fetch - processPackages [cdk8s-plus-24]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-24-2.8.83.tar.gz]
+[2023-07-11 04:41:27] INFO root fetch - processPackages [cdk8s-plus-24]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-24-2.8.9.tar.gz]
+[2023-07-11 04:41:27] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-24]: success
+[2023-07-11 04:41:27] INFO root fetch - processPackages [corporate-reputation]: executing diffoscope
+[2023-07-11 04:41:27] INFO root fetch - processPackages [corporate-reputation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/corporate_reputation-0.1.1.tar.gz tmp/corporate_reputation-0.1.2.tar.gz --markdown 20230711/c/corporate-reputation/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-11 04:41:27] INFO root fetch - processPackages [cdk8s-plus-26]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-26-2.4.81.tar.gz]
+[2023-07-11 04:41:27] INFO root fetch - processPackages [cdk8s-plus-26]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-26-2.4.9.tar.gz]
+[2023-07-11 04:41:27] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-26]: success
+[2023-07-11 04:41:27] INFO root fetch - processPackages [odoo11-addon-account-loan]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_account_loan-11.0.1.2.0.99.dev5-py2.py3-none-any.whl.zip]
+[2023-07-11 04:41:27] INFO root fetch - processPackages [odoo11-addon-account-loan]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_account_loan-11.0.1.2.0.99.dev6-py2.py3-none-any.whl.zip]
+[2023-07-11 04:41:27] INFO root fetch - main [MainThread]: End processing [odoo11-addon-account-loan]: success
+[2023-07-11 04:41:28] INFO root fetch - processPackages [cx-Freeze]: Remove: archive file [/home/abi/fetcher/tmp/cx_Freeze-6.8b5.tar.gz]
+[2023-07-11 04:41:28] INFO root fetch - processPackages [cx-Freeze]: Remove: archive file [/home/abi/fetcher/tmp/cx_Freeze-6.9.tar.gz]
+[2023-07-11 04:41:28] INFO root fetch - main [MainThread]: End processing [cx-Freeze]: success
+[2023-07-11 04:41:28] INFO root fetch - processPackages [corporate-reputation]: Remove: archive file [/home/abi/fetcher/tmp/corporate_reputation-0.1.1.tar.gz]
+[2023-07-11 04:41:28] INFO root fetch - processPackages [corporate-reputation]: Remove: archive file [/home/abi/fetcher/tmp/corporate_reputation-0.1.2.tar.gz]
+[2023-07-11 04:41:28] INFO root fetch - main [MainThread]: End processing [corporate-reputation]: success
+[2023-07-11 04:41:29] INFO root fetch - processPackages [peelml]: Remove: archive file [/home/abi/fetcher/tmp/peelml-0.0.0.tar.gz]
+[2023-07-11 04:41:29] INFO root fetch - processPackages [peelml]: Remove: archive file [/home/abi/fetcher/tmp/peelml-0.0.1.tar.gz]
+[2023-07-11 04:41:29] INFO root fetch - main [MainThread]: End processing [peelml]: success
+[2023-07-11 04:41:29] INFO root fetch - main [MainThread]: Store serial: [18839999]
