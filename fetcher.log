@@ -7523,3 +7523,121 @@ AssertionError: tmp/doctran-0.0.6.tar.gz does not exist
 [2023-07-11 04:41:29] INFO root fetch - processPackages [peelml]: Remove: archive file [/home/abi/fetcher/tmp/peelml-0.0.1.tar.gz]
 [2023-07-11 04:41:29] INFO root fetch - main [MainThread]: End processing [peelml]: success
 [2023-07-11 04:41:29] INFO root fetch - main [MainThread]: Store serial: [18839999]
+[2023-07-11 04:46:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18839999]
+[2023-07-11 04:46:38] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-11 04:46:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyzjr
+[2023-07-11 04:46:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: compare-dfs
+[2023-07-11 04:46:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: volworld-aws-api-common
+[2023-07-11 04:46:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: starfish-library
+[2023-07-11 04:46:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: naif-eop-high-prec
+[2023-07-11 04:46:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pylinefinder
+[2023-07-11 04:46:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tictactools
+[2023-07-11 04:46:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdk8s-plus-25
+[2023-07-11 04:46:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pylinefinder
+[2023-07-11 04:46:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: taichu-storage
+[2023-07-11 04:46:39] INFO root fetch - processPackages [starfish-library]: New version: [1.4.23] Old Version: [1.4.22]
+[2023-07-11 04:46:39] INFO root fetch - processPackages [pyzjr]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-11 04:46:39] INFO root fetch - processPackages [compare-dfs]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-11 04:46:39] INFO root fetch - processPackages [naif-eop-high-prec]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-11 04:46:39] INFO root fetch - processPackages [cdk8s-plus-25]: New version: [2.8.9] Old Version: [2.8.82]
+[2023-07-11 04:46:39] INFO root fetch - processPackages [taichu-storage]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-11 04:46:39] INFO root fetch - processPackages [tictactools]: New version: [1.3] Old Version: [1.2]
+[2023-07-11 04:46:39] INFO root fetch - processPackages [pylinefinder]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-11 04:46:39] INFO root fetch - processPackages [volworld-aws-api-common]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-11 04:46:39] INFO root fetch - processPackages [pylinefinder]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-11 04:46:39] INFO root fetch - processPackages [tictactools]: Downloading https://files.pythonhosted.org/packages/72/53/607fe769657e71a6b5f2c4796cfadd9a8b4510a572f1016272fd655f4c65/tictactools-1.2.tar.gz
+[2023-07-11 04:46:39] INFO root fetch - processPackages [naif-eop-high-prec]: Downloading https://files.pythonhosted.org/packages/09/ed/7488d5d961ce08546f5ee7ced9b28382ede88767e23d898f7a089dbd5065/naif_eop_high_prec-2023.7.8.tar.gz
+[2023-07-11 04:46:39] INFO root fetch - processPackages [compare-dfs]: Downloading https://files.pythonhosted.org/packages/24/73/29398f91a4a49dd3e97c5c5f6b74ad1f84cfa73187a9b509489d828b6a27/compare_dfs-0.0.4.tar.gz
+[2023-07-11 04:46:39] INFO root fetch - processPackages [volworld-aws-api-common]: Downloading https://files.pythonhosted.org/packages/c7/82/7aefcc55e9d34309e43a1c4f62f535a10cbf84c23f14b0b54efb88505de6/volworld_aws_api_common-0.1.98.tar.gz
+[2023-07-11 04:46:39] INFO root fetch - processPackages [pyzjr]: Downloading https://files.pythonhosted.org/packages/5b/74/3f51fdc1e582d7f4ae6d53c08080fecc9f7e1f0fb7954193d9d0d9885043/pyzjr-0.0.8.tar.gz
+[2023-07-11 04:46:39] INFO root fetch - processPackages [starfish-library]: Downloading https://files.pythonhosted.org/packages/8e/c6/8ac8b38db2a2f4e051826d25edaa20cef99d14cd04436257a3f7d032ff0b/starfish_library-1.4.22.tar.gz
+[2023-07-11 04:46:39] INFO root fetch - processPackages [taichu-storage]: Downloading https://files.pythonhosted.org/packages/98/2e/ae151b45dbebeb2e5ae8afb788ee4bde035d056e52b4866e7ead89d0b96d/taichu-storage-0.0.2.tar.gz
+[2023-07-11 04:46:39] INFO root fetch - processPackages [pylinefinder]: Downloading https://files.pythonhosted.org/packages/fc/d2/512a2d1ef3cc9a0da0bc6720cb44e8a193f39e232667aef65b49c61f1508/pylinefinder-0.1.4.tar.gz
+[2023-07-11 04:46:39] INFO root fetch - processPackages [cdk8s-plus-25]: Downloading https://files.pythonhosted.org/packages/b5/63/7ddafa12968011fcda48771bb73a5ad7b30eaee23d283066efa11d73e2ba/cdk8s-plus-25-2.8.82.tar.gz
+[2023-07-11 04:46:39] INFO root fetch - processPackages [pylinefinder]: Downloading https://files.pythonhosted.org/packages/fc/d2/512a2d1ef3cc9a0da0bc6720cb44e8a193f39e232667aef65b49c61f1508/pylinefinder-0.1.4.tar.gz
+[2023-07-11 04:46:39] INFO root fetch - processPackages [tictactools]: Downloading https://files.pythonhosted.org/packages/db/1f/00be46301a1eb7d94ffe809319f9bf3df7a767d7c81cea419b4341c92260/tictactools-1.3.tar.gz
+[2023-07-11 04:46:39] INFO root fetch - processPackages [volworld-aws-api-common]: Downloading https://files.pythonhosted.org/packages/85/c0/0151fa36df35a94f04ec24e70e3a88eb186696b9f9258ee1d18d894c66d6/volworld_aws_api_common-0.1.99.tar.gz
+[2023-07-11 04:46:39] INFO root fetch - processPackages [compare-dfs]: Downloading https://files.pythonhosted.org/packages/23/4d/b257eb4f25b714f8837113e25547b89409dc7fb7d8f43518828f1bdc145c/compare_dfs-0.0.5.tar.gz
+[2023-07-11 04:46:39] INFO root fetch - processPackages [starfish-library]: Downloading https://files.pythonhosted.org/packages/6b/de/0c022dcfd7ec4dd2d53885ec1a326653b4ff98dd63d6b78632827fbe6881/starfish_library-1.4.23.tar.gz
+[2023-07-11 04:46:39] INFO root fetch - processPackages [pylinefinder]: Downloading https://files.pythonhosted.org/packages/12/b1/b94dfaa31dbe3404f74d6a28597d432da15e53d9833e89b1b7ab64d9146d/pylinefinder-0.1.5.tar.gz
+[2023-07-11 04:46:40] INFO root fetch - processPackages [pylinefinder]: Downloading https://files.pythonhosted.org/packages/12/b1/b94dfaa31dbe3404f74d6a28597d432da15e53d9833e89b1b7ab64d9146d/pylinefinder-0.1.5.tar.gz
+[2023-07-11 04:46:40] INFO root fetch - processPackages [volworld-aws-api-common]: executing diffoscope
+[2023-07-11 04:46:40] INFO root fetch - processPackages [volworld-aws-api-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volworld_aws_api_common-0.1.98.tar.gz tmp/volworld_aws_api_common-0.1.99.tar.gz --markdown 20230711/v/volworld-aws-api-common/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-11 04:46:40] INFO root fetch - processPackages [pyzjr]: Downloading https://files.pythonhosted.org/packages/fc/a4/fa430d09bba1aa7bfd9e42c76f03111a351fd4d138a1b6913396b41e7fbd/pyzjr-0.0.9.tar.gz
+[2023-07-11 04:46:40] INFO root fetch - processPackages [tictactools]: executing diffoscope
+[2023-07-11 04:46:40] INFO root fetch - processPackages [tictactools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tictactools-1.2.tar.gz tmp/tictactools-1.3.tar.gz --markdown 20230711/t/tictactools/1.2-1.3/diff.md --exclude *.pyd
+[2023-07-11 04:46:40] INFO root fetch - processPackages [taichu-storage]: Downloading https://files.pythonhosted.org/packages/a5/ca/783ffcd3e6523c6732d72d1774648e5f013f853ce5d67b021c96fc9542e1/taichu-storage-0.0.3.tar.gz
+[2023-07-11 04:46:40] INFO root fetch - processPackages [cdk8s-plus-25]: Downloading https://files.pythonhosted.org/packages/79/f6/d6bb21b3e8c3f61cefbc6cfb377c23ba65b57440ab1bd217fa176e0b9df7/cdk8s-plus-25-2.8.9.tar.gz
+[2023-07-11 04:46:40] INFO root fetch - processPackages [compare-dfs]: executing diffoscope
+[2023-07-11 04:46:40] INFO root fetch - processPackages [compare-dfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/compare_dfs-0.0.4.tar.gz tmp/compare_dfs-0.0.5.tar.gz --markdown 20230711/c/compare-dfs/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-11 04:46:40] INFO root fetch - processPackages [starfish-library]: executing diffoscope
+[2023-07-11 04:46:40] INFO root fetch - processPackages [starfish-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/starfish_library-1.4.22.tar.gz tmp/starfish_library-1.4.23.tar.gz --markdown 20230711/s/starfish-library/1.4.22-1.4.23/diff.md --exclude *.pyd
+[2023-07-11 04:46:40] INFO root fetch - processPackages [naif-eop-high-prec]: Downloading https://files.pythonhosted.org/packages/a2/f8/57853410d5affd1adacbfb12a5d90596ba94081ec97e3ffc215261ba9fea/naif_eop_high_prec-2023.7.9.tar.gz
+[2023-07-11 04:46:40] INFO root fetch - processPackages [pylinefinder]: executing diffoscope
+[2023-07-11 04:46:40] INFO root fetch - processPackages [pylinefinder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylinefinder-0.1.4.tar.gz tmp/pylinefinder-0.1.5.tar.gz --markdown 20230711/p/pylinefinder/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-11 04:46:40] INFO root fetch - processPackages [pylinefinder]: executing diffoscope
+[2023-07-11 04:46:40] INFO root fetch - processPackages [pylinefinder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylinefinder-0.1.4.tar.gz tmp/pylinefinder-0.1.5.tar.gz --markdown 20230711/p/pylinefinder/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-11 04:46:40] INFO root fetch - processPackages [taichu-storage]: executing diffoscope
+[2023-07-11 04:46:40] INFO root fetch - processPackages [taichu-storage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taichu-storage-0.0.2.tar.gz tmp/taichu-storage-0.0.3.tar.gz --markdown 20230711/t/taichu-storage/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-11 04:46:40] INFO root fetch - processPackages [pyzjr]: executing diffoscope
+[2023-07-11 04:46:40] INFO root fetch - processPackages [pyzjr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyzjr-0.0.8.tar.gz tmp/pyzjr-0.0.9.tar.gz --markdown 20230711/p/pyzjr/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-11 04:46:40] INFO root fetch - processPackages [cdk8s-plus-25]: executing diffoscope
+[2023-07-11 04:46:40] INFO root fetch - processPackages [cdk8s-plus-25]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-25-2.8.82.tar.gz tmp/cdk8s-plus-25-2.8.9.tar.gz --markdown 20230711/c/cdk8s-plus-25/2.8.82-2.8.9/diff.md --exclude *.pyd
+[2023-07-11 04:46:40] INFO root fetch - processPackages [naif-eop-high-prec]: executing diffoscope
+[2023-07-11 04:46:40] INFO root fetch - processPackages [naif-eop-high-prec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naif_eop_high_prec-2023.7.8.tar.gz tmp/naif_eop_high_prec-2023.7.9.tar.gz --markdown 20230711/n/naif-eop-high-prec/2023.7.8-2023.7.9/diff.md --exclude *.pyd
+[2023-07-11 04:46:41] INFO root fetch - processPackages [tictactools]: Remove: archive file [/home/abi/fetcher/tmp/tictactools-1.2.tar.gz]
+[2023-07-11 04:46:41] INFO root fetch - processPackages [tictactools]: Remove: archive file [/home/abi/fetcher/tmp/tictactools-1.3.tar.gz]
+[2023-07-11 04:46:41] INFO root fetch - processPackages [tictactools]: Start processing: py3seed
+[2023-07-11 04:46:41] INFO root fetch - main [MainThread]: End processing [tictactools]: success
+[2023-07-11 04:46:41] INFO root fetch - processPackages [py3seed]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-11 04:46:41] INFO root fetch - processPackages [pylinefinder]: Remove: archive file [/home/abi/fetcher/tmp/pylinefinder-0.1.4.tar.gz]
+[2023-07-11 04:46:41] INFO root fetch - processPackages [pylinefinder]: Remove: archive file [/home/abi/fetcher/tmp/pylinefinder-0.1.5.tar.gz]
+[2023-07-11 04:46:41] INFO root fetch - processPackages [pylinefinder]: Start processing: finra-api-queries
+[2023-07-11 04:46:41] INFO root fetch - main [MainThread]: End processing [pylinefinder]: success
+[2023-07-11 04:46:41] INFO root fetch - processPackages [pylinefinder]: Start processing: safepull
+[2023-07-11 04:46:41] INFO root fetch - main [MainThread]: End processing [pylinefinder]: success
+[2023-07-11 04:46:41] INFO root fetch - processPackages [starfish-library]: Remove: archive file [/home/abi/fetcher/tmp/starfish_library-1.4.22.tar.gz]
+[2023-07-11 04:46:41] INFO root fetch - processPackages [starfish-library]: Remove: archive file [/home/abi/fetcher/tmp/starfish_library-1.4.23.tar.gz]
+[2023-07-11 04:46:41] INFO root fetch - main [MainThread]: End processing [starfish-library]: success
+[2023-07-11 04:46:41] INFO root fetch - processPackages [volworld-aws-api-common]: Remove: archive file [/home/abi/fetcher/tmp/volworld_aws_api_common-0.1.98.tar.gz]
+[2023-07-11 04:46:41] INFO root fetch - processPackages [volworld-aws-api-common]: Remove: archive file [/home/abi/fetcher/tmp/volworld_aws_api_common-0.1.99.tar.gz]
+[2023-07-11 04:46:41] INFO root fetch - main [MainThread]: End processing [volworld-aws-api-common]: success
+[2023-07-11 04:46:41] INFO root fetch - processPackages [compare-dfs]: Remove: archive file [/home/abi/fetcher/tmp/compare_dfs-0.0.4.tar.gz]
+[2023-07-11 04:46:41] INFO root fetch - processPackages [compare-dfs]: Remove: archive file [/home/abi/fetcher/tmp/compare_dfs-0.0.5.tar.gz]
+[2023-07-11 04:46:41] INFO root fetch - main [MainThread]: End processing [compare-dfs]: success
+[2023-07-11 04:46:41] INFO root fetch - processPackages [finra-api-queries]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-07-11 04:46:41] INFO root fetch - processPackages [safepull]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-07-11 04:46:41] INFO root fetch - processPackages [taichu-storage]: Remove: archive file [/home/abi/fetcher/tmp/taichu-storage-0.0.2.tar.gz]
+[2023-07-11 04:46:41] INFO root fetch - processPackages [taichu-storage]: Remove: archive file [/home/abi/fetcher/tmp/taichu-storage-0.0.3.tar.gz]
+[2023-07-11 04:46:41] INFO root fetch - main [MainThread]: End processing [taichu-storage]: success
+[2023-07-11 04:46:41] INFO root fetch - processPackages [pyzjr]: Remove: archive file [/home/abi/fetcher/tmp/pyzjr-0.0.8.tar.gz]
+[2023-07-11 04:46:41] INFO root fetch - processPackages [pyzjr]: Remove: archive file [/home/abi/fetcher/tmp/pyzjr-0.0.9.tar.gz]
+[2023-07-11 04:46:41] INFO root fetch - main [MainThread]: End processing [pyzjr]: success
+[2023-07-11 04:46:41] INFO root fetch - processPackages [py3seed]: Downloading https://files.pythonhosted.org/packages/ff/b6/76061d3a7bcd5c4cdb5ce0425a24040c3c0e9a1289c6404f357ece6dcc75/py3seed-0.0.98.tar.gz
+[2023-07-11 04:46:42] INFO root fetch - processPackages [safepull]: Downloading https://files.pythonhosted.org/packages/0b/bc/cf60745c8ce735a6a0ba679934bdb46163ae92de1fc0fea38a73bd0fe6e9/safepull-2.0.2.tar.gz
+[2023-07-11 04:46:42] INFO root fetch - processPackages [finra-api-queries]: Downloading https://files.pythonhosted.org/packages/2a/38/7f6ecdcdc3889c08bea2b0bcf991d022271052ee641a7aba3dd9b96ca158/finra_api_queries-1.2.0.tar.gz
+[2023-07-11 04:46:42] INFO root fetch - processPackages [cdk8s-plus-25]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-25-2.8.82.tar.gz]
+[2023-07-11 04:46:42] INFO root fetch - processPackages [cdk8s-plus-25]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-25-2.8.9.tar.gz]
+[2023-07-11 04:46:42] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-25]: success
+[2023-07-11 04:46:42] INFO root fetch - processPackages [py3seed]: Downloading https://files.pythonhosted.org/packages/fa/d9/9c55d1713df8a2096cd5fd9a5a79c1c3db3f14526d2f24768efab63fbff6/py3seed-0.0.99.tar.gz
+[2023-07-11 04:46:42] INFO root fetch - processPackages [py3seed]: executing diffoscope
+[2023-07-11 04:46:42] INFO root fetch - processPackages [py3seed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py3seed-0.0.98.tar.gz tmp/py3seed-0.0.99.tar.gz --markdown 20230711/p/py3seed/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-11 04:46:42] INFO root fetch - processPackages [safepull]: Downloading https://files.pythonhosted.org/packages/c2/d1/ffd88d00ec78db039730dce69cdeca4066a3fd51669b00d505d4d5a3c0cd/safepull-2.0.3.tar.gz
+[2023-07-11 04:46:42] INFO root fetch - processPackages [finra-api-queries]: Downloading https://files.pythonhosted.org/packages/28/36/dc2c3fce80eaf5a6464e467faa23ef033bdfda97e06437c20d346742200e/finra_api_queries-1.2.1.tar.gz
+[2023-07-11 04:46:42] INFO root fetch - processPackages [safepull]: executing diffoscope
+[2023-07-11 04:46:42] INFO root fetch - processPackages [safepull]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/safepull-2.0.2.tar.gz tmp/safepull-2.0.3.tar.gz --markdown 20230711/s/safepull/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-07-11 04:46:42] INFO root fetch - processPackages [finra-api-queries]: executing diffoscope
+[2023-07-11 04:46:42] INFO root fetch - processPackages [finra-api-queries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finra_api_queries-1.2.0.tar.gz tmp/finra_api_queries-1.2.1.tar.gz --markdown 20230711/f/finra-api-queries/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-07-11 04:46:43] INFO root fetch - processPackages [py3seed]: Remove: archive file [/home/abi/fetcher/tmp/py3seed-0.0.98.tar.gz]
+[2023-07-11 04:46:43] INFO root fetch - processPackages [py3seed]: Remove: archive file [/home/abi/fetcher/tmp/py3seed-0.0.99.tar.gz]
+[2023-07-11 04:46:43] INFO root fetch - main [MainThread]: End processing [py3seed]: success
+[2023-07-11 04:46:43] INFO root fetch - processPackages [safepull]: Remove: archive file [/home/abi/fetcher/tmp/safepull-2.0.2.tar.gz]
+[2023-07-11 04:46:43] INFO root fetch - processPackages [safepull]: Remove: archive file [/home/abi/fetcher/tmp/safepull-2.0.3.tar.gz]
+[2023-07-11 04:46:43] INFO root fetch - main [MainThread]: End processing [safepull]: success
+[2023-07-11 04:46:43] INFO root fetch - processPackages [finra-api-queries]: Remove: archive file [/home/abi/fetcher/tmp/finra_api_queries-1.2.0.tar.gz]
+[2023-07-11 04:46:43] INFO root fetch - processPackages [finra-api-queries]: Remove: archive file [/home/abi/fetcher/tmp/finra_api_queries-1.2.1.tar.gz]
+[2023-07-11 04:46:43] INFO root fetch - main [MainThread]: End processing [finra-api-queries]: success
+[2023-07-11 04:46:43] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2023.7.8.tar.gz]
+[2023-07-11 04:46:43] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2023.7.9.tar.gz]
+[2023-07-11 04:46:43] INFO root fetch - main [MainThread]: End processing [naif-eop-high-prec]: success
+[2023-07-11 04:46:43] INFO root fetch - main [MainThread]: Store serial: [18840042]
