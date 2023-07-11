@@ -11018,3 +11018,30 @@ AssertionError: tmp/doctran-0.0.6.tar.gz does not exist
 [2023-07-11 08:17:14] INFO root fetch - processPackages [cirq-core]: Remove: archive file [/home/abi/fetcher/tmp/cirq_core-1.2.0.dev20230711061310-py3-none-any.whl.zip]
 [2023-07-11 08:17:14] INFO root fetch - main [MainThread]: End processing [cirq-core]: success
 [2023-07-11 08:17:14] INFO root fetch - main [MainThread]: Store serial: [18841419]
+[2023-07-11 08:22:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18841419]
+[2023-07-11 08:22:23] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-07-11 08:22:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: streamlit-bmc-component
+[2023-07-11 08:22:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nautobot-floor-plan
+[2023-07-11 08:22:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: innerverz
+[2023-07-11 08:22:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: WqUtils
+[2023-07-11 08:22:23] WARNING root fetch - processPackages [streamlit-bmc-component]: Skipping, unable to determine old version
+[2023-07-11 08:22:23] INFO root fetch - main [MainThread]: End processing [streamlit-bmc-component] error
+[2023-07-11 08:22:23] ERROR root fetch - processPackages [nautobot-floor-plan]: Unable to get metadata: No such project 'nautobot-floor-plan'
+[2023-07-11 08:22:23] INFO root fetch - main [MainThread]: End processing [nautobot-floor-plan] error
+[2023-07-11 08:22:23] INFO root fetch - processPackages [innerverz]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-11 08:22:23] INFO root fetch - processPackages [WqUtils]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-11 08:22:24] INFO root fetch - processPackages [innerverz]: Downloading https://files.pythonhosted.org/packages/2f/4f/f10d2168bf3f3ae60dc9337f295f4cfd6da257577d425de0fb695a2c7e1f/innerverz-0.1.2.tar.gz
+[2023-07-11 08:22:24] INFO root fetch - processPackages [WqUtils]: Downloading https://files.pythonhosted.org/packages/1c/6c/ff16e733a1bef82c73d614b8bb2b4527869d0586d35625007e77ed51a213/WqUtils-0.1.4-py3-none-any.whl
+[2023-07-11 08:22:24] INFO root fetch - processPackages [innerverz]: Downloading https://files.pythonhosted.org/packages/6b/cb/2c16e90b270b46872aa04d820a744cc6086824e0294289fb0d8b688c5aaa/innerverz-0.1.3.tar.gz
+[2023-07-11 08:22:24] INFO root fetch - processPackages [WqUtils]: Downloading https://files.pythonhosted.org/packages/34/35/e1f4e0a938c492e24cc06fc6e9ceb09076938d441acfd9ac821455ce0ab2/WqUtils-0.1.5-py3-none-any.whl
+[2023-07-11 08:22:24] INFO root fetch - processPackages [innerverz]: executing diffoscope
+[2023-07-11 08:22:24] INFO root fetch - processPackages [innerverz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/innerverz-0.1.2.tar.gz tmp/innerverz-0.1.3.tar.gz --markdown 20230711/i/innerverz/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-11 08:22:24] INFO root fetch - processPackages [WqUtils]: executing diffoscope
+[2023-07-11 08:22:24] INFO root fetch - processPackages [WqUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WqUtils-0.1.4-py3-none-any.whl.zip tmp/WqUtils-0.1.5-py3-none-any.whl.zip --markdown 20230711/W/WqUtils/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-11 08:22:25] INFO root fetch - processPackages [WqUtils]: Remove: archive file [/home/abi/fetcher/tmp/WqUtils-0.1.4-py3-none-any.whl.zip]
+[2023-07-11 08:22:25] INFO root fetch - processPackages [WqUtils]: Remove: archive file [/home/abi/fetcher/tmp/WqUtils-0.1.5-py3-none-any.whl.zip]
+[2023-07-11 08:22:25] INFO root fetch - main [MainThread]: End processing [WqUtils]: success
+[2023-07-11 08:22:25] INFO root fetch - processPackages [innerverz]: Remove: archive file [/home/abi/fetcher/tmp/innerverz-0.1.2.tar.gz]
+[2023-07-11 08:22:25] INFO root fetch - processPackages [innerverz]: Remove: archive file [/home/abi/fetcher/tmp/innerverz-0.1.3.tar.gz]
+[2023-07-11 08:22:25] INFO root fetch - main [MainThread]: End processing [innerverz]: success
+[2023-07-11 08:22:25] INFO root fetch - main [MainThread]: Store serial: [18841449]
