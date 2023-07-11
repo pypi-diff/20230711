@@ -18091,3 +18091,111 @@ AssertionError: tmp/doctran-0.0.6.tar.gz does not exist
 [2023-07-11 13:21:53] INFO root fetch - processPackages [empire-platform-api-public-client]: Remove: archive file [/home/abi/fetcher/tmp/empire-platform-api-public-client-0.167.0.tar.gz]
 [2023-07-11 13:21:53] INFO root fetch - main [MainThread]: End processing [empire-platform-api-public-client]: success
 [2023-07-11 13:21:53] INFO root fetch - main [MainThread]: Store serial: [18844375]
+[2023-07-11 13:26:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18844375]
+[2023-07-11 13:27:04] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-11 13:27:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Req-http-vpn
+[2023-07-11 13:27:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: planetmint-driver
+[2023-07-11 13:27:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gdal2numpy
+[2023-07-11 13:27:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: moto
+[2023-07-11 13:27:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: edwh
+[2023-07-11 13:27:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: torchtnt-nightly
+[2023-07-11 13:27:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bo4e
+[2023-07-11 13:27:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: scaneo
+[2023-07-11 13:27:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tb-nightly
+[2023-07-11 13:27:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: adria
+[2023-07-11 13:27:04] INFO root fetch - processPackages [tb-nightly]: New version: [2.9.0a20220502] Old Version: [2.9.0a20220501]
+[2023-07-11 13:27:04] INFO root fetch - processPackages [Req-http-vpn]: New version: [3.5.0] Old Version: [3.0.0]
+[2023-07-11 13:27:04] INFO root fetch - processPackages [gdal2numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-11 13:27:04] INFO root fetch - processPackages [planetmint-driver]: New version: [0.9.4] Old Version: [0.9.1]
+[2023-07-11 13:27:04] INFO root fetch - processPackages [scaneo]: New version: [2023.7.11] Old Version: [2023.5.29.post2]
+[2023-07-11 13:27:04] WARNING root fetch - processPackages [adria]: Skipping, unable to determine old version
+[2023-07-11 13:27:04] INFO root fetch - processPackages [adria]: Start processing: torchrl-nightly
+[2023-07-11 13:27:04] INFO root fetch - main [MainThread]: End processing [adria] error
+[2023-07-11 13:27:04] INFO root fetch - processPackages [edwh]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-11 13:27:04] INFO root fetch - processPackages [bo4e]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-07-11 13:27:04] INFO root fetch - processPackages [torchtnt-nightly]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-11 13:27:04] INFO root fetch - processPackages [moto]: New version: [4.1.9.dev9] Old Version: [4.1.9.dev8]
+[2023-07-11 13:27:04] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/cc/bf/76bb32cf070e37f4b777ed5596c5d082fb60a1bfc06e9463401d07021a8a/tb_nightly-2.9.0a20220501-py3-none-any.whl
+[2023-07-11 13:27:04] INFO root fetch - processPackages [Req-http-vpn]: Downloading https://files.pythonhosted.org/packages/a2/5d/e8a15c0db238755d2d679f86a47096082567c406213780daa6ce7919e7dc/Req_http_vpn-3.0.0.tar.gz
+[2023-07-11 13:27:04] INFO root fetch - processPackages [gdal2numpy]: Downloading https://files.pythonhosted.org/packages/8b/c7/c38f143f5db75454a9df08f7ff287cb3de46fb5f10139def0fcb92a15404/gdal2numpy-0.0.98.tar.gz
+[2023-07-11 13:27:04] INFO root fetch - processPackages [torchtnt-nightly]: Downloading https://files.pythonhosted.org/packages/47/a5/6e0ce29c38b55188a4ab6ec32c5f4908ef7a19908d233cb0c077fcc21462/torchtnt-nightly-2023.7.8.tar.gz
+[2023-07-11 13:27:04] INFO root fetch - processPackages [torchrl-nightly]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-11 13:27:04] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/2c/d4/8e03b33a9179ac2880d9ee7985f188927368b16081e05a142152e556685c/moto-4.1.9.dev8.tar.gz
+[2023-07-11 13:27:04] INFO root fetch - processPackages [scaneo]: Downloading https://files.pythonhosted.org/packages/68/47/4e10003a07e881e22158e2a622764f03ef1786904502a77f1fa74f86409a/scaneo-2023.5.29.post2.tar.gz
+[2023-07-11 13:27:04] INFO root fetch - processPackages [planetmint-driver]: Downloading https://files.pythonhosted.org/packages/ae/ea/65b81a14a9adea381085b5439324c09b4ad122707ea8cbabc6c3acdb0692/planetmint_driver-0.9.1.tar.gz
+[2023-07-11 13:27:04] INFO root fetch - processPackages [bo4e]: Downloading https://files.pythonhosted.org/packages/d0/e1/84691e508c371f025cbbaf4fe70e37ec5aa5b5780731b3b4371174fd77a4/bo4e-0.5.0.tar.gz
+[2023-07-11 13:27:04] INFO root fetch - processPackages [gdal2numpy]: Downloading https://files.pythonhosted.org/packages/67/ee/9c755bd5249fc9dc6a1dd773cb241c19b8df83a94fc0674017b57bd19e20/gdal2numpy-0.0.99.tar.gz
+[2023-07-11 13:27:05] INFO root fetch - processPackages [torchtnt-nightly]: Downloading https://files.pythonhosted.org/packages/ae/7f/589eb3c0712725a4a9594bdbc4229b9087a94038117bda63c54ef6d2e7e5/torchtnt-nightly-2023.7.9.tar.gz
+[2023-07-11 13:27:05] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/38/33/59a88ceafbd8e349b7f261de4859c91912b883bd14249422d344f09ba9ed/torchrl_nightly-2023.7.8-cp39-cp39-win_amd64.whl
+[2023-07-11 13:27:05] INFO root fetch - processPackages [Req-http-vpn]: Downloading https://files.pythonhosted.org/packages/08/0d/230292da3ab659609a80c410ccc4098e6bd8d53fd56d1328179aa2a09fa5/Req_http_vpn-3.5.0.tar.gz
+[2023-07-11 13:27:05] INFO root fetch - processPackages [gdal2numpy]: executing diffoscope
+[2023-07-11 13:27:05] INFO root fetch - processPackages [gdal2numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdal2numpy-0.0.98.tar.gz tmp/gdal2numpy-0.0.99.tar.gz --markdown 20230711/g/gdal2numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-11 13:27:05] INFO root fetch - processPackages [edwh]: Downloading https://files.pythonhosted.org/packages/a1/b2/ffc583af9d774bfd7b622dbed69ea2357b3a1f9096658cf1202307626113/edwh-0.9.1.tar.gz
+[2023-07-11 13:27:05] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/4b/79/8731bdd68db60192dd81a418b0552fc817d87bba0726d6c4ff2dbd93f913/moto-4.1.9.dev9.tar.gz
+[2023-07-11 13:27:05] INFO root fetch - processPackages [Req-http-vpn]: executing diffoscope
+[2023-07-11 13:27:05] INFO root fetch - processPackages [Req-http-vpn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Req_http_vpn-3.0.0.tar.gz tmp/Req_http_vpn-3.5.0.tar.gz --markdown 20230711/R/Req-http-vpn/3.0.0-3.5.0/diff.md --exclude *.pyd
+[2023-07-11 13:27:05] WARNING root fetch - processPackages [edwh]: Skipping package: exceeds size limit 32547749>=10485760
+[2023-07-11 13:27:05] INFO root fetch - processPackages [edwh]: Start processing: scaneo
+[2023-07-11 13:27:05] INFO root fetch - main [MainThread]: End processing [edwh] error
+[2023-07-11 13:27:05] INFO root fetch - processPackages [scaneo]: Downloading https://files.pythonhosted.org/packages/c2/60/953de333ad370109f4410514cc316adf2830844e0c7333f192facdfeae3e/scaneo-2023.7.11.tar.gz
+[2023-07-11 13:27:05] INFO root fetch - processPackages [bo4e]: Downloading https://files.pythonhosted.org/packages/63/66/4b68d60d69492ce3c7915d9ccc3e228da8a4042d0065424cb988de04b14b/bo4e-0.5.1.tar.gz
+[2023-07-11 13:27:05] INFO root fetch - processPackages [torchtnt-nightly]: executing diffoscope
+[2023-07-11 13:27:05] INFO root fetch - processPackages [torchtnt-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchtnt-nightly-2023.7.8.tar.gz tmp/torchtnt-nightly-2023.7.9.tar.gz --markdown 20230711/t/torchtnt-nightly/2023.7.8-2023.7.9/diff.md --exclude *.pyd
+[2023-07-11 13:27:05] INFO root fetch - processPackages [moto]: executing diffoscope
+[2023-07-11 13:27:05] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-4.1.9.dev8.tar.gz tmp/moto-4.1.9.dev9.tar.gz --markdown 20230711/m/moto/4.1.9.dev8-4.1.9.dev9/diff.md --exclude *.pyd
+[2023-07-11 13:27:05] INFO root fetch - processPackages [scaneo]: New version: [2023.7.11.post2] Old Version: [2023.7.11]
+[2023-07-11 13:27:05] INFO root fetch - processPackages [planetmint-driver]: Downloading https://files.pythonhosted.org/packages/22/18/b4614735d3bae2ad74060790413d45d42ccb1e9fd4b018a8224fc6db96a1/planetmint_driver-0.9.4.tar.gz
+[2023-07-11 13:27:05] INFO root fetch - processPackages [scaneo]: executing diffoscope
+[2023-07-11 13:27:05] INFO root fetch - processPackages [scaneo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scaneo-2023.5.29.post2.tar.gz tmp/scaneo-2023.7.11.tar.gz --markdown 20230711/s/scaneo/2023.5.29.post2-2023.7.11/diff.md --exclude *.pyd
+[2023-07-11 13:27:05] INFO root fetch - processPackages [bo4e]: executing diffoscope
+[2023-07-11 13:27:05] INFO root fetch - processPackages [bo4e]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bo4e-0.5.0.tar.gz tmp/bo4e-0.5.1.tar.gz --markdown 20230711/b/bo4e/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-07-11 13:27:05] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/68/8e/03bca092830a4abf26a80c7387b02478c5f948656cb79d63c1bffab65c00/tb_nightly-2.9.0a20220502-py3-none-any.whl
+[2023-07-11 13:27:05] INFO root fetch - processPackages [planetmint-driver]: executing diffoscope
+[2023-07-11 13:27:05] INFO root fetch - processPackages [planetmint-driver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/planetmint_driver-0.9.1.tar.gz tmp/planetmint_driver-0.9.4.tar.gz --markdown 20230711/p/planetmint-driver/0.9.1-0.9.4/diff.md --exclude *.pyd
+[2023-07-11 13:27:05] INFO root fetch - processPackages [scaneo]: Downloading https://files.pythonhosted.org/packages/ef/f2/c4005da6b789f6b6f5dc8a0bf3427697fd1f74af3d2c9774c2b5e0d106c1/scaneo-2023.7.11.post2.tar.gz
+[2023-07-11 13:27:05] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/22/59/298ac6427c9497e554f2b3ba5d253603250fe69672e94a74affda6a5613c/torchrl_nightly-2023.7.9-cp39-cp39-win_amd64.whl
+[2023-07-11 13:27:05] INFO root fetch - processPackages [scaneo]: executing diffoscope
+[2023-07-11 13:27:05] INFO root fetch - processPackages [scaneo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scaneo-2023.7.11.tar.gz tmp/scaneo-2023.7.11.post2.tar.gz --markdown 20230711/s/scaneo/2023.7.11-2023.7.11.post2/diff.md --exclude *.pyd
+[2023-07-11 13:27:06] INFO root fetch - processPackages [torchrl-nightly]: executing diffoscope
+[2023-07-11 13:27:06] INFO root fetch - processPackages [torchrl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchrl_nightly-2023.7.8-cp39-cp39-win_amd64.whl.zip tmp/torchrl_nightly-2023.7.9-cp39-cp39-win_amd64.whl.zip --markdown 20230711/t/torchrl-nightly/2023.7.8-2023.7.9/diff.md --exclude *.pyd
+[2023-07-11 13:27:06] INFO root fetch - processPackages [gdal2numpy]: Remove: archive file [/home/abi/fetcher/tmp/gdal2numpy-0.0.98.tar.gz]
+[2023-07-11 13:27:06] INFO root fetch - processPackages [gdal2numpy]: Remove: archive file [/home/abi/fetcher/tmp/gdal2numpy-0.0.99.tar.gz]
+[2023-07-11 13:27:06] INFO root fetch - processPackages [gdal2numpy]: Start processing: sisaptools
+[2023-07-11 13:27:06] INFO root fetch - main [MainThread]: End processing [gdal2numpy]: success
+[2023-07-11 13:27:06] INFO root fetch - processPackages [Req-http-vpn]: Remove: archive file [/home/abi/fetcher/tmp/Req_http_vpn-3.0.0.tar.gz]
+[2023-07-11 13:27:06] INFO root fetch - processPackages [Req-http-vpn]: Remove: archive file [/home/abi/fetcher/tmp/Req_http_vpn-3.5.0.tar.gz]
+[2023-07-11 13:27:06] INFO root fetch - main [MainThread]: End processing [Req-http-vpn]: success
+[2023-07-11 13:27:06] INFO root fetch - processPackages [sisaptools]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-07-11 13:27:06] INFO root fetch - processPackages [sisaptools]: Downloading https://files.pythonhosted.org/packages/96/02/9b4bfd32347388e1847764a78c7a71ec5021f029c567f97a40ad392fbada/sisaptools-1.9.8.tar.gz
+[2023-07-11 13:27:07] INFO root fetch - processPackages [tb-nightly]: executing diffoscope
+[2023-07-11 13:27:07] INFO root fetch - processPackages [tb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip --markdown 20230711/t/tb-nightly/2.9.0a20220501-2.9.0a20220502/diff.md --exclude *.pyd
+[2023-07-11 13:27:07] INFO root fetch - processPackages [torchtnt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchtnt-nightly-2023.7.8.tar.gz]
+[2023-07-11 13:27:07] INFO root fetch - processPackages [torchtnt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchtnt-nightly-2023.7.9.tar.gz]
+[2023-07-11 13:27:07] INFO root fetch - main [MainThread]: End processing [torchtnt-nightly]: success
+[2023-07-11 13:27:07] INFO root fetch - processPackages [sisaptools]: Downloading https://files.pythonhosted.org/packages/fa/b7/9ed03e2a5a0fab512a4b6a72bcb2957691b047981b21811a85b006208ce0/sisaptools-1.9.9.tar.gz
+[2023-07-11 13:27:07] INFO root fetch - processPackages [sisaptools]: executing diffoscope
+[2023-07-11 13:27:07] INFO root fetch - processPackages [sisaptools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sisaptools-1.9.8.tar.gz tmp/sisaptools-1.9.9.tar.gz --markdown 20230711/s/sisaptools/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-07-11 13:27:07] INFO root fetch - processPackages [planetmint-driver]: Remove: archive file [/home/abi/fetcher/tmp/planetmint_driver-0.9.1.tar.gz]
+[2023-07-11 13:27:07] INFO root fetch - processPackages [planetmint-driver]: Remove: archive file [/home/abi/fetcher/tmp/planetmint_driver-0.9.4.tar.gz]
+[2023-07-11 13:27:07] INFO root fetch - main [MainThread]: End processing [planetmint-driver]: success
+[2023-07-11 13:27:08] INFO root fetch - processPackages [sisaptools]: Remove: archive file [/home/abi/fetcher/tmp/sisaptools-1.9.8.tar.gz]
+[2023-07-11 13:27:08] INFO root fetch - processPackages [sisaptools]: Remove: archive file [/home/abi/fetcher/tmp/sisaptools-1.9.9.tar.gz]
+[2023-07-11 13:27:08] INFO root fetch - main [MainThread]: End processing [sisaptools]: success
+[2023-07-11 13:27:08] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2023.7.8-cp39-cp39-win_amd64.whl.zip]
+[2023-07-11 13:27:08] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2023.7.9-cp39-cp39-win_amd64.whl.zip]
+[2023-07-11 13:27:08] INFO root fetch - main [MainThread]: End processing [torchrl-nightly]: success
+[2023-07-11 13:27:09] INFO root fetch - processPackages [bo4e]: Remove: archive file [/home/abi/fetcher/tmp/bo4e-0.5.0.tar.gz]
+[2023-07-11 13:27:09] INFO root fetch - processPackages [bo4e]: Remove: archive file [/home/abi/fetcher/tmp/bo4e-0.5.1.tar.gz]
+[2023-07-11 13:27:09] INFO root fetch - main [MainThread]: End processing [bo4e]: success
+[2023-07-11 13:27:09] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip]
+[2023-07-11 13:27:09] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip]
+[2023-07-11 13:27:09] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
+[2023-07-11 13:27:10] INFO root fetch - processPackages [scaneo]: Remove: archive file [/home/abi/fetcher/tmp/scaneo-2023.5.29.post2.tar.gz]
+[2023-07-11 13:27:10] INFO root fetch - processPackages [scaneo]: Remove: archive file [/home/abi/fetcher/tmp/scaneo-2023.7.11.tar.gz]
+[2023-07-11 13:27:10] INFO root fetch - main [MainThread]: End processing [scaneo]: success
+[2023-07-11 13:27:10] INFO root fetch - processPackages [scaneo]: Remove: archive file [/home/abi/fetcher/tmp/scaneo-2023.7.11.post2.tar.gz]
+[2023-07-11 13:27:10] INFO root fetch - main [MainThread]: End processing [scaneo]: success
+[2023-07-11 13:27:20] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev8.tar.gz]
+[2023-07-11 13:27:20] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev9.tar.gz]
+[2023-07-11 13:27:20] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2023-07-11 13:27:20] INFO root fetch - main [MainThread]: Store serial: [18844416]
