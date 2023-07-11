@@ -17906,3 +17906,188 @@ AssertionError: tmp/doctran-0.0.6.tar.gz does not exist
 [2023-07-11 13:16:32] INFO root fetch - processPackages [deepsport-utilities]: Remove: archive file [/home/abi/fetcher/tmp/deepsport_utilities-4.9.0.tar.gz]
 [2023-07-11 13:16:32] INFO root fetch - main [MainThread]: End processing [deepsport-utilities]: success
 [2023-07-11 13:16:32] INFO root fetch - main [MainThread]: Store serial: [18844301]
+[2023-07-11 13:21:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18844301]
+[2023-07-11 13:21:41] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-07-11 13:21:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aws-prototyping-sdk.nx-monorepo
+[2023-07-11 13:21:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: moonwiki
+[2023-07-11 13:21:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aws-prototyping-sdk.open-api-gateway
+[2023-07-11 13:21:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aws-prototyping-sdk.pdk-nag
+[2023-07-11 13:21:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pennylane-catalyst
+[2023-07-11 13:21:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aws-prototyping-sdk.pipeline
+[2023-07-11 13:21:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aws-prototyping-sdk.static-website
+[2023-07-11 13:21:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: alibabacloud-aligenieip-1-0
+[2023-07-11 13:21:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aws-prototyping-sdk.type-safe-api
+[2023-07-11 13:21:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bpmn-tools
+[2023-07-11 13:21:42] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-07-11 13:21:42] INFO root fetch - processPackages [alibabacloud-aligenieip-1-0]: New version: [1.0.9] Old Version: [1.0.24]
+[2023-07-11 13:21:42] INFO root fetch - processPackages [moonwiki]: New version: [2023.7.6.3] Old Version: [2023.7.6.2]
+[2023-07-11 13:21:42] INFO root fetch - processPackages [pennylane-catalyst]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-07-11 13:21:42] INFO root fetch - processPackages [bpmn-tools]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-11 13:21:42] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: New version: [0.19.9] Old Version: [0.19.8]
+[2023-07-11 13:21:42] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-07-11 13:21:42] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-07-11 13:21:42] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-07-11 13:21:42] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-07-11 13:21:42] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: Downloading https://files.pythonhosted.org/packages/9b/a8/fb239c1d2008fa7b1297ad1672aa3e98e9a9063bff2eaa6cdcd842a88a9b/aws_prototyping_sdk.pdk_nag-0.9.3.tar.gz
+[2023-07-11 13:21:42] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: Downloading https://files.pythonhosted.org/packages/ce/60/72043fc0e30f8705240241169b3b70906aceae84a2a19822234ae4fa038d/aws_prototyping_sdk.type_safe_api-0.19.8.tar.gz
+[2023-07-11 13:21:42] INFO root fetch - processPackages [alibabacloud-aligenieip-1-0]: Downloading https://files.pythonhosted.org/packages/9a/aa/ba01b3ece5dfd555cdf4ff0096e9c5a13bff6244551503a1d215bd0f68e4/alibabacloud_aligenieip_1_0-1.0.24.tar.gz
+[2023-07-11 13:21:42] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: Downloading https://files.pythonhosted.org/packages/33/2f/60587f31d52e48c949b1da26eb9e70f7d2091bc14ce396730cba7ee0991f/aws_prototyping_sdk.static_website-0.9.3.tar.gz
+[2023-07-11 13:21:42] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: Downloading https://files.pythonhosted.org/packages/62/6e/219166e3d14e639aae9211cbc1509a6dbe15cc23f9142e59ce77cdea2f2e/aws_prototyping_sdk.nx_monorepo-0.9.3.tar.gz
+[2023-07-11 13:21:42] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: Downloading https://files.pythonhosted.org/packages/42/08/74d21c65ab1d20b6b0ffa70724b1674c9dfb7fb5928c75be8facb32049a8/aws_prototyping_sdk.pipeline-0.9.3.tar.gz
+[2023-07-11 13:21:42] INFO root fetch - processPackages [moonwiki]: Downloading https://files.pythonhosted.org/packages/09/c8/7a6b6c4b3568b573c89e072fd6984dbd3b7d411796327e793e0cbdb11fd1/moonwiki-2023.7.6.2.tar.gz
+[2023-07-11 13:21:42] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: Downloading https://files.pythonhosted.org/packages/a6/45/ddfefdff429d9a4baf37e564fdd0a983f5ea8166d0e2334b90c0b418756a/aws_prototyping_sdk.open_api_gateway-0.9.3.tar.gz
+[2023-07-11 13:21:42] INFO root fetch - processPackages [bpmn-tools]: Downloading https://files.pythonhosted.org/packages/25/d4/25a1996ced923b90762ea63a09199c5066a933c0e1fe0413b23a3dcfbdcd/bpmn-tools-0.1.3.tar.gz
+[2023-07-11 13:21:42] INFO root fetch - processPackages [pennylane-catalyst]: Downloading https://files.pythonhosted.org/packages/d0/fb/f0242385e07278853b48917d7a312a6fd13f63965557316b0c534b697b3a/pennylane_catalyst-0.1.2-py3-none-manylinux2014_x86_64.whl
+[2023-07-11 13:21:42] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: Downloading https://files.pythonhosted.org/packages/12/71/4f7e5e98d46a0838bcfdff9092c0d810bc7a9d8a2026f6359027e18bd571/aws_prototyping_sdk.pdk_nag-0.9.4.tar.gz
+[2023-07-11 13:21:42] WARNING root fetch - processPackages [pennylane-catalyst]: Skipping package: exceeds size limit 62557422>=10485760
+[2023-07-11 13:21:42] INFO root fetch - processPackages [pennylane-catalyst]: Start processing: empire-platform-api-public-client
+[2023-07-11 13:21:42] INFO root fetch - main [MainThread]: End processing [pennylane-catalyst] error
+[2023-07-11 13:21:43] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: Downloading https://files.pythonhosted.org/packages/f4/27/5047b871b36882879776010666de606ac6b0119b47d0cac24792b8cc5991/aws_prototyping_sdk.type_safe_api-0.19.9.tar.gz
+[2023-07-11 13:21:43] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: Downloading https://files.pythonhosted.org/packages/50/a5/38b1bbe94b587fb0e87caef969a05ba18b295e505292f0ba228b136ae731/aws_prototyping_sdk.open_api_gateway-0.9.4.tar.gz
+[2023-07-11 13:21:43] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: Downloading https://files.pythonhosted.org/packages/e5/0f/641eb55e81a3b33a7465ceab3037ff68668a4f9bba07d31995a7c7bd15b2/aws_prototyping_sdk.static_website-0.9.4.tar.gz
+[2023-07-11 13:21:43] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: Downloading https://files.pythonhosted.org/packages/3b/25/07bfef78766c8655b384c468aeb5f171d537aafabe48a0af1fd12c7301df/aws_prototyping_sdk.pipeline-0.9.4.tar.gz
+[2023-07-11 13:21:43] INFO root fetch - processPackages [empire-platform-api-public-client]: New version: [0.167.0] Old Version: [0.166.0]
+[2023-07-11 13:21:43] INFO root fetch - processPackages [moonwiki]: Downloading https://files.pythonhosted.org/packages/28/2a/d179fbcdf8c90a0b1e0f8a90815b5261b7c79d954a416f80fa535c3aea21/moonwiki-2023.7.6.3.tar.gz
+[2023-07-11 13:21:43] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: executing diffoscope
+[2023-07-11 13:21:43] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.pdk_nag-0.9.3.tar.gz tmp/aws_prototyping_sdk.pdk_nag-0.9.4.tar.gz --markdown 20230711/a/aws-prototyping-sdk.pdk-nag/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-07-11 13:21:43] INFO root fetch - processPackages [bpmn-tools]: Downloading https://files.pythonhosted.org/packages/22/9c/6dd925a10758bff2c2fb3cfd93080b8fe42eafb631b0c3a1d4dc40c759bb/bpmn-tools-0.1.4.tar.gz
+[2023-07-11 13:21:43] INFO root fetch - processPackages [alibabacloud-aligenieip-1-0]: Downloading https://files.pythonhosted.org/packages/cc/f9/8e8f3beb90eb0d5aaefa6c2e3d7873ed761e3275d9d89b78f318811f6d6b/alibabacloud_aligenieip_1_0-1.0.9.tar.gz
+[2023-07-11 13:21:43] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: Downloading https://files.pythonhosted.org/packages/ef/05/b722ba023c19fdaec868b3d4963e41743ef58e82a6aa6b26fdc843152495/aws_prototyping_sdk.nx_monorepo-0.9.4.tar.gz
+[2023-07-11 13:21:43] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: executing diffoscope
+[2023-07-11 13:21:43] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.static_website-0.9.3.tar.gz tmp/aws_prototyping_sdk.static_website-0.9.4.tar.gz --markdown 20230711/a/aws-prototyping-sdk.static-website/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-07-11 13:21:43] INFO root fetch - processPackages [moonwiki]: executing diffoscope
+[2023-07-11 13:21:43] INFO root fetch - processPackages [moonwiki]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moonwiki-2023.7.6.2.tar.gz tmp/moonwiki-2023.7.6.3.tar.gz --markdown 20230711/m/moonwiki/2023.7.6.2-2023.7.6.3/diff.md --exclude *.pyd
+[2023-07-11 13:21:43] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: executing diffoscope
+[2023-07-11 13:21:43] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.pipeline-0.9.3.tar.gz tmp/aws_prototyping_sdk.pipeline-0.9.4.tar.gz --markdown 20230711/a/aws-prototyping-sdk.pipeline/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-07-11 13:21:43] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: executing diffoscope
+[2023-07-11 13:21:43] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.open_api_gateway-0.9.3.tar.gz tmp/aws_prototyping_sdk.open_api_gateway-0.9.4.tar.gz --markdown 20230711/a/aws-prototyping-sdk.open-api-gateway/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-07-11 13:21:43] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: executing diffoscope
+[2023-07-11 13:21:43] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.type_safe_api-0.19.8.tar.gz tmp/aws_prototyping_sdk.type_safe_api-0.19.9.tar.gz --markdown 20230711/a/aws-prototyping-sdk.type-safe-api/0.19.8-0.19.9/diff.md --exclude *.pyd
+[2023-07-11 13:21:43] INFO root fetch - processPackages [alibabacloud-aligenieip-1-0]: executing diffoscope
+[2023-07-11 13:21:43] INFO root fetch - processPackages [alibabacloud-aligenieip-1-0]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_aligenieip_1_0-1.0.24.tar.gz tmp/alibabacloud_aligenieip_1_0-1.0.9.tar.gz --markdown 20230711/a/alibabacloud-aligenieip-1-0/1.0.24-1.0.9/diff.md --exclude *.pyd
+[2023-07-11 13:21:43] INFO root fetch - processPackages [empire-platform-api-public-client]: Downloading https://files.pythonhosted.org/packages/ad/11/c7b3bb36b81ae6808ea4f722f2d7425aae68ec2c2837f333f066b3a84009/empire-platform-api-public-client-0.166.0.tar.gz
+[2023-07-11 13:21:43] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: executing diffoscope
+[2023-07-11 13:21:43] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_prototyping_sdk.nx_monorepo-0.9.3.tar.gz tmp/aws_prototyping_sdk.nx_monorepo-0.9.4.tar.gz --markdown 20230711/a/aws-prototyping-sdk.nx-monorepo/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-07-11 13:21:43] INFO root fetch - processPackages [bpmn-tools]: executing diffoscope
+[2023-07-11 13:21:43] INFO root fetch - processPackages [bpmn-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bpmn-tools-0.1.3.tar.gz tmp/bpmn-tools-0.1.4.tar.gz --markdown 20230711/b/bpmn-tools/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-11 13:21:43] INFO root fetch - processPackages [empire-platform-api-public-client]: Downloading https://files.pythonhosted.org/packages/d4/e3/1e4dc275bff0fe280692b90553d767a4373e46605fb8094096b2c6bb8c4a/empire-platform-api-public-client-0.167.0.tar.gz
+[2023-07-11 13:21:44] INFO root fetch - processPackages [empire-platform-api-public-client]: executing diffoscope
+[2023-07-11 13:21:44] INFO root fetch - processPackages [empire-platform-api-public-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/empire-platform-api-public-client-0.166.0.tar.gz tmp/empire-platform-api-public-client-0.167.0.tar.gz --markdown 20230711/e/empire-platform-api-public-client/0.166.0-0.167.0/diff.md --exclude *.pyd
+[2023-07-11 13:21:44] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.pdk_nag-0.9.3.tar.gz]
+[2023-07-11 13:21:44] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.pdk_nag-0.9.4.tar.gz]
+[2023-07-11 13:21:44] INFO root fetch - processPackages [aws-prototyping-sdk.pdk-nag]: Start processing: specklia
+[2023-07-11 13:21:44] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.pdk-nag]: success
+[2023-07-11 13:21:44] INFO root fetch - processPackages [specklia]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-07-11 13:21:44] INFO root fetch - processPackages [specklia]: Downloading https://files.pythonhosted.org/packages/2a/bd/1379d90b6bd45442f7550556688400cbbbfc9ca64d3a7d78533565069eda/specklia-1.2.8.tar.gz
+[2023-07-11 13:21:44] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.static_website-0.9.3.tar.gz]
+[2023-07-11 13:21:44] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.static_website-0.9.4.tar.gz]
+[2023-07-11 13:21:44] INFO root fetch - processPackages [aws-prototyping-sdk.static-website]: Start processing: auto-archiver
+[2023-07-11 13:21:44] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.static-website]: success
+[2023-07-11 13:21:45] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.pipeline-0.9.3.tar.gz]
+[2023-07-11 13:21:45] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.pipeline-0.9.4.tar.gz]
+[2023-07-11 13:21:45] INFO root fetch - processPackages [aws-prototyping-sdk.pipeline]: Start processing: LbNightlyTools
+[2023-07-11 13:21:45] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.pipeline]: success
+[2023-07-11 13:21:45] INFO root fetch - processPackages [moonwiki]: Remove: archive file [/home/abi/fetcher/tmp/moonwiki-2023.7.6.2.tar.gz]
+[2023-07-11 13:21:45] INFO root fetch - processPackages [moonwiki]: Remove: archive file [/home/abi/fetcher/tmp/moonwiki-2023.7.6.3.tar.gz]
+[2023-07-11 13:21:45] INFO root fetch - processPackages [moonwiki]: Start processing: mdrpaLibrary
+[2023-07-11 13:21:45] INFO root fetch - main [MainThread]: End processing [moonwiki]: success
+[2023-07-11 13:21:45] INFO root fetch - processPackages [auto-archiver]: New version: [0.5.8] Old Version: [0.5.7]
+[2023-07-11 13:21:45] INFO root fetch - processPackages [specklia]: Downloading https://files.pythonhosted.org/packages/82/ab/63cdd26880b2cbe03073ca9cb599a0ed43a52df679f722fa5d3eaab6c4c5/specklia-1.2.9.tar.gz
+[2023-07-11 13:21:45] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.type_safe_api-0.19.8.tar.gz]
+[2023-07-11 13:21:45] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.type_safe_api-0.19.9.tar.gz]
+[2023-07-11 13:21:45] INFO root fetch - processPackages [aws-prototyping-sdk.type-safe-api]: Start processing: nomenklatura
+[2023-07-11 13:21:45] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.type-safe-api]: success
+[2023-07-11 13:21:45] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.nx_monorepo-0.9.3.tar.gz]
+[2023-07-11 13:21:45] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.nx_monorepo-0.9.4.tar.gz]
+[2023-07-11 13:21:45] INFO root fetch - processPackages [aws-prototyping-sdk.nx-monorepo]: Start processing: bitfount
+[2023-07-11 13:21:45] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.nx-monorepo]: success
+[2023-07-11 13:21:45] INFO root fetch - processPackages [mdrpaLibrary]: New version: [2.4] Old Version: [2.3]
+[2023-07-11 13:21:45] INFO root fetch - processPackages [alibabacloud-aligenieip-1-0]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_aligenieip_1_0-1.0.24.tar.gz]
+[2023-07-11 13:21:45] INFO root fetch - processPackages [alibabacloud-aligenieip-1-0]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_aligenieip_1_0-1.0.9.tar.gz]
+[2023-07-11 13:21:45] INFO root fetch - processPackages [alibabacloud-aligenieip-1-0]: Start processing: decode-mcd
+[2023-07-11 13:21:45] INFO root fetch - main [MainThread]: End processing [alibabacloud-aligenieip-1-0]: success
+[2023-07-11 13:21:45] INFO root fetch - processPackages [LbNightlyTools]: New version: [4.0.0] Old Version: [3.0.9]
+[2023-07-11 13:21:45] INFO root fetch - processPackages [bpmn-tools]: Remove: archive file [/home/abi/fetcher/tmp/bpmn-tools-0.1.3.tar.gz]
+[2023-07-11 13:21:45] INFO root fetch - processPackages [bpmn-tools]: Remove: archive file [/home/abi/fetcher/tmp/bpmn-tools-0.1.4.tar.gz]
+[2023-07-11 13:21:45] INFO root fetch - processPackages [bpmn-tools]: Start processing: ephysiopy
+[2023-07-11 13:21:45] INFO root fetch - main [MainThread]: End processing [bpmn-tools]: success
+[2023-07-11 13:21:45] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.open_api_gateway-0.9.3.tar.gz]
+[2023-07-11 13:21:45] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: Remove: archive file [/home/abi/fetcher/tmp/aws_prototyping_sdk.open_api_gateway-0.9.4.tar.gz]
+[2023-07-11 13:21:45] INFO root fetch - processPackages [aws-prototyping-sdk.open-api-gateway]: Start processing: fdfat
+[2023-07-11 13:21:45] INFO root fetch - main [MainThread]: End processing [aws-prototyping-sdk.open-api-gateway]: success
+[2023-07-11 13:21:45] INFO root fetch - processPackages [specklia]: executing diffoscope
+[2023-07-11 13:21:45] INFO root fetch - processPackages [specklia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/specklia-1.2.8.tar.gz tmp/specklia-1.2.9.tar.gz --markdown 20230711/s/specklia/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-07-11 13:21:45] INFO root fetch - processPackages [mdrpaLibrary]: Downloading https://files.pythonhosted.org/packages/5b/80/0641702b3c17c7b6bd5d08b8d73f3c5af741673173efd6c2ef5637cb12a3/mdrpaLibrary-2.3.tar.gz
+[2023-07-11 13:21:45] INFO root fetch - processPackages [ephysiopy]: New version: [1.9.23] Old Version: [1.9.22]
+[2023-07-11 13:21:45] INFO root fetch - processPackages [nomenklatura]: New version: [3.2.1] Old Version: [3.2.0]
+[2023-07-11 13:21:45] INFO root fetch - processPackages [bitfount]: New version: [0.5.9] Old Version: [0.5.82]
+[2023-07-11 13:21:45] WARNING root fetch - processPackages [decode-mcd]: Skipping, unable to determine old version
+[2023-07-11 13:21:45] INFO root fetch - processPackages [decode-mcd]: Start processing: wunderkafka
+[2023-07-11 13:21:45] INFO root fetch - main [MainThread]: End processing [decode-mcd] error
+[2023-07-11 13:21:45] INFO root fetch - processPackages [auto-archiver]: Downloading https://files.pythonhosted.org/packages/33/6a/05d49528e4a2f06ac3413008be94b5777a75f3f02cafeafca61256792b1c/auto_archiver-0.5.7.tar.gz
+[2023-07-11 13:21:45] WARNING root fetch - processPackages [fdfat]: Skipping, unable to determine old version
+[2023-07-11 13:21:45] INFO root fetch - processPackages [fdfat]: Start processing: Req-http-vpn
+[2023-07-11 13:21:45] INFO root fetch - main [MainThread]: End processing [fdfat] error
+[2023-07-11 13:21:45] INFO root fetch - processPackages [ephysiopy]: Downloading https://files.pythonhosted.org/packages/26/23/0af1b7a1b81a3202b1eefc8038d9e8884fe47135dbb0af107ba6484944fb/ephysiopy-1.9.22.tar.gz
+[2023-07-11 13:21:45] INFO root fetch - processPackages [LbNightlyTools]: Downloading https://files.pythonhosted.org/packages/51/fa/9c92013dcb7178b558b9f90d6b89df82070caf9d26a963eb71ddf4899f17/LbNightlyTools-3.0.9.tar.gz
+[2023-07-11 13:21:45] INFO root fetch - processPackages [Req-http-vpn]: New version: [3.0.0] Old Version: [2.0.0]
+[2023-07-11 13:21:45] INFO root fetch - processPackages [bitfount]: Downloading https://files.pythonhosted.org/packages/7f/cd/1aaaad04a3e7b5aa7501da686c543beaa8dee793c193ca6e638b349588b6/bitfount-0.5.82.tar.gz
+[2023-07-11 13:21:45] INFO root fetch - processPackages [wunderkafka]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-11 13:21:45] INFO root fetch - processPackages [mdrpaLibrary]: Downloading https://files.pythonhosted.org/packages/be/7e/7dce20cb5da086c8a62842cbc8ec1695a3937d4e70e35bfcedfc7a6c9810/mdrpaLibrary-2.4.tar.gz
+[2023-07-11 13:21:45] INFO root fetch - processPackages [nomenklatura]: Downloading https://files.pythonhosted.org/packages/1e/5a/22b61c06c12a87e4c9171a2e4725bf0b6cf842bf9a3157e508a2c0b09891/nomenklatura-3.2.0.tar.gz
+[2023-07-11 13:21:45] INFO root fetch - processPackages [Req-http-vpn]: Downloading https://files.pythonhosted.org/packages/db/8b/4a190d4ac14cd815b1c55c58327b7a7142c9b636e0346f6d196f35e58dc7/Req_http_vpn-2.0.0.tar.gz
+[2023-07-11 13:21:45] INFO root fetch - processPackages [ephysiopy]: Downloading https://files.pythonhosted.org/packages/92/07/2e8e468540fd88f64b1e552514dfd6d422de66d532d612dbd6295e42d063/ephysiopy-1.9.23.tar.gz
+[2023-07-11 13:21:45] INFO root fetch - processPackages [wunderkafka]: Downloading https://files.pythonhosted.org/packages/64/3d/24c4fbef1f489d3bc85481d47115b551288301eb778561e12ce054618d88/wunderkafka-0.9.8.tar.gz
+[2023-07-11 13:21:45] INFO root fetch - processPackages [mdrpaLibrary]: executing diffoscope
+[2023-07-11 13:21:45] INFO root fetch - processPackages [mdrpaLibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mdrpaLibrary-2.3.tar.gz tmp/mdrpaLibrary-2.4.tar.gz --markdown 20230711/m/mdrpaLibrary/2.3-2.4/diff.md --exclude *.pyd
+[2023-07-11 13:21:45] INFO root fetch - processPackages [auto-archiver]: Downloading https://files.pythonhosted.org/packages/b7/3f/56ff889adbece9c94eeff8aebe881f8edb8d2bf925e50f4a90c4a0e899ae/auto_archiver-0.5.8.tar.gz
+[2023-07-11 13:21:45] INFO root fetch - processPackages [Req-http-vpn]: Downloading https://files.pythonhosted.org/packages/a2/5d/e8a15c0db238755d2d679f86a47096082567c406213780daa6ce7919e7dc/Req_http_vpn-3.0.0.tar.gz
+[2023-07-11 13:21:45] INFO root fetch - processPackages [ephysiopy]: executing diffoscope
+[2023-07-11 13:21:45] INFO root fetch - processPackages [ephysiopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ephysiopy-1.9.22.tar.gz tmp/ephysiopy-1.9.23.tar.gz --markdown 20230711/e/ephysiopy/1.9.22-1.9.23/diff.md --exclude *.pyd
+[2023-07-11 13:21:46] INFO root fetch - processPackages [nomenklatura]: Downloading https://files.pythonhosted.org/packages/cb/54/292f87bf428f4d218c80692b383060cb7561240f20a801536df85f349877/nomenklatura-3.2.1.tar.gz
+[2023-07-11 13:21:46] INFO root fetch - processPackages [specklia]: Remove: archive file [/home/abi/fetcher/tmp/specklia-1.2.8.tar.gz]
+[2023-07-11 13:21:46] INFO root fetch - processPackages [Req-http-vpn]: executing diffoscope
+[2023-07-11 13:21:46] INFO root fetch - processPackages [specklia]: Remove: archive file [/home/abi/fetcher/tmp/specklia-1.2.9.tar.gz]
+[2023-07-11 13:21:46] INFO root fetch - processPackages [Req-http-vpn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Req_http_vpn-2.0.0.tar.gz tmp/Req_http_vpn-3.0.0.tar.gz --markdown 20230711/R/Req-http-vpn/2.0.0-3.0.0/diff.md --exclude *.pyd
+[2023-07-11 13:21:46] INFO root fetch - main [MainThread]: End processing [specklia]: success
+[2023-07-11 13:21:46] INFO root fetch - processPackages [bitfount]: Downloading https://files.pythonhosted.org/packages/6f/29/8f4206e615fc20a41a45ee646f360c3c10572297cf6c08f1b52fcab30b97/bitfount-0.5.9.tar.gz
+[2023-07-11 13:21:46] INFO root fetch - processPackages [auto-archiver]: executing diffoscope
+[2023-07-11 13:21:46] INFO root fetch - processPackages [auto-archiver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto_archiver-0.5.7.tar.gz tmp/auto_archiver-0.5.8.tar.gz --markdown 20230711/a/auto-archiver/0.5.7-0.5.8/diff.md --exclude *.pyd
+[2023-07-11 13:21:46] INFO root fetch - processPackages [nomenklatura]: executing diffoscope
+[2023-07-11 13:21:46] INFO root fetch - processPackages [nomenklatura]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nomenklatura-3.2.0.tar.gz tmp/nomenklatura-3.2.1.tar.gz --markdown 20230711/n/nomenklatura/3.2.0-3.2.1/diff.md --exclude *.pyd
+[2023-07-11 13:21:46] INFO root fetch - processPackages [wunderkafka]: Downloading https://files.pythonhosted.org/packages/73/6b/c7da4cd4a1fe68f675a140e07dd20bd7a46b9a18eb10eca99b2d3c656557/wunderkafka-0.9.9.tar.gz
+[2023-07-11 13:21:46] INFO root fetch - processPackages [LbNightlyTools]: Downloading https://files.pythonhosted.org/packages/ec/19/f21468f38a0fffe70e5399c4befa3b0ce4834c6242560f309b145b25f38d/LbNightlyTools-4.0.0.tar.gz
+[2023-07-11 13:21:46] INFO root fetch - processPackages [bitfount]: executing diffoscope
+[2023-07-11 13:21:46] INFO root fetch - processPackages [bitfount]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bitfount-0.5.82.tar.gz tmp/bitfount-0.5.9.tar.gz --markdown 20230711/b/bitfount/0.5.82-0.5.9/diff.md --exclude *.pyd
+[2023-07-11 13:21:46] INFO root fetch - processPackages [wunderkafka]: executing diffoscope
+[2023-07-11 13:21:46] INFO root fetch - processPackages [wunderkafka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wunderkafka-0.9.8.tar.gz tmp/wunderkafka-0.9.9.tar.gz --markdown 20230711/w/wunderkafka/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-11 13:21:46] INFO root fetch - processPackages [LbNightlyTools]: executing diffoscope
+[2023-07-11 13:21:46] INFO root fetch - processPackages [LbNightlyTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LbNightlyTools-3.0.9.tar.gz tmp/LbNightlyTools-4.0.0.tar.gz --markdown 20230711/L/LbNightlyTools/3.0.9-4.0.0/diff.md --exclude *.pyd
+[2023-07-11 13:21:47] INFO root fetch - processPackages [mdrpaLibrary]: Remove: archive file [/home/abi/fetcher/tmp/mdrpaLibrary-2.3.tar.gz]
+[2023-07-11 13:21:47] INFO root fetch - processPackages [mdrpaLibrary]: Remove: archive file [/home/abi/fetcher/tmp/mdrpaLibrary-2.4.tar.gz]
+[2023-07-11 13:21:47] INFO root fetch - main [MainThread]: End processing [mdrpaLibrary]: success
+[2023-07-11 13:21:47] INFO root fetch - processPackages [Req-http-vpn]: Remove: archive file [/home/abi/fetcher/tmp/Req_http_vpn-2.0.0.tar.gz]
+[2023-07-11 13:21:47] INFO root fetch - processPackages [Req-http-vpn]: Remove: archive file [/home/abi/fetcher/tmp/Req_http_vpn-3.0.0.tar.gz]
+[2023-07-11 13:21:47] INFO root fetch - main [MainThread]: End processing [Req-http-vpn]: success
+[2023-07-11 13:21:47] INFO root fetch - processPackages [ephysiopy]: Remove: archive file [/home/abi/fetcher/tmp/ephysiopy-1.9.22.tar.gz]
+[2023-07-11 13:21:47] INFO root fetch - processPackages [ephysiopy]: Remove: archive file [/home/abi/fetcher/tmp/ephysiopy-1.9.23.tar.gz]
+[2023-07-11 13:21:47] INFO root fetch - main [MainThread]: End processing [ephysiopy]: success
+[2023-07-11 13:21:47] INFO root fetch - processPackages [auto-archiver]: Remove: archive file [/home/abi/fetcher/tmp/auto_archiver-0.5.7.tar.gz]
+[2023-07-11 13:21:47] INFO root fetch - processPackages [auto-archiver]: Remove: archive file [/home/abi/fetcher/tmp/auto_archiver-0.5.8.tar.gz]
+[2023-07-11 13:21:47] INFO root fetch - main [MainThread]: End processing [auto-archiver]: success
+[2023-07-11 13:21:47] INFO root fetch - processPackages [nomenklatura]: Remove: archive file [/home/abi/fetcher/tmp/nomenklatura-3.2.0.tar.gz]
+[2023-07-11 13:21:47] INFO root fetch - processPackages [nomenklatura]: Remove: archive file [/home/abi/fetcher/tmp/nomenklatura-3.2.1.tar.gz]
+[2023-07-11 13:21:47] INFO root fetch - main [MainThread]: End processing [nomenklatura]: success
+[2023-07-11 13:21:48] INFO root fetch - processPackages [wunderkafka]: Remove: archive file [/home/abi/fetcher/tmp/wunderkafka-0.9.8.tar.gz]
+[2023-07-11 13:21:48] INFO root fetch - processPackages [wunderkafka]: Remove: archive file [/home/abi/fetcher/tmp/wunderkafka-0.9.9.tar.gz]
+[2023-07-11 13:21:48] INFO root fetch - main [MainThread]: End processing [wunderkafka]: success
+[2023-07-11 13:21:49] INFO root fetch - processPackages [bitfount]: Remove: archive file [/home/abi/fetcher/tmp/bitfount-0.5.82.tar.gz]
+[2023-07-11 13:21:49] INFO root fetch - processPackages [bitfount]: Remove: archive file [/home/abi/fetcher/tmp/bitfount-0.5.9.tar.gz]
+[2023-07-11 13:21:49] INFO root fetch - main [MainThread]: End processing [bitfount]: success
+[2023-07-11 13:21:50] INFO root fetch - processPackages [LbNightlyTools]: Remove: archive file [/home/abi/fetcher/tmp/LbNightlyTools-3.0.9.tar.gz]
+[2023-07-11 13:21:50] INFO root fetch - processPackages [LbNightlyTools]: Remove: archive file [/home/abi/fetcher/tmp/LbNightlyTools-4.0.0.tar.gz]
+[2023-07-11 13:21:50] INFO root fetch - main [MainThread]: End processing [LbNightlyTools]: success
+[2023-07-11 13:21:53] INFO root fetch - processPackages [empire-platform-api-public-client]: Remove: archive file [/home/abi/fetcher/tmp/empire-platform-api-public-client-0.166.0.tar.gz]
+[2023-07-11 13:21:53] INFO root fetch - processPackages [empire-platform-api-public-client]: Remove: archive file [/home/abi/fetcher/tmp/empire-platform-api-public-client-0.167.0.tar.gz]
+[2023-07-11 13:21:53] INFO root fetch - main [MainThread]: End processing [empire-platform-api-public-client]: success
+[2023-07-11 13:21:53] INFO root fetch - main [MainThread]: Store serial: [18844375]
