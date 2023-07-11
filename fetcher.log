@@ -23391,3 +23391,180 @@ EOFError: EOF read where object expected
 [2023-07-11 16:33:20] INFO root fetch - processPackages [domolibrary]: Remove: archive file [/home/abi/fetcher/tmp/domolibrary-0.1.99.tar.gz]
 [2023-07-11 16:33:20] INFO root fetch - main [MainThread]: End processing [domolibrary]: success
 [2023-07-11 16:33:20] INFO root fetch - main [MainThread]: Store serial: [18846713]
+[2023-07-11 16:38:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18846713]
+[2023-07-11 16:38:30] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-07-11 16:38:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: polycleaver
+[2023-07-11 16:38:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mercari
+[2023-07-11 16:38:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-langchain
+[2023-07-11 16:38:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyrippleapi
+[2023-07-11 16:38:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hsml
+[2023-07-11 16:38:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: openworld-sdk-python-fraudpreventionv2
+[2023-07-11 16:38:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: coiled
+[2023-07-11 16:38:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: yetl-framework
+[2023-07-11 16:38:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: chaostoolkit-azure
+[2023-07-11 16:38:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: huhk
+[2023-07-11 16:38:30] INFO root fetch - processPackages [chaostoolkit-azure]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-07-11 16:38:30] INFO root fetch - processPackages [yetl-framework]: New version: [1.6.6.dev4] Old Version: [1.6.6.dev3]
+[2023-07-11 16:38:30] INFO root fetch - processPackages [polycleaver]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-11 16:38:30] INFO root fetch - processPackages [hsml]: New version: [3.3.0rc0] Old Version: [3.2.0rc1]
+[2023-07-11 16:38:30] WARNING root fetch - processPackages [django-langchain]: Skipping, unable to determine old version
+[2023-07-11 16:38:30] INFO root fetch - processPackages [django-langchain]: Start processing: pyfastedit
+[2023-07-11 16:38:30] INFO root fetch - main [MainThread]: End processing [django-langchain] error
+[2023-07-11 16:38:30] INFO root fetch - processPackages [openworld-sdk-python-fraudpreventionv2]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-07-11 16:38:30] INFO root fetch - processPackages [pyrippleapi]: New version: [2023.7.4] Old Version: [2023.7.3]
+[2023-07-11 16:38:30] INFO root fetch - processPackages [huhk]: New version: [1.5.8] Old Version: [1.5.7]
+[2023-07-11 16:38:30] INFO root fetch - processPackages [mercari]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-07-11 16:38:30] INFO root fetch - processPackages [coiled]: New version: [0.8.6.dev15] Old Version: [0.8.6.dev14]
+[2023-07-11 16:38:31] INFO root fetch - processPackages [pyfastedit]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-11 16:38:31] INFO root fetch - processPackages [chaostoolkit-azure]: Downloading https://files.pythonhosted.org/packages/36/b7/597652fcd9443a0bbadf6388b30b277267d82e11dd7a0b2c5502cbc357fa/chaostoolkit-azure-0.8.3.tar.gz
+[2023-07-11 16:38:31] INFO root fetch - processPackages [openworld-sdk-python-fraudpreventionv2]: Downloading https://files.pythonhosted.org/packages/3d/6c/be45d341b063a64474cd9f8807a607d09771ae05c03f1bd39f0900a69fc1/openworld-sdk-python-fraudpreventionv2-1.2.0.tar.gz
+[2023-07-11 16:38:31] INFO root fetch - processPackages [pyrippleapi]: Downloading https://files.pythonhosted.org/packages/d5/fb/1bc651efbf88c4a80e9aadebb57a3c7a665cf91b25d84a2ae0043c2d3e6a/pyrippleapi-2023.7.3.tar.gz
+[2023-07-11 16:38:31] INFO root fetch - processPackages [mercari]: Downloading https://files.pythonhosted.org/packages/2d/1a/3e4a2d561e1e9072a45c44500e99f67a03d676d18ab41299c593abe39481/mercari-2.0.0.tar.gz
+[2023-07-11 16:38:31] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/c5/79/bac5cca77c530f0599a8ae6dde1139aa7643274742ed0236b2ffa50e5ea2/coiled-0.8.6.dev14.tar.gz
+[2023-07-11 16:38:31] INFO root fetch - processPackages [yetl-framework]: Downloading https://files.pythonhosted.org/packages/11/c9/3620fd488d790b59e55ff143e1cd05223925293024c4e90853f161070def/yetl-framework-1.6.6.dev3.tar.gz
+[2023-07-11 16:38:31] INFO root fetch - processPackages [huhk]: Downloading https://files.pythonhosted.org/packages/b2/77/86d8df888e1ef17d1e63b055baff9839a8a8dde784dc6e0e45a2ea78eb06/huhk-1.5.7.tar.gz
+[2023-07-11 16:38:31] INFO root fetch - processPackages [pyfastedit]: Downloading https://files.pythonhosted.org/packages/8c/70/f9a262c2c23d25a432bf0e237fb131a64ad271f7717a7cd0d4c7ef04fa23/pyfastedit-0.0.3.tar.gz
+[2023-07-11 16:38:31] INFO root fetch - processPackages [polycleaver]: Downloading https://files.pythonhosted.org/packages/f9/75/15e38a1c7c5da52b2fbbec7c6a21d01e6345b9fc4525886b279d17b24cdd/polycleaver-0.0.2.tar.gz
+[2023-07-11 16:38:31] INFO root fetch - processPackages [hsml]: Downloading https://files.pythonhosted.org/packages/63/8a/f83ab1fc223a46509f6ba501f14a4590545ba4480a8c7b08f0897b66d02b/hsml-3.2.0rc1.tar.gz
+[2023-07-11 16:38:31] INFO root fetch - processPackages [chaostoolkit-azure]: Downloading https://files.pythonhosted.org/packages/ae/88/335917f3a7bf843ca272505e1b59f4a817a74bcb329ed9cf0a6a8c7cfe72/chaostoolkit-azure-0.9.0.tar.gz
+[2023-07-11 16:38:31] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/9a/3a/433a5f51db150f72053e75a08e2b3de05729ccf15cc220df8af734f1e3bb/coiled-0.8.6.dev15.tar.gz
+[2023-07-11 16:38:31] INFO root fetch - processPackages [pyrippleapi]: Downloading https://files.pythonhosted.org/packages/36/ee/33429f4180cd8f3adc4be4127f77547685ee84a8ea5b75afc889af7b187e/pyrippleapi-2023.7.4.tar.gz
+[2023-07-11 16:38:31] INFO root fetch - processPackages [huhk]: Downloading https://files.pythonhosted.org/packages/66/a1/4887136f7990cacc4cad17ac4169dc5e8edc59e1caf4ceaed0c2ef140be5/huhk-1.5.8.tar.gz
+[2023-07-11 16:38:31] INFO root fetch - processPackages [chaostoolkit-azure]: executing diffoscope
+[2023-07-11 16:38:31] INFO root fetch - processPackages [chaostoolkit-azure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chaostoolkit-azure-0.8.3.tar.gz tmp/chaostoolkit-azure-0.9.0.tar.gz --markdown 20230711/c/chaostoolkit-azure/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-07-11 16:38:31] INFO root fetch - processPackages [openworld-sdk-python-fraudpreventionv2]: Downloading https://files.pythonhosted.org/packages/bd/68/b18df32a9d062c789f0bf36b5d0386cac32a05e09e2a52a4018bf485be6a/openworld-sdk-python-fraudpreventionv2-1.2.1.tar.gz
+[2023-07-11 16:38:31] INFO root fetch - processPackages [mercari]: Downloading https://files.pythonhosted.org/packages/0e/59/50fbb435aa6d4dc49b5d7a67d7ee478792f7848f3ed7f51dcdc51841acae/mercari-2.0.1.tar.gz
+[2023-07-11 16:38:31] INFO root fetch - processPackages [yetl-framework]: Downloading https://files.pythonhosted.org/packages/e5/97/35f3f6c3a619b478be79cbd90f192cd0864d81b1638311954a6be2f9f093/yetl-framework-1.6.6.dev4.tar.gz
+[2023-07-11 16:38:31] INFO root fetch - processPackages [polycleaver]: Downloading https://files.pythonhosted.org/packages/65/fe/15eec317160d8e2201d9cfe7045f26dcbfc10b18932fa9fc5441dfae2684/polycleaver-0.0.3.tar.gz
+[2023-07-11 16:38:31] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-07-11 16:38:31] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.8.6.dev14.tar.gz tmp/coiled-0.8.6.dev15.tar.gz --markdown 20230711/c/coiled/0.8.6.dev14-0.8.6.dev15/diff.md --exclude *.pyd
+[2023-07-11 16:38:31] INFO root fetch - processPackages [pyrippleapi]: executing diffoscope
+[2023-07-11 16:38:31] INFO root fetch - processPackages [pyrippleapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrippleapi-2023.7.3.tar.gz tmp/pyrippleapi-2023.7.4.tar.gz --markdown 20230711/p/pyrippleapi/2023.7.3-2023.7.4/diff.md --exclude *.pyd
+[2023-07-11 16:38:31] INFO root fetch - processPackages [pyfastedit]: Downloading https://files.pythonhosted.org/packages/16/4e/01e6d031cdeb1996dc282d8a7baf7b9f05b8e0cd0a929f5f5f20e1224671/pyfastedit-0.0.4.tar.gz
+[2023-07-11 16:38:31] INFO root fetch - processPackages [huhk]: executing diffoscope
+[2023-07-11 16:38:31] INFO root fetch - processPackages [huhk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huhk-1.5.7.tar.gz tmp/huhk-1.5.8.tar.gz --markdown 20230711/h/huhk/1.5.7-1.5.8/diff.md --exclude *.pyd
+[2023-07-11 16:38:31] INFO root fetch - processPackages [hsml]: Downloading https://files.pythonhosted.org/packages/9f/e8/746e95370840b49f7e306888ddb94261cc0cd14d073b0f61e43fa16f3df9/hsml-3.3.0rc0.tar.gz
+[2023-07-11 16:38:32] INFO root fetch - processPackages [openworld-sdk-python-fraudpreventionv2]: executing diffoscope
+[2023-07-11 16:38:32] INFO root fetch - processPackages [openworld-sdk-python-fraudpreventionv2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openworld-sdk-python-fraudpreventionv2-1.2.0.tar.gz tmp/openworld-sdk-python-fraudpreventionv2-1.2.1.tar.gz --markdown 20230711/o/openworld-sdk-python-fraudpreventionv2/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-07-11 16:38:32] INFO root fetch - processPackages [mercari]: executing diffoscope
+[2023-07-11 16:38:32] INFO root fetch - processPackages [mercari]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mercari-2.0.0.tar.gz tmp/mercari-2.0.1.tar.gz --markdown 20230711/m/mercari/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-07-11 16:38:32] INFO root fetch - processPackages [polycleaver]: executing diffoscope
+[2023-07-11 16:38:32] INFO root fetch - processPackages [polycleaver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polycleaver-0.0.2.tar.gz tmp/polycleaver-0.0.3.tar.gz --markdown 20230711/p/polycleaver/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-11 16:38:32] INFO root fetch - processPackages [pyfastedit]: executing diffoscope
+[2023-07-11 16:38:32] INFO root fetch - processPackages [pyfastedit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfastedit-0.0.3.tar.gz tmp/pyfastedit-0.0.4.tar.gz --markdown 20230711/p/pyfastedit/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-11 16:38:32] INFO root fetch - processPackages [yetl-framework]: executing diffoscope
+[2023-07-11 16:38:32] INFO root fetch - processPackages [yetl-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yetl-framework-1.6.6.dev3.tar.gz tmp/yetl-framework-1.6.6.dev4.tar.gz --markdown 20230711/y/yetl-framework/1.6.6.dev3-1.6.6.dev4/diff.md --exclude *.pyd
+[2023-07-11 16:38:32] INFO root fetch - processPackages [hsml]: executing diffoscope
+[2023-07-11 16:38:32] INFO root fetch - processPackages [hsml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hsml-3.2.0rc1.tar.gz tmp/hsml-3.3.0rc0.tar.gz --markdown 20230711/h/hsml/3.2.0rc1-3.3.0rc0/diff.md --exclude *.pyd
+[2023-07-11 16:38:33] INFO root fetch - processPackages [pyrippleapi]: Remove: archive file [/home/abi/fetcher/tmp/pyrippleapi-2023.7.3.tar.gz]
+[2023-07-11 16:38:33] INFO root fetch - processPackages [pyrippleapi]: Remove: archive file [/home/abi/fetcher/tmp/pyrippleapi-2023.7.4.tar.gz]
+[2023-07-11 16:38:33] INFO root fetch - processPackages [pyrippleapi]: Start processing: SusteenExToPy
+[2023-07-11 16:38:33] INFO root fetch - main [MainThread]: End processing [pyrippleapi]: success
+[2023-07-11 16:38:33] INFO root fetch - processPackages [SusteenExToPy]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-11 16:38:33] INFO root fetch - processPackages [openworld-sdk-python-fraudpreventionv2]: Remove: archive file [/home/abi/fetcher/tmp/openworld-sdk-python-fraudpreventionv2-1.2.0.tar.gz]
+[2023-07-11 16:38:33] INFO root fetch - processPackages [openworld-sdk-python-fraudpreventionv2]: Remove: archive file [/home/abi/fetcher/tmp/openworld-sdk-python-fraudpreventionv2-1.2.1.tar.gz]
+[2023-07-11 16:38:33] INFO root fetch - processPackages [openworld-sdk-python-fraudpreventionv2]: Start processing: confluence-cli
+[2023-07-11 16:38:33] INFO root fetch - main [MainThread]: End processing [openworld-sdk-python-fraudpreventionv2]: success
+[2023-07-11 16:38:33] INFO root fetch - processPackages [confluence-cli]: New version: [0.8.2] Old Version: [0.8.1]
+[2023-07-11 16:38:33] INFO root fetch - processPackages [confluence-cli]: Downloading https://files.pythonhosted.org/packages/60/68/d9fe195fbbf4222c1ce773a063c7e8889155c0b1e4660f596c7b97ce3acd/confluence_cli-0.8.1.tar.gz
+[2023-07-11 16:38:33] INFO root fetch - processPackages [chaostoolkit-azure]: Remove: archive file [/home/abi/fetcher/tmp/chaostoolkit-azure-0.8.3.tar.gz]
+[2023-07-11 16:38:33] INFO root fetch - processPackages [chaostoolkit-azure]: Remove: archive file [/home/abi/fetcher/tmp/chaostoolkit-azure-0.9.0.tar.gz]
+[2023-07-11 16:38:33] INFO root fetch - processPackages [chaostoolkit-azure]: Start processing: ReadROOT
+[2023-07-11 16:38:33] INFO root fetch - main [MainThread]: End processing [chaostoolkit-azure]: success
+[2023-07-11 16:38:33] INFO root fetch - processPackages [SusteenExToPy]: Downloading https://files.pythonhosted.org/packages/18/80/920ed150ebf4804b5673ceb64cc112286161a63771328fa84de3d31f15a5/SusteenExToPy-0.0.6.tar.gz
+[2023-07-11 16:38:33] INFO root fetch - processPackages [pyfastedit]: Remove: archive file [/home/abi/fetcher/tmp/pyfastedit-0.0.3.tar.gz]
+[2023-07-11 16:38:33] INFO root fetch - processPackages [pyfastedit]: Remove: archive file [/home/abi/fetcher/tmp/pyfastedit-0.0.4.tar.gz]
+[2023-07-11 16:38:33] INFO root fetch - processPackages [pyfastedit]: Start processing: ciderpolarity
+[2023-07-11 16:38:33] INFO root fetch - main [MainThread]: End processing [pyfastedit]: success
+[2023-07-11 16:38:33] INFO root fetch - processPackages [huhk]: Remove: archive file [/home/abi/fetcher/tmp/huhk-1.5.7.tar.gz]
+[2023-07-11 16:38:33] INFO root fetch - processPackages [huhk]: Remove: archive file [/home/abi/fetcher/tmp/huhk-1.5.8.tar.gz]
+[2023-07-11 16:38:33] INFO root fetch - processPackages [huhk]: Start processing: pyppbox-ultralytics
+[2023-07-11 16:38:33] INFO root fetch - main [MainThread]: End processing [huhk]: success
+[2023-07-11 16:38:33] INFO root fetch - processPackages [ReadROOT]: New version: [2.3.0] Old Version: [2.2.7]
+[2023-07-11 16:38:33] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.8.6.dev14.tar.gz]
+[2023-07-11 16:38:33] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.8.6.dev15.tar.gz]
+[2023-07-11 16:38:33] INFO root fetch - processPackages [coiled]: Start processing: cg
+[2023-07-11 16:38:33] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-07-11 16:38:33] INFO root fetch - processPackages [ciderpolarity]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-11 16:38:33] INFO root fetch - processPackages [mercari]: Remove: archive file [/home/abi/fetcher/tmp/mercari-2.0.0.tar.gz]
+[2023-07-11 16:38:33] INFO root fetch - processPackages [mercari]: Remove: archive file [/home/abi/fetcher/tmp/mercari-2.0.1.tar.gz]
+[2023-07-11 16:38:33] INFO root fetch - processPackages [mercari]: Start processing: astro-reduce
+[2023-07-11 16:38:33] INFO root fetch - main [MainThread]: End processing [mercari]: success
+[2023-07-11 16:38:33] INFO root fetch - processPackages [pyppbox-ultralytics]: New version: [8.0.132] Old Version: [8.0.126]
+[2023-07-11 16:38:33] INFO root fetch - processPackages [astro-reduce]: New version: [5.0.2] Old Version: [5.0.1]
+[2023-07-11 16:38:33] INFO root fetch - processPackages [polycleaver]: Remove: archive file [/home/abi/fetcher/tmp/polycleaver-0.0.2.tar.gz]
+[2023-07-11 16:38:33] INFO root fetch - processPackages [polycleaver]: Remove: archive file [/home/abi/fetcher/tmp/polycleaver-0.0.3.tar.gz]
+[2023-07-11 16:38:33] INFO root fetch - processPackages [polycleaver]: Start processing: unstructured
+[2023-07-11 16:38:33] INFO root fetch - main [MainThread]: End processing [polycleaver]: success
+[2023-07-11 16:38:33] INFO root fetch - processPackages [cg]: New version: [38.2.2] Old Version: [38.2.1]
+[2023-07-11 16:38:33] INFO root fetch - processPackages [yetl-framework]: Remove: archive file [/home/abi/fetcher/tmp/yetl-framework-1.6.6.dev3.tar.gz]
+[2023-07-11 16:38:33] INFO root fetch - processPackages [yetl-framework]: Remove: archive file [/home/abi/fetcher/tmp/yetl-framework-1.6.6.dev4.tar.gz]
+[2023-07-11 16:38:33] INFO root fetch - processPackages [yetl-framework]: Start processing: iota-sdk
+[2023-07-11 16:38:33] INFO root fetch - main [MainThread]: End processing [yetl-framework]: success
+[2023-07-11 16:38:33] INFO root fetch - processPackages [ReadROOT]: Downloading https://files.pythonhosted.org/packages/85/0f/08245fe32510669e94cfb6b900e1b60ec2eea0a3c0893d0faf1d8b549c63/ReadROOT-2.2.7.tar.gz
+[2023-07-11 16:38:34] INFO root fetch - processPackages [unstructured]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-07-11 16:38:34] INFO root fetch - processPackages [hsml]: Remove: archive file [/home/abi/fetcher/tmp/hsml-3.2.0rc1.tar.gz]
+[2023-07-11 16:38:34] INFO root fetch - processPackages [hsml]: Remove: archive file [/home/abi/fetcher/tmp/hsml-3.3.0rc0.tar.gz]
+[2023-07-11 16:38:34] INFO root fetch - main [MainThread]: End processing [hsml]: success
+[2023-07-11 16:38:34] INFO root fetch - processPackages [confluence-cli]: Downloading https://files.pythonhosted.org/packages/e8/0a/65d63743c76222cc458db741607bb2484ca535af454fc2ce68e179f394d4/confluence_cli-0.8.2.tar.gz
+[2023-07-11 16:38:34] INFO root fetch - processPackages [astro-reduce]: Downloading https://files.pythonhosted.org/packages/76/89/a238fbaf711d4713cb4d64dc3b909f9a33b7ba16f1532487b02a4622b74f/astro_reduce-5.0.1-py3-none-any.whl
+[2023-07-11 16:38:34] INFO root fetch - processPackages [iota-sdk]: New version: [1.0.0rc0] Old Version: [0.1.0]
+[2023-07-11 16:38:34] INFO root fetch - processPackages [ciderpolarity]: Downloading https://files.pythonhosted.org/packages/19/6f/0f5c91c85900b863b75303749a445f9c42a148ad5bdd7784ac7c80d9bfea/ciderpolarity-0.2.0.tar.gz
+[2023-07-11 16:38:34] INFO root fetch - processPackages [pyppbox-ultralytics]: Downloading https://files.pythonhosted.org/packages/73/e6/af035611e3463e9e1d5ce59e2fd1f8582c460a9bfb736537a117a6691a3f/pyppbox_ultralytics-8.0.126-py3-none-any.whl
+[2023-07-11 16:38:34] INFO root fetch - processPackages [SusteenExToPy]: Downloading https://files.pythonhosted.org/packages/8e/46/de683b0aad5bd336a4e46286c2c077b00055bdced0d24acb63486d5dbc12/SusteenExToPy-0.0.7.tar.gz
+[2023-07-11 16:38:34] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/4d/c8/117e2922a6bc43c1382d053d6b15b7b770136f905e9f68bab418b347f55b/cg-38.2.1.tar.gz
+[2023-07-11 16:38:34] INFO root fetch - processPackages [confluence-cli]: executing diffoscope
+[2023-07-11 16:38:34] INFO root fetch - processPackages [confluence-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/confluence_cli-0.8.1.tar.gz tmp/confluence_cli-0.8.2.tar.gz --markdown 20230711/c/confluence-cli/0.8.1-0.8.2/diff.md --exclude *.pyd
+[2023-07-11 16:38:34] INFO root fetch - processPackages [unstructured]: Downloading https://files.pythonhosted.org/packages/a7/5e/db471a0137e7d8d42ab578dadd511b039d3ab8eaa209f3ce249d728e9bf7/unstructured-0.8.0.tar.gz
+[2023-07-11 16:38:34] INFO root fetch - processPackages [SusteenExToPy]: executing diffoscope
+[2023-07-11 16:38:34] INFO root fetch - processPackages [SusteenExToPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SusteenExToPy-0.0.6.tar.gz tmp/SusteenExToPy-0.0.7.tar.gz --markdown 20230711/S/SusteenExToPy/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-11 16:38:34] INFO root fetch - processPackages [iota-sdk]: Downloading https://files.pythonhosted.org/packages/7c/ae/f9ac89cfe8401aff96a4d3dd138bd61cef5b17f5db219634c4d3d37dc825/iota_sdk-0.1.0-py3-none-any.whl
+[2023-07-11 16:38:34] INFO root fetch - processPackages [ReadROOT]: Downloading https://files.pythonhosted.org/packages/6f/93/a50f989a8ac693e81477d6a90b39a4d3a1451cdafcc074f911fc15909eef/ReadROOT-2.3.0.tar.gz
+[2023-07-11 16:38:34] INFO root fetch - processPackages [ciderpolarity]: Downloading https://files.pythonhosted.org/packages/de/0a/01a4ac68951cea779a3c8c842844821a02d6f9a22457aab8068874582813/ciderpolarity-0.2.1.tar.gz
+[2023-07-11 16:38:34] INFO root fetch - processPackages [astro-reduce]: Downloading https://files.pythonhosted.org/packages/91/4c/bd252bc6d76ac2c9e6345c69f2b5f36383f929e838ac9b1d3cfe1834d2a2/astro_reduce-5.0.2-py3-none-any.whl
+[2023-07-11 16:38:34] INFO root fetch - processPackages [ReadROOT]: executing diffoscope
+[2023-07-11 16:38:34] INFO root fetch - processPackages [ReadROOT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ReadROOT-2.2.7.tar.gz tmp/ReadROOT-2.3.0.tar.gz --markdown 20230711/R/ReadROOT/2.2.7-2.3.0/diff.md --exclude *.pyd
+[2023-07-11 16:38:34] INFO root fetch - processPackages [ciderpolarity]: executing diffoscope
+[2023-07-11 16:38:34] INFO root fetch - processPackages [ciderpolarity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ciderpolarity-0.2.0.tar.gz tmp/ciderpolarity-0.2.1.tar.gz --markdown 20230711/c/ciderpolarity/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-11 16:38:34] INFO root fetch - processPackages [pyppbox-ultralytics]: Downloading https://files.pythonhosted.org/packages/08/b7/009375fde58e050972c85e992e10c9c69cdd3f8a3382890686df781251c5/pyppbox_ultralytics-8.0.132-py3-none-any.whl
+[2023-07-11 16:38:34] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/1c/06/71c9f78dea9e2505b132403ceb0b0c3a17a58290633f7106b6ee4e4b9f91/cg-38.2.2.tar.gz
+[2023-07-11 16:38:34] INFO root fetch - processPackages [astro-reduce]: executing diffoscope
+[2023-07-11 16:38:34] INFO root fetch - processPackages [astro-reduce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astro_reduce-5.0.1-py3-none-any.whl.zip tmp/astro_reduce-5.0.2-py3-none-any.whl.zip --markdown 20230711/a/astro-reduce/5.0.1-5.0.2/diff.md --exclude *.pyd
+[2023-07-11 16:38:34] INFO root fetch - processPackages [pyppbox-ultralytics]: executing diffoscope
+[2023-07-11 16:38:34] INFO root fetch - processPackages [pyppbox-ultralytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyppbox_ultralytics-8.0.126-py3-none-any.whl.zip tmp/pyppbox_ultralytics-8.0.132-py3-none-any.whl.zip --markdown 20230711/p/pyppbox-ultralytics/8.0.126-8.0.132/diff.md --exclude *.pyd
+[2023-07-11 16:38:34] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-07-11 16:38:34] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-38.2.1.tar.gz tmp/cg-38.2.2.tar.gz --markdown 20230711/c/cg/38.2.1-38.2.2/diff.md --exclude *.pyd
+[2023-07-11 16:38:34] INFO root fetch - processPackages [unstructured]: Downloading https://files.pythonhosted.org/packages/63/d1/bccf6bba1a6b15f4fba6f5499cb700c335e460c1763c405d07fc6dda2323/unstructured-0.8.1.tar.gz
+[2023-07-11 16:38:34] INFO root fetch - processPackages [iota-sdk]: Downloading https://files.pythonhosted.org/packages/09/eb/61426c4b57356171dfd163f94ef16613784031d643d0b570f396488af9f4/iota_sdk-1.0.0rc0-cp310-none-win_amd64.whl
+[2023-07-11 16:38:35] INFO root fetch - processPackages [unstructured]: executing diffoscope
+[2023-07-11 16:38:35] INFO root fetch - processPackages [unstructured]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unstructured-0.8.0.tar.gz tmp/unstructured-0.8.1.tar.gz --markdown 20230711/u/unstructured/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-07-11 16:38:35] INFO root fetch - processPackages [confluence-cli]: Remove: archive file [/home/abi/fetcher/tmp/confluence_cli-0.8.1.tar.gz]
+[2023-07-11 16:38:35] INFO root fetch - processPackages [confluence-cli]: Remove: archive file [/home/abi/fetcher/tmp/confluence_cli-0.8.2.tar.gz]
+[2023-07-11 16:38:35] INFO root fetch - main [MainThread]: End processing [confluence-cli]: success
+[2023-07-11 16:38:35] INFO root fetch - processPackages [SusteenExToPy]: Remove: archive file [/home/abi/fetcher/tmp/SusteenExToPy-0.0.6.tar.gz]
+[2023-07-11 16:38:35] INFO root fetch - processPackages [SusteenExToPy]: Remove: archive file [/home/abi/fetcher/tmp/SusteenExToPy-0.0.7.tar.gz]
+[2023-07-11 16:38:35] INFO root fetch - main [MainThread]: End processing [SusteenExToPy]: success
+[2023-07-11 16:38:35] INFO root fetch - processPackages [ciderpolarity]: Remove: archive file [/home/abi/fetcher/tmp/ciderpolarity-0.2.0.tar.gz]
+[2023-07-11 16:38:35] INFO root fetch - processPackages [ciderpolarity]: Remove: archive file [/home/abi/fetcher/tmp/ciderpolarity-0.2.1.tar.gz]
+[2023-07-11 16:38:35] INFO root fetch - main [MainThread]: End processing [ciderpolarity]: success
+[2023-07-11 16:38:35] INFO root fetch - processPackages [astro-reduce]: Remove: archive file [/home/abi/fetcher/tmp/astro_reduce-5.0.1-py3-none-any.whl.zip]
+[2023-07-11 16:38:35] INFO root fetch - processPackages [astro-reduce]: Remove: archive file [/home/abi/fetcher/tmp/astro_reduce-5.0.2-py3-none-any.whl.zip]
+[2023-07-11 16:38:35] INFO root fetch - main [MainThread]: End processing [astro-reduce]: success
+[2023-07-11 16:38:36] INFO root fetch - processPackages [iota-sdk]: executing diffoscope
+[2023-07-11 16:38:36] INFO root fetch - processPackages [iota-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iota_sdk-0.1.0-py3-none-any.whl.zip tmp/iota_sdk-1.0.0rc0-cp310-none-win_amd64.whl.zip --markdown 20230711/i/iota-sdk/0.1.0-1.0.0rc0/diff.md --exclude *.pyd
+[2023-07-11 16:38:36] INFO root fetch - processPackages [ReadROOT]: Remove: archive file [/home/abi/fetcher/tmp/ReadROOT-2.2.7.tar.gz]
+[2023-07-11 16:38:36] INFO root fetch - processPackages [ReadROOT]: Remove: archive file [/home/abi/fetcher/tmp/ReadROOT-2.3.0.tar.gz]
+[2023-07-11 16:38:36] INFO root fetch - main [MainThread]: End processing [ReadROOT]: success
+[2023-07-11 16:38:36] INFO root fetch - processPackages [iota-sdk]: Remove: archive file [/home/abi/fetcher/tmp/iota_sdk-0.1.0-py3-none-any.whl.zip]
+[2023-07-11 16:38:36] INFO root fetch - processPackages [iota-sdk]: Remove: archive file [/home/abi/fetcher/tmp/iota_sdk-1.0.0rc0-cp310-none-win_amd64.whl.zip]
+[2023-07-11 16:38:36] INFO root fetch - main [MainThread]: End processing [iota-sdk]: success
+[2023-07-11 16:38:36] INFO root fetch - processPackages [pyppbox-ultralytics]: Remove: archive file [/home/abi/fetcher/tmp/pyppbox_ultralytics-8.0.126-py3-none-any.whl.zip]
+[2023-07-11 16:38:36] INFO root fetch - processPackages [pyppbox-ultralytics]: Remove: archive file [/home/abi/fetcher/tmp/pyppbox_ultralytics-8.0.132-py3-none-any.whl.zip]
+[2023-07-11 16:38:36] INFO root fetch - main [MainThread]: End processing [pyppbox-ultralytics]: success
+[2023-07-11 16:38:37] INFO root fetch - processPackages [unstructured]: Remove: archive file [/home/abi/fetcher/tmp/unstructured-0.8.0.tar.gz]
+[2023-07-11 16:38:37] INFO root fetch - processPackages [unstructured]: Remove: archive file [/home/abi/fetcher/tmp/unstructured-0.8.1.tar.gz]
+[2023-07-11 16:38:37] INFO root fetch - main [MainThread]: End processing [unstructured]: success
+[2023-07-11 16:38:40] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-38.2.1.tar.gz]
+[2023-07-11 16:38:40] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-38.2.2.tar.gz]
+[2023-07-11 16:38:40] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-07-11 16:38:40] INFO root fetch - main [MainThread]: Store serial: [18846775]
