@@ -18309,3 +18309,147 @@ AssertionError: tmp/doctran-0.0.6.tar.gz does not exist
 [2023-07-11 13:32:35] INFO root fetch - processPackages [scaneo]: Remove: archive file [/home/abi/fetcher/tmp/scaneo-2023.7.11.post3.tar.gz]
 [2023-07-11 13:32:35] INFO root fetch - main [MainThread]: End processing [scaneo]: success
 [2023-07-11 13:32:35] INFO root fetch - main [MainThread]: Store serial: [18844475]
+[2023-07-11 13:37:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18844475]
+[2023-07-11 13:37:44] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-11 13:37:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bigdl-llm
+[2023-07-11 13:37:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bigdl-chronos
+[2023-07-11 13:37:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: scaneo
+[2023-07-11 13:37:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spacy-llm
+[2023-07-11 13:37:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: BlitzChain
+[2023-07-11 13:37:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: scaneo
+[2023-07-11 13:37:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bigdl-serving
+[2023-07-11 13:37:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fmu-sumo
+[2023-07-11 13:37:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: grai-source-metabase
+[2023-07-11 13:37:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: molgenis-emx2-pyclient
+[2023-07-11 13:37:45] INFO root fetch - processPackages [grai-source-metabase]: New version: [0.2.0a2] Old Version: [0.2.0a1]
+[2023-07-11 13:37:45] INFO root fetch - processPackages [bigdl-llm]: New version: [2.4.0b20230711] Old Version: [2.4.0b20230710]
+[2023-07-11 13:37:45] INFO root fetch - processPackages [BlitzChain]: New version: [0.6.0] Old Version: [0.5.1]
+[2023-07-11 13:37:45] INFO root fetch - processPackages [fmu-sumo]: New version: [0.3.11] Old Version: [0.3.10]
+[2023-07-11 13:37:45] INFO root fetch - processPackages [molgenis-emx2-pyclient]: New version: [8.202.3] Old Version: [8.202.2]
+[2023-07-11 13:37:45] INFO root fetch - processPackages [scaneo]: New version: [2023.7.11.post5] Old Version: [2023.7.11.post4]
+[2023-07-11 13:37:45] INFO root fetch - processPackages [scaneo]: New version: [2023.7.11.post5] Old Version: [2023.7.11.post4]
+[2023-07-11 13:37:45] INFO root fetch - processPackages [spacy-llm]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-07-11 13:37:45] INFO root fetch - processPackages [bigdl-serving]: New version: [2.4.0b20230711] Old Version: [2.4.0b20230710]
+[2023-07-11 13:37:45] INFO root fetch - processPackages [bigdl-chronos]: New version: [2.4.0b20230711] Old Version: [2.4.0b20230710]
+[2023-07-11 13:37:45] INFO root fetch - processPackages [grai-source-metabase]: Downloading https://files.pythonhosted.org/packages/88/aa/9d11c1db9ff71102141d215e83986aa5e18fc2eff12f3ce1ddd31b3eeed9/grai_source_metabase-0.2.0a1.tar.gz
+[2023-07-11 13:37:45] INFO root fetch - processPackages [molgenis-emx2-pyclient]: Downloading https://files.pythonhosted.org/packages/98/2c/9bdaf19b3e657b6b88d76bdbc52c3bbec3dad59dc247f340fe3d72df1011/molgenis_emx2_pyclient-8.202.2.tar.gz
+[2023-07-11 13:37:45] INFO root fetch - processPackages [bigdl-serving]: Downloading https://files.pythonhosted.org/packages/4e/cd/3616d15a10fdcc04d7709c54cc84e0d1b99a110f2b7675e493724d95ec75/bigdl_serving-2.4.0b20230710-py2.py3-none-any.whl
+[2023-07-11 13:37:45] INFO root fetch - processPackages [BlitzChain]: Downloading https://files.pythonhosted.org/packages/03/f6/d3865a2ae2ff5e08de01e00c5421977ef8291916e0f25de1972bcc8c6b2a/BlitzChain-0.5.1.tar.gz
+[2023-07-11 13:37:45] INFO root fetch - processPackages [fmu-sumo]: Downloading https://files.pythonhosted.org/packages/ba/47/0ad38ba0c1712a5a4a598a288a816ff55f2caa85499a1e5cd591399d89c3/fmu-sumo-0.3.10.tar.gz
+[2023-07-11 13:37:45] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/92/4f/ca380728cd6edb06119f6e0258e4dbb8592a52fc6e2c0353108484100c9e/bigdl_llm-2.4.0b20230710-py3-none-win_amd64.whl
+[2023-07-11 13:37:45] INFO root fetch - processPackages [scaneo]: Downloading https://files.pythonhosted.org/packages/db/03/21684eb7bc56bf14139cee4bd535f9cc575caf6588045f82a09378dd9307/scaneo-2023.7.11.post4.tar.gz
+[2023-07-11 13:37:45] INFO root fetch - processPackages [spacy-llm]: Downloading https://files.pythonhosted.org/packages/ac/9f/a577691ed99c01f88e5f1ff0caf1e8802eab5dd5875658114785e730aae8/spacy-llm-0.4.0.tar.gz
+[2023-07-11 13:37:45] INFO root fetch - processPackages [scaneo]: Downloading https://files.pythonhosted.org/packages/db/03/21684eb7bc56bf14139cee4bd535f9cc575caf6588045f82a09378dd9307/scaneo-2023.7.11.post4.tar.gz
+[2023-07-11 13:37:45] INFO root fetch - processPackages [bigdl-chronos]: Downloading https://files.pythonhosted.org/packages/a8/1b/f16fdda7ac261eb7ccec9af4b8ece93fd3a9cd8b297c30f85846c62a8a7e/bigdl_chronos-2.4.0b20230710-py3-none-win_amd64.whl
+[2023-07-11 13:37:45] INFO root fetch - processPackages [molgenis-emx2-pyclient]: Downloading https://files.pythonhosted.org/packages/c4/35/58f2a1f86d0cc1ac9ff0a806523a17f30c731be0cfbfe5762d064f159899/molgenis_emx2_pyclient-8.202.3.tar.gz
+[2023-07-11 13:37:45] INFO root fetch - processPackages [grai-source-metabase]: Downloading https://files.pythonhosted.org/packages/0f/aa/7ec470b6f087f084d2eee28ea13b5ce8a4f2f19c7044ea774507ad0786ef/grai_source_metabase-0.2.0a2.tar.gz
+[2023-07-11 13:37:45] INFO root fetch - processPackages [bigdl-serving]: Downloading https://files.pythonhosted.org/packages/75/0a/0951608022d268db59a3bff538e9ff113e3dbea22fc2c252bf90e3d0d9fe/bigdl_serving-2.4.0b20230711-py2.py3-none-any.whl
+[2023-07-11 13:37:45] INFO root fetch - processPackages [BlitzChain]: Downloading https://files.pythonhosted.org/packages/f7/25/81d191670fdf9a7ee9a6b2d49379530db6f5a9fa21ad6e65a6bfd457347f/BlitzChain-0.6.0.tar.gz
+[2023-07-11 13:37:45] INFO root fetch - processPackages [grai-source-metabase]: executing diffoscope
+[2023-07-11 13:37:45] INFO root fetch - processPackages [grai-source-metabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grai_source_metabase-0.2.0a1.tar.gz tmp/grai_source_metabase-0.2.0a2.tar.gz --markdown 20230711/g/grai-source-metabase/0.2.0a1-0.2.0a2/diff.md --exclude *.pyd
+[2023-07-11 13:37:45] INFO root fetch - processPackages [molgenis-emx2-pyclient]: executing diffoscope
+[2023-07-11 13:37:45] INFO root fetch - processPackages [molgenis-emx2-pyclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/molgenis_emx2_pyclient-8.202.2.tar.gz tmp/molgenis_emx2_pyclient-8.202.3.tar.gz --markdown 20230711/m/molgenis-emx2-pyclient/8.202.2-8.202.3/diff.md --exclude *.pyd
+[2023-07-11 13:37:46] INFO root fetch - processPackages [scaneo]: Downloading https://files.pythonhosted.org/packages/84/7b/733cd5be4d79f6b3823775bb88e18be0095aae2906930998253807fe12eb/scaneo-2023.7.11.post5.tar.gz
+[2023-07-11 13:37:46] INFO root fetch - processPackages [scaneo]: Downloading https://files.pythonhosted.org/packages/84/7b/733cd5be4d79f6b3823775bb88e18be0095aae2906930998253807fe12eb/scaneo-2023.7.11.post5.tar.gz
+[2023-07-11 13:37:46] INFO root fetch - processPackages [spacy-llm]: Downloading https://files.pythonhosted.org/packages/78/4b/bb0f5c478561338b2369a89edbd8894f095c108cfd4a0115916b13982982/spacy-llm-0.4.1.tar.gz
+[2023-07-11 13:37:46] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/8a/34/1feb8b5b4dd3c4a82a30469399d53796e6e0b0920cb256ae374c233e688e/bigdl_llm-2.4.0b20230711-py3-none-win_amd64.whl
+[2023-07-11 13:37:46] INFO root fetch - processPackages [BlitzChain]: executing diffoscope
+[2023-07-11 13:37:46] INFO root fetch - processPackages [BlitzChain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BlitzChain-0.5.1.tar.gz tmp/BlitzChain-0.6.0.tar.gz --markdown 20230711/B/BlitzChain/0.5.1-0.6.0/diff.md --exclude *.pyd
+[2023-07-11 13:37:46] INFO root fetch - processPackages [bigdl-chronos]: Downloading https://files.pythonhosted.org/packages/5d/64/cf49a8422c0bfc471b0296e5ad77d3a7880aa0ad016b089463123176b8b2/bigdl_chronos-2.4.0b20230711-py3-none-win_amd64.whl
+[2023-07-11 13:37:46] INFO root fetch - processPackages [bigdl-serving]: executing diffoscope
+[2023-07-11 13:37:46] INFO root fetch - processPackages [bigdl-serving]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_serving-2.4.0b20230710-py2.py3-none-any.whl.zip tmp/bigdl_serving-2.4.0b20230711-py2.py3-none-any.whl.zip --markdown 20230711/b/bigdl-serving/2.4.0b20230710-2.4.0b20230711/diff.md --exclude *.pyd
+[2023-07-11 13:37:46] INFO root fetch - processPackages [spacy-llm]: executing diffoscope
+[2023-07-11 13:37:46] INFO root fetch - processPackages [spacy-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spacy-llm-0.4.0.tar.gz tmp/spacy-llm-0.4.1.tar.gz --markdown 20230711/s/spacy-llm/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-07-11 13:37:46] INFO root fetch - processPackages [fmu-sumo]: Downloading https://files.pythonhosted.org/packages/da/80/a39ca9bdc7d7709d50d1aab1c98bbda9413cf4779d132caa9d23fb5811f1/fmu-sumo-0.3.11.tar.gz
+[2023-07-11 13:37:46] INFO root fetch - processPackages [scaneo]: executing diffoscope
+[2023-07-11 13:37:46] INFO root fetch - processPackages [scaneo]: executing diffoscope
+[2023-07-11 13:37:46] INFO root fetch - processPackages [scaneo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scaneo-2023.7.11.post4.tar.gz tmp/scaneo-2023.7.11.post5.tar.gz --markdown 20230711/s/scaneo/2023.7.11.post4-2023.7.11.post5/diff.md --exclude *.pyd
+[2023-07-11 13:37:46] INFO root fetch - processPackages [scaneo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scaneo-2023.7.11.post4.tar.gz tmp/scaneo-2023.7.11.post5.tar.gz --markdown 20230711/s/scaneo/2023.7.11.post4-2023.7.11.post5/diff.md --exclude *.pyd
+[2023-07-11 13:37:46] INFO root fetch - processPackages [bigdl-llm]: executing diffoscope
+[2023-07-11 13:37:46] INFO root fetch - processPackages [bigdl-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_llm-2.4.0b20230710-py3-none-win_amd64.whl.zip tmp/bigdl_llm-2.4.0b20230711-py3-none-win_amd64.whl.zip --markdown 20230711/b/bigdl-llm/2.4.0b20230710-2.4.0b20230711/diff.md --exclude *.pyd
+[2023-07-11 13:37:46] INFO root fetch - processPackages [bigdl-chronos]: executing diffoscope
+[2023-07-11 13:37:46] INFO root fetch - processPackages [bigdl-chronos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos-2.4.0b20230710-py3-none-win_amd64.whl.zip tmp/bigdl_chronos-2.4.0b20230711-py3-none-win_amd64.whl.zip --markdown 20230711/b/bigdl-chronos/2.4.0b20230710-2.4.0b20230711/diff.md --exclude *.pyd
+[2023-07-11 13:37:46] INFO root fetch - processPackages [fmu-sumo]: executing diffoscope
+[2023-07-11 13:37:46] INFO root fetch - processPackages [fmu-sumo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fmu-sumo-0.3.10.tar.gz tmp/fmu-sumo-0.3.11.tar.gz --markdown 20230711/f/fmu-sumo/0.3.10-0.3.11/diff.md --exclude *.pyd
+[2023-07-11 13:37:47] INFO root fetch - processPackages [grai-source-metabase]: Remove: archive file [/home/abi/fetcher/tmp/grai_source_metabase-0.2.0a1.tar.gz]
+[2023-07-11 13:37:47] INFO root fetch - processPackages [grai-source-metabase]: Remove: archive file [/home/abi/fetcher/tmp/grai_source_metabase-0.2.0a2.tar.gz]
+[2023-07-11 13:37:47] INFO root fetch - processPackages [grai-source-metabase]: Start processing: mirutil
+[2023-07-11 13:37:47] INFO root fetch - main [MainThread]: End processing [grai-source-metabase]: success
+[2023-07-11 13:37:47] INFO root fetch - processPackages [mirutil]: New version: [9.4.0] Old Version: [9.3.1]
+[2023-07-11 13:37:47] INFO root fetch - processPackages [molgenis-emx2-pyclient]: Remove: archive file [/home/abi/fetcher/tmp/molgenis_emx2_pyclient-8.202.2.tar.gz]
+[2023-07-11 13:37:47] INFO root fetch - processPackages [molgenis-emx2-pyclient]: Remove: archive file [/home/abi/fetcher/tmp/molgenis_emx2_pyclient-8.202.3.tar.gz]
+[2023-07-11 13:37:47] INFO root fetch - processPackages [molgenis-emx2-pyclient]: Start processing: pepperize.cdk-ssm-parameters-cross-region
+[2023-07-11 13:37:47] INFO root fetch - main [MainThread]: End processing [molgenis-emx2-pyclient]: success
+[2023-07-11 13:37:47] INFO root fetch - processPackages [mirutil]: Downloading https://files.pythonhosted.org/packages/38/6e/e3b08382149307a94ff2b014f554aa4dedaad5e3cc7b3b4e2fd1d21e0de1/mirutil-9.3.1.tar.gz
+[2023-07-11 13:37:47] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-11 13:37:47] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: Downloading https://files.pythonhosted.org/packages/fb/79/6889f2bcfe14ad3c2ad911188cae87c47eed38640d4ded20760568fafd48/pepperize.cdk-ssm-parameters-cross-region-0.0.98.tar.gz
+[2023-07-11 13:37:47] INFO root fetch - processPackages [BlitzChain]: Remove: archive file [/home/abi/fetcher/tmp/BlitzChain-0.5.1.tar.gz]
+[2023-07-11 13:37:47] INFO root fetch - processPackages [BlitzChain]: Remove: archive file [/home/abi/fetcher/tmp/BlitzChain-0.6.0.tar.gz]
+[2023-07-11 13:37:47] INFO root fetch - processPackages [BlitzChain]: Start processing: cegalprizm-investigator
+[2023-07-11 13:37:47] INFO root fetch - main [MainThread]: End processing [BlitzChain]: success
+[2023-07-11 13:37:47] INFO root fetch - processPackages [mirutil]: Downloading https://files.pythonhosted.org/packages/e4/5c/8356dc3abf52622922240b5a0df981f63d2ca98d2685eff43ea7a6c5d6c0/mirutil-9.4.0.tar.gz
+[2023-07-11 13:37:47] INFO root fetch - processPackages [cegalprizm-investigator]: New version: [1.1.0] Old Version: [1.0rc45904]
+[2023-07-11 13:37:47] INFO root fetch - processPackages [bigdl-serving]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_serving-2.4.0b20230710-py2.py3-none-any.whl.zip]
+[2023-07-11 13:37:47] INFO root fetch - processPackages [bigdl-serving]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_serving-2.4.0b20230711-py2.py3-none-any.whl.zip]
+[2023-07-11 13:37:47] INFO root fetch - processPackages [bigdl-serving]: Start processing: dlcore
+[2023-07-11 13:37:47] INFO root fetch - main [MainThread]: End processing [bigdl-serving]: success
+[2023-07-11 13:37:47] WARNING root fetch - processPackages [dlcore]: Skipping, unable to determine old version
+[2023-07-11 13:37:47] INFO root fetch - processPackages [dlcore]: Start processing: napari-stpt
+[2023-07-11 13:37:47] INFO root fetch - main [MainThread]: End processing [dlcore] error
+[2023-07-11 13:37:47] INFO root fetch - processPackages [mirutil]: executing diffoscope
+[2023-07-11 13:37:47] INFO root fetch - processPackages [mirutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mirutil-9.3.1.tar.gz tmp/mirutil-9.4.0.tar.gz --markdown 20230711/m/mirutil/9.3.1-9.4.0/diff.md --exclude *.pyd
+[2023-07-11 13:37:47] INFO root fetch - processPackages [napari-stpt]: New version: [0.1.0.6] Old Version: [0.1.0.5]
+[2023-07-11 13:37:48] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: Downloading https://files.pythonhosted.org/packages/9b/28/15454316ba7c03762eb5f4132acad608b8e4002ca06c5309244457a24d67/pepperize.cdk-ssm-parameters-cross-region-0.0.99.tar.gz
+[2023-07-11 13:37:48] INFO root fetch - processPackages [cegalprizm-investigator]: Downloading https://files.pythonhosted.org/packages/a2/bd/dca0912bc719b8699277620eab336b23ac2154dc4a3866c0034caea68230/cegalprizm_investigator-1.0rc45904-py3-none-any.whl
+[2023-07-11 13:37:48] INFO root fetch - processPackages [napari-stpt]: Downloading https://files.pythonhosted.org/packages/e4/b0/48ae1dfb88f9f3300685c89bafebffe5a2cfadab93c051233a493406ff84/napari-stpt-0.1.0.5.tar.gz
+[2023-07-11 13:37:48] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: executing diffoscope
+[2023-07-11 13:37:48] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.98.tar.gz tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.99.tar.gz --markdown 20230711/p/pepperize.cdk-ssm-parameters-cross-region/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-11 13:37:48] INFO root fetch - processPackages [cegalprizm-investigator]: Downloading https://files.pythonhosted.org/packages/5b/bb/1b5a4934ba18fb6d8d12be17edabdef9703bd0266d93f7f98d0937f4c149/cegalprizm_investigator-1.1.0-py3-none-any.whl
+[2023-07-11 13:37:48] INFO root fetch - processPackages [napari-stpt]: Downloading https://files.pythonhosted.org/packages/f8/c1/e5414c816228f12e869ccf73e18f486ab378d981dc82941c5d72695705f6/napari-stpt-0.1.0.6.tar.gz
+[2023-07-11 13:37:48] INFO root fetch - processPackages [cegalprizm-investigator]: executing diffoscope
+[2023-07-11 13:37:48] INFO root fetch - processPackages [cegalprizm-investigator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cegalprizm_investigator-1.0rc45904-py3-none-any.whl.zip tmp/cegalprizm_investigator-1.1.0-py3-none-any.whl.zip --markdown 20230711/c/cegalprizm-investigator/1.0rc45904-1.1.0/diff.md --exclude *.pyd
+[2023-07-11 13:37:48] INFO root fetch - processPackages [napari-stpt]: executing diffoscope
+[2023-07-11 13:37:48] INFO root fetch - processPackages [napari-stpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napari-stpt-0.1.0.5.tar.gz tmp/napari-stpt-0.1.0.6.tar.gz --markdown 20230711/n/napari-stpt/0.1.0.5-0.1.0.6/diff.md --exclude *.pyd
+[2023-07-11 13:37:48] INFO root fetch - processPackages [spacy-llm]: Remove: archive file [/home/abi/fetcher/tmp/spacy-llm-0.4.0.tar.gz]
+[2023-07-11 13:37:48] INFO root fetch - processPackages [spacy-llm]: Remove: archive file [/home/abi/fetcher/tmp/spacy-llm-0.4.1.tar.gz]
+[2023-07-11 13:37:48] INFO root fetch - processPackages [spacy-llm]: Start processing: airtouch2
+[2023-07-11 13:37:48] INFO root fetch - main [MainThread]: End processing [spacy-llm]: success
+[2023-07-11 13:37:49] INFO root fetch - processPackages [airtouch2]: New version: [0.7.5] Old Version: [0.7.4]
+[2023-07-11 13:37:49] INFO root fetch - processPackages [airtouch2]: Downloading https://files.pythonhosted.org/packages/97/b3/7c9c60f46544fb19dd21742ee690d3d1a1d2005a3f1e70570b9db4e8f8c1/airtouch2-0.7.4.tar.gz
+[2023-07-11 13:37:49] INFO root fetch - processPackages [mirutil]: Remove: archive file [/home/abi/fetcher/tmp/mirutil-9.3.1.tar.gz]
+[2023-07-11 13:37:49] INFO root fetch - processPackages [mirutil]: Remove: archive file [/home/abi/fetcher/tmp/mirutil-9.4.0.tar.gz]
+[2023-07-11 13:37:49] INFO root fetch - processPackages [mirutil]: Start processing: pyre-check-nightly
+[2023-07-11 13:37:49] INFO root fetch - main [MainThread]: End processing [mirutil]: success
+[2023-07-11 13:37:49] INFO root fetch - processPackages [bigdl-chronos]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos-2.4.0b20230710-py3-none-win_amd64.whl.zip]
+[2023-07-11 13:37:49] INFO root fetch - processPackages [bigdl-chronos]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos-2.4.0b20230711-py3-none-win_amd64.whl.zip]
+[2023-07-11 13:37:49] INFO root fetch - main [MainThread]: End processing [bigdl-chronos]: success
+[2023-07-11 13:37:49] INFO root fetch - processPackages [airtouch2]: Downloading https://files.pythonhosted.org/packages/8b/e6/2c94f87094d05e89e9223660a80aff8876714a1fc0c230a01279d78028fb/airtouch2-0.7.5.tar.gz
+[2023-07-11 13:37:49] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.98.tar.gz]
+[2023-07-11 13:37:49] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.99.tar.gz]
+[2023-07-11 13:37:49] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ssm-parameters-cross-region]: success
+[2023-07-11 13:37:49] INFO root fetch - processPackages [pyre-check-nightly]: New version: [0.0.101689073867] Old Version: [0.0.101688987538]
+[2023-07-11 13:37:49] INFO root fetch - processPackages [airtouch2]: executing diffoscope
+[2023-07-11 13:37:49] INFO root fetch - processPackages [airtouch2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airtouch2-0.7.4.tar.gz tmp/airtouch2-0.7.5.tar.gz --markdown 20230711/a/airtouch2/0.7.4-0.7.5/diff.md --exclude *.pyd
+[2023-07-11 13:37:50] INFO root fetch - processPackages [pyre-check-nightly]: Downloading https://files.pythonhosted.org/packages/02/0e/47b7f57989671602d0d663673c65f1fe4691932f6c42986a18a9584218d6/pyre-check-nightly-0.0.101688987538.tar.gz
+[2023-07-11 13:37:50] INFO root fetch - processPackages [napari-stpt]: Remove: archive file [/home/abi/fetcher/tmp/napari-stpt-0.1.0.5.tar.gz]
+[2023-07-11 13:37:50] INFO root fetch - processPackages [napari-stpt]: Remove: archive file [/home/abi/fetcher/tmp/napari-stpt-0.1.0.6.tar.gz]
+[2023-07-11 13:37:50] INFO root fetch - main [MainThread]: End processing [napari-stpt]: success
+[2023-07-11 13:37:50] WARNING root fetch - processPackages [pyre-check-nightly]: Skipping package: exceeds size limit 23765011>=10485760
+[2023-07-11 13:37:50] INFO root fetch - main [MainThread]: End processing [pyre-check-nightly] error
+[2023-07-11 13:37:50] INFO root fetch - processPackages [fmu-sumo]: Remove: archive file [/home/abi/fetcher/tmp/fmu-sumo-0.3.10.tar.gz]
+[2023-07-11 13:37:50] INFO root fetch - processPackages [fmu-sumo]: Remove: archive file [/home/abi/fetcher/tmp/fmu-sumo-0.3.11.tar.gz]
+[2023-07-11 13:37:50] INFO root fetch - main [MainThread]: End processing [fmu-sumo]: success
+[2023-07-11 13:37:50] INFO root fetch - processPackages [cegalprizm-investigator]: Remove: archive file [/home/abi/fetcher/tmp/cegalprizm_investigator-1.0rc45904-py3-none-any.whl.zip]
+[2023-07-11 13:37:50] INFO root fetch - processPackages [cegalprizm-investigator]: Remove: archive file [/home/abi/fetcher/tmp/cegalprizm_investigator-1.1.0-py3-none-any.whl.zip]
+[2023-07-11 13:37:50] INFO root fetch - main [MainThread]: End processing [cegalprizm-investigator]: success
+[2023-07-11 13:37:50] INFO root fetch - processPackages [airtouch2]: Remove: archive file [/home/abi/fetcher/tmp/airtouch2-0.7.4.tar.gz]
+[2023-07-11 13:37:50] INFO root fetch - processPackages [airtouch2]: Remove: archive file [/home/abi/fetcher/tmp/airtouch2-0.7.5.tar.gz]
+[2023-07-11 13:37:50] INFO root fetch - main [MainThread]: End processing [airtouch2]: success
+[2023-07-11 13:37:51] INFO root fetch - processPackages [scaneo]: Remove: archive file [/home/abi/fetcher/tmp/scaneo-2023.7.11.post4.tar.gz]
+[2023-07-11 13:37:51] INFO root fetch - processPackages [scaneo]: Remove: archive file [/home/abi/fetcher/tmp/scaneo-2023.7.11.post5.tar.gz]
+[2023-07-11 13:37:51] INFO root fetch - main [MainThread]: End processing [scaneo]: success
+[2023-07-11 13:37:51] INFO root fetch - main [MainThread]: End processing [scaneo]: success
+[2023-07-11 13:37:56] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.4.0b20230710-py3-none-win_amd64.whl.zip]
+[2023-07-11 13:37:56] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.4.0b20230711-py3-none-win_amd64.whl.zip]
+[2023-07-11 13:37:56] INFO root fetch - main [MainThread]: End processing [bigdl-llm]: success
+[2023-07-11 13:37:56] INFO root fetch - main [MainThread]: Store serial: [18844542]
