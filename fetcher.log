@@ -7051,3 +7051,15 @@ AssertionError: tmp/doctran-0.0.6.tar.gz does not exist
 [2023-07-11 03:59:45] INFO root fetch - processPackages [qlcpy]: Remove: archive file [/home/abi/fetcher/tmp/qlcpy-1.0.9.tar.gz]
 [2023-07-11 03:59:45] INFO root fetch - main [MainThread]: End processing [qlcpy]: success
 [2023-07-11 03:59:45] INFO root fetch - main [MainThread]: Store serial: [18839774]
+[2023-07-11 04:04:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18839774]
+[2023-07-11 04:04:53] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2023-07-11 04:04:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: taichu-storage
+[2023-07-11 04:04:54] INFO root fetch - processPackages [taichu-storage]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-11 04:04:54] INFO root fetch - processPackages [taichu-storage]: Downloading https://files.pythonhosted.org/packages/a6/b7/799ca2d5d52f15cde7191d1b762b3f37239673fe7ff06aaf820f6366ffe8/taichu-storage-0.0.1.tar.gz
+[2023-07-11 04:04:54] INFO root fetch - processPackages [taichu-storage]: Downloading https://files.pythonhosted.org/packages/98/2e/ae151b45dbebeb2e5ae8afb788ee4bde035d056e52b4866e7ead89d0b96d/taichu-storage-0.0.2.tar.gz
+[2023-07-11 04:04:54] INFO root fetch - processPackages [taichu-storage]: executing diffoscope
+[2023-07-11 04:04:54] INFO root fetch - processPackages [taichu-storage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taichu-storage-0.0.1.tar.gz tmp/taichu-storage-0.0.2.tar.gz --markdown 20230711/t/taichu-storage/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-11 04:04:55] INFO root fetch - processPackages [taichu-storage]: Remove: archive file [/home/abi/fetcher/tmp/taichu-storage-0.0.1.tar.gz]
+[2023-07-11 04:04:55] INFO root fetch - processPackages [taichu-storage]: Remove: archive file [/home/abi/fetcher/tmp/taichu-storage-0.0.2.tar.gz]
+[2023-07-11 04:04:55] INFO root fetch - main [MainThread]: End processing [taichu-storage]: success
+[2023-07-11 04:04:55] INFO root fetch - main [MainThread]: Store serial: [18839791]
