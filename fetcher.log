@@ -8985,3 +8985,43 @@ AssertionError: tmp/doctran-0.0.6.tar.gz does not exist
 [2023-07-11 05:49:49] INFO root fetch - processPackages [python-cdd]: Remove: archive file [/home/abi/fetcher/tmp/python-cdd-0.0.99rc7.tar.gz]
 [2023-07-11 05:49:49] INFO root fetch - main [MainThread]: End processing [python-cdd]: success
 [2023-07-11 05:49:49] INFO root fetch - main [MainThread]: Store serial: [18840591]
+[2023-07-11 05:54:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18840591]
+[2023-07-11 05:54:58] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-07-11 05:54:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-fiscal-epos-print
+[2023-07-11 05:54:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cellmap
+[2023-07-11 05:54:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kontolibs
+[2023-07-11 05:54:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cyberdrop-dl
+[2023-07-11 05:54:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cellmap
+[2023-07-11 05:54:58] INFO root fetch - processPackages [cellmap]: New version: [1.0.1.dev202307110353] Old Version: [1.0.1.dev202307110350]
+[2023-07-11 05:54:58] INFO root fetch - processPackages [cellmap]: New version: [1.0.1.dev202307110353] Old Version: [1.0.1.dev202307110350]
+[2023-07-11 05:54:58] WARNING root fetch - processPackages [kontolibs]: Skipping, unable to determine old version
+[2023-07-11 05:54:58] INFO root fetch - main [MainThread]: End processing [kontolibs] error
+[2023-07-11 05:54:58] INFO root fetch - processPackages [odoo14-addon-fiscal-epos-print]: New version: [14.0.1.0.2.dev4] Old Version: [14.0.1.0.2.dev3]
+[2023-07-11 05:54:58] INFO root fetch - processPackages [cyberdrop-dl]: New version: [4.2.99] Old Version: [4.2.98]
+[2023-07-11 05:54:58] INFO root fetch - processPackages [cyberdrop-dl]: Downloading https://files.pythonhosted.org/packages/1b/f8/0bf0ba2d44c54577234ba97b219752bdc63f63c54eddb613647161b06c5e/cyberdrop-dl-4.2.98.tar.gz
+[2023-07-11 05:54:58] INFO root fetch - processPackages [cellmap]: Downloading https://files.pythonhosted.org/packages/9b/47/542d60e0d69abe98933ba9069faea2454211b3ba9e0c2e500fcf9eabc70e/cellmap-1.0.1.dev202307110350-py3-none-any.whl
+[2023-07-11 05:54:58] INFO root fetch - processPackages [cellmap]: Downloading https://files.pythonhosted.org/packages/9b/47/542d60e0d69abe98933ba9069faea2454211b3ba9e0c2e500fcf9eabc70e/cellmap-1.0.1.dev202307110350-py3-none-any.whl
+[2023-07-11 05:54:58] INFO root fetch - processPackages [odoo14-addon-fiscal-epos-print]: Downloading https://files.pythonhosted.org/packages/84/5d/b4084b59845a5d7f0e3d69296dd3195391979087354454a3d83271e74d95/odoo14_addon_fiscal_epos_print-14.0.1.0.2.dev3-py3-none-any.whl
+[2023-07-11 05:54:58] INFO root fetch - processPackages [cyberdrop-dl]: Downloading https://files.pythonhosted.org/packages/cb/85/1082dbce7699795fa0752358803e2c52dedd79d14d96d728d35eae76c69a/cyberdrop-dl-4.2.99.tar.gz
+[2023-07-11 05:54:59] INFO root fetch - processPackages [cyberdrop-dl]: executing diffoscope
+[2023-07-11 05:54:59] INFO root fetch - processPackages [cyberdrop-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyberdrop-dl-4.2.98.tar.gz tmp/cyberdrop-dl-4.2.99.tar.gz --markdown 20230711/c/cyberdrop-dl/4.2.98-4.2.99/diff.md --exclude *.pyd
+[2023-07-11 05:54:59] INFO root fetch - processPackages [cellmap]: Downloading https://files.pythonhosted.org/packages/7a/40/6f99c05cc8de3a749eec8214fbfe472ee861dff7169ae48d0f0d321b659d/cellmap-1.0.1.dev202307110353-py3-none-any.whl
+[2023-07-11 05:54:59] INFO root fetch - processPackages [cellmap]: Downloading https://files.pythonhosted.org/packages/7a/40/6f99c05cc8de3a749eec8214fbfe472ee861dff7169ae48d0f0d321b659d/cellmap-1.0.1.dev202307110353-py3-none-any.whl
+[2023-07-11 05:54:59] INFO root fetch - processPackages [odoo14-addon-fiscal-epos-print]: Downloading https://files.pythonhosted.org/packages/40/ea/ef054444cccd5a743fb4eebe1e415cc0d2124c8f6c2b35ebea8aee63bd67/odoo14_addon_fiscal_epos_print-14.0.1.0.2.dev4-py3-none-any.whl
+[2023-07-11 05:54:59] INFO root fetch - processPackages [cellmap]: executing diffoscope
+[2023-07-11 05:54:59] INFO root fetch - processPackages [cellmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellmap-1.0.1.dev202307110350-py3-none-any.whl.zip tmp/cellmap-1.0.1.dev202307110353-py3-none-any.whl.zip --markdown 20230711/c/cellmap/1.0.1.dev202307110350-1.0.1.dev202307110353/diff.md --exclude *.pyd
+[2023-07-11 05:54:59] INFO root fetch - processPackages [cellmap]: executing diffoscope
+[2023-07-11 05:54:59] INFO root fetch - processPackages [cellmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellmap-1.0.1.dev202307110350-py3-none-any.whl.zip tmp/cellmap-1.0.1.dev202307110353-py3-none-any.whl.zip --markdown 20230711/c/cellmap/1.0.1.dev202307110350-1.0.1.dev202307110353/diff.md --exclude *.pyd
+[2023-07-11 05:54:59] INFO root fetch - processPackages [odoo14-addon-fiscal-epos-print]: executing diffoscope
+[2023-07-11 05:54:59] INFO root fetch - processPackages [odoo14-addon-fiscal-epos-print]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_fiscal_epos_print-14.0.1.0.2.dev3-py3-none-any.whl.zip tmp/odoo14_addon_fiscal_epos_print-14.0.1.0.2.dev4-py3-none-any.whl.zip --markdown 20230711/o/odoo14-addon-fiscal-epos-print/14.0.1.0.2.dev3-14.0.1.0.2.dev4/diff.md --exclude *.pyd
+[2023-07-11 05:54:59] INFO root fetch - processPackages [cyberdrop-dl]: Remove: archive file [/home/abi/fetcher/tmp/cyberdrop-dl-4.2.98.tar.gz]
+[2023-07-11 05:54:59] INFO root fetch - processPackages [cyberdrop-dl]: Remove: archive file [/home/abi/fetcher/tmp/cyberdrop-dl-4.2.99.tar.gz]
+[2023-07-11 05:54:59] INFO root fetch - main [MainThread]: End processing [cyberdrop-dl]: success
+[2023-07-11 05:55:00] INFO root fetch - processPackages [cellmap]: Remove: archive file [/home/abi/fetcher/tmp/cellmap-1.0.1.dev202307110350-py3-none-any.whl.zip]
+[2023-07-11 05:55:00] INFO root fetch - processPackages [cellmap]: Remove: archive file [/home/abi/fetcher/tmp/cellmap-1.0.1.dev202307110353-py3-none-any.whl.zip]
+[2023-07-11 05:55:00] INFO root fetch - main [MainThread]: End processing [cellmap]: success
+[2023-07-11 05:55:00] INFO root fetch - main [MainThread]: End processing [cellmap]: success
+[2023-07-11 05:55:00] INFO root fetch - processPackages [odoo14-addon-fiscal-epos-print]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_fiscal_epos_print-14.0.1.0.2.dev3-py3-none-any.whl.zip]
+[2023-07-11 05:55:00] INFO root fetch - processPackages [odoo14-addon-fiscal-epos-print]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_fiscal_epos_print-14.0.1.0.2.dev4-py3-none-any.whl.zip]
+[2023-07-11 05:55:00] INFO root fetch - main [MainThread]: End processing [odoo14-addon-fiscal-epos-print]: success
+[2023-07-11 05:55:00] INFO root fetch - main [MainThread]: Store serial: [18840607]
