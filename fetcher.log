@@ -18545,3 +18545,196 @@ AssertionError: tmp/doctran-0.0.6.tar.gz does not exist
 [2023-07-11 13:46:05] INFO root fetch - processPackages [ais-dom]: Remove: archive file [/home/abi/fetcher/tmp/ais-dom-2023.7.2.tar.gz]
 [2023-07-11 13:46:05] INFO root fetch - main [MainThread]: End processing [ais-dom]: success
 [2023-07-11 13:46:05] INFO root fetch - main [MainThread]: Store serial: [18844578]
+[2023-07-11 13:51:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18844578]
+[2023-07-11 13:51:15] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-07-11 13:51:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dlt-expectation-util
+[2023-07-11 13:51:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cargo-xwin
+[2023-07-11 13:51:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-test-plus
+[2023-07-11 13:51:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zmqcli
+[2023-07-11 13:51:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Akatosh
+[2023-07-11 13:51:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: runhouse
+[2023-07-11 13:51:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: few-shot-priming
+[2023-07-11 13:51:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: linestar
+[2023-07-11 13:51:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bigdl-dllib-spark3
+[2023-07-11 13:51:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bigdl-orca-spark3
+[2023-07-11 13:51:15] INFO root fetch - processPackages [linestar]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-11 13:51:15] INFO root fetch - processPackages [runhouse]: New version: [0.1.1] Old Version: [0.0.8]
+[2023-07-11 13:51:15] INFO root fetch - processPackages [django-test-plus]: New version: [2.2.3] Old Version: [2.2.2]
+[2023-07-11 13:51:15] INFO root fetch - processPackages [bigdl-dllib-spark3]: New version: [2.4.0b20230711] Old Version: [2.4.0b20230710]
+[2023-07-11 13:51:15] INFO root fetch - processPackages [Akatosh]: New version: [2.1.0] Old Version: [1.7.3]
+[2023-07-11 13:51:15] WARNING root fetch - processPackages [zmqcli]: Skipping, unable to determine old version
+[2023-07-11 13:51:15] INFO root fetch - processPackages [zmqcli]: Start processing: bigdl-friesian-spark3
+[2023-07-11 13:51:15] INFO root fetch - main [MainThread]: End processing [zmqcli] error
+[2023-07-11 13:51:15] INFO root fetch - processPackages [cargo-xwin]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-11 13:51:15] INFO root fetch - processPackages [dlt-expectation-util]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-11 13:51:15] INFO root fetch - processPackages [bigdl-orca-spark3]: New version: [2.4.0b20230711] Old Version: [2.4.0b20230710]
+[2023-07-11 13:51:15] INFO root fetch - processPackages [few-shot-priming]: New version: [0.0.99] Old Version: [0.0.96]
+[2023-07-11 13:51:15] INFO root fetch - processPackages [bigdl-friesian-spark3]: New version: [2.4.0b20230711] Old Version: [2.4.0b20230710]
+[2023-07-11 13:51:15] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/d5/95/d70c95da3e78b71d35838af276daf5b2f53394c4c9a44fa5dd8f2aa64498/few_shot_priming-0.0.96-py3-none-any.whl
+[2023-07-11 13:51:15] INFO root fetch - processPackages [linestar]: Downloading https://files.pythonhosted.org/packages/9e/66/74f349bfa152281ec66974cc163133a915870b7f19f0efa1c85c3ec7541b/linestar-0.0.2.tar.gz
+[2023-07-11 13:51:15] INFO root fetch - processPackages [runhouse]: Downloading https://files.pythonhosted.org/packages/68/6e/97a062cd5de087271c115c808df89c0142e5732f3fd1945a7d6836b01738/runhouse-0.0.8.tar.gz
+[2023-07-11 13:51:15] INFO root fetch - processPackages [django-test-plus]: Downloading https://files.pythonhosted.org/packages/fd/c1/f621993cdc6f871949f837f8f42e403de2c998c64ed8371aa511018f08d0/django-test-plus-2.2.2.tar.gz
+[2023-07-11 13:51:15] INFO root fetch - processPackages [Akatosh]: Downloading https://files.pythonhosted.org/packages/36/41/708ce20d5bd9f9fae437a7197cf2c2b173781fd46b2a32916f80aff7e26a/Akatosh-1.7.3.tar.gz
+[2023-07-11 13:51:15] INFO root fetch - processPackages [bigdl-dllib-spark3]: Downloading https://files.pythonhosted.org/packages/26/bc/a069afda2039850271871267bdc685b1085ec1c15cf8e2f78b3effc1dfd6/bigdl-dllib-spark3-2.4.0b20230710.tar.gz
+[2023-07-11 13:51:15] INFO root fetch - processPackages [cargo-xwin]: Downloading https://files.pythonhosted.org/packages/7f/d8/5be2e4d4345f7273333ea10c15f619e83fc6b4ee2dd2e8d739d58e8f5a38/cargo_xwin-0.9.1-py3-none-win_amd64.whl
+[2023-07-11 13:51:15] INFO root fetch - processPackages [dlt-expectation-util]: Downloading https://files.pythonhosted.org/packages/1a/31/d9dd927568199c413efabf0c86c5ad7db3393b3235dc5acbee5664072c31/dlt_expectation_util-0.1.0.tar.gz
+[2023-07-11 13:51:15] INFO root fetch - processPackages [bigdl-orca-spark3]: Downloading https://files.pythonhosted.org/packages/c6/cb/d9dd55b5b3a1646d922ae406b1bacd9831f257a4c95fb603801fd49e24ca/bigdl_orca_spark3-2.4.0b20230710-py3-none-manylinux1_x86_64.whl
+[2023-07-11 13:51:15] INFO root fetch - processPackages [bigdl-friesian-spark3]: Downloading https://files.pythonhosted.org/packages/c0/15/645e575b810867007865d41ff84051917283decbce2ded88112f1bbf6f90/bigdl_friesian_spark3-2.4.0b20230710-py3-none-manylinux1_x86_64.whl
+[2023-07-11 13:51:16] WARNING root fetch - processPackages [bigdl-dllib-spark3]: Skipping package: exceeds size limit 61328740>=10485760
+[2023-07-11 13:51:16] INFO root fetch - processPackages [bigdl-dllib-spark3]: Start processing: bigdl-chronos-spark3
+[2023-07-11 13:51:16] INFO root fetch - main [MainThread]: End processing [bigdl-dllib-spark3] error
+[2023-07-11 13:51:16] WARNING root fetch - processPackages [bigdl-orca-spark3]: Skipping package: exceeds size limit 20208086>=10485760
+[2023-07-11 13:51:16] INFO root fetch - processPackages [bigdl-orca-spark3]: Start processing: bigdl-spark3
+[2023-07-11 13:51:16] INFO root fetch - main [MainThread]: End processing [bigdl-orca-spark3] error
+[2023-07-11 13:51:16] INFO root fetch - processPackages [bigdl-chronos-spark3]: New version: [2.4.0b20230711] Old Version: [2.4.0b20230710]
+[2023-07-11 13:51:16] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/1e/e8/6368ab93b7135424a35ce07aac4de4056a38a1ae6f862ed63a5a79a4dce6/few_shot_priming-0.0.99-py3-none-any.whl
+[2023-07-11 13:51:16] INFO root fetch - processPackages [bigdl-spark3]: New version: [2.4.0b20230711] Old Version: [2.4.0b20230710]
+[2023-07-11 13:51:16] INFO root fetch - processPackages [Akatosh]: Downloading https://files.pythonhosted.org/packages/76/22/9b74dd7a6196df6aa4156922ddcbfa9b77b8755759d494fa9410b751fd48/Akatosh-2.1.0.tar.gz
+[2023-07-11 13:51:16] INFO root fetch - processPackages [dlt-expectation-util]: Downloading https://files.pythonhosted.org/packages/85/07/45ad6cff6604b7f4eae801c108ac9ccf92caadee67d487ad62310fdb99d1/dlt_expectation_util-0.1.1.tar.gz
+[2023-07-11 13:51:16] INFO root fetch - processPackages [linestar]: Downloading https://files.pythonhosted.org/packages/c2/2b/feb84f829218bfe82547132ecd7b095cc709719a4445fd9d47faf8722b12/linestar-0.0.3.tar.gz
+[2023-07-11 13:51:16] INFO root fetch - processPackages [runhouse]: Downloading https://files.pythonhosted.org/packages/97/9f/5eaa6799e1427639d9df112660ef1978d234f8f61cc6767389c9fe37df28/runhouse-0.1.1-py3-none-any.whl
+[2023-07-11 13:51:16] INFO root fetch - processPackages [django-test-plus]: Downloading https://files.pythonhosted.org/packages/85/c7/23219e9d9dcdbb9298f13db3fe1a36dcfc7f49ea165a4cd3b7a2c11b0abe/django-test-plus-2.2.3.tar.gz
+[2023-07-11 13:51:16] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2023-07-11 13:51:16] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip --markdown 20230711/f/few-shot-priming/0.0.96-0.0.99/diff.md --exclude *.pyd
+[2023-07-11 13:51:16] INFO root fetch - processPackages [Akatosh]: executing diffoscope
+[2023-07-11 13:51:16] INFO root fetch - processPackages [Akatosh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Akatosh-1.7.3.tar.gz tmp/Akatosh-2.1.0.tar.gz --markdown 20230711/A/Akatosh/1.7.3-2.1.0/diff.md --exclude *.pyd
+[2023-07-11 13:51:16] INFO root fetch - processPackages [bigdl-friesian-spark3]: Downloading https://files.pythonhosted.org/packages/a3/90/eb099567e6fa93ecf9ef6035fe4aa1f9d29ab911120e1461ad89ff1ed267/bigdl_friesian_spark3-2.4.0b20230711-py3-none-manylinux1_x86_64.whl
+[2023-07-11 13:51:16] INFO root fetch - processPackages [dlt-expectation-util]: executing diffoscope
+[2023-07-11 13:51:16] INFO root fetch - processPackages [dlt-expectation-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dlt_expectation_util-0.1.0.tar.gz tmp/dlt_expectation_util-0.1.1.tar.gz --markdown 20230711/d/dlt-expectation-util/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-11 13:51:16] INFO root fetch - processPackages [linestar]: executing diffoscope
+[2023-07-11 13:51:16] INFO root fetch - processPackages [linestar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linestar-0.0.2.tar.gz tmp/linestar-0.0.3.tar.gz --markdown 20230711/l/linestar/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-11 13:51:16] INFO root fetch - processPackages [bigdl-spark3]: Downloading https://files.pythonhosted.org/packages/32/b3/5f1e7e0f9a0bfadb08bf36f0cb3fd53008752afd51b562f3229b1279c7cd/bigdl_spark3-2.4.0b20230710-py3-none-manylinux1_x86_64.whl
+[2023-07-11 13:51:16] INFO root fetch - processPackages [bigdl-chronos-spark3]: Downloading https://files.pythonhosted.org/packages/49/80/d542cf87a9d68e97eec5d83e8b81ad0c7fc25ef4e2f0cb31965ed06e5494/bigdl_chronos_spark3-2.4.0b20230710-py3-none-manylinux1_x86_64.whl
+[2023-07-11 13:51:16] INFO root fetch - processPackages [django-test-plus]: executing diffoscope
+[2023-07-11 13:51:16] INFO root fetch - processPackages [django-test-plus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-test-plus-2.2.2.tar.gz tmp/django-test-plus-2.2.3.tar.gz --markdown 20230711/d/django-test-plus/2.2.2-2.2.3/diff.md --exclude *.pyd
+[2023-07-11 13:51:16] INFO root fetch - processPackages [runhouse]: executing diffoscope
+[2023-07-11 13:51:16] INFO root fetch - processPackages [runhouse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/runhouse-0.0.8.tar.gz tmp/runhouse-0.1.1-py3-none-any.whl.zip --markdown 20230711/r/runhouse/0.0.8-0.1.1/diff.md --exclude *.pyd
+[2023-07-11 13:51:16] INFO root fetch - processPackages [bigdl-friesian-spark3]: executing diffoscope
+[2023-07-11 13:51:16] INFO root fetch - processPackages [bigdl-friesian-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_friesian_spark3-2.4.0b20230710-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_friesian_spark3-2.4.0b20230711-py3-none-manylinux1_x86_64.whl.zip --markdown 20230711/b/bigdl-friesian-spark3/2.4.0b20230710-2.4.0b20230711/diff.md --exclude *.pyd
+[2023-07-11 13:51:16] INFO root fetch - processPackages [bigdl-spark3]: Downloading https://files.pythonhosted.org/packages/db/f0/230590bf1c8d90fffd4f73eb06425d3cae29e442806707bf6647e8643928/bigdl_spark3-2.4.0b20230711-py3-none-manylinux1_x86_64.whl
+[2023-07-11 13:51:16] INFO root fetch - processPackages [bigdl-chronos-spark3]: Downloading https://files.pythonhosted.org/packages/f5/cf/4aa40ef25bbc4d6e796490ade00dad9df4d9e5a7529f8fb763aed650990c/bigdl_chronos_spark3-2.4.0b20230711-py3-none-manylinux1_x86_64.whl
+[2023-07-11 13:51:16] INFO root fetch - processPackages [cargo-xwin]: Downloading https://files.pythonhosted.org/packages/8f/88/531d375d3813004bf72ec64730f6550181ddbefb4037605c29b5917107c3/cargo_xwin-0.9.2-py3-none-win_amd64.whl
+[2023-07-11 13:51:17] INFO root fetch - processPackages [bigdl-spark3]: executing diffoscope
+[2023-07-11 13:51:17] INFO root fetch - processPackages [bigdl-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_spark3-2.4.0b20230710-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_spark3-2.4.0b20230711-py3-none-manylinux1_x86_64.whl.zip --markdown 20230711/b/bigdl-spark3/2.4.0b20230710-2.4.0b20230711/diff.md --exclude *.pyd
+[2023-07-11 13:51:17] INFO root fetch - processPackages [bigdl-chronos-spark3]: executing diffoscope
+[2023-07-11 13:51:17] INFO root fetch - processPackages [bigdl-chronos-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos_spark3-2.4.0b20230710-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_chronos_spark3-2.4.0b20230711-py3-none-manylinux1_x86_64.whl.zip --markdown 20230711/b/bigdl-chronos-spark3/2.4.0b20230710-2.4.0b20230711/diff.md --exclude *.pyd
+[2023-07-11 13:51:17] INFO root fetch - processPackages [dlt-expectation-util]: Remove: archive file [/home/abi/fetcher/tmp/dlt_expectation_util-0.1.0.tar.gz]
+[2023-07-11 13:51:17] INFO root fetch - processPackages [dlt-expectation-util]: Remove: archive file [/home/abi/fetcher/tmp/dlt_expectation_util-0.1.1.tar.gz]
+[2023-07-11 13:51:17] INFO root fetch - processPackages [dlt-expectation-util]: Start processing: yandex_tracker_client
+[2023-07-11 13:51:17] INFO root fetch - main [MainThread]: End processing [dlt-expectation-util]: success
+[2023-07-11 13:51:17] INFO root fetch - processPackages [linestar]: Remove: archive file [/home/abi/fetcher/tmp/linestar-0.0.2.tar.gz]
+[2023-07-11 13:51:17] INFO root fetch - processPackages [linestar]: Remove: archive file [/home/abi/fetcher/tmp/linestar-0.0.3.tar.gz]
+[2023-07-11 13:51:17] INFO root fetch - processPackages [linestar]: Start processing: metabolights-utils
+[2023-07-11 13:51:17] INFO root fetch - main [MainThread]: End processing [linestar]: success
+[2023-07-11 13:51:17] INFO root fetch - processPackages [yandex_tracker_client]: New version: [2.5] Old Version: [2.3]
+[2023-07-11 13:51:17] WARNING root fetch - processPackages [metabolights-utils]: Skipping, unable to determine old version
+[2023-07-11 13:51:17] INFO root fetch - processPackages [metabolights-utils]: Start processing: alibabacloud-aiearth-engine20220609
+[2023-07-11 13:51:17] INFO root fetch - main [MainThread]: End processing [metabolights-utils] error
+[2023-07-11 13:51:17] INFO root fetch - processPackages [alibabacloud-aiearth-engine20220609]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-07-11 13:51:17] INFO root fetch - processPackages [cargo-xwin]: executing diffoscope
+[2023-07-11 13:51:17] INFO root fetch - processPackages [cargo-xwin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cargo_xwin-0.9.1-py3-none-win_amd64.whl.zip tmp/cargo_xwin-0.9.2-py3-none-win_amd64.whl.zip --markdown 20230711/c/cargo-xwin/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-11 13:51:18] INFO root fetch - processPackages [Akatosh]: Remove: archive file [/home/abi/fetcher/tmp/Akatosh-1.7.3.tar.gz]
+[2023-07-11 13:51:18] INFO root fetch - processPackages [Akatosh]: Remove: archive file [/home/abi/fetcher/tmp/Akatosh-2.1.0.tar.gz]
+[2023-07-11 13:51:18] INFO root fetch - processPackages [Akatosh]: Start processing: aspose-total-java
+[2023-07-11 13:51:18] INFO root fetch - main [MainThread]: End processing [Akatosh]: success
+[2023-07-11 13:51:18] INFO root fetch - processPackages [runhouse]: Remove: archive file [/home/abi/fetcher/tmp/runhouse-0.0.8.tar.gz]
+[2023-07-11 13:51:18] INFO root fetch - processPackages [runhouse]: Remove: archive file [/home/abi/fetcher/tmp/runhouse-0.1.1-py3-none-any.whl.zip]
+[2023-07-11 13:51:18] INFO root fetch - processPackages [runhouse]: Start processing: py-ios-device
+[2023-07-11 13:51:18] INFO root fetch - main [MainThread]: End processing [runhouse]: success
+[2023-07-11 13:51:18] INFO root fetch - processPackages [aspose-total-java]: New version: [23.7.0] Old Version: [22.6.0]
+[2023-07-11 13:51:18] INFO root fetch - processPackages [py-ios-device]: New version: [2.3.32.5] Old Version: [2.3.32.4]
+[2023-07-11 13:51:18] INFO root fetch - processPackages [yandex_tracker_client]: Downloading https://files.pythonhosted.org/packages/1a/83/26aeba879e4263e46e932561650f2ae642316d00b7d2834a99c630b98bae/yandex_tracker_client-2.3.tar.gz
+[2023-07-11 13:51:18] INFO root fetch - processPackages [django-test-plus]: Remove: archive file [/home/abi/fetcher/tmp/django-test-plus-2.2.2.tar.gz]
+[2023-07-11 13:51:18] INFO root fetch - processPackages [django-test-plus]: Remove: archive file [/home/abi/fetcher/tmp/django-test-plus-2.2.3.tar.gz]
+[2023-07-11 13:51:18] INFO root fetch - processPackages [django-test-plus]: Start processing: ultima-scraper-api
+[2023-07-11 13:51:18] INFO root fetch - main [MainThread]: End processing [django-test-plus]: success
+[2023-07-11 13:51:18] INFO root fetch - processPackages [alibabacloud-aiearth-engine20220609]: Downloading https://files.pythonhosted.org/packages/d9/bc/439a05347f537141caf3b254f5bfcf81e6c64086615bc955ce5aeae798be/alibabacloud_aiearth-engine20220609-1.0.5.tar.gz
+[2023-07-11 13:51:18] INFO root fetch - processPackages [ultima-scraper-api]: New version: [2.0.0] Old Version: [1.1.4]
+[2023-07-11 13:51:18] INFO root fetch - processPackages [bigdl-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_spark3-2.4.0b20230710-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-11 13:51:18] INFO root fetch - processPackages [bigdl-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_spark3-2.4.0b20230711-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-11 13:51:18] INFO root fetch - processPackages [bigdl-spark3]: Start processing: openstef
+[2023-07-11 13:51:18] INFO root fetch - main [MainThread]: End processing [bigdl-spark3]: success
+[2023-07-11 13:51:18] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.96-py3-none-any.whl.zip]
+[2023-07-11 13:51:18] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.0.99-py3-none-any.whl.zip]
+[2023-07-11 13:51:18] INFO root fetch - processPackages [few-shot-priming]: Start processing: lime-nda
+[2023-07-11 13:51:18] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2023-07-11 13:51:18] INFO root fetch - processPackages [aspose-total-java]: Downloading https://files.pythonhosted.org/packages/3a/e3/cd03e522b6aa2ee19761b3e35d0b011c2d0147b032f544a7c79442ab0b7b/aspose-total-java-22.6.0.tar.gz
+[2023-07-11 13:51:18] INFO root fetch - processPackages [py-ios-device]: Downloading https://files.pythonhosted.org/packages/9a/92/1fa5fa19dde3e0ff35b7202cf4bf5740fad5791d94bbb7fd11bcadec8180/py_ios_device-2.3.32.4.tar.gz
+[2023-07-11 13:51:18] INFO root fetch - processPackages [openstef]: New version: [3.2.9] Old Version: [3.2.8]
+[2023-07-11 13:51:18] INFO root fetch - processPackages [bigdl-friesian-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian_spark3-2.4.0b20230710-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-11 13:51:18] INFO root fetch - processPackages [bigdl-friesian-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian_spark3-2.4.0b20230711-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-11 13:51:18] INFO root fetch - processPackages [bigdl-friesian-spark3]: Start processing: pyidevice
+[2023-07-11 13:51:18] INFO root fetch - main [MainThread]: End processing [bigdl-friesian-spark3]: success
+[2023-07-11 13:51:18] INFO root fetch - processPackages [ultima-scraper-api]: Downloading https://files.pythonhosted.org/packages/6e/c9/e8ba6e9014c6c9e82044d36e15711bf53472dddf4268fe676dcc851ee115/ultima_scraper_api-1.1.4.tar.gz
+[2023-07-11 13:51:18] WARNING root fetch - processPackages [lime-nda]: Skipping, unable to determine old version
+[2023-07-11 13:51:18] INFO root fetch - processPackages [lime-nda]: Start processing: archive-hocr-tools
+[2023-07-11 13:51:18] INFO root fetch - main [MainThread]: End processing [lime-nda] error
+[2023-07-11 13:51:18] INFO root fetch - processPackages [yandex_tracker_client]: Downloading https://files.pythonhosted.org/packages/8d/ec/520ce970b6a32ee121cb7db05b0cf5b09d1ce1a10872865dbc2aec34cae9/yandex_tracker_client-2.5.tar.gz
+[2023-07-11 13:51:18] INFO root fetch - processPackages [pyidevice]: New version: [2.3.32.5] Old Version: [2.3.32.4]
+[2023-07-11 13:51:18] INFO root fetch - processPackages [archive-hocr-tools]: New version: [1.1.9] Old Version: [1.1.50]
+[2023-07-11 13:51:18] INFO root fetch - processPackages [alibabacloud-aiearth-engine20220609]: Downloading https://files.pythonhosted.org/packages/02/bc/f87db4be6688f9e73a480804c15607a68dd9e8e3d8b9b59f4d5366129ead/alibabacloud_aiearth-engine20220609-1.0.6.tar.gz
+[2023-07-11 13:51:18] INFO root fetch - processPackages [openstef]: Downloading https://files.pythonhosted.org/packages/d8/5e/aae4f72c0d709588767ec68e766ff22787ba14fda62462c8224096805437/openstef-3.2.8.tar.gz
+[2023-07-11 13:51:18] INFO root fetch - processPackages [yandex_tracker_client]: executing diffoscope
+[2023-07-11 13:51:18] INFO root fetch - processPackages [yandex_tracker_client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yandex_tracker_client-2.3.tar.gz tmp/yandex_tracker_client-2.5.tar.gz --markdown 20230711/y/yandex_tracker_client/2.3-2.5/diff.md --exclude *.pyd
+[2023-07-11 13:51:18] INFO root fetch - processPackages [pyidevice]: Downloading https://files.pythonhosted.org/packages/a1/54/ce54acb660c42d1f51c93cba0f7d67b1f090943b31156a22be37ae5759c1/pyidevice-2.3.32.4.tar.gz
+[2023-07-11 13:51:18] INFO root fetch - processPackages [py-ios-device]: Downloading https://files.pythonhosted.org/packages/d4/ff/dd56ee30610e6ee010a511dd9f87579566f1ae6b7edc09758117880385d3/py_ios_device-2.3.32.5.tar.gz
+[2023-07-11 13:51:18] INFO root fetch - processPackages [aspose-total-java]: Downloading https://files.pythonhosted.org/packages/13/c1/e0c55e103b8d4f56ee3d17f3b8b6a6339dff93478b53d0a05192e7fdd0cb/aspose-total-java-23.7.0.tar.gz
+[2023-07-11 13:51:18] INFO root fetch - processPackages [alibabacloud-aiearth-engine20220609]: executing diffoscope
+[2023-07-11 13:51:18] INFO root fetch - processPackages [alibabacloud-aiearth-engine20220609]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_aiearth-engine20220609-1.0.5.tar.gz tmp/alibabacloud_aiearth-engine20220609-1.0.6.tar.gz --markdown 20230711/a/alibabacloud-aiearth-engine20220609/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-07-11 13:51:18] INFO root fetch - processPackages [archive-hocr-tools]: Downloading https://files.pythonhosted.org/packages/b4/a6/7398081e3854668477a348ab761db8cc1c8591d5e104e7b56f1dafddbec8/archive-hocr-tools-1.1.50.tar.gz
+[2023-07-11 13:51:18] INFO root fetch - processPackages [ultima-scraper-api]: Downloading https://files.pythonhosted.org/packages/f9/92/ac912115e1f43c2fe82e2dc15a9955cd2b667c5c4f0acafd45ad91456541/ultima_scraper_api-2.0.0.tar.gz
+[2023-07-11 13:51:19] INFO root fetch - processPackages [py-ios-device]: executing diffoscope
+[2023-07-11 13:51:19] INFO root fetch - processPackages [py-ios-device]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_ios_device-2.3.32.4.tar.gz tmp/py_ios_device-2.3.32.5.tar.gz --markdown 20230711/p/py-ios-device/2.3.32.4-2.3.32.5/diff.md --exclude *.pyd
+[2023-07-11 13:51:19] INFO root fetch - processPackages [aspose-total-java]: executing diffoscope
+[2023-07-11 13:51:19] INFO root fetch - processPackages [aspose-total-java]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aspose-total-java-22.6.0.tar.gz tmp/aspose-total-java-23.7.0.tar.gz --markdown 20230711/a/aspose-total-java/22.6.0-23.7.0/diff.md --exclude *.pyd
+[2023-07-11 13:51:19] INFO root fetch - processPackages [ultima-scraper-api]: executing diffoscope
+[2023-07-11 13:51:19] INFO root fetch - processPackages [ultima-scraper-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ultima_scraper_api-1.1.4.tar.gz tmp/ultima_scraper_api-2.0.0.tar.gz --markdown 20230711/u/ultima-scraper-api/1.1.4-2.0.0/diff.md --exclude *.pyd
+[2023-07-11 13:51:19] INFO root fetch - processPackages [openstef]: Downloading https://files.pythonhosted.org/packages/08/0a/df7db806501a61abf24779c5c0a1d1fc52e9e8822793a33bb64b0a4002cc/openstef-3.2.9.tar.gz
+[2023-07-11 13:51:19] INFO root fetch - processPackages [bigdl-chronos-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos_spark3-2.4.0b20230710-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-11 13:51:19] INFO root fetch - processPackages [bigdl-chronos-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos_spark3-2.4.0b20230711-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-11 13:51:19] INFO root fetch - processPackages [bigdl-chronos-spark3]: Start processing: fastchecks
+[2023-07-11 13:51:19] INFO root fetch - main [MainThread]: End processing [bigdl-chronos-spark3]: success
+[2023-07-11 13:51:19] INFO root fetch - processPackages [fastchecks]: New version: [0.2.1rc2] Old Version: [0.2.0]
+[2023-07-11 13:51:19] INFO root fetch - processPackages [pyidevice]: Downloading https://files.pythonhosted.org/packages/46/8a/f6ff0e959e8d400241c4451af167b056b4a37b06fe099a0c5d4348c0f3a6/pyidevice-2.3.32.5.tar.gz
+[2023-07-11 13:51:19] INFO root fetch - processPackages [archive-hocr-tools]: Downloading https://files.pythonhosted.org/packages/0e/34/175062dc61f6a2a9e54da920691e617e4bec55f8b34eb0bdbdbd7e5eb345/archive-hocr-tools-1.1.9.tar.gz
+[2023-07-11 13:51:19] INFO root fetch - processPackages [fastchecks]: Downloading https://files.pythonhosted.org/packages/11/7b/2a1f50fb12ae93d34de28afbd66aa5525a410f026d1d377547aee71a5f4a/fastchecks-0.2.0.tar.gz
+[2023-07-11 13:51:19] INFO root fetch - processPackages [openstef]: executing diffoscope
+[2023-07-11 13:51:19] INFO root fetch - processPackages [openstef]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openstef-3.2.8.tar.gz tmp/openstef-3.2.9.tar.gz --markdown 20230711/o/openstef/3.2.8-3.2.9/diff.md --exclude *.pyd
+[2023-07-11 13:51:19] INFO root fetch - processPackages [archive-hocr-tools]: executing diffoscope
+[2023-07-11 13:51:19] INFO root fetch - processPackages [archive-hocr-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/archive-hocr-tools-1.1.50.tar.gz tmp/archive-hocr-tools-1.1.9.tar.gz --markdown 20230711/a/archive-hocr-tools/1.1.50-1.1.9/diff.md --exclude *.pyd
+[2023-07-11 13:51:19] INFO root fetch - processPackages [pyidevice]: executing diffoscope
+[2023-07-11 13:51:19] INFO root fetch - processPackages [pyidevice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyidevice-2.3.32.4.tar.gz tmp/pyidevice-2.3.32.5.tar.gz --markdown 20230711/p/pyidevice/2.3.32.4-2.3.32.5/diff.md --exclude *.pyd
+[2023-07-11 13:51:19] INFO root fetch - processPackages [fastchecks]: Downloading https://files.pythonhosted.org/packages/97/48/8d9f1a98ff36fd86bf3f643c3324e11c739df45a3faed4eab82972a42215/fastchecks-0.2.1rc2.tar.gz
+[2023-07-11 13:51:20] INFO root fetch - processPackages [yandex_tracker_client]: Remove: archive file [/home/abi/fetcher/tmp/yandex_tracker_client-2.3.tar.gz]
+[2023-07-11 13:51:20] INFO root fetch - processPackages [yandex_tracker_client]: Remove: archive file [/home/abi/fetcher/tmp/yandex_tracker_client-2.5.tar.gz]
+[2023-07-11 13:51:20] INFO root fetch - processPackages [fastchecks]: executing diffoscope
+[2023-07-11 13:51:20] INFO root fetch - main [MainThread]: End processing [yandex_tracker_client]: success
+[2023-07-11 13:51:20] INFO root fetch - processPackages [fastchecks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastchecks-0.2.0.tar.gz tmp/fastchecks-0.2.1rc2.tar.gz --markdown 20230711/f/fastchecks/0.2.0-0.2.1rc2/diff.md --exclude *.pyd
+[2023-07-11 13:51:20] INFO root fetch - processPackages [alibabacloud-aiearth-engine20220609]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_aiearth-engine20220609-1.0.5.tar.gz]
+[2023-07-11 13:51:20] INFO root fetch - processPackages [alibabacloud-aiearth-engine20220609]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_aiearth-engine20220609-1.0.6.tar.gz]
+[2023-07-11 13:51:20] INFO root fetch - main [MainThread]: End processing [alibabacloud-aiearth-engine20220609]: success
+[2023-07-11 13:51:20] INFO root fetch - processPackages [aspose-total-java]: Remove: archive file [/home/abi/fetcher/tmp/aspose-total-java-22.6.0.tar.gz]
+[2023-07-11 13:51:20] INFO root fetch - processPackages [aspose-total-java]: Remove: archive file [/home/abi/fetcher/tmp/aspose-total-java-23.7.0.tar.gz]
+[2023-07-11 13:51:20] INFO root fetch - main [MainThread]: End processing [aspose-total-java]: success
+[2023-07-11 13:51:21] INFO root fetch - processPackages [py-ios-device]: Remove: archive file [/home/abi/fetcher/tmp/py_ios_device-2.3.32.4.tar.gz]
+[2023-07-11 13:51:21] INFO root fetch - processPackages [py-ios-device]: Remove: archive file [/home/abi/fetcher/tmp/py_ios_device-2.3.32.5.tar.gz]
+[2023-07-11 13:51:21] INFO root fetch - main [MainThread]: End processing [py-ios-device]: success
+[2023-07-11 13:51:21] INFO root fetch - processPackages [archive-hocr-tools]: Remove: archive file [/home/abi/fetcher/tmp/archive-hocr-tools-1.1.50.tar.gz]
+[2023-07-11 13:51:21] INFO root fetch - processPackages [archive-hocr-tools]: Remove: archive file [/home/abi/fetcher/tmp/archive-hocr-tools-1.1.9.tar.gz]
+[2023-07-11 13:51:21] INFO root fetch - main [MainThread]: End processing [archive-hocr-tools]: success
+[2023-07-11 13:51:21] INFO root fetch - processPackages [ultima-scraper-api]: Remove: archive file [/home/abi/fetcher/tmp/ultima_scraper_api-1.1.4.tar.gz]
+[2023-07-11 13:51:21] INFO root fetch - processPackages [ultima-scraper-api]: Remove: archive file [/home/abi/fetcher/tmp/ultima_scraper_api-2.0.0.tar.gz]
+[2023-07-11 13:51:21] INFO root fetch - main [MainThread]: End processing [ultima-scraper-api]: success
+[2023-07-11 13:51:21] INFO root fetch - processPackages [pyidevice]: Remove: archive file [/home/abi/fetcher/tmp/pyidevice-2.3.32.4.tar.gz]
+[2023-07-11 13:51:21] INFO root fetch - processPackages [pyidevice]: Remove: archive file [/home/abi/fetcher/tmp/pyidevice-2.3.32.5.tar.gz]
+[2023-07-11 13:51:21] INFO root fetch - main [MainThread]: End processing [pyidevice]: success
+[2023-07-11 13:51:21] INFO root fetch - processPackages [fastchecks]: Remove: archive file [/home/abi/fetcher/tmp/fastchecks-0.2.0.tar.gz]
+[2023-07-11 13:51:21] INFO root fetch - processPackages [fastchecks]: Remove: archive file [/home/abi/fetcher/tmp/fastchecks-0.2.1rc2.tar.gz]
+[2023-07-11 13:51:21] INFO root fetch - main [MainThread]: End processing [fastchecks]: success
+[2023-07-11 13:51:21] INFO root fetch - processPackages [openstef]: Remove: archive file [/home/abi/fetcher/tmp/openstef-3.2.8.tar.gz]
+[2023-07-11 13:51:21] INFO root fetch - processPackages [openstef]: Remove: archive file [/home/abi/fetcher/tmp/openstef-3.2.9.tar.gz]
+[2023-07-11 13:51:21] INFO root fetch - main [MainThread]: End processing [openstef]: success
+[2023-07-11 13:51:32] INFO root fetch - processPackages [cargo-xwin]: Remove: archive file [/home/abi/fetcher/tmp/cargo_xwin-0.9.1-py3-none-win_amd64.whl.zip]
+[2023-07-11 13:51:32] INFO root fetch - processPackages [cargo-xwin]: Remove: archive file [/home/abi/fetcher/tmp/cargo_xwin-0.9.2-py3-none-win_amd64.whl.zip]
+[2023-07-11 13:51:32] INFO root fetch - main [MainThread]: End processing [cargo-xwin]: success
+[2023-07-11 13:51:32] INFO root fetch - main [MainThread]: Store serial: [18844667]
