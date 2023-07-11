@@ -16156,3 +16156,105 @@ AssertionError: tmp/doctran-0.0.6.tar.gz does not exist
 [2023-07-11 12:07:35] INFO root fetch - processPackages [st-pandas-text-editor]: Remove: archive file [/home/abi/fetcher/tmp/st_pandas_text_editor-0.0.2.tar.gz]
 [2023-07-11 12:07:35] INFO root fetch - main [MainThread]: End processing [st-pandas-text-editor]: success
 [2023-07-11 12:07:35] INFO root fetch - main [MainThread]: Store serial: [18843529]
+[2023-07-11 12:12:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18843529]
+[2023-07-11 12:12:45] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-11 12:12:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tantaroba
+[2023-07-11 12:12:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PySide6-Fluent-Widgets
+[2023-07-11 12:12:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nonebot-plugin-spark-gpt
+[2023-07-11 12:12:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lib310-lite
+[2023-07-11 12:12:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: middleware-apm
+[2023-07-11 12:12:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: baarutil
+[2023-07-11 12:12:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: papertronics-sdk
+[2023-07-11 12:12:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fastchecks
+[2023-07-11 12:12:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pydcc
+[2023-07-11 12:12:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: qiskit-hangyul
+[2023-07-11 12:12:45] INFO root fetch - processPackages [papertronics-sdk]: New version: [0.0.21] Old Version: [0.0.20]
+[2023-07-11 12:12:45] INFO root fetch - processPackages [nonebot-plugin-spark-gpt]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-07-11 12:12:45] INFO root fetch - processPackages [tantaroba]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-07-11 12:12:45] INFO root fetch - processPackages [fastchecks]: New version: [0.1.0rc6] Old Version: [0.1.0rc5]
+[2023-07-11 12:12:45] INFO root fetch - processPackages [baarutil]: New version: [1.9.3] Old Version: [1.9.2]
+[2023-07-11 12:12:45] INFO root fetch - processPackages [middleware-apm]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-11 12:12:45] INFO root fetch - processPackages [PySide6-Fluent-Widgets]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-11 12:12:45] WARNING root fetch - processPackages [qiskit-hangyul]: Skipping, unable to determine old version
+[2023-07-11 12:12:45] INFO root fetch - processPackages [qiskit-hangyul]: Start processing: lib310-lite
+[2023-07-11 12:12:45] INFO root fetch - main [MainThread]: End processing [qiskit-hangyul] error
+[2023-07-11 12:12:45] INFO root fetch - processPackages [lib310-lite]: New version: [0.1.0.dev9] Old Version: [0.1.0.dev8]
+[2023-07-11 12:12:45] WARNING root fetch - processPackages [pydcc]: Skipping, unable to determine old version
+[2023-07-11 12:12:45] INFO root fetch - processPackages [pydcc]: Start processing: anylearn
+[2023-07-11 12:12:45] INFO root fetch - main [MainThread]: End processing [pydcc] error
+[2023-07-11 12:12:45] INFO root fetch - processPackages [lib310-lite]: New version: [0.1.0.dev9] Old Version: [0.1.0.dev8]
+[2023-07-11 12:12:45] INFO root fetch - processPackages [papertronics-sdk]: Downloading https://files.pythonhosted.org/packages/d5/cc/23b735f0832b7389d30221494abda7730d557fe6eef4abdca396ef89fd7d/papertronics-sdk-0.0.20.tar.gz
+[2023-07-11 12:12:45] INFO root fetch - processPackages [anylearn]: New version: [0.18.1rc1] Old Version: [0.18.1]
+[2023-07-11 12:12:45] INFO root fetch - processPackages [tantaroba]: Downloading https://files.pythonhosted.org/packages/24/5e/5ea9edb5f09620eae5c05fdb40611c905b7c2a473b563e4a35482e00d988/tantaroba-0.4.1.tar.gz
+[2023-07-11 12:12:45] INFO root fetch - processPackages [fastchecks]: Downloading https://files.pythonhosted.org/packages/19/91/a8a7cc4058adf3d69be46380cc9d4894f05d9572814122f9ae13ee0541fc/fastchecks-0.1.0rc5.tar.gz
+[2023-07-11 12:12:45] INFO root fetch - processPackages [nonebot-plugin-spark-gpt]: Downloading https://files.pythonhosted.org/packages/d5/32/bd9333f5cca9f8ed00b0b8dc7b5776ea8ef0c03df80d8129f0fcb76feecf/nonebot_plugin_spark_gpt-1.1.2.tar.gz
+[2023-07-11 12:12:45] INFO root fetch - processPackages [lib310-lite]: Downloading https://files.pythonhosted.org/packages/f8/de/d25530fa463cff571316333f840e0b4e3959d869b0711ba5087325bd5d77/lib310_lite-0.1.0.dev8.tar.gz
+[2023-07-11 12:12:45] INFO root fetch - processPackages [PySide6-Fluent-Widgets]: Downloading https://files.pythonhosted.org/packages/a6/9e/128c7fb73a0fa3bdb6eae1f847817a7e7458f6d7116951a0d5c8a2e0204f/PySide6-Fluent-Widgets-1.0.1.tar.gz
+[2023-07-11 12:12:45] INFO root fetch - processPackages [middleware-apm]: Downloading https://files.pythonhosted.org/packages/c9/db/fa7ab1c9673926a8c26bdabf7311df866a835268e7663803b060886a9354/middleware-apm-0.1.8.tar.gz
+[2023-07-11 12:12:46] INFO root fetch - processPackages [lib310-lite]: Downloading https://files.pythonhosted.org/packages/f8/de/d25530fa463cff571316333f840e0b4e3959d869b0711ba5087325bd5d77/lib310_lite-0.1.0.dev8.tar.gz
+[2023-07-11 12:12:46] WARNING root fetch - processPackages [nonebot-plugin-spark-gpt]: Skipping package: exceeds size limit 17037330>=10485760
+[2023-07-11 12:12:46] INFO root fetch - processPackages [nonebot-plugin-spark-gpt]: Start processing: lesscode-tag
+[2023-07-11 12:12:46] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-spark-gpt] error
+[2023-07-11 12:12:46] INFO root fetch - processPackages [baarutil]: Downloading https://files.pythonhosted.org/packages/0e/bc/028b737f6dac10861c772cf1950749e6b469869bd7d12744dd6978154f19/baarutil-1.9.2.tar.gz
+[2023-07-11 12:12:46] INFO root fetch - processPackages [anylearn]: Downloading https://files.pythonhosted.org/packages/94/94/b878d7910cd71347cf5827ad8aec26e70fce4f89b8452d7dd72e953fb95f/anylearn-0.18.1.tar.gz
+[2023-07-11 12:12:46] INFO root fetch - processPackages [lesscode-tag]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-11 12:12:46] INFO root fetch - processPackages [papertronics-sdk]: Downloading https://files.pythonhosted.org/packages/76/d1/bcea771036bc169072312d4453da51970267ffac695ee3fbb29e08cd5631/papertronics-sdk-0.0.21.tar.gz
+[2023-07-11 12:12:46] INFO root fetch - processPackages [fastchecks]: Downloading https://files.pythonhosted.org/packages/4d/e8/b5aca60a5e19373b13817b91b761e52aa3120b04ee910cf3a99911b280d3/fastchecks-0.1.0rc6.tar.gz
+[2023-07-11 12:12:46] INFO root fetch - processPackages [lib310-lite]: Downloading https://files.pythonhosted.org/packages/20/e4/20c53fe2129a4308e9c7e229416e41834bb45adbebac2c13ae1d2e82098c/lib310_lite-0.1.0.dev9.tar.gz
+[2023-07-11 12:12:46] INFO root fetch - processPackages [tantaroba]: Downloading https://files.pythonhosted.org/packages/5c/6b/7519ab74c58e0662a23a17179fa250636964fd1a10aaab53631c85ea5416/tantaroba-0.4.2.tar.gz
+[2023-07-11 12:12:46] INFO root fetch - processPackages [lesscode-tag]: Downloading https://files.pythonhosted.org/packages/91/5f/0fc0477bdaa75b72f51278f5fcac7be3dc4023762d2452c60c5455cad996/lesscode_tag-0.0.4.tar.gz
+[2023-07-11 12:12:46] INFO root fetch - processPackages [lib310-lite]: Downloading https://files.pythonhosted.org/packages/20/e4/20c53fe2129a4308e9c7e229416e41834bb45adbebac2c13ae1d2e82098c/lib310_lite-0.1.0.dev9.tar.gz
+[2023-07-11 12:12:46] INFO root fetch - processPackages [anylearn]: Downloading https://files.pythonhosted.org/packages/3c/81/6f29584dabc54e4be74b335b41d69748e8daaa46b7a600fa15d45fba05cb/anylearn-0.18.1rc1.tar.gz
+[2023-07-11 12:12:46] INFO root fetch - processPackages [middleware-apm]: Downloading https://files.pythonhosted.org/packages/85/4e/51d46e303433412c897f03bf1f831155e665f691f00202ec4c762fb8eed6/middleware-apm-0.1.9.tar.gz
+[2023-07-11 12:12:46] INFO root fetch - processPackages [papertronics-sdk]: executing diffoscope
+[2023-07-11 12:12:46] INFO root fetch - processPackages [papertronics-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/papertronics-sdk-0.0.20.tar.gz tmp/papertronics-sdk-0.0.21.tar.gz --markdown 20230711/p/papertronics-sdk/0.0.20-0.0.21/diff.md --exclude *.pyd
+[2023-07-11 12:12:46] INFO root fetch - processPackages [fastchecks]: executing diffoscope
+[2023-07-11 12:12:46] INFO root fetch - processPackages [fastchecks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastchecks-0.1.0rc5.tar.gz tmp/fastchecks-0.1.0rc6.tar.gz --markdown 20230711/f/fastchecks/0.1.0rc5-0.1.0rc6/diff.md --exclude *.pyd
+[2023-07-11 12:12:46] INFO root fetch - processPackages [PySide6-Fluent-Widgets]: Downloading https://files.pythonhosted.org/packages/98/23/7ee98c62cfe39272d4b6ce412ca1d185118d8f0ebbfde43436b302fe9dcc/PySide6-Fluent-Widgets-1.0.2.tar.gz
+[2023-07-11 12:12:46] INFO root fetch - processPackages [tantaroba]: executing diffoscope
+[2023-07-11 12:12:46] INFO root fetch - processPackages [tantaroba]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tantaroba-0.4.1.tar.gz tmp/tantaroba-0.4.2.tar.gz --markdown 20230711/t/tantaroba/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-07-11 12:12:46] INFO root fetch - processPackages [baarutil]: Downloading https://files.pythonhosted.org/packages/a3/bc/bc9ab52711e7b53d2de588bdb0ec2877c21a2dc7dd677e381cf2605efd66/baarutil-1.9.3.tar.gz
+[2023-07-11 12:12:46] INFO root fetch - processPackages [lib310-lite]: executing diffoscope
+[2023-07-11 12:12:46] INFO root fetch - processPackages [lib310-lite]: executing diffoscope
+[2023-07-11 12:12:46] INFO root fetch - processPackages [lib310-lite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lib310_lite-0.1.0.dev8.tar.gz tmp/lib310_lite-0.1.0.dev9.tar.gz --markdown 20230711/l/lib310-lite/0.1.0.dev8-0.1.0.dev9/diff.md --exclude *.pyd
+[2023-07-11 12:12:46] INFO root fetch - processPackages [lib310-lite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lib310_lite-0.1.0.dev8.tar.gz tmp/lib310_lite-0.1.0.dev9.tar.gz --markdown 20230711/l/lib310-lite/0.1.0.dev8-0.1.0.dev9/diff.md --exclude *.pyd
+[2023-07-11 12:12:46] INFO root fetch - processPackages [anylearn]: executing diffoscope
+[2023-07-11 12:12:46] INFO root fetch - processPackages [anylearn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anylearn-0.18.1.tar.gz tmp/anylearn-0.18.1rc1.tar.gz --markdown 20230711/a/anylearn/0.18.1-0.18.1rc1/diff.md --exclude *.pyd
+[2023-07-11 12:12:46] INFO root fetch - processPackages [middleware-apm]: executing diffoscope
+[2023-07-11 12:12:46] INFO root fetch - processPackages [middleware-apm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/middleware-apm-0.1.8.tar.gz tmp/middleware-apm-0.1.9.tar.gz --markdown 20230711/m/middleware-apm/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-11 12:12:47] INFO root fetch - processPackages [baarutil]: executing diffoscope
+[2023-07-11 12:12:47] INFO root fetch - processPackages [baarutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/baarutil-1.9.2.tar.gz tmp/baarutil-1.9.3.tar.gz --markdown 20230711/b/baarutil/1.9.2-1.9.3/diff.md --exclude *.pyd
+[2023-07-11 12:12:47] INFO root fetch - processPackages [lesscode-tag]: Downloading https://files.pythonhosted.org/packages/72/ba/8c5acbd8f5fb6fe1b4778561b7e0ffc1c8425926cffb1b738ae484e9735e/lesscode_tag-0.0.5.tar.gz
+[2023-07-11 12:12:47] INFO root fetch - processPackages [PySide6-Fluent-Widgets]: executing diffoscope
+[2023-07-11 12:12:47] INFO root fetch - processPackages [PySide6-Fluent-Widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySide6-Fluent-Widgets-1.0.1.tar.gz tmp/PySide6-Fluent-Widgets-1.0.2.tar.gz --markdown 20230711/P/PySide6-Fluent-Widgets/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-11 12:12:47] INFO root fetch - processPackages [lesscode-tag]: executing diffoscope
+[2023-07-11 12:12:47] INFO root fetch - processPackages [lesscode-tag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lesscode_tag-0.0.4.tar.gz tmp/lesscode_tag-0.0.5.tar.gz --markdown 20230711/l/lesscode-tag/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-11 12:12:48] INFO root fetch - processPackages [papertronics-sdk]: Remove: archive file [/home/abi/fetcher/tmp/papertronics-sdk-0.0.20.tar.gz]
+[2023-07-11 12:12:48] INFO root fetch - processPackages [papertronics-sdk]: Remove: archive file [/home/abi/fetcher/tmp/papertronics-sdk-0.0.21.tar.gz]
+[2023-07-11 12:12:48] INFO root fetch - main [MainThread]: End processing [papertronics-sdk]: success
+[2023-07-11 12:12:48] INFO root fetch - processPackages [tantaroba]: Remove: archive file [/home/abi/fetcher/tmp/tantaroba-0.4.1.tar.gz]
+[2023-07-11 12:12:48] INFO root fetch - processPackages [tantaroba]: Remove: archive file [/home/abi/fetcher/tmp/tantaroba-0.4.2.tar.gz]
+[2023-07-11 12:12:48] INFO root fetch - main [MainThread]: End processing [tantaroba]: success
+[2023-07-11 12:12:48] INFO root fetch - processPackages [lib310-lite]: Remove: archive file [/home/abi/fetcher/tmp/lib310_lite-0.1.0.dev8.tar.gz]
+[2023-07-11 12:12:48] INFO root fetch - processPackages [lib310-lite]: Remove: archive file [/home/abi/fetcher/tmp/lib310_lite-0.1.0.dev9.tar.gz]
+[2023-07-11 12:12:48] INFO root fetch - main [MainThread]: End processing [lib310-lite]: success
+[2023-07-11 12:12:48] INFO root fetch - main [MainThread]: End processing [lib310-lite]: success
+[2023-07-11 12:12:48] INFO root fetch - processPackages [fastchecks]: Remove: archive file [/home/abi/fetcher/tmp/fastchecks-0.1.0rc5.tar.gz]
+[2023-07-11 12:12:48] INFO root fetch - processPackages [fastchecks]: Remove: archive file [/home/abi/fetcher/tmp/fastchecks-0.1.0rc6.tar.gz]
+[2023-07-11 12:12:48] INFO root fetch - main [MainThread]: End processing [fastchecks]: success
+[2023-07-11 12:12:49] INFO root fetch - processPackages [lesscode-tag]: Remove: archive file [/home/abi/fetcher/tmp/lesscode_tag-0.0.4.tar.gz]
+[2023-07-11 12:12:49] INFO root fetch - processPackages [lesscode-tag]: Remove: archive file [/home/abi/fetcher/tmp/lesscode_tag-0.0.5.tar.gz]
+[2023-07-11 12:12:49] INFO root fetch - main [MainThread]: End processing [lesscode-tag]: success
+[2023-07-11 12:12:49] INFO root fetch - processPackages [middleware-apm]: Remove: archive file [/home/abi/fetcher/tmp/middleware-apm-0.1.8.tar.gz]
+[2023-07-11 12:12:49] INFO root fetch - processPackages [middleware-apm]: Remove: archive file [/home/abi/fetcher/tmp/middleware-apm-0.1.9.tar.gz]
+[2023-07-11 12:12:49] INFO root fetch - main [MainThread]: End processing [middleware-apm]: success
+[2023-07-11 12:12:49] INFO root fetch - processPackages [baarutil]: Remove: archive file [/home/abi/fetcher/tmp/baarutil-1.9.2.tar.gz]
+[2023-07-11 12:12:49] INFO root fetch - processPackages [baarutil]: Remove: archive file [/home/abi/fetcher/tmp/baarutil-1.9.3.tar.gz]
+[2023-07-11 12:12:49] INFO root fetch - main [MainThread]: End processing [baarutil]: success
+[2023-07-11 12:12:49] INFO root fetch - processPackages [anylearn]: Remove: archive file [/home/abi/fetcher/tmp/anylearn-0.18.1.tar.gz]
+[2023-07-11 12:12:49] INFO root fetch - processPackages [anylearn]: Remove: archive file [/home/abi/fetcher/tmp/anylearn-0.18.1rc1.tar.gz]
+[2023-07-11 12:12:49] INFO root fetch - main [MainThread]: End processing [anylearn]: success
+[2023-07-11 12:12:51] INFO root fetch - processPackages [PySide6-Fluent-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/PySide6-Fluent-Widgets-1.0.1.tar.gz]
+[2023-07-11 12:12:51] INFO root fetch - processPackages [PySide6-Fluent-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/PySide6-Fluent-Widgets-1.0.2.tar.gz]
+[2023-07-11 12:12:51] INFO root fetch - main [MainThread]: End processing [PySide6-Fluent-Widgets]: success
+[2023-07-11 12:12:51] INFO root fetch - main [MainThread]: Store serial: [18843573]
