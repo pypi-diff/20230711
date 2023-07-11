@@ -14148,3 +14148,134 @@ AssertionError: tmp/doctran-0.0.6.tar.gz does not exist
 [2023-07-11 10:56:43] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-4.0.9.tar.gz]
 [2023-07-11 10:56:43] INFO root fetch - main [MainThread]: End processing [ccxt]: success
 [2023-07-11 10:56:43] INFO root fetch - main [MainThread]: Store serial: [18842751]
+[2023-07-11 11:01:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18842751]
+[2023-07-11 11:01:54] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-11 11:01:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tarn
+[2023-07-11 11:01:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: opents
+[2023-07-11 11:01:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: genio-tools
+[2023-07-11 11:01:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mapget
+[2023-07-11 11:01:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: trialbot
+[2023-07-11 11:01:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: casshoo
+[2023-07-11 11:01:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: papertronics-sdk
+[2023-07-11 11:01:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pptx-tools
+[2023-07-11 11:01:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: yangson
+[2023-07-11 11:01:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dashboard-listener-raku
+[2023-07-11 11:01:54] INFO root fetch - processPackages [yangson]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-07-11 11:01:54] INFO root fetch - processPackages [genio-tools]: New version: [1.4a3] Old Version: [1.4a2]
+[2023-07-11 11:01:54] INFO root fetch - processPackages [pptx-tools]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-11 11:01:54] INFO root fetch - processPackages [tarn]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-11 11:01:54] WARNING root fetch - processPackages [dashboard-listener-raku]: Skipping, unable to determine old version
+[2023-07-11 11:01:54] INFO root fetch - processPackages [dashboard-listener-raku]: Start processing: proofy-sdk-python
+[2023-07-11 11:01:54] INFO root fetch - main [MainThread]: End processing [dashboard-listener-raku] error
+[2023-07-11 11:01:54] WARNING root fetch - processPackages [casshoo]: Skipping, unable to determine old version
+[2023-07-11 11:01:54] INFO root fetch - processPackages [casshoo]: Start processing: db-gpt
+[2023-07-11 11:01:54] INFO root fetch - processPackages [papertronics-sdk]: New version: [0.0.19] Old Version: [0.0.18]
+[2023-07-11 11:01:54] INFO root fetch - processPackages [mapget]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-11 11:01:54] INFO root fetch - processPackages [opents]: New version: [0.1.3] Old Version: [0.1.2.1]
+[2023-07-11 11:01:54] INFO root fetch - main [MainThread]: End processing [casshoo] error
+[2023-07-11 11:01:54] INFO root fetch - processPackages [trialbot]: New version: [0.3.9.2] Old Version: [0.3.9.1]
+[2023-07-11 11:01:54] INFO root fetch - processPackages [db-gpt]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-07-11 11:01:55] INFO root fetch - processPackages [genio-tools]: Downloading https://files.pythonhosted.org/packages/c7/37/b568230dc9c566aae312de986fccc20045d1744b83331de293ad68516e6a/genio_tools-1.4a2-py3-none-any.whl
+[2023-07-11 11:01:55] INFO root fetch - processPackages [pptx-tools]: Downloading https://files.pythonhosted.org/packages/02/53/abe862bcd859f2ed196ab0ded877db99c2acec21e56b0a753dc9e58b32c9/pptx-tools-0.1.2.tar.gz
+[2023-07-11 11:01:55] WARNING root fetch - processPackages [proofy-sdk-python]: Skipping, unable to determine old version
+[2023-07-11 11:01:55] INFO root fetch - processPackages [proofy-sdk-python]: Start processing: rin-string-manip
+[2023-07-11 11:01:55] INFO root fetch - main [MainThread]: End processing [proofy-sdk-python] error
+[2023-07-11 11:01:55] INFO root fetch - processPackages [db-gpt]: Downloading https://files.pythonhosted.org/packages/dd/ac/e4ba8eacfe241c3155eb416bd8d68bffd4cc0edf3e6d5a76488e5acbf7b4/db-gpt-0.2.7.tar.gz
+[2023-07-11 11:01:55] INFO root fetch - processPackages [opents]: Downloading https://files.pythonhosted.org/packages/9e/40/0dee62e94dcec830808868fcf370dc35b2c44ec016107286d620fe2c9ec7/opents-0.1.2.1-py3-none-any.whl
+[2023-07-11 11:01:55] INFO root fetch - processPackages [yangson]: Downloading https://files.pythonhosted.org/packages/4a/38/6d3cde31fdb1d0775b4fef7acc09451f035c1d119f551d52339192777388/yangson-1.4.8.tar.gz
+[2023-07-11 11:01:55] INFO root fetch - processPackages [tarn]: Downloading https://files.pythonhosted.org/packages/05/87/423cc14826dfadf246b4e81e5dbd2397e5e7784f529d498e9fb226cdb39b/tarn-0.9.1.tar.gz
+[2023-07-11 11:01:55] INFO root fetch - processPackages [rin-string-manip]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-11 11:01:55] INFO root fetch - processPackages [papertronics-sdk]: Downloading https://files.pythonhosted.org/packages/47/9e/3d3e180bad825cdb2a930c8e644ca20e3976c668c169499d059826ba2291/papertronics-sdk-0.0.18.tar.gz
+[2023-07-11 11:01:55] INFO root fetch - processPackages [trialbot]: Downloading https://files.pythonhosted.org/packages/e9/38/53fe9c3dab5f1ef477e02a49b0e4bbc421b16243e161194e0bd1e3081b86/trialbot-0.3.9.1.tar.gz
+[2023-07-11 11:01:55] INFO root fetch - processPackages [genio-tools]: Downloading https://files.pythonhosted.org/packages/69/74/b30127119d2c4c39fc383b4b2dbddbc7fa11a35d3ea7e15b5696932d3e39/genio_tools-1.4a3-py3-none-any.whl
+[2023-07-11 11:01:55] INFO root fetch - processPackages [rin-string-manip]: Downloading https://files.pythonhosted.org/packages/ce/b6/4c929e4b4047cf048c23d2002650c5cf6afc4a00b488268128de3a3c9733/rin_string_manip-0.1.0.tar.gz
+[2023-07-11 11:01:55] INFO root fetch - processPackages [mapget]: Downloading https://files.pythonhosted.org/packages/96/54/a53ddcaffc76cfdea86bcfefc584d9476f22b7deb680b921d03546aa24ad/mapget-0.1.1-cp39-cp39-win_amd64.whl
+[2023-07-11 11:01:55] INFO root fetch - processPackages [db-gpt]: Downloading https://files.pythonhosted.org/packages/c1/a0/d13a573d1b15dfae9879a58a0dcd966b1b56df4292a401561519bf395c9b/db-gpt-0.2.8.tar.gz
+[2023-07-11 11:01:55] INFO root fetch - processPackages [pptx-tools]: Downloading https://files.pythonhosted.org/packages/85/79/0bd983d0cd77cc0b1aa7b922725b95dd287b997ee04cc2340d8a8c730fa2/pptx-tools-0.1.3.tar.gz
+[2023-07-11 11:01:55] INFO root fetch - processPackages [opents]: Downloading https://files.pythonhosted.org/packages/1a/6a/d6d6b116590a936413455a70bc7e65c79dddc82d798cf1931bb7ded2ac44/opents-0.1.3-py3-none-any.whl
+[2023-07-11 11:01:55] INFO root fetch - processPackages [tarn]: Downloading https://files.pythonhosted.org/packages/83/5b/cc7706706c9aa0291c900a6d34cf00a9e819416d44261ed75740d5b220f1/tarn-0.9.2.tar.gz
+[2023-07-11 11:01:55] INFO root fetch - processPackages [papertronics-sdk]: Downloading https://files.pythonhosted.org/packages/1e/00/d9c19a768d6e7106303d9c2687243aee1507256054055592a032069e6c21/papertronics-sdk-0.0.19.tar.gz
+[2023-07-11 11:01:55] INFO root fetch - processPackages [yangson]: Downloading https://files.pythonhosted.org/packages/21/42/a6a99aae8420437e07f63b2466b4f849d1a4f8cdb35193f569d4936ba19a/yangson-1.4.9.tar.gz
+[2023-07-11 11:01:55] INFO root fetch - processPackages [genio-tools]: executing diffoscope
+[2023-07-11 11:01:55] INFO root fetch - processPackages [genio-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genio_tools-1.4a2-py3-none-any.whl.zip tmp/genio_tools-1.4a3-py3-none-any.whl.zip --markdown 20230711/g/genio-tools/1.4a2-1.4a3/diff.md --exclude *.pyd
+[2023-07-11 11:01:55] INFO root fetch - processPackages [db-gpt]: executing diffoscope
+[2023-07-11 11:01:55] INFO root fetch - processPackages [db-gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/db-gpt-0.2.7.tar.gz tmp/db-gpt-0.2.8.tar.gz --markdown 20230711/d/db-gpt/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-07-11 11:01:55] INFO root fetch - processPackages [pptx-tools]: executing diffoscope
+[2023-07-11 11:01:55] INFO root fetch - processPackages [pptx-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pptx-tools-0.1.2.tar.gz tmp/pptx-tools-0.1.3.tar.gz --markdown 20230711/p/pptx-tools/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-11 11:01:55] INFO root fetch - processPackages [trialbot]: Downloading https://files.pythonhosted.org/packages/0b/0a/7e1b71a2922944fb96eff5936d417b46aad45c19a52fbbb4be8f505166ae/trialbot-0.3.9.2.tar.gz
+[2023-07-11 11:01:55] INFO root fetch - processPackages [tarn]: executing diffoscope
+[2023-07-11 11:01:55] INFO root fetch - processPackages [tarn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tarn-0.9.1.tar.gz tmp/tarn-0.9.2.tar.gz --markdown 20230711/t/tarn/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-11 11:01:55] INFO root fetch - processPackages [opents]: executing diffoscope
+[2023-07-11 11:01:55] INFO root fetch - processPackages [opents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opents-0.1.2.1-py3-none-any.whl.zip tmp/opents-0.1.3-py3-none-any.whl.zip --markdown 20230711/o/opents/0.1.2.1-0.1.3/diff.md --exclude *.pyd
+[2023-07-11 11:01:56] INFO root fetch - processPackages [papertronics-sdk]: executing diffoscope
+[2023-07-11 11:01:56] INFO root fetch - processPackages [papertronics-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/papertronics-sdk-0.0.18.tar.gz tmp/papertronics-sdk-0.0.19.tar.gz --markdown 20230711/p/papertronics-sdk/0.0.18-0.0.19/diff.md --exclude *.pyd
+[2023-07-11 11:01:56] INFO root fetch - processPackages [yangson]: executing diffoscope
+[2023-07-11 11:01:56] INFO root fetch - processPackages [yangson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yangson-1.4.8.tar.gz tmp/yangson-1.4.9.tar.gz --markdown 20230711/y/yangson/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-07-11 11:01:56] INFO root fetch - processPackages [rin-string-manip]: Downloading https://files.pythonhosted.org/packages/78/32/bc0a5d88b9aec0e5bd291a8966f96e88bdc450ba5ec078d32d3b19d582bb/rin_string_manip-0.1.1.tar.gz
+[2023-07-11 11:01:56] INFO root fetch - processPackages [trialbot]: executing diffoscope
+[2023-07-11 11:01:56] INFO root fetch - processPackages [trialbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trialbot-0.3.9.1.tar.gz tmp/trialbot-0.3.9.2.tar.gz --markdown 20230711/t/trialbot/0.3.9.1-0.3.9.2/diff.md --exclude *.pyd
+[2023-07-11 11:01:56] INFO root fetch - processPackages [rin-string-manip]: executing diffoscope
+[2023-07-11 11:01:56] INFO root fetch - processPackages [rin-string-manip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rin_string_manip-0.1.0.tar.gz tmp/rin_string_manip-0.1.1.tar.gz --markdown 20230711/r/rin-string-manip/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-11 11:01:56] INFO root fetch - processPackages [mapget]: executing diffoscope
+[2023-07-11 11:01:56] INFO root fetch - processPackages [mapget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mapget-0.1.0-cp39-cp39-win_amd64.whl.zip tmp/mapget-0.1.1-cp39-cp39-win_amd64.whl.zip --markdown 20230711/m/mapget/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-11 11:01:57] INFO root fetch - processPackages [opents]: Remove: archive file [/home/abi/fetcher/tmp/opents-0.1.2.1-py3-none-any.whl.zip]
+[2023-07-11 11:01:57] INFO root fetch - processPackages [opents]: Remove: archive file [/home/abi/fetcher/tmp/opents-0.1.3-py3-none-any.whl.zip]
+[2023-07-11 11:01:57] INFO root fetch - processPackages [opents]: Start processing: shaku-database
+[2023-07-11 11:01:57] INFO root fetch - main [MainThread]: End processing [opents]: success
+[2023-07-11 11:01:57] INFO root fetch - processPackages [genio-tools]: Remove: archive file [/home/abi/fetcher/tmp/genio_tools-1.4a2-py3-none-any.whl.zip]
+[2023-07-11 11:01:57] INFO root fetch - processPackages [genio-tools]: Remove: archive file [/home/abi/fetcher/tmp/genio_tools-1.4a3-py3-none-any.whl.zip]
+[2023-07-11 11:01:57] INFO root fetch - processPackages [genio-tools]: Start processing: YYYTools
+[2023-07-11 11:01:57] INFO root fetch - main [MainThread]: End processing [genio-tools]: success
+[2023-07-11 11:01:57] INFO root fetch - processPackages [pptx-tools]: Remove: archive file [/home/abi/fetcher/tmp/pptx-tools-0.1.2.tar.gz]
+[2023-07-11 11:01:57] INFO root fetch - processPackages [pptx-tools]: Remove: archive file [/home/abi/fetcher/tmp/pptx-tools-0.1.3.tar.gz]
+[2023-07-11 11:01:57] INFO root fetch - processPackages [pptx-tools]: Start processing: superset-client
+[2023-07-11 11:01:57] INFO root fetch - main [MainThread]: End processing [pptx-tools]: success
+[2023-07-11 11:01:57] INFO root fetch - processPackages [papertronics-sdk]: Remove: archive file [/home/abi/fetcher/tmp/papertronics-sdk-0.0.18.tar.gz]
+[2023-07-11 11:01:57] INFO root fetch - processPackages [papertronics-sdk]: Remove: archive file [/home/abi/fetcher/tmp/papertronics-sdk-0.0.19.tar.gz]
+[2023-07-11 11:01:57] INFO root fetch - processPackages [papertronics-sdk]: Start processing: pycrawlers
+[2023-07-11 11:01:57] INFO root fetch - main [MainThread]: End processing [papertronics-sdk]: success
+[2023-07-11 11:01:57] INFO root fetch - processPackages [tarn]: Remove: archive file [/home/abi/fetcher/tmp/tarn-0.9.1.tar.gz]
+[2023-07-11 11:01:57] INFO root fetch - processPackages [tarn]: Remove: archive file [/home/abi/fetcher/tmp/tarn-0.9.2.tar.gz]
+[2023-07-11 11:01:57] INFO root fetch - main [MainThread]: End processing [tarn]: success
+[2023-07-11 11:01:57] INFO root fetch - processPackages [shaku-database]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-07-11 11:01:57] INFO root fetch - processPackages [pycrawlers]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-11 11:01:57] INFO root fetch - processPackages [YYYTools]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-11 11:01:57] INFO root fetch - processPackages [trialbot]: Remove: archive file [/home/abi/fetcher/tmp/trialbot-0.3.9.1.tar.gz]
+[2023-07-11 11:01:57] INFO root fetch - processPackages [trialbot]: Remove: archive file [/home/abi/fetcher/tmp/trialbot-0.3.9.2.tar.gz]
+[2023-07-11 11:01:57] INFO root fetch - main [MainThread]: End processing [trialbot]: success
+[2023-07-11 11:01:57] WARNING root fetch - processPackages [superset-client]: Skipping, unable to determine old version
+[2023-07-11 11:01:57] INFO root fetch - main [MainThread]: End processing [superset-client] error
+[2023-07-11 11:01:57] INFO root fetch - processPackages [rin-string-manip]: Remove: archive file [/home/abi/fetcher/tmp/rin_string_manip-0.1.0.tar.gz]
+[2023-07-11 11:01:57] INFO root fetch - processPackages [rin-string-manip]: Remove: archive file [/home/abi/fetcher/tmp/rin_string_manip-0.1.1.tar.gz]
+[2023-07-11 11:01:57] INFO root fetch - main [MainThread]: End processing [rin-string-manip]: success
+[2023-07-11 11:01:57] INFO root fetch - processPackages [YYYTools]: Downloading https://files.pythonhosted.org/packages/e9/35/012be4021923cee6f79b3562c4da9ae9a54a705778656a725c8b05209a67/YYYTools-0.1.7.tar.gz
+[2023-07-11 11:01:58] INFO root fetch - processPackages [pycrawlers]: Downloading https://files.pythonhosted.org/packages/c4/a0/2aa9d54e7facd49f65c571c1b5a0079a788974b7eace67189f0d6808b16b/pycrawlers-1.0.3.tar.gz
+[2023-07-11 11:01:58] INFO root fetch - processPackages [shaku-database]: Downloading https://files.pythonhosted.org/packages/48/60/0a6d187bcd65787bc2fcd7918e9a44235508a89497739c17c1703f58b4c6/shaku-database-1.1.3.tar.gz
+[2023-07-11 11:01:58] INFO root fetch - processPackages [YYYTools]: Downloading https://files.pythonhosted.org/packages/a3/2d/a51f3af1c4022e8828be764ecc2035f73ca295154d150e125e1bf6ecf12d/YYYTools-0.1.8.tar.gz
+[2023-07-11 11:01:58] INFO root fetch - processPackages [db-gpt]: Remove: archive file [/home/abi/fetcher/tmp/db-gpt-0.2.7.tar.gz]
+[2023-07-11 11:01:58] INFO root fetch - processPackages [db-gpt]: Remove: archive file [/home/abi/fetcher/tmp/db-gpt-0.2.8.tar.gz]
+[2023-07-11 11:01:58] INFO root fetch - main [MainThread]: End processing [db-gpt]: success
+[2023-07-11 11:01:58] INFO root fetch - processPackages [yangson]: Remove: archive file [/home/abi/fetcher/tmp/yangson-1.4.8.tar.gz]
+[2023-07-11 11:01:58] INFO root fetch - processPackages [yangson]: Remove: archive file [/home/abi/fetcher/tmp/yangson-1.4.9.tar.gz]
+[2023-07-11 11:01:58] INFO root fetch - main [MainThread]: End processing [yangson]: success
+[2023-07-11 11:01:58] INFO root fetch - processPackages [YYYTools]: executing diffoscope
+[2023-07-11 11:01:58] INFO root fetch - processPackages [YYYTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/YYYTools-0.1.7.tar.gz tmp/YYYTools-0.1.8.tar.gz --markdown 20230711/Y/YYYTools/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-11 11:01:58] INFO root fetch - processPackages [pycrawlers]: Downloading https://files.pythonhosted.org/packages/30/1a/f21c495f66cd60926dc996456d9e95d9f347b90b66e2089f66c5404c6bb5/pycrawlers-1.0.4.tar.gz
+[2023-07-11 11:01:58] INFO root fetch - processPackages [shaku-database]: Downloading https://files.pythonhosted.org/packages/33/72/05fc6823af2b0507be910a672469a702e4d9ea48c0da8865725695da19ba/shaku-database-1.1.4.tar.gz
+[2023-07-11 11:01:58] INFO root fetch - processPackages [pycrawlers]: executing diffoscope
+[2023-07-11 11:01:58] INFO root fetch - processPackages [pycrawlers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycrawlers-1.0.3.tar.gz tmp/pycrawlers-1.0.4.tar.gz --markdown 20230711/p/pycrawlers/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-11 11:01:58] INFO root fetch - processPackages [shaku-database]: executing diffoscope
+[2023-07-11 11:01:58] INFO root fetch - processPackages [shaku-database]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230711:/home/abi/fetcher/20230711:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shaku-database-1.1.3.tar.gz tmp/shaku-database-1.1.4.tar.gz --markdown 20230711/s/shaku-database/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-07-11 11:01:58] INFO root fetch - processPackages [mapget]: Remove: archive file [/home/abi/fetcher/tmp/mapget-0.1.0-cp39-cp39-win_amd64.whl.zip]
+[2023-07-11 11:01:58] INFO root fetch - processPackages [mapget]: Remove: archive file [/home/abi/fetcher/tmp/mapget-0.1.1-cp39-cp39-win_amd64.whl.zip]
+[2023-07-11 11:01:58] INFO root fetch - main [MainThread]: End processing [mapget]: success
+[2023-07-11 11:01:59] INFO root fetch - processPackages [YYYTools]: Remove: archive file [/home/abi/fetcher/tmp/YYYTools-0.1.7.tar.gz]
+[2023-07-11 11:01:59] INFO root fetch - processPackages [YYYTools]: Remove: archive file [/home/abi/fetcher/tmp/YYYTools-0.1.8.tar.gz]
+[2023-07-11 11:01:59] INFO root fetch - main [MainThread]: End processing [YYYTools]: success
+[2023-07-11 11:01:59] INFO root fetch - processPackages [pycrawlers]: Remove: archive file [/home/abi/fetcher/tmp/pycrawlers-1.0.3.tar.gz]
+[2023-07-11 11:01:59] INFO root fetch - processPackages [pycrawlers]: Remove: archive file [/home/abi/fetcher/tmp/pycrawlers-1.0.4.tar.gz]
+[2023-07-11 11:01:59] INFO root fetch - main [MainThread]: End processing [pycrawlers]: success
+[2023-07-11 11:01:59] INFO root fetch - processPackages [shaku-database]: Remove: archive file [/home/abi/fetcher/tmp/shaku-database-1.1.3.tar.gz]
+[2023-07-11 11:01:59] INFO root fetch - processPackages [shaku-database]: Remove: archive file [/home/abi/fetcher/tmp/shaku-database-1.1.4.tar.gz]
+[2023-07-11 11:01:59] INFO root fetch - main [MainThread]: End processing [shaku-database]: success
+[2023-07-11 11:01:59] INFO root fetch - main [MainThread]: Store serial: [18842815]
